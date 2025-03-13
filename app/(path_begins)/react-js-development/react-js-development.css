@@ -1,0 +1,638 @@
+.reactjsdevelopmentbanner-banner {
+    background-image: url('../../../public/webdads/images/react-js-development/Dot.png'), url('../../../public/webdads/images/react-js-development/Banner-Background.png.jpg');
+    background-repeat: no-repeat;
+    background-size: 570px, cover;
+    background-position: 654px 441px, 0px -24px;
+    padding: 64px 0px;
+
+}
+
+.element-react-image {
+    background-image: url('../../../public/webdads/images/react-js-development/React-js-js.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 200px;
+    /* margin: 10px 0px; */
+    animation: spin 0s linear infinite;
+
+}
+
+@media screen and (min-width:770px) and (max-width:1025px) {
+    .element-react-image {
+        padding: 189px 149px;
+        animation: spin 0s linear infinite;
+    }
+
+    .reactjsdevelopmentbanner-banner {
+        background-position: 450px 445px, 0px -24px;
+        padding: 60px 0px;
+    }
+}
+
+@media screen and (min-width:457px) and (max-width:769px) {
+    .element-react-image {
+        padding: 176px 142px;
+        animation: spin 0s linear infinite;
+    }
+
+    .reactjsdevelopmentbanner-banner {
+        background-size: 448px, cover;
+        background-position: 340px 386px, 0px -24px;
+        padding: 60px 0px;
+    }
+}
+
+@media screen and (min-width:378px) and (max-width:426px) {
+    .element-react-image {
+        padding: 86px 70px;
+        animation: spin 0s linear infinite;
+    }
+
+    .reactjsdevelopmentbanner-banner {
+        background-size: 448px, cover;
+        background-position: 340px 386px, 0px -24px;
+        padding: 60px 0px;
+    }
+}
+
+@media screen and (min-width:322px) and (max-width:377px) {
+    .element-react-image {
+        padding: 86px 70px;
+        animation: spin 0s linear infinite;
+    }
+
+    .reactjsdevelopmentbanner-banner {
+        background-size: 448px, cover;
+        background-position: 340px 386px, 0px -24px;
+        padding: 60px 0px;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:321px) {
+    .element-react-image {
+        padding: 67px 50px;
+        animation: spin 0s linear infinite;
+    }
+
+    .reactjsdevelopmentbanner-banner {
+        background-size: 448px, cover;
+        background-position: 340px 386px, 0px -24px;
+        padding: 60px 0px;
+    }
+}
+
+.reactjsdevelopment h1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.reactjsdevelopment p {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.reactjsdevelopment button {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 15px 15px;
+    padding: 4px 20px;
+}
+
+.reactjsdevelopment button:hover {
+    color: #000;
+    background: #fff;
+}
+
+.reactjsdevelopment img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width:767px) {
+    .reactjsdevelopment h1 {
+        font-size: 25px;
+    }
+}
+
+/* BestReactJS */
+.bestreactjs-main {
+    padding: 60px 0px;
+}
+
+.bestreactjs h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bestreactjs p {
+    text-align: center;
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* AngularJS */
+
+.angularjs-main {
+    background: #f5f5f5;
+    padding: 60px 0px;
+}
+
+.angularjs h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.angularjs p {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.angularjs-card-card {
+    position: relative;
+}
+
+.angularjs-card .card {
+    padding: 30px;
+    background-color: #F9F9FD;
+    border-radius: 30px;
+    position: relative;
+    z-index: 99 !important;
+    border: 1px solid transparent;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.angularjs-card .card:hover {
+    box-shadow: 0 14px 40px hsla(0, 0%, 20%, 0.1);
+    background-color: #FFFFFF;
+}
+
+
+.angularjs-card-card:hover {
+    transform: rotate(0deg);
+}
+
+.angularjs-card-card:after {
+    transition: .9s;
+    background: #681b39;
+    width: 75%;
+    height: 109px;
+    position: absolute;
+    bottom: 11px;
+    left: 44px;
+    content: "";
+    border-radius: 38px;
+    transform: rotate(9deg);
+}
+
+.angularjs-card-card-card:after {
+    background: #19356f !important;
+}
+
+
+.angularjs-card:hover .angularjs-card-card {
+    transform: rotate(0deg);
+}
+
+.angularjs-card img {
+    width: 100px;
+}
+
+.angularjs-card h1 {
+    color: #002060;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.angularjs-card p {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.angularjs-card-card:hover.angularjs-card-card:after {
+    bottom: 39px !important;
+    transform: rotate(0deg);
+}
+
+
+@media screen and (max-width:350px) {
+    .angularjs-card-card:hover.angularjs-card-card:after {
+        width: 72%;
+        bottom: 33px !important;
+        transform: rotate(0deg);
+    }
+}
+
+
+.angularjs-card img {
+    width: 60px;
+}
+
+@media screen and (max-width: 769px) {
+    .angularjs-main {
+        padding: 60px 0px;
+    }
+
+    .angularjs h1 {
+        font-size: 25px;
+    }
+}
+
+/* benefitsofReactjs */
+.benefitsofReactjs-main {
+    padding: 60px 0px;
+}
+
+.benefitsofReactjs {
+    padding-bottom: 60px;
+}
+
+.benefitsofReactjs h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.benefitsofReactjs p {
+    text-align: center;
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.benefitsofReactjs-card .card {
+    border: 2px solid #96004E;
+    padding: 20px;
+    margin-top: 0px !important;
+    padding-top: 50px !important;
+    border-radius: 10px;
+
+    /* height: 100%; */
+}
+
+.card-st:hover .card {
+    background: #96004E;
+    border-radius: 10px 50px;
+    border-color: #96004E;
+}
+
+.benefitsofReactjs-card h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.benefitsofReactjs-card p {
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.benefitsofReactjs-card .card-st:hover h1 {
+    color: #fff
+}
+
+.benefitsofReactjs-card .card-st:hover p {
+    color: #fff
+}
+
+@media screen and (max-width:767px) {
+    .benefitsofReactjs-card .card {
+        margin-bottom: 61px !important;
+    }
+
+    .benefitsofReactjs-main {
+        padding: 30px 0px;
+    }
+}
+
+/* ResponsiveTabs */
+.ResponsiveTabs-main {
+    background-color: rgb(244, 252, 254);
+    padding: 60px 0px;
+}
+
+.reacttabsWitheact .appdev-head {
+    color: #262250;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.reacttabsWitheact .appdev-para {
+    text-align: center;
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.respoonsive-tabs-react button {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #F8BA6A;
+    color: #000;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.respoonsive-tabs-react button:hover {
+    background-color: transparent;
+    background-image: linear-gradient(126deg, #CD3F4A 51%, #F8BA6A 100%);
+    color: #FFF;
+}
+
+.respoonsive-tabs-react button:focus {
+    background-color: transparent;
+    background-image: linear-gradient(126deg, #CD3F4A 51%, #F8BA6A 100%);
+    color: #FFF;
+}
+
+.respoonsive-tabs-react .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: transparent;
+    background-image: linear-gradient(126deg, #CD3F4A 51%, #F8BA6A 100%);
+    color: #FFF;
+}
+
+.respoonsive-tabs-react .tab-content {
+    box-shadow: 7px 5px 30px 0px rgba(0, 0, 0, 0.12);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 28px;
+    border-radius: 10px;
+}
+
+.respoonsive-tabs-react h2 {
+    font-size: 35px;
+    color: #0a1f5f;
+    font-weight: 700;
+    font-family: "Poppins", Sans-serif;
+}
+
+.respoonsive-tabs-react p {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    font-family: "Poppins", Sans-serif;
+}
+
+.respoonsive-tabs-react img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.respoonsive-tabs-react a {
+    text-decoration: none;
+    color: #060097;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.respoonsive-tabs-react a:hover {
+    color: #c10fff;
+}
+
+/* Libraries */
+
+.Libraries-main {
+    padding: 60px 0px;
+}
+
+.Libraries-header h1 {
+    color: #002060;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Libraries-header h5 {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Libraries-card .card {
+    margin: 0 0 0 0;
+    padding: 33px 35px;
+    border: 1px solid transparent;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.Libraries-card .card:hover {
+    box-shadow: 0 14px 40px rgba(51, 51, 51, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.Libraries-card img {
+    width: 55px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.Libraries-card h1 {
+    color: #002060;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Libraries-card p {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 769px) {
+    .Libraries-main {
+        padding: 30px 0px;
+    }
+
+    .Libraries-header h1 {
+        font-size: 25px;
+    }
+}
+
+/* LookingforReact */
+.lookingforreact-main {
+    padding: 60px 0px;
+    background-color: transparent;
+    background-image: linear-gradient(219deg, #681C3A 0%, #F8B969 100%);
+}
+
+.lookingforreact h1 {
+    color: #FFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.lookingforreact p {
+    color: #FFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.lookingforreact button {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FFF;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 18px 40px;
+}
+
+.lookingforreact button:hover {
+    color: #FFF;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 769px) {
+    .lookingforreact-main {
+        padding: 30px 0px;
+    }
+
+    .lookingforreact h1 {
+        font-size: 25px;
+    }
+}
+
+/* FrequentlyAskedQuestions */
+.frequentlyaskedquestions-main {
+    padding: 60px 0px;
+    background: #f5f5f5;
+}
+
+
+.FrequentlyAskedQuestions-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-body {
+    color: var(--e-global-color-text);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203A !important;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203A !important;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 769px) {
+    .frequentlyaskedquestions-main {
+        padding: 30px 0px;
+    }
+
+    .FrequentlyAskedQuestions-header h1 {
+        font-size: 24px;
+    }
+
+    .frequentlyaskedquestions h1 {
+        font-size: 25px;
+    }
+}
+
+.card-img {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    border: 2px solid #96004E;
+    border-radius: 50px;
+    padding: 11px;
+    margin-bottom: -30px;
+    position: relative;
+    z-index: 9;
+    background: #fff;
+}
+
+.card-st:hover .card-img {
+    background: #96004E;
+
+}
+
+.card-st:hover .card-img img {
+    filter: brightness(0) invert(1);
+}
+
+/* .card:hover .angularjs-card-card:after {
+bottom:10px !important;
+} */
+
+
+/* tab */
+
+.reacttabswithicons-main{
+    padding: 60px 0px;
+    background: rgb(245, 245, 245);
+}

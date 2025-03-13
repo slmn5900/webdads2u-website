@@ -1,0 +1,648 @@
+/* wordpress-development-banner */
+.wordpressdevelopment-main {
+    background-image: url(../../../public/webdads/images/wordpress-development/wordpress-banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0px;
+}
+
+@media screen and (max-width:426px) {
+    .wordpressdevelopment h1 {
+        font-size: 20px !important;
+    }
+
+    .wordpressdevelopment p {
+        font-size: 12px !important;
+    }
+    .element-word-press{
+        padding: 46px 0px !important;
+    }
+
+    .wordpressdevelopment img {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: 46px !important;
+        margin-top: -9px !important;
+        width: 80px !important;
+    }
+}
+
+@media screen and (min-width:428px) and (max-width:769px) {
+    .element-word-press {
+        padding: 73px 0px !important;
+    }
+
+    .wordpressdevelopment img {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: 134px !important;
+        margin-top: -20px !important;
+        width: 112px !important;
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:1025px) {
+    .wordpressdevelopment img {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: 155px !important;
+        margin-top: -20px !important;
+        width: 112px !important;
+    }
+
+}
+
+.element-word-press {
+    background-image: url(../../../public/webdads/images/wordpress-development/W-Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 110px 0px;
+}
+
+.wordpressdevelopment h1 {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.wordpressdevelopment p {
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.wordpressdevelopment button {
+    color: #fff;
+    background: transparent;
+    border: 2px solid #FFF;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: "Poppins", Sans-serif;
+    border-radius: 25px;
+}
+
+.wordpressdevelopment button:hover {
+    color: #000;
+    background: #FFFFFF;
+}
+
+.wordpressdevelopment img {
+    display: block;
+    margin-left: auto;
+    margin-right: 202px;
+    margin-top: -30px;
+    width: 173px;
+}
+
+/* .img-wordpress-tow{
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+@media screen and (max-width:767px) {
+    .wordpressdevelopment h1 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+/* wordPressdevelopmentcompany */
+.wordPressdevelopmentcompany-Main {
+    padding: 60px 0px;
+    color: #fff;
+}
+
+.wordPressdevelopmentcompany h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.wordPressdevelopmentcompany p {
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+@media screen and (max-width:767px) {
+    .wordPressdevelopmentcompany-Main {
+        padding: 30px 0px;
+    }
+
+    .wordPressdevelopmentcompany h1 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+}
+
+/* wordPressuseful */
+.wordPressuseful-main {
+    padding: 60px 0px;
+    color: rgb(245, 245, 245);
+    background: #f5f5f5;
+}
+
+.wordPressuseful h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.wordPressuseful p {
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+}
+
+.wordPressuseful-card .card {
+    padding: 1em;
+    background-color: #FFF;
+    border: 2px solid #FFFFFF2B;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    height: 220px;
+}
+
+.wordPressuseful-card .card:hover {
+    border-radius: 30px 0 30px 0;
+}
+
+.wordPressuseful-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.wordPressuseful-card h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+@media screen and (max-width:769px) {
+    .wordPressuseful-main {
+        padding: 30px 0px;
+    }
+
+    .wordPressuseful h1 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .wordPressuseful-card h1 {
+        padding: 2px 0px;
+    }
+
+    .wordPressuseful-card h1 {
+        color: #0A1F5F;
+        font-family: "Poppins", Sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 4px 14px;
+    }
+}
+
+/* WordPressplugins */
+.wordPressplugins-main {
+    padding: 60px 0px !important;
+}
+
+.WordPressplugins h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.WordPressplugins p {
+    text-align: justify;
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.WordPressplugins img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: mover 1s infinite alternate;
+}
+
+@media screen and (max-width:767px) {
+    .WordPressplugins-main {
+        padding: 30px 0px;
+    }
+
+    .WordPressplugins h1 {
+        font-size: 22px;
+    }
+}
+
+/* topqualitywordPress */
+.topqualitywordPress-main {
+    padding: 60px 0px;
+    background: rgb(245, 245, 245);
+}
+
+.topqualitywordPress h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.topqualitywordPress p {
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.topqualitywordPress-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.topqualitywordPress-card .card {
+    padding: 10px 10px 10px 10px;
+    background-color: #F1FBFF;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    height: 320px;
+}
+
+.topqualitywordPress-card .card:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+}
+
+.topqualitywordPress-card h1 {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    /* margin-bottom: 20px; */
+}
+
+.topqualitywordPress-card p {
+    color: #7a7a7a;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.topqualitywordPress-card .card-main {
+    padding: 10px;
+    background-color: #0A1F5F;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    height: 320px;
+}
+
+.topqualitywordPress-card h2 {
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.topqualitywordPress-card .card-body {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* padding: 16px;
+    margin: 16px; */
+}
+
+
+@media screen and (max-width:767px) {
+    .topqualitywordPress-main {
+        padding: 30px 0px;
+    }
+
+    .topqualitywordPress-card .card {
+        padding-bottom: 20px;
+    }
+
+    .topqualitywordPress-card .card-main {
+        margin-bottom: 20px;
+    }
+}
+
+/* themes */
+.themes-main {
+    padding: 60px 0px;
+}
+
+.themes img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: mover 1s infinite alternate;
+}
+
+.themes h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.themes p {
+    text-align: justify;
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:767px) {
+    .themes-main {
+        padding: 30px 0px;
+    }
+
+    .themes h1 {
+        font-size: 25px;
+    }
+}
+
+/* WordpressCard */
+.WordpressCard-main {
+    padding: 60px 0px;
+}
+
+.WordpressCard .card {
+    background-color: #F1FBFF;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    border: 1px solid transparent;
+    border-radius: none;
+    margin-bottom: 20px;
+}
+
+.WordpressCard img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.WordpressCard h1 {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.WordpressCard p {
+
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:767px) {
+    .WordpressCard-main {
+        padding: 30px 0px;
+    }
+
+    .WordpressCard .card {
+        margin-bottom: 25px;
+    }
+
+}
+
+/* wordpresswebsiteworks */
+.wordpresswebsiteworks-main {
+    padding: 60px 0px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+
+.wordpresswebsiteworks-header h1 {
+    color: #0B1225;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.wordpresswebsiteworks-btn button {
+    color: #FFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #871752 0%, #262250 50%);
+    border-radius: 5px;
+    padding: 13px 40px;
+}
+
+.wordpresswebsiteworks-btn button:hover {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #262250 0%, #871752 100%);
+}
+
+
+@media screen and (max-width:767px) {
+    .WordpressCard-main {
+        padding: 30px 0px;
+    }
+
+    .wordpresswebsiteworks-header h1 {
+        font-size: 25px;
+    }
+
+    .slick-next:before {
+        display: none;
+    }
+}
+
+/* WordPressDevelopmentService */
+.wordPressdevelopmentservice-main {
+    padding: 60px 0px;
+    background-color: transparent;
+    background-image: linear-gradient(219deg, #8E0BAC 0%, #08145C 100%);
+}
+
+.wordPressdevelopmentservice h1 {
+    color: #FFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.wordPressdevelopmentservice p {
+    color: #FFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.wordPressdevelopmentservice button {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    padding: 18px 40px;
+}
+
+.wordPressdevelopmentservice button:hover {
+    color: #FFF;
+    background: transparent;
+}
+
+@media screen and (max-width:767px) {
+    .wordPressdevelopmentservice-main {
+        padding: 60px 0px;
+    }
+
+    .wordPressdevelopmentservice h1 {
+        font-size: 25px;
+    }
+
+    .slick-next:before {
+        display: none;
+    }
+
+    /*  [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+        display: none !important;
+    } */
+    .wordPressdevelopmentservice .slick-prev,
+    .slick-next {
+        position: relative !important;
+    }
+}
+
+
+/* FrequentlyAskedQuestions */
+.frequentlyaskedquestions-main {
+    padding: 15px 0px;
+}
+
+.frequentlyaskedquestions h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.frequentlyaskedquestions p {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.frequentlyaskedquestions button {
+    color: #FFF;
+    background-color: #262250;
+    border-radius: 10px;
+    padding: 13px 40px;
+}
+
+.frequentlyaskedquestions button:hover {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #262250 0%, #871752 100%);
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-body {
+    color: var(--e-global-color-text);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203A !important;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203A !important;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .FrequentlyAskedQuestions-header h1 {
+        font-size: 24px;
+    }
+
+    .frequentlyaskedquestions h1 {
+        font-size: 25px;
+    }
+}

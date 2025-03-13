@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: "Poppins", Sans-serif; 
+}
+.seo-develoment{
+    background-image: url("/webdads/images/seo-development/seo-slider.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:60px;
+    padding-bottom: 50px;
+}
+.seo-herocont{
+    text-align: center;
+    h2{
+        color: #b5dcff;
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+         max-width: 60%;
+        margin: auto;  
+    }
+    p{
+        font-size: 20px;
+    color: #fff;
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 30px;
+    }
+img{
+    width: 75%;
+    padding-top: 40px;
+}
+}
+.unlock-seo {
+    color: #333;
+        font-family: "Poppins", Sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        border-left: 5px solid;
+        padding-left: 10px;
+}
+// Tab section
+
+.seotabsec, .seo-looking, .our-hand{
+    padding-top:60px;
+    padding-bottom: 60px;
+
+    h5{
+        color: #E30E26;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    }
+    h2{
+        color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    }
+    p{
+        color: #333;
+        font-family: "Poppins", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    
+    }
+   
+
+    .seo-performance{
+        padding-bottom: 10px;
+        p{
+            height: 50px;
+            width: 50px;
+            background: #871752;
+            text-align: center;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        h3{
+            font-family: "Poppins", Sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #0A1F5F;
+        }
+        h6{
+            color: #000;
+            font-family: "Poppins", Sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        svg{
+        color: #fff;
+        font-size: 20px;
+         margin-top: 13px;
+        }
+
+        }
+    //  seo-process
+
+    .seo-process{
+        background-color: #F5F5F5;
+        padding-top:60px;
+        padding-bottom: 60px;
+    }
+    .our-pross{
+  text-align: center;
+  h2{
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+    }
+
+ .our-hand{
+    button{
+        background-color: transparent;
+        background-image: linear-gradient(90deg, #a61131 0%, #262250 50%);
+        border-radius: 30px;
+        padding: 14px 35px 14px 35px;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+      }
+ }
+ .three-img{
+    padding-top:20px;
+ }
+ .website-imgs img{
+    width:100%;
+ }
+
+ .digitalmarketing-tool{
+    background: #f5f5f5 url(/webdads/images/seo-development/bubbles-bg.webp) no-repeat center center;
+    background-size: cover;
+   
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    h2{
+        color: #FFF;
+        font-family: "Poppins", Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .helps-seo{
+        text-align: center;
+        h4{
+            color: #FFF;
+            font-family: "Poppins", Sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            padding-top: 20px;
+        }
+    }
+ }
+
+ .seovar-tab{
+    h6{
+        font-family: "Poppins", Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        /* background-color: #E5ECFE; */
+        color: #000;
+        line-height: 30px;  
+    }
+    button{
+        width:100%;
+        border:none;
+        background-color: #E5ECFE;
+        border-radius: 10px;
+        padding: 25px;
+    }
+    #noanim-tab-example{
+        border:none;
+    }
+    li{
+     margin:5px;
+     width: 19%;
+    }
+    button.active{
+        background-color: transparent;
+        background-image: linear-gradient(90deg, #864AD1 0%, #C47BE8 61%);
+      
+    }
+    button.active h6{
+        color:#fff;
+    }
+    button.active img{
+        filter: brightness(0) invert(1);
+    }
+    img{
+        width:60px;
+        height:60px;
+    }
+    .tab-content{
+        box-shadow: 7px 5px 30px 0px rgba(0, 0, 0, 0.12);
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        padding: 28px;
+        border-radius: 10px;
+    }
+ }
+
+.seo-contentbox{
+    display:flex;
+    align-items: center;
+    .cont{
+        width:50%;
+    }
+    img{
+        width:100% !important;
+        height: auto!important;
+        animation: image_upDown2 2s infinite alternate;
+    }
+}
+
+@keyframes image_upDown2{
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+    
+}
+
+
+// Accordian
+
+.FrequentlyAskedQuestions-Accordion .accordion-item{
+    margin-bottom: 10px;
+  } 
+  
+  
+  .FrequentlyAskedQuestions-Accordion .accordion-button{
+    color: rgb(0, 32, 96);
+      font-family: Poppins, sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+  }
+  
+  .FrequentlyAskedQuestions-Accordion .accordion-body{
+    color: var(--e-global-color-text);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .frequentlyaskedquestions-main h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button{
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+  }
+  
+  .FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203A !important;
+  }
+  .FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203A !important;
+  }
+  .FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    transition: all 0.5s;
+  }
+  
+  .seo-looking, .our-pross{
+    img{
+        width: 100%;
+    }
+}
+
+   @media screen and (max-width:768px){
+    .seo-looking, .our-pross{
+        img{
+            width: 100%;
+        }
+    }
+    .seo-herocont {
+        h2 {
+       max-width: 100%;
+       font-size: 30px;
+   }
+   p{
+    max-width: 100%;
+    font-size: 16px;
+   }
+}
+.seotabsec h2, .seo-looking h2, .our-hand h2{
+    font-size: 25px;
+}
+.seovar-tab li {
+width:47%;
+   }
+   .seo-contentbox .cont{
+    width: 100%;
+   }
+   .seo-contentbox{
+display: block !important;
+   }
+   .digitalmarketing-tool{
+    background: #804e9f;
+   }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .seo-herocont{
+        h2{
+            font-size: 45px;
+            max-width:80%;
+        }
+        p{
+            max-width: 90%;
+        }
+    }
+    .android-app-development-slider h1{
+        margin-right: 0px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .seotabsec p, .seo-looking p, .our-hand p {
+   font-size: 14px;
+}
+.seovar-tab h6{
+    font-size: 12px;
+    line-height: 20px;
+    br{
+        display: none;
+    }
+}
+.seovar-tab button {
+padding: 10px;
+}
+.seovar-tab li{
+    width: 18%;
+}
+.seotabsec h2, .seo-looking h2, .our-hand h2{
+    font-size: 25px;
+}
+.digitalmarketing-tool .helps-seo h4 {
+font-size: 14px;
+}
+}

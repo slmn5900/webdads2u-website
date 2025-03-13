@@ -1,0 +1,224 @@
+h2 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+p {
+    color: #7a7a7a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.mobileuiux {
+    background: url('/webdads/images/flutterapp/flutter-banner.jpg');
+    padding-bottom: 80px;
+    padding-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2 {
+        font-size: 45px;
+        color: #fff;
+        font-weight: 700;
+    }
+    p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+    }
+    button {
+        background: #fff;
+        border-radius: 50px;
+        color: #29aeaa;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px 30px;
+        border: 2px solid #fff;
+    }
+    button:hover {
+        background: #0000;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+}
+.android-app-development-slider {
+    margin-top: -50px;
+    background: #fff;
+}
+.react-nativeimhr {
+    img {
+        animation: image_upDown2 2s infinite alternate;
+    }
+    h2 {
+        color: #000000;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+
+// Wave box
+
+
+.fluter-wave-box{
+    background: #2167fb;
+    background-image: url('/webdads/images/crm/pattern-8.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 60px;
+    padding-bottom: 130px;
+
+    h2 {
+        margin-bottom: 0;
+        color: #0E1011;
+        font-family: "Poppins", Sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 10px;
+
+    }
+    P {
+        font-size: 15px;
+        color: #7a7a7a;
+        padding-top: 10px;
+        line-height: 25px;
+    }
+}
+.crm-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.fluter-wave-box .crm-box1 {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px !important;
+}
+
+@keyframes move-forever {
+    0% {
+        -webkit-transform: translate3d(-90px, 0, 0);
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(85px, 0, 0);
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+.parallax > use {
+    -webkit-animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.waves {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -8px;
+    min-height: 100px;
+    max-height: 150px;
+}
+.empt-wave {
+    position: relative;
+}
+.our-ondemand{
+    padding-top:50px;
+    p{
+        margin-bottom: 5px;
+    }
+    svg{
+        fill:#262250;
+    }
+}
+// Accordian
+
+.FrequentlyAskedQuestions-Accordion .accordion-item{
+    margin-bottom: 10px;
+  } 
+  
+  
+  .FrequentlyAskedQuestions-Accordion .accordion-button{
+    color: rgb(0, 32, 96);
+      font-family: Poppins, sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+  }
+  
+  .FrequentlyAskedQuestions-Accordion .accordion-body{
+    color: var(--e-global-color-text);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .frequentlyaskedquestions-main h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button{
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+  }
+  
+  .FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203A !important;
+  }
+  .FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203A !important;
+  }
+  .FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    transition: all 0.5s;
+  }
+
+  @media screen and (max-width:768px){
+    .mobileuiux  {
+     h2{
+        font-size: 25px;;
+     }
+     p{
+        font-size: 10px;
+        line-height: 18px;
+     }
+     button{
+        display: none;
+     }
+
+  }
+  .react-nativeimhr {
+  h2{
+    font-size: 20px;
+  }
+
+  }
+  .crm-box{
+margin-bottom: 10px;
+  }
+  h2{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .android-app-development-slider h1{
+        font-size: 18px;
+       
+        padding: 0px;
+        margin-right: 0px;
+    }
+    .crm-box{
+       height: 300px;
+    }
+    }

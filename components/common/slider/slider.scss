@@ -1,0 +1,38 @@
+.android-app-development-slider{
+    display: flex;
+    flex-direction: row;
+    border: 1px  solid #ECECEC;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  .android-app-development-slider h1 {
+    color: #141414;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px;
+    margin-right: 50px;
+  }
+  
+  
+  
+  .android-app-development-slider img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .next {
+      display: none !important;
+    }
+  
+    .android-app-development-slider img {
+      width: 100px;
+      padding: 5px;
+    }
+  }
+  

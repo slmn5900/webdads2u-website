@@ -1,0 +1,704 @@
+/* Logodesignbanner */
+.logodesignbanner-main {
+    background-image: url(../../../public/webdads/images/logo-design/New-Banner-Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+.logodesignbanner .banner-logo-design {
+    background-image: url(../../../public/webdads/images/logo-design/Colours.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+@media screen and (max-width:429px){
+    .logodesignbanner h1 {
+        font-size: 20px !important;
+    }
+}
+
+.logodesignbanner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    padding: 90px;
+}
+
+.logodesignbanner h1 {
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.logodesignbanner button {
+    color: rgb(65, 170, 171);
+    font-family: 'poppin', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    background: #FFFFFF;
+    padding: 8px 25px;
+    border: 2px solid #ffff;
+    border-radius: 50px;
+}
+
+.logodesignbanner button:hover {
+    color: #fff;
+    background: transparent;
+}
+
+@media screen and (max-width:769px) {
+    .logodesignbanner-main {
+        padding: 30px 0px;
+    }
+
+    .logodesignbanner h1 {
+        font-size: 25px;
+    }
+
+    .logodesignbanner img {
+        padding: 10px !important;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .logodesignbanner h1 {
+        font-size: 40px;
+    }
+
+    .logodesignbanner img {
+        padding: 10 !important;
+    }
+}
+
+/* Designcompanybrand */
+.designcompanybrand-main {
+    padding: 60px 0px;
+}
+
+.designcompanybrand h2 {
+    color: #0B1225;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.designcompanybrand p {
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:767px) {
+    .designcompanybrand-main {
+        padding: 30px 0px;
+    }
+
+    .designcompanybrand h2 {
+        font-size: 25px;
+    }
+}
+
+/* Logodesigncard */
+.logodesigncard-main {
+    padding: 60px 0px;
+}
+
+.logodesigncard p {
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:426px) {
+    .logodesigncard p {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .logodesigncard-main {
+        padding: 30px 0px;
+    }
+}
+
+/* Logodesigncard */
+.logodesigncard .card-one {
+    padding: 90px 20px;
+    background-color: #1734B5;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logodesigncard .card-two-1 {
+    padding: 90px 20px;
+    background-color: #0D4574;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.logodesigncard .card-two-2 {
+    padding: 90px 20px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #003073 0%, #0D8FEF 100%);
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+
+.logodesigncard h3 {
+    color: #FFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+@media screen and (min-width:1024px) and (max-width:2000px) {
+    .logodesigncard .element-card {
+        position: relative;
+        top: -80px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .logodesigncard .card-one {
+        width: 100%;
+        margin: 10px 5px;
+    }
+
+    .logodesigncard .card-two-1 {
+        margin: 10px 5px;
+    }
+
+    .logodesigncard .card-two-2 {
+        margin: 10px 5px;
+    }
+}
+
+/* Companybigbrand */
+.companybigbrand-main {
+    padding: 60px 0px;
+}
+
+.companybigbrand img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.companybigbrand h5 {
+    color: #0B1225;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.companybigbrand p {
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.companybigbrand span {
+    color: #0D8FEF;
+    transition: color 0.3s;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+@media screen and (max-width:769px) {
+    .companybigbrand-main {
+        padding: 30px 0px;
+    }
+
+    .companybigbrand h5 {
+        font-size: 25px;
+    }
+}
+
+/* Logodesignslider */
+.logodesignslider-main {
+    padding: 60px 0px;
+    background: rgb(243, 243, 243);
+}
+
+.logodesignslider-header h4 {
+    background-image: linear-gradient(90deg, #003073 0%, #0D8FEF 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.logodesignslider-slider img {
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* padding: 25px; */
+}
+
+.logodesignslider-slider .card {
+    /* width: 100px;
+    height: 600px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(216, 214, 214, 0.7);
+}
+
+/* Professionalexperienced */
+.professionalexperienced-main {
+    padding: 60px 0px;
+    background: rgb(4, 74, 149);
+}
+
+.professionalexperienced img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.professionalexperienced h4 {
+    color: #FFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.professionalexperienced p {
+    color: #FFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.professionalexperienced .pe-icons {
+    font-size: 50px;
+    color: #FFFf;
+}
+
+.professionalexperienced h2 {
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:767px) {
+    .professionalexperienced-main {
+        padding: 30px 0px;
+        background: rgb(4, 74, 149);
+    }
+
+    .professionalexperienced h4 {
+        font-size: 25px;
+    }
+}
+
+/* Graphiclogodesign */
+.graphiclogodesign-main {
+    padding: 60px 0px;
+}
+
+.graphiclogodesign img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.graphiclogodesign h5 {
+    color: #0B1225;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.graphiclogodesign p {
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.graphiclogodesign span {
+    color: #0D8FEF;
+    transition: color 0.3s;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+@media screen and (max-width:767px) {
+    .graphiclogodesign-main {
+        padding: 30px 0px;
+    }
+
+    .graphiclogodesign h5 {
+        font-size: 25px;
+    }
+}
+
+/* Logotimeline */
+.logotimeline-main {
+    padding: 20px 0px;
+}
+
+.logotimeline img{
+    width: 550px;
+    display: block;
+    margin-left: auto;
+}
+
+@media screen and (max-width:769px){
+    .logotimeline img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}
+}
+
+/* TypesLogo */
+.typesLogo-main {
+    padding: 60px 0px;
+    background: rgb(241, 243, 242);
+}
+
+.typesLogo-header h6 {
+    color: #262250;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 0px;
+}
+
+.typesLogo .card {
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(216, 214, 214, .7);
+    height: 100%;
+    border: 0px solid;
+}
+
+.typesLogo .card:hover {
+    transform: translate3d(0, -30px, 10px) !important;
+    transition: 0.4s;
+    border-radius: 0px;
+    background-color: transparent;
+    background-image: linear-gradient(31deg, #003073 29%, #0D8FEF 100%);
+}
+
+.typesLogo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.typesLogo img:hover {
+    transform: scale(1.1);
+}
+
+.typesLogo .card-hover-hover:hover img {
+    filter: brightness(0) invert(1) !important;
+}
+
+.typesLogo h3 {
+    color: #4D4D4D;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.typesLogo .card-hover-hover:hover h3 {
+    color: #fff;
+}
+
+.typesLogo p {
+    color: #7a7a7a;
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.typesLogo .card-hover-hover:hover p {
+    color: #FFF;
+}
+
+.typesLogo .card-hover-hover {
+    margin-bottom: 50px !important;
+}
+
+@media screen and (max-width:767px) {
+    .typesLogo-main {
+        padding: 30px 0px;
+        background: rgb(241, 243, 242);
+    }
+
+    .typesLogo-header h6 {
+        font-size: 25px;
+    }
+}
+
+/* Fqlogodesign */
+.fqlogodesign-main {
+    padding: 60px 0px;
+    background: rgb(245, 245, 245);
+}
+
+.fqlogodesign h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.fqlogodesign p {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fqlogodesign-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+
+.fqlogodesign-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fqlogodesign-Accordion .accordion-body {
+    color: #7a7a7a;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.fqlogodesign-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.fqlogodesign-Accordion .accordion-button::after {
+    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203A !important;
+}
+
+.fqlogodesign-Accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203A !important;
+}
+
+.fqlogodesign-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .fqlogodesign h1 {
+        font-size: 24px;
+    }
+
+    .fqlogodesign h1 {
+        font-size: 25px;
+    }
+}
+
+
+/* ............................................. */
+
+
+/* General Styling */
+  .cd-timeline-block {
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease;
+  }
+  
+  .cd-timeline-block.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .cd-timeline-img {
+    margin-left: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(-50%);
+    transition: transform 0.3s ease;
+  }
+  
+  /* .cd-timeline-img:hover {
+    transform: translateX(-50%) scale(1.1);
+  } */
+  
+  .cd-timeline-content {
+    background-color: #003073;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .cd-timeline-content:hover {
+    background-color: #0D8FEF;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    /* transform: translateY(-5px); */
+  }
+  
+  .cd-timeline-content p {
+    color: #FFF;
+    font-family: 'roboto' sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .cd-read-more {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .cd-read-more:hover {
+    color: #1abc9c;
+  }
+  
+  .cd-date {
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  /* Desktop Styles */
+  @media (min-width: 992px) {
+    .logotimeline-main .col-lg-6 {
+      width: 50%;
+      padding: 20px;
+    }
+  
+    .cd-timeline-content {
+      margin-left: 100px;
+    }
+
+  }
+  
+  /* Tablet Styles */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .logotimeline-main .col-md-12 {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .cd-timeline-content {
+      margin-left: 115px;
+    }
+}
+  
+  /* Mobile Styles */
+  @media (max-width: 767px) {
+    .logotimeline-main .row {
+      flex-direction: column;
+    }
+  
+    .logotimeline-main .col-sm-12 {
+      width: 100%;
+      padding: 0 15px;
+    }
+  
+    .cd-timeline-block {
+      flex-direction: column;
+    }
+  
+    .cd-timeline-img {
+        margin-left: 0px;
+      left: 8%;
+      transform: translateX(-50%);
+    }
+  
+    .cd-timeline-content {
+      margin-left: 0;
+      margin-top: 95px;
+    }
+  
+  }
+  
+  /* Scroll Animation */
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* JavaScript-triggered animation */
+  .cd-timeline-block.is-visible {
+    animation: slideIn 0.8s ease forwards;
+  }
+  
+  /* Scroll Trigger */
+  @media (min-width: 768px) {
+    .cd-container {
+      position: relative;
+    }
+  
+    .cd-container::before {
+      content: '';
+      position: absolute;
+      left: 50px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: rgb(22, 140, 227);
+    }
+  }
+
+  .cd-timeline-block:hover .cd-timeline-img{
+    background: #000;
+    border-radius: 50px;
+    transform: translateX(-50%) scale(1.1);
+  }
+
+  .cd-timeline-block:hover .cd-timeline-content{
+    background: #0D8FEF;
+    transform: translateY(-5px);
+  }
