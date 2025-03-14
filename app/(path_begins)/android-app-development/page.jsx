@@ -26,7 +26,7 @@
 // //                 needs and preferences.</p>
 // //               <button type='button' className='d-none d-sm-block'>Contact us</button>
 // //             </div>
-// //             <div className="col-5 col-sm-6 col-md-6 col-xs-6">        
+// //             <div className="col-5 col-sm-6 col-md-6 col-xs-6">
 // //              <img src="webdads/images/android-app-development/Mobile.png" alt="android-app-development" className='img-fluid' loading='lazy' />
 // //               <div className='element-app'>
 // //                  <img src="webdads\images\android-app-development/Bodium.png" alt="Bodium" loading='lazy' className='img-fluid android-app-gallery-slider-banner' />
@@ -47,13 +47,10 @@
 // //         < FrequentlyAskedQuestions/>
 // //       </div>
 
-
 // //     </div>
 // //   )
 // // }
 // // export default page
-
-
 
 // // ================================================================================================================================
 // // ======================================= this code is reworded code ================================================
@@ -67,13 +64,11 @@
 // import dynamic from 'next/dynamic'
 // import AndroidMain from './androidMain'
 
-
 // export const metadata = {
 //   title: 'Web Development Companies In Chennai',
 //   description: "Unlock your online potential with our tailored web development services. We design, innovate, and deliver websites that redefine excellence.",
- 
-// };
 
+// };
 
 // const page = () => {
 //   return (
@@ -88,7 +83,7 @@
 //     //             needs and preferences.</p>
 //     //           <button type='button' className='d-none d-sm-block'>Contact us</button>
 //     //         </div>
-//     //         <div className="col-5 col-sm-6 col-md-6 col-xs-6">        
+//     //         <div className="col-5 col-sm-6 col-md-6 col-xs-6">
 //     //          <img src="webdads/images/android-app-development/Mobile.png" alt="android-app-development" className='img-fluid' loading='lazy' />
 //     //           <div className='element-app'>
 //     //              <img src="webdads/images/android-app-development/Bodium.png" alt="Bodium" loading='lazy' className='img-fluid android-app-gallery-slider-banner' />
@@ -117,23 +112,20 @@
 
 // export default page
 
-
-import React from 'react'
+import React from 'react';
 
 import AndroidMain from './androidMain';
 
 export const metadata = {
-  title: 'Android App Development Company In Chennai',
-  description: "Transform your ideas into reality with the leading Android app development company in Chennai. Expert solutions for your business needs. Contact us now!",
- 
+    title: 'Android App Development Company In Chennai',
+    description: 'Transform your ideas into reality with the leading Android app development company in Chennai. Expert solutions for your business needs. Contact us now!'
 };
 const page = () => {
-  return (
-    <>
-<AndroidMain/>
-   
-    </>
-  )
-}
+    return (
+        <>
+            <AndroidMain />
+        </>
+    );
+};
 
-export default page
+export default page;
