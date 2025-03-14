@@ -1,5 +1,5 @@
 import React from 'react';
-import AndroidMain from './Androidmain';
+import AndroidMain from './androidmain';
 
 
 export const metadata = {
