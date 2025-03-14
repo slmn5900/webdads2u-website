@@ -1,6 +1,5 @@
 import React from 'react';
-import AndroidMain from './androidmain';
-
+import AndroidMain from './AndroidMain';
 
 export const metadata = {
     title: 'Android App Development Company In Chennai',
