@@ -13,7 +13,7 @@ function MobileuiuxHero() {
                             <h2>Mobile App UI and UX Development
                             </h2>
                             <p>At Webdads2u, we are offering open-source CRM as well as cloud-based CRM and CRM apps for every business.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
@@ -170,7 +170,7 @@ function MobileuiuxHero() {
                         <div className="text-center">
                             <h2>Looking for Woo commerce Development? </h2>
                             <p>You are at the right place… Contact us today!</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Connect For Free Consultation</Button>
                             </a>
                         </div>

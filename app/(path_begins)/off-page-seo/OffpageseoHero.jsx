@@ -12,12 +12,12 @@ const OffpageseoHero = () => {
                         <Col md={7} xs={7} lg={7}>
                             <h2>Off Page Seo Service Chennai</h2>
                             <p>Hire responsive web design services from Webdads2u to make your non-responsive website friendly to all types of mobile devices and browsers. </p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div class="">
+                            <div className="">
                                 <img src="/webdads/images/offpageseo/offpageseo.png" alt="Offpageseo Banner" className="socialbanner" />
                             </div>
                         </Col>
@@ -31,7 +31,7 @@ const OffpageseoHero = () => {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                                 <h2>Off Page Seo Service Chennai</h2>
                                 <p>
                                     Quality off page seo is a challenge. It takes to do the right things to bring a website up in the Google SERP ranking. And, Google doesn’t make that easy. Be it any business, ranking in the top in SERP means that
@@ -54,7 +54,7 @@ const OffpageseoHero = () => {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                                 <h2>What Is Off page seo Optimization?
                                 </h2>
                                 <p>
@@ -69,13 +69,13 @@ const OffpageseoHero = () => {
             <section className=" pt-5 pb-5">
                 <Container>
                     <Row className="align-items-center">
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>Off page seo Optimization Includes
                             </h2>
                             <p>Being one of the best SEO Company in Chennai, We have created an effective list of Off Page SEO activity. Few of the Off-Page activities are listed below but it’s not limited to these activities only, check here for more.</p>
                         </div>
                        <Col md={6} lg={4}>
-                       <div class="offpage-devbx">
+                       <div className="offpage-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/offpageseo/SEO.png" alt="mobileuiux-hero"  />
                         </div>
@@ -88,7 +88,7 @@ const OffpageseoHero = () => {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="offpage-devbx">
+                       <div className="offpage-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/offpageseo/article.png" alt="mobileuiux-hero"  />
                         </div>
@@ -99,7 +99,7 @@ const OffpageseoHero = () => {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="offpage-devbx">
+                       <div className="offpage-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/offpageseo/directory-submission-symbol.png" alt="mobileuiux-hero"  />
                         </div>
@@ -111,7 +111,7 @@ const OffpageseoHero = () => {
                        </Col>
                        
                        <Col md={6} lg={4}>
-                       <div class="offpage-devbx">
+                       <div className="offpage-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/offpageseo/classified.png" alt="mobileuiux-hero"  />
                       
@@ -124,7 +124,7 @@ const OffpageseoHero = () => {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="offpage-devbx">
+                       <div className="offpage-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/offpageseo/link-building.png" alt="mobileuiux-hero"  />
                         </div>
@@ -135,7 +135,7 @@ const OffpageseoHero = () => {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="offpage-devbx">
+                       <div className="offpage-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/offpageseo/online.png" alt="mobileuiux-hero"  />
                        
@@ -147,7 +147,7 @@ const OffpageseoHero = () => {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="offpage-devbx">
+                       <div className="offpage-devbx">
                         <div className="isoimgbx">
                         
                         <img src="/webdads/images/offpageseo/place.png" alt="mobileuiux-hero"  />
@@ -160,7 +160,7 @@ const OffpageseoHero = () => {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="offpage-devbx">
+                       <div className="offpage-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/offpageseo/bookmark.png" alt="bookmark"  />
                         </div>
@@ -171,7 +171,7 @@ const OffpageseoHero = () => {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="offpage-devbx">
+                       <div className="offpage-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/offpageseo/communication.png" alt="communication"  />
                         </div>
@@ -190,7 +190,7 @@ const OffpageseoHero = () => {
                         <div className="text-center">
                             <h2>Looking for Off page Seo Development?</h2>
                             <p>Send us your requirements. We will get back to you with a free quote.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Connect For Free Consultation</Button>
                             </a>
                         </div>

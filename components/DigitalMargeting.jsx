@@ -24,7 +24,7 @@ export default function DigitalMargeting() {
                                     </p>
                                     <p>
                                         <strong>
-                                            <a style={{ color: '#383838' }} href="https://webdads2u.com/">
+                                            <a style={{ color: '#383838' }} href="/">
                                                 Webdads2u Pvt. Ltd.
                                             </a>
                                         </strong>{' '}
@@ -114,7 +114,7 @@ export default function DigitalMargeting() {
                             <Row className="mb-4 ">
                                 <Col className="text-center">
                                     <Button
-                                        href="https://webdads2u.com/digital-marketing-agency/"
+                                        href="/digital-marketing-agency/"
                                         // variant="primary"
                                         className="border rounded-5"
                                         style={{

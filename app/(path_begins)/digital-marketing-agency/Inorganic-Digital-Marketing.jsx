@@ -59,8 +59,8 @@ function Inorganicdigitalmarketing() {
 
 
           <div className="col-sm-12 col-md-12 col-lg-12">
-            <div class="d-flex flex-column flex-md-row flex-lg-row mb-3">
-              <div class="p-2 flex-fill">
+            <div className="d-flex flex-column flex-md-row flex-lg-row mb-3">
+              <div className="p-2 flex-fill">
                 <div className="card">
                   <div className="">
                     <img src="webdads/images/digital-marketing-agency/linkedin-icon-vector-white.png" alt="linkedin-icon-vector-white" loading='lazy' className='img-fluid' />
@@ -69,7 +69,7 @@ function Inorganicdigitalmarketing() {
                 </div>
               </div>
 
-              <div class="p-2 flex-fill">
+              <div className="p-2 flex-fill">
                 <div className="card">
                   <div className="">
                     <img src="webdads/images/digital-marketing-agency/inst.png" alt="inst" loading='lazy' className='img-fluid' />
@@ -78,7 +78,7 @@ function Inorganicdigitalmarketing() {
                 </div>
               </div>
 
-              <div class="p-2 flex-fill">
+              <div className="p-2 flex-fill">
                 <div className="card">
                   <div className="">
                     <img src="webdads/images/digital-marketing-agency/snapchat-svgrepo-com.png" alt="snapchat-svgrepo-com" loading='lazy' className='img-fluid' />
@@ -87,7 +87,7 @@ function Inorganicdigitalmarketing() {
                 </div>
               </div>
 
-              <div class="p-2 flex-fill">
+              <div className="p-2 flex-fill">
                 <div className="card">
                   <div className="">
                     <img src="webdads/images/digital-marketing-agency/pinterest.png" alt="pinterest" loading='lazy' className='img-fluid' />
@@ -96,7 +96,7 @@ function Inorganicdigitalmarketing() {
                 </div>
               </div>
 
-              <div class="p-2 flex-fill">
+              <div className="p-2 flex-fill">
                 <div className="card">
                   <div className="">
                     <img src="webdads/images/digital-marketing-agency/traget.png" alt="traget" loading='lazy' className='img-fluid' />

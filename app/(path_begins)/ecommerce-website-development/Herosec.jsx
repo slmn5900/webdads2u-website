@@ -27,31 +27,31 @@ function Herosec() {
                         </Col>
                         <Col md={3} xs={6}>
                             <div className="text-center strm-box">
-                                <a href="https://webdads2u.com/woo-commerce/">
+                                <a href="/woo-commerce/">
                                     <img alt="" src="/webdads/images/ecommerce/woocommerce-ecommerce.png"></img>
                                 </a>
                                 <p>
-                                    <a href="https://webdads2u.com/woo-commerce/">WooCommerce</a>
+                                    <a href="/woo-commerce/">WooCommerce</a>
                                 </p>
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
                             <div className="text-center strm-box">
-                                <a href="https://webdads2u.com/opencart-development/">
+                                <a href="/opencart-development/">
                                     <img alt="" src="/webdads/images/ecommerce/opencart-ecommerce.png"></img>
                                 </a>
                                 <p>
-                                    <a href="https://webdads2u.com/opencart-development/">Opencart</a>
+                                    <a href="/opencart-development/">Opencart</a>
                                 </p>
                             </div>
                         </Col>
                         <Col md={3}>
                             <div className="text-center strm-box">
-                                <a href="https://webdads2u.com/shopify-development/">
+                                <a href="/shopify-development/">
                                     <img alt="" src="/webdads/images/ecommerce/shopify-ecommerce.png"></img>
                                 </a>
                                 <p>
-                                    <a href="https://webdads2u.com/shopify-development/">Shopify</a>
+                                    <a href="/shopify-development/">Shopify</a>
                                 </p>
                             </div>
                         </Col>
@@ -158,7 +158,7 @@ function Herosec() {
             <section className="Feature-sec">
                 <Container>
                     <Row className="pt-3">
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>Features of Multi-Vendor</h2>
                             <p>
                                 Explore the dynamic world of multi-vendor ecommerce website. Empower your platform with features like vendor management, secure transactions, and customizable storefronts. Boost your business and create a thriving
@@ -276,7 +276,7 @@ function Herosec() {
             <section className="Feature-sec">
                 <Container>
                     <Row className="pt-3">
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>Features of Multi-Vendor</h2>
                             <p>
                             If you are looking for innovative solutions and unparalleled expertise, your search ends here. Explore a world of possibilities as we deliver exceptional services tailored to meet your unique needs. Your success is our priority.

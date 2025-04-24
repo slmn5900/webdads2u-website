@@ -10,7 +10,7 @@ const initialPosts = [
         title: 'SEO Algorithm Updates for the Year 2023',
         date: 'November 17, 2023',
         excerpt: 'Home Blog SEO SEO Algorithm Updates for the Year 2023...',
-        link: 'https://webdads2u.com/seo-algorithm-updates-for-the-year-2023/',
+        link: '/seo-algorithm-updates-for-the-year-2023/',
         imgSrc: '/webdads/images/home/card-container-images/seo-algorithm-updates-for-the-year-2023_20240d03e2.avif',
         alt: 'SEO Algorithm Updates'
     },
@@ -19,7 +19,7 @@ const initialPosts = [
         title: 'Introduction to Python – A developer perspective',
         date: 'December 2, 2023',
         excerpt: 'We choose to develop our code base in Python. Most...',
-        link: 'https://webdads2u.com/introduction-to-python-a-developer-perspective/',
+        link: '/introduction-to-python-a-developer-perspective/',
         // imgSrc: '/webdads/images/home/card-container-images/introduction-to-python–A-developer-perspective.avif',
         imgSrc: '/webdads/images/home/card-container-images/introduction_to_python_A_developer_perspective.avif',
         alt: 'Introduction to Python'
@@ -29,7 +29,7 @@ const initialPosts = [
         title: 'What is CRM Software Development',
         date: 'March 19, 2024',
         excerpt: 'Home Blog CRM and ERP What is CRM software development...',
-        link: 'https://webdads2u.com/what-is-crm-software-development/',
+        link: '/what-is-crm-software-development/',
         imgSrc: '/webdads/images/home/card-container-images/crm-webdads.avif',
         alt: 'CRM Software Development'
     }
@@ -42,9 +42,9 @@ const CardContainer = () => {
     return (
         <>
             <div className='container'>
-                <div class="row pt-5" style={{ display: 'flex',alignItems: 'center', justifyContent: 'center' }} >
-                    <div class="elementor-element elementor-element-d32b387 blog-sec elementor-widget elementor-widget-text-editor" data-id="d32b387" data-element_type="widget" data-widget_type="text-editor.default">
-                        <div class="" style={{ textAlign: 'center' ,display: 'flex',alignItems: 'center', justifyContent: 'center',flexDirection: 'column'}}>
+                <div className="row pt-5" style={{ display: 'flex',alignItems: 'center', justifyContent: 'center' }} >
+                    <div className="elementor-element elementor-element-d32b387 blog-sec elementor-widget elementor-widget-text-editor" data-id="d32b387" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div className="" style={{ textAlign: 'center' ,display: 'flex',alignItems: 'center', justifyContent: 'center',flexDirection: 'column'}}>
                             <p className='landing-page-card-blog-para-p'>Our Latest Blog</p>
                             <h3 className='landing-page-card-blog-para-h3'>
                                 Connect with us for experiencing the best <span >IT Solutions</span>

@@ -24,7 +24,7 @@ function WebdevService() {
             alt="Logo"
            className='img-fluid' 
           />  
-             <a href="https://webdads2u.com/react-js-development/"><h2>React.js</h2></a>
+             <a href="/react-js-development/"><h2>React.js</h2></a>
              <p>Stay ahead of the curve with our expertise in React.js. We engineer lightning-fast and interactive web applications, leveraging the potential of React.js to enhance your online presence.</p>
 
             </div>
@@ -32,7 +32,7 @@ function WebdevService() {
             <Col md={6} lg={3}>
             <div className="webdev-box">
            <img alt="" src="/webdads/images/website-development/Wordpress.png"></img> 
-             <a href="https://webdads2u.com/react-js-development/"><h2>WordPress </h2></a>
+             <a href="/react-js-development/"><h2>WordPress </h2></a>
              <p>Experience the power of WordPress with our specialized development services. Whether it&apos;s a blog, e-commerce platform, or corporate website, our team crafts responsive .</p>
 
             </div>
@@ -42,7 +42,7 @@ function WebdevService() {
             <Col md={6} lg={3}>
             <div className="webdev-box">
             <img alt="" src="/webdads/images/website-development/php.png"></img> 
-             <a href="https://webdads2u.com/react-js-development/"><h2>PHP</h2></a>
+             <a href="/react-js-development/"><h2>PHP</h2></a>
              <p>Rely on our PHP development proficiency to build robust and dynamic websites tailored to your specific needs. Our solutions ensure scalability and seamless functionality.</p>
 
             </div>
@@ -51,7 +51,7 @@ function WebdevService() {
             <Col md={6} lg={3}>
             <div className="webdev-box">
             <img alt="" src="/webdads/images/website-development/Web-Portal.png"></img>  
-             <a href="https://webdads2u.com/react-js-development/"><h2>Web Portal </h2></a>
+             <a href="/react-js-development/"><h2>Web Portal </h2></a>
              <p>At Webdads2u, we specialize in creating captivating web portals that serve as the gateway to your digital universe. Our meticulously crafted portals seamlessly .
 
 </p>

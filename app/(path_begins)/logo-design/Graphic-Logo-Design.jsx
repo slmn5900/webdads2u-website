@@ -11,29 +11,29 @@ function Graphiclogodesign() {
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <h5>Why Choose Webdads2u for the Best Graphic and Logo Design Services</h5>
-                        <div class="d-flex flex-row mb-3">
-                            <div class=""><span><IoMdCheckboxOutline /></span></div>
-                            <div class=""><p>To enhance audience engagement, it is recommended to produce high-quality images of your products or services.</p></div>
+                        <div className="d-flex flex-row mb-3">
+                            <div className=""><span><IoMdCheckboxOutline /></span></div>
+                            <div className=""><p>To enhance audience engagement, it is recommended to produce high-quality images of your products or services.</p></div>
                         </div>
 
-                        <div class="d-flex flex-row mb-3">
-                            <div class=""><span><IoMdCheckboxOutline /></span></div>
-                            <div class=""><p>We provide services for creating eye-catching graphic designs that help you retain your client&apos;s interest and engagement.</p></div>
+                        <div className="d-flex flex-row mb-3">
+                            <div className=""><span><IoMdCheckboxOutline /></span></div>
+                            <div className=""><p>We provide services for creating eye-catching graphic designs that help you retain your client&apos;s interest and engagement.</p></div>
                         </div>
 
-                        <div class="d-flex flex-row mb-3">
-                            <div class=""><span><IoMdCheckboxOutline /></span></div>
-                            <div class=""><p>Promoting your brand is crucial for the growth of your business.</p></div>
+                        <div className="d-flex flex-row mb-3">
+                            <div className=""><span><IoMdCheckboxOutline /></span></div>
+                            <div className=""><p>Promoting your brand is crucial for the growth of your business.</p></div>
                         </div>
 
-                        <div class="d-flex flex-row mb-3">
-                            <div class=""><span><IoMdCheckboxOutline /></span></div>
-                            <div class=""><p>Using an interactive graphic can be a great way to increase sales.</p></div>
+                        <div className="d-flex flex-row mb-3">
+                            <div className=""><span><IoMdCheckboxOutline /></span></div>
+                            <div className=""><p>Using an interactive graphic can be a great way to increase sales.</p></div>
                         </div>
 
-                        <div class="d-flex flex-row mb-3">
-                            <div class=""><span><IoMdCheckboxOutline /></span></div>
-                            <div class=""><p>Building consumer trust in your brand is crucial for establishing a strong reputation in the marketplace.</p></div>
+                        <div className="d-flex flex-row mb-3">
+                            <div className=""><span><IoMdCheckboxOutline /></span></div>
+                            <div className=""><p>Building consumer trust in your brand is crucial for establishing a strong reputation in the marketplace.</p></div>
                         </div>
 
                     </div>

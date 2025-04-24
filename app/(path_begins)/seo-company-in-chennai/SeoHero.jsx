@@ -4,7 +4,7 @@ import Slider from '../../../components/common/Slider-image';
 function SeoHero() {
   return (
     <>
-    <section class="seo-develoment">
+    <section className="seo-develoment">
     <Container>
     <Row>
     <Col md={12}>

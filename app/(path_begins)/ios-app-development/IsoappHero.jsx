@@ -13,12 +13,12 @@ function IsoappHero() {
                             <h2>ISO App Development Company
                             </h2>
                             <p>Elevate your brand with our iOS app development expertise. From concept to launch, we deliver immersive experiences tailored to your audience. Let&apos;s bring your ideas to life and redefine user engagement on iOS.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={6}>
-                            <div class="text-center iso-icon">
+                            <div className="text-center iso-icon">
                                 <img src="/webdads/images/isoapp/iso-mobile.png" alt="mobileuiux-hero" className="w-50" />
                                 <img src="/webdads/images/isoapp/App-icons.png" alt="mobileuiux-hero" className="iso-iconsft" />
                             </div>
@@ -32,7 +32,7 @@ function IsoappHero() {
             <section className="isoempower pt-5 pb-5">
                 <Container>
                     <Row className="align-items-center">
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>Empower Business with Custom iOS App Development Services</h2>
                             <p>Start developing your iOS project immediately and make use of the expertise of the top iOS app development platforms to create apps that are extremely scalable and tailored for any iOS device, including smartphones, TVs, tablets, and smartwatches.</p>
                         </div>
@@ -42,7 +42,7 @@ function IsoappHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                                 <h2>Webdads2u&apos;s Bespoke iOS Development Services</h2>
                                 <p>
                                 Welcome to Webdads2u, your premier destination for bespoke iOS app development services. Our team of skilled developers is dedicated to bringing your app ideas to life with precision and innovation. Whether you’re a startup looking to establish your presence on the App Store or a business aiming to streamline operations with a custom iOS solution, we’ve got you covered. With a focus on user experience and cutting-edge technology, we craft seamless iOS applications tailored to your specific requirements. Trust Webdads2u to deliver top-notch iOS development services that elevate your brand and drive success in the digital marketplace.</p>
@@ -59,7 +59,7 @@ function IsoappHero() {
                         <div className="text-center">
                             <h2>Looking for IOS App Development?</h2>
                             <p>After expressing interest in iOS app development, provide a concise project overview including purpose, target audience, key features, platform requirements, timeline, budget, and any design assets or previous work.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Connect For Free Consultation</Button>
                             </a>
                         </div>
@@ -69,12 +69,12 @@ function IsoappHero() {
             <section className=" pt-5 pb-5">
                 <Container>
                     <Row className="align-items-center">
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>iOS App Development Services We Offer</h2>
                             <p>Webdads2u offers end-to-end iOS app development services, including design, development, testing, support, and maintenance. Our expert team can take on any challenge, from designing an elegant user interface and experience, providing high-end coding solutions to completing the full cycle of developing iOS apps.</p>
                         </div>
                        <Col md={6} lg={4}>
-                       <div class="isoapp-devbx">
+                       <div className="isoapp-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/isoapp/custom.png" alt="mobileuiux-hero"  />
                         </div>
@@ -86,7 +86,7 @@ function IsoappHero() {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="isoapp-devbx">
+                       <div className="isoapp-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/isoapp/appple.png" alt="mobileuiux-hero"  />
                         </div>
@@ -97,7 +97,7 @@ function IsoappHero() {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="isoapp-devbx">
+                       <div className="isoapp-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/isoapp/apple-tv.png" alt="mobileuiux-hero"  />
                         </div>
@@ -108,7 +108,7 @@ function IsoappHero() {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="isoapp-devbx">
+                       <div className="isoapp-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/isoapp/tap.png" alt="mobileuiux-hero"  />
                         </div>
@@ -119,7 +119,7 @@ function IsoappHero() {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="isoapp-devbx">
+                       <div className="isoapp-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/isoapp/migration.png" alt="mobileuiux-hero"  />
                         </div>
@@ -131,7 +131,7 @@ function IsoappHero() {
                        </div>
                        </Col>
                        <Col md={6} lg={4}>
-                       <div class="isoapp-devbx">
+                       <div className="isoapp-devbx">
                         <div className="isoimgbx">
                         <img src="/webdads/images/isoapp/enterprises.png" alt="mobileuiux-hero"  />
                         </div>
@@ -148,14 +148,14 @@ function IsoappHero() {
             <section className="custom-made pt-5 pb-5" >
                 <Container>
                     <Row className="align-items-center">
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>Why Do You Need Customized CRM Development Services?</h2>
                           <p>Are you interested in discovering how hiring a custom CRM Software Development company in India can benefit your venture? I will provide a brief overview of how a customer relationship management system affects your business.</p>
                         </div>
                         
                         <Col md={12} lg={6}>
-                           <div class="crm-box">
-                            <div class="crm-auto">
+                           <div className="crm-box">
+                            <div className="crm-auto">
                                 <div>
                                 <img src="/webdads/images/isoapp/Transparent-Approach.png" alt="custome-erp"  /> 
                                 </div>
@@ -164,7 +164,7 @@ function IsoappHero() {
                                     <p>Agile methodology is used by us to ensure your iOS product vision is brought to life with open collaboration and clear communication.</p>
                                 </div>
                             </div>
-                            <div class="crm-auto">
+                            <div className="crm-auto">
                                 <div>
                                 <img src="/webdads/images/isoapp/Less-Time-to-market.png" alt="custome-erp"  /> 
                                 </div>
@@ -173,7 +173,7 @@ function IsoappHero() {
                                     <p>Using iterative and incremental development methodologies can accelerate your delivery expectations and produce the best results.</p>
                                 </div>
                             </div>
-                            <div class="crm-auto">
+                            <div className="crm-auto">
                                 <div>
                                 <img src="/webdads/images/isoapp/Robust-Project-Management.png" alt="custome-erp"  /> 
                                 </div>
@@ -184,7 +184,7 @@ function IsoappHero() {
                                 </div>
                             </div>
                            
-                            <div class="crm-auto">
+                            <div className="crm-auto">
                                 <div>
                                 <img src="/webdads/images/isoapp/Flexible-Engagement.png" alt="custome-erp"  /> 
                                 </div>
@@ -193,7 +193,7 @@ function IsoappHero() {
                                     <p>Make use of customized engagement models that are flexible enough to meet all of your organization&apos;s evolving expectations and project requirements.</p>
                                 </div>
                             </div>
-                            <div class="crm-auto">
+                            <div className="crm-auto">
                                 <div>
                                 <img src="/webdads/images/isoapp/Round-the-clock-Support.png" alt="custome-erp"  /> 
                                 </div>

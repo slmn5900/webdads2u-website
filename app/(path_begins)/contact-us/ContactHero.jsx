@@ -25,21 +25,21 @@ const ContactHero = () => {
             </Row>
             <Row className="pt-5">
               <Col md={12} lg={4}>
-              <div class="contactboxel">
+              <div className="contactboxel">
                 <img alt='' src="/webdads/images/contact/google-map.webp"></img>
                 <h3>Office Address</h3>
                 <p>No:S19, Subham Complex 2nd Floor , North Park Street, Ambattur O.T, Chennai, Tamil Nadu 600053.</p>
 
               </div>
 
-              <div class="contactboxel">
+              <div className="contactboxel">
                 <img alt='' src="/webdads/images/contact/phone.webp"></img>
                 <h3>Office Number</h3>
                 <p><a href="tel:+91-8825607550">+91-8825607550</a></p>
                 <p><a href="tel:+91-6382253490">+91-6382253490</a></p>
 
               </div>
-              <div class="contactboxel">
+              <div className="contactboxel">
                 <img alt='' src="/webdads/images/contact/email.webp"></img>
                 <h3>Mail Address</h3>
                 <p><a href="mailto:info@webdads2u.com">info@webdads2u.com</a></p>

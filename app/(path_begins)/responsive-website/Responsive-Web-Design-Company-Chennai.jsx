@@ -53,9 +53,9 @@ function ResponsiveWebdesigncompanychennai() {
                         <a href="/contact-us"><button>Contact us</button></a>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
-                        <div class="overlay"></div>
+                        <div className="overlay"></div>
                         {/* <!-- Slider --> */}
-                        <div class="slider ResponsiveWebdesigncompanychennai-responsive">
+                        <div className="slider ResponsiveWebdesigncompanychennai-responsive">
                             <div>
                                 <img src="webdads/images/responsive-website/RMP.png" alt="RMP" loading='lazy' className='img-fluid' />
                             </div>
@@ -76,11 +76,11 @@ function ResponsiveWebdesigncompanychennai() {
                             </div>
                         </div>
                         {/* <!-- control arrows -->
-                        <div class="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <div className="prev">
+                            <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         </div>
-                        <div class="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <div className="next">
+                            <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         </div> */}
                     </div>
                 </div>

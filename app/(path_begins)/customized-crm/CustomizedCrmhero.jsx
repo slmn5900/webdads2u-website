@@ -11,12 +11,12 @@ function CustomizedCrmhero() {
                         <Col md={7} xs={7} lg={7}>
                             <h2>Customized CRM Development</h2>
                             <p>At Webdads2u, we are offering open-source CRM as well as cloud-based CRM and CRM apps for every business.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div class="">
+                            <div className="">
                                 <img src="/webdads/images/customized-crm/CRM.png" alt="Shopify service" className="w-100" />
                             </div>
                         </Col>
@@ -52,14 +52,14 @@ function CustomizedCrmhero() {
             <section className="custom-made pt-5 pb-5" style={{ background: '#f5f5f5' }}>
                 <Container>
                     <Row className="align-items-center">
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>Why Do You Need Customized CRM Development Services?</h2>
                           <p>Are you interested in discovering how hiring a custom CRM Software Development company in India can benefit your venture? I will provide a brief overview of how a customer relationship management system affects your business.</p>
                         </div>
                         
                         <Col md={12} lg={6}>
-                           <div class="crm-box">
-                            <div class="crm-auto">
+                           <div className="crm-box">
+                            <div className="crm-auto">
                                 <div>
                                 <img src="/webdads/images/customized-crm/Automation-of-Activities.png" alt="custome-erp"  /> 
                                 </div>
@@ -72,7 +72,7 @@ function CustomizedCrmhero() {
                                 </div>
                             </div>
                             
-                            <div class="crm-auto">
+                            <div className="crm-auto">
                                 <div>
                                 <img src="/webdads/images/customized-crm/Real-Time-Reports.png" alt="custome-erp"  /> 
                                 </div>
@@ -81,7 +81,7 @@ function CustomizedCrmhero() {
                                     <p>An agile possibility for timely analysis can be achieved with a bespoke customer relationship management system that effortlessly delivers real-time assessment data.</p>
                                 </div>
                             </div>
-                            <div class="crm-auto">
+                            <div className="crm-auto">
                                 <div>
                                 <img src="/webdads/images/customized-crm/Protection-of-User-Data.png" alt="custome-erp"  /> 
                                 </div>
@@ -90,7 +90,7 @@ function CustomizedCrmhero() {
                                     <p>Brands can restore their operational efficiency by using well-designed CRM solutions, as well as store important customer data with the utmost safety.</p>
                                 </div>
                             </div>
-                            <div class="crm-auto">
+                            <div className="crm-auto">
                                 <div>
                                 <img src="/webdads/images/customized-crm/Improved-Productivity.png" alt="custome-erp"  /> 
                                 </div>
@@ -114,7 +114,7 @@ function CustomizedCrmhero() {
             <section className="our-cuscrm pt-5 pb-5">
              <Container>
                 <Row>
-                    <div class="text-center">
+                    <div className="text-center">
                         <h2>Why Do You Need a Custom CRM Software Development for Your Business?</h2>
                     </div>
                    <Col md={6} lg={4}>
@@ -170,7 +170,7 @@ function CustomizedCrmhero() {
                         <div className="text-center">
                             <h2>Looking for Custom CRM Software Development Services?</h2>
                             <p>Looking to streamline your business processes and enhance customer relationships? Our Indian CRM Development Company specializes in custom solutions tailored to your needs.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Connect For Free Consultation</Button>
                             </a>
                         </div>

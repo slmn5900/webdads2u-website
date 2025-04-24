@@ -11,12 +11,12 @@ function ShopifyHero() {
                         <Col md={6} xs={7}>
                             <h2>Shopify Development Services</h2>
                             <p>Empower your online business with expert Shopify web development. Top rated Shopify development service provider.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
                         <Col md={6} xs={5}>
-                            <div class="">
+                            <div className="">
                                 <img src="/webdads/images/shopify/shopify-service.png" alt="Shopify service" className="w-100" />
                             </div>
                         </Col>
@@ -66,7 +66,7 @@ function ShopifyHero() {
             <section className="shop-deveser pt-5 pb-5">
              <Container>
                 <Row>
-                    <div class="text-center">
+                    <div className="text-center">
                         <h2>Shopify Development Services We Offers </h2>
                         <p>Our Shopify experts are dedicated to providing you with all the support you need, whether you’re looking to establish an online presence for your business or migrate to the Shopify platform. Shopify development services offered by Concept Infoway encompasses a diverse range of offerings, such as:</p>
                     </div>

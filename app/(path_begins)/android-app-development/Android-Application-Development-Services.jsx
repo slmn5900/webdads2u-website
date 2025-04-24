@@ -10,21 +10,21 @@ function AndroidApplicationDevelopmentServices() {
                         <h1>Industry-specific Android Application Development Services</h1>
                         <p>Unlock industry-specific solutions with our tailored Android app development services. From healthcare to finance, we deliver custom applications designed to meet the unique needs and challenges of your sector. Our experienced team combines expertise with cutting-edge technology to create innovative solutions that drive efficiency, productivity, and growth within your industry. Trust us to elevate your business with our industry-specific Android application development services.</p>
                         <div className='justify-content-center AndroidApplicationDevelopmentServices-flex-contend'>
-                        <div class="d-flex flex-row justify-content-center">
-                            <div class="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon' />  HRM</a></div>
-                            <div class="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon' />  Real Estate</a></div>
+                        <div className="d-flex flex-row justify-content-center">
+                            <div className="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon' />  HRM</a></div>
+                            <div className="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon' />  Real Estate</a></div>
                         </div>
-                        <div class="d-flex flex-row justify-content-center">
-                            <div class="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Healthcare</a></div>
-                            <div class="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Manufacturing</a></div>
+                        <div className="d-flex flex-row justify-content-center">
+                            <div className="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Healthcare</a></div>
+                            <div className="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Manufacturing</a></div>
                         </div>
-                        <div class="d-flex flex-row justify-content-center">
-                            <div class="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Fintech</a></div>
-                            <div class="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Travel and Hospitality</a></div>
+                        <div className="d-flex flex-row justify-content-center">
+                            <div className="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Fintech</a></div>
+                            <div className="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Travel and Hospitality</a></div>
                         </div>
-                        <div class="d-flex flex-row justify-content-center">
-                            <div class="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Printing</a></div>
-                            <div class="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Education</a></div>
+                        <div className="d-flex flex-row justify-content-center">
+                            <div className="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Printing</a></div>
+                            <div className="col-6 col-lg-4 "><a href="/"><FaCheckCircle className='AndroidApplicationDevelopmentServices-flex-contend-icon'  />  Education</a></div>
                         </div>
                         </div>
                     </div>

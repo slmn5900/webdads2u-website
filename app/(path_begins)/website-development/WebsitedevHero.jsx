@@ -23,9 +23,9 @@ function WebsitedevHero() {
                             </div>
                             <div className="vector">
                                 <Image src="/webdads/images/website-development/Vector-website.png" alt="Logo" className="img-fluid" />
-                                <img alt="" src="/webdads/images/website-development/webdevelopment-banner-service4.png" class="mb-hdimg"></img>
+                                <img alt="" src="/webdads/images/website-development/webdevelopment-banner-service4.png" className="mb-hdimg"></img>
                             </div>
-                            <div class="img-ser3">
+                            <div className="img-ser3">
                                 <img alt="" src="/webdads/images/website-development/webdevelopment-banner-service3.png"></img>
                             </div>
                         </Col>

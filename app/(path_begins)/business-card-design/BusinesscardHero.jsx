@@ -14,12 +14,12 @@ function BusinesscardHero() {
                         <Col md={12} xs={11} lg={7}>
                             <h2>Business Card Designing Services in India</h2>
                             <p>Create a lasting impression with creative, professional, and branded business cards.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
                         <Col md={5} xs={1} lg={5}>
-                            <div class="text-center"></div>
+                            <div className="text-center"></div>
                         </Col>
                     </Row>
                 </Container>
@@ -30,7 +30,7 @@ function BusinesscardHero() {
             <section className="justcard pt-5 pb-5">
                 <Container>
                     <Row className="align-items-center">
-                        <div class="text-center profess">
+                        <div className="text-center profess">
                             <h5>BUSEINESS CARD DESIGN</h5>
                             <h2>It’s not just a Card, It’s an effective marketing tool!</h2>
                             <p>
@@ -40,7 +40,7 @@ function BusinesscardHero() {
                         </div>
                         <Col md={6} className="mt-2">
                             <div className="busbox">
-                                <div class="busnimg">
+                                <div className="busnimg">
                                     <img alt='' src="/webdads/images/businesscard/Shop-by-Elegance-Size-and-Profession.png"></img>
                                 </div>
                                 <div className="buscont">
@@ -51,7 +51,7 @@ function BusinesscardHero() {
                         </Col>
                         <Col md={6} className="mt-2">
                             <div className="busbox">
-                                <div class="busnimg">
+                                <div className="busnimg">
                                     <img alt='' src="/webdads/images/businesscard/networking-business-cards.webp"></img>
                                 </div>
                                 <div className="buscont">
@@ -62,7 +62,7 @@ function BusinesscardHero() {
                         </Col>
                         <Col md={6} className="mt-2">
                             <div className="busbox">
-                                <div class="busnimg">
+                                <div className="busnimg">
                                     <img alt='' src="/webdads/images/businesscard/appointment-business-cards.webp"></img>
                                 </div>
                                 <div className="buscont">
@@ -73,7 +73,7 @@ function BusinesscardHero() {
                         </Col>
                         <Col md={6} className="mt-2">
                             <div className="busbox">
-                                <div class="busnimg">
+                                <div className="busnimg">
                                     <img alt='' src="/webdads/images/businesscard/QR-code-Business-Cards.png"></img>
                                 </div>
                                 <div className="buscont">
@@ -84,7 +84,7 @@ function BusinesscardHero() {
                         </Col>
                         <Col md={6} className="mt-2">
                             <div className="busbox">
-                                <div class="busnimg">
+                                <div className="busnimg">
                                     <img alt='' src="/webdads/images/businesscard/Standard-Business-Cards.png"></img>
                                 </div>
                                 <div className="buscont">
@@ -95,7 +95,7 @@ function BusinesscardHero() {
                         </Col>
                         <Col md={6} className="mt-2">
                             <div className="busbox">
-                                <div class="busnimg">
+                                <div className="busnimg">
                                     <img alt='' src="/webdads/images/businesscard/embossed-business-cards.webp"></img>
                                 </div>
                                 <div className="buscont">
@@ -113,12 +113,12 @@ function BusinesscardHero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                                 <img  src="/webdads/images/businesscard/why-choose-us.webp" alt="why choose us" className="w-100"></img>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                                 <h3>WHY CHOOSE US?</h3>
                                 <h2>Why Webdads2u Business Card Designing Services?</h2>
                                 <p>
@@ -145,7 +145,7 @@ function BusinesscardHero() {
             <section className="businesscdr pt-5 pb-5">
                 <Container>
                     <Row>
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>Business Card Design Services for All Types of Business Cards </h2>
                         </div>
                         <Col md={6} lg={4}>
@@ -200,7 +200,7 @@ function BusinesscardHero() {
                         <div className="text-center">
                             <h2>Looking for Business Card Design services?</h2>
                             <p>Looking for the best deal on your requirements? Look no further! Simply share your requirements with us and we’ll provide you with a free quote that meets your needs. Don’t wait any longer – contact us now!</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Connect For Free Consultation</Button>
                             </a>
                         </div>

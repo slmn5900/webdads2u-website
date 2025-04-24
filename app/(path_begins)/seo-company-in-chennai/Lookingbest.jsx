@@ -74,7 +74,7 @@ function Lookingbest() {
 
    </section>
 
-   <section class="our-hand">
+   <section className="our-hand">
     <Container>
       <Row className="align-items-start">
          <Col md={6}>

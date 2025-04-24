@@ -49,7 +49,7 @@ const Businessgallery = () => {
                 </Row>
                 <Row>
                   <div className="text-center">
-                    <a href="https://webdads2u.com/business-card/"><Button>View More </Button></a>
+                    <a href="/business-card/"><Button>View More </Button></a>
                   </div>
                 </Row>
             </Container>

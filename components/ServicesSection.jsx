@@ -14,42 +14,42 @@ const ServicesSection = () => {
             id: 'service-box-1',
             title: 'Website Development',
             imgSrc: '/webdads/images/home/web-development.png',
-            link: 'https://webdads2u.com/website-development/',
+            link: '/website-development/',
             alt: 'web-development'
         },
         {
             id: 'service-box-2',
             title: 'SEO Services',
             imgSrc: '/webdads/images/home/seo-services.png',
-            link: 'https://webdads2u.com/seo-company-in-chennai/',
+            link: '/seo-company-in-chennai/',
             alt: 'seo-services'
         },
         {
             id: 'service-box-3',
             title: 'Branding Design',
             imgSrc: '/webdads/images/home/branding-design.avif',
-            link: 'https://webdads2u.com/branding-design/',
+            link: '/branding-design/',
             alt: 'branding-design'
         },
         {
             id: 'service-box-4',
             title: 'E-Commerce Development',
             imgSrc: '/webdads/images/home/e-commerce-development.avif',
-            link: 'https://webdads2u.com/ecommerce-website-development/',
+            link: '/ecommerce-website-development/',
             alt: 'e-commerce-development'
         },
         {
             id: 'service-box-5',
             title: 'Mobile App Development',
             imgSrc: '/webdads/images/home/mobiile-app-development.avif',
-            link: 'https://webdads2u.com/mobile-app-development/',
+            link: '/mobile-app-development/',
             alt: 'mobile-app-development'
         },
         {
             id: 'service-box-6',
             title: 'CRM & ERP Development',
             imgSrc: '/webdads/images/home/crm-erp-development.avif',
-            link: 'https://webdads2u.com/crm-erp-development/',
+            link: '/crm-erp-development/',
             alt: 'crm-erp-development'
         }
     ];

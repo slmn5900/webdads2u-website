@@ -6,13 +6,13 @@ import Slider from '../../../components/common/Slider-image';
 function CrmHero() {
   return (
    <>
-<section class="crm-hero">
+<section className="crm-hero">
 <Container>
 <Row className="align-items-center">
 <Col md={7} xs={7}>
 <div className="crmhro-cont">
 <h1>“CRM is your GPS to a better route on your Business Development journey.” </h1>
-<a href="https://webdads2u.com/contact-us/"><Button >Contact us</Button></a>
+<a href="/contact-us/"><Button >Contact us</Button></a>
 </div>
  </Col>
  <Col md={5} xs={5}>
@@ -24,7 +24,7 @@ function CrmHero() {
 </Container>
 </section>
 <Slider />
-<section class="streams">
+<section className="streams">
   <Container>
   <Row className="align-items-center">
   <Col md={4}>
@@ -32,14 +32,14 @@ function CrmHero() {
   </Col>
   <Col md={4}>
 <div className="cust-crm">
-<a href="https://webdads2u.com/customized-crm/"><img alt='' src="/webdads/images/crm/data-structure.png"></img></a>
-<a href="https://webdads2u.com/customized-crm/"><h3>Customized CRM</h3></a>
+<a href="/customized-crm/"><img alt='' src="/webdads/images/crm/data-structure.png"></img></a>
+<a href="/customized-crm/"><h3>Customized CRM</h3></a>
 </div>
   </Col>
   <Col md={4}>
   <div className="cust-crm">
-<a href="https://webdads2u.com/customized-erp/"><img alt='' src="/webdads/images/crm/setting.png"></img></a>
-<a href="https://webdads2u.com/customized-erp/"><h3>Customized ERP</h3></a>
+<a href="/customized-erp/"><img alt='' src="/webdads/images/crm/setting.png"></img></a>
+<a href="/customized-erp/"><h3>Customized ERP</h3></a>
 </div>
   </Col>
  </Row>

@@ -49,7 +49,7 @@ const Flyergallery = () => {
                 </Row>
                 <Row>
                   <div className="text-center">
-                    <a href="https://webdads2u.com/brochure/"><Button>View More </Button></a>
+                    <a href="/brochure/"><Button>View More </Button></a>
                   </div>
                 </Row>
             </Container>

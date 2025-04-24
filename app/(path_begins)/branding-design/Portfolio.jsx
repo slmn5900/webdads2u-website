@@ -61,9 +61,9 @@ function Portfolio() {
                     </div>
                 </div>
                 <div className="row">
-                    <div class="overlay">
+                    <div className="overlay">
                     </div>
-                    <div class="slider responsive-Portfolio">
+                    <div className="slider responsive-Portfolio">
                         <div>
                             <img src="/webdads/images/branding-design/brochure-designjpg.jpg" alt="brochure-designjpg" className='img-fluid' />
                         </div>
@@ -80,11 +80,11 @@ function Portfolio() {
                         </div>
                     </div>
 
-                    {/* <div class="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    {/* <div className="prev">
+                        <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     </div>
-                    <div class="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <div className="next">
+                        <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     </div> */}
                 </div>
         </section>

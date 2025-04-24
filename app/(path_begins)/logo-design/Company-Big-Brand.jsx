@@ -11,32 +11,32 @@ function Companybigbrand() {
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <h5>Why Choose Webdads2u for the Best Graphic and Logo Design Services</h5>
-                        <div class="d-flex flex-row mb-3">
-                            <div class=""><span><IoMdCheckboxOutline /></span></div>
-                            <div class=""><p>
+                        <div className="d-flex flex-row mb-3">
+                            <div className=""><span><IoMdCheckboxOutline /></span></div>
+                            <div className=""><p>
                             To enhance engagement with viewers, it&apos;s essential to create high-quality images of your goods or services.</p></div>
                         </div>
 
-                        <div class="d-flex flex-row mb-3">
-                            <div class=""><span><IoMdCheckboxOutline /></span></div>
-                            <div class=""><p>You can opt for attention-grabbing graphic design services to keep your clients interested and engaged.</p></div>
+                        <div className="d-flex flex-row mb-3">
+                            <div className=""><span><IoMdCheckboxOutline /></span></div>
+                            <div className=""><p>You can opt for attention-grabbing graphic design services to keep your clients interested and engaged.</p></div>
                         </div>
 
-                        <div class="d-flex flex-row mb-3">
-                            <div class=""><span><IoMdCheckboxOutline /></span></div>
-                            <div class=""><p>
+                        <div className="d-flex flex-row mb-3">
+                            <div className=""><span><IoMdCheckboxOutline /></span></div>
+                            <div className=""><p>
                             Promoting your brand is crucial for business growth.</p></div>
                         </div>
 
-                        <div class="d-flex flex-row mb-3">
-                            <div class=""><span><IoMdCheckboxOutline /></span></div>
-                            <div class=""><p>
+                        <div className="d-flex flex-row mb-3">
+                            <div className=""><span><IoMdCheckboxOutline /></span></div>
+                            <div className=""><p>
                             Adopting an interactive graphic can help boost sales.</p></div>
                         </div>
 
-                        <div class="d-flex flex-row mb-3">
-                            <div class=""><span><IoMdCheckboxOutline /></span></div>
-                            <div class=""><p>Building consumer trust in your brand is crucial in the marketplace.</p></div>
+                        <div className="d-flex flex-row mb-3">
+                            <div className=""><span><IoMdCheckboxOutline /></span></div>
+                            <div className=""><p>Building consumer trust in your brand is crucial in the marketplace.</p></div>
                         </div>
 
                     </div>

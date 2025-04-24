@@ -49,7 +49,7 @@ const SocialmediaGallery = () => {
                 </Row>
                 <Row>
                   <div className="text-center">
-                    <a href="https://webdads2u.com/social-media-service/"><Button>View More </Button></a>
+                    <a href="/social-media-service/"><Button>View More </Button></a>
                   </div>
                 </Row>
             </Container>

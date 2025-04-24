@@ -10,7 +10,7 @@ function WebpotralTab() {
     <>
     <section className="seotabsec webporttab">
             <Container>
-                <div class="text-center">
+                <div className="text-center">
                     <h2>Powerful Web Portal Services For Your Business
                     </h2>
                 </div>

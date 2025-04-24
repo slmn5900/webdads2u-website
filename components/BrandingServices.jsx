@@ -14,7 +14,7 @@ const BrandingServices = () => {
                                 <h2>Branding Services</h2>
                                 <p>
                                     <strong>
-                                        <a href="https://webdads2u.com/branding-design/" style={{ color: '#7a7a7a',textDecoration:'none' }}>
+                                        <a href="/branding-design/" style={{ color: '#7a7a7a',textDecoration:'none' }}>
                                             Branding services 
                                         </a>
                                     </strong> &nbsp;
@@ -37,7 +37,7 @@ const BrandingServices = () => {
                                     </div>
 
                                     <div>
-                                        <Link href="https://webdads2u.com/logo-design-portfolio/" className="text-decoration-none ">
+                                        <Link href="/logo-design-portfolio/" className="text-decoration-none ">
                                             <p className="ms-2 fw-semibold text-black">Logo</p>
                                         </Link>
                                     </div>
@@ -54,7 +54,7 @@ const BrandingServices = () => {
                                         />
                                     </div>
                                     <div>
-                                        <Link href="https://webdads2u.com/business-card/" className="text-decoration-none ">
+                                        <Link href="/business-card/" className="text-decoration-none ">
                                             <p className="ms-2 fw-semibold text-black">Business Card</p>
                                         </Link>
                                     </div>
@@ -66,7 +66,7 @@ const BrandingServices = () => {
                                         <img alt="" variant="top" src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069662/brochure-branding-services_591cb50b/brochure-branding-services_591cb50b.png" width={'25px'} />
                                     </div>
                                     <div>
-                                        <Link href="https://webdads2u.com/brochure/" className="text-decoration-none ">
+                                        <Link href="/brochure/" className="text-decoration-none ">
                                             <p className="ms-2 fw-semibold text-black">Brochure</p>
                                         </Link>
                                     </div>
@@ -114,7 +114,7 @@ const BrandingServices = () => {
                                         />
                                     </div>
                                     <div>
-                                        <Link href="https://webdads2u.com/social-media-service/" className="text-decoration-none ">
+                                        <Link href="/social-media-service/" className="text-decoration-none ">
                                             <p className="ms-2 fw-semibold text-black">Social Media Poster</p>
                                         </Link>
                                     </div>
@@ -154,7 +154,7 @@ const BrandingServices = () => {
 
                 {/* <Row>
         <Col className="text-center">
-          <Button variant="primary" href="https://webdads2u.com/branding-design/">Read More</Button>
+          <Button variant="primary" href="/branding-design/">Read More</Button>
         </Col>
       </Row> */}
             </Container>

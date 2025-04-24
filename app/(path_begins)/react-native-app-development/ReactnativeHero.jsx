@@ -12,12 +12,12 @@ function ReactnativeHero() {
                         <Col md={7} xs={6} lg={6}>
                             <h2>React Native App Development</h2>
                             <p>Efficient React Native development empowers cross-platform app creation with native performance and UI flexibility.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={6}>
-                            <div class="hero-rotate">
+                            <div className="hero-rotate">
                                 <img src="/webdads/images/reactnative/mobile.png" alt="mobileuiux-hero" className="w-100" />
                                 <img src="/webdads/images/reactnative/react-native.png" alt="mobileuiux-hero" className="react-scroll" />
                             </div>
@@ -31,7 +31,7 @@ function ReactnativeHero() {
             <section className="react-nativeimhr pt-5 pb-5">
                 <Container>
                     <Row className="align-items-center">
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>Our React Native Development Capabilities</h2>
                             <p>
                                 Our React Native development capabilities include expertise in building cross-platform mobile applications with native performance and UI flexibility. We leverage React Native’s powerful framework to create efficient,
@@ -40,7 +40,7 @@ function ReactnativeHero() {
                         </div>
 
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                                 <h2>What Is React Native Development?</h2>
                                 <p>
                                     {' '}
@@ -61,7 +61,7 @@ function ReactnativeHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                                 <h2>Why React Native App Development?</h2>
                                 <p>
                                     React Native app development offers numerous benefits, including cross-platform compatibility, faster development cycles, code reusability, native performance, and a large community of developers. It enables
@@ -75,7 +75,7 @@ function ReactnativeHero() {
             <section className="our-native pt-5 pb-5" style={{ background: '#f5f5f5' }}>
                 <Container>
                     <Row>
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>Advantages Of Using React Native</h2>
                         </div>
                         <Col md={6} lg={4}>
@@ -181,7 +181,7 @@ function ReactnativeHero() {
                         <div className="text-center">
                             <h2>Looking for Custom Web Application Development?</h2>
                             <p>Send us your requirements. We will get back to you with a free quote.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Connect For Free Consultation</Button>
                             </a>
                         </div>

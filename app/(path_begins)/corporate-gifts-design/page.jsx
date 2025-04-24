@@ -1,14 +1,17 @@
-"use client"
-import React from 'react'
-
+import React from 'react';
+// import UnderConstructions from './UnderConstructions';
+import dynamic from 'next/dynamic';
+const UnderConstructions = dynamic(() => import('./UnderConstructions'), { ssr: false });
+export const metadata = {
+    title: 'Best Web Design Company In Chennai',
+    description: 'Creating stunning online experiences, our web design company blends creativity with technical expertise to bring your vision to life. Reach us today!'
+};
 const page = () => {
-  return (
-    <div>
-      <h1>about page</h1>
+    return (
+        <div>
+            <UnderConstructions />
+        </div>
+    );
+};
 
-
-    </div>
-  )
-}
-
-export default page
+export default page;

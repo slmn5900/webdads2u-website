@@ -8,6 +8,8 @@ import logoSrc from '../public/webdads/images/home/white-logo.png';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterest, FaYoutube } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 function Footer() {
+    const date = new Date();
+    const getCurrentYear = date.getFullYear();
     return (
         <>
             <section className="footer-top">
@@ -38,25 +40,37 @@ function Footer() {
                             <div className="footer-top-center-icon">
                                 <Image src={logoSrc} alt="Logo" />
                                 {/* <Image src="webdads/images/home/white-logo.png" alt="Logo" /> */}
-                                <ul className="d-flex">
-                                    <a href="https://www.facebook.com/Webdads2u"><li>
-                                        <FaFacebookF />{' '}
-                                    </li></a>
-                                    <a href="https://x.com/webdads2u"><li>
-                                        <FaXTwitter />{' '}
-                                    </li></a>
-                                    <a href="https://www.instagram.com/webdads2u/"><li>
-                                        <FaInstagram />
-                                    </li></a>
-                                    <a href="https://www.linkedin.com/company/webdads2u-private-limited/"><li>
-                                        <FaLinkedinIn />
-                                    </li></a>
-                                    <li>
-                                        <FaPinterest />
-                                    </li>
-                                    <li>
-                                        <FaYoutube />
-                                    </li>
+                                <ul className="d-flex p-0">
+                                    <a href="https://www.facebook.com/Webdads2u">
+                                        <li>
+                                            <FaFacebookF />{' '}
+                                        </li>
+                                    </a>
+                                    <a href="https://x.com/webdads2u">
+                                        <li>
+                                            <FaXTwitter />{' '}
+                                        </li>
+                                    </a>
+                                    <a href="https://www.instagram.com/webdads2u/">
+                                        <li>
+                                            <FaInstagram />
+                                        </li>
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/webdads2u-private-limited/">
+                                        <li>
+                                            <FaLinkedinIn />
+                                        </li>
+                                    </a>
+                                    <a href="https://in.pinterest.com/webdads2u/">
+                                        <li>
+                                            <FaPinterest />
+                                        </li>
+                                    </a>
+                                    <a href="https://www.youtube.com/webdads2u">
+                                        <li>
+                                            <FaYoutube />
+                                        </li>
+                                    </a>
                                 </ul>
                             </div>
                         </Col>
@@ -91,22 +105,26 @@ function Footer() {
                             <p>No:S19, Subham Complex 2nd Floor, North Park Street, Ambattur O.T, Chennai, Tamil Nadu – 600053 info@webdads2u.com</p>
                         </Col>
                         <Col md={4}>
-                            <h3>We’re looking for talented passionate folks to join our team.</h3>
-                            <h6>Jobs at Webdads2u</h6>
+                            <h3 style={{ textAlign: 'left' }}>We’re looking for talented passionate folks to join our team.</h3>
+                            <span style={{ color: '#aaa', fontWeight: 'bold', fontSize: '24px', textAlign: 'left' }}>Jobs at Webdads2u</span>
+                            <br />
+                            <span style={{ color: '#aaa', fontWeight: 'bold', fontSize: '24px', textAlign: 'left' }}>About Webdads2u</span>
+                            <br />
+                            <span style={{ color: '#aaa', fontWeight: 'bold', fontSize: '24px', textAlign: 'left' }}>Get a Quotes</span>
                         </Col>
                     </Row>
                     <Row>
-                        <Col md={6}>
+                        {/* <Col md={6}>
                             <h5>About Webdads2u</h5>
                         </Col>
                         <Col md={6}>
-                            <h5>Get a Quotes</h5>
-                        </Col>
+                            <h5>Get a Quotes</h5> 
+                        </Col>*/}
                     </Row>
                     <Row>
                         <Col md={12}>
                             <div className="text-center pt-3">
-                                <p>© 2023 by WEBDADS2U PVT LTD.</p>
+                                <p>© {getCurrentYear} by WEBDADS2U PVT LTD.</p>
                             </div>
                         </Col>
                     </Row>

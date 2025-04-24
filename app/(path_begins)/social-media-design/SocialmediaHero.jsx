@@ -11,12 +11,12 @@ function SocialmediaHero() {
                         <Col md={7} xs={7} lg={7}>
                             <h2>Best Social Media Design Company </h2>
                             <p>Unlock creativity with our Social Media Design services! Engaging visuals tailored to your brand. Let&apos;s elevate your online presence together.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                             <a href="/contact-us"><Button variant="contained">Contact us</Button></a>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div class="">
+                            <div className="">
                                 <img src="/webdads/images/socialmedia/socail-media-banner.png" alt="socialmedia service" className="socialbanner" />
                             </div>
                         </Col>
@@ -47,7 +47,7 @@ function SocialmediaHero() {
             <section className="socialmd pt-5 pb-5">
                 <Container>
                     <Row>
-                        <div class="text-center">
+                        <div className="text-center">
                             <h3>List Of Top Social Media Websites In India</h3>
                             <p>There are numerous social media design platforms where people engage in their daily lives. The main advantages of using social media are increased visibility and the ability to connect with loved ones anytime.</p>
                         </div>

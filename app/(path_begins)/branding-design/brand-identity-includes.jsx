@@ -14,8 +14,8 @@ function BrandIdentityIncludes() {
                         <img src="/webdads/images/branding-design/left-side-image.png" alt="left-side-image" className='img-fluid' />
                     </div>
                     <div className="col-xs-12 col-sm-12 col-lg-6  BrandIdentityIncludes-card-colum">
-                        <div class="d-flex flex-column flex-sm-row text-center BrandIdentityIncludes-card">
-                            <div class="col-xs-12 col-lg-6 mt-5">
+                        <div className="d-flex flex-column flex-sm-row text-center BrandIdentityIncludes-card">
+                            <div className="col-xs-12 col-lg-6 mt-5">
                                 <Card >
                                     <Card.Body>
                                         <div> <img src="/webdads/images/branding-design/Professional-typography.png" alt="Professional-typography" className='img-fluid'/></div>
@@ -35,7 +35,7 @@ function BrandIdentityIncludes() {
                                     </Card.Body>
                                 </Card>
                             </div>
-                            <div class="col-xs-12 col-lg-6">
+                            <div className="col-xs-12 col-lg-6">
                                 <Card >
                                     <Card.Body>
                                     <div> <img src="/webdads/images/branding-design/colour-palette.png" alt="colour-palette" className='img-fluid'/></div>

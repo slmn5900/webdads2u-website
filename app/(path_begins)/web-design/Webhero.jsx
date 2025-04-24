@@ -248,28 +248,28 @@ function Webhero() {
                             <h2>Our Website Creating Process</h2>
                         </div>
                         <Col md={3} xs={6}>
-                            <div class="require-box">
+                            <div className="require-box">
                                 <h5>01</h5>
                                 <img alt="" src="/webdads/images/webdesign/Requirement.png"></img>
                                 <h6>Requirement Gathering</h6>
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
-                            <div class="require-box">
+                            <div className="require-box">
                                 <h5>02</h5>
                                 <img alt="" src="/webdads/images/webdesign/planning.png"></img>
                                 <h6>planning</h6>
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
-                            <div class="require-box">
+                            <div className="require-box">
                                 <h5>03</h5>
                                 <img alt="" src="/webdads/images/webdesign/UX-Strategy.png"></img>
                                 <h6>ux strategy</h6>
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
-                            <div class="require-box">
+                            <div className="require-box">
                                 <h5>04</h5>
                                 <img alt="" src="/webdads/images/webdesign/wireframe.png"></img>
                                 <h6>wireframe creation</h6>
@@ -278,21 +278,21 @@ function Webhero() {
                     </Row>
                     <Row className="pt-5">
                         <Col md={3} xs={6}>
-                            <div class="require-box">
+                            <div className="require-box">
                                 <h5>05</h5>
                                 <img alt="" src="/webdads/images/webdesign/Building-Prototype.png"></img>
                                 <h6>building prototype</h6>
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
-                            <div class="require-box">
+                            <div className="require-box">
                                 <h5>06</h5>
                                 <img alt="" src="/webdads/images/webdesign/pen-icon.png"></img>
                                 <h6>creating visual design</h6>
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
-                            <div class="require-box">
+                            <div className="require-box">
                                 <h5>07</h5>
                                 <img alt="" src="/webdads/images/webdesign/Final-Branding.png"></img>
                                 <h6>final branding</h6>

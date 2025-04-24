@@ -12,12 +12,12 @@ const ContentwritingHero = () => {
                         <Col md={7} xs={7} lg={7}>
                             <h2>Content Writing Service </h2>
                             <p>Get high-quality content writing services in Chennai that captivate your audience and drive results. Our expert writers craft engaging and SEO-friendly content tailored to your business needs.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                <a href="/contact-us"> <Button variant="contained">Contact us</Button></a>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div class="">
+                            <div className="">
                                 <img src="/webdads/images/content-writing/content-hero.png" alt="Offpageseo Banner" className="socialbanner" />
                             </div>
                         </Col>
@@ -31,12 +31,12 @@ const ContentwritingHero = () => {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                                 <h3>Content Marketing Company in Chennai</h3>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                                 <p>
                                     To enhance your website’s visibility, it’s crucial that your content is optimized for search engine indexing. As the premier provider of Content Writing Services in Chennai, India, we specialize in crafting
                                     SEO-friendly content that aligns with user search queries, ensuring maximum visibility and engagement.
@@ -50,14 +50,14 @@ const ContentwritingHero = () => {
                 <Container>
                     <Row>
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                                 <h2>The Sharpest Marketing Tool You Will Ever Own- Content!
                                 </h2>
                                 <p>Digital SEO, the leading provider of digital marketing services in Chennai, wields the power of top-quality, SEO-friendly content crafted by seasoned professional content writers. Our commitment to your brand transcends mere campaigns; it’s a dedication to content marketing excellence. With over 8 years of expertise, we strategically navigate the realm of content marketing across Chennai, Coimbatore, and Tirunelveli in Tamil Nadu. From these strategic hubs, we employ our content marketing prowess to outmaneuver competitors globally. Specializing in Internet Marketing, our dominance lies in delivering unparalleled Content Writing Services tailored to your brand’s success.</p>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                             <img src="/webdads/images/content-writing/The-Sharpest-Marketing-Tool-You-Will-Ever-Own-Cont.webp" alt="Offpageseo Banner" className="socialbanner" />
                             </div>
                         </Col>
@@ -120,25 +120,25 @@ const ContentwritingHero = () => {
                         </h2>
                     </div>
                     <Col md={6} lg={3}>
-                    <div class="istudiobox">
+                    <div className="istudiobox">
                         <h3>Design and catchiness</h3>
                         <p>Engaging and captivating content is the key to grabbing and retaining readers&apos; attention. At our Content Writing Services, we specialize in crafting content that&apos;s not only catchy and interesting but also strategically designed to captivate your audience.</p>
                     </div>
                     </Col>
                     <Col md={6} lg={3}>
-                    <div class="istudiobox1">
+                    <div className="istudiobox1">
                         <h3>Infographics</h3>
                         <p>Harnessing the power of graphics to convey information is a prevalent trend in today&apos;s marketing landscape. At iStudio Technologies Chennai, we leverage this strategy creatively and effectively to assist you in achieving your marketing objectives.</p>
                     </div>
                     </Col>
                     <Col md={6} lg={3}>
-                    <div class="istudiobox">
+                    <div className="istudiobox">
                         <h3>Additional methods </h3>
                         <p>At our top-tier Content Writing Services, we don&apos;t just stop at written content; we harness the potential of videos and similar methods to amplify your content reach. As the foremost content marketing company in Chennai</p>
                     </div>
                     </Col>
                     <Col md={6} lg={3}>
-                    <div class="istudiobox1">
+                    <div className="istudiobox1">
                         <h3>Call to action</h3>
                         <p>In every piece of content we craft, including our renowned Content Writing Services, we strategically place this crucial inclusion to entice potential buyers. It&apos;s one of our primary goals, strategically positioned within the content to attract and engage your target audience.</p>
                     </div>
@@ -149,7 +149,7 @@ const ContentwritingHero = () => {
             <section className="contentwrit pt-5 pb-5">
                 <Container>
                     <Row>
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>Business Card Design Services for All Types of Business Cards </h2>
                         </div>
                         <Col md={6} lg={4}>
@@ -213,7 +213,7 @@ const ContentwritingHero = () => {
                     <Row>
                         <Col md={6}>
                         <div className="process d-flex">
-                          <div class="">
+                          <div className="">
                             <img alt='' src="/webdads/images/content-writing/we-deliver-recognition.webp"></img>
                           </div>
                           <div className="process-auto">
@@ -222,7 +222,7 @@ const ContentwritingHero = () => {
                           </div>
                         </div>
                         <div className="process d-flex">
-                          <div class="">
+                          <div className="">
                             <img alt='' src="/webdads/images/content-writing/we-bring-traffic.webp"></img>
                           </div>
                           <div className="process-auto">
@@ -231,7 +231,7 @@ const ContentwritingHero = () => {
                           </div>
                         </div>
                         <div className="process d-flex">
-                          <div class="">
+                          <div className="">
                             <img alt='' src="/webdads/images/content-writing/we-get-you-leads.webp"></img>
                           </div>
                           <div className="process-auto">
@@ -240,7 +240,7 @@ const ContentwritingHero = () => {
                           </div>
                         </div>
                         <div className="process d-flex">
-                          <div class="">
+                          <div className="">
                             <img alt='' src="/webdads/images/content-writing/we-offer-conversions.webp"></img>
                           </div>
                           <div className="process-auto">

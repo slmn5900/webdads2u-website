@@ -54,7 +54,7 @@
 //                         <p className="brochure-page-paragraph">{paragraph1}</p>
 //                         <div className="brochure-page-buttonWrapper">
 //                             <button>
-//                                 <a className="button" href="https://webdads2u.com/contact-us/">
+//                                 <a className="button" href="/contact-us/">
 //                                     Contact Us
 //                                 </a>
 //                             </button>
@@ -162,7 +162,7 @@
 //                         <p className="brochure-page-paragraph">{paragraph1}</p>
 //                         <div className="brochure-page-buttonWrapper">
 //                             <button>
-//                                 <a className="button" href="https://webdads2u.com/contact-us/">
+//                                 <a className="button" href="/contact-us/">
 //                                     Contact Us
 //                                 </a>
 //                             </button>
@@ -292,7 +292,7 @@ const LoadMoreImageContainer = ({ images, heading1, heading2, paragraph1, paragr
                         <p className="brochure-page-paragraph">{paragraph1}</p>
                         <div className="brochure-page-buttonWrapper">
                             <button>
-                                <a className="button" href="https://webdads2u.com/contact-us/">
+                                <a className="button" href="/contact-us/">
                                     Contact Us
                                 </a>
                             </button>

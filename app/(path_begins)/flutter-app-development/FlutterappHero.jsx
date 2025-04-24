@@ -15,12 +15,12 @@ function FlutterappHero() {
                         <Col md={7} xs={7} lg={7}>
                             <h2>Flutter App Development</h2>
                             <p>Empower your online business with expert Shopify web development. Top rated Shopify development service provider.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div class="">
+                            <div className="">
                                 <img src="/webdads/images/flutterapp/flutter-hero.png" alt="mobileuiux-hero" className="w-100" />
                             </div>
                         </Col>
@@ -33,13 +33,13 @@ function FlutterappHero() {
             <section className="react-nativeimhr pt-5 pb-5">
                 <Container>
                     <Row className="align-items-center">
-                        <div class="text-center">
+                        <div className="text-center">
                             <h2>Flutter App Development Services to Craft Apps for Any Screens</h2>
                             <p>Flutter app development services permit you to create incredibly functional and innovative native applications for Android, iOS, and Web on a budget and timeline that are of the highest quality.</p>
                         </div>
 
                         <Col md={12} lg={6}>
-                            <div class="">
+                            <div className="">
                                 <h2>Flutter Expressive and Flexible</h2>
                                 <p>
                                     {' '}

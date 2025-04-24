@@ -15,12 +15,12 @@ function Openhero() {
                         <Col md={6} xs={7}>
                             <h2>Opencart Development</h2>
                             <p>Opencart development involves creating, customizing, and maintaining e-commerce websites using the Opencart platform. It encompasses theme design, module development, payment gateway integration, and optimization to deliver seamless online shopping experiences for businesses and customers.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
                         <Col md={6} xs={5}>
-                            <div class="">
+                            <div className="">
                                 <img src="/webdads/images/opencart/opencrat-banner.webp" alt="opencrat-banner" className="w-100" />
                             </div>
                         </Col>

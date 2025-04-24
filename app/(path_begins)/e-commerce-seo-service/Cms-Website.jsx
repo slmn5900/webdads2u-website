@@ -57,9 +57,9 @@ function Cmswebsite() {
                 </div>
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
-                        <div class="overlay"></div>
+                        <div className="overlay"></div>
 
-                        <div class="slider responsive-cmswebsite-slider">
+                        <div className="slider responsive-cmswebsite-slider">
                             <div>
                                 <img src="webdads/images/e-commerce-seo-service/download-5.png" alt="download-5" loading='lazy' className='img-fluid' />
                             </div>

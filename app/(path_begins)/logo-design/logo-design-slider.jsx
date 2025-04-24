@@ -56,9 +56,9 @@ function Logodesignslider() {
 
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
-                        <div class="overlay"></div>
+                        <div className="overlay"></div>
 
-                        <div class="slider logodesignslider-slider">
+                        <div className="slider logodesignslider-slider">
 
                             <div className='mt-0 mt-md-3 mt-lg-4'>
                                 <div className="card m-3 text-center">

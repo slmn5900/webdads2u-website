@@ -15,7 +15,7 @@ function FlyerHero() {
                             <div className="text-center">
                                 <h2>Flyers Designing Service in Chennai</h2>
                                 <p>Create captivating flyers with our innovative designs. Grab attention and convey your message effectively with our professional flyer designs.</p>
-                                <a href="https://webdads2u.com/contact-us/">
+                                <a href="/contact-us/">
                                 <a href="/contact-us"><Button variant="contained">Contact us</Button></a>
                                 </a>
                             </div>
@@ -30,7 +30,7 @@ function FlyerHero() {
                 <Container>
                     <Row>
                         <Col>
-                            <div class="text-center">
+                            <div className="text-center">
                                 <h2>Flyers esigning</h2>
                                 <p>
                                     Providing flyers designing services at a highly affordable price is the main focus of Webdads2u, a prominent company in Chennai, India. An attractive and impactful flyer directly appeals mass. In India, designing
@@ -100,7 +100,7 @@ function FlyerHero() {
                 </Container>
             </section>
             <SocialMedia />
-            <section class="pt-5 ">
+            <section className="pt-5 ">
                 <Container>
                     <Row>
                         <Col md={12} lg={8}>
@@ -155,7 +155,7 @@ function FlyerHero() {
             <section className="flyerbx pt-5 pb-5">
                 <Container>
                     <Row>
-                        <div class="text-center">
+                        <div className="text-center">
                             <h3>Opt for Flyers Design to portray your business ideas, products and growth prospects</h3>
                         </div>
                         <Col md={6} lg={4}>

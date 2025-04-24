@@ -54,9 +54,9 @@ function Technicalstack() {
                 </div>
                 <div className="row justify-content-center technicalstack-slider">
                     <div className="col-sm-12 col-md-12 col-lg-10 justify-content-center">
-                        <div class="overlay"></div>
+                        <div className="overlay"></div>
 
-                        <div class="slider responsive-technicalstack-slider">
+                        <div className="slider responsive-technicalstack-slider">
                             <div>
                                 <img src="webdads/images/HTML5/big-html.png" alt="big-html" loading='lazy' className='img-fluid' />
                             </div>

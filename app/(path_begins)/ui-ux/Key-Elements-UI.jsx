@@ -11,7 +11,7 @@ function KeyelementUI() {
                 </div>
                 <div className="row keyelementUI-flex">
                     <div className="col-sm-12 col-md-12 col-lg-12">
-                        <div class="d-flex flex-column flex-md-row mb-3  text-center">
+                        <div className="d-flex flex-column flex-md-row mb-3  text-center">
                             <div className="card flex-fill p-2">
                                 <div className="1">
                                     <img src="webdads/images/ui-ux/a.png" alt="a" loading='lazy' className='img-fluid' />
@@ -57,7 +57,7 @@ function KeyelementUI() {
                 </div>
                 <div className="row keyelementUI-flex">
                     <div className="col-sm-12 col-md-12 col-lg-12 element-we">
-                        <div class="d-flex flex-column flex-md-row mb-3 text-center ">
+                        <div className="d-flex flex-column flex-md-row mb-3 text-center ">
                             <div className="card flex-fill p-2">
                                 <div className="1">
                                     <img src="webdads/images/ui-ux/6.png" alt="6" loading='lazy' className='img-fluid' />

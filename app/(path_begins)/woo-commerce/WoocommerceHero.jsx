@@ -17,12 +17,12 @@ function WoocommerceHero() {
                                 Enhance your online store with expert WooCommerce Development services. Our skilled team crafts tailored solutions for seamless e-commerce experiences. From custom themes to advanced functionalities, we ensure your
                                 business stands out. Trust us to elevate your platform with our WooCommerce Development expertise.{' '}
                             </p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
                         <Col md={5} xs={5}>
-                            <div class="">
+                            <div className="">
                                 <img src="/webdads/images/wocommerce/woo-commerce-development.png" alt="opencrat-banner" className="w-100" />
                             </div>
                         </Col>
@@ -118,7 +118,7 @@ function WoocommerceHero() {
                         <div className="text-center">
                             <h2>Looking for Woo commerce Development? </h2>
                             <p>You are at the right place… Contact us today!</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Connect For Free Consultation</Button>
                             </a>
                         </div>

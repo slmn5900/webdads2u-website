@@ -13,12 +13,12 @@ function CustomerpHero() {
                         <Col md={7} xs={7} lg={7}>
                             <h2>Customized ERP Software Development Service </h2>
                             <p>Tailored ERP solutions: Streamline operations, boost efficiency. Expert development for your business needs. </p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div class="">
+                            <div className="">
                                 <img src="/webdads/images/customized-erp/customize-erp.png" alt="Shopify service" className="w-100" />
                             </div>
                         </Col>
@@ -29,7 +29,7 @@ function CustomerpHero() {
           <section className="pt-5 pb-5">
             <Container>
                 <Row>
-                    <div class="text-center">
+                    <div className="text-center">
                         <h2>Custom ERP Solution Company in India</h2>
                         <p>Discover a leading custom ERP solution company in India, specializing in bespoke ERP software development tailored to your unique business requirements. Our expert team harnesses cutting-edge technologies to deliver scalable and efficient ERP solutions that streamline operations and drive growth. Whether you’re a small startup or a large enterprise, our customizable ERP software empowers you to optimize processes, enhance productivity, and stay ahead of the competition. Partner with us for comprehensive ERP solutions designed to elevate your business performance</p>
                     </div>
@@ -44,7 +44,7 @@ function CustomerpHero() {
                             <div className="">
                                 <h2>Custom Made ERP Web App Development</h2>
                                 <p>Custom ERP software are meant to be aligned with business processes and assist in achieving target goals. ERPs are capable of being developed to encompass business process management, HR management systems, appraisal systems, lead management, inventory management, workflow management,</p>
-                                <a href="https://webdads2u.com/contact-us/">
+                                <a href="/contact-us/">
                                 <Button variant="contained">Contact us</Button>
                             </a>
                             </div>
@@ -91,7 +91,7 @@ function CustomerpHero() {
             <section className="our-cuserp pt-5 pb-5">
              <Container>
                 <Row>
-                    <div class="text-center">
+                    <div className="text-center">
                         <h2>Our Custom ERP Software Development Services </h2>
                         <p>Webdads2u’s team of experienced professionals offers a vast selection of ERP options to fit every business need.
 
@@ -154,7 +154,7 @@ function CustomerpHero() {
                         <div className="text-center">
                             <h2>Looking for Woo commerce Development? </h2>
                             <p>You are at the right place… Contact us today!</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Connect For Free Consultation</Button>
                             </a>
                         </div>

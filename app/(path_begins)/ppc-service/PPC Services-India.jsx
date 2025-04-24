@@ -15,31 +15,31 @@ function PPCservicesindia() {
                         <div className='header'>Looking for the Best SEO results?</div>
                         <h6>Why Choose Webdads2u For PPC Services in India</h6>
                         <p className='mb-3'>Choose Webdads2u for PPC services in India for expert management of Google Ads campaigns, strategic optimization, and a proven track record of delivering results-driven performance.</p>
-                        <div class="d-flex flex-row mb-3 pp-item">
-                            <div class="p-2 col-sm-1 col-md-1 col-lg-1 text-center align-self-center pps-item">
+                        <div className="d-flex flex-row mb-3 pp-item">
+                            <div className="p-2 col-sm-1 col-md-1 col-lg-1 text-center align-self-center pps-item">
                             <TfiBarChart className='pps-icon'/>
                             </div>
-                            <div class="p-2 col-sm-11 col-md-11 col-lg-11">
+                            <div className="p-2 col-sm-11 col-md-11 col-lg-11">
                                 <h5>Unmatched Portfolio</h5>
                                 <p>Slow pages, too-large CSS or HTML</p>
                             </div>
                         </div>
 
-                        <div class="d-flex flex-row mb-3 pp-item">
-                            <div class="p-2 col-sm-1 col-md-1 col-lg-1 text-center align-self-center pps-item">
+                        <div className="d-flex flex-row mb-3 pp-item">
+                            <div className="p-2 col-sm-1 col-md-1 col-lg-1 text-center align-self-center pps-item">
                             <FaHeadSideVirus className='pps-icon'/>
                             </div>
-                            <div class="p-2 col-sm-11 col-md-11 col-lg-11">
+                            <div className="p-2 col-sm-11 col-md-11 col-lg-11">
                                 <h5>Proven Expertise</h5>
                                 <p>All issues with hrefiang, language</p>
                             </div>
                         </div>
 
-                        <div class="d-flex flex-row mb-3 pp-item">
-                            <div class="p-2 col-sm-1 col-md-1 col-lg-1 text-center align-self-center pps-item">
+                        <div className="d-flex flex-row mb-3 pp-item">
+                            <div className="p-2 col-sm-1 col-md-1 col-lg-1 text-center align-self-center pps-item">
                             <MdFindInPage className='pps-icon'/>
                             </div>
-                            <div class="p-2 col-sm-11 col-md-11 col-lg-11">
+                            <div className="p-2 col-sm-11 col-md-11 col-lg-11">
                                 <h5>Content Quality</h5>
                                 <p>Unconsolidated duplicate page</p>
                             </div>

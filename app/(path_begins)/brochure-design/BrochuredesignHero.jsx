@@ -13,12 +13,12 @@ function BrochuredesignHero() {
                         <Col md={7} xs={7} lg={7}>
                             <h2>Best Social Media Design Company </h2>
                             <p>Unlock creativity with our Social Media Design services! Engaging visuals tailored to your brand. Let is elevate your online presence together.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <a href="/contact-us"><Button variant="contained">Contact us</Button></a>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div class="">
+                            <div className="">
                                 <img src="/webdads/images/brochuredesign/brochurehero.png" alt="socialmedia service" className="socialbanner" />
                             </div>
                         </Col>
@@ -61,7 +61,7 @@ function BrochuredesignHero() {
                     </Row>
                 </Container>
             </section>
-            <section class="pt-5 pb-5 in-addition">
+            <section className="pt-5 pb-5 in-addition">
                 <Container>
                     <Row>
                         <Col md={12} lg={6}>
@@ -134,7 +134,7 @@ function BrochuredesignHero() {
             <section className="amazing-web pt-5 pb-5" style={{ background: '#f5f5f5' }}>
                 <Container>
                     <Row>
-                        <div class="text-center">
+                        <div className="text-center">
                             <h3>Amazing Web Design Service</h3>
                         </div>
                         <Col md={6} lg={3}>
@@ -300,7 +300,7 @@ function BrochuredesignHero() {
                         <div className="text-center">
                             <h2>Looking for Brochure Design Services?</h2>
                             <p>Then you are at the right place!! Send us your requirements. We will get back to you with a free quote.</p>
-                            <a href="https://webdads2u.com/contact-us/">
+                            <a href="/contact-us/">
                                 <Button variant="contained">Connect For Free Consultation</Button>
                             </a>
                         </div>

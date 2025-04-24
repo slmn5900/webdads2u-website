@@ -14,7 +14,7 @@ function WebportalHero() {
                             <div className="">
                                 <h1>Web Portal Development</h1>
                                 <p>Building unique, industry-specific, custom-made web portals for outstanding customer experience</p>
-                                <a href="https://webdads2u.com/contact-us/">
+                                <a href="/contact-us/">
                                     <Button variant="contained">Contact us</Button>
                                 </a>
                             </div>
@@ -186,7 +186,7 @@ function WebportalHero() {
                         </div>
                        <Col md={3} xs={6}>
                        <div className="portal-developmentbox">
-                        <div class="prtdev-bximg">
+                        <div className="prtdev-bximg">
                         <img alt="" src="/webdads/images/webportal/portal-development-expertise.png"></img>
                         </div>
                          <h3>Portal Development</h3>
@@ -194,7 +194,7 @@ function WebportalHero() {
                        </Col>
                        <Col md={3} xs={6}>
                        <div className="portal-developmentbox">
-                        <div class="prtdev-bximg">
+                        <div className="prtdev-bximg">
                         <img alt="" src="/webdads/images/webportal/wide-range-of-services.webp"></img>
                         </div>
                          <h3>Wide-Range of Services</h3>
@@ -202,7 +202,7 @@ function WebportalHero() {
                        </Col>
                        <Col md={3} xs={6}>
                        <div className="portal-developmentbox">
-                        <div class="prtdev-bximg">
+                        <div className="prtdev-bximg">
                         <img alt="" src="/webdads/images/webportal/technology-expertise.png"></img>
                         </div>
                          <h3>Technology Expertise</h3>
@@ -210,7 +210,7 @@ function WebportalHero() {
                        </Col>
                        <Col md={3} xs={6}>
                        <div className="portal-developmentbox">
-                        <div class="prtdev-bximg">
+                        <div className="prtdev-bximg">
                         <img alt="" src="/webdads/images/webportal/affordable-packages.png"></img>
                         </div>
                          <h3>Affordable Packages</h3>
@@ -221,7 +221,7 @@ function WebportalHero() {
                     <Row className='pt-5'>
                        <Col md={3} xs={6}>
                        <div className="portal-developmentbox">
-                        <div class="prtdev-bximg">
+                        <div className="prtdev-bximg">
                         <img alt="" src="/webdads/images/webportal/customer-satisfaction.png"></img>
                         </div>
                          <h3>Customer Satisfaction</h3>
@@ -229,7 +229,7 @@ function WebportalHero() {
                        </Col>
                        <Col md={3} xs={6}>
                        <div className="portal-developmentbox">
-                        <div class="prtdev-bximg">
+                        <div className="prtdev-bximg">
                         <img alt="" src="/webdads/images/webportal/web-portal-round-the-clock-support.png"></img>
                         </div>
                          <h3>Round The Clock Support</h3>
@@ -237,7 +237,7 @@ function WebportalHero() {
                        </Col>
                        <Col md={3} xs={6}>
                        <div className="portal-developmentbox">
-                        <div class="prtdev-bximg">
+                        <div className="prtdev-bximg">
                         <img alt="" src="/webdads/images/webportal/reliable-solutions.png"></img>
                         </div>
                          <h3>Reliable Solutions</h3>
@@ -245,7 +245,7 @@ function WebportalHero() {
                        </Col>
                        <Col md={3} xs={6}>
                        <div className="portal-developmentbox">
-                        <div class="prtdev-bximg">
+                        <div className="prtdev-bximg">
                         <img alt="" src="/webdads/images/webportal/tailor-made-solutions.png"></img>
                         
                         </div>
