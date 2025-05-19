@@ -64,8 +64,13 @@ const LogoMain = () => {
       <Graphiclogodesign />
       <Logotimeline />
       <TypesLogo />
+<<<<<<< HEAD
       <SocialMedia />
       <Fqlogodesign />
+=======
+      <Fqlogodesign />
+      <SocialMedia />
+>>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 };

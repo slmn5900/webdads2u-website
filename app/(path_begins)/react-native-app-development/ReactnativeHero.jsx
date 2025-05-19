@@ -123,7 +123,10 @@ function ReactnativeHero() {
                     </Row>
                 </Container>
             </section>
+<<<<<<< HEAD
             <SocialMedia />
+=======
+>>>>>>> 6010d3c (Add new features and updates)
             <section className="react-nativebx pt-5 " style={{ background: '#f5f5f5' }}>
                 <Container>
                     <Row>
@@ -188,6 +191,11 @@ function ReactnativeHero() {
                     </Row>
                 </Container>
             </section>
+<<<<<<< HEAD
+=======
+
+            <SocialMedia />
+>>>>>>> 6010d3c (Add new features and updates)
         </>
     );
 }

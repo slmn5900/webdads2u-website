@@ -2,6 +2,10 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { MdDoubleArrow } from "react-icons/md";
 import SocialMedia from '../../../components/common/SocialMedia';
+<<<<<<< HEAD
+=======
+import Sliderimage from '../../../components/common/Slider-image';
+>>>>>>> 6010d3c (Add new features and updates)
 function ShopifyHero() {
     return (
         <>
@@ -23,6 +27,10 @@ function ShopifyHero() {
                     </Row>
                 </Container>
             </section>
+<<<<<<< HEAD
+=======
+            <Sliderimage/>
+>>>>>>> 6010d3c (Add new features and updates)
             <section className="leading-shopify pt-5 pb-5">
                 <Container>
                     <Row>

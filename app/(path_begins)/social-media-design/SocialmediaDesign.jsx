@@ -37,8 +37,13 @@ const SocialmediaDesign = () => {
     <>
       <SocialmediaHero />
       <SocialmediaGallery />
+<<<<<<< HEAD
       <SocialMedia />
       <SocialmediaFaq />
+=======
+      <SocialmediaFaq />
+      <SocialMedia />
+>>>>>>> 6010d3c (Add new features and updates)
     </>
   );
 }

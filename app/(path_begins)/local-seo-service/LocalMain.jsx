@@ -49,10 +49,17 @@ const LocalMain = () => {
       <SEOservicesindia />
       <Whyseo />
       <Localseoservicesinclude />
+<<<<<<< HEAD
       <SocialMedia />
       <LocalSEOcompany />
       <LookingEcommerceSEO />
       <FQlocalseoservice />
+=======
+      <LocalSEOcompany />
+      <LookingEcommerceSEO />
+      <FQlocalseoservice />
+      <SocialMedia />
+>>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 };

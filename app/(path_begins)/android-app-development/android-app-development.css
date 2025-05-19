@@ -235,8 +235,13 @@
   height: 300px;
   perspective: 900px;
   margin-bottom: 30px;
+<<<<<<< HEAD
   /* background: #fff; */
   background: #fffafa;
+=======
+  background: #fff;
+  /* background: #fffafa; */
+>>>>>>> 6010d3c (Add new features and updates)
   border: 0px solid;
 }
 
@@ -333,6 +338,10 @@
   font-size: 14px;
   font-weight: 400;
   padding-bottom: 20px;
+<<<<<<< HEAD
+=======
+  line-height: 1.8;
+>>>>>>> 6010d3c (Add new features and updates)
 }
 
 .AndroidApplicationDevelopmentServices-flex-contend a {
@@ -342,6 +351,10 @@
   font-weight: 400;
   text-decoration: none;
   padding: 8px;
+<<<<<<< HEAD
+=======
+  line-height: 1.8;
+>>>>>>> 6010d3c (Add new features and updates)
 }
 
 .AndroidApplicationDevelopmentServices-flex-contend .AndroidApplicationDevelopmentServices-flex-contend-icon {
@@ -406,6 +419,10 @@
   color: #0B1225;
   font-family: "Poppins", Sans-serif;
   font-weight: 600;
+<<<<<<< HEAD
+=======
+    font-size: 22px;
+>>>>>>> 6010d3c (Add new features and updates)
 }
 
 .Webdads2uTechnologies-card p {

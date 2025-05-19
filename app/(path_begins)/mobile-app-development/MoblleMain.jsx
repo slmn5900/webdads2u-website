@@ -60,8 +60,13 @@ const MoblleMain = () => {
       <AppDesignProcess />      
       <Industries />      
       <Businesseschoose />     
+<<<<<<< HEAD
       <SocialMedia />     
       <AppDevelopmentServices />      
+=======
+      <AppDevelopmentServices />      
+      <SocialMedia />     
+>>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 };

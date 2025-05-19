@@ -3,6 +3,7 @@ import React from 'react'
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
 const page = () => {
   const images = [
+<<<<<<< HEAD
     { alt: 'adsfit', name: 'adsfit', url: '/webdads/images/logo/adsfit.webp' },
     { alt: 'bsquar', name: 'bsquar', url: '/webdads/images/logo/bsquar.webp' },
     { alt: 'magmee', name: 'magmee', url: '/webdads/images/logo/magmee.webp' },
@@ -44,6 +45,41 @@ const page = () => {
     { alt: 'studio87', name: 'studio87', url: '/webdads/images/logo/studio87.jpg' },
     { alt: 'ticket-fusion', name: 'ticket-fusion', url: '/webdads/images/logo/ticket-fusion.jpg' },
     
+=======
+    { alt: 'adsfit', name: 'Adsfit', url: '/webdads/images/logo/adsfit.webp' },
+    { alt: 'bsquar', name: 'Bsquar', url: '/webdads/images/logo/bsquar.webp' },
+    { alt: 'magmee', name: 'Magmee', url: '/webdads/images/logo/magmee.webp' },
+    { alt: 'globel', name: 'Globel', url: '/webdads/images/logo/globel.webp' },
+    { alt: 'rmp', name: 'RMP', url: '/webdads/images/logo/rmp.jpg' },
+    { alt: 'securitaz', name: 'Securitaz', url: '/webdads/images/logo/securitaz.jpg' },
+    { alt: 'skp', name: 'SKP', url: '/webdads/images/logo/skp.jpg' },
+    { alt: 'studio87', name: 'Studio87', url: '/webdads/images/logo/studio87.jpg' },
+    { alt: 'arcman', name: 'Arcman', url: '/webdads/images/logo/arcman.jpg' },
+    { alt: 'bhava', name: 'Bhava', url: '/webdads/images/logo/bhava.jpg' },
+    { alt: 'boopathi', name: 'Boopathi', url: '/webdads/images/logo/boopathi.jpg' },
+    { alt: 'coin-products', name: 'Coin Products', url: '/webdads/images/logo/coin-products.jpg' },
+    { alt: 'computer-garage', name: 'Computer Garage', url: '/webdads/images/logo/computer-garage.jpg' },
+    { alt: 'cool-tech-solution', name: 'Cool Tech Solution', url: '/webdads/images/logo/cool-tech-solution.jpg' },
+    { alt: 'drudent-store', name: 'Drudent Store', url: '/webdads/images/logo/drudent-store.jpg' },
+    { alt: 'ds-solution', name: 'DS Solution', url: '/webdads/images/logo/ds-solution.jpg' },
+    { alt: 'high-look', name: 'High Look', url: '/webdads/images/logo/high-look.jpg' },
+    { alt: 'integra', name: 'Integra', url: '/webdads/images/logo/integra.jpg' },
+    { alt: 'lalit', name: 'Lalit', url: '/webdads/images/logo/lalit.jpg' },
+    { alt: 'mart', name: 'Mart', url: '/webdads/images/logo/mart.jpg' },
+    { alt: 'monarch-info-solution', name: 'Monarch Info Solution', url: '/webdads/images/logo/monarch-info-solution.jpg' },
+    { alt: 'nivas', name: 'Nivas', url: '/webdads/images/logo/nivas.jpg' },
+    { alt: 'oilsep', name: 'Oilsep', url: '/webdads/images/logo/oilsep.jpg' },
+    { alt: 'oyc-fresh', name: 'OYC Fresh', url: '/webdads/images/logo/oyc-fresh.jpg' },
+    { alt: 'peacock-crest', name: 'Bpeacock Crestumas', url: '/webdads/images/logo/peacock-crest.jpg' },
+    { alt: 'Pharma', name: 'Pharma', url: '/webdads/images/logo/Pharma.jpg' },
+    { alt: 'relife', name: 'Relife', url: '/webdads/images/logo/relife.jpg' },
+    { alt: 'rmp', name: 'RMP', url: '/webdads/images/logo/rmp.jpg' },
+    { alt: 'sash', name: 'Sash', url: '/webdads/images/logo/sash.jpg' },
+    { alt: 'smart-cuckings', name: 'Smart Cuckings', url: '/webdads/images/logo/smart-cuckings.jpg' },
+    { alt: 'smhe', name: 'SMHE', url: '/webdads/images/logo/smhe.jpg' },
+    { alt: 'studio87', name: 'Studio87', url: '/webdads/images/logo/studio87.jpg' },
+    { alt: 'ticket-fusion', name: 'Ticket Fusion', url: '/webdads/images/logo/ticket-fusion.jpg' },
+>>>>>>> 6010d3c (Add new features and updates)
   ];
 
 const datas = {

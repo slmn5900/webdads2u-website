@@ -1,6 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaCircleCheck } from "react-icons/fa6";
+<<<<<<< HEAD
+=======
+import Slider2 from '../../../components/common/Slider2';
+>>>>>>> 6010d3c (Add new features and updates)
 
 function Wavecard() {
     return (
@@ -90,7 +94,11 @@ function Wavecard() {
                         <div className="text-center">
                             <h2>CRM DEVELOPMENT SOLUTION</h2>
                             <p>Boost efficiency, streamline processes, and enhance customer relationships seamlessly. Empower your business with our tailored CRM development solutions – Best CRM for small businesses.</p>
+<<<<<<< HEAD
                             <img alt='' src="/webdads/images/crm/crm-mockup.jpg" className="w-100"></img>
+=======
+                            <img alt='' src="/webdads/images/crm/crm-mockup.jpg" height="267" width="600"></img>
+>>>>>>> 6010d3c (Add new features and updates)
                         </div>
                     </Row>
                     <Row className="pt-5 ">
@@ -132,6 +140,7 @@ function Wavecard() {
                     </Row>
                 </Container>
             </section>
+<<<<<<< HEAD
             <section>
                 <Container>
                     <Row>
@@ -139,6 +148,16 @@ function Wavecard() {
                             <div className="text-center">
                                 <h2>Our Industry-Leaditng CRM Platform Tools And Integrations</h2>
                             </div>
+=======
+            <section className='mb-5'>
+                <Container>
+                    <Row>
+                        <Col>
+                            <div className="text-center mt-5">
+                                <h2 style={{color:"unset"}}>Our Industry-Leaditng CRM Platform Tools And Integrations</h2>
+                            </div>
+                            <Slider2/>   
+>>>>>>> 6010d3c (Add new features and updates)
                         </Col>
                     </Row>
                 </Container>
@@ -151,7 +170,11 @@ function Wavecard() {
                                 <h2>ERP Development</h2>
                                 <p>Streamline operations with custom ERP development for seamless integration and efficient business processes.</p>
                             </div>
+<<<<<<< HEAD
                         
+=======
+                                                 
+>>>>>>> 6010d3c (Add new features and updates)
                     </Row>
                     <Row>
                         <Col md={6}>

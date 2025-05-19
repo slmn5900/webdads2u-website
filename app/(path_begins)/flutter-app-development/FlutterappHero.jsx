@@ -47,6 +47,12 @@ function FlutterappHero() {
                                     feature-rich applications that are effortless to run on iOS, Android, the web, Windows, MacOS, and Linux platforms by utilizing a single codebase.
                                 </p>
                                 <p>Radixweb’s Flutter app development for mobile is powered by Flutter experts who have years of experience, an expressive and dynamic UI, and Flutter’s ability to create business-ready apps.</p>
+<<<<<<< HEAD
+=======
+                                <a href="/contact-us">
+                                <button className='flutter-app-contact-btn'>Contact us</button>
+                                </a>
+>>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                         <Col md={12} lg={6}>

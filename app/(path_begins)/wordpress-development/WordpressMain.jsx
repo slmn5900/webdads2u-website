@@ -60,11 +60,18 @@ const WordpressMain = () => {
       <WordPressplugins />
       <TopQualityWordPress />
       <Themes />
+<<<<<<< HEAD
       <SocialMedia />
+=======
+>>>>>>> 6010d3c (Add new features and updates)
       <WordpressCard />
       <WordPressWebsiteworks />
       <WordPressDevelopmentService />
       <FrequentlyAskedQuestions />
+<<<<<<< HEAD
+=======
+      <SocialMedia />
+>>>>>>> 6010d3c (Add new features and updates)
     </section>
   );
 }

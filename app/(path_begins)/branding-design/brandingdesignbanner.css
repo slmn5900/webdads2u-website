@@ -1,5 +1,6 @@
 /* branding-design-banner */
 .brandingdesignbanner-main {
+<<<<<<< HEAD
   background: linear-gradient(70deg, rgba(101, 37, 138, 1) 0%, rgba(232, 5, 102, 1) 100%);
   padding: 60px 0px;
 }
@@ -108,10 +109,120 @@
   .SliderimagebrandingdesignStreaming-png h1 {
     font-size: 25px;
   }
+=======
+    background: linear-gradient(70deg, rgba(101, 37, 138, 1) 0%, rgba(232, 5, 102, 1) 100%);
+    padding: 60px 0px;
+}
+
+/* branding-design-slider-iamge */
+
+.slider-image-branding-design .android-app-gallery-slider-banner {
+    position: absolute;
+    top: 549px;
+    left: 87px;
+}
+
+.slider-image-branding-design {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ececec;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.slider-image-branding-design h1 {
+    color: #141414;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.slider-image-branding-design img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .next {
+        display: none !important;
+    }
+
+    .slider-image-branding-design img {
+        width: 100px;
+        padding: 5px;
+    }
+}
+
+/* branding-design-slier-png */
+.SliderimagebrandingdesignStreaming {
+    background: rgb(245, 245, 247);
+    padding: 60px 0px;
+}
+
+.SliderimagebrandingdesignStreaming-png h1 {
+    color: #262250;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.SliderimagebrandingdesignStreaming-span {
+    color: #e80566 !important;
+}
+
+.image-item {
+    padding: 20px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(211.73269653320312, 207.58370923727713, 207.58370923727713, 0.5);
+    width: 90% !important;
+    max-width: 220px;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.SliderimagebrandingdesignStreaming-png img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}
+
+.image-item h2 {
+    color: #000000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 20px 25px 20px;
+}
+
+.slick-prev:before {
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    .SliderimagebrandingdesignStreaming {
+        padding: 30px 0px;
+    }
+
+    .SliderimagebrandingdesignStreaming-png h1 {
+        font-size: 25px;
+    }
+>>>>>>> 6010d3c (Add new features and updates)
 }
 
 /* brandidentity */
 .brandidentity-banner {
+<<<<<<< HEAD
   background: rgb(245, 245, 247);
   padding: 60px 0px;
 }
@@ -245,11 +356,146 @@
   .BrandingServices-flex a {
     font-size: 12px;
   }
+=======
+    background: rgb(245, 245, 247);
+    padding: 60px 0px;
+}
+
+.brandidentity h1 {
+    color: #262250;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.brandidentity p {
+    color: #000000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 425px) {
+    .brandidentity p {
+        text-align: justify;
+    }
+}
+
+.brandidentity-card .card {
+    padding: 30px 30px 30px 30px;
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 10px 0px #eeeef0;
+    height: 270px;
+    margin-bottom: 10px;
+}
+
+.brandidentity-card h1 {
+    color: #141414;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.brandidentity-card p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.brandidentity-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+@media screen and (max-width: 768px) {
+    .brandidentity-banner {
+        padding: 30px 0px;
+    }
+
+    .brandidentity h1 {
+        font-size: 25px;
+    }
+}
+
+/* BrandingServices */
+.BrandingServices-banner {
+    padding: 60px 0px;
+}
+
+.BrandingServices h1 {
+    display: inline-block;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    background-image: linear-gradient(90deg, #65258a 0%, #e80566 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.BrandingServices p {
+    text-align: justify;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.BrandingServices-span {
+    font-family: 'Poppins', Sans-serif;
+    color: #7a7a7a;
+    font-weight: 800;
+}
+
+.BrandingServices-flex img {
+    height: auto;
+    max-width: 100%;
+    margin: 0px 0px;
+    margin: 4px 10px 4px 0px;
+}
+
+.BrandingServices-flex a {
+    color: #262250;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .BrandingServices-banner {
+        padding: 30px 0px;
+    }
+
+    .BrandingServices h1 {
+        font-size: 25px;
+    }
+
+    .BrandingServices-flex img {
+        margin: 2px 5px 5px 0px;
+    }
+
+    .BrandingServices-flex a {
+        font-size: 12px;
+    }
+>>>>>>> 6010d3c (Add new features and updates)
 }
 
 /* BrandIdentityIncludes */
 
 .BrandIdentityIncludes-main {
+<<<<<<< HEAD
   padding: 60px 0px;
   background: f5f5f5;
 }
@@ -319,10 +565,81 @@
   .BrandIdentityIncludes .BrandIdentityIncludes-span {
     font-size: 28px;
   }
+=======
+    padding: 60px 0px;
+    background: f5f5f5;
+}
+
+.BrandIdentityIncludes h1 {
+    color: #03396c;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.BrandIdentityIncludes .BrandIdentityIncludes-span {
+    background-image: linear-gradient(90deg, #65258a 0%, #e80566 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+    font-size: 45px;
+}
+
+.BrandIdentityIncludes p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.BrandIdentityIncludes-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.BrandIdentityIncludes-card .card {
+    padding: 15px 15px 0 15px;
+    background-color: #fff;
+    border: 1px solid #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #eeeef0;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.BrandIdentityIncludes-card .card-title {
+    color: #141414;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .BrandIdentityIncludes-main {
+        padding: 30px 0px;
+    }
+
+    .BrandIdentityIncludes h1 {
+        font-size: 25px;
+    }
+
+    .BrandIdentityIncludes .BrandIdentityIncludes-span {
+        font-size: 28px;
+    }
+>>>>>>> 6010d3c (Add new features and updates)
 }
 
 /* ThinkingProcess */
 .ThinkingProcess-main {
+<<<<<<< HEAD
   padding: 60px 0px;
 }
 
@@ -369,10 +686,59 @@
   .ThinkingProcess p {
     text-align: justify;
   }
+=======
+    padding: 60px 0px;
+}
+
+.ThinkingProcess h1 {
+    color: #03396c;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.ThinkingProcess .ThinkingProcess-span {
+    background-image: linear-gradient(90deg, #65258a 0%, #e80566 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+}
+
+.ThinkingProcess p {
+    color: #000;
+    font-family: 'Poppins', Sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 0 10px 0px;
+}
+
+.ThinkingProcess-img h3 {
+    color: #03396c;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .ThinkingProcess-main {
+        padding: 30px 0px;
+    }
+
+    .ThinkingProcess h1 {
+        font-size: 25px;
+    }
+    .ThinkingProcess p {
+        text-align: justify;
+    }
+>>>>>>> 6010d3c (Add new features and updates)
 }
 
 /* Portfolio */
 .Portfolio-main {
+<<<<<<< HEAD
   padding: 60px 0px;
   background: #f5f5f5;
 }
@@ -414,11 +780,55 @@
   .Portfolio img {
     padding: 8px;
   }
+=======
+    padding: 60px 0px;
+    background: #f5f5f5;
+}
+
+.Portfolio h1 {
+    background-image: linear-gradient(90deg, #65258a 0%, #e80566 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.Portfolio img {
+    padding: 12px;
+}
+
+.Portfolio .slick-dots li button:before {
+    font-size: 18px;
+}
+
+.Portfolio .slick-dots li.slick-active button:before {
+    color: #e80566;
+}
+
+@media screen and (max-width: 768px) {
+    .Portfolio-main {
+        padding: 30px 0px;
+    }
+
+    .Portfolio h1 {
+        font-size: 25px;
+    }
+
+    .Portfolio img {
+        padding: 8px;
+    }
+>>>>>>> 6010d3c (Add new features and updates)
 }
 
 /* FocusOnBranding */
 
 .FocusOnBranding-main {
+<<<<<<< HEAD
   background-color: transparent;
   background-image: linear-gradient(180deg, #65258A 0%, #E80566 100%);
   padding: 60px 0px;
@@ -469,10 +879,62 @@
     font-size: 25px;
     padding: 15px 0px;
   }
+=======
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #65258a 0%, #e80566 100%);
+    padding: 60px 0px;
+}
+
+.FocusOnBranding h1 {
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 30px 0px;
+}
+
+.FocusOnBranding-card .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.FocusOnBranding-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FocusOnBranding-card .card-title {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.FocusOnBranding-card .card-text:last-child {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .FocusOnBranding-main {
+        padding: 30px 0px;
+    }
+
+    .FocusOnBranding h1 {
+        font-size: 25px;
+        padding: 15px 0px;
+    }
+>>>>>>> 6010d3c (Add new features and updates)
 }
 
 /* helpyourbusiness */
 .helpyourbusiness-main {
+<<<<<<< HEAD
   padding: 60px 0px;
 }
 
@@ -595,3 +1057,117 @@
     right: 20px !important;
   }
 }
+=======
+    padding: 60px 0px;
+}
+
+.helpyourbusiness h2 {
+    color: #262250;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.helpyourbusiness p {
+    color: #000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .helpyourbusiness-main {
+        padding: 30px 0px;
+    }
+
+    .helpyourbusiness h1 {
+        font-size: 25px;
+    }
+}
+
+/*  */
+
+/* FrequentlyAskedQuestions */
+.FrequentlyAskedQuestions-banner {
+    background: #f1f1f1;
+    padding: 60px 0px;
+}
+
+.FrequentlyAskedQuestions-header h1 {
+    color: rgb(10, 31, 95);
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.FrequentlyAskedQuestions-header p {
+    color: rgb(0, 0, 0);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-body {
+    color: var(--e-global-color-text);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203a !important;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203a !important;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .FrequentlyAskedQuestions-banner {
+        padding: 30px 0px;
+    }
+
+    .FrequentlyAskedQuestions-header h1 {
+        font-size: 25px;
+    }
+}
+
+/* ************************************* */
+@media screen and (max-width: 768px) {
+    .slick-next:before {
+        display: none !important;
+    }
+
+    /* .Portfolio [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+    display: none !important;
+  } */
+    .slick-next {
+        right: 20px !important;
+    }
+}
+>>>>>>> 6010d3c (Add new features and updates)

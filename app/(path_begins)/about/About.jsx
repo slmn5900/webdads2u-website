@@ -5,6 +5,13 @@ import { IoPlayCircle } from 'react-icons/io5';
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import Counter from '../../../components/Counter';
 import { FaMedal } from 'react-icons/fa';
+<<<<<<< HEAD
+=======
+import { Carousel } from 'react-bootstrap';
+import { Accordion } from 'react-bootstrap';
+// import styles from './FAQ.module.css'; // Import custom CSS module
+import '../../../style/home/landing_page.scss';
+>>>>>>> 6010d3c (Add new features and updates)
 
 const values = [
     {
@@ -39,6 +46,36 @@ const values = [
     }
 ];
 
+<<<<<<< HEAD
+=======
+const testimonials = [
+    {
+        name: 'Yaser',
+        role: 'Founder',
+        content: 'Great work by Webdads, prompt and efficient service. I am overall satisfied with their performance for the design of our company brochure.',
+        imgSrc: '/webdads/images/home/testimonial/client-review-1.avif'
+    },
+    {
+        name: 'Suresh',
+        role: 'Founder',
+        content: 'Excellent work with reasonable cost. You can blindly approach them, sure you will get excellent output which is beyond your expectation.',
+        imgSrc: '/webdads/images/home/testimonial/client-review-2.avif'
+    },
+    {
+        name: 'Lakshmanan Annamalai',
+        role: 'Founder',
+        content: 'Best people to work with. 100% hard worker, gave a neat finish and great look towards my website. Solomon is flexible and keeps up the works up to date.',
+        imgSrc: '/webdads/images/home/testimonial/client-review-3.avif'
+    },
+    {
+        name: 'Smilee',
+        role: 'Founder',
+        content: 'Very responsive & professional workers. I am so happy & satisfied with their work.',
+        imgSrc: '/webdads/images/home/testimonial/client-review-4.avif'
+    }
+];
+
+>>>>>>> 6010d3c (Add new features and updates)
 const AboutPage = () => {
     return (
         <>
@@ -123,7 +160,11 @@ const AboutPage = () => {
                 </div>
                 <Container className="about-page-card-container">
                     <div className="row">
+<<<<<<< HEAD
                         <section className="col-md-4">
+=======
+                        <section className="col-md-4" style={{ height: '500px', maxHeight: '500px' }}>
+>>>>>>> 6010d3c (Add new features and updates)
                             <div className="d-flex justify-content-center">
                                 <Image src="/webdads/images/about-page/misson-about.avif" width={448} height={299} alt="Mission Image" fluid />
                             </div>
@@ -142,7 +183,11 @@ const AboutPage = () => {
                             </div>
                         </section>
 
+<<<<<<< HEAD
                         <section className="col-md-4">
+=======
+                        <section className="col-md-4" style={{ height: '500px', maxHeight: '500px' }}>
+>>>>>>> 6010d3c (Add new features and updates)
                             <div className="d-flex justify-content-center">
                                 <Image src="/webdads/images/about-page/vission.avif" width={625} height={625} alt="Vision Image" fluid />
                             </div>
@@ -162,7 +207,11 @@ const AboutPage = () => {
                         </section>
 
                         {/* Goals Section */}
+<<<<<<< HEAD
                         <section className="col-md-4">
+=======
+                        <section className="col-md-4" style={{ height: '500px', maxHeight: '500px' }}>
+>>>>>>> 6010d3c (Add new features and updates)
                             <div>
                                 <div className="d-flex justify-content-center">
                                     <Image src="/webdads/images/about-page/goal.avif" width={448} height={299} alt="Goals Image" fluid />
@@ -184,7 +233,13 @@ const AboutPage = () => {
                     </div>
                 </Container>
                 {/* ====================================================== */}
+<<<<<<< HEAD
                 <Counter />
+=======
+                {/* ====================================================== */}
+                <Counter />
+
+>>>>>>> 6010d3c (Add new features and updates)
                 {/* ====================================================== */}
                 <section style={{ backgroundImage: ` linear-gradient(90deg, #871752 1%, #262250 44%)` }}>
                     <div className="container">
@@ -205,7 +260,11 @@ const AboutPage = () => {
                         <div className="row">
                             {values.map((value, index) => (
                                 <div key={index} className="col-sm-12 col-md-4 mb-4">
+<<<<<<< HEAD
                                     <div className="about-page-card text-center bg-transparent text-white">
+=======
+                                    <div className="about-page-card text-center bg-transparent text-white" style={{ height: '300px', maxHeight: '400px' }}>
+>>>>>>> 6010d3c (Add new features and updates)
                                         <div>
                                             <img src={value.imgSrc} className="" alt={`${value.title} image`} loading="lazy" width="100" height="100" />
                                         </div>
@@ -219,6 +278,56 @@ const AboutPage = () => {
                         </div>
                     </div>
                 </section>
+<<<<<<< HEAD
+=======
+                <div className="container p-0">
+                    <div
+                        className="row"
+                        style={{
+                            backgroundImage: `url(https://res.cloudinary.com/dbpv95wd8/image/upload/v1746193416/bg-testimonial1_edba8a.jpg)`,
+                            backgroundPosition: 'bottom center',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover'
+                        }}
+                    >
+                        <section className="col-md-6 mt-3" >
+                            <div className="landing-page-testimonial">
+                                <span
+                                    style={{
+                                        color: '#262250',
+                                        fontFamily: '"Poppins", Sans-serif',
+                                        fontSize: '18px',
+                                        fontWeight: 700,
+                                        WebkitTextStrokeColor: '#000',
+                                        stroke: '#000'
+                                    }}
+                                >
+                                    Testimonial
+                                </span>
+                                {/* <div className="container mt-5"> */}
+                                <h4 style={{ fontWeight: 700, fontSize: '42px' }}>Few of Our Client’s feedback of users!</h4>
+                            </div>
+                            <Carousel className="carousel-parent-container">
+                                {testimonials.map((testimonial, index) => (
+                                    <Carousel.Item key={index} className="carousel-item-container">
+                                        <div className="d-flex justify-content-center">
+                                            <img className="d-block rounded-circle" src={testimonial.imgSrc} alt={testimonial.name} style={{ width: '100px', height: '100px' }} />
+                                        </div>
+                                        <Carousel.Caption className="landing-page-testimonial-carousel-caption" style={{ position: 'unset' }}>
+                                            <p className="landing-page-testimonial-carousel-caption-p" style={{ textAlign: 'left' }}>
+                                                {testimonial.content}
+                                            </p>
+                                            <h3 className="text-center">{testimonial.name}</h3>
+                                            <h4 className="text-center">{testimonial.role}</h4>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                ))}
+                            </Carousel>
+                            {/* </div> */}
+                        </section>
+                    </div>
+                </div>
+>>>>>>> 6010d3c (Add new features and updates)
             </section>
         </>
     );

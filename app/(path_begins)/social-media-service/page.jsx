@@ -3,6 +3,7 @@ import React from 'react'
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
 const page = () => {
   const images = [
+<<<<<<< HEAD
     { alt: 'adsfit', name: 'adsfit', url: '/webdads/images/socialmedia/adsfit.jpg' },
     { alt: 'atgomart', name: 'rmp', url: '/webdads/images/socialmedia/atgomart.jpg' },
     { alt: 'diamend', name: 'diamend', url: '/webdads/images/socialmedia/diamend.jpg' },
@@ -28,6 +29,31 @@ const page = () => {
     { alt: '15', name: '15', url: '/webdads/images/wordpress/15.jpg' },
     { alt: '16', name: '16', url: '/webdads/images/wordpress/16.jpg' },
     { alt: '17', name: '17', url: '/webdads/images/wordpress/17.jpg' },
+=======
+    { alt: 'adsfit', name: 'Adsfit', url: '/webdads/images/socialmedia/adsfit.jpg' },
+    { alt: 'atgomart', name: 'Atgomart', url: '/webdads/images/socialmedia/atgomart.jpg' },
+    { alt: 'diamend', name: 'Diamend', url: '/webdads/images/socialmedia/diamend.jpg' },
+    { alt: 'atgomaquafloart', name: 'Aquaflo', url: '/webdads/images/socialmedia/aquaflo.jpg' },
+    { alt: 'globel', name: 'Globel', url: '/webdads/images/socialmedia/globel.jpg' },
+    { alt: 'lalit', name: 'Lalit', url: '/webdads/images/socialmedia/lalit.jpg' },
+
+    { alt: 'rajvision', name: 'Rajvision', url: '/webdads/images/socialmedia/rajvision.jpg' },
+    { alt: 'rajvision-1', name: 'Rajvision-1', url: '/webdads/images/socialmedia/rajvision-1.jpg' },
+    { alt: 'round', name: 'Round', url: '/webdads/images/socialmedia/round.jpg' },
+    { alt: 'team-water', name: 'Team Water', url: '/webdads/images/socialmedia/team-water.jpg' },
+    { alt: 'webdads', name: 'Webdads', url: '/webdads/images/socialmedia/webdads.jpg' },
+    { alt: '7', name: '', url: '/webdads/images/socialmedia/7.jpg' },
+    { alt: '8', name: '', url: '/webdads/images/socialmedia/8.jpg' },
+    { alt: '9', name: '', url: '/webdads/images/socialmedia/9.jpg' },
+    { alt: '10', name: '', url: '/webdads/images/socialmedia/10.jpg' },
+    { alt: '12', name: '', url: '/webdads/images/socialmedia/12.jpg' },
+    { alt: '13', name: '', url: '/webdads/images/socialmedia/13.jpg' },
+    { alt: '14', name: '', url: '/webdads/images/socialmedia/14.jpg' },
+
+    { alt: '15', name: '', url: '/webdads/images/wordpress/15.jpg' },
+    { alt: '16', name: '', url: '/webdads/images/wordpress/16.jpg' },
+    { alt: '17', name: '', url: '/webdads/images/wordpress/17.jpg' },
+>>>>>>> 6010d3c (Add new features and updates)
   
   ];
 

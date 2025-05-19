@@ -7,12 +7,21 @@ function Mobileappdevelopmentbanner() {
     <section className='mobileappdevelopmentbanner-amin'>
       <div className="container">
         <div className="row mobileappdevelopmentbanner">
+<<<<<<< HEAD
           <div className="col-7 col-sm-6 col-md-6 col-lg-7">
             <h1>Mobile Application Development
               Service in Chennai</h1>
             <p>Elevate your business with cutting-edge Mobile App
               Development Services in Chennai by Webdads2u.</p>
             <button className='d-none d-sm-block'>Contact us</button>
+=======
+          <div className="col-7 col-sm-6 col-md-6 col-lg-7" >
+            <h1 style={{position:"relative",zIndex:1}}>Mobile Application Development
+              Service in Chennai</h1>
+            <p style={{position:"relative",zIndex:1}}>Elevate your business with cutting-edge Mobile App
+              Development Services in Chennai by Webdads2u.</p>
+            <a href="/contact-us"><button className='d-none d-sm-block'>Contact us</button></a>
+>>>>>>> 6010d3c (Add new features and updates)
             <div>
             <img src="webdads/images/mobile-app-development/svgexport-1.png" alt="1" loading='lazy' className='img-fluid image-1 element-svgexport-image-1   d-none d-md-block' />
             <img src="webdads/images/mobile-app-development/svgexport-2.png" alt="1" loading='lazy' className='img-fluid image-1 element-svgexport-image-2   d-none d-md-block' />

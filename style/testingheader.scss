@@ -666,7 +666,11 @@ ol {
     .main_menu ul .has_dropdown .mega_menu {
         display: none;
         position: absolute;
+<<<<<<< HEAD
         margin-top: 50px;
+=======
+        // margin-top: 50px;
+>>>>>>> 6010d3c (Add new features and updates)
     }
 
     .main_menu ul li:hover > ul,
@@ -811,3 +815,56 @@ ol {
         width: 33.33%;
     }
 }
+<<<<<<< HEAD
+=======
+
+.sidebar-content-div {
+    position: fixed;
+    top: 60%;
+    // right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    z-index: 99999990000000000000;
+    padding: 10px 0px;
+}
+
+.icon-sty {
+    background: #26D367;
+    // width: 50%;
+    /* margin-left: auto; */
+    margin-right: 0;
+    border-radius: 0px 10px 10px 0px;
+    margin-bottom: 20px;
+}
+// .hd-btn button {
+//     font-size: 15px;
+//     padding: 8px 10px;
+//     // background: #26D367;
+//     border: 0px;
+//     border-radius: 5px;
+// }
+.emil-bx {
+    // background: #fff;
+    border-radius: 35px;
+    width: 40px;
+    height: 40px;
+}
+.mail-icon-div {
+    display: inline-block;
+    // background: #fdfdfd;
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.header2-navbar-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+>>>>>>> 6010d3c (Add new features and updates)

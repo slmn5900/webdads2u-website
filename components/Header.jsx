@@ -291,6 +291,10 @@ import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
 import { RiMenu3Fill } from 'react-icons/ri';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+<<<<<<< HEAD
+=======
+import { IoCall } from 'react-icons/io5';
+>>>>>>> 6010d3c (Add new features and updates)
 
 import '../style/testingheader.scss';
 const Header = () => {
@@ -312,6 +316,60 @@ const Header = () => {
                 </Button>
             </div>
 
+<<<<<<< HEAD
+=======
+            <section className="sidebar-content-div hd-btn">
+                <div className="icon-sty">
+                    <a href="https://web.whatsapp.com/send?phone=+918825607550&text=Welcome+to+Webdads2u" className="sidebar-icon" target="_blank" rel="noopener">
+                        <svg width="33.163" height="33.158" viewBox="0 0 33.163 33.158" style={{ marginTop: '15px', marginLeft: '6px' }}>
+                            <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(4 4.579)" fill="#fff"></ellipse>
+                            <g id="Layer_2" data-name="Layer 2">
+                                <g id="Color">
+                                    <g id="_08.Whatsapp" data-name="08.Whatsapp">
+                                        <path
+                                            id="Icon"
+                                            d="M52.588,36A16.579,16.579,0,0,0,39.163,62.3l-2.072,6.159,6.379-2.039A16.579,16.579,0,1,0,52.588,36ZM61.4,59.447l-1.766,1.766c-1.857,1.857-6.781-.187-11.145-4.559s-6.321-9.284-4.555-11.12L45.7,43.767a1.853,1.853,0,0,1,2.508,0l2.6,2.595a1.728,1.728,0,0,1-.651,2.876,1.687,1.687,0,0,0-1.115,2.048,8.019,8.019,0,0,0,4.833,4.829A1.77,1.77,0,0,0,55.9,54.987a1.733,1.733,0,0,1,2.9-.651l2.6,2.6a1.853,1.853,0,0,1,0,2.508Z"
+                                            transform="translate(-36.015 -36)"
+                                            // fill="#07d97e"
+                                            fill=" #075e54"
+                                        ></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    {/* <span className="mail-icon-div d-block">
+                        <a href="mailto:contact@arcmeninterior.com" className="sidebar-icon emil-bx">
+                            <svg width="19.882" height="14.891" viewBox="0 0 19.882 14.891" style={{ marginTop: '0px', marginLeft: '6px' }}>
+                                <path
+                                    id="Path_24"
+                                    data-name="Path 24"
+                                    d="M11.6,176.927a2.99,2.99,0,0,1-3.323,0L.132,171.5Q.065,171.451,0,171.4v8.9a1.83,1.83,0,0,0,1.83,1.83H18.052a1.83,1.83,0,0,0,1.83-1.83v-8.9c-.043.032-.087.064-.133.094Z"
+                                    transform="translate(0 -167.242)"
+                                    fill="#fff"
+                                ></path>
+                                <path
+                                    id="Path_25"
+                                    data-name="Path 25"
+                                    d="M.779,67.551l8.147,5.432a1.826,1.826,0,0,0,2.031,0L19.1,67.551a1.744,1.744,0,0,0,.779-1.455,1.832,1.832,0,0,0-1.83-1.83H1.83A1.832,1.832,0,0,0,0,66.1a1.744,1.744,0,0,0,.779,1.454Z"
+                                    transform="translate(0 -64.266)"
+                                    fill="#fff"
+                                ></path>
+                            </svg>
+                        </a>
+                    </span> */}
+                    <span className="mail-icon-div d-block">
+                        <a href="tel:+91 8825607550" className="sidebar-icon emil-bx">
+                            <IoCall style={{ marginLeft: '5px', fill: '#fff', fontSize: '20px' }} />
+                        </a>
+                    </span>
+                </div>
+
+                {/* <button type="button" className="btn btn-primary" onClick={handleShow}>
+                    Book Now
+                </button> */}
+            </section>
+>>>>>>> 6010d3c (Add new features and updates)
             <Offcanvas show={show} onHide={handleClose} responsive="lg">
                 <Offcanvas.Header closeButton>
                     <Link href="/" style={{ textDecoration: 'none' }}>
@@ -376,7 +434,11 @@ const Header = () => {
                                                             <MdOutlineKeyboardDoubleArrowRight />
                                                             Wordpress Web Development
                                                         </a>
+<<<<<<< HEAD
                                                         <a href="/wordpress-development">
+=======
+                                                        <a href="/react-js-development">
+>>>>>>> 6010d3c (Add new features and updates)
                                                             <MdOutlineKeyboardDoubleArrowRight />
                                                             ReactJs Web Development
                                                         </a>
@@ -497,7 +559,11 @@ const Header = () => {
                                                             <MdOutlineKeyboardDoubleArrowRight />
                                                             Flyer Design
                                                         </a>
+<<<<<<< HEAD
                                                         <a href="#">
+=======
+                                                        <a href="/corporate-gifts-design/">
+>>>>>>> 6010d3c (Add new features and updates)
                                                             <MdOutlineKeyboardDoubleArrowRight />
                                                             Corporate Gifts Design
                                                         </a>
@@ -588,7 +654,11 @@ const Header = () => {
                                                 </a>
                                                 <ul className="sub_menu">
                                                     <li>
+<<<<<<< HEAD
                                                         <a href="/WordPress">WordPress</a>
+=======
+                                                        <a href="/wordpress">WordPress</a>
+>>>>>>> 6010d3c (Add new features and updates)
                                                     </li>
 
                                                     <li>

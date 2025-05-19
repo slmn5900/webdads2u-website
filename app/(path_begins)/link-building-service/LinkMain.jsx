@@ -24,10 +24,17 @@ const LinkMain = () => {
       <Increasedwebsitetraffic /> 
       <Improvedkeywordrankings /> 
       <Domainauthorityimprovements />
+<<<<<<< HEAD
       <SocialMedia />
       <Webdadlinkbuilding />
       <Lookinglinkbuilding />
       <Fqlinkbuildingservice />
+=======
+      <Webdadlinkbuilding />
+      <Lookinglinkbuilding />
+      <Fqlinkbuildingservice />
+      <SocialMedia />
+>>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 }

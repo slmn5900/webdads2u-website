@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaCheckSquare } from 'react-icons/fa';
+=======
+"use client"
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import { FaCheckSquare } from 'react-icons/fa';
+import Sliderimage from '../../../components/common/Slider-image';
+>>>>>>> 6010d3c (Add new features and updates)
 
 function Herosec() {
     return (
@@ -10,13 +18,31 @@ function Herosec() {
                     <Row>
                         <div className="text-center">
                             <h2>Start Building Your Professional Website in Minutes</h2>
+<<<<<<< HEAD
                             <Button variant="outlined">Contact Us</Button>
+=======
+                            <a href="/contact-us">
+                                <Button variant="outlined" style={{ color: '#fff' }}>
+                                    Contact Us
+                                </Button>
+                            </a>
+>>>>>>> 6010d3c (Add new features and updates)
                             <img alt="" src="/webdads/images/ecommerce/eccommerce-hero.webp"></img>
                         </div>
                     </Row>
                 </Container>
             </section>
+<<<<<<< HEAD
 
+=======
+            <section className='mt-5 mb-5'>
+                <Container>
+                    <Row>
+                        <Sliderimage />
+                    </Row>
+                </Container>
+            </section>
+>>>>>>> 6010d3c (Add new features and updates)
             <section className="emc-strm">
                 <Container>
                     <Row className="strm-bg">
@@ -80,7 +106,11 @@ function Herosec() {
                             <h2>Our Portfolio</h2>
                             <h3>Innovative Ecommerce Web Design</h3>
                         </div>
+<<<<<<< HEAD
                         <Col md={2} className="w-20"> 
+=======
+                        <Col md={2} className="w-20">
+>>>>>>> 6010d3c (Add new features and updates)
                             <div className="text-center">
                                 <img alt="" src="/webdads/images/ecommerce/woo-commerce-slider.webp"></img>
                                 <a href="#">
@@ -165,7 +195,11 @@ function Herosec() {
                                 online marketplace with our comprehensive e-commerce services.
                             </p>
                         </div>
+<<<<<<< HEAD
                         <Col md={3} xs={6}> 
+=======
+                        <Col md={3} xs={6}>
+>>>>>>> 6010d3c (Add new features and updates)
                             <div className="vendor-left text-center">
                                 <img alt="" src="/webdads/images/ecommerce/vendor-management.webp"></img>
                                 <h3>
@@ -248,6 +282,7 @@ function Herosec() {
                                 <div className="d-flex shipping">
                                     <div className="">
                                         <ul>
+<<<<<<< HEAD
                                            <li><FaCheckSquare /> Search filter </li>
                                            <li><FaCheckSquare /> User Account</li>
                                            <li><FaCheckSquare /> Shipping </li>
@@ -262,14 +297,52 @@ function Herosec() {
                                            <li><FaCheckSquare /> Blogs</li>
                                         </ul>
 
+=======
+                                            <li>
+                                                <FaCheckSquare /> Search filter{' '}
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> User Account
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> Shipping{' '}
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> Signing in with social media
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="">
+                                        <ul>
+                                            <li>
+                                                <FaCheckSquare /> Multi-lingual{' '}
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> Push notification
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> Security{' '}
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> Blogs
+                                            </li>
+                                        </ul>
+>>>>>>> 6010d3c (Add new features and updates)
                                     </div>
                                 </div>
                             </div>
                         </Col>
                         <Col md={4}>
+<<<<<<< HEAD
                         <div className="">
                            <img alt="" src="/webdads/images/ecommerce/yoga.webp"></img> 
                             </div></Col>
+=======
+                            <div className="">
+                                <img alt="" src="/webdads/images/ecommerce/yoga.webp"></img>
+                            </div>
+                        </Col>
+>>>>>>> 6010d3c (Add new features and updates)
                     </Row>
                 </Container>
             </section>
@@ -279,38 +352,59 @@ function Herosec() {
                         <div className="text-center">
                             <h2>Features of Multi-Vendor</h2>
                             <p>
+<<<<<<< HEAD
                             If you are looking for innovative solutions and unparalleled expertise, your search ends here. Explore a world of possibilities as we deliver exceptional services tailored to meet your unique needs. Your success is our priority.
 
+=======
+                                If you are looking for innovative solutions and unparalleled expertise, your search ends here. Explore a world of possibilities as we deliver exceptional services tailored to meet your unique needs. Your success is our
+                                priority.
+>>>>>>> 6010d3c (Add new features and updates)
                             </p>
                         </div>
                         <Col md={3} xs={6}>
                             <div className="vendor-left text-center">
                                 <img alt="" src="/webdads/images/ecommerce/user-accounts.png"></img>
+<<<<<<< HEAD
                                 <h3>
                                 User Account</h3>
+=======
+                                <h3>User Account</h3>
+>>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
                             <div className="vendor-right text-center">
                                 <img alt="" src="/webdads/images/ecommerce/Sign-social.png"></img>
+<<<<<<< HEAD
                                 <h3>
                                 Sign With Social Media</h3>
+=======
+                                <h3>Sign With Social Media</h3>
+>>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
                             <div className="vendor-left text-center">
                                 <img alt="" src="/webdads/images/ecommerce/shipping-pay.png"></img>
+<<<<<<< HEAD
                                 <h3>
                                 Shipping
                                 </h3>
+=======
+                                <h3>Shipping</h3>
+>>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
                             <div className="vendor-right text-center">
                                 <img alt="" src="/webdads/images/ecommerce/Payment.png"></img>
+<<<<<<< HEAD
                                 <h3>
                                 Payment
                                 </h3>
+=======
+                                <h3>Payment</h3>
+>>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                     </Row>
@@ -318,22 +412,34 @@ function Herosec() {
                         <Col md={3} xs={6}>
                             <div className="vendor-left text-center">
                                 <img alt="" src="/webdads/images/ecommerce/Search-Filter.png"></img>
+<<<<<<< HEAD
                                 <h3>
                                 User Account </h3>
+=======
+                                <h3>User Account </h3>
+>>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
                             <div className="vendor-right text-center">
                                 <img alt="" src="/webdads/images/ecommerce/Push-Notifications.png"></img>
+<<<<<<< HEAD
                                 <h3>
                                 Push Notifications</h3>
+=======
+                                <h3>Push Notifications</h3>
+>>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
                             <div className="vendor-left text-center">
                                 <img alt="" src="/webdads/images/ecommerce/Multi-lingual.png"></img>
+<<<<<<< HEAD
                                 <h3>
                                 Multi-lingual</h3>
+=======
+                                <h3>Multi-lingual</h3>
+>>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                         <Col md={3} xs={6}>
@@ -348,6 +454,7 @@ function Herosec() {
             <section className="m-commerce social-left">
                 <Container>
                     <Row>
+<<<<<<< HEAD
 
                     <Col md={4}>
                         <div className="">
@@ -375,11 +482,62 @@ function Herosec() {
                                            <li><FaCheckSquare /> No Coding Required</li>
                                         </ul>
 
+=======
+                        <Col md={4}>
+                            <div className="">
+                                <img alt="" src="/webdads/images/ecommerce/atcomart.webp"></img>
+                            </div>
+                        </Col>
+                        <Col md={8}>
+                            <div className="">
+                                <h2>Social E-Commerce</h2>
+
+                                <p>
+                                    {' '}
+                                    We offer excellent social e-commerce solutions, seamlessly merging social connectivity with online shopping. Explore a revolutionary platform where engagement meets convenience. Elevate your online experience with
+                                    our innovative services, redefining the way you connect, share, and shop. Discover the future of shopping with us.{' '}
+                                </p>
+                                <div className="d-flex shipping">
+                                    <div className="">
+                                        <ul>
+                                            <li>
+                                                <FaCheckSquare /> User profiles
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> Product Likes
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> Activity Feeds
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> Follow Users
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="">
+                                        <ul>
+                                            <li>
+                                                <FaCheckSquare /> Fully Mobile Friendly
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> Customization Options{' '}
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> Compatible With Any Theme
+                                            </li>
+                                            <li>
+                                                <FaCheckSquare /> No Coding Required
+                                            </li>
+                                        </ul>
+>>>>>>> 6010d3c (Add new features and updates)
                                     </div>
                                 </div>
                             </div>
                         </Col>
+<<<<<<< HEAD
                         
+=======
+>>>>>>> 6010d3c (Add new features and updates)
                     </Row>
                 </Container>
             </section>

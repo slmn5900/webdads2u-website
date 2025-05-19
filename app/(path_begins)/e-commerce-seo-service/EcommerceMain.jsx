@@ -53,11 +53,18 @@ const EcommerceMain = () => {
       <Provenecommerce />
       <Ecommerceseoadvantage />
       <Whywebdads2uecommerceseoservices />
+<<<<<<< HEAD
       <SocialMedia />
+=======
+>>>>>>> 6010d3c (Add new features and updates)
       <Ecommercecard />
       <LookingEcommerceSEO />
       <Cmswebsite />
       <FQecommerceseoservice />
+<<<<<<< HEAD
+=======
+      <SocialMedia />
+>>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 }

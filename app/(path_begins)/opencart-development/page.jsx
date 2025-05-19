@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import React from 'react'
 import OpencartDevelopment from './OpencartDevelopment'
@@ -15,3 +16,22 @@ const page = () => {
 }
 
 export default page
+=======
+import React from 'react';
+// import OpencartDevelopment from './OpencartDevelopment';
+import dynamic from 'next/dynamic';
+const OpencartDevelopment = dynamic(() => import('./OpencartDevelopment'), { ssr: false });
+export const metadata = {
+    title: 'OpenCart Development Company In Chennai',
+    description: 'Webdads is one of the leading opencart development company in chennai . We provide the best services for Open Cart integration and development.'
+};
+const page = () => {
+    return (
+        <>
+            <OpencartDevelopment />
+        </>
+    );
+};
+
+export default page;
+>>>>>>> 6010d3c (Add new features and updates)

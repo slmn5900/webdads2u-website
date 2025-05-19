@@ -48,11 +48,18 @@ const WebsiteMain = () => {
       <Websitemaintenancebanner />
       <Websitemaintenancecompany />
       <Webmaintenanceservices />
+<<<<<<< HEAD
       <SocialMedia />
+=======
+>>>>>>> 6010d3c (Add new features and updates)
       <Benefitsselecting />
       <Benefitsselectingcard />
       <Lookingwebsitemaintenance />
       <Fqwebsitemaintenance />
+<<<<<<< HEAD
+=======
+      <SocialMedia />
+>>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 }

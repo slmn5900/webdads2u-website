@@ -62,8 +62,12 @@ p {
 
 // Wave box
 
+<<<<<<< HEAD
 
 .fluter-wave-box{
+=======
+.fluter-wave-box {
+>>>>>>> 6010d3c (Add new features and updates)
     background: #2167fb;
     background-image: url('/webdads/images/crm/pattern-8.png');
     background-repeat: no-repeat;
@@ -73,12 +77,20 @@ p {
 
     h2 {
         margin-bottom: 0;
+<<<<<<< HEAD
         color: #0E1011;
         font-family: "Poppins", Sans-serif;
         font-size: 20px;
         font-weight: 600;
         padding-left: 10px;
 
+=======
+        color: #0e1011;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 10px;
+>>>>>>> 6010d3c (Add new features and updates)
     }
     P {
         font-size: 15px;
@@ -128,6 +140,7 @@ p {
 .empt-wave {
     position: relative;
 }
+<<<<<<< HEAD
 .our-ondemand{
     padding-top:50px;
     p{
@@ -135,10 +148,20 @@ p {
     }
     svg{
         fill:#262250;
+=======
+.our-ondemand {
+    padding-top: 50px;
+    p {
+        margin-bottom: 5px;
+    }
+    svg {
+        fill: #262250;
+>>>>>>> 6010d3c (Add new features and updates)
     }
 }
 // Accordian
 
+<<<<<<< HEAD
 .FrequentlyAskedQuestions-Accordion .accordion-item{
     margin-bottom: 10px;
   } 
@@ -152,20 +175,42 @@ p {
   }
   
   .FrequentlyAskedQuestions-Accordion .accordion-body{
+=======
+.FrequentlyAskedQuestions-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-body {
+>>>>>>> 6010d3c (Add new features and updates)
     color: var(--e-global-color-text);
     font-family: Poppins, sans-serif;
     font-size: 16px;
     font-weight: 400;
+<<<<<<< HEAD
   }
   .frequentlyaskedquestions-main h1 {
     color: #0A1F5F;
     font-family: "Poppins", Sans-serif;
+=======
+}
+.frequentlyaskedquestions-main h1 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
+>>>>>>> 6010d3c (Add new features and updates)
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 45px;
 }
 
+<<<<<<< HEAD
 .FrequentlyAskedQuestions-Accordion .accordion-button{
     background: #fff;
     box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
@@ -222,3 +267,72 @@ margin-bottom: 10px;
        height: 300px;
     }
     }
+=======
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203a !important;
+}
+.FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203a !important;
+}
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .mobileuiux {
+        h2 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 10px;
+            line-height: 18px;
+        }
+        button {
+            display: none;
+        }
+    }
+    .react-nativeimhr {
+        h2 {
+            font-size: 20px;
+        }
+    }
+    .crm-box {
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .android-app-development-slider h1 {
+        font-size: 18px;
+
+        padding: 0px;
+        margin-right: 0px;
+    }
+    .crm-box {
+        height: 300px;
+    }
+}
+
+.flutter-app-contact-btn {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #24c2f8 0%, #262250 50%);
+    border-radius: 30px 30px 30px 30px;
+    padding: 13px 40px 13px 40px;
+    color: #fff;
+    border: none;
+    &:hover {
+        background-color: transparent;
+        background-image: linear-gradient(90deg, #262250 0%, #24c2f8 100%);
+    }
+}
+>>>>>>> 6010d3c (Add new features and updates)

@@ -3,6 +3,7 @@ import React from 'react'
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
 const page = () => {
   const images = [
+<<<<<<< HEAD
     { alt: 'global-enterprises', name: 'global-enterprises', url: '/webdads/images/flyerdesign/global-enterprises.webp' },
     { alt: 'JUniyaa', name: 'JUniyaa', url: '/webdads/images/flyerdesign/JUniyaa.webp' },
     { alt: 'Magmee', name: 'Magmee', url: '/webdads/images/flyerdesign/Magmee.webp' },
@@ -10,6 +11,14 @@ const page = () => {
     { alt: 'Diamon-d', name: 'Diamon-d', url: '/webdads/images/flyerdesign/Diamon-d.webp' },
     { alt: 'AYN-FLyer', name: 'AYN-FLyer', url: '/webdads/images/flyerdesign/AYN-FLyer.webp' },
 
+=======
+    { alt: 'global-enterprises', name: 'Global Enterprises', url: '/webdads/images/flyerdesign/global-enterprises.webp' },
+    { alt: 'juniyaa', name: 'Juniyaa', url: '/webdads/images/flyerdesign/JUniyaa.webp' },
+    { alt: 'magmee', name: 'Magmee', url: '/webdads/images/flyerdesign/Magmee.webp' },
+    { alt: 'skp', name: 'SKP', url: '/webdads/images/flyerdesign/Skp.webp' },
+    { alt: 'diamond', name: 'Diamond', url: '/webdads/images/flyerdesign/Diamon-d.webp' },
+    { alt: 'ayn-fLyer', name: 'AYN Flyer', url: '/webdads/images/flyerdesign/AYN-FLyer.webp' },
+>>>>>>> 6010d3c (Add new features and updates)
   ];
 
 const datas = {

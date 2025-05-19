@@ -6,7 +6,11 @@ function AndroidApplicationDevelopmentServices() {
         <section>
             <div className="container">
                 <div className="row  align-items-center AndroidApplicationDevelopmentServices">
+<<<<<<< HEAD
                     <div className="col-xs-12 col-lg-6">
+=======
+                    <div className="col-xs-12 col-lg-8">
+>>>>>>> 6010d3c (Add new features and updates)
                         <h1>Industry-specific Android Application Development Services</h1>
                         <p>Unlock industry-specific solutions with our tailored Android app development services. From healthcare to finance, we deliver custom applications designed to meet the unique needs and challenges of your sector. Our experienced team combines expertise with cutting-edge technology to create innovative solutions that drive efficiency, productivity, and growth within your industry. Trust us to elevate your business with our industry-specific Android application development services.</p>
                         <div className='justify-content-center AndroidApplicationDevelopmentServices-flex-contend'>
@@ -28,7 +32,11 @@ function AndroidApplicationDevelopmentServices() {
                         </div>
                         </div>
                     </div>
+<<<<<<< HEAD
                     <div className="col-xs-12 col-lg-6">
+=======
+                    <div className="col-xs-12 col-lg-4">
+>>>>>>> 6010d3c (Add new features and updates)
                         <img src="webdads/images/android-app-development/Industry-specific-Android-Application-Development-Services.png" alt="" loading='lazy' className='img-fluid' />
                     </div>
 

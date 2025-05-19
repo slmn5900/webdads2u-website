@@ -67,10 +67,17 @@ function SocialmediaHero() {
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
+<<<<<<< HEAD
                                 <a href="#">
                                     <img alt="" src="/webdads/images/socialmedia/Instagram.webp"></img>
                                 </a>
                                 <a href="#">
+=======
+                                <a href="https://www.instagram.com/webdads2u/">
+                                    <img alt="" src="/webdads/images/socialmedia/Instagram.webp"></img>
+                                </a>
+                                <a href="https://www.instagram.com/webdads2u/">
+>>>>>>> 6010d3c (Add new features and updates)
                                     <h3>Instagram</h3>
                                 </a>
                                 <p>
@@ -81,10 +88,17 @@ function SocialmediaHero() {
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
+<<<<<<< HEAD
                                 <a href="#">
                                     <img alt="" src="/webdads/images/socialmedia/Twitter.webp"></img>
                                 </a>
                                 <a href="#">
+=======
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fwebdads2u">
+                                    <img alt="" src="/webdads/images/socialmedia/Twitter.webp"></img>
+                                </a>
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fwebdads2u">
+>>>>>>> 6010d3c (Add new features and updates)
                                     <h3>Twitter</h3>
                                 </a>
                                 <p>Twitter, a leading social media design platform, redefines communication with its concise format. Owned by Facebook, Instagram, a photo and video sharing service, empowers users to creatively edit their visuals.</p>
@@ -92,10 +106,17 @@ function SocialmediaHero() {
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
+<<<<<<< HEAD
                                 <a href="#">
                                     <img alt="" src="/webdads/images/socialmedia/Linkedin.webp"></img>
                                 </a>
                                 <a href="#">
+=======
+                                <a href="https://www.linkedin.com/in/webdads2uservices">
+                                    <img alt="" src="/webdads/images/socialmedia/Linkedin.webp"></img>
+                                </a>
+                                <a href="https://www.linkedin.com/in/webdads2uservices">
+>>>>>>> 6010d3c (Add new features and updates)
                                     <h3>LinkedIn</h3>
                                 </a>
                                 <p>
@@ -106,10 +127,17 @@ function SocialmediaHero() {
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
+<<<<<<< HEAD
                                 <a href="#">
                                     <img alt="" src="/webdads/images/socialmedia/Pintrest.webp"></img>
                                 </a>
                                 <a href="#">
+=======
+                                <a href="https://in.pinterest.com/webdads2u/">
+                                    <img alt="" src="/webdads/images/socialmedia/Pintrest.webp"></img>
+                                </a>
+                                <a href="https://in.pinterest.com/webdads2u/">
+>>>>>>> 6010d3c (Add new features and updates)
                                     <h3>Pinterest</h3>
                                 </a>
                                 <p>

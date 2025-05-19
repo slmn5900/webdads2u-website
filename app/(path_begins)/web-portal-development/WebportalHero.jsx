@@ -60,7 +60,13 @@ function WebportalHero() {
                                     Our comprehensive approach to Web Portal Development ensures that your portal is not only aesthetically pleasing but also highly functional and optimized for performance. With a focus on user experience and
                                     functionality, we ensure that your web portal provides a seamless experience for all users, resulting in increased engagement and satisfaction.
                                 </p>
+<<<<<<< HEAD
                                 <a href="/contact-us"><Button variant="contained">Connect With Experts Now!</Button></a>
+=======
+                                <a href="/contact-us">
+                                    <Button variant="contained">Connect With Experts Now!</Button>
+                                </a>
+>>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                     </Row>
@@ -77,16 +83,26 @@ function WebportalHero() {
                         <Col md={7}>
                             <div classname="">
                                 <h2>Looking for Web Portal Development Services? We Can Help!</h2>
+<<<<<<< HEAD
                                 
                                     <a href="/contact-us"><Button variant="contained">Tall to Experts </Button></a>
                                
+=======
+
+                                <a href="/contact-us">
+                                    <Button variant="contained">Tall to Experts </Button>
+                                </a>
+>>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </section>
             <WebpotralTab />
+<<<<<<< HEAD
             <SocialMedia />
+=======
+>>>>>>> 6010d3c (Add new features and updates)
 
             <section className="pt-5 pb-5">
                 <Container>
@@ -171,11 +187,18 @@ function WebportalHero() {
                         <div className="text-center">
                             <h2>Need a Proposal? Let’s Discuss the Project</h2>
                             <p>Get in touch with us and discuss the needs and requirements of your project</p>
+<<<<<<< HEAD
                             <a href="/contact-us"><Button variant="contained">Get in touch</Button></a>
+=======
+                            <a href="/contact-us">
+                                <Button variant="contained">Get in touch</Button>
+                            </a>
+>>>>>>> 6010d3c (Add new features and updates)
                         </div>
                     </Row>
                 </Container>
             </section>
+<<<<<<< HEAD
             <section className='pt-5 pb-5'>
                 <Container>
                     <Row>
@@ -258,6 +281,89 @@ function WebportalHero() {
                 </Container>
             </section>
             <WebportalFaq/>
+=======
+            <section className="pt-5 pb-5">
+                <Container>
+                    <Row>
+                        <div className="text-center">
+                            <h2>Why Choose Webdads2u For Web Portal Development?</h2>
+                            <p>
+                                We make sure to build a web portal that is top-class and feature-rich, according to your specific requirements, leaving no stone unturned. Effectively working across different technologies, we deliver strong and
+                                reliable solutions that are tailored to meet your requirements for web portal development.
+                            </p>
+                        </div>
+                        <Col md={3} xs={6}>
+                            <div className="portal-developmentbox">
+                                <div className="prtdev-bximg">
+                                    <img alt="" src="/webdads/images/webportal/portal-development-expertise.png"></img>
+                                </div>
+                                <h3>Portal Development</h3>
+                            </div>
+                        </Col>
+                        <Col md={3} xs={6}>
+                            <div className="portal-developmentbox">
+                                <div className="prtdev-bximg">
+                                    <img alt="" src="/webdads/images/webportal/wide-range-of-services.webp"></img>
+                                </div>
+                                <h3>Wide-Range of Services</h3>
+                            </div>
+                        </Col>
+                        <Col md={3} xs={6}>
+                            <div className="portal-developmentbox">
+                                <div className="prtdev-bximg">
+                                    <img alt="" src="/webdads/images/webportal/technology-expertise.png"></img>
+                                </div>
+                                <h3>Technology Expertise</h3>
+                            </div>
+                        </Col>
+                        <Col md={3} xs={6}>
+                            <div className="portal-developmentbox">
+                                <div className="prtdev-bximg">
+                                    <img alt="" src="/webdads/images/webportal/affordable-packages.png"></img>
+                                </div>
+                                <h3>Affordable Packages</h3>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row className="pt-5">
+                        <Col md={3} xs={6}>
+                            <div className="portal-developmentbox">
+                                <div className="prtdev-bximg">
+                                    <img alt="" src="/webdads/images/webportal/customer-satisfaction.png"></img>
+                                </div>
+                                <h3>Customer Satisfaction</h3>
+                            </div>
+                        </Col>
+                        <Col md={3} xs={6}>
+                            <div className="portal-developmentbox">
+                                <div className="prtdev-bximg">
+                                    <img alt="" src="/webdads/images/webportal/web-portal-round-the-clock-support.png"></img>
+                                </div>
+                                <h3>Round The Clock Support</h3>
+                            </div>
+                        </Col>
+                        <Col md={3} xs={6}>
+                            <div className="portal-developmentbox">
+                                <div className="prtdev-bximg">
+                                    <img alt="" src="/webdads/images/webportal/reliable-solutions.png"></img>
+                                </div>
+                                <h3>Reliable Solutions</h3>
+                            </div>
+                        </Col>
+                        <Col md={3} xs={6}>
+                            <div className="portal-developmentbox">
+                                <div className="prtdev-bximg">
+                                    <img alt="" src="/webdads/images/webportal/tailor-made-solutions.png"></img>
+                                </div>
+                                <h3>Tailor-Made Solutions</h3>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            <WebportalFaq />
+            <SocialMedia />
+>>>>>>> 6010d3c (Add new features and updates)
         </>
     );
 }

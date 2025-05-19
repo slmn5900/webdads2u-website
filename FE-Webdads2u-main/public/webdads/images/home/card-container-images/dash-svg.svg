@@ -1,7 +1,0 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-	<title>dash-svg</title>
-	<style>
-		.s0 { fill: #ffffff } 
-	</style>
-	<path className="s0" d="m4 8q0-0.1 0-0.2 0.1-0.1 0.1-0.2 0.1 0 0.2-0.1 0.1 0 0.2 0h7q0.2 0 0.4 0.1 0.1 0.2 0.1 0.4 0 0.2-0.1 0.4-0.2 0.1-0.4 0.1h-7q-0.1 0-0.2 0-0.1-0.1-0.2-0.1 0-0.1-0.1-0.2 0-0.1 0-0.2z"/>
-</svg>
