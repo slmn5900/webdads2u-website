@@ -44,11 +44,7 @@
     font-family: 'Poppins', Sans-serif;
     font-size: 32px;
     font-weight: 600;
-<<<<<<< HEAD
-    padding-bottom:10px;
-=======
     padding-bottom: 10px;
->>>>>>> 6010d3c (Add new features and updates)
     letter-spacing: 1.2px;
     text-align: center;
 }
@@ -63,10 +59,6 @@
     border: #fff;
     color: #fff;
 }
-<<<<<<< HEAD
-.brochure-page-buttonWrapper > button {
-    // background-color:  rgb(0, 0, 0);
-=======
 .brochure-page-buttonWrapper a {
     text-decoration: none;
     color: white;
@@ -76,26 +68,11 @@
 .brochure-page-buttonWrapper button {
     // background-color:  rgb(0, 0, 0);
     color: #fff;
->>>>>>> 6010d3c (Add new features and updates)
     background: transparent;
     border-style: solid;
     border-radius: 0 0 0 0;
     padding: 18px 40px 18px 40px;
     border: 2px solid rgb(255, 255, 255);
-<<<<<<< HEAD
-    a {
-        text-decoration: none;
-        color: white;
-        font-size: 16px;
-        letter-spacing: 1px;
-    }
-}
-
-.brochure-page-buttonWrapper > button:hover {
-    background-color: #ffffff;
-    border-style: solid;
-    border: 2px solid rgb(255, 255, 255);
-=======
 }
 
 // .brochure-page-buttonWrapper > button:hover {
@@ -112,7 +89,6 @@
     border-style: solid;
     border: 2px solid rgb(255, 255, 255);
     color: #000;
->>>>>>> 6010d3c (Add new features and updates)
     a {
         text-decoration: none;
         color: rgb(0, 0, 0);
@@ -135,13 +111,8 @@
     column-width: 500px;
     column-gap: 10px;
     padding: 5px;
-<<<<<<< HEAD
-    width:80%;
-    margin:auto;
-=======
     width: 80%;
     margin: auto;
->>>>>>> 6010d3c (Add new features and updates)
     img {
         margin-bottom: 5px;
     }
@@ -346,24 +317,12 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
-<<<<<<< HEAD
-    padding-bottom:20px ;
-=======
     padding-bottom: 20px;
->>>>>>> 6010d3c (Add new features and updates)
     .load-more-button {
         font-family: 'Poppins', Sans-serif;
         font-size: 18px;
         font-weight: 600;
         background: transparent;
-<<<<<<< HEAD
-        border:2px solid #fff;
-        color: #fff;
-        padding: 10px 20px;
-        
-    }
-}
-=======
         border: 2px solid #fff;
         color: #fff;
         padding: 10px 20px;
@@ -406,4 +365,3 @@
     opacity: 0;
     transition: opacity 0.3s ease;
 }
->>>>>>> 6010d3c (Add new features and updates)

@@ -43,25 +43,12 @@
     background: #fff;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:768px) {
-=======
 @media screen and (max-width: 768px) {
->>>>>>> 6010d3c (Add new features and updates)
     .domainregistrationbanner h1 {
         font-size: 30px;
     }
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:426px){
-.domainregistrationbanner h1 {
-    font-size: 20px;
-    padding: 8px 0px;
-}
-.domainregistrationbanner p {
-font-size: 9px;}
-=======
 @media screen and (max-width: 426px) {
     .domainregistrationbanner h1 {
         font-size: 20px;
@@ -70,7 +57,6 @@ font-size: 9px;}
     .domainregistrationbanner p {
         font-size: 9px;
     }
->>>>>>> 6010d3c (Add new features and updates)
 }
 
 /* Amplifyingyouronline */
@@ -79,34 +65,20 @@ font-size: 9px;}
 }
 
 .amplifyingyouronline h2 {
-<<<<<<< HEAD
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0b1225;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 26px;
     font-weight: 600;
 }
 
 .amplifyingyouronline p {
-<<<<<<< HEAD
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #5a5a5a;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 16px;
     font-weight: 400;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:767px) {
-=======
 @media screen and (max-width: 767px) {
->>>>>>> 6010d3c (Add new features and updates)
     .amplifyingyouronline-main {
         padding: 30px 0px;
     }
@@ -123,13 +95,8 @@ font-size: 9px;}
 }
 
 .domainname-header h3 {
-<<<<<<< HEAD
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0b1225;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -148,24 +115,15 @@ font-size: 9px;}
 
 .domainname-card h4 {
     color: #002060;
-<<<<<<< HEAD
-    font-family: "Poppins", Sans-serif;
-=======
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
 .domainname-card p {
-<<<<<<< HEAD
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #5a5a5a;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 14px;
     font-weight: 500;
 }
@@ -177,11 +135,7 @@ font-size: 9px;}
     width: 70px;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:767px) {
-=======
 @media screen and (max-width: 767px) {
->>>>>>> 6010d3c (Add new features and updates)
     .domainname-amin {
         padding: 30px 0px;
     }
@@ -203,13 +157,8 @@ font-size: 9px;}
 }
 
 .comprehensivedigital h4 {
-<<<<<<< HEAD
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0b1225;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 32px;
     font-weight: 600;
 }
@@ -219,25 +168,15 @@ font-size: 9px;}
 }
 
 .comprehensivedigital-min h5 {
-<<<<<<< HEAD
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0b1225;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 18px;
     font-weight: 600;
 }
 
 .comprehensivedigital-min p {
-<<<<<<< HEAD
-    color: #7A7A7A;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #7a7a7a;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 14px;
     font-weight: 400;
 }
@@ -248,11 +187,7 @@ font-size: 9px;}
     margin-right: auto;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:420px) {
-=======
 @media screen and (max-width: 420px) {
->>>>>>> 6010d3c (Add new features and updates)
     .comprehensivedigital-min {
         flex-wrap: wrap;
         text-align: center;
@@ -267,13 +202,7 @@ font-size: 9px;}
     }
 }
 
-<<<<<<< HEAD
-
-
-@media screen and (max-width:767px) {
-=======
 @media screen and (max-width: 767px) {
->>>>>>> 6010d3c (Add new features and updates)
     .comprehensivedigital-main {
         padding: 30px 0px;
     }
@@ -291,25 +220,15 @@ font-size: 9px;}
 }
 
 .rightdomain h5 {
-<<<<<<< HEAD
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0b1225;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 35px;
     font-weight: 600;
 }
 
 .rightdomain p {
-<<<<<<< HEAD
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #5a5a5a;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 18px;
     font-weight: 400;
 }
@@ -333,11 +252,8 @@ font-size: 9px;}
     background-image: linear-gradient(90deg, #871752 0%, #262250 50%);
     border-radius: 30px;
     padding: 13px 40px;
-<<<<<<< HEAD
-=======
     border: 0px;
     transition: all 0.3s;
->>>>>>> 6010d3c (Add new features and updates)
 }
 
 .rightdomain button:hover {
@@ -345,11 +261,7 @@ font-size: 9px;}
     background-image: linear-gradient(90deg, #262250 0%, #871752 100%);
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:767px) {
-=======
 @media screen and (max-width: 767px) {
->>>>>>> 6010d3c (Add new features and updates)
     .rightdomain-main {
         padding: 30px 0px;
     }
@@ -359,16 +271,9 @@ font-size: 9px;}
     }
 }
 
-<<<<<<< HEAD
-
-/* lookingdomain */
-.lookingdomain-main {
-    background-color: #8E0BAC;
-=======
 /* lookingdomain */
 .lookingdomain-main {
     background-color: #8e0bac;
->>>>>>> 6010d3c (Add new features and updates)
     background-image: url(../../../public/webdads/images/domain-registration/Banner-background-4.jpg);
     background-position: center center;
     background-size: cover;
@@ -380,44 +285,26 @@ font-size: 9px;}
 }
 
 .lookingdomain h6 {
-<<<<<<< HEAD
-    color: #FFFFFF;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #ffffff;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 35px;
     font-weight: 600;
 }
 
 .lookingdomain p {
-<<<<<<< HEAD
-    color: #FFFFFF;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #ffffff;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 18px;
     font-weight: 400;
 }
 
 .lookingdomain button {
     color: #000000;
-<<<<<<< HEAD
-    font-family: "Poppins", Sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: #FFFFFF;
-    border: 2px solid #FFFFFF;
-=======
     font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 600;
     background-color: #ffffff;
     border: 2px solid #ffffff;
->>>>>>> 6010d3c (Add new features and updates)
     border-radius: 5px;
     padding: 18px 40px;
 }
@@ -427,18 +314,10 @@ font-size: 9px;}
     background: transparent;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:769px) {
-    .lookingdomain-main {
-        padding: 30px 0px;
-        margin: 10px 10px;
-
-=======
 @media screen and (max-width: 769px) {
     .lookingdomain-main {
         padding: 30px 0px;
         margin: 10px 10px;
->>>>>>> 6010d3c (Add new features and updates)
     }
 
     .lookingdomain h6 {
@@ -453,13 +332,8 @@ font-size: 9px;}
 }
 
 .fqdomainregistration-header h1 {
-<<<<<<< HEAD
-    color: #0A1F5F;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0a1f5f;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
@@ -468,27 +342,15 @@ font-size: 9px;}
 
 .fqdomainregistration-header p {
     color: #000000;
-<<<<<<< HEAD
-    font-family: "Poppins", Sans-serif;
-=======
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 16px;
     font-weight: 400;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6010d3c (Add new features and updates)
 .FrequentlyAskedQuestions-Accordion .accordion-item {
     margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6010d3c (Add new features and updates)
 .fqdomainregistration-Accordion .accordion-button {
     color: rgb(0, 32, 96);
     font-family: Poppins, sans-serif;
@@ -509,10 +371,6 @@ font-size: 9px;}
     margin-bottom: 15px !important;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6010d3c (Add new features and updates)
 .fqdomainregistration-Accordion .accordion-button {
     background: #fff;
     box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
@@ -521,20 +379,12 @@ font-size: 9px;}
 .fqdomainregistration-Accordion .accordion-button::after {
     background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
     transition: all 0.5s;
-<<<<<<< HEAD
-    color: #08203A !important;
-=======
     color: #08203a !important;
->>>>>>> 6010d3c (Add new features and updates)
 }
 
 .fqdomainregistration-Accordion .accordion-button:not(.collapsed)::after {
     background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
-<<<<<<< HEAD
-    color: #08203A !important;
-=======
     color: #08203a !important;
->>>>>>> 6010d3c (Add new features and updates)
 }
 
 .fqdomainregistration-Accordion .accordion-button::after {
@@ -549,8 +399,4 @@ font-size: 9px;}
     .fqdomainregistration h1 {
         font-size: 25px;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 6010d3c (Add new features and updates)

@@ -10,19 +10,6 @@ const BrandingServices = () => {
                 <Row className="align-items-start pt-5">
                     <Col md={6}>
                         <Row className="mb-4">
-<<<<<<< HEAD
-                            <Col  className="layout-brand">
-                                <h2>Branding Services</h2>
-                                <p>
-                                    <strong>
-                                        <a href="/branding-design/" style={{ color: '#7a7a7a',textDecoration:'none' }}>
-                                            Branding services 
-                                        </a>
-                                    </strong> &nbsp;
-                                    encompass the strategic initiatives a company implements to forge, sustain, and amplify its brand identity. The primary goal is to cultivate a robust, distinct, and cohesive image within the intended audience.
-                                    These services encapsulate various tasks such as logo and tagline development, crafting marketing collaterals, website creation, and content generation aimed at brand promotion. The ultimate objective is to instill
-                                    a favorable perception of the company among customers, potential clients, and stakeholders.
-=======
                             <Col className="layout-brand">
                                 <h2>Branding Services</h2>
                                 <p>
@@ -34,7 +21,6 @@ const BrandingServices = () => {
                                     &nbsp; encompass the strategic initiatives a company implements to forge, sustain, and amplify its brand identity. The primary goal is to cultivate a robust, distinct, and cohesive image within the intended
                                     audience. These services encapsulate various tasks such as logo and tagline development, crafting marketing collaterals, website creation, and content generation aimed at brand promotion. The ultimate objective is
                                     to instill a favorable perception of the company among customers, potential clients, and stakeholders.
->>>>>>> 6010d3c (Add new features and updates)
                                 </p>
                                 <p>
                                     As a distinguished web designing and web development company in Chennai, Webdads2u Pvt. Ltd. recognizes the pivotal role of branding services in fortifying a company’s online presence and fostering positive
@@ -44,11 +30,7 @@ const BrandingServices = () => {
                         </Row>
 
                         <Row>
-<<<<<<< HEAD
-                            <Col md={4}>
-=======
                             <Col md={6}>
->>>>>>> 6010d3c (Add new features and updates)
                                 <div className="d-flex">
                                     <div>
                                         <img alt="" variant="top" src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069682/logo-branding-services_5869f711/logo-branding-services_5869f711.png" width={'25px'} />
@@ -62,18 +44,11 @@ const BrandingServices = () => {
                                 </div>
                             </Col>
 
-<<<<<<< HEAD
-                            <Col md={4}>
-                                <div className="d-flex">
-                                    <div>
-                                        <img alt=""
-=======
                             <Col md={6}>
                                 <div className="d-flex">
                                     <div>
                                         <img
                                             alt=""
->>>>>>> 6010d3c (Add new features and updates)
                                             variant="top"
                                             src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069686/bussiness-card-branding-services_58549342/bussiness-card-branding-services_58549342.png"
                                             width={'25px'}
@@ -86,12 +61,6 @@ const BrandingServices = () => {
                                     </div>
                                 </div>
                             </Col>
-<<<<<<< HEAD
-                            <Col md={4}>
-                                <div className="d-flex">
-                                    <div>
-                                        <img alt="" variant="top" src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069662/brochure-branding-services_591cb50b/brochure-branding-services_591cb50b.png" width={'25px'} />
-=======
                             <Col md={6}>
                                 <div className="d-flex">
                                     <div>
@@ -101,7 +70,6 @@ const BrandingServices = () => {
                                             src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069662/brochure-branding-services_591cb50b/brochure-branding-services_591cb50b.png"
                                             width={'25px'}
                                         />
->>>>>>> 6010d3c (Add new features and updates)
                                     </div>
                                     <div>
                                         <Link href="/brochure/" className="text-decoration-none ">
@@ -110,15 +78,6 @@ const BrandingServices = () => {
                                     </div>
                                 </div>
                             </Col>
-<<<<<<< HEAD
-                        </Row>
-
-                        <Row className="my-2">
-                            <Col md={4}>
-                                <div className="d-flex">
-                                    <div>
-                                        <img alt="" variant="top" src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069674/product-branding-services_58850203/product-branding-services_58850203.png" width={'25px'} />
-=======
                             {/* </Row> */}
 
                             {/* <Row className="my-2"> */}
@@ -131,7 +90,6 @@ const BrandingServices = () => {
                                             src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069674/product-branding-services_58850203/product-branding-services_58850203.png"
                                             width={'25px'}
                                         />
->>>>>>> 6010d3c (Add new features and updates)
                                     </div>
                                     <div>
                                         <Link
@@ -144,11 +102,7 @@ const BrandingServices = () => {
                                     </div>
                                 </div>
                             </Col>
-<<<<<<< HEAD
-                            <Col md={4}>
-=======
                             <Col md={6}>
->>>>>>> 6010d3c (Add new features and updates)
                                 <div className="d-flex">
                                     <div>
                                         <img alt="" variant="top" src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069678/ppt-branding-services_5874dfa2/ppt-branding-services_5874dfa2.png" width={'25px'} />
@@ -161,18 +115,11 @@ const BrandingServices = () => {
                                     </div>
                                 </div>
                             </Col>
-<<<<<<< HEAD
-                            <Col md={4}>
-                                <div className="d-flex">
-                                    <div>
-                                        <img alt=""
-=======
                             <Col md={6}>
                                 <div className="d-flex">
                                     <div>
                                         <img
                                             alt=""
->>>>>>> 6010d3c (Add new features and updates)
                                             variant="top"
                                             src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069670/social-media-branding-services_5896bc63/social-media-branding-services_5896bc63.png"
                                             width={'25px'}
@@ -185,15 +132,6 @@ const BrandingServices = () => {
                                     </div>
                                 </div>
                             </Col>
-<<<<<<< HEAD
-                        </Row>
-
-                        <Row className="mb-4">
-                            <Col md={4}>
-                                <div className="d-flex">
-                                    <div>
-                                        <img alt=""
-=======
                             {/* </Row> */}
 
                             {/* <Row className="mb-4"> */}
@@ -202,7 +140,6 @@ const BrandingServices = () => {
                                     <div>
                                         <img
                                             alt=""
->>>>>>> 6010d3c (Add new features and updates)
                                             variant="top"
                                             src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069666/letter-head-branding-services_590104d0/letter-head-branding-services_590104d0.png"
                                             width={'25px'}
@@ -227,9 +164,6 @@ const BrandingServices = () => {
                         </Row>
                     </Col>
                 </Row>
-<<<<<<< HEAD
-
-=======
                 <Row className="mb-4 ">
                     <Col>
                         <Button
@@ -245,7 +179,6 @@ const BrandingServices = () => {
                         </Button>
                     </Col>
                 </Row>
->>>>>>> 6010d3c (Add new features and updates)
                 {/* <Row>
         <Col className="text-center">
           <Button variant="primary" href="/branding-design/">Read More</Button>

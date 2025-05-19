@@ -3,11 +3,7 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { Accordion } from 'react-bootstrap';
 // import styles from './FAQ.module.css'; // Import custom CSS module
-<<<<<<< HEAD
-import "../style/home/landing_page.scss"
-=======
 import '../style/home/landing_page.scss';
->>>>>>> 6010d3c (Add new features and updates)
 const testimonials = [
     {
         name: 'Yaser',
@@ -37,15 +33,6 @@ const testimonials = [
 
 const faqData = [
     {
-<<<<<<< HEAD
-        headerContent: 'What does it mean to have a managed services provider?',
-        boadyContent: 'A managed services provider takes over the management of your IT services, ensuring that your systems run smoothly and efficiently, allowing you to focus on your core business activities.'
-    },
-    { headerContent: 'What is your approach to business planning?', boadyContent: 'Our business planning emphasizes flexibility and trust, encouraging each team member to contribute their best work in an environment that values their whole self.' },
-    { headerContent: 'Do you have a unique approach to working in IT?', boadyContent: 'We focus on creating solutions that eliminate obstacles, enabling people to work more effectively and efficiently.' },
-    { headerContent: 'What types of systems do you support?', boadyContent: 'We support a variety of systems and applications, including popular platforms like Instagram and other web design tools.' },
-    { headerContent: 'Can you provide all types of IT management services?', boadyContent: 'We offer a full range of IT management services, from design to deployment, as part of our global solutions portfolio.' }
-=======
         headerContent: 'What does having Managed your services provider?',
         boadyContent: 'Our purpose is to build solutions that remove the barriers preventing people from doing their best work, and this is at the heart of how we approach our.'
     },
@@ -53,7 +40,6 @@ const faqData = [
     { headerContent: 'You have a unique way of the working in IT?', boadyContent: 'Our purpose is to build solutions that remove barriers preventing people from doing their best work, and this is at the heart.' },
     { headerContent: 'What types of systems do you support?', boadyContent: 'Increase social reach and productivity with our App Directory, a collection of famous applications like Instagram other web design.' },
     { headerContent: 'Can you provide of all IT Managenment services?', boadyContent: 'Design studio founded in London and expanded our services, and become a multinational firm, offering services and solutions.' }
->>>>>>> 6010d3c (Add new features and updates)
 ];
 
 const FAQ = () => {
@@ -67,10 +53,6 @@ const FAQ = () => {
                         <h2>Frequently Asked Questions</h2>
                     </div>
                     <Accordion>
-<<<<<<< HEAD
-
-=======
->>>>>>> 6010d3c (Add new features and updates)
                         {faqData.map((data, index) => (
                             <Accordion.Item key={index} eventKey={index} className="landing-page-faq-accordionItem">
                                 <Accordion.Header className="landing-page-faq-accordionHeader">{data.headerContent}</Accordion.Header>

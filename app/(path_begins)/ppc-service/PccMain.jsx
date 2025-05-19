@@ -50,15 +50,9 @@ const PccMain = () => {
       <Ppcgoogle />
       <Promotewebdads2uppc />
       <Payperclick />
-<<<<<<< HEAD
-      <SocialMedia />
-      <PPCservicesindia />
-      <Fqppcservice />
-=======
       <PPCservicesindia />
       <Fqppcservice />
       <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 }

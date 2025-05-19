@@ -1,11 +1,6 @@
 h2 {
-<<<<<<< HEAD
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0b1225;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 25px;
     font-weight: 700;
 }
@@ -53,33 +48,6 @@ p {
     margin-top: -50px;
     background: #fff;
 }
-<<<<<<< HEAD
-.profess{
-p{
-    width: 80%;
-    margin: auto;
-    font-size: 14px;
-    line-height: 28px;
-    padding-bottom: 50px;
-}
-}
-.lhdpro{
-    svg{
-        color:#E40724;
-        font-size: 20px;
-       margin-right: 5px;
-    }
-}
-.profsdesn{
-    padding-top:60px;
-    padding-bottom: 60px;
-}
-
-.whyletter{
-    h3{
-        color: #4D4D4D;
-        font-family: "Poppins", Sans-serif;
-=======
 .profess {
     p {
         width: 80%;
@@ -105,40 +73,10 @@ p{
     h3 {
         color: #4d4d4d;
         font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
         font-size: 16px;
         font-weight: 700;
     }
 }
-<<<<<<< HEAD
-.looking-letter{
-    background-color: transparent;
-    background-image: linear-gradient(121deg, #A942A5 0%, #6A2F9E 100%);
-    padding-top:60px;
-    padding-bottom: 60px;
-
-    P{
-        font-size: 18px;
-        color: #fff;
-    }
-    button{
-        background: #fff;
-    font-size: #000;
-    font-size: 18px;
-    color: #000;
-    font-weight: 500;
-    padding: 10px 30px;
-    border:2px solid #fff;
-    }
-    button:hover{
-        border:2px solid #fff;
-        background:transparent;
-        color:#fff;
-    }
-    h2{
-        color: #FFF;
-        font-family: "Poppins", Sans-serif;
-=======
 .looking-letter {
     background-color: transparent;
     background-image: linear-gradient(121deg, #a942a5 0%, #6a2f9e 100%);
@@ -166,7 +104,6 @@ p{
     h2 {
         color: #fff;
         font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
         font-size: 45px;
         font-weight: 600;
     }
@@ -174,21 +111,6 @@ p{
 
 // Accordian
 
-<<<<<<< HEAD
-.FrequentlyAskedQuestions-Accordion .accordion-item{
-    margin-bottom: 10px;
-  } 
-  
-  
-  .FrequentlyAskedQuestions-Accordion .accordion-button{
-    color: rgb(0, 32, 96);
-      font-family: Poppins, sans-serif;
-      font-size: 18px;
-      font-weight: 600;
-  }
-  
-  .FrequentlyAskedQuestions-Accordion .accordion-body{
-=======
 .FrequentlyAskedQuestions-Accordion .accordion-item {
     margin-bottom: 10px;
 }
@@ -201,58 +123,20 @@ p{
 }
 
 .FrequentlyAskedQuestions-Accordion .accordion-body {
->>>>>>> 6010d3c (Add new features and updates)
     color: var(--e-global-color-text);
     font-family: Poppins, sans-serif;
     font-size: 16px;
     font-weight: 400;
-<<<<<<< HEAD
-  }
-  .frequentlyaskedquestions-main h1 {
-    color: #0A1F5F;
-    font-family: "Poppins", Sans-serif;
-=======
 }
 .frequentlyaskedquestions-main h1 {
     color: #0a1f5f;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 45px;
 }
 
-<<<<<<< HEAD
-.FrequentlyAskedQuestions-Accordion .accordion-button{
-    background: #fff;
-    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
-  }
-  
-  .FrequentlyAskedQuestions-Accordion .accordion-button::after {
-    // background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
-    transition: all 0.5s;
-    color: #08203A !important;
-  }
-  .FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
-    // background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
-    color: #08203A !important;
-  }
-  .FrequentlyAskedQuestions-Accordion .accordion-button::after {
-    transition: all 0.5s;
-  }
-  
-
-  .letterhdslr .android-app-development-slider{
-    display: flex;
-    flex-direction: row;
-    border: 0px !important;
-  }
-  
-  .letterhdslr .android-app-development-slider h1 {
-    color: #141414;
-    font-family: "Poppins", Sans-serif;
-=======
 .FrequentlyAskedQuestions-Accordion .accordion-button {
     background: #fff;
     box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
@@ -280,91 +164,19 @@ p{
 .letterhdslr .android-app-development-slider h1 {
     color: #141414;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 22px;
     font-weight: 600;
     padding: 20px;
     margin-right: 50px;
-<<<<<<< HEAD
-  }
-  
-  
-  
-  .letterhdslr .android-app-development-slider img {
-=======
 }
 
 .letterhdslr .android-app-development-slider img {
->>>>>>> 6010d3c (Add new features and updates)
     width: 100%;
     height: auto;
     padding: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-  }
-  
-  @media screen and (max-width: 800px) {
-    .next {
-      display: none !important;
-    }
-  
-    .android-app-development-slider img {
-      width: 100px;
-      padding: 5px;
-    }
-  }
-  .letterrecent {
-    h2{
-        color: #0B1225;
-        font-family: "Poppins", Sans-serif;
-        font-size: 40px;
-        font-weight: 700;  
-    }
-  }
-
-  @media screen and (max-width:768px){
-    .isoapp{
-        h2{
-            font-size: 20px;
-        }
-        p{
-          font-size: 10px;
-          line-height: 18px;
-        }
-        button{
-            display: none;
-        }
-    }
-    .profess p{
-        width:100% !important;
-    }
-    .letterrecent h2 {
-    font-size: 30px;
-  }
-  .lhdpro {
-   h2{
-    font-size: 30px;
-   }
-  }
-}
-
-@media screen and (min-width:768px) and (max-width:1024px){
-    .isoapp h2{
-        font-size: 30px;
-    }
-    .android-app-development-slider h1{
-        font-size: 18px;
-        font-weight: 600;
-        padding: 0px;
-        margin-right: 0px;  
-    }
-    .looking-letter h2 {
-   font-size: 30px;
-}
-}
-=======
 }
 
 @media screen and (max-width: 800px) {
@@ -440,4 +252,3 @@ p{
         background-image: linear-gradient(90deg, #262250 0%, #871752 100%);
     }
 }
->>>>>>> 6010d3c (Add new features and updates)

@@ -77,26 +77,6 @@
     }
 }
 
-<<<<<<< HEAD
-
-.about-page-card-container
-{
-    .card{
-    background-color:        #F5F5F5;
-    }
-}
-
-.about-page-card-title{
-    margin-bottom: 18px;
-    color: #FFF;
-    font-family: "Poppins", Sans-serif;
-    font-weight: 600;
-}
-
-.about-page-card-text{
-    color: #FFF;
-    font-family: "Poppins", Sans-serif;
-=======
 .about-page-card-container {
     .card {
         background-color: #f5f5f5;
@@ -113,28 +93,12 @@
 .about-page-card-text {
     color: #fff;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.7px;
     margin-bottom: 5px !important;
     // word-spacing: 1px;
     line-height: 1.85714285714286;
-<<<<<<< HEAD
-
-}
-.ct-effect1{
-    position: relative;
-}
-.ct-effect1 img{
-    animation: particleToptoBottom2 12s infinite linear alternate;
-    
-}
-.about-img{
-    position: absolute;
-    top: 40%;
-   
-=======
 }
 .ct-effect1 {
     position: relative;
@@ -146,29 +110,16 @@
     position: absolute;
     top: 40%;
 
->>>>>>> 6010d3c (Add new features and updates)
     left: 57%;
     overflow: hidden;
     border-radius: 10px;
 }
-<<<<<<< HEAD
-.best-frirnd{
-=======
 .best-frirnd {
->>>>>>> 6010d3c (Add new features and updates)
     display: flex;
     width: 72%;
     background: #fff;
     padding: 20px;
     margin-top: -20px;
-<<<<<<< HEAD
-    z-index: 99;
-    position: relative;
-   
-    margin-left: 3%;
-    box-shadow: 0 8px 65px rgba(12, 12, 12, 0.19);
-    
-=======
     // z-index: 99;
     z-index: 2;
     position: relative;
@@ -176,24 +127,15 @@
     margin-left: 3%;
     box-shadow: 0 8px 65px rgba(12, 12, 12, 0.19);
 
->>>>>>> 6010d3c (Add new features and updates)
     border-radius: 30px 30px 0 0;
     padding: 20px 30px;
     background: #fff !important;
 
-<<<<<<< HEAD
-    svg{
-        font-size: 45px;
-    }
-}
-@keyframes particleToptoBottom2{
-=======
     svg {
         font-size: 45px;
     }
 }
 @keyframes particleToptoBottom2 {
->>>>>>> 6010d3c (Add new features and updates)
     0% {
         transform: translateY(0px);
     }
@@ -206,35 +148,12 @@
     75% {
         transform: translateY(-25px);
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6010d3c (Add new features and updates)
     100% {
         transform: translateY(0px);
     }
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:768px){
-    .ct-effect1 img{
-        display: none;
-    }
-.about-img{
-    position: unset;
-}
-.best-frirnd {
-width:95%;
-margin-left: 2%;
-}
-.about-page-card-container{
-.col-md-4{
-    margin-top:20px;
-}
-}
-}
-=======
 @media screen and (max-width: 768px) {
     .ct-effect1 img {
         display: none;
@@ -252,4 +171,3 @@ margin-left: 2%;
         }
     }
 }
->>>>>>> 6010d3c (Add new features and updates)

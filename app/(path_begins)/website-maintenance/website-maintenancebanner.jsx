@@ -10,11 +10,7 @@ function Websitemaintenancebanner() {
                 <div className="col-sm-12 col-md-12 col-lg-12">
                     <h1>Website Maintenance Company</h1>
                     <p>A promise to maintain and successfully handle your Website Services.</p>
-<<<<<<< HEAD
-                    <button className='text-center'>Contact us</button>
-=======
                     <a href="/contact-us"><button>Conatct us</button></a>
->>>>>>> 6010d3c (Add new features and updates)
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-12">
                 <img src="webdads/images/website-maintenance/banner.png" alt="banner" loading='lazy' className='img-fluid' />

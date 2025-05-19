@@ -49,19 +49,12 @@ const CustomeWebdesign = () => {
       <Customwebdesignbanner />
       <Whywebdads2u />
       <Customwebdesignservices />
-<<<<<<< HEAD
-      <SocialMedia />
-=======
->>>>>>> 6010d3c (Add new features and updates)
       <Whychoosewedads2u />
       <Lookingforcustomwebdesign />
       {/* <Loader /> */}
       <CustomTabPanel />
       <FQcustomwebdesign />
-<<<<<<< HEAD
-=======
       <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
     </>
   );
 };

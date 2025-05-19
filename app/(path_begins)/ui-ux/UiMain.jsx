@@ -71,17 +71,10 @@ const Page = () => {
       <Uiuxsliser />
       <Ux />
       <Uxdesign />
-<<<<<<< HEAD
-      <SocialMedia />
-      <WebsiteUXUIdesigningservices />
-      <UXwebdesigndevelopment />
-      <Fquiux />
-=======
       <WebsiteUXUIdesigningservices />
       <UXwebdesigndevelopment />
       <Fquiux />
       <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 }

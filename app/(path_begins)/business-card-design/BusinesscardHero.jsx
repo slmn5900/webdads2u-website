@@ -41,11 +41,7 @@ function BusinesscardHero() {
                         <Col md={6} className="mt-2">
                             <div className="busbox">
                                 <div className="busnimg">
-<<<<<<< HEAD
-                                    <img alt='' src="/webdads/images/businesscard/Shop-by-Elegance-Size-and-Profession.png"></img>
-=======
                                     <img alt="" src="/webdads/images/businesscard/Shop-by-Elegance-Size-and-Profession.png"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 </div>
                                 <div className="buscont">
                                     <h3>Shop by Elegance, Size and Profession.</h3>
@@ -56,11 +52,7 @@ function BusinesscardHero() {
                         <Col md={6} className="mt-2">
                             <div className="busbox">
                                 <div className="busnimg">
-<<<<<<< HEAD
-                                    <img alt='' src="/webdads/images/businesscard/networking-business-cards.webp"></img>
-=======
                                     <img alt="" src="/webdads/images/businesscard/networking-business-cards.webp"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 </div>
                                 <div className="buscont">
                                     <h3>Networking Business Cards</h3>
@@ -71,11 +63,7 @@ function BusinesscardHero() {
                         <Col md={6} className="mt-2">
                             <div className="busbox">
                                 <div className="busnimg">
-<<<<<<< HEAD
-                                    <img alt='' src="/webdads/images/businesscard/appointment-business-cards.webp"></img>
-=======
                                     <img alt="" src="/webdads/images/businesscard/appointment-business-cards.webp"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 </div>
                                 <div className="buscont">
                                     <h3>Appointment Business Cards</h3>
@@ -86,11 +74,7 @@ function BusinesscardHero() {
                         <Col md={6} className="mt-2">
                             <div className="busbox">
                                 <div className="busnimg">
-<<<<<<< HEAD
-                                    <img alt='' src="/webdads/images/businesscard/QR-code-Business-Cards.png"></img>
-=======
                                     <img alt="" src="/webdads/images/businesscard/QR-code-Business-Cards.png"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 </div>
                                 <div className="buscont">
                                     <h3>QR code Business Cards</h3>
@@ -101,11 +85,7 @@ function BusinesscardHero() {
                         <Col md={6} className="mt-2">
                             <div className="busbox">
                                 <div className="busnimg">
-<<<<<<< HEAD
-                                    <img alt='' src="/webdads/images/businesscard/Standard-Business-Cards.png"></img>
-=======
                                     <img alt="" src="/webdads/images/businesscard/Standard-Business-Cards.png"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 </div>
                                 <div className="buscont">
                                     <h3>Standard Business Cards</h3>
@@ -116,11 +96,7 @@ function BusinesscardHero() {
                         <Col md={6} className="mt-2">
                             <div className="busbox">
                                 <div className="busnimg">
-<<<<<<< HEAD
-                                    <img alt='' src="/webdads/images/businesscard/embossed-business-cards.webp"></img>
-=======
                                     <img alt="" src="/webdads/images/businesscard/embossed-business-cards.webp"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 </div>
                                 <div className="buscont">
                                     <h3>Embossed Business Cards</h3>
@@ -128,8 +104,6 @@ function BusinesscardHero() {
                                 </div>
                             </div>
                         </Col>
-<<<<<<< HEAD
-=======
                         <Col>
                             <div className="w-100 d-flex justify-content-center align-items-center mt-2 businessCardHero-card-design">
                                 <a href="/contact-us">
@@ -137,7 +111,6 @@ function BusinesscardHero() {
                                 </a>
                             </div>
                         </Col>
->>>>>>> 6010d3c (Add new features and updates)
                     </Row>
                 </Container>
             </section>
@@ -148,32 +121,12 @@ function BusinesscardHero() {
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
                             <div className="">
-<<<<<<< HEAD
-                                <img  src="/webdads/images/businesscard/why-choose-us.webp" alt="why choose us" className="w-100"></img>
-=======
                                 <img src="/webdads/images/businesscard/why-choose-us.webp" alt="why choose us" className="w-100"></img>
->>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
                             <div className="">
                                 <h3>WHY CHOOSE US?</h3>
-<<<<<<< HEAD
-                                <h2>Why Webdads2u Business Card Designing Services?</h2>
-                                <p>
-                                    <FaCircleCheck /> Provides a personal touch.{' '}
-                                </p>
-                                <p>
-                                    <FaCircleCheck /> Leave a lasting impact
-                                </p>
-                                <p>
-                                    <FaCircleCheck /> It is a marketing tool that is effective.{' '}
-                                </p>
-                                <p>
-                                    <FaCircleCheck /> They are priced competitively.
-                                </p>
-                                <p>
-=======
                                 <h2 style={{ fontWeight: 700 }}>Why Webdads2u Business Card Designing Services?</h2>
                                 <p className="businessCardHero-why-choose-us">
                                     <FaCircleCheck /> Provides a personal touch.{' '}
@@ -188,7 +141,6 @@ function BusinesscardHero() {
                                     <FaCircleCheck /> They are priced competitively.
                                 </p>
                                 <p className="businessCardHero-why-choose-us">
->>>>>>> 6010d3c (Add new features and updates)
                                     <FaCircleCheck /> It has the capability of being versatile.
                                 </p>
                             </div>
@@ -196,10 +148,6 @@ function BusinesscardHero() {
                     </Row>
                 </Container>
             </section>
-<<<<<<< HEAD
-            <SocialMedia />
-=======
->>>>>>> 6010d3c (Add new features and updates)
             <section className="businesscdr pt-5 pb-5">
                 <Container>
                     <Row>
@@ -208,33 +156,21 @@ function BusinesscardHero() {
                         </div>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
-<<<<<<< HEAD
-                                <img alt='' src="/webdads/images/businesscard/Standard-Business-Cards.png"></img>
-=======
                                 <img alt="" src="/webdads/images/businesscard/Standard-Business-Cards.png"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 <h3>Standard Business Cards </h3>
                                 <p>Classic designs for a timeless appeal, ensuring professionalism and clarity in every aspect of your business cards design.</p>
                             </div>
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
-<<<<<<< HEAD
-                                <img alt='' src="/webdads/images/businesscard/Decorated-Business-Cards.png"></img>
-=======
                                 <img alt="" src="/webdads/images/businesscard/Decorated-Business-Cards.png"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 <h3>Decorated Business Cards</h3>
                                 <p>Elevate your brand with intricate embellishments and artistic flair, creating memorable impressions with sophisticated business cards designs.</p>
                             </div>
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
-<<<<<<< HEAD
-                                <img alt='' src="/webdads/images/businesscard/Premium-Business-Cards.png"></img>
-=======
                                 <img alt="" src="/webdads/images/businesscard/Premium-Business-Cards.png"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 <h3>Premium Business Cards </h3>
                                 <p>Indulge in luxury with high-quality materials and impeccable finishes, showcasing sophistication and exclusivity in your business cards design.</p>
                             </div>
@@ -242,33 +178,21 @@ function BusinesscardHero() {
 
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
-<<<<<<< HEAD
-                                <img alt='' src="/webdads/images/businesscard/Wild-Format-Business-Cards.png"></img>
-=======
                                 <img alt="" src="/webdads/images/businesscard/Wild-Format-Business-Cards.png"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 <h3>Wild-Format Business Cards</h3>
                                 <p>Break the mold with unconventional shapes and daring designs, capturing attention and standing out in a sea of standard business cards.</p>
                             </div>
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
-<<<<<<< HEAD
-                                <img alt='' src="/webdads/images/businesscard/Gadget-Business-Cards.png"></img>
-=======
                                 <img alt="" src="/webdads/images/businesscard/Gadget-Business-Cards.png"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 <h3>Gadget Business Cards </h3>
                                 <p>Merge innovation with networking, integrating technology into your business cards design for interactive and memorable experiences.</p>
                             </div>
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
-<<<<<<< HEAD
-                                <img alt='' src="/webdads/images/businesscard/GP-Business-Cards.png"></img>
-=======
                                 <img alt="" src="/webdads/images/businesscard/GP-Business-Cards.png"></img>
->>>>>>> 6010d3c (Add new features and updates)
                                 <h3>GP Business Cards</h3>
                                 <p>Seamlessly blend professionalism and creativity, tailored to your profession, ensuring your business cards design reflects your expertise and personality.</p>
                             </div>
@@ -289,12 +213,7 @@ function BusinesscardHero() {
                     </Row>
                 </Container>
             </section>
-<<<<<<< HEAD
-          
-          
-=======
             <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
         </>
     );
 }

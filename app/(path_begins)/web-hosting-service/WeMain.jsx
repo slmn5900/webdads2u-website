@@ -47,17 +47,10 @@ const WebMain = () => {
       <Webhostingservice />
       <Webhosting />
       <Webhostingplatform />
-<<<<<<< HEAD
-      <SocialMedia />
-      <Ourplatform />
-      <Lookingforwebhostingservices />
-      <FQhosting />
-=======
       <Ourplatform />
       <Lookingforwebhostingservices />
       <FQhosting />
       <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 }

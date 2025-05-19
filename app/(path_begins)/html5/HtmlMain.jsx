@@ -45,15 +45,9 @@ const HtmlMain = () => {
       <AdvantagesofHTML />
       <BenefitsofUsingHTML5 />
       <Technicalstack />
-<<<<<<< HEAD
-      <SocialMedia />
-      <Html5webdevelopment />
-      <Webmobile />
-=======
       <Html5webdevelopment />
       <Webmobile />
       <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
     </>
   );
 }

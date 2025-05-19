@@ -112,10 +112,6 @@ function LetterheadHero() {
                     </Row>
                 </Container>
             </section>
-<<<<<<< HEAD
-            <SocialMedia />
-=======
->>>>>>> 6010d3c (Add new features and updates)
 
             <section style={{ background: '#CEF0FF' }} className="pt-5 pb-5 whyletter">
                 <Container>
@@ -134,25 +130,15 @@ function LetterheadHero() {
                         <Col md={6} lg={4}>
                             <div className="text-center">
                                 <img alt="" src="/webdads/images/letterhead/collaborate-with-our-designers.webp"></img>
-<<<<<<< HEAD
-                                <h3>Easy to create and customise</h3>
-                                <p>Designing letterheads for your brand online is a simple task, with guided steps that simplify the process of choosing customization options, templates, and editing online.</p>
-=======
                                 <h3>Collaborate with our designers</h3>
                                 <p>Customizing your letterheads can be done by working with our expert designers. Our letterheads are printed perfectly every single time, in addition to our super-catchy, modern designs.</p>
->>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="text-center">
                                 <img alt="" src="/webdads/images/letterhead/connect-with-our-customer-support.webp"></img>
-<<<<<<< HEAD
-                                <h3>Easy to create and customise</h3>
-                                <p>Designing letterheads for your brand online is a simple task, with guided steps that simplify the process of choosing customization options, templates, and editing online.</p>
-=======
                                 <h3>Connect with our customer support</h3>
                                 <p>Our customer support team is always there to assist you and take your prints to the next level. Create and customize them easily.</p>
->>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                     </Row>
@@ -172,10 +158,7 @@ function LetterheadHero() {
                     </Row>
                 </Container>
             </section>
-<<<<<<< HEAD
-=======
             <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
         </>
     );
 }

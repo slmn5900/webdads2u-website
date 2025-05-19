@@ -27,12 +27,8 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
-<<<<<<< HEAD
-
-=======
 .env.production
 .env.development
->>>>>>> 6010d3c (Add new features and updates)
 # vercel
 .vercel
 

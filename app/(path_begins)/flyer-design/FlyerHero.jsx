@@ -15,17 +15,11 @@ function FlyerHero() {
                             <div className="text-center">
                                 <h2>Flyers Designing Service in Chennai</h2>
                                 <p>Create captivating flyers with our innovative designs. Grab attention and convey your message effectively with our professional flyer designs.</p>
-<<<<<<< HEAD
-                                <a href="/contact-us/">
-                                <a href="/contact-us"><Button variant="contained">Contact us</Button></a>
-                                </a>
-=======
                                 {/* <a href="/contact-us/"> */}
                                 <a href="/contact-us">
                                     <Button variant="contained">Contact us</Button>
                                 </a>
                                 {/* </a> */}
->>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                     </Row>
@@ -107,10 +101,6 @@ function FlyerHero() {
                     </Row>
                 </Container>
             </section>
-<<<<<<< HEAD
-            <SocialMedia />
-=======
->>>>>>> 6010d3c (Add new features and updates)
             <section className="pt-5 ">
                 <Container>
                     <Row>
@@ -190,18 +180,10 @@ function FlyerHero() {
                                 <p>Companies can promote themselves through flyers, which advertise new offers, schemes, and products.</p>
                             </div>
                         </Col>
-<<<<<<< HEAD
-
-                        
-                    </Row>
-                </Container>
-            </section>
-=======
                     </Row>
                 </Container>
             </section>
             <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
         </>
     );
 }

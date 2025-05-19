@@ -43,13 +43,8 @@ const RresponsiveMain = () => {
       <Reponsivewebdesigningservices />
       <ResponsiveWebdesigncompanychennai />
       <Advantagesusingresponsiveweb />
-<<<<<<< HEAD
-      <SocialMedia />
-      <Fqresponsivewebsite />
-=======
       <Fqresponsivewebsite />
       <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 }

@@ -7,11 +7,7 @@
     padding: 80px 0px;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:426px) {
-=======
 @media screen and (max-width: 426px) {
->>>>>>> 6010d3c (Add new features and updates)
     .responsivewebsitebanner h1 {
         font-size: 20px !important;
     }
@@ -21,15 +17,6 @@
     }
 }
 
-<<<<<<< HEAD
-
-
-.responsivewebsitebanner .element-bubbles{
-    position: absolute;
-    top: 109px;
-    left: 1045px;
-    animation: up-dwon 2s infinite alternate;
-=======
 .responsivewebsitebanner .element-bubbles {
     position: absolute;
     top: 109px;
@@ -37,24 +24,15 @@
     right: 0px;
     animation: up-dwon 2s infinite alternate;
     height: 200px;
->>>>>>> 6010d3c (Add new features and updates)
 }
 
 @keyframes up-dwon {
     0% {
-<<<<<<< HEAD
-        transform: translateY(-10px);
-    }
-
-    100% {
-        transform: translateY(10px);
-=======
         transform: translateY(-20px);
     }
 
     100% {
         transform: translateY(-10px);
->>>>>>> 6010d3c (Add new features and updates)
     }
 }
 
@@ -94,11 +72,7 @@
     margin-right: auto;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:769px) {
-=======
 @media screen and (max-width: 769px) {
->>>>>>> 6010d3c (Add new features and updates)
     .responsivewebsitebanner h1 {
         font-size: 25px;
     }
@@ -112,25 +86,15 @@
 }
 
 .reponsivewebdesigningservices h2 {
-<<<<<<< HEAD
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0b1225;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 35px;
     font-weight: 600;
 }
 
 .reponsivewebdesigningservices p {
-<<<<<<< HEAD
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #5a5a5a;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 10px;
@@ -145,42 +109,24 @@
 }
 
 .reponsivewe-card .card:hover {
-<<<<<<< HEAD
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-}
-
-.reponsivewe-card h3 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
-=======
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .reponsivewe-card h3 {
     color: #0b1225;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 20px;
     font-weight: 600;
 }
 
 .reponsivewe-card p {
-<<<<<<< HEAD
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #5a5a5a;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 16px;
     font-weight: 400;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:769px) {
-=======
 @media screen and (max-width: 769px) {
->>>>>>> 6010d3c (Add new features and updates)
     .reponsivewebdesigningservices-main {
         padding: 30px 0px;
     }
@@ -190,10 +136,6 @@
     }
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6010d3c (Add new features and updates)
 /* ResponsiveWebdesigncompanychennai */
 
 .ResponsiveWebdesigncompanychennai-main {
@@ -202,25 +144,15 @@
 }
 
 .ResponsiveWebdesigncompanychennai h3 {
-<<<<<<< HEAD
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0b1225;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 32px;
     font-weight: 600;
 }
 
 .ResponsiveWebdesigncompanychennai p {
-<<<<<<< HEAD
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #5a5a5a;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 16px;
     font-weight: 400;
 }
@@ -238,13 +170,7 @@
     background-image: linear-gradient(90deg, #262250 0%, #871752 100%);
 }
 
-<<<<<<< HEAD
-
-
-@media screen and (max-width:769px) {
-=======
 @media screen and (max-width: 769px) {
->>>>>>> 6010d3c (Add new features and updates)
     .ResponsiveWebdesigncompanychennai-main {
         padding: 30px 0px;
     }
@@ -260,13 +186,8 @@
 }
 
 .advantagesusingresponsiveweb-hearder h4 {
-<<<<<<< HEAD
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0b1225;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 35px;
     font-weight: 600;
 }
@@ -278,13 +199,8 @@
 }
 
 .advantagesusingresponsiveweb p {
-<<<<<<< HEAD
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #5a5a5a;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 16px;
     font-weight: 400;
 }
@@ -295,24 +211,15 @@
 }
 
 .advantagesusingresponsiveweb li {
-<<<<<<< HEAD
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #5a5a5a;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 5px;
     list-style-type: none;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:769px) {
-=======
 @media screen and (max-width: 769px) {
->>>>>>> 6010d3c (Add new features and updates)
     .advantagesusingresponsiveweb-main {
         padding: 30px 0px;
     }
@@ -320,28 +227,16 @@
     .advantagesusingresponsiveweb-hearder h4 {
         font-size: 25px;
     }
-<<<<<<< HEAD
-
 }
 
-
-=======
-}
-
->>>>>>> 6010d3c (Add new features and updates)
 /* Fqresponsivewebsite */
 .fqresponsivewebsite-main {
     padding: 60px 0px;
 }
 
 .fqresponsivewebsite-header h1 {
-<<<<<<< HEAD
-    color: #0A1F5F;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0a1f5f;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
@@ -349,11 +244,7 @@
 
 .fqresponsivewebsite-header p {
     color: #000;
-<<<<<<< HEAD
-    font-family: "Poppins", Sans-serif;
-=======
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 16px;
     font-weight: 400;
 }
@@ -362,10 +253,6 @@
     margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6010d3c (Add new features and updates)
 .fqresponsivewebsite-Accordion .accordion-button {
     color: rgb(0, 32, 96);
     font-family: Poppins, sans-serif;
@@ -380,10 +267,6 @@
     font-weight: 400;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6010d3c (Add new features and updates)
 .fqresponsivewebsite-Accordion .accordion-button {
     background: #fff;
     box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
@@ -392,20 +275,12 @@
 .fqresponsivewebsite-Accordion .accordion-button::after {
     background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
     transition: all 0.5s;
-<<<<<<< HEAD
-    color: #08203A !important;
-=======
     color: #08203a !important;
->>>>>>> 6010d3c (Add new features and updates)
 }
 
 .fqresponsivewebsite-Accordion .accordion-button:not(.collapsed)::after {
     background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
-<<<<<<< HEAD
-    color: #08203A !important;
-=======
     color: #08203a !important;
->>>>>>> 6010d3c (Add new features and updates)
 }
 
 .fqresponsivewebsite-Accordion .accordion-button::after {
@@ -426,8 +301,4 @@
     .frequentlyaskedquestions h1 {
         font-size: 25px;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 6010d3c (Add new features and updates)

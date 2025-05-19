@@ -14,14 +14,11 @@ function WebsitedevHero() {
                             <div className="webhero-content">
                                 <h1>Design, Develop, Deploy Anything With Full-Stack Development</h1>
                                 <p>Revolutionize your online presence with our top-tier web development services. Crafted for innovation, functionality, and user-centric experiences, our solutions redefine digital success. </p>
-<<<<<<< HEAD
-=======
                                 <button className="website-development-hero-contact-btn">
                                     <a href="/contact-us" style={{ color: '#fff', textDecoration: 'none' }}>
                                         Get Started
                                     </a>
                                 </button>
->>>>>>> 6010d3c (Add new features and updates)
                             </div>
                         </Col>
                         <Col md={5} xs={5}>
@@ -29,15 +26,6 @@ function WebsitedevHero() {
                                 <img alt="" src="/webdads/images/website-development/webdevelopment-banner-service2.png"></img>
                                 <img alt="" src="/webdads/images/website-development/webdevelopment-banner-service1.png"></img>
                             </div>
-<<<<<<< HEAD
-                            <div className="vector">
-                                <Image src="/webdads/images/website-development/Vector-website.png" alt="Logo" className="img-fluid" />
-                                <img alt="" src="/webdads/images/website-development/webdevelopment-banner-service4.png" className="mb-hdimg"></img>
-                            </div>
-                            <div className="img-ser3">
-                                <img alt="" src="/webdads/images/website-development/webdevelopment-banner-service3.png"></img>
-                            </div>
-=======
                             <div className="vector d-flex justify-content-space-evenly align-items-end">
                                 <img src="/webdads/images/website-development/Vector-website.png" alt="Logo" className="img-fluid" />
                                 <img alt="" src="/webdads/images/website-development/webdevelopment-banner-service4.png" className="mb-hdimg" style={{ position: 'absolute', bottom: '20%', right: 0 }}></img>
@@ -46,7 +34,6 @@ function WebsitedevHero() {
                             {/* <div className="img-ser3">
                                 <img alt="" src="/webdads/images/website-development/webdevelopment-banner-service3.png" className="mb-hdimg"></img>
                             </div> */}
->>>>>>> 6010d3c (Add new features and updates)
                         </Col>
                     </Row>
                 </Container>

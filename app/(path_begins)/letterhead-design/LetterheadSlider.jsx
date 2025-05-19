@@ -1,22 +1,14 @@
 // import React, { useEffect, useRef } from 'react';
 // import $ from 'jquery';
 // import 'slick-carousel'; // Ensure you've installed slick-carousel
-<<<<<<< HEAD
-// import 'slick-carousel/slick/slick.css'; 
-=======
 // import 'slick-carousel/slick/slick.css';
->>>>>>> 6010d3c (Add new features and updates)
 // import "../../../style/slider/slider.scss";
 
 // function LetterheadSlider() {
 //     const sliderRef = useRef(null);
 
 //     useEffect(() => {
-<<<<<<< HEAD
-       
-=======
 
->>>>>>> 6010d3c (Add new features and updates)
 //         if (sliderRef.current) {
 //             $(sliderRef.current).slick({
 //             // dots: true,
@@ -61,11 +53,7 @@
 //         <section>
 //         <div className="container">
 //             <div className="row android-app-development-slider">
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> 6010d3c (Add new features and updates)
 //                 <div className="col-xs-12 col-md-12 align-self-center">
 //                     <div className="overlay"></div>
 //                     <div className="slider responsive">
@@ -103,20 +91,10 @@
 
 // export default LetterheadSlider;
 
-<<<<<<< HEAD
-
-
-
-// import React, { useEffect, useRef } from 'react';
-// import $ from 'jquery';
-// import 'slick-carousel';
-// import 'slick-carousel/slick/slick.css'; 
-=======
 // import React, { useEffect, useRef } from 'react';
 // import $ from 'jquery';
 // import 'slick-carousel';
 // import 'slick-carousel/slick/slick.css';
->>>>>>> 6010d3c (Add new features and updates)
 // // import "../../../style/slider/slider.scss";
 
 // function LetterheadSlider() {
@@ -186,28 +164,16 @@
 //                         <div className="overlay"></div>
 //                         <div className="slider responsive" ref={sliderRef}>
 //                             {[
-<<<<<<< HEAD
-                                
-=======
 
->>>>>>> 6010d3c (Add new features and updates)
 //                                 "Audioscape.webp",
 //                                 "AYN-letter-head.webp",
 //                                 "Jk-onstruction.webp",
 //                                 "Juniya.webp",
-<<<<<<< HEAD
-                               
-//                                 "Raj-vision-electronics.webp",
-                               
-//                                 "SKP-1.webp",
-                                
-=======
 
 //                                 "Raj-vision-electronics.webp",
 
 //                                 "SKP-1.webp",
 
->>>>>>> 6010d3c (Add new features and updates)
 //                             ].map((img, index) => (
 //                                 <div key={index}>
 //                                     <img src={`webdads/images/letterhead/${img}`} alt={`slider${index + 1}`} />
@@ -231,22 +197,6 @@
 
 // export default LetterheadSlider;
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> 6010d3c (Add new features and updates)
 // =========================================================================================================================================
 // ================================ this code is reworked =======================================================================================
 // =========================================================================================================================================
@@ -357,10 +307,7 @@ import $ from 'jquery';
 import 'slick-carousel';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-<<<<<<< HEAD
-=======
 import { Button } from 'react-bootstrap';
->>>>>>> 6010d3c (Add new features and updates)
 
 function LetterheadSlider() {
     const sliderRef = useRef(null);
@@ -385,11 +332,7 @@ function LetterheadSlider() {
                         breakpoint: 1024,
                         settings: {
                             slidesToShow: 3,
-<<<<<<< HEAD
-                            slidesToScroll: 3,
-=======
                             slidesToScroll: 3
->>>>>>> 6010d3c (Add new features and updates)
                         }
                     },
                     {
@@ -413,11 +356,7 @@ function LetterheadSlider() {
         const timeoutId = setTimeout(() => {
             const checkImagesLoaded = setInterval(() => {
                 const images = sliderElement?.querySelectorAll('img');
-<<<<<<< HEAD
-                const allLoaded = [...images].every(img => img.complete);
-=======
                 const allLoaded = [...images].every((img) => img.complete);
->>>>>>> 6010d3c (Add new features and updates)
 
                 if (allLoaded) {
                     clearInterval(checkImagesLoaded);
@@ -441,34 +380,13 @@ function LetterheadSlider() {
                     <div className="col-xs-12 col-md-12 align-self-center">
                         <div className="overlay"></div>
                         <div className="slider responsive" ref={sliderRef}>
-<<<<<<< HEAD
-                            {[
-                                "Audioscape.webp",
-                                "AYN-letter-head.webp",
-                                "Jk-onstruction.webp",
-                                "Juniya.webp",
-                                "Raj-vision-electronics.webp",
-                                "SKP-1.webp",
-                            ].map((img, index) => (
-                                <div key={index}>
-                                    <img
-                                        src={`webdads/images/letterhead/${img}`}
-                                        alt={`slider${index + 1}`}
-                                        style={{ width: '100%', height: 'auto' }}
-                                    />
-=======
                             {['Audioscape.webp', 'AYN-letter-head.webp', 'Jk-onstruction.webp', 'Juniya.webp', 'Raj-vision-electronics.webp', 'SKP-1.webp'].map((img, index) => (
                                 <div key={index}>
                                     <img src={`webdads/images/letterhead/${img}`} alt={`slider${index + 1}`} style={{ width: '100%', height: 'auto' }} />
->>>>>>> 6010d3c (Add new features and updates)
                                 </div>
                             ))}
                         </div>
                         {/* Optional: Custom arrows if needed */}
-<<<<<<< HEAD
-                        <button className="prev">Prev</button>
-                        <button className="next">Next</button>
-=======
                         {/* <button className="prev">Prev</button>
                         <button className="next">Next</button> */}
                         <div>
@@ -478,7 +396,6 @@ function LetterheadSlider() {
                                 </a>
                             </div>
                         </div>
->>>>>>> 6010d3c (Add new features and updates)
                     </div>
                 </div>
             </div>

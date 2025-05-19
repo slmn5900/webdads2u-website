@@ -291,10 +291,7 @@ import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
 import { RiMenu3Fill } from 'react-icons/ri';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-<<<<<<< HEAD
-=======
 import { IoCall } from 'react-icons/io5';
->>>>>>> 6010d3c (Add new features and updates)
 
 import '../style/testingheader.scss';
 const Header = () => {
@@ -316,8 +313,6 @@ const Header = () => {
                 </Button>
             </div>
 
-<<<<<<< HEAD
-=======
             <section className="sidebar-content-div hd-btn">
                 <div className="icon-sty">
                     <a href="https://web.whatsapp.com/send?phone=+918825607550&text=Welcome+to+Webdads2u" className="sidebar-icon" target="_blank" rel="noopener">
@@ -369,7 +364,6 @@ const Header = () => {
                     Book Now
                 </button> */}
             </section>
->>>>>>> 6010d3c (Add new features and updates)
             <Offcanvas show={show} onHide={handleClose} responsive="lg">
                 <Offcanvas.Header closeButton>
                     <Link href="/" style={{ textDecoration: 'none' }}>
@@ -434,11 +428,7 @@ const Header = () => {
                                                             <MdOutlineKeyboardDoubleArrowRight />
                                                             Wordpress Web Development
                                                         </a>
-<<<<<<< HEAD
-                                                        <a href="/wordpress-development">
-=======
                                                         <a href="/react-js-development">
->>>>>>> 6010d3c (Add new features and updates)
                                                             <MdOutlineKeyboardDoubleArrowRight />
                                                             ReactJs Web Development
                                                         </a>
@@ -559,11 +549,7 @@ const Header = () => {
                                                             <MdOutlineKeyboardDoubleArrowRight />
                                                             Flyer Design
                                                         </a>
-<<<<<<< HEAD
-                                                        <a href="#">
-=======
                                                         <a href="/corporate-gifts-design/">
->>>>>>> 6010d3c (Add new features and updates)
                                                             <MdOutlineKeyboardDoubleArrowRight />
                                                             Corporate Gifts Design
                                                         </a>
@@ -654,11 +640,7 @@ const Header = () => {
                                                 </a>
                                                 <ul className="sub_menu">
                                                     <li>
-<<<<<<< HEAD
-                                                        <a href="/WordPress">WordPress</a>
-=======
                                                         <a href="/wordpress">WordPress</a>
->>>>>>> 6010d3c (Add new features and updates)
                                                     </li>
 
                                                     <li>

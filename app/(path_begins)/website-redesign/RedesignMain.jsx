@@ -59,15 +59,9 @@ const RedesignMain = () => {
       <Beginningwithredesign />
       <Determinemotive />
       <Contentoptimization />
-<<<<<<< HEAD
-      <SocialMedia />
-      <Makeplansproceed />
-      <FQwebsiteredesign />
-=======
       <Makeplansproceed />
       <FQwebsiteredesign />
       <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 }

@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-.android-app-development-slider{
-    display: flex;
-    flex-direction: row;
-    border: 1px  solid #ECECEC;
-    border-radius: 5px 5px 5px 5px;
-  }
-  
-  .android-app-development-slider h1 {
-    color: #141414;
-    font-family: "Poppins", Sans-serif;
-=======
 .android-app-development-slider {
     position: relative;
     display: flex;
@@ -22,61 +10,24 @@
 .android-app-development-slider h1 {
     color: #141414;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 22px;
     font-weight: 600;
     padding: 20px;
     margin-right: 50px;
-<<<<<<< HEAD
-  }
-  
-  
-  .android-app-development-slider {
-=======
 }
 
 .android-app-development-slider {
->>>>>>> 6010d3c (Add new features and updates)
     margin-top: -50px;
     background: #fff;
 }
 
-<<<<<<< HEAD
-  .android-app-development-slider img {
-=======
 .android-app-development-slider img {
->>>>>>> 6010d3c (Add new features and updates)
     width: 100%;
     height: auto;
     padding: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-  }
-  
-  @media screen and (max-width: 800px) {
-    .next {
-      display: none !important;
-    }
-  
-    .android-app-development-slider img {
-      width: 100px;
-      padding: 5px;
-    }
-  }
-
-  @media screen and (min-width:769px) and (max-width:1024px){
-    .android-app-development-slider{
-      h1{
-          margin-right: 0px;
-          padding:10px;
-          font-size: 16px;
-      }
-    }
-  }
-  
-=======
 }
 
 @media screen and (max-width: 800px) {
@@ -99,4 +50,3 @@
         }
     }
 }
->>>>>>> 6010d3c (Add new features and updates)

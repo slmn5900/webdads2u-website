@@ -36,11 +36,7 @@ import { LayoutProvider } from '../layout/context/layoutcontext';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-<<<<<<< HEAD
-import IconBreadcrumbs from '../components/IconBreadcrumbs'; // Import your breadcrumbs
-=======
 // import IconBreadcrumbs from '../components/IconBreadcrumbs'; // Import your breadcrumbs
->>>>>>> 6010d3c (Add new features and updates)
 import '../style/home/home.scss';
 // import NextBreadcrumb from '../components/NextBreadcrumb';
 import CommonBreadcrumbs from '../components/CommonBreadcrumbs';
@@ -69,11 +65,7 @@ export default function RootLayout({ children }) {
                         listClasses="hover:underline mx-2 font-bold"
                         capitalizeLinks
                     /> */}
-<<<<<<< HEAD
-                    <CommonBreadcrumbs />
-=======
                     {/* <CommonBreadcrumbs /> */}
->>>>>>> 6010d3c (Add new features and updates)
                     {children}
                     <Footer />
                 </LayoutProvider>

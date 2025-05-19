@@ -57,18 +57,11 @@ const AndroidMain = () => {
                 <AndroidAppServices />
                 <AndroidApplicationDevelopmentServices />
                 <Webdads2uTechnologies />
-<<<<<<< HEAD
-                <SocialMedia />
-                <TypesofCustomAndroid />
-                <AndroidApp />
-                <FrequentlyAskedQuestions />
-=======
                 {/* <SocialMedia /> */}
                 <TypesofCustomAndroid />
                 <AndroidApp />
                 <FrequentlyAskedQuestions />
                 <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
             </div>
         </div>
     );

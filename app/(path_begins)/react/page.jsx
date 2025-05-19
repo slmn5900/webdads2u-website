@@ -3,13 +3,8 @@ import React from 'react'
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
 const page = () => {
   const images = [
-<<<<<<< HEAD
-    { alt: 'Now Kart', name: 'securitaz', url: '/webdads/images/php/Now-Kart.webp' },
-    { alt: 'Saiyathra', name: 'rmp', url: '/webdads/images/php/Saiyathra.webp' },
-=======
     { alt: 'Now Kart', name: 'Now Kart', url: '/webdads/images/php/Now-Kart.webp' },
     { alt: 'Saiyathra', name: 'Saiyathra', url: '/webdads/images/php/Saiyathra.webp' },
->>>>>>> 6010d3c (Add new features and updates)
    
   ];
 

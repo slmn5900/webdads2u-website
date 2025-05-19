@@ -5,13 +5,10 @@ import { IoPlayCircle } from 'react-icons/io5';
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import Counter from '../../../components/Counter';
 import { FaMedal } from 'react-icons/fa';
-<<<<<<< HEAD
-=======
 import { Carousel } from 'react-bootstrap';
 import { Accordion } from 'react-bootstrap';
 // import styles from './FAQ.module.css'; // Import custom CSS module
 import '../../../style/home/landing_page.scss';
->>>>>>> 6010d3c (Add new features and updates)
 
 const values = [
     {
@@ -46,8 +43,6 @@ const values = [
     }
 ];
 
-<<<<<<< HEAD
-=======
 const testimonials = [
     {
         name: 'Yaser',
@@ -75,7 +70,6 @@ const testimonials = [
     }
 ];
 
->>>>>>> 6010d3c (Add new features and updates)
 const AboutPage = () => {
     return (
         <>
@@ -160,11 +154,7 @@ const AboutPage = () => {
                 </div>
                 <Container className="about-page-card-container">
                     <div className="row">
-<<<<<<< HEAD
-                        <section className="col-md-4">
-=======
                         <section className="col-md-4" style={{ height: '500px', maxHeight: '500px' }}>
->>>>>>> 6010d3c (Add new features and updates)
                             <div className="d-flex justify-content-center">
                                 <Image src="/webdads/images/about-page/misson-about.avif" width={448} height={299} alt="Mission Image" fluid />
                             </div>
@@ -183,11 +173,7 @@ const AboutPage = () => {
                             </div>
                         </section>
 
-<<<<<<< HEAD
-                        <section className="col-md-4">
-=======
                         <section className="col-md-4" style={{ height: '500px', maxHeight: '500px' }}>
->>>>>>> 6010d3c (Add new features and updates)
                             <div className="d-flex justify-content-center">
                                 <Image src="/webdads/images/about-page/vission.avif" width={625} height={625} alt="Vision Image" fluid />
                             </div>
@@ -207,11 +193,7 @@ const AboutPage = () => {
                         </section>
 
                         {/* Goals Section */}
-<<<<<<< HEAD
-                        <section className="col-md-4">
-=======
                         <section className="col-md-4" style={{ height: '500px', maxHeight: '500px' }}>
->>>>>>> 6010d3c (Add new features and updates)
                             <div>
                                 <div className="d-flex justify-content-center">
                                     <Image src="/webdads/images/about-page/goal.avif" width={448} height={299} alt="Goals Image" fluid />
@@ -233,13 +215,9 @@ const AboutPage = () => {
                     </div>
                 </Container>
                 {/* ====================================================== */}
-<<<<<<< HEAD
-                <Counter />
-=======
                 {/* ====================================================== */}
                 <Counter />
 
->>>>>>> 6010d3c (Add new features and updates)
                 {/* ====================================================== */}
                 <section style={{ backgroundImage: ` linear-gradient(90deg, #871752 1%, #262250 44%)` }}>
                     <div className="container">
@@ -260,11 +238,7 @@ const AboutPage = () => {
                         <div className="row">
                             {values.map((value, index) => (
                                 <div key={index} className="col-sm-12 col-md-4 mb-4">
-<<<<<<< HEAD
-                                    <div className="about-page-card text-center bg-transparent text-white">
-=======
                                     <div className="about-page-card text-center bg-transparent text-white" style={{ height: '300px', maxHeight: '400px' }}>
->>>>>>> 6010d3c (Add new features and updates)
                                         <div>
                                             <img src={value.imgSrc} className="" alt={`${value.title} image`} loading="lazy" width="100" height="100" />
                                         </div>
@@ -278,8 +252,6 @@ const AboutPage = () => {
                         </div>
                     </div>
                 </section>
-<<<<<<< HEAD
-=======
                 <div className="container p-0">
                     <div
                         className="row"
@@ -327,7 +299,6 @@ const AboutPage = () => {
                         </section>
                     </div>
                 </div>
->>>>>>> 6010d3c (Add new features and updates)
             </section>
         </>
     );

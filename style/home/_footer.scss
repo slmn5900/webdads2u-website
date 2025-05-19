@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-.footer-top {
-    background: linear-gradient(90deg, #871752 1%, #262250 44%);
-    padding: 80px 10px;
-    background-size: cover, cover;
-    background-position: center, center;
-    background-repeat: no-repeat, no-repeat;
-=======
 // .footer-parent {
 //     background: linear-gradient(90deg, #871752 1%, #262250 44%);
 //     background-color: transparent;
@@ -166,7 +158,6 @@
         position: relative;
         z-index: 1;
     }
->>>>>>> 6010d3c (Add new features and updates)
 
     .footer-top-content {
         h3 {
@@ -178,63 +169,21 @@
             border-left: 5px solid #fff;
             padding-left: 15px;
         }
-<<<<<<< HEAD
-=======
 
->>>>>>> 6010d3c (Add new features and updates)
         p {
             font-size: 14px;
             color: #fff;
             padding-top: 10px;
         }
     }
-<<<<<<< HEAD
-    .footer-top-phone-sec {
-        text-align: center;
-=======
 
     .footer-top-phone-sec {
         text-align: center;
 
->>>>>>> 6010d3c (Add new features and updates)
         svg {
             font-size: 40px;
             color: #fff;
             margin: auto;
-<<<<<<< HEAD
-            rotate: 85deg;
-        }
-        p {
-            font-size: 15px;
-            color: #fff;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-        button {
-            color: #262250;
-            background-color: #fff;
-            border-radius: 30px 30px 30px 30px;
-            padding: 15px 40px 15px 40px;
-            border: none;
-            font-size: 18px;
-            font-weight: 600;
-        }
-    }
-}
-.quicklinks{
-    li{
-        list-style: none;
-    }
-    ul{
-        padding-left: 0px;
-    }
-}
-// Footer Center
-
-.footer-top-center {
-    background: #0e1839;
-    padding: 50px 10px;
-=======
             transform: rotate(85deg);
         }
 
@@ -272,24 +221,17 @@
     background: #0e1839;
     padding: 50px 10px;
 
->>>>>>> 6010d3c (Add new features and updates)
     .footer-top-center-icon {
         svg {
             color: #b1b1b1;
             font-size: 20px;
         }
-<<<<<<< HEAD
-=======
 
->>>>>>> 6010d3c (Add new features and updates)
         li {
             padding: 10px 5px;
         }
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 6010d3c (Add new features and updates)
     .quicklinks {
         a {
             font-family: 'Poppins', Sans-serif;
@@ -297,10 +239,6 @@
             font-weight: 600;
             color: #fff;
             text-decoration: none;
-<<<<<<< HEAD
-        }
-    }
-=======
 
             &:hover {
                 text-decoration: underline;
@@ -308,28 +246,21 @@
         }
     }
 
->>>>>>> 6010d3c (Add new features and updates)
     p {
         font-family: 'Poppins', Sans-serif;
         font-size: 14px;
         font-weight: 600;
         color: #fff;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 6010d3c (Add new features and updates)
     h3 {
         color: #fff;
         font-family: 'Poppins', Sans-serif;
         font-size: 26px;
         font-weight: 700;
     }
-<<<<<<< HEAD
-=======
 
     h5,
->>>>>>> 6010d3c (Add new features and updates)
     h6 {
         color: #aaaaaa;
         font-family: 'Poppins', Sans-serif;
@@ -337,17 +268,8 @@
         font-weight: 700;
         padding-top: 30px;
     }
-<<<<<<< HEAD
-    h5 {
-        color: #aaaaaa;
-        font-family: 'Poppins', Sans-serif;
-        font-size: 26px;
-        font-weight: 700;
-        padding-top: 30px;
-=======
 
     h5 {
->>>>>>> 6010d3c (Add new features and updates)
         text-align: center;
     }
 }

@@ -49,17 +49,10 @@ const DomainRegistration = () => {
       <Amplifyingyouronline />
       <Domainname />
       <Comprehensivedigital />
-<<<<<<< HEAD
-      <SocialMedia />
-      <Rightdomain />
-      <Lookingdomain />
-      <Fqdomainregistration />
-=======
       <Rightdomain />
       <Lookingdomain />
       <Fqdomainregistration />
       <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
     </>
   );
 }

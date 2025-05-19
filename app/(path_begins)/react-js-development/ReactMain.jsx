@@ -53,17 +53,10 @@ const ReactMain = () => {
       <AngularJS />
       <BenefitsofReactjs />
       <ReactjsFeatures />
-<<<<<<< HEAD
-      <SocialMedia />
-      <Libraries />
-      <LookingforReact />
-      <FrequentlyAskedQuestions />
-=======
       <Libraries />
       <LookingforReact />
       <FrequentlyAskedQuestions />
       <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
     </div>
   );
 }

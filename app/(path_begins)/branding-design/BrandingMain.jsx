@@ -33,13 +33,8 @@ const BrandingMain = () => {
       <Portfolio />
       <FocusOnBranding />
       <Helpyourbusiness />
-<<<<<<< HEAD
-      <SocialMedia />
-      <FrequentlyAskedQuestions />
-=======
       <FrequentlyAskedQuestions />
       <SocialMedia />
->>>>>>> 6010d3c (Add new features and updates)
     </div>
   )
 }

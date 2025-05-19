@@ -1,11 +1,6 @@
 h2 {
-<<<<<<< HEAD
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
-=======
     color: #0b1225;
     font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
     font-size: 25px;
     font-weight: 700;
 }
@@ -54,11 +49,7 @@ p {
     background: #fff;
 }
 
-<<<<<<< HEAD
-.busbox{
-=======
 .busbox {
->>>>>>> 6010d3c (Add new features and updates)
     display: flex;
     align-items: center;
     padding: 35px 35px 35px 35px;
@@ -69,11 +60,7 @@ p {
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
-.busnimg{
-=======
 .busnimg {
->>>>>>> 6010d3c (Add new features and updates)
     padding-right: 15px;
     img {
         width: 100px !important;
@@ -86,19 +73,6 @@ p {
     }
 }
 .buscont {
-<<<<<<< HEAD
-    h3{
-        color: #0B1225;
-        font-family: "Poppins", Sans-serif;
-        font-size: 22px;
-        font-weight: 700; 
-    }
-}
-.justcard .profess{
-    h2{
-        color: #0B1225;
-        font-family: "Poppins", Sans-serif;
-=======
     h3 {
         color: #0b1225;
         font-family: 'Poppins', Sans-serif;
@@ -110,22 +84,12 @@ p {
     h2 {
         color: #0b1225;
         font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
         font-size: 40px;
         font-weight: 700;
         max-width: 70%;
         margin: auto;
         padding-bottom: 20px;
     }
-<<<<<<< HEAD
-    p{
-        max-width: 80%;
-        margin: auto;
-    }
-    h5{
-        color: #12AFD7;
-        font-family: "Poppins", Sans-serif;
-=======
     p {
         max-width: 80%;
         margin: auto;
@@ -133,152 +97,11 @@ p {
     h5 {
         color: #12afd7;
         font-family: 'Poppins', Sans-serif;
->>>>>>> 6010d3c (Add new features and updates)
         font-size: 18px;
         font-weight: 700;
     }
 }
 
-<<<<<<< HEAD
-.ourwork{
-  h3{
-    background-image: linear-gradient(90deg, #65258A 0%, #E80566 100%);
-    background-size: cover;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    display: inline-block;
-    font-size: 45px;
-    font-weight: 700;
-    padding-bottom: 30px;
-  }
-}
-.bsihv {
-  position: relative;
-  overflow: hidden;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
-  opacity: 0;
-  transition: opacity 0.3s ease; /* Smooth transition */
-  border-radius: 5px;
-}
-
-.bsihv:hover .overlay {
-  opacity: 1; /* Show overlay on hover */
-}
-
- .modal-footer{
-  display: none;
- } 
- .modal-content{
-  background: transparent;
-  border:0px
- }
-.modal-body{
-  button{
-    font-size: 39px;
-    background: transparent;
-    border: 0px;
-    color: #fff;
-  }
-}
-.bsihv{
-  margin-bottom: 20px;
-}
-.ourwork{
-  button{
-    font-family: "Poppins", Sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: transparent;
-    background-image: linear-gradient(90deg, #65258A 0%, #E80566 50%);
-    border-radius: 5px 5px 5px 5px;
-    padding: 15px 40px 15px 40px;
-    border: none;
-  }
-}
-.why-choose{
-  h3{
-    color: #12AFD7;
-    font-family: "Poppins", Sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-  }
-  p{
-    font-size: 20px;
-  }
-  svg{
-    color:#12AFD7;
-    margin-right: 5px;
-  }
-}
-
-.businesscdr .shopify-weoffer{
-  padding: 20px 20px 20px 20px;
-  background-color: #FFFFFF;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 0px 0px 10px 0px rgba(216, 214, 214, 0.7);
-  text-align: center;
-  height: 290px;
-  margin-top:20px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  h3{
-      color: #4D4D4D;
-      font-family: "Poppins", Sans-serif;
-      font-size: 16px;
-      font-weight: bold;
-  }
-  p{
-      font-size: 14px;
-      color: #7a7a7a;  
-  }
- 
-}
-.businesscdr .shopify-weoffer:hover{
-  transform: translate3d(0, -15px, 10px) !important;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.looking-business{
-  background-color: #12AFD7;
-  padding-top:60px;
-  padding-bottom: 60px;
-
-  P{
-      font-size: 18px;
-      color: #fff;
-  }
-  button{
-      background: #fff;
-  font-size: #000;
-  font-size: 18px;
-  color: #000;
-  font-weight: 500;
-  padding: 10px 30px;
-  border:2px solid #fff;
-  }
-  button:hover{
-      border:2px solid #fff;
-      background:transparent;
-      color:#fff;
-  }
-  h2{
-      color: #FFF;
-      font-family: "Poppins", Sans-serif;
-      font-size: 45px;
-      font-weight: 600;
-  }
-=======
 .ourwork {
     h3 {
         background-image: linear-gradient(90deg, #65258a 0%, #e80566 100%);
@@ -416,95 +239,21 @@ p {
         font-size: 45px;
         font-weight: 600;
     }
->>>>>>> 6010d3c (Add new features and updates)
 }
 
 // Accordian
 
-<<<<<<< HEAD
-.FrequentlyAskedQuestions-Accordion .accordion-item{
-  margin-bottom: 10px;
-} 
-
-
-.FrequentlyAskedQuestions-Accordion .accordion-button{
-  color: rgb(0, 32, 96);
-=======
 .FrequentlyAskedQuestions-Accordion .accordion-item {
     margin-bottom: 10px;
 }
 
 .FrequentlyAskedQuestions-Accordion .accordion-button {
     color: rgb(0, 32, 96);
->>>>>>> 6010d3c (Add new features and updates)
     font-family: Poppins, sans-serif;
     font-size: 18px;
     font-weight: 600;
 }
 
-<<<<<<< HEAD
-.FrequentlyAskedQuestions-Accordion .accordion-body{
-  color: var(--e-global-color-text);
-  font-family: Poppins, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-.frequentlyaskedquestions-main h1 {
-  color: #0A1F5F;
-  font-family: "Poppins", Sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: capitalize;
-  line-height: 45px;
-}
-
-.FrequentlyAskedQuestions-Accordion .accordion-button{
-  background: #fff;
-  box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
-}
-
-.FrequentlyAskedQuestions-Accordion .accordion-button::after {
-  // background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
-  transition: all 0.5s;
-  color: #08203A !important;
-}
-.FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
-  // background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
-  color: #08203A !important;
-}
-.FrequentlyAskedQuestions-Accordion .accordion-button::after {
-  transition: all 0.5s;
-}
-
-
-@media screen and (max-width:768px){
-  .busnesscardhero{
-    h2{
-      font-size: 22px;
-    }
-    p{
-      font-size: 10px;
-      line-height: 18px;
-    }
-  }
-  .justcard .profess h2, .justcard .profess p {
-  max-width: 100%;
-  }
-  .justcard .profess h2, .looking-business h2 {
-    
-  font-size:25px;
-  }
-
-  .busbox{
-    display: block;
-    height: auto;
-    text-align: center;
-    padding:15px;
-  }
-  .buscont h3{
-    padding-top:20px;
-  }
-=======
 .FrequentlyAskedQuestions-Accordion .accordion-body {
     color: var(--e-global-color-text);
     font-family: Poppins, sans-serif;
@@ -591,5 +340,4 @@ p {
             }
         }
     }
->>>>>>> 6010d3c (Add new features and updates)
 }
