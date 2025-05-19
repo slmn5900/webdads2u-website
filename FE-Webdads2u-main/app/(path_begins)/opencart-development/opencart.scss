@@ -1,0 +1,189 @@
+.openkarthero{
+    background: rgb(232, 24, 20);
+    background: linear-gradient(90deg, rgba(232, 24, 20, 1) 29%, rgba(250, 160, 95, 1) 100%);
+
+    h2{
+    font-size: 48px;
+    color:#fff;
+    font-weight: 700;
+    }
+    p{
+        font-size: 18px;
+        color:#fff;
+        font-weight: 500;
+    }
+    button{
+        background:#fff;
+        border-radius: 50px;
+        color:#e81814;
+        font-size: 18px;
+        font-weight: 500;
+        padding:10px 30px;
+        border:2px solid #fff;
+    }
+    button:hover{
+     background: #0000;
+     border:2px solid #fff;
+     color:#fff;
+    }
+}
+.leading-shopify{
+    h2{
+       color: #000;
+       font-family: "Poppins", Sans-serif;
+       font-size: 35px;
+       font-weight: 700;
+       text-align: center;
+    }
+    p{
+       font-size: 18px;
+       color:#000;
+   
+    }
+   }
+   .shopify-why, .shop-deveser{
+    h2{
+        color: #262250;
+        font-family: "Poppins", Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    p{
+        color: #5A5A5A;
+        font-family: "Poppins", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    ul{
+        padding: 0px;
+    }
+    li{
+        list-style: none;
+    color: #5A5A5A;
+    font-size: 17px;
+    padding-bottom: 10px;
+    }
+    svg{
+        color:#E81613;
+    }            
+}
+
+
+// Accordian
+
+.FrequentlyAskedQuestions-Accordion .accordion-item{
+    margin-bottom: 10px;
+  } 
+  
+  
+  .FrequentlyAskedQuestions-Accordion .accordion-button{
+    color: rgb(0, 32, 96);
+      font-family: Poppins, sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+  }
+  .frequentlyaskedquestions-main h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+.frequentlyaskedquestions-main{
+    p{
+        font-size: 18px;
+    }
+}
+  .FrequentlyAskedQuestions-Accordion .accordion-body{
+    color: var(--e-global-color-text);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+
+.FrequentlyAskedQuestions-Accordion .accordion-button{
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+  }
+  
+  .FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203A !important;
+  }
+  .FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203A !important;
+  }
+  .FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    transition: all 0.5s;
+  }
+
+
+  // tab section
+
+
+  .opancarttabsec{
+    li{
+      width:24%;
+    }
+    button{
+      width:100%;
+    }
+    .seovar-tab button.active{
+      background-color: transparent;
+      background-image: linear-gradient(60deg, #E81613 0%, #FFC976 100%);
+      color: #fff;
+    }
+  }
+  
+
+  @media screen and (max-width:768px){
+    .openkarthero h2, .leading-shopify h2, .opancarttabsec .seotabsec h2{
+      font-size: 25px;
+    }
+    .openkarthero p{
+      font-size: 10px;
+    }
+    .openkarthero button{
+      display: none;
+    }
+    .openkarthero{
+    padding: 30px 0px;
+    }
+    .opancarttabsec li{
+      width:100%;
+    }
+    .seo-contentbox{
+      display: block;
+   
+    }
+    .seo-contentbox .cont{
+      width:100%;
+    }
+    h2{
+      font-size: 25px !important;
+    }
+  }
+
+@media screen and (min-width:768px) and (max-width:1024px){
+  .openkarthero h2{
+    font-size: 35px;
+  }
+  .openkarthero p, .seotabsec p{
+    font-size: 14px;
+  }
+  .openkarthero{
+    padding: 30px 0px;
+    }
+    .opancarttabsec li {
+width:48%;
+}
+.seotabsec h2{
+font-size: 25px;
+}
+
+}

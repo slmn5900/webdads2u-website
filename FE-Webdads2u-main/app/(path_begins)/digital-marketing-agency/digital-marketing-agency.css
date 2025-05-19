@@ -1,0 +1,591 @@
+/* Digitalmarketingagencybanner*/
+.digitalmarketingagencybanner-main {
+    background: rgb(248, 248, 248);
+    padding: 60px 0px;
+}
+
+.digitalmarketingagencybanner h1 {
+    color: #4bae4f;
+    font-size: 140px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+
+.digitalmarketingagencybanner h2 {
+    color: #101130;
+    font-size: 55px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+
+.digitalmarketingagencybanner p {
+    color: #081f5f;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+
+.digitalmarketingagencybanner .button-one {
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #7e1852, #302150);
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 15px 45px;
+    margin: 10px 10px;
+}
+
+.digitalmarketingagencybanner .button-two {
+    color: #020202;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+    border: 2px solid #020202;
+    border-radius: 50px;
+    padding: 15px 45px;
+    margin: 10px 10px;
+}
+
+@media screen and (min-width:751px) and (max-width:800px) {
+    .digitalmarketingagencybanner h1 {
+        font-size: 60px;
+
+    }
+
+    .digitalmarketingagencybanner h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .digitalmarketingagencybanner h1 {
+        font-size: 50px;
+
+    }
+
+    .digitalmarketingagencybanner h2 {
+        font-size: 30px;
+    }
+
+    .digitalmarketingagencybanner .button-one {
+
+        padding: 8px 22px;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .digitalmarketingagencybanner .button-two {
+        padding: 8px 28px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .digitalmarketingagencybanner h1 {
+        font-size: 33px;
+    }
+
+    .digitalmarketingagencybanner h2 {
+        font-size: 11px;
+    }
+
+    .digitalmarketingagencybanner p {
+        font-size: 9px;
+    }
+
+}
+
+.digitalmarketingagencycounter-main {
+    padding: 30px 0px;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #871752 0%, #262250 50%);
+}
+
+.digitalmarketingagencycounter h2 {
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 75px;
+}
+
+.digitalmarketingagencycounter p {
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Digitalmarketingstrategy*/
+.digitalmarketingstrategy-main {
+    padding: 60px 0px;
+}
+
+.digitalmarketingstrategy img {
+    width: 90%;
+}
+
+.digitalmarketingstrategy img:hover {
+    transform: translateY(8px);
+}
+
+.digitalmarketingstrategy h5 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.digitalmarketingstrategy p {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:769px) {
+    .digitalmarketingstrategy-main {
+        padding: 30px 0px;
+    }
+
+    .digitalmarketingstrategy h5 {
+        font-size: 25px;
+    }
+
+    .digitalmarketingagencycounter h2 {
+        font-size: 30px;
+    }
+}
+
+/* Digitalmarketingactivities*/
+.digitalmarketingactivities-main {
+    padding: 60px 0px;
+}
+
+.digitalmarketingactivities h3 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.digitalmarketingactivities p {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.digitalmarketingactivities .card {
+    padding: 30px 10px 30px 10px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px 0 #BFBCC0;
+    height: 100%;
+}
+
+.digitalmarketingactivities img {
+    margin-bottom: 10px;
+    width: 80px;
+}
+
+.digitalmarketingactivities img:hover {
+    animation-name: hover-anmation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.digitalmarketingactivities h4 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:769px) {
+    .digitalmarketingactivities-main {
+        padding: 30px 0px;
+    }
+
+    .digitalmarketingactivities h3 {
+        font-size: 25px;
+    }
+}
+
+/* Inorganicdigitalmarketing*/
+.inorganicdigitalmarketing-main {
+    padding-top: 30px;
+}
+
+.inorganicdigitalmarketing h3 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.inorganicdigitalmarketing p {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.inorganicdigitalmarketing-card .card {
+    padding: 30px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #BFBCC0;
+    height: 100%;
+}
+
+.inorganicdigitalmarketing-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.inorganicdigitalmarketing-card img:hover {
+    animation-name: hover-anmation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.inorganicdigitalmarketing-card h3 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:769px) {
+    .inorganicdigitalmarketing-main {
+        padding-top: 20px;
+    }
+
+    .inorganicdigitalmarketing h3 {
+        font-size: 25px;
+    }
+    .inorganicdigitalmarketing-card .card{
+        justify-content: center;
+        padding: 14px 5px;
+    }
+}
+
+/* Socialmediamarketingtwo*/
+.socialmediamarketingtwo-main {
+    padding: 60px 0px;
+}
+
+.socialmediamarketingtwo h3 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.socialmediamarketingtwo p {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.socialmediamarketingcard .card {
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #D0D0D0;
+    height: 100%;
+}
+
+.socialmediamarketingcard img {
+    display: block;
+    width: 50px;
+    padding-right: 10px;
+    border-right: 4px solid #dedede !important;
+}
+
+.socialmediamarketingcard img:hover {
+    animation-name: hover-anmation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hover-anmation {
+    25% {
+        transform: scale(1.1);
+    }
+
+    75% {
+        transform: scale(0.9);
+    }
+}
+
+.socialmediamarketingcard p {
+    color: #262250;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:769px) {
+    .socialmediamarketingtwo-main {
+        padding: 30px 0px;
+    }
+
+    .socialmediamarketingtwo h3 {
+        font-size: 25px;
+    }
+}
+
+/* Advantagesgoogleanalytics */
+.advantagesgoogleanalytics-main {
+    padding: 60px 0px;
+    background: linear-gradient(90deg, #7e1852, #302150);
+}
+
+.advantagesgoogleanalytics h2 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.advantagesgoogleanalytics p {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* time line */
+
+
+/* socialmediamarketing-main */
+.socialmediamarketing-main {
+    padding: 60px 0px;
+}
+
+.socialmediamarketing h6 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.socialmediamarketing p {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:769px) {
+    .socialmediamarketing-main {
+        padding: 30px 0px;
+    }
+
+    .socialmediamarketing h6 {
+        font-size: 25px;
+    }
+}
+
+/* Fqdigitalmarketingagency */
+.Fqdigitalmarketingagency-main {
+    padding: 60px 0px;
+}
+
+.fqdigitalmarketingagency h1 {
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.fqdigitalmarketingagency p {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fqdigitalmarketingagency-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+
+.fqdigitalmarketingagency-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fqdigitalmarketingagency-Accordion .accordion-body {
+    color: #7a7a7a;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.fqdigitalmarketingagency-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.fqdigitalmarketingagency-Accordion .accordion-button::after {
+    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203A !important;
+}
+
+.fqdigitalmarketingagency-Accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203A !important;
+}
+
+.fqdigitalmarketingagency-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+.fqdigitalmarketingagency-Accordion .accordion-body {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+    margin-bottom: 15px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .fqdigitalmarketingagency-header h1 {
+        font-size: 24px;
+    }
+
+    .fqdigitalmarketingagency h1 {
+        font-size: 25px;
+    }
+}
+
+/*  */
+.css-7kp53o-MuiTimelineDot-root {
+    color: #000 !important;
+    font-size: 25px;
+    background: #FFF !important;
+}
+
+.css-v6mo1y-MuiTimelineDot-root {
+    background: #FFF !important;
+}
+
+.css-rkfjps-MuiTypography-root-MuiTimelineOppositeContent-root {
+    text-align: justify !important;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.css-1sohoek-MuiTimelineItem-root:nth-of-type(even) .MuiTimelineOppositeContent-root {
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.css-v6mo1y-MuiTimelineDot-root {
+    color: #000;
+    font-size: 25px;
+}
+
+
+.css-l73f8l-MuiTypography-root-MuiTimelineContent-root .card {
+    border-radius: 16px;
+    align-self: center;
+}
+
+
+  
+
+.image img {
+    padding: 20px;
+    width: 100px;
+    /* border-radius: 16px 0px 0px 16px; */
+    border-radius: 16px;
+}
+
+.contend h3 {
+    color: #262250;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.image .laptop {
+    background: rgb(78, 61, 255);
+}
+
+.image .downloa {
+    background: rgb(254, 12, 125);
+}
+
+.image .tab {
+    background: rgb(174, 86, 225);
+}
+
+.image .id {
+    background: rgb(0, 110, 187);
+}
+
+@media screen and (max-width:769px) {
+    .advantagesgoogleanalytics-main{
+        padding: 30px 0px;
+    }
+    .contend h3 {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .css-l73f8l-MuiTypography-root-MuiTimelineContent-root {
+        align-self: center !important;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .css-1sohoek-MuiTimelineItem-root {
+        flex-direction: column-reverse;
+    }
+
+    .css-7kp53o-MuiTimelineDot-root {
+        display: none;
+    }
+    .css-v6mo1y-MuiTimelineDot-root{
+        display: none;
+    }
+    .contend h3{
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+
+    .css-1sohoek-MuiTimelineItem-root:nth-of-type(even) {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .css-l73f8l-MuiTypography-root-MuiTimelineContent-root .card{
+        align-self:auto;
+    }
+    .css-i6popu-MuiTimeline-root{
+        padding: 0; 
+    }
+
+}
+

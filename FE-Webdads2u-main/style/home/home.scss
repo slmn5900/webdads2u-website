@@ -1,0 +1,41 @@
+@import './_footer';
+@import './_header';
+@import './hero-sec';
+@import './_formsec';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    overflow-x: hidden;
+    font-family: "Poppins", Sans-serif;
+}
+.home-header .home-header-social-icons li{
+    list-style: none;
+}
+.load-images img{
+    width:25% !important;
+}
+.load-shdw{
+    box-shadow: 0 15px 55px rgb(138 138 138 / 30%);
+    background: white;
+}  
+
+
+ @media screen and (max-width:768px){
+        .image-project-layout {
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .load-images img {
+            width: 33% !important;
+        }
+        .load-shdw{
+            img{
+                width:100%;
+            }
+        }
+        .home-header .navbar-toggler{
+            background: #fff !important;
+        }
+    }

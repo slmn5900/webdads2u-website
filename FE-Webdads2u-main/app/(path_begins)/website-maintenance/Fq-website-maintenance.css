@@ -1,0 +1,349 @@
+/* Websitemaintenancebanner */
+.websitemaintenancebanner-main{
+    background-image: url(../../../public/webdads/images/website-maintenance/maintanece-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+@media screen and (max-width:426px){
+    .websitemaintenancebanner h1{
+        font-size: 20px !important;
+    }
+.websitemaintenancebanner p{
+font-size: 12px !important;}
+.websitemaintenancebanner button{
+    display: none !important;
+}
+}
+
+.websitemaintenancebanner h1{
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+}
+
+.websitemaintenancebanner p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.websitemaintenancebanner button{
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+    background: transparent;
+    padding: 8px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+.websitemaintenancebanner button:hover{
+    background: #FFF;
+    color: rgb(50, 23, 128);
+}
+
+/*Websitemaintenancecompany*/
+.websitemaintenancecompany-main {
+    padding: 60px 0px;
+}
+
+.websitemaintenancecompany h2{
+    color: #0B1225;
+    font-family: "Poppins", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.websitemaintenancecompany p{
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.websitemaintenancecompany button{
+    color: #fff;
+    background-color: #34187F;
+    border-radius: 5px;
+    padding: 13px 40px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+}
+
+.websitemaintenancecompany button:hover{
+    background:#563085;
+}
+
+@media screen and (max-width:767px){
+    .websitemaintenancecompany-main {
+        padding: 30px 0px;
+    }
+    
+    .websitemaintenancecompany h2{
+        font-size: 25px;
+    }
+}
+
+/* Webmaintenanceservices */
+.webmaintenanceservices-main{
+    padding: 60px 0px;
+}
+
+.webmaintenanceservices-main h4{
+    color: #0B1225;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.webmaintenanceservices-main p{
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.webmaintenanceservices-card .card{
+    padding: 24px 24px 24px 24px;
+    background-color: #FFF;
+    box-shadow: 6.14px 20.082px 25px rgba(66, 112, 236, 0.15);
+    border: 0px solid transparent;
+    height: 100%;
+}
+
+.webmaintenanceservices-card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.webmaintenanceservices-card h6{
+    color: #34187F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.webmaintenanceservices-card p{
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:767px){
+    .webmaintenanceservices-main{
+        padding: 30px 0px;
+    }
+    
+    .webmaintenanceservices-main h4{
+        font-size: 25px;
+    }
+}
+
+/* Benefitsselecting */
+.benefitsselecting-main {
+    padding-top: 60px;
+}
+.benefitsselecting h3{
+    color: #0B1225;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.benefitsselecting p{
+    color: #5A5A5A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:767px){
+    .benefitsselecting-main {
+        padding-top: 30px;
+    }
+    .benefitsselecting h3{
+        font-size: 25px;
+    }
+}
+
+/* Benefitsselecting-card */
+
+.benefitsselectingcard-main{
+    padding-bottom: 60px;
+}
+
+.benefitsselectingcard .card{
+    margin: 10px;
+    background-color: #fff;
+    transform: scale(1, 1);
+    border: 0px solid transparent;
+    box-shadow: 0 0 10px 0 rgba(66.00000000000001, 112.00000000000023, 234, .3);
+}
+
+.benefitsselectingcard img{
+    display: block !important;
+    width: 100% !important;
+    height: 260px;
+}
+
+.benefitsselectingcard .h5{
+    color: #0b1225;
+    font-family: 'poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.benefitsselectingcard .p{
+    color:#8a8a8a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:767px){
+    .benefitsselectingcard-main{
+        padding-bottom: 60px;
+    }
+}
+
+
+.benefitsselectingcard .slick-arrow.slick-prev {
+    display: none !important;
+}
+
+.benefitsselectingcard .slick-arrow.slick-next {
+    display: none !important;
+}
+
+/* Lookingwebsitemaintenance */
+.lookingwebsitemaintenance-main{
+    padding: 30px 0px;
+    background-color: #34187F;
+}
+
+.lookingwebsitemaintenance img{
+    display: block;
+    /* margin-left: auto; */
+    margin-right: auto;
+    width: 425px;
+    margin-top: -100px;
+}
+
+.lookingwebsitemaintenance h2{
+    color: #FFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.lookingwebsitemaintenance button{
+    color: #96004E;
+    background-color: #FFF;
+    border: 2px solid #96004E;
+    border-radius: 5px;
+    padding: 18px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'roboto', sans-serif;
+    margin: 10px 0px;
+}
+
+.lookingwebsitemaintenance button:hover{
+    color: #FFF;
+    background-color: #0000;
+    border : 2px solid #FFF;
+}
+
+@media screen and (min-width:700px) and (max-width:780px){
+    .lookingwebsitemaintenance h2{
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width:767px){
+    .lookingwebsitemaintenance-main{
+        padding: 30px 0px;
+        background-color: #34187F;
+    }
+    
+    .lookingwebsitemaintenance h2{
+        font-size: 25px;
+    }
+}
+
+/* Fq-website-maintenance */
+.fqwebsitemaintenance-main{
+    padding: 60px 0px;
+    background: rgb(245, 245, 245);
+}
+.fqwebsitemaintenance h1{
+    color: #0A1F5F;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.fqwebsitemaintenance p{
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fqwebsitemaintenance-Accordion .accordion-item{
+    margin-bottom: 10px;
+  } 
+    
+  .fqwebsitemaintenance-Accordion .accordion-button{
+    color: rgb(0, 32, 96);
+      font-family: Poppins, sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+  }
+  
+  .fqwebsitemaintenance-Accordion .accordion-body{
+    color: #7a7a7a;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+
+.fqwebsitemaintenance-Accordion .accordion-button{
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+  }
+  
+  .fqwebsitemaintenance-Accordion .accordion-button::after {
+    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203A !important;
+  }
+  .fqwebsitemaintenance-Accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203A !important;
+  }
+  .fqwebsitemaintenance-Accordion .accordion-button::after {
+    transition: all 0.5s;
+  }
+  @media screen and (max-width: 768px) {
+    .fqwebsitemaintenance-main{
+        padding: 30px 0px;
+        background: rgb(245, 245, 245);
+    }
+    .fqwebsitemaintenance-header h1{
+      font-size: 24px;
+    }
+    .fqwebsitemaintenance h1{
+        font-size: 25px;
+    }
+  }
