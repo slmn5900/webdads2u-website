@@ -75,13 +75,13 @@ const AboutPage = () => {
         <>
             <section className="about-page-container mt-3">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-6 about-page-container-section1">
+                    <div className="row mt-5">
+                        <div className="col-md-6 about-page-container-section1 mt-5">
                             {' '}
                             <h2 className="about-page-container-section1-h1">About us</h2>
                             <div>
                                 <div className="heading">
-                                    <h2>Choose The best IT Service Company</h2>
+                                    <h2>Choose The Best IT Service Company</h2>
                                 </div>
 
                                 <div className="textEditor">
@@ -121,7 +121,7 @@ const AboutPage = () => {
                         <div className="col-md-6 about-page-container-section2">
                             <section className="about-page-container-section2-image-container">
                                 <div className="ct-effect1">
-                                    <img src="webdads/images/about-page/circle1.webp" alt="image not found"></img>
+                                    <img src="webdads/images/about-page/circle1.webp" alt="Web Design Company In Chennai | Best Website Designers In Chennai"></img>
                                 </div>
                                 <div className="about-img">
                                     <img src="webdads/images/about-page/about-us.webp" alt="image not found"></img>
@@ -262,7 +262,7 @@ const AboutPage = () => {
                             backgroundSize: 'cover'
                         }}
                     >
-                        <section className="col-md-6 mt-3" >
+                        <section className="col-md-6 mt-3">
                             <div className="landing-page-testimonial">
                                 <span
                                     style={{

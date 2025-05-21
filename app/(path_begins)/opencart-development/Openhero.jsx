@@ -24,7 +24,12 @@ function Openhero() {
                         </Col>
                         <Col md={6} xs={5}>
                             <div className="">
-                                <img src="/webdads/images/opencart/opencrat-banner.webp" alt="opencrat-banner" className="w-100" />
+                                <img
+                                    src="/webdads/images/opencart/opencrat-banner.webp"
+                                    alt="OpenCart Development Company In Chennai
+"
+                                    className="w-100"
+                                />
                             </div>
                         </Col>
                     </Row>

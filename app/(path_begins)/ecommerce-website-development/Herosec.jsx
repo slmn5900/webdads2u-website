@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaCheckSquare } from 'react-icons/fa';
@@ -17,12 +17,16 @@ function Herosec() {
                                     Contact Us
                                 </Button>
                             </a>
-                            <img alt="" src="/webdads/images/ecommerce/eccommerce-hero.webp"></img>
+                            <img
+                                alt="Ecommerce Website Development Company In Chennai
+"
+                                src="/webdads/images/ecommerce/eccommerce-hero.webp"
+                            ></img>
                         </div>
                     </Row>
                 </Container>
             </section>
-            <section className='mt-5 mb-5'>
+            <section className="mt-5 mb-5">
                 <Container>
                     <Row>
                         <Sliderimage />

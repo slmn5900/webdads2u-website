@@ -5,7 +5,6 @@ import Lottie from 'lottie-react';
 // const UnderConstruction = dynamic(() => import('../../../components/common/UnderDevelopment.json'), { ssr: false });
 import UnderConstruction from '../../../components/common/UnderDevelopment.json';
 
-
 const UnderConstructions = () => {
     return (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>

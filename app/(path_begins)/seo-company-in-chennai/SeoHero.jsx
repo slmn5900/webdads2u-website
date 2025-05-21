@@ -11,7 +11,11 @@ function SeoHero() {
                             <div className="seo-herocont">
                                 <h2>Leading Business in the Right Direction</h2>
                                 <p>Real-time tools and rich insights mean our support solution amplifies your team for an unbeatable experience </p>
-                                <img alt="" src="/webdads/images/seo-development/seo-hero-image.webp"></img>
+                                <img
+                                    alt="SEO Company In Chennai | SEO Agency Chennai
+"
+                                    src="/webdads/images/seo-development/seo-hero-image.webp"
+                                ></img>
                             </div>
                         </Col>
                     </Row>

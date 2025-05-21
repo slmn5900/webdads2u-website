@@ -3,8 +3,9 @@ import dynamic from 'next/dynamic';
 
 const UnderConstructions = dynamic(() => import('./UnderConstructions'), { ssr: false });
 export const metadata = {
-    title: 'Best Web Design Company In Chennai',
-    description: 'Creating stunning online experiences, our web design company blends creativity with technical expertise to bring your vision to life. Reach us today!'
+    title: 'Why Web Designing Is Important',
+    description: 'Why web designing is important.Web design is crucial for engaging users. It shapes their first impression, impacts usability, and influences conversions.',
+    keyword: 'why web designing is important'
 };
 const page = () => {
     return (

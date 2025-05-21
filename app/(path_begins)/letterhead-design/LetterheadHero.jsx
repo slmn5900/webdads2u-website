@@ -22,7 +22,12 @@ function LetterheadHero() {
                         </Col>
                         <Col md={5} xs={5} lg={6}>
                             <div className="text-center">
-                                <img src="/webdads/images/letterhead/letterhead-hero.png" alt="mobileuiux-hero" className="w-100" />
+                                <img
+                                    src="/webdads/images/letterhead/letterhead-hero.png"
+                                    alt="Letterhead Design Service In Chennai 
+"
+                                    className="w-100"
+                                />
                             </div>
                         </Col>
                     </Row>

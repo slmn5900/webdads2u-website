@@ -2,7 +2,7 @@
     h2 {
         color: #262250;
         font-family: 'Poppins', Sans-serif;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 700;
         -webkit-text-stroke-color: #000;
         stroke: #000;
@@ -169,5 +169,18 @@
         .col-md-4 {
             margin-top: 20px;
         }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-img {
+        top: 20%;
+        left: 57%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .about-img {
+        top: 16%;
+        left: 57%;
     }
 }

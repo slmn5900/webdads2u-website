@@ -23,7 +23,7 @@ function WebsitedevHero() {
                         </Col>
                         <Col md={5} xs={5}>
                             <div className="img-pst">
-                                <img alt="" src="/webdads/images/website-development/webdevelopment-banner-service2.png"></img>
+                                <img alt="Web Development Companies In Chennai" src="/webdads/images/website-development/webdevelopment-banner-service2.png"></img>
                                 <img alt="" src="/webdads/images/website-development/webdevelopment-banner-service1.png"></img>
                             </div>
                             <div className="vector d-flex justify-content-space-evenly align-items-end">

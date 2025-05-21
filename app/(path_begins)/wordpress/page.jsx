@@ -1,11 +1,14 @@
-
 import React from 'react';
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
-
+export const metadata = {
+    title: 'WordPress Website Development Company In Chennai',
+    description: 'Easily create a stunning wordpress website. Your online presence is backed by custom designs,and unmatched support from our expert team.',
+    keyword: 'wordpress website development company in chennai,wordpress website development,wordpress website development company in chennai,wordpress company in chennai,wordpress development company in chennai'
+};
 
 const page = () => {
     const images = [
-        { alt: 'securitaz', name: 'Securitaz', url: '/webdads/images/wordpress/securitaz.webp' },
+        { alt: 'WordPress Website Development Company In Chennai', name: 'Securitaz', url: '/webdads/images/wordpress/securitaz.webp' },
         { alt: 'rmp', name: 'RMP', url: '/webdads/images/wordpress/rmp.webp' },
         { alt: 'raj-vision', name: 'Raj Vision', url: '/webdads/images/wordpress/raj-vision.webp' },
         { alt: 'atgomart', name: 'Atgomart', url: '/webdads/images/wordpress/atgomart.webp' },
@@ -18,7 +21,6 @@ const page = () => {
         { alt: 'pride-rmx', name: 'Pride RMX', url: '/webdads/images/wordpress/pride-rmx.webp' },
         { alt: 'i-clicks', name: 'I Clicks', url: '/webdads/images/wordpress/i-clicks.webp' },
         { alt: 'chennai-water-proofing', name: 'Chennai Water Proofing', url: '/webdads/images/wordpress/chennai-water-proofing.webp' },
-
 
         { alt: 'rm-groups', name: 'RM Groups', url: '/webdads/images/wordpress/rm-groups.webp' },
         { alt: 'kb-homes', name: 'KB Homes', url: '/webdads/images/wordpress/kb-homes.webp' },
@@ -33,7 +35,6 @@ const page = () => {
         { alt: 'sportseve', name: 'Sportseve', url: '/webdads/images/wordpress/sportseve.webp' },
         { alt: 'vtree', name: 'Vtree', url: '/webdads/images/wordpress/vtree.webp' },
         { alt: 'primium-plots', name: 'Primium Plots', url: '/webdads/images/wordpress/primium-plots.webp' },
-    
 
         { alt: 'bumas', name: 'Bumas', url: '/webdads/images/wordpress/bumas.webp' },
         { alt: 'trining-workshop', name: 'Trining Workshop', url: '/webdads/images/wordpress/trining-workshop.webp' },
@@ -64,11 +65,8 @@ const page = () => {
         { alt: 'vtrees', name: 'Vtrees', url: '/webdads/images/wordpress/vtrees.webp' },
 
         { alt: 'ssrs', name: 'SRS', url: '/webdads/images/wordpress/ssr.webp' },
-        { alt: 'sts', name: 'STS', url: '/webdads/images/wordpress/sts.webp' },
-
-    
-    
-      ];
+        { alt: 'sts', name: 'STS', url: '/webdads/images/wordpress/sts.webp' }
+    ];
 
     const datas = {
         heading1: 'Elevate Your Online Presence with Expert WordPress Development Company',

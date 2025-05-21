@@ -12,12 +12,14 @@ function SocialmediaHero() {
                             <h2>Best Social Media Design Company </h2>
                             <p>Unlock creativity with our Social Media Design services! Engaging visuals tailored to your brand. Let&apos;s elevate your online presence together.</p>
                             <a href="/contact-us/">
-                            <a href="/contact-us"><Button variant="contained">Contact us</Button></a>
+                                <a href="/contact-us">
+                                    <Button variant="contained">Contact us</Button>
+                                </a>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
                             <div className="">
-                                <img src="/webdads/images/socialmedia/socail-media-banner.png" alt="socialmedia service" className="socialbanner" />
+                                <img src="/webdads/images/socialmedia/socail-media-banner.png" alt="Social Media Design Company In Chennai" className="socialbanner" />
                             </div>
                         </Col>
                     </Row>

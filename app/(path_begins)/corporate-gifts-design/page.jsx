@@ -3,8 +3,9 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 const UnderConstructions = dynamic(() => import('./UnderConstructions'), { ssr: false });
 export const metadata = {
-    title: 'Best Web Design Company In Chennai',
-    description: 'Creating stunning online experiences, our web design company blends creativity with technical expertise to bring your vision to life. Reach us today!'
+    title: 'Best Corporate Gifts Design Company In Chennai',
+    description: 'Webdads2u is the top choice for a corporate gifts design company in chennai. We provide the best creative flyer designing services in chennai.',
+    keyword: 'best corporate gifts design company in chennai,best corporate gifts design company,best corporate gifts design'
 };
 const page = () => {
     return (

@@ -18,7 +18,12 @@ const OffpageseoHero = () => {
                         </Col>
                         <Col md={5} xs={5} lg={5}>
                             <div className="">
-                                <img src="/webdads/images/offpageseo/offpageseo.png" alt="Offpageseo Banner" className="socialbanner" />
+                                <img
+                                    src="/webdads/images/offpageseo/offpageseo.png"
+                                    alt="Best Off Page SEO Company In Chennai 
+"
+                                    className="socialbanner"
+                                />
                             </div>
                         </Col>
                     </Row>

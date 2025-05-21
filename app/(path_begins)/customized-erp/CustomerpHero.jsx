@@ -19,7 +19,12 @@ function CustomerpHero() {
                         </Col>
                         <Col md={5} xs={5} lg={5}>
                             <div className="">
-                                <img src="/webdads/images/customized-erp/customize-erp.png" alt="Shopify service" className="w-100" />
+                                <img
+                                    src="/webdads/images/customized-erp/customize-erp.png"
+                                    alt="ERP Software Development Company In Chennai
+"
+                                    className="w-100"
+                                />
                             </div>
                         </Col>
                     </Row>
@@ -51,7 +56,9 @@ function CustomerpHero() {
                                     appraisal systems, lead management, inventory management, workflow management, and more.
                                 </p>
                                 <a href="/contact-us/">
-                                    <Button variant="contained" className='blue-button' style={{color:"#fff"}}>Contact us</Button>
+                                    <Button variant="contained" className="blue-button" style={{ color: '#fff' }}>
+                                        Contact us
+                                    </Button>
                                 </a>
                             </div>
                         </Col>

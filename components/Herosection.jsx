@@ -87,7 +87,7 @@ function Herosection() {
                         </Col>
                         <Col md={5}>
                             <div className="robort">
-                                <Image src={Robart} alt="Logo" className="img-fluid" />
+                                <Image src={Robart} alt="Web Design Company In Chennai & Web Development Company In Chennai" className="img-fluid" />
                             </div>
                         </Col>
                     </Row>

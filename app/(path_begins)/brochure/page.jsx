@@ -2,7 +2,11 @@
 import React from 'react';
 import './brochure.scss';
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
-
+export const metadata = {
+    title: 'Best Brochure Design Company In Chennai',
+    description: `Brochure designs that catch the eye and captivate. Our designs are designed to leave a lasting impression, whether it's elegant or modern. Let your brochure be a powerful statement!`,
+    keywords: 'custom website development company in chennai,custom website development company,custom website development '
+};
 const page = () => {
     const images = [
         { alt: 'green-yeard', name: 'Green Yeard', url: '/webdads/images/brochure/green-yeard.png' },

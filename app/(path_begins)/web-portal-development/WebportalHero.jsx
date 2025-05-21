@@ -21,7 +21,7 @@ function WebportalHero() {
                         </Col>
                         <Col md={6} lg={5}>
                             <div className="">
-                                <img alt="" src="/webdads/images/webportal/Web-Portal-Development.png"></img>
+                                <img alt="Web Portal Development Company In Chennai" src="/webdads/images/webportal/Web-Portal-Development.png"></img>
                             </div>
                         </Col>
                     </Row>

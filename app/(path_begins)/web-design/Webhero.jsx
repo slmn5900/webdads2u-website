@@ -61,7 +61,7 @@ function Webhero() {
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
                             <div className="">
-                                <img alt="" src="/webdads/images/webdesign/mac-design.webp" className="w-100"></img>
+                                <img alt="Website Design Company In Chennai " src="/webdads/images/webdesign/mac-design.webp" className="w-100"></img>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>

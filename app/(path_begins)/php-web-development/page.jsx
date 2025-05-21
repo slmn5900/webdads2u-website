@@ -1,16 +1,18 @@
-import React from 'react'
-import PhpMain from './PhpMain'
+import React from 'react';
+import PhpMain from './PhpMain';
 
 export const metadata = {
-  title: 'PHP Development Company In Chennai',
-  description: "A PHP development company with a reputation for custom solutions. We offer PHP development that is reliable and scalable, from web apps to robust websites.",
- 
+    title: 'PHP Web Development Company In Chennai',
+    description: 'Looking for a PHP web development company in chennai? We specialize in crafting robust web solutions tailored to your needs. Contact us today!',
+    keyword: 'php web development company in chennai,php web developers in chennai,php web development services in chennai,php web development service provider in chennai,php web development experts in chennai,web design company in chennai,'
 };
 
 const page = () => {
-  return (
-    <div><PhpMain /></div>
-  )
-}
+    return (
+        <div>
+            <PhpMain />
+        </div>
+    );
+};
 
 export default page;

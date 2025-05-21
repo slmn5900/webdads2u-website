@@ -12,7 +12,6 @@
 // import FQwebsiteredesign from './FQ-website-redesign'
 // import Determinemotive from './Determine-Motive'
 
-
 // const RedesignMain = () => {
 //   return (
 //     <div>
@@ -32,7 +31,7 @@
 
 // export default RedesignMain;
 
-"use client";
+'use client';
 import React from 'react';
 import dynamic from 'next/dynamic';
 import './website-redesign.css';
@@ -50,20 +49,20 @@ const FQwebsiteredesign = dynamic(() => import('./FQ-website-redesign'), { ssr: 
 const Determinemotive = dynamic(() => import('./Determine-Motive'), { ssr: false });
 
 const RedesignMain = () => {
-  return (
-    <div>
-      <Websiteredesignbanner />
-      <Benefitswebsite />
-      <Benefitscard />
-      <Gowebsiteredesigning />
-      <Beginningwithredesign />
-      <Determinemotive />
-      <Contentoptimization />
-      <Makeplansproceed />
-      <FQwebsiteredesign />
-      <SocialMedia />
-    </div>
-  );
-}
+    return (
+        <div>
+            <Websiteredesignbanner />
+            <Benefitswebsite />
+            <Benefitscard />
+            <Gowebsiteredesigning />
+            <Beginningwithredesign />
+            <Determinemotive />
+            <Contentoptimization />
+            <Makeplansproceed />
+            <FQwebsiteredesign />
+            <SocialMedia />
+        </div>
+    );
+};
 
 export default RedesignMain;

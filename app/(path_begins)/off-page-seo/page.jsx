@@ -1,17 +1,17 @@
-
-import React from 'react'
-import OffpageSeo from './OffpageSeo'
+import React from 'react';
+import OffpageSeo from './OffpageSeo';
 export const metadata = {
-  title: 'Best Off Page SEO Company In Chennai ',
-  description: "The Webdads SEO Company is offering Off Page SEO Company in Chennai to improve your website's visibility on search engines.",
- 
+    title: 'Best Off Page SEO Company In Chennai',
+    description: "The webdads seo company is offering off page seo company in chennai to improve your website's visibility on search engines.",
+    keyword:
+        'best off page seo company in chennai ,best off page seo company,off page seo company,off –page seo company in chennai,off,page seo services in chennai,page seo agency in chennai,page seo service provider in chennai,page seo experts in chennai'
 };
 const page = () => {
-  return (
-    <>
-   <OffpageSeo/>
-    </>
-  )
-}
+    return (
+        <>
+            <OffpageSeo />
+        </>
+    );
+};
 
-export default page
+export default page;

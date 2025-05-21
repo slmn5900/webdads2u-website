@@ -21,7 +21,12 @@ const ContentwritingHero = () => {
                         </Col>
                         <Col md={5} xs={5} lg={5}>
                             <div className="">
-                                <img src="/webdads/images/content-writing/content-hero.png" alt="Offpageseo Banner" className="socialbanner" />
+                                <img
+                                    src="/webdads/images/content-writing/content-hero.png"
+                                    alt="Best Content Writing Services In Chennai 
+"
+                                    className="socialbanner"
+                                />
                             </div>
                         </Col>
                     </Row>

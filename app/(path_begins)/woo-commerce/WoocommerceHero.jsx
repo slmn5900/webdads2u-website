@@ -24,13 +24,18 @@ function WoocommerceHero() {
                         </Col>
                         <Col md={5} xs={5}>
                             <div className="">
-                                <img src="/webdads/images/wocommerce/woo-commerce-development.png" alt="opencrat-banner" className="w-100" />
+                                <img
+                                    src="/webdads/images/wocommerce/woo-commerce-development.png"
+                                    alt="Best WooCommerce Development Company In Chennai
+"
+                                    className="w-100"
+                                />
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </section>
-            <Slider/>
+            <Slider />
             <section className="shopify-why pt-5 pb-5">
                 <Container>
                     <Row>

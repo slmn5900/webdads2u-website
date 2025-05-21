@@ -41,7 +41,11 @@ function BusinesscardHero() {
                         <Col md={6} className="mt-2">
                             <div className="busbox">
                                 <div className="busnimg">
-                                    <img alt="" src="/webdads/images/businesscard/Shop-by-Elegance-Size-and-Profession.png"></img>
+                                    <img
+                                        alt="Business Card Designing Company In Chennai | Visiting Cards
+"
+                                        src="/webdads/images/businesscard/Shop-by-Elegance-Size-and-Profession.png"
+                                    ></img>
                                 </div>
                                 <div className="buscont">
                                     <h3>Shop by Elegance, Size and Profession.</h3>

@@ -29,8 +29,9 @@ import Script from 'next/script'; // <-- Import Script from next/script
 const UnderConstructions = dynamic(() => import('./UnderConstructions'), { ssr: false });
 
 export const metadata = {
-    title: 'Best Web Design Company In Chennai',
-    description: 'Creating stunning online experiences, our web design company blends creativity with technical expertise to bring your vision to life. Reach us today!'
+    title: '6 Reasons Why a Logo is Important',
+    description: 'Explore 6 reasons why a logo is important is essential for your brand. Learn how a strong logo builds identity, trust, recognition, and sets you apart in the market.',
+    keyword: '6 reasons why a logo is important'
 };
 
 const Page = () => {

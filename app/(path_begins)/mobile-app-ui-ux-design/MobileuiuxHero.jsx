@@ -18,7 +18,7 @@ function MobileuiuxHero() {
                         </Col>
                         <Col md={5} xs={5} lg={5}>
                             <div className="">
-                                <img src="/webdads/images/mobileuiux/mobileuiux-hero.png" alt="mobileuiux-hero" className="w-100" />
+                                <img src="/webdads/images/mobileuiux/mobileuiux-hero.png" alt="Mobile UI/UX Design Service In Chennai" className="w-100" />
                             </div>
                         </Col>
                     </Row>

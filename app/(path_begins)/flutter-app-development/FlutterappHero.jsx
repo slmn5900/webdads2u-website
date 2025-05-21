@@ -21,7 +21,12 @@ function FlutterappHero() {
                         </Col>
                         <Col md={5} xs={5} lg={5}>
                             <div className="">
-                                <img src="/webdads/images/flutterapp/flutter-hero.png" alt="mobileuiux-hero" className="w-100" />
+                                <img
+                                    src="/webdads/images/flutterapp/flutter-hero.png"
+                                    alt="Flutter App Development Company In Chennai
+"
+                                    className="w-100"
+                                />
                             </div>
                         </Col>
                     </Row>
@@ -48,7 +53,7 @@ function FlutterappHero() {
                                 </p>
                                 <p>Radixweb’s Flutter app development for mobile is powered by Flutter experts who have years of experience, an expressive and dynamic UI, and Flutter’s ability to create business-ready apps.</p>
                                 <a href="/contact-us">
-                                <button className='flutter-app-contact-btn'>Contact us</button>
+                                    <button className="flutter-app-contact-btn">Contact us</button>
                                 </a>
                             </div>
                         </Col>
@@ -83,15 +88,13 @@ function FlutterappHero() {
                                 </p>
                                 <p>
                                     <RiRadioButtonFill /> UI/UX Strategy Implementation
-
                                 </p>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                        <div className="">
-                        <img src="/webdads/images/flutterapp/Our-On-Demand-Flutter-Mobile-App-Development-Services.png" alt="Our-On-Demand-Flutter-Mobile-App-Development-Services" className="w-100 rounded" />
-                        
-                        </div>
+                            <div className="">
+                                <img src="/webdads/images/flutterapp/Our-On-Demand-Flutter-Mobile-App-Development-Services.png" alt="Our-On-Demand-Flutter-Mobile-App-Development-Services" className="w-100 rounded" />
+                            </div>
                         </Col>
                     </Row>
                 </Container>

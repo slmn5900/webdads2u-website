@@ -1,10 +1,11 @@
-
 import React, { Suspense } from 'react';
 // import '../style/home/home.scss';
 import { Metadata } from 'next';
 export const metadata = {
-  title: 'Web Development Company In Chennai',
-  description: "Webdads2u is a top web development company in Chennai, offering comprehensive services including custom website design, development, and maintenance. They deliver high-performance, responsive websites tailored to your business needs, enhancing your online presence and functionality."
+    title: 'Web Design Company In Chennai & Web Development Company In Chennai',
+    description: 'Experienced and trusted web development company in Chennai with over 10 years in crafting static and dynamic websites for startups to large enterprises.',
+    keyword:
+        'web design company in chennai,web designing company in chennai,website design company in chennai,website company in chennai,top web design company in chennai,best web design company in chennai,low cost web design company in chennai,web designers company in chennai,custom web design company in chennai,web development company in chennai,web developers in chennai,website price in chennai,website designers in chennai'
 };
 // Lazy load the components
 const Herosection = React.lazy(() => import('../components/Herosection'));
@@ -37,7 +38,7 @@ const LandingPage = () => {
                 <Counter />
                 <Industries />
                 <CaseStudy />
-                <CustomTabPanel/>
+                <CustomTabPanel />
                 <FAQ />
                 <CardCantainer />
             </Suspense>

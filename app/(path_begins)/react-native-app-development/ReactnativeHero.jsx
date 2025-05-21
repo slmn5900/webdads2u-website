@@ -18,7 +18,12 @@ function ReactnativeHero() {
                         </Col>
                         <Col md={5} xs={5} lg={6}>
                             <div className="hero-rotate">
-                                <img src="/webdads/images/reactnative/mobile.png" alt="mobileuiux-hero" className="w-100" />
+                                <img
+                                    src="/webdads/images/reactnative/mobile.png"
+                                    alt="React Native App Development Company In Chennai
+"
+                                    className="w-100"
+                                />
                                 <img src="/webdads/images/reactnative/react-native.png" alt="mobileuiux-hero" className="react-scroll" />
                             </div>
                         </Col>

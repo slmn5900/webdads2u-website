@@ -10,6 +10,11 @@ import Customwebdevelopmentservices from './Custom Web-Development-Services';
 import Lookingforcustomwebsite from './Looking-for-Custom-Website';
 import Frequentlyaskedquestionscustomwebsite from './Frequently-Asked-Questions-Custom-Website';
 import SocialMedia from '../../../components/common/SocialMedia';
+export const metadata = {
+    title: 'Custom Website Development Company In Chennai',
+    description: 'Elevate your online presence with tailored custom website development services. We create unique, responsive websites to meet your specific needs and goals.',
+    keywords: 'custom website development company in chennai,custom website development company,custom website development '
+};
 
 const page = () => {
     return (

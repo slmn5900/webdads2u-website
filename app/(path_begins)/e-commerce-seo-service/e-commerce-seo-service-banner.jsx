@@ -15,7 +15,7 @@ function Ecommerceseoservicebanner() {
                             </a>
                         </div>
                         <div className="col-6 col-sm-6 col-md-6 col-lg-6 align-selg-center">
-                            <img src="webdads/images/e-commerce-seo-service/Banner-img.png" alt="Banner-img" loading="lazy" className="img-fluid" />
+                            <img src="webdads/images/e-commerce-seo-service/Banner-img.png" alt="Ecommerce SEO Company In Chennai" loading="lazy" className="img-fluid" />
                         </div>
                     </div>
                 </div>

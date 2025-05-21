@@ -17,7 +17,12 @@ function CustomizedCrmhero() {
                         </Col>
                         <Col md={5} xs={5} lg={5}>
                             <div className="">
-                                <img src="/webdads/images/customized-crm/CRM.png" alt="Shopify service" className="w-100" />
+                                <img
+                                    src="/webdads/images/customized-crm/CRM.png"
+                                    alt="CRM Software Development Company In Chennai
+"
+                                    className="w-100"
+                                />
                             </div>
                         </Col>
                     </Row>

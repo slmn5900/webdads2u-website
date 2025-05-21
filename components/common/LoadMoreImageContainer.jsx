@@ -239,7 +239,12 @@ const LoadMoreImageContainer = ({ images, heading1, heading2, paragraph1, paragr
                             {images.slice(0, visibleImages).map((src, index) => (
                                 <Col xs={12} sm={6} md={6} lg={6} key={index} className="mb-4">
                                     <div className="image-wrapper" onClick={() => openLightbox(index)}>
-                                        <img src={src.url} alt={src.alt || 'Image'} className="img-fluid" />
+                                        <img
+                                            src={src.url}
+                                            alt={src.alt || 'PHP Development Company In Chennai'}
+                                            className="Best Brochure Design Company In Chennai
+"
+                                        />
                                         <div className="gallery-item-hoverer-bg"></div>
                                         <div className="gallery-item-caption-over">
                                             <h2 className="fg-item-title">{src.name || 'Untitled'}</h2>

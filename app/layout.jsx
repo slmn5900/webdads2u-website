@@ -41,7 +41,6 @@ import '../style/home/home.scss';
 // import NextBreadcrumb from '../components/NextBreadcrumb';
 import CommonBreadcrumbs from '../components/CommonBreadcrumbs';
 
-
 export default function RootLayout({ children }) {
     return (
         <html lang="en" suppressHydrationWarning>
@@ -66,7 +65,7 @@ export default function RootLayout({ children }) {
                         capitalizeLinks
                     /> */}
                     {/* <CommonBreadcrumbs /> */}
-                    {children}
+                    <div style={{ marginTop: '83px' }}>{children}</div>
                     <Footer />
                 </LayoutProvider>
             </body>

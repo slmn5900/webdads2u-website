@@ -25,8 +25,10 @@ const Slider = dynamic(() => import('../../../components/common/Slider-image'), 
 const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });
 
 export const metadata = {
-    title: 'Web Development Companies In Chennai',
-    description: 'Unlock your online potential with our tailored web development services. We design, innovate, and deliver websites that redefine excellence.'
+    title: 'Android App Development Company In Chennai',
+    description: 'Transform your ideas into reality with the leading android app development company in chennai. Expert solutions for your business needs. Contact us now!',
+    keyword:
+        'android app development company in chennai,android app development company,mobile app development services, mobile app development company, app development companies, app development company, app development services, mobile app developers'
 };
 
 const AndroidMain = () => {
@@ -38,14 +40,20 @@ const AndroidMain = () => {
                         <div className="col-7 col-sm-6 col-md-6 col-xs-6">
                             <h1>Android App Development</h1>
                             <p>Learn Android app development to create innovative mobile applications for the Android platform, catering to diverse user needs and preferences.</p>
-                            <button type="button" className="d-none d-sm-block">
+                            <button type="button" className="d-none d-sm-block" onClick={() => (window.location.href = '/contact-us')}>
                                 Contact us
                             </button>
                         </div>
                         <div className="col-5 col-sm-6 col-md-6 col-xs-6">
                             <img src="webdads/images/android-app-development/Mobile.png" alt="android-app-development" className="img-fluid" loading="lazy" />
                             <div className="element-app">
-                                <img src="webdads/images/android-app-development/Bodium.png" alt="Bodium" loading="lazy" className="img-fluid android-app-gallery-slider-banner" />
+                                <img
+                                    src="webdads/images/android-app-development/Bodium.png"
+                                    alt="Android App Development Company In Chennai
+"
+                                    loading="lazy"
+                                    className="img-fluid android-app-gallery-slider-banner"
+                                />
                             </div>
                         </div>
                     </div>

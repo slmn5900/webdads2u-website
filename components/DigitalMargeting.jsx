@@ -42,28 +42,40 @@ export default function DigitalMargeting() {
 
                             <div className="d-flex digital-home">
                                 <ul className="p-0">
-                                <a href="https://www.facebook.com/Webdads2u" target='_blank' className="text-decoration-none " style={{color:"#000"}}><li className="digital-home-li" style={{ paddingTop: '10px' }}>
-                                       <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/facebook-marketing.png"></img>Facebook Marketing
-                                    </li></a>
-                                    <a href="https://x.com/i/flow/login?redirect_after_login=%2Fwebdads2u" target='_blank' className="text-decoration-none" style={{color:"#000"}}><li style={{ paddingTop: '10px' }}>
-                                        <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/twitter-marketing.png"></img>Twitter Marketing
-                                    </li></a>
-                                    <a href="mailto:info@webdads2u.com" target='_blank' className="text-decoration-none" style={{color:"#000"}}><li style={{ paddingTop: '10px' }}>
-                                        <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/email-marketing.png"></img>Email Marketing
-                                    </li></a>
+                                    <a href="https://www.facebook.com/Webdads2u" target="_blank" className="text-decoration-none " style={{ color: '#000' }}>
+                                        <li className="digital-home-li" style={{ paddingTop: '10px' }}>
+                                            <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/facebook-marketing.png"></img>Facebook Marketing
+                                        </li>
+                                    </a>
+                                    <a href="https://x.com/i/flow/login?redirect_after_login=%2Fwebdads2u" target="_blank" className="text-decoration-none" style={{ color: '#000' }}>
+                                        <li style={{ paddingTop: '10px' }}>
+                                            <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/twitter-marketing.png"></img>Twitter Marketing
+                                        </li>
+                                    </a>
+                                    <a href="mailto:info@webdads2u.com" target="_blank" className="text-decoration-none" style={{ color: '#000' }}>
+                                        <li style={{ paddingTop: '10px' }}>
+                                            <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/email-marketing.png"></img>Email Marketing
+                                        </li>
+                                    </a>
                                 </ul>
                                 <ul>
-                                <a href="https://www.instagram.com/webdads2u/" target='_blank' className="text-decoration-none" style={{color:"#000"}}><li style={{ paddingTop: '10px' }}>
-                                        <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/Instagram.png"></img>Instagram Marketing
-                                    </li></a>
-                                    <a href="https://www.linkedin.com/in/webdads2uservices" target='_blank' className="text-decoration-none" style={{color:"#000"}}><li style={{ paddingTop: '10px' }}>
-                                        {' '}
-                                        <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/linkedin-marketing.png"></img>Linkedin Marketing
-                                    </li></a>
-                                    <a href="https://wa.me/+91-8825607550" target='_blank' className="text-decoration-none" style={{color:"#000"}}><li style={{ paddingTop: '10px' }}>
-                                        {' '}
-                                        <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/whatsapp-marketing.png"></img>Whatsapp Marketing
-                                    </li></a>
+                                    <a href="https://www.instagram.com/webdads2u/" target="_blank" className="text-decoration-none" style={{ color: '#000' }}>
+                                        <li style={{ paddingTop: '10px' }}>
+                                            <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/Instagram.png"></img>Instagram Marketing
+                                        </li>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/webdads2uservices" target="_blank" className="text-decoration-none" style={{ color: '#000' }}>
+                                        <li style={{ paddingTop: '10px' }}>
+                                            {' '}
+                                            <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/linkedin-marketing.png"></img>Linkedin Marketing
+                                        </li>
+                                    </a>
+                                    <a href="https://wa.me/+91-8825607550" target="_blank" className="text-decoration-none" style={{ color: '#000' }}>
+                                        <li style={{ paddingTop: '10px' }}>
+                                            {' '}
+                                            <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/whatsapp-marketing.png"></img>Whatsapp Marketing
+                                        </li>
+                                    </a>
                                 </ul>
                             </div>
 
@@ -103,16 +115,17 @@ export default function DigitalMargeting() {
                                         <p className="ms-2">DuckDuckGo</p>
                                     </div>
                                 </Col>
-                                <Col md={4}>
+                                <Col md={4} className="text-start">
                                     <div className="d-flex">
                                         <img src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069758/baidu-search-engines_471b3b44/baidu-search-engines_471b3b44.png" alt="Baidu" width={25} height={26} />
                                         <p className="ms-2">Baidu</p>
                                     </div>
                                 </Col>
+                                <Col md={4} className="text-start"></Col>
                             </Row>
 
                             <Row className="mb-4 ">
-                                <Col className="text-center">
+                                <Col className="text-start">
                                     <Button
                                         href="/digital-marketing-agency/"
                                         // variant="primary"

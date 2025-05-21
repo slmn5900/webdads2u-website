@@ -18,7 +18,12 @@ function IsoappHero() {
                         </Col>
                         <Col md={5} xs={5} lg={6}>
                             <div className="text-center iso-icon">
-                                <img src="/webdads/images/isoapp/iso-mobile.png" alt="mobileuiux-hero" className="w-50" />
+                                <img
+                                    src="/webdads/images/isoapp/iso-mobile.png"
+                                    alt="IOS App Development Company In Chennai
+"
+                                    className="w-50"
+                                />
                                 <img src="/webdads/images/isoapp/App-icons.png" alt="mobileuiux-hero" className="iso-iconsft" />
                             </div>
                         </Col>

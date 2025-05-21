@@ -11,10 +11,12 @@ function BrochuredesignHero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={7} xs={7} lg={7}>
-                            <h2>Best Social Media Design Company </h2>
-                            <p>Unlock creativity with our Social Media Design services! Engaging visuals tailored to your brand. Let is elevate your online presence together.</p>
+                            <h2>Brochure Design Company in Chennai</h2>
+                            <p>Captivate with our creative brochure designs! Engage your audience and leave a lasting impression. Let your brand stand out!!</p>
                             <a href="/contact-us/">
-                                <a href="/contact-us"><Button variant="contained">Contact us</Button></a>
+                                <a href="/contact-us">
+                                    <Button variant="contained">Contact us</Button>
+                                </a>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
@@ -45,7 +47,11 @@ function BrochuredesignHero() {
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
                             <div className="">
-                                 <img src="/webdads/images/brochuredesign/One.webp" alt="image not found"></img>
+                                <img
+                                    src="/webdads/images/brochuredesign/One.webp"
+                                    alt="Brochure Design Company In Chennai
+"
+                                ></img>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
@@ -139,7 +145,7 @@ function BrochuredesignHero() {
                         </div>
                         <Col md={6} lg={3}>
                             <div className="shopify-weoffer">
-                                 <img src="/webdads/images/brochuredesign/ecommerce-website-designing-and-development.webp" alt="image not found"></img>
+                                <img src="/webdads/images/brochuredesign/ecommerce-website-designing-and-development.webp" alt="image not found"></img>
 
                                 <h3>Bi-fold Design</h3>
 
@@ -166,49 +172,44 @@ function BrochuredesignHero() {
                         </Col>
                         <Col md={6} lg={3}>
                             <div className="shopify-weoffer">
-                               
-                                    <img src="/webdads/images/brochuredesign/our-ecommerce-seo-1.webp" alt="image not found"></img>
-                               
-                                    <h3>Gate Fold Design</h3>
-                               
+                                <img src="/webdads/images/brochuredesign/our-ecommerce-seo-1.webp" alt="image not found"></img>
+
+                                <h3>Gate Fold Design</h3>
+
                                 <p>A central spread is ideal for displaying glossy images when two front panels open up.</p>
                             </div>
                         </Col>
                         <Col md={6} lg={3}>
                             <div className="shopify-weoffer">
-                               
-                                    <img src="/webdads/images/brochuredesign/rich-snippet-optimisation.webp" alt="image not found"></img>
-                               
-                                    <h3>Double Gate Fold Design</h3>
-                               
+                                <img src="/webdads/images/brochuredesign/rich-snippet-optimisation.webp" alt="image not found"></img>
+
+                                <h3>Double Gate Fold Design</h3>
+
                                 <p>To increase impact, the inner central panel is folded in the middle of a gate fold design.</p>
                             </div>
                         </Col>
                         <Col md={6} lg={3}>
                             <div className="shopify-weoffer">
-                               
-                                    <img  alt="image not found" src="/webdads/images/brochuredesign/on-page-seo-for-category-subcategory-pages.webp"></img>
-                               
-                                    <h3>Parallel Fold Design</h3>
-                               
+                                <img alt="image not found" src="/webdads/images/brochuredesign/on-page-seo-for-category-subcategory-pages.webp"></img>
+
+                                <h3>Parallel Fold Design</h3>
+
                                 <p>The brochure can be folded in half three times to create 16 panels, making it a perfect option for product guides.</p>
                             </div>
                         </Col>
                         <Col md={6} lg={3}>
                             <div className="shopify-weoffer">
-                                
-                                    <img alt="image not found" src="/webdads/images/brochuredesign/ecommerce-content-optimization.webp"></img>
-                              
-                                
-                                    <h3>Folders And Inserts</h3>
-                               
+                                <img alt="image not found" src="/webdads/images/brochuredesign/ecommerce-content-optimization.webp"></img>
+
+                                <h3>Folders And Inserts</h3>
+
                                 <p>The style provides greater flexibility in adding and removing content, including adding new product pages.</p>
                             </div>
                         </Col>
                         <Col md={6} lg={3}>
                             <div className="shopify-weoffer">
                                 <a href="#">
-                                    <img alt='' src="/webdads/images/brochuredesign/ecommerce-content-optimization.webp"></img>
+                                    <img alt="" src="/webdads/images/brochuredesign/ecommerce-content-optimization.webp"></img>
                                 </a>
                                 <a href="#">
                                     <h3>Flyer Or Leaflet Brochure</h3>
@@ -221,67 +222,64 @@ function BrochuredesignHero() {
             </section>
             <Brochuregallery />
 
-            <section className='pt-5 pb-5'>
+            <section className="pt-5 pb-5">
                 <Container>
                     <Row>
                         <Col md={12} lg={5}>
-                        <div className="whychbr">
-                            <h2>Why Choose Webdads2u for Brochure Design?
-                            </h2>
-                            <p>Webdads2u stands out for brochure designing with its unparalleled creativity, delivering visually captivating and engaging designs that effectively convey your message. Their experienced team ensures a perfect blend of aesthetics and information, creating brochures that leave a lasting impression. With a customer-centric approach, Webdads2u tailors designs to meet individual needs, ensuring a unique and impactful representation of your brand. Timely delivery and attention to detail further distinguish them, making them a reliable choice for businesses seeking top-notch brochure design services.
-</p>
-                        </div>
+                            <div className="whychbr">
+                                <h2>Why Choose Webdads2u for Brochure Design?</h2>
+                                <p>
+                                    Webdads2u stands out for brochure designing with its unparalleled creativity, delivering visually captivating and engaging designs that effectively convey your message. Their experienced team ensures a perfect
+                                    blend of aesthetics and information, creating brochures that leave a lasting impression. With a customer-centric approach, Webdads2u tailors designs to meet individual needs, ensuring a unique and impactful
+                                    representation of your brand. Timely delivery and attention to detail further distinguish them, making them a reliable choice for businesses seeking top-notch brochure design services.
+                                </p>
+                            </div>
                         </Col>
                         <Col md={12} lg={7}>
-                        <Row>
-                            <Col md={6} lg={4} xs={6}>
-                            <div className="why-choose-br">
-                            <img src="/webdads/images/brochuredesign/ecommerce-seo-audit-and-roadmap.webp" alt="image not found"></img>
-                                
-                                <h3>Creative Concept Development
-                                </h3>
-                            </div>
-                            </Col>
-                            <Col md={6} lg={4} xs={6}>
-                            <div className="why-choose-br">
-                               
-                                <img alt='' src="/webdads/images/brochuredesign/rich-snippet-optimisation.webp"></img>
-                                <h3>Custom Design Solutions
-                                </h3>
-                            </div>
-                            </Col>
-                            <Col md={6} lg={4} xs={6} >
-                            <div className="why-choose-br">
-                            <img alt='' src="/webdads/images/brochuredesign/our-ecommerce-seo-1.webp"></img>
-                               
-                                <h3>Compelling Content Creation </h3>
-                            </div>
-                            </Col>
-                            <Col md={6} lg={4} xs={6} className="mt-3">
-                            <div className="why-choose-br">
-                                
-                                <img alt='' src="/webdads/images/brochuredesign/ecommerce-website-designing-and-development.webp"></img>
-                                <h3>High-Quality Printing </h3>
-                            </div>
-                            </Col>
-                            <Col md={6} lg={4} xs={6} className="mt-3">
-                            <div className="why-choose-br">
-                            <img alt='' src="/webdads/images/brochuredesign/on-page-seo-for-category-subcategory-pages.webp"></img>
-                                
-                                <h3>Creative Excellence </h3>
-                            </div>
-                            </Col>
-                            <Col md={6} lg={4} xs={6} className="mt-3">
-                            <div className="why-choose-br">
-                                <img alt='' src="/webdads/images/brochuredesign/ecommerce-content-optimization.webp"></img>
-                                <h3>Timely Delivery</h3>
-                            </div>
-                            </Col>
-                        </Row>
+                            <Row>
+                                <Col md={6} lg={4} xs={6}>
+                                    <div className="why-choose-br">
+                                        <img src="/webdads/images/brochuredesign/ecommerce-seo-audit-and-roadmap.webp" alt="image not found"></img>
+
+                                        <h3>Creative Concept Development</h3>
+                                    </div>
+                                </Col>
+                                <Col md={6} lg={4} xs={6}>
+                                    <div className="why-choose-br">
+                                        <img alt="" src="/webdads/images/brochuredesign/rich-snippet-optimisation.webp"></img>
+                                        <h3>Custom Design Solutions</h3>
+                                    </div>
+                                </Col>
+                                <Col md={6} lg={4} xs={6}>
+                                    <div className="why-choose-br">
+                                        <img alt="" src="/webdads/images/brochuredesign/our-ecommerce-seo-1.webp"></img>
+
+                                        <h3>Compelling Content Creation </h3>
+                                    </div>
+                                </Col>
+                                <Col md={6} lg={4} xs={6} className="mt-3">
+                                    <div className="why-choose-br">
+                                        <img alt="" src="/webdads/images/brochuredesign/ecommerce-website-designing-and-development.webp"></img>
+                                        <h3>High-Quality Printing </h3>
+                                    </div>
+                                </Col>
+                                <Col md={6} lg={4} xs={6} className="mt-3">
+                                    <div className="why-choose-br">
+                                        <img alt="" src="/webdads/images/brochuredesign/on-page-seo-for-category-subcategory-pages.webp"></img>
+
+                                        <h3>Creative Excellence </h3>
+                                    </div>
+                                </Col>
+                                <Col md={6} lg={4} xs={6} className="mt-3">
+                                    <div className="why-choose-br">
+                                        <img alt="" src="/webdads/images/brochuredesign/ecommerce-content-optimization.webp"></img>
+                                        <h3>Timely Delivery</h3>
+                                    </div>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
                 </Container>
-
             </section>
 
             {/* <section className="looking-broch">
@@ -294,7 +292,7 @@ function BrochuredesignHero() {
                     </Row>
                 </Container>
             </section> */}
-             <section className="mt-5 mb-5">
+            <section className="mt-5 mb-5">
                 <Container>
                     <Row className="looking-brochure">
                         <div className="text-center">
@@ -308,7 +306,6 @@ function BrochuredesignHero() {
                 </Container>
             </section>
             <BrochureFaq />
-           
         </>
     );
 }
