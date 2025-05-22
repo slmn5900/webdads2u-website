@@ -1,4 +1,4 @@
-'use client';
+
 import React from 'react';
 export const metadata = {
     title: 'SEO Algorithm Updates for the Year 2023',

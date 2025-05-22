@@ -1,4 +1,4 @@
-'use client';
+
 import React from 'react';
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
 export const metadata = {

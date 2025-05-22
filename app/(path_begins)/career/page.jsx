@@ -1,4 +1,4 @@
-'use client';
+
 import React from 'react';
 import CareerHero from './CareerHero';
 export const metadata = {
