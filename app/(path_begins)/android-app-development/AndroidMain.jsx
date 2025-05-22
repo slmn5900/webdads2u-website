@@ -24,12 +24,7 @@ const Slider = dynamic(() => import('../../../components/common/Slider-image'), 
 
 const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });
 
-export const metadata = {
-    title: 'Android App Development Company In Chennai',
-    description: 'Transform your ideas into reality with the leading android app development company in chennai. Expert solutions for your business needs. Contact us now!',
-    keyword:
-        'android app development company in chennai,android app development company,mobile app development services, mobile app development company, app development companies, app development company, app development services, mobile app developers'
-};
+
 
 const AndroidMain = () => {
     return (

@@ -12,7 +12,7 @@ const page = () => {
         <div>
             <UnderConstructions />
         </div>
-    );
+    );  
 };
 
 export default page;
