@@ -124,12 +124,12 @@ function BusinesscardHero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <img src="/webdads/images/businesscard/why-choose-us.webp" alt="why choose us" className="w-100"></img>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <h3>WHY CHOOSE US?</h3>
                                 <h2 style={{ fontWeight: 700 }}>Why Webdads2u Business Card Designing Services?</h2>
                                 <p className="businessCardHero-why-choose-us">

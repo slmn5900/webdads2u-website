@@ -327,3 +327,30 @@
         margin-bottom: 20px;
     }
 }
+
+// .creating-webdesign-fqa {
+//     background: #f5f5f5;
+//     padding-bottom: 60px;
+.webdesign-fqa-title-webd-design {
+    text-align: center;
+    background: linear-gradient(to right, #34a7be 40%, #024397);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 3rem;
+}
+
+.webdesign-standards-technologies-section {
+    height: 100%;
+    min-height: 350px;
+    max-height: 480px;
+    div {
+        img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+    }
+}
+// }

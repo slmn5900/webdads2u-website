@@ -9,7 +9,7 @@ function Digitalmarketingagencybanner() {
                         <h1>10X</h1>
                         <h2>Your Marketing Campaign Results</h2>
                         <p>With Webdads2u Algorithmic Marketing Cloud</p>
-                        <div className="d-none d-sm-block">
+                        <div className="d-xs-flex d-sm-block">
                             <a href="/contact-us">
                                 <button className="button-one">SCHEDULE A DEMO</button>
                             </a>

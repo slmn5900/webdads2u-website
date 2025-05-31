@@ -45,7 +45,7 @@ function ReactnativeHero() {
                         </div>
 
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <h2>What Is React Native Development?</h2>
                                 <p>
                                     {' '}
@@ -55,18 +55,18 @@ function ReactnativeHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <img src="/webdads/images/reactnative/react-natives.webp" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>
 
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <img src="/webdads/images/reactnative/react-native-app-Development-service.webp" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div className="mt-5">
                                 <h2>Why React Native App Development?</h2>
                                 <p>
                                     React Native app development offers numerous benefits, including cross-platform compatibility, faster development cycles, code reusability, native performance, and a large community of developers. It enables

@@ -14,7 +14,7 @@ const page = () => {
             <section className="pt-5 pb-5">
                 <Container>
                     <Row>
-                        <div className="">
+                        <div >
                             <h2 style={{ textAlign: 'center' }}>REFUND POLICY</h2>
                             <h3>Return</h3>
                             <p>Our policy lasts 6 days. If 6 days have gone from the date of service availed, unfortunately, we can’t offer you a refund or exchange.</p>

@@ -11,7 +11,7 @@ function ReactjsDevelopmentBanner() {
                             <h1>React js Development</h1>
                             <p>Building unique, industry-specific, custom-made web portals for outstanding customer experience</p>
                             <a href="/contact-us">
-                                <button className="d-none d-sm-block">Contact Us</button>
+                                <button >Contact Us</button>
                             </a>
                         </div>
                         <div className="col-6 col-sm-6 col-md-6 col-lg-5 align-self-center text-center">

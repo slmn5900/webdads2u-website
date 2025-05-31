@@ -13,7 +13,7 @@ function Reponsivewebdesigningservices() {
             <div className="row reponsivewe-card">
                 <div className="col-sm-12 col-md-6 col-lg-4 text-center">
                     <div className="card">
-                        <div className="">
+                        <div >
                             <img src="webdads/images/responsive-website/Web-Dev.png" alt="Web-Dev" loading='lazy' className='img-fluid'/>
                         </div>
                         <div className="text-area">
@@ -24,7 +24,7 @@ function Reponsivewebdesigningservices() {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4 text-center">
                     <div className="card">
-                        <div className="">
+                        <div >
                             <img src="webdads/images/responsive-website/Web-Design.png" alt="Web-Design" loading='lazy' className='img-fluid'/>
                         </div>
                         <div className="text-area">
@@ -35,7 +35,7 @@ function Reponsivewebdesigningservices() {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4 text-center">
                     <div className="card">
-                        <div className="">
+                        <div >
                             <img src="webdads/images/responsive-website/Search-ingine.png" alt="Search-ingine" loading='lazy' className='img-fluid'/>
                         </div>
                         <div className="text-area">

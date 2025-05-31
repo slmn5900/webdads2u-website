@@ -9,15 +9,31 @@ const ContactHero = () => {
             <section className="pt-5 pb-5 contact-sec mt-5">
                 <Container>
                     <Row>
+                        <h5 style={{ fontWeight: '700' }}>
+                            Contact Us &nbsp;&nbsp;
+                            <svg class="svg-right" xmlns="http://www.w3.org/2000/svg" width="33" height="21" viewBox="0 0 33 21">
+                                <defs>
+                                    <linearGradient id="right-h-grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stop-color="#871752" />
+                                        <stop offset="100%" stop-color="#262250" />
+                                    </linearGradient>
+                                </defs>
+                                <g>
+                                    <path class="h-cls-1" d="M0,9H27.036s5.078-3.073,0-6.517" stroke="url(#right-h-grad1)" stroke-width="3" fill="none" />
+                                    <path class="h-cls-2" d="M-9.991,14.594H17.352s5.114,3.027,0,6.422" stroke="url(#right-h-grad1)" stroke-width="3" fill="none" />
+                                </g>
+                            </svg>
+                        </h5>
+
                         <Col md={6} lg={6}>
-                            <div className="">
+                            <div >
                                 <h2>
                                     Grow Your Business With <span style={{ color: '#871752' }}>Our Expertise</span>
                                 </h2>
                             </div>
                         </Col>
                         <Col md={6} lg={6}>
-                            <div className="">
+                            <div >
                                 <p>We acknowledge the significance of taking a holistic approach to every task and hold belief in the potency of simplicity in our Web Design & Development Company in Chennai.</p>
                             </div>
                         </Col>

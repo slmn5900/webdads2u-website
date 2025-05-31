@@ -11,7 +11,7 @@ const page = () => {
         <section className="pt-5 pb-5">
             <Container>
                 <Row>
-                    <div className="">
+                    <div >
                         <h1 style={{ textAlign: 'center' }}>WEBSITE TERMS AND CONDITIONS OF USE</h1>
                         <h2 className="pt-3 text-center">Terms</h2>
                         <p>

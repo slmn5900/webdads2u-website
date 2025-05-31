@@ -12,7 +12,7 @@
     color: #ffffff;
     font-size: 50px;
     font-weight: 700;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
 }
 
 .customwebdevelopmentbanner p {
@@ -27,7 +27,7 @@
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 50px;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 17px;
     padding: 9px 25px;
 }
@@ -53,27 +53,26 @@
     }
 }
 
-@media screen and (min-width:500px) and (max-width:780px) {
-    .customwebdevelopmentbanner h1{
+@media screen and (min-width: 500px) and (max-width: 780px) {
+    .customwebdevelopmentbanner h1 {
         font-size: 30;
     }
 }
 
-
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .customwebdevelopmentbanner h1 {
         font-size: 25px;
     }
 }
 
-@media screen and (max-width:426px) {
-.customwebdevelopmentbanner-main {
-    padding: 40px 0px;
-}
+@media screen and (max-width: 426px) {
+    .customwebdevelopmentbanner-main {
+        padding: 40px 0px;
+    }
     .customwebdevelopmentbanner h1 {
         font-size: 20px;
     }
-    .customwebdevelopmentbanner p{
+    .customwebdevelopmentbanner p {
         font-size: 14px;
     }
 }
@@ -85,21 +84,21 @@
 }
 
 .customwebsite h2 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 35px;
     font-weight: 600;
 }
 
 .customwebsite p {
     text-align: center;
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .customwebsite-main {
         padding: 30px 0px;
     }
@@ -111,22 +110,22 @@
 
 /* Createinteractive */
 .createinteractive h1 {
-    color: #E20825;
-    font-family: "Poppins", Sans-serif;
+    color: #e20825;
+    font-family: 'Poppins', Sans-serif;
     font-size: 20px;
     font-weight: 600;
 }
 
 .createinteractive h2 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 35px;
     font-weight: 600;
 }
 
 .createinteractive-para p {
     color: #7a7a7a;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -137,16 +136,14 @@
     margin-right: auto;
 }
 
-
-@media screen and (max-width:767px) {
-    .createinteractive h1{
+@media screen and (max-width: 767px) {
+    .createinteractive h1 {
         font-size: 25px;
     }
     .createinteractive h2 {
         font-size: 25px;
     }
 }
-
 
 /* Customwebsitedevelopment */
 
@@ -163,15 +160,15 @@
 }
 
 .customwebsitedevelopment-backgrount h2 {
-    color: #FFF;
-    font-family: "Poppins", Sans-serif;
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
     font-size: 45px;
     font-weight: 700;
 }
 
 .customwebsitedevelopment-backgrount p {
-    color: #FFF;
-    font-family: "Poppins", Sans-serif;
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -179,40 +176,42 @@
 .customwebsitedevelopment-backgrount button {
     color: #000;
     font-size: 16px;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-weight: 600;
-    border: 2px solid #FFF;
+    border: 2px solid #fff;
     border-radius: 5px;
     padding: 18px 40px;
     background-color: #fff;
 }
 
 .customwebsitedevelopment-backgrount button:hover {
-    color: #FFF;
+    color: #fff;
     background: transparent;
-    border: 1px solid #FFF;
+    border: 1px solid #fff;
 }
 
 .customwebsitedevelopment-card .card {
     padding: 20px;
-    border: 1px solid #2CD6F9;
+    border: 1px solid #2cd6f9;
     border-radius: 5px;
     box-shadow: 8px 10px 0 0 hsl(190, 94%, 57%);
-    width: 50%;
+    /* width: 50%; */
+    width: 100%;
 }
 
-@media screen and (max-width:321px){
+/* @media screen and (max-width: 321px) { */
+@media screen and (max-width: 425px) {
     .customwebsitedevelopment-card .card {
         width: 100%;
     }
-    .customwebsitedevelopment-card .element{
+    .customwebsitedevelopment-card .element {
         flex-wrap: wrap;
     }
 }
 
 .customwebsitedevelopment-card .card:hover {
-    border: 1px solid #4C05AF;
-    box-shadow: 10px 12px 0 0 #4C05AF;
+    border: 1px solid #4c05af;
+    box-shadow: 10px 12px 0 0 #4c05af;
 }
 
 .customwebsitedevelopment-card img {
@@ -222,22 +221,21 @@
     width: 90px;
 }
 
-
 .customwebsitedevelopment-card h5 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 20px;
     font-weight: 600;
 }
 
 .customwebsitedevelopment-card p {
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .customwebsitedevelopment-main {
         padding: 30px 0px;
     }
@@ -258,20 +256,20 @@
 }
 
 .scalableweb h3 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 35px;
     font-weight: 600;
 }
 
 .scalableweb-1 h4 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 28px;
     font-weight: 600;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .scalableweb-main {
         padding: 30px 0px;
     }
@@ -292,8 +290,8 @@
 }
 
 .Customwebdevelopmentservices h2 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 35px;
     font-weight: 600;
     text-align: center;
@@ -339,21 +337,21 @@
 }
 
 .Customwebdevelopmentservices-card h3 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin: 10px 0px;
 }
 
 .Customwebdevelopmentservices-card p {
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .Customwebdevelopmentservices-main {
         padding: 30px 0px;
     }
@@ -368,42 +366,40 @@
 .lookingforcustomwebsite-main {
     padding: 60px 0px;
     background-color: transparent;
-    background-image: linear-gradient(121deg, #4D05B1 0%, #2CD6F9 100%);
+    background-image: linear-gradient(121deg, #4d05b1 0%, #2cd6f9 100%);
 }
 
 .lookingforcustomwebsite h1 {
-    color: #FFFFFF;
-    font-family: "Poppins", Sans-serif;
+    color: #ffffff;
+    font-family: 'Poppins', Sans-serif;
     font-size: 45px;
     font-weight: 600;
 }
 
 .lookingforcustomwebsite p {
-    color: #FFFFFF;
-    font-family: "Poppins", Sans-serif;
+    color: #ffffff;
+    font-family: 'Poppins', Sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
 .lookingforcustomwebsite button {
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 600;
-    background-color: #FFF;
-    border: 2px solid #FFF;
+    background-color: #fff;
+    border: 2px solid #fff;
     border-radius: 5px;
     padding: 18px 40px;
 }
 
 .lookingforcustomwebsite button:hover {
-    color: #FFF;
+    color: #fff;
     background-color: transparent;
 }
 
-
-
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .lookingforcustomwebsite-main {
         padding: 30px 0px;
     }
@@ -414,22 +410,22 @@
 }
 
 /* Frequently-Asked-Questions-Custom-Website */
-.Frequentlyaskedquestionscustomwebsite-main{
-padding: 60px 0px;
-background: rgb(241, 241, 241);
+.Frequentlyaskedquestionscustomwebsite-main {
+    padding: 60px 0px;
+    background: rgb(241, 241, 241);
 }
-.Frequentlyaskedquestionscustomwebsite-header h3{
-    color: #0A1F5F;
-    font-family: "Poppins", Sans-serif;
+.Frequentlyaskedquestionscustomwebsite-header h3 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
     font-size: 36px;
     font-weight: 700;
-    text-transform: capitalize;    
+    text-transform: capitalize;
 }
 
-.Frequentlyaskedquestionscustomwebsite-header p{
+.Frequentlyaskedquestionscustomwebsite-header p {
     text-align: center;
     color: #000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
     padding: 0px 10px;
@@ -438,7 +434,6 @@ background: rgb(241, 241, 241);
 .FrequentlyAskedQuestions-customwebsite .accordion-item {
     margin-bottom: 10px;
 }
-
 
 .FrequentlyAskedQuestions-customwebsite .accordion-button {
     color: rgb(0, 32, 96);
@@ -454,7 +449,6 @@ background: rgb(241, 241, 241);
     font-weight: 400;
 }
 
-
 .FrequentlyAskedQuestions-customwebsite .accordion-button {
     background: #fff;
     box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
@@ -463,12 +457,12 @@ background: rgb(241, 241, 241);
 .FrequentlyAskedQuestions-customwebsite .accordion-button::after {
     background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
     transition: all 0.5s;
-    color: #08203A !important;
+    color: #08203a !important;
 }
 
 .FrequentlyAskedQuestions-customwebsite .accordion-button:not(.collapsed)::after {
     background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
-    color: #08203A !important;
+    color: #08203a !important;
 }
 
 .FrequentlyAskedQuestions-customwebsite .accordion-button::after {
@@ -482,5 +476,11 @@ background: rgb(241, 241, 241);
 
     .frequentlyaskedquestions h1 {
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .customwebdevelopmentbanner > div {
+        margin-top: 0px !important;
     }
 }

@@ -12,15 +12,13 @@ const ContentwritingHero = () => {
                         <Col md={7} xs={7} lg={7}>
                             <h2>Content Writing Service </h2>
                             <p>Get high-quality content writing services in Chennai that captivate your audience and drive results. Our expert writers craft engaging and SEO-friendly content tailored to your business needs.</p>
-                            <a href="/contact-us/">
-                                <a href="/contact-us">
-                                    {' '}
-                                    <Button variant="contained">Contact us</Button>
-                                </a>
+                            <a href="/contact-us">
+                                {' '}
+                                <Button variant="contained">Contact us</Button>
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div className="">
+                            <div>
                                 <img
                                     src="/webdads/images/content-writing/content-hero.png"
                                     alt="Best Content Writing Services In Chennai 
@@ -39,12 +37,12 @@ const ContentwritingHero = () => {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <h3>Content Marketing Company in Chennai</h3>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <p>
                                     To enhance your website’s visibility, it’s crucial that your content is optimized for search engine indexing. As the premier provider of Content Writing Services in Chennai, India, we specialize in crafting
                                     SEO-friendly content that aligns with user search queries, ensuring maximum visibility and engagement.
@@ -58,7 +56,7 @@ const ContentwritingHero = () => {
                 <Container>
                     <Row>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <h2>The Sharpest Marketing Tool You Will Ever Own- Content!</h2>
                                 <p>
                                     Digital SEO, the leading provider of digital marketing services in Chennai, wields the power of top-quality, SEO-friendly content crafted by seasoned professional content writers. Our commitment to your brand
@@ -69,7 +67,7 @@ const ContentwritingHero = () => {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <img src="/webdads/images/content-writing/The-Sharpest-Marketing-Tool-You-Will-Ever-Own-Cont.webp" alt="Offpageseo Banner" className="socialbanner" />
                             </div>
                         </Col>
@@ -235,8 +233,8 @@ const ContentwritingHero = () => {
                     <Row>
                         <Col md={6}>
                             <div className="process d-flex">
-                                <div className="">
-                                    <img alt="" src="/webdads/images/content-writing/we-deliver-recognition.webp"></img>
+                                <div>
+                                    <img alt="" src="/webdads/images/content-writing/we-deliver-recognition.webp" loading="lazy" width={62}/>
                                 </div>
                                 <div className="process-auto">
                                     <h2>We Deliver Recognition</h2>
@@ -244,8 +242,8 @@ const ContentwritingHero = () => {
                                 </div>
                             </div>
                             <div className="process d-flex">
-                                <div className="">
-                                    <img alt="" src="/webdads/images/content-writing/we-bring-traffic.webp"></img>
+                                <div>
+                                    <img alt="" src="/webdads/images/content-writing/we-bring-traffic.webp" loading="lazy" width={62}/>
                                 </div>
                                 <div className="process-auto">
                                     <h2>We Bring Traffic </h2>
@@ -253,8 +251,8 @@ const ContentwritingHero = () => {
                                 </div>
                             </div>
                             <div className="process d-flex">
-                                <div className="">
-                                    <img alt="" src="/webdads/images/content-writing/we-get-you-leads.webp"></img>
+                                <div>
+                                    <img alt="" src="/webdads/images/content-writing/we-get-you-leads.webp" loading="lazy" width={62}/>
                                 </div>
                                 <div className="process-auto">
                                     <h2>We Get You Leads</h2>
@@ -262,8 +260,8 @@ const ContentwritingHero = () => {
                                 </div>
                             </div>
                             <div className="process d-flex">
-                                <div className="">
-                                    <img alt="" src="/webdads/images/content-writing/we-offer-conversions.webp"></img>
+                                <div>
+                                    <img alt="" src="/webdads/images/content-writing/we-offer-conversions.webp" loading="lazy" width={62}/>
                                 </div>
                                 <div className="process-auto">
                                     <h2>We Offer Conversions</h2>
@@ -272,8 +270,8 @@ const ContentwritingHero = () => {
                             </div>
                         </Col>
                         <Col md={6}>
-                            <div className="">
-                                <img alt="" src="/webdads/images/content-writing/what-do-we-do-We-Ink-your-fame.webp" className="w-100"></img>
+                            <div>
+                                <img alt="" src="/webdads/images/content-writing/what-do-we-do-We-Ink-your-fame.webp" className="w-100" loading="lazy" />
                             </div>
                         </Col>
                     </Row>
@@ -282,7 +280,7 @@ const ContentwritingHero = () => {
             <section className="revelution">
                 <Container>
                     <Row>
-                        <div className="">
+                        <div>
                             <h2>Revolutionising With Panatopic Spectrum Of Content Services</h2>
                             <p>
                                 Search engines crawl your website for content to retrieve the information users seek when entering search keywords. Thus, optimizing your website content is crucial for optimal engine indexing, a service we provide in

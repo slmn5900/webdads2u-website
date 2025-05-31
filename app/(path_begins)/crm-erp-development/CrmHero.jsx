@@ -16,7 +16,7 @@ function CrmHero() {
 </div>
  </Col>
  <Col md={5} xs={5}>
- <div className="">
+ <div >
   <img alt='' src="/webdads/images/crm/CRM-banner.png"></img>
  </div>
  </Col>
@@ -50,7 +50,7 @@ function CrmHero() {
  <Container>
   <Row className="align-items-center">
    <Col md={6}>
-   <div className="">
+   <div >
    <h2>All-around Tool For Your Business
    </h2>
    <p>Best CRM for small businesses. Boost your business with our intuitive CRM tool. Streamline interactions, manage leads, and optimize sales effortlessly. Centralize communication, automate tasks, and gain valuable insights with robust reporting. Our customizable dashboards provide a 360-degree view, and seamless integration with popular apps ensures a connected ecosystem. Elevate customer satisfaction, drive loyalty, and stay ahead of the competition with our all-in-one CRM solution.
@@ -74,7 +74,7 @@ function CrmHero() {
    </div>
    </Col>
    <Col md={6}>
-   <div className="">
+   <div >
    <h2>Custom CRM Systems</h2>
    <p>Elevate your business with our Custom CRM Systems, a powerful tool for Customer Relationship Management. Our tailored solutions optimize processes, encourage collaboration, and deliver valuable insights. Experience enhanced customer engagement and fuel growth with a personalized CRM system crafted specifically for your unique needs.</p>
    <p><FaCheckCircle /> Bespoke CRM Consultation</p>

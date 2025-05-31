@@ -45,19 +45,19 @@
         text-decoration: none;
     }
 }
-.streams{
-    h2{
-        color:#000;
+.streams {
+    h2 {
+        color: #000;
     }
 }
-.cust-crm:hover{
+.cust-crm:hover {
     background-color: transparent;
-    background-image: linear-gradient(180deg, #4D32F7 0%, #17C9FC 100%);
-    h3{
-        color:#fff;
+    background-image: linear-gradient(180deg, #4d32f7 0%, #17c9fc 100%);
+    h3 {
+        color: #fff;
     }
-    img{
-        filter: brightness(0) invert(1) !important; 
+    img {
+        filter: brightness(0) invert(1) !important;
     }
 }
 .streams {
@@ -194,199 +194,199 @@
         padding-bottom: 20px;
     }
 }
-.strategic{
+.strategic {
     background: #fff;
     padding: 10px;
-    p{
+    p {
         text-align: center;
         font-size: 17px;
         width: 100%;
         margin: 0 !important;
         color: #000;
-        padding-bottom: 20px; 
+        padding-bottom: 20px;
     }
-    h2{
-        font-size: 25px; 
-
+    h2 {
+        font-size: 25px;
     }
-   
 }
-.strategic:hover{
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+.strategic:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
-.strt{
-    margin-top:40px;
+.strt {
+    margin-top: 40px;
 }
-.erp-dev{
-    h2{
+.erp-dev {
+    h2 {
         color: #000;
-        font-family: "Poppins", Sans-serif;
+        font-family: 'Poppins', Sans-serif;
         font-size: 30px;
         font-weight: 600;
-      text-align: center;  
+        text-align: center;
     }
-    p{
+    p {
         font-size: 18px;
         color: #7a7a7a;
     }
 }
-.process-auto{
+.process-auto {
     padding-left: 5px;
-    padding-top:10px;
-    h2{
+    padding-top: 10px;
+    h2 {
         margin-bottom: 0;
         color: #000;
-        font-family: "Poppins", Sans-serif;
+        font-family: 'Poppins', Sans-serif;
         font-size: 18px;
         font-weight: 600;
     }
-    p{
+    p {
         color: #000;
-        font-family: "Poppins", Sans-serif;
+        font-family: 'Poppins', Sans-serif;
         font-size: 15px;
-        font-weight: 400; 
-    };
+        font-weight: 400;
+    }
 }
-.our-fully{
+.our-fully {
     background: #2167fb;
     background-image: url('/webdads/images/crm/pattern-8.png');
     background-repeat: no-repeat;
     background-size: auto;
     padding-top: 60px;
     padding-bottom: 100px;
-    p{
-        font-family: "Poppins", Sans-serif;
+    p {
+        font-family: 'Poppins', Sans-serif;
         font-size: 16px;
         font-weight: 500;
-        color:#fff;
+        color: #fff;
     }
 }
-.cust-web{
+.cust-web {
     justify-content: space-around;
 }
-h2{
+h2 {
     color: #fff;
     padding-bottom: 20px;
 }
 // Accordian
 
-.FrequentlyAskedQuestions-Accordion .accordion-item{
+.FrequentlyAskedQuestions-Accordion .accordion-item {
     margin-bottom: 10px;
-  } 
-  
-  
-  .FrequentlyAskedQuestions-Accordion .accordion-button{
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
     color: rgb(0, 32, 96);
-      font-family: Poppins, sans-serif;
-      font-size: 18px;
-      font-weight: 600;
-  }
-  
-  .FrequentlyAskedQuestions-Accordion .accordion-body{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-body {
     color: var(--e-global-color-text);
     font-family: Poppins, sans-serif;
     font-size: 16px;
     font-weight: 400;
-  }
-  .frequentlyaskedquestions-main h1 {
-    color: #0A1F5F;
-    font-family: "Poppins", Sans-serif;
+}
+.frequentlyaskedquestions-main h1 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 45px;
 }
 
-.FrequentlyAskedQuestions-Accordion .accordion-button{
+.FrequentlyAskedQuestions-Accordion .accordion-button {
     background: #fff;
     box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
-  }
-  
-  .FrequentlyAskedQuestions-Accordion .accordion-button::after {
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
     // background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
     transition: all 0.5s;
-    color: #08203A !important;
-  }
-  .FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
+    color: #08203a !important;
+}
+.FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
     // background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
-    color: #08203A !important;
-  }
-  .FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    color: #08203a !important;
+}
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
     transition: all 0.5s;
-  }
-  .frequentlyaskedquestions-main h2{
-padding-bottom: 0px;
-  }
-  .our-fully {
-    img{
-        width:100%;
+}
+.frequentlyaskedquestions-main h2 {
+    padding-bottom: 0px;
+}
+.our-fully {
+    img {
+        width: 100%;
     }
-  }
+}
 
-
-  @media screen and (max-width:768px){
-    .crm-hero h1{
+@media screen and (max-width: 768px) {
+    .crm-hero h1 {
         font-size: 18px;
     }
-    .cust-crm{
+    .cust-crm {
         margin-right: 0px;
-        margin-bottom: 20px;  
+        margin-bottom: 20px;
     }
-    .all-around{
-        img{
-            width:100%;
+    .all-around {
+        img {
+            width: 100%;
         }
-        p{
+        p {
             line-height: 30px;
         }
     }
-    .crm-box, .crm-box1{
+    .crm-box,
+    .crm-box1 {
         margin-bottom: 20px;
     }
-  }
-  .strategic{
-    h2{
+}
+.strategic {
+    h2 {
         padding-bottom: 0px;
         font-size: 20px;
     }
-    p{
+    p {
         font-size: 15px;
     }
-  }
+}
 
-  @media screen and (max-width:768px){
-  
-  }
-
-  @media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .crm-hero h1 {
-     font-size: 25px;
-  }
-  .cust-crm {
-margin-right: 0px;
-h3{
-    font-size: 18px;
-}
-}
-.all-around{
-    h2{
-        padding:5px;
         font-size: 25px;
     }
-    p{
-        font-size: 14px;
-        line-height: 28px;
+    .cust-crm {
+        margin-right: 0px;
+        h3 {
+            font-size: 18px;
+        }
     }
-    img{
-        width:100%;
+    .all-around {
+        h2 {
+            padding: 5px;
+            font-size: 25px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 28px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .custm-sys {
+        padding-top: 50px;
+    }
+    .crm-box {
+        img {
+            width: 50px;
+        }
     }
 }
-.custm-sys {
-padding-top:50px;
-  }
-  .crm-box{
-    img{
-        width:50px;
+
+@media screen and (max-width: 768px) {
+    .crm-develoment-section-image {
+        width: 100%;
+        height: auto;
     }
-  }
 }

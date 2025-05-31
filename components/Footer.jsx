@@ -38,7 +38,12 @@ function Footer() {
                 </section>
                 <section className="footer-top-center">
                     <Container>
-                        <Row>
+                        <Row
+                            style={{
+                                display: 'flex',
+                                alignItems: 'flex-start'
+                            }}
+                        >
                             <Col sm={4} md={6} lg={3}>
                                 <div className="footer-top-center-icon">
                                     <Image src={logoSrc} alt="Logo" />

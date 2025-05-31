@@ -11,7 +11,7 @@ function Localseoservicebanner() {
                             <h1>Local SEO Services</h1>
                             <p>Boost your business with our expert local SEO services. We optimize your online presence for local searches, driving traffic and customers to your doorstep.</p>
                             <a href="/contact-us">
-                                <button className="d-none d-sm-block">Contact us</button>
+                                <button >Contact us</button>
                             </a>
                         </div>
                         <div className="col-5 col-sm-6 col-md-6 col-lg-6 text-center align-self-center element-local-image">

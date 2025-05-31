@@ -18,7 +18,8 @@ function Customwebdesignbanner() {
                             </a>
                         </div>
                         <div className="col-5 col-sm-6 col-md-6 col-lg-5 align-self-center custom-banner-image">
-                            <img src="webdads/images/custom-web-design/img.png" alt="Custom Web Designing Services In Chennai" loading="lazy" className="img-fluid" />
+                            {/* <img src="webdads/images/custom-web-design/img.png" alt="Custom Web Designing Services In Chennai" loading="lazy" className="img-fluid" /> */}
+                            <img src="https://res.cloudinary.com/dbpv95wd8/images/v1708347699/Img-2/Img-2.png?_i=AA" alt="Custom Web Designing Services In Chennai" loading="lazy" className="img-fluid" />
                         </div>
                     </div>
                 </div>

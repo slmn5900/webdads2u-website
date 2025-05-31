@@ -14,7 +14,7 @@ function Linkbuildingservicebanner() {
                             </h1>
                             <p>Link building is crucial for SEO success. It involves acquiring backlinks from reputable websites to improve search engine rankings and increase organic traffic to your site.</p>
                             <a href="/contact-us">
-                                <button className="d-none d-sm-block">Contact us</button>
+                                <button>Contact us</button>
                             </a>
                         </div>
                         <div className="col-5 col-sm-6 col-md-6 col-lg-6 ">

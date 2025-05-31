@@ -14,17 +14,17 @@ function Whywebdads2uecommerceseoservices() {
                         <p>Choose Webdads2u for E-commerce SEO services because we specialize in driving results. Our expert team utilizes proven strategies to optimize your online store for maximum visibility, traffic, and sales. With our tailored approach and track record of success, we deliver exceptional ROI for your e-commerce business.</p>
                         <div className="d-flex flex-row mb-3">
                             <div className="icon-color"><FaCheckCircle /></div>
-                            <div className=""><p>Years of experience in using proven e-commerce SEO strategies and plans to deliver exceptional results</p></div>
+                            <div ><p>Years of experience in using proven e-commerce SEO strategies and plans to deliver exceptional results</p></div>
                         </div>
 
                         <div className="d-flex flex-row mb-3">
                             <div className="icon-color"><FaCheckCircle /></div>
-                            <div className=""><p>Driving customers, increasing leads and boosting conversions through domain-specific e-commerce SEO services</p></div>
+                            <div ><p>Driving customers, increasing leads and boosting conversions through domain-specific e-commerce SEO services</p></div>
                         </div>
 
                         <div className="d-flex flex-row mb-3">
                             <div className="icon-color"><FaCheckCircle /></div>
-                            <div className=""><p>Dedicated e-commerce SEO consultant to manage your e-commerce store’s visibility track its performance and improve its rankings for great results</p></div>
+                            <div ><p>Dedicated e-commerce SEO consultant to manage your e-commerce store’s visibility track its performance and improve its rankings for great results</p></div>
                         </div>
                     </div>
                 </div>

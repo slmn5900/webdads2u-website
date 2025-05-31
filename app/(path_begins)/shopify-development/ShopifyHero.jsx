@@ -17,7 +17,7 @@ function ShopifyHero() {
                             </a>
                         </Col>
                         <Col md={6} xs={5}>
-                            <div className="">
+                            <div >
                                 <img
                                     src="/webdads/images/shopify/shopify-service.png"
                                     alt="Best Shopify Development Agency In Chennai
@@ -47,12 +47,12 @@ function ShopifyHero() {
                 <Container>
                     <Row>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <img src="/webdads/images/shopify/why-shopify.webp" alt="Shopify service" className="w-100 rounded" />
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <h2>Why Webdads2u for Shopify Website Development Services?</h2>
                                 <p>All Shopify eCommerce solutions are available to us, regardless of their complexity.</p>
                                 <ul>

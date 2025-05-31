@@ -8,13 +8,7 @@ function Brandingdesignbanner() {
                 <div className="container-fluid">
                     <div className="row brandingdesignbanner">
                         <div className="col-sm-12 col-md-12 col-lg-12">
-                            <img
-                                src="webdads/images/branding-design/Design-Baqnner.png"
-                                alt="Branding Design Services In Chennai
-"
-                                loading="lazy"
-                                className="img-fluid w-100"
-                            />
+                            <img src="webdads/images/branding-design/Design-Baqnner.png" alt="Branding Design Services In Chennai" loading="lazy" className="img-fluid w-100" />
                         </div>
                     </div>
                 </div>

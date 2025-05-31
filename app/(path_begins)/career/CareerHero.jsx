@@ -12,7 +12,7 @@ const CareerHero = () => {
                             <CarrerForm />
                         </Col>
                         <Col lg={5}>
-                            <div className="">
+                            <div >
                                 <img alt="Best Web Design And Development Company In Chennai" src="/webdads/images/contact/career-form-image.webp" className="w-100"></img>
                             </div>
                         </Col>

@@ -126,11 +126,11 @@ const AboutPage = () => {
                                 <div className="about-img">
                                     <img src="webdads/images/about-page/about-us.webp" alt="image not found"></img>
                                     <div className="d-flex best-frirnd">
-                                        <div className="">
+                                        <div >
                                             <FaMedal />
                                         </div>
 
-                                        <div className="">
+                                        <div >
                                             <h2>Best Friendly Approach</h2>
                                             <p>We adapt our delivery to the way you work, whether as an external provider.</p>
                                         </div>
@@ -227,7 +227,7 @@ const AboutPage = () => {
                             </h3>
                         </div>
                         <div>
-                            <p className="" style={{ color: 'white', textAlign: 'justify', lineHeight: '1.85714285714286' }}>
+                            <p  style={{ color: 'white', textAlign: 'justify', lineHeight: '1.85714285714286' }}>
                                 {' '}
                                 Webdads2u Private Limited stands as the epitome of integrity, innovation, and collaboration. As the best IT service company, we lead the way in excellence within web design and development, upholding values of
                                 transparency and client-centricity. Our dedication to quality craftsmanship and ensuring client satisfaction defines our ethos, fostering trust and reliability in every digital endeavor we undertake. At Webdads2u,
@@ -240,7 +240,7 @@ const AboutPage = () => {
                                 <div key={index} className="col-sm-12 col-md-4 mb-4">
                                     <div className="about-page-card text-center bg-transparent text-white" style={{ height: '300px', maxHeight: '400px' }}>
                                         <div>
-                                            <img src={value.imgSrc} className="" alt={`${value.title} image`} loading="lazy" width="100" height="100" />
+                                            <img src={value.imgSrc}  alt={`${value.title} image`} loading="lazy" width="100" height="100" />
                                         </div>
                                         <div className="about-page-card-body">
                                             <h5 className="about-page-card-title">{value.title}</h5>
@@ -279,14 +279,15 @@ const AboutPage = () => {
                                 {/* <div className="container mt-5"> */}
                                 <h4 style={{ fontWeight: 700, fontSize: '42px' }}>Few of Our Client’s feedback of users!</h4>
                             </div>
-                            <Carousel className="carousel-parent-container">
+                            <Carousel className="carousel-parent-container" >
                                 {testimonials.map((testimonial, index) => (
                                     <Carousel.Item key={index} className="carousel-item-container">
                                         <div className="d-flex justify-content-center">
                                             <img className="d-block rounded-circle" src={testimonial.imgSrc} alt={testimonial.name} style={{ width: '100px', height: '100px' }} />
                                         </div>
                                         <Carousel.Caption className="landing-page-testimonial-carousel-caption" style={{ position: 'unset' }}>
-                                            <p className="landing-page-testimonial-carousel-caption-p" style={{ textAlign: 'left' }}>
+                                            {/* <p className="landing-page-testimonial-carousel-caption-p" style={{ textAlign: 'left' }}> */}
+                                            <p className="landing-page-testimonial-carousel-caption-p" style={{ textAlign: 'center' }}>
                                                 {testimonial.content}
                                             </p>
                                             <h3 className="text-center">{testimonial.name}</h3>

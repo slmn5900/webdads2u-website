@@ -1,34 +1,35 @@
-.element-moble-image .image-1{
+.element-moble-image .image-1 {
     width: 70px !important;
     position: absolute;
     top: 531px;
     left: 784px;
 }
-.element-moble-image .image-2{    width: 70px !important;
+.element-moble-image .image-2 {
+    width: 70px !important;
     position: absolute;
     top: 370px;
     left: 744px;
 }
-.element-moble-image .image-3{
+.element-moble-image .image-3 {
     width: 70px !important;
     position: absolute;
     top: 138px;
     left: 725px;
 }
-.element-moble-image .image-4{
+.element-moble-image .image-4 {
     width: 70px !important;
     position: absolute;
     top: 174px;
     left: 1069px;
 }
-.element-moble-image .image-5{
+.element-moble-image .image-5 {
     width: 70px !important;
     position: absolute;
     top: 508px;
     left: 1229px;
 }
 
-@media screen and (min-width:425px) and (max-width:767px){
+@media screen and (min-width: 425px) and (max-width: 767px) {
     .element-moble-image .image-1 {
         width: 35px !important;
         position: absolute;
@@ -61,7 +62,7 @@
     }
 }
 
-@media screen and (min-width:375px) and (max-width:424px){
+@media screen and (min-width: 375px) and (max-width: 424px) {
     .element-moble-image .image-1 {
         width: 30px !important;
         position: absolute;
@@ -94,7 +95,7 @@
     }
 }
 
-@media screen and (min-width:300px) and (max-width:374px){
+@media screen and (min-width: 300px) and (max-width: 374px) {
     .element-moble-image .image-1 {
         width: 25px !important;
         position: absolute;
@@ -128,57 +129,60 @@
 }
 
 /* element-svgexport-image-1 */
-.element-svgexport-image-1{
+.element-svgexport-image-1 {
     width: 50px !important;
     position: absolute;
-    top: 148px;
+    /* top: 148px; */
+    top: 35%;
     left: 188px;
 }
-.element-svgexport-image-2{
+.element-svgexport-image-2 {
     width: 10px !important;
     position: absolute;
-    top: 162px;
+    /* top: 162px; */
+    top: 40%;
     left: 326px;
 }
-.element-svgexport-image-3{
+.element-svgexport-image-3 {
     width: 25px !important;
     position: absolute;
-    top: 146px;
+    /* top: 146px; */
+    top: 30%;
     left: 558px;
 }
 
-.element-svgexport-image-11{
+.element-svgexport-image-11 {
     width: 50px !important;
     position: absolute;
     top: 523px;
     left: 159px;
 }
-.element-svgexport-image-22{
+.element-svgexport-image-22 {
     width: 10px !important;
     position: absolute;
     top: 300px;
     left: 601px;
 }
-.element-svgexport-image-33{
+.element-svgexport-image-33 {
     width: 25px !important;
     position: absolute;
     top: 352px;
     left: 709px;
 }
 
-.element-svgexport-image-111{
+.element-svgexport-image-111 {
     width: 50px !important;
     position: absolute;
     top: 424px;
     left: 517px;
 }
-.element-svgexport-image-222{
+.element-svgexport-image-222 {
     width: 13px !important;
     position: absolute;
     top: 431px;
     left: 272px;
 }
-.element-svgexport-image-333{
+.element-svgexport-image-333 {
     width: 25px !important;
     position: absolute;
     top: 474px;
@@ -222,11 +226,10 @@
     background: #fff;
 }
 
-.mobileappdevelopmentbanner button:hover{
+.mobileappdevelopmentbanner button:hover {
     color: #ffffff;
     background: #3495ff;
     border: 2px solid #3495ff;
-
 }
 
 .mobileappdevelopmentbanner img {
@@ -236,10 +239,10 @@
     width: 550px;
 }
 
-@media screen and (max-width:426px) {
-.mobileappdevelopmentbanner-amin {
-    background-size: contain !important;
-}
+@media screen and (max-width: 426px) {
+    .mobileappdevelopmentbanner-amin {
+        background-size: contain !important;
+    }
     .mobileappdevelopmentbanner h1 {
         font-size: 20px;
         margin-right: 0;
@@ -251,7 +254,7 @@
     }
 }
 
-@media screen and (min-width:426px) and (max-width:769px) {
+@media screen and (min-width: 426px) and (max-width: 769px) {
     .mobileappdevelopmentbanner h1 {
         font-size: 25px;
         margin-right: 0;
@@ -262,26 +265,26 @@
     }
 }
 
-    /* OurStreams */
+/* OurStreams */
 .ourStreams-main {
     padding: 60px 0px 10px 0px;
 }
 
 .ourstreams h3 {
-    color: #1E1666;
-    font-family: "Poppins", Sans-serif;
+    color: #1e1666;
+    font-family: 'Poppins', Sans-serif;
     font-size: 40px;
     font-weight: 600;
 }
 
 .ourstreams p {
     color: #000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .ourStreams-main {
         padding: 30px 0px;
     }
@@ -296,13 +299,12 @@
     margin: 10px;
     background: #fff;
     padding: 50px 35px 45px 35px !important;
-    box-shadow: 0 0 10px 0 rgba(216, 214, 214, .7);
+    box-shadow: 0 0 10px 0 rgba(216, 214, 214, 0.7);
 }
 
 .ourstreamscard .card:hover {
     background-color: transparent;
-    background-image: linear-gradient(31deg, #59016E 29%, #C30002 100%);
-
+    background-image: linear-gradient(31deg, #59016e 29%, #c30002 100%);
 }
 
 .ourstreamscard img {
@@ -319,8 +321,8 @@
 }
 
 .ourstreamscard h4 {
-    color: #4D4D4D;
-    font-family: "Poppins", Sans-serif;
+    color: #4d4d4d;
+    font-family: 'Poppins', Sans-serif;
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
@@ -335,10 +337,9 @@
     color: #fff;
 }
 
-
 .ourstreamscard-ios {
     padding: 50px 35px 45px 35px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 30px 30px 0px 30px !important;
     box-shadow: 0px 0px 10px 0px rgba(216, 214, 214, 0.7);
 }
@@ -346,14 +347,14 @@
 .ourstreamscard-ios:hover {
     padding: 50px 35px 45px 35px;
     background-color: transparent;
-    background-image: linear-gradient(31deg, #59016E 29%, #C30002 100%);
+    background-image: linear-gradient(31deg, #59016e 29%, #c30002 100%);
     border-radius: 30px 30px 0px 30px;
     box-shadow: 0px 0px 10px 0px rgba(216, 214, 214, 0.7);
 }
 
 .ourstreamscard-android {
     padding: 50px 35px 45px 35px !important;
-    background-color: #FFFFFF !important;
+    background-color: #ffffff !important;
     border-radius: 30px 30px 30px 0px !important;
     box-shadow: 0px 0px 10px 0px rgba(216, 214, 214, 0.7) !important;
 }
@@ -363,25 +364,23 @@
     transition: 0.4s;
 }
 
-@media screen and (min-width:425px) and (max-width:769px) {
+@media screen and (min-width: 425px) and (max-width: 769px) {
     .ourstreamscard .card {
         margin: 5px !important;
     }
-
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .ourstreamscard .card {
         margin: 0;
         margin-bottom: 42px !important;
     }
 }
 
-
 /* SearchingBestobile */
 .SearchingBestobile-main {
     padding: 60px 0px;
-    background-color: #F4FCFE;
+    background-color: #f4fcfe;
 }
 
 .SearchingBestobile .vert-move {
@@ -416,7 +415,7 @@
 
 .SearchingBestobile h1 {
     color: #262250;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -425,7 +424,7 @@
 .SearchingBestobile p {
     text-align: justify;
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -434,7 +433,7 @@
 .SearchingBestobile h4 {
     text-align: justify;
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 14px;
     font-weight: 700;
 }
@@ -442,7 +441,7 @@
 .SearchingBestobile button {
     color: #fff;
     background-color: transparent;
-    background-image: linear-gradient(90deg, #59016E 0%, #C30002 50%);
+    background-image: linear-gradient(90deg, #59016e 0%, #c30002 50%);
     border-radius: 30px;
     border: 1px solid transparent;
     padding: 19px 70px 18px 70px;
@@ -451,7 +450,7 @@
 
 .SearchingBestobile button:hover {
     background-color: transparent;
-    background-image: linear-gradient(90deg, #59016E 0%, #C30002 100%);
+    background-image: linear-gradient(90deg, #59016e 0%, #c30002 100%);
 }
 
 .SearchingBestobile-card .card {
@@ -474,19 +473,19 @@
 
 .SearchingBestobile-card h1 {
     color: #262250;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 18px;
     font-weight: 500;
 }
 
 .SearchingBestobile-card p {
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
-    font-weight: 400
+    font-weight: 400;
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width: 769px) {
     .SearchingBestobile-main {
         padding: 30px 0px !important;
     }
@@ -496,8 +495,8 @@
     }
 
     .SearchingBestobile button {
-
         margin-bottom: 10px;
+        padding: 12px 28px;
     }
 
     .SearchingBestobile-card img {
@@ -515,7 +514,7 @@
 
 .OffshoreMobileApp h1 {
     color: #262250;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 36px;
     font-weight: 600;
     -webkit-text-stroke-width: 0px;
@@ -527,7 +526,7 @@
 .OffshoreMobileApp p {
     text-align: justify;
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -540,7 +539,7 @@
 }
 
 .OffshoreMobileApp .card {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     width: 24rem;
     border-style: none;
     border-radius: 5px 5px 5px 5px;
@@ -555,7 +554,7 @@
 .OffshoreMobileApp .card:hover {
     color: #ffffff;
     background-color: transparent;
-    background-image: linear-gradient(31deg, #59016E 29%, #C30002 100%);
+    background-image: linear-gradient(31deg, #59016e 29%, #c30002 100%);
     border-style: none;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0px 0px 10px 0px rgba(216, 214, 214, 0.7);
@@ -569,7 +568,7 @@
     margin: 0px 0px 0px 50px;
     padding: 20px 24px 20px 24px;
     background-color: transparent;
-    background-image: linear-gradient(31deg, #59016E 29%, #C30002 100%);
+    background-image: linear-gradient(31deg, #59016e 29%, #c30002 100%);
     border-style: none;
     border-radius: 5px 5px 5px 5px;
     margin-bottom: 40px;
@@ -578,7 +577,7 @@
 
 .card-fouce .card-title {
     color: #ffffff !important;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -591,11 +590,11 @@
 
 .OffshoreMobileApp .card-title {
     color: #262250;
-    font-family: "Poppins", Sans-serif;
-    font-size: 20px;
+    font-family: 'Poppins', Sans-serif;
+    /* font-size: 20px; */
+    font-size: 17px;
     font-weight: 500;
     margin-bottom: 20px;
-
 }
 
 .OffshoreMobileApp .card-body {
@@ -611,7 +610,7 @@
     color: #fff;
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width: 769px) {
     .OffshoreMobileApp-main {
         padding: 30px 0px;
     }
@@ -625,7 +624,6 @@
     }
 }
 
-
 /* ResponsiveTabs */
 .ResponsiveTabs-main {
     background-color: rgb(244, 252, 254);
@@ -634,7 +632,7 @@
 
 .ResponsiveTabs .appdev-head {
     color: #262250;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 30px;
     font-weight: 600;
 }
@@ -642,36 +640,36 @@
 .ResponsiveTabs .appdev-para {
     text-align: center;
     color: #000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
 .Responsive-Tabs button {
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 14px;
     font-weight: 500;
-    background-color: #E5ECFE;
+    background-color: #e5ecfe;
     color: #000;
     border-radius: 10px 10px 10px 10px;
 }
 
 .Responsive-Tabs button:hover {
     background-color: transparent;
-    background-image: linear-gradient(90deg, #59016E 0%, #C30002 100%);
+    background-image: linear-gradient(90deg, #59016e 0%, #c30002 100%);
     color: #fff;
 }
 
 .Responsive-Tabs button:focus {
     background-color: transparent;
-    background-image: linear-gradient(90deg, #59016E 0%, #C30002 100%);
+    background-image: linear-gradient(90deg, #59016e 0%, #c30002 100%);
     color: #fff !important;
 }
 
 .Responsive-Tabs .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
     background-color: transparent;
-    background-image: linear-gradient(90deg, #59016E 0%, #C30002 100%);
+    background-image: linear-gradient(90deg, #59016e 0%, #c30002 100%);
     color: #fff !important;
 }
 
@@ -680,6 +678,10 @@
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 28px;
     border-radius: 10px;
+}
+
+#controlled-tab-example .nav-item {
+    margin-bottom: 0.5rem;
 }
 
 .Responsive-Tabs h2 {
@@ -703,21 +705,18 @@
     animation: mover 1s infinite alternate;
 }
 
-
-@media screen and (max-width:769px) {
+@media screen and (max-width: 769px) {
     .ResponsiveTabs-main {
         background-color: rgb(244, 252, 254);
         padding: 30px 0px;
     }
 }
 
-
 /* @media screen and (max-width:767px){
     .Responsive-Tabs button{
         width: 100vh;
     }
 } */
-
 
 /* appdesignprocess  */
 
@@ -728,14 +727,14 @@
 
 .appdesignprocess h1 {
     color: #262250;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 30px;
     font-weight: 600;
 }
 
 .appdesignprocess p {
     color: #000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -745,20 +744,19 @@
 }
 
 .appdesignprocess-tab .nav-link {
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 14px;
     font-weight: 500;
-    background-color: #E5ECFE;
+    background-color: #e5ecfe;
     color: #000;
     border-radius: 10px 10px 10px 10px;
 }
 
 .appdesignprocess-tab .nav-link:hover {
     background-color: transparent;
-    background-image: linear-gradient(90deg, #59016E 0%, #C30002 100%);
+    background-image: linear-gradient(90deg, #59016e 0%, #c30002 100%);
     color: #fff;
 }
-
 
 /* Industries */
 .Industries-main {
@@ -767,7 +765,7 @@
 
 .Industries h1 {
     color: #262250;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 30px;
     font-weight: 600;
 }
@@ -775,7 +773,7 @@
 .Industries p {
     text-align: justify;
     color: #000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
@@ -783,7 +781,7 @@
 .Industries button {
     color: #ffffff;
     background-color: transparent;
-    background-image: linear-gradient(90deg, #59016E 0%, #C30002 50%);
+    background-image: linear-gradient(90deg, #59016e 0%, #c30002 50%);
     border-radius: 30px 30px 30px 30px;
     padding: 19px 70px 18px 70px;
     border: 1px solid transparent;
@@ -791,7 +789,7 @@
 
 .Industries button:hover {
     background-color: transparent;
-    background-image: linear-gradient(90deg, #59016E 0%, #C30002 100%);
+    background-image: linear-gradient(90deg, #59016e 0%, #c30002 100%);
 }
 
 .Industries-item .iteam {
@@ -811,13 +809,13 @@
 
 .Industries-item .text-big {
     color: #000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 12px !important;
     font-weight: 700;
     text-align: center;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .Industries-main {
         padding: 30px 0px;
     }
@@ -845,7 +843,7 @@
 
 .businesseschoose h1 {
     color: #262250;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 30px;
     font-weight: 600;
 }
@@ -855,13 +853,13 @@
 }
 
 .businesseschoose-item .iteam {
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 18px;
     font-weight: 500;
 }
 
 .businesseschoose-item .item-icon {
-    color: #C30002;
+    color: #c30002;
     transition: color 0.3s;
     margin-right: 10px;
 }
@@ -873,7 +871,7 @@
     width: 550px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .Industries {
         text-align: center;
     }
@@ -889,11 +887,13 @@
 
     .businesseschoose-item .item-icon {
         margin-right: 5px;
-
     }
 
     .businesseschoose-item {
         padding: 5px 10px;
+    }
+    .ResponsiveTabs .appdev-para {
+        text-align: justify;
     }
 }
 
@@ -904,7 +904,7 @@
 
 .appdevelopmentservices-header h1 {
     color: #262250;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 30px;
     font-weight: 600;
     padding-bottom: 30px;
@@ -913,7 +913,7 @@
 .appdevelopmentservices-card .card {
     padding: 20px 10px 20px 10px;
     border-radius: 5px 5px 5px 5px;
-    box-shadow: 0 0 10px 0 rgba(216, 214, 214, .7);
+    box-shadow: 0 0 10px 0 rgba(216, 214, 214, 0.7);
     border: 1px solid transparent;
     height: 100%;
 }
@@ -939,7 +939,7 @@
 
 .appdevelopmentservices-card h2 {
     color: #262250;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 8px;
@@ -948,7 +948,7 @@
 
 .appdevelopmentservices-card p {
     color: #000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 14px;
     font-weight: 400;
     padding: 0;

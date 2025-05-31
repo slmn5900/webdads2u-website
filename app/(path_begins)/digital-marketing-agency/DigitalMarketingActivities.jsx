@@ -14,7 +14,7 @@ function Digitalmarketingactivities() {
             <div className="row text-center digitalmarketingactivities">
                 <div className="col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/digital-marketing-agency/content-marketing.png" alt="content-marketing" loading='lazy' className='img-fluid' />
                         </div>
                         <h4>Content Marketing</h4>
@@ -23,7 +23,7 @@ function Digitalmarketingactivities() {
 
                 <div className="col-sm-12 col-md-6 col-lg-3 mb-3 mb-3 mb-md-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/digital-marketing-agency/seo.png" alt="seo" loading='lazy' className='img-fluid' />
                         </div>
                         <h4>Search Engine Optimization</h4>
@@ -32,7 +32,7 @@ function Digitalmarketingactivities() {
 
                 <div className="col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/digital-marketing-agency/social-media.png" alt="social-media" loading='lazy' className='img-fluid' />
                         </div>
                         <h4>Social Media Marketing</h4>
@@ -41,7 +41,7 @@ function Digitalmarketingactivities() {
 
                 <div className="col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/digital-marketing-agency/link-building.png" alt="link-building" loading='lazy' className='img-fluid' />
                         </div>
                         <h4>Link Building</h4>
@@ -52,7 +52,7 @@ function Digitalmarketingactivities() {
             <div className="row text-center digitalmarketingactivities">
                 <div className="col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/digital-marketing-agency/email.png" alt="content-marketing" loading='lazy' className='img-fluid' />
                         </div>
                         <h4>Email Marketing</h4>
@@ -61,7 +61,7 @@ function Digitalmarketingactivities() {
 
                 <div className="col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/digital-marketing-agency/youtube.png" alt="youtube" loading='lazy' className='img-fluid' />
                         </div>
                         <h4>youtube Marketing</h4>
@@ -70,7 +70,7 @@ function Digitalmarketingactivities() {
 
                 <div className="col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/digital-marketing-agency/whatsapp.png" alt="whatsapp" loading='lazy' className='img-fluid' />
                         </div>
                         <h4>Whatsapp Marketing</h4>
@@ -79,7 +79,7 @@ function Digitalmarketingactivities() {
 
                 <div className="col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/digital-marketing-agency/exchange.png" alt="exchange" loading='lazy' className='img-fluid' />
                         </div>
                         <h4>Content Sharing</h4>

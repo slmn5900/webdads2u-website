@@ -23,7 +23,7 @@ function WoocommerceHero() {
                             </a>
                         </Col>
                         <Col md={5} xs={5}>
-                            <div className="">
+                            <div >
                                 <img
                                     src="/webdads/images/wocommerce/woo-commerce-development.png"
                                     alt="Best WooCommerce Development Company In Chennai
@@ -40,7 +40,7 @@ function WoocommerceHero() {
                 <Container>
                     <Row>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <h2>Custom WooCommerce Development Company</h2>
                                 <p>Deploy a dedicated team of WooCommerce developers and design experts in ingenious WooCommerce theme development, plug-in development and WooCommerce app development perfectly suited to your enterprise needs.</p>
                                 <p>
@@ -50,7 +50,7 @@ function WoocommerceHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <img src="/webdads/images/wocommerce/custom-woocommerce.webp" alt="custom-woocommerce" className="w-100 rounded" />
                             </div>
                         </Col>
@@ -99,7 +99,7 @@ function WoocommerceHero() {
                             <h2>Benefits of OpenCart Development </h2>
                         </div>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <p>In today’s eCommerce landscape, WooCommerce development stands out as the preferred choice. Its myriad benefits continue to impress businesses and users alike, making it a favored option in the digital market.</p>
                                 <ul>
                                     <li>
@@ -115,7 +115,7 @@ function WoocommerceHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <img src="/webdads/images/opencart/open-cart.webp" alt="opencart-development" className="w-100 rounded" />
                             </div>
                         </Col>

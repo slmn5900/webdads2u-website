@@ -11,7 +11,7 @@ function Ppcservicebanner() {
                             <h1>PPC Service</h1>
                             <p>Building unique, industry-specific, custom-made web portals for outstanding customer experience</p>
                             <a href="/contact-us">
-                                <button className="d-none d-sm-block">Contact us</button>
+                                <button >Contact us</button>
                             </a>
                         </div>
                         <div className="col-6 col-sm-6 col-md-6 col-lg-6 align-self-center">

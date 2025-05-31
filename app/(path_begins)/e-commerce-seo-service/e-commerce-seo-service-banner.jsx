@@ -11,7 +11,7 @@ function Ecommerceseoservicebanner() {
                             <h1>E-Commerce SEO Services</h1>
                             <p>We are an award winning e-commerce SEO specialized platform, popular choice amongst the e-commerce giants to drive sales by organic searches .</p>
                             <a href="/contact-us" style={{ textDecoration: 'none' }}>
-                                <button className="d-none d-sm-block">Contact us</button>
+                                <button >Contact us</button>
                             </a>
                         </div>
                         <div className="col-6 col-sm-6 col-md-6 col-lg-6 align-selg-center">

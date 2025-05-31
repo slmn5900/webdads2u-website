@@ -13,7 +13,7 @@ const page = () => {
             <section className="pt-5 pb-5">
                 <Container>
                     <Row>
-                        <div className="">
+                        <div >
                             <h1 style={{ textAlign: 'center' }}>Privacy Policy</h1>
                             <p>
                                 Your privacy is super important to us! Webdads2u is committed to protecting your privacy and providing you with a safe and secure online experience. This Privacy Policy applies to Webdads2u.com, as well as any other

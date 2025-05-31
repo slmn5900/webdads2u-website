@@ -17,7 +17,7 @@ function MobileuiuxHero() {
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div className="">
+                            <div >
                                 <img src="/webdads/images/mobileuiux/mobileuiux-hero.png" alt="Mobile UI/UX Design Service In Chennai" className="w-100" />
                             </div>
                         </Col>
@@ -31,7 +31,7 @@ function MobileuiuxHero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <h2>Mobile UI Designing-Endless Possibilities to Enhance your Online Business!</h2>
                                 <p>
                                     Unlock the full potential of your online business with our cutting-edge Mobile UI/UX Design solutions! Mobile devices have evolved beyond mere communication tools, and we’re here to help you harness their
@@ -42,7 +42,7 @@ function MobileuiuxHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <img src="/webdads/images/mobileuiux/mobile-uI-designing-Endless-Possibilities-to-enhan.webp" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>
@@ -132,7 +132,7 @@ function MobileuiuxHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <img src="/webdads/images/customized-crm/crm-benift.webp" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>

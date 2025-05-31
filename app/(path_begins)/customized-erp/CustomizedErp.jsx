@@ -7,7 +7,7 @@
 // const CustomizedErp = () => {
 //   return (
 //     <>
-    
+
 //     <CustomerpHero />
 //     <CustomerpFaq />
 //     </>
@@ -16,24 +16,23 @@
 
 // export default CustomizedErp
 
-
-"use client";
+'use client';
 import React from 'react';
 import dynamic from 'next/dynamic';
-import "./customeerp.scss";
+import './customeerp.scss';
 
 // Dynamically import components with SSR set to false
 const CustomerpHero = dynamic(() => import('../customized-erp/CustomerpHero'), { ssr: false });
 const CustomerpFaq = dynamic(() => import('./CustomerpFaq'), { ssr: false });
-
+const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });
 const CustomizedErp = () => {
-  return (
-    <>
-      <CustomerpHero />
-      <CustomerpFaq />
-    </>
-  );
-}
+    return (
+        <>
+            <CustomerpHero />
+            <CustomerpFaq />
+            <SocialMedia />
+        </>
+    );
+};
 
 export default CustomizedErp;
-

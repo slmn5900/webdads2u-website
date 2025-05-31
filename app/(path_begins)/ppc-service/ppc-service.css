@@ -16,15 +16,15 @@
     padding: 80px 0px;
 }
 
-@media screen and (max-width:426px) {
+@media screen and (max-width: 426px) {
     .ppcservicebanner h1 {
-        font-size: 20px !important;
+        font-size: 24px !important;
     }
 
     .ppcservicebanner p {
-        font-size: 11px !important;
+        font-size: 14px !important;
     }
-    .element-hand{
+    .element-hand {
         width: 30px;
     }
 }
@@ -55,21 +55,32 @@
 }
 
 .ppcservicebanner button:hover {
-    color: #0A1F5F;
-    background: #FFF;
+    color: #0a1f5f;
+    background: #fff;
 }
 
-.ppcservicebanner .pppc-image-hover{
+.ppcservicebanner .pppc-image-hover {
     animation: mover 1s infinite alternate;
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width: 769px) {
     .ppcservicebanner-main {
-        padding: 30px 0px;
+        padding: 100px 0px;
     }
 
     .ppcservicebanner h1 {
         font-size: 25px;
+    }
+
+    .ppcservicebanner button {
+        color: #fff;
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        border: 2px solid #fff;
+        border-radius: 50px;
+        background: transparent;
+        padding: 8px 25px;
     }
 }
 
@@ -79,22 +90,22 @@
 }
 
 .whatarePPCServices h3 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 40px;
     font-weight: 700;
 }
 
 .whatarePPCServices p {
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
 .whatarePPCServices button {
     color: #fff;
-    background-color: #34187F;
+    background-color: #34187f;
     border-radius: 5px;
     padding: 13px 40px;
 }
@@ -110,7 +121,7 @@
     width: 550px;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .whatarePPCServices-main {
         padding: 30px 0px;
     }
@@ -167,19 +178,19 @@
 
 .promotewebdads2uppc h4 {
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 30px;
     font-weight: 600;
 }
 
 .promotewebdads2uppc p {
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .promotewebdads2uppc-main {
         padding: 30px 0px;
     }
@@ -196,22 +207,22 @@
 }
 
 .payperclick h5 {
-    color: #0A1F5F;
-    font-family: "Roboto", Sans-serif;
+    color: #0a1f5f;
+    font-family: 'Roboto', Sans-serif;
     font-size: 30px;
     font-weight: 600;
 }
 
 .payperclick p {
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
 .payperclick-card .card {
     padding: 20px;
-    border: 1px solid #9D3E82;
+    border: 1px solid #9d3e82;
     border-radius: 5px;
     margin: 20px 0px;
 }
@@ -222,7 +233,6 @@
 
 .payperclick-card .none-card:hover {
     box-shadow: -10px -10px 0px 2px rgba(77, 5, 175, 1);
-
 }
 
 .payperclick-card img {
@@ -233,20 +243,20 @@
 }
 
 .payperclick-card h3 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 20px;
     font-weight: 600;
 }
 
 .payperclick-card p {
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .payperclick-main {
         padding: 30px 0px;
     }
@@ -268,15 +278,15 @@
 }
 
 .ppcservicesindia .header {
-    color: #FA4970;
-    font-family: "Poppins", Sans-serif;
+    color: #fa4970;
+    font-family: 'Poppins', Sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
 
 .ppcservicesindia h6 {
-    color: #0A1F5F;
-    font-family: "Poppins", Sans-serif;
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
@@ -284,14 +294,14 @@
 
 .ppcservicesindia p {
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
 .ppcservicesindia button {
     color: #fff;
-    background: #34187F;
+    background: #34187f;
     border-radius: 5px;
     padding: 13px 40px;
 }
@@ -301,8 +311,8 @@
 }
 
 .ppcservicesindia h5 {
-    color: #0A1F5F;
-    font-family: "Poppins", Sans-serif;
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -320,8 +330,20 @@
 }
 
 @media screen and (max-width: 769px) {
+    .ppcservicesindia .header {
+        margin-top: 2.5rem;
+    }
     .ppcservicesindia h6 {
         font-size: 25px;
+    }
+    .ppcservicesindia .pps-item {
+        color: #fff;
+        background-color: #871752;
+        border-radius: 50%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -332,8 +354,8 @@
 }
 
 .fqppcservice h1 {
-    color: #0A1F5F;
-    font-family: "Poppins", Sans-serif;
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
@@ -341,7 +363,7 @@
 
 .fqppcservice p {
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin: 0;
@@ -350,7 +372,6 @@
 .fqppcservice-Accordion .accordion-item {
     margin-bottom: 10px;
 }
-
 
 .fqppcservice-Accordion .accordion-button {
     color: rgb(0, 32, 96);
@@ -374,12 +395,12 @@
 .fqppcservice-Accordion .accordion-button::after {
     background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
     transition: all 0.5s;
-    color: #08203A !important;
+    color: #08203a !important;
 }
 
 .fqppcservice-Accordion .accordion-button:not(.collapsed)::after {
     background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
-    color: #08203A !important;
+    color: #08203a !important;
 }
 
 .fqppcservice-Accordion .accordion-button::after {
@@ -396,7 +417,6 @@
     }
 }
 
-
 /* Ppcgoogle */
 .ppcgoogle-main {
     padding: 60px 0px;
@@ -404,14 +424,13 @@
 }
 
 .ppcgoogle-header h2 {
-    color: #0A1F5F;
-    font-family: "Roboto", Sans-serif;
+    color: #0a1f5f;
+    font-family: 'Roboto', Sans-serif;
     font-size: 30px;
     font-weight: 600;
 }
 
-
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .ppcgoogle-main {
         padding: 30px 0px;
         background: rgb(241, 241, 241);
@@ -421,7 +440,6 @@
         font-size: 25px;
     }
 }
-
 
 /*  */
 
@@ -464,14 +482,14 @@
 .ppcgoogle .back {
     align-items: center;
     background-color: transparent;
-    background-image: linear-gradient(180deg, #9D3E82 0%, #2966E0 100%);
+    background-image: linear-gradient(180deg, #9d3e82 0%, #2966e0 100%);
     color: white;
     transform: rotateY(180deg);
 }
 
 .ppcgoogle h3 {
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 20px;
     font-weight: 600;
 }

@@ -117,6 +117,7 @@ const Slider2 = () => {
                                 1024: { slidesPerView: 5, slidesPerGroup: 1 },
                                 600: { slidesPerView: 3, slidesPerGroup: 1 },
                                 480: { slidesPerView: 2, slidesPerGroup: 1 },
+                                0: { slidesPerView: 1, slidesPerGroup: 1 },
                             }}
                         >
                             {images.map((img, index) => (

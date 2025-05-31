@@ -11,7 +11,7 @@ function WebportalHero() {
                 <Container>
                     <Row className="align-items-center ">
                         <Col md={6} lg={7}>
-                            <div className="">
+                            <div >
                                 <h1>Web Portal Development</h1>
                                 <p>Building unique, industry-specific, custom-made web portals for outstanding customer experience</p>
                                 <a href="/contact-us/">
@@ -20,7 +20,7 @@ function WebportalHero() {
                             </div>
                         </Col>
                         <Col md={6} lg={5}>
-                            <div className="">
+                            <div >
                                 <img alt="Web Portal Development Company In Chennai" src="/webdads/images/webportal/Web-Portal-Development.png"></img>
                             </div>
                         </Col>
@@ -45,12 +45,12 @@ function WebportalHero() {
                     </div>
                     <Row className="align-items-center pt-3 on-lineport">
                         <Col md={6}>
-                            <div className="">
+                            <div >
                                 <img alt="" src="/webdads/images/webportal/online-portal.webp" className="w-100"></img>
                             </div>
                         </Col>
                         <Col md={6}>
-                            <div className="">
+                            <div >
                                 <p>
                                     Welcome to our Web Portal Development Solutions page! At Webdads2u, we specialize in crafting custom web portals tailored to meet your specific needs. Our team of experienced developers utilizes cutting-edge
                                     technologies to create user-friendly, scalable, and secure web portals that streamline your business operations. Whether you need an internal portal for employee collaboration, a customer portal for seamless
@@ -72,12 +72,12 @@ function WebportalHero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={5}>
-                            <div className="">
+                            <div >
                                 <img alt="" src="/webdads/images/webportal/b2b-portal.webp"></img>
                             </div>
                         </Col>
                         <Col md={7}>
-                            <div classname="">
+                            <div >
                                 <h2>Looking for Web Portal Development Services? We Can Help!</h2>
 
                                 <a href="/contact-us">

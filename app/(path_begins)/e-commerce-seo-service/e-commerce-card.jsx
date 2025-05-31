@@ -12,7 +12,7 @@ function Ecommercecard() {
             <div className="row text-center ecommercecard">
                 <div className="col-sm-12 col-md-6 col-lg-4 mt-4 mb-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/e-commerce-seo-service/ECOMMERCE-WEBSITE-DESIGNING-AND-DEVELOPMENT.png" alt="ECOMMERCE-WEBSITE-DESIGNING-AND-DEVELOPMENT" loading='lazy' className='img-fluid' />
                         </div>
                         <h3>E-commerce Website Designing And Development</h3>
@@ -22,7 +22,7 @@ function Ecommercecard() {
 
                 <div className="col-sm-12 col-md-6 col-lg-4 mt-4 mb-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/e-commerce-seo-service/ECOMMERCE-SEO-AUDIT-AND-ROADMAP.png" alt="ECOMMERCE-SEO-AUDIT-AND-ROADMAP" loading='lazy' className='img-fluid' />
                         </div>
                         <h3>E-commerce Seo Audit And Roadmap</h3>
@@ -32,7 +32,7 @@ function Ecommercecard() {
 
                 <div className="col-sm-12 col-md-6 col-lg-4 mt-4 mb-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/e-commerce-seo-service/Our-ecommerce-SEO.png" alt="Our-ecommerce-SEO" loading='lazy' className='img-fluid' />
                         </div>
                         <h3>Product Image Optimization</h3>
@@ -42,7 +42,7 @@ function Ecommercecard() {
 
                 <div className="col-sm-12 col-md-6 col-lg-4 mt-4 mb-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/e-commerce-seo-service/RICH-SNIPPET-OPTIMISATION.png" alt="RICH-SNIPPET-OPTIMISATION" loading='lazy' className='img-fluid' />
                         </div>
                         <h3>Rich Snippet Optimisation</h3>
@@ -52,7 +52,7 @@ function Ecommercecard() {
 
                 <div className="col-sm-12 col-md-6 col-lg-4 mt-4 mb-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/e-commerce-seo-service/ON-PAGE-SEO-FOR-CATEGORY-SUBCATEGORY-PAGES.png" alt="ON-PAGE-SEO-FOR-CATEGORY-SUBCATEGORY-PAGES" loading='lazy' className='img-fluid' />
                         </div>
                         <h3>On Page Seo For Category/subcategory Pages</h3>
@@ -62,7 +62,7 @@ function Ecommercecard() {
 
                 <div className="col-sm-12 col-md-6 col-lg-4 mt-4 mb-4">
                     <div className="card">
-                        <div className="">
+                        <div >
                         <img src="webdads/images/e-commerce-seo-service/ECOMMERCE-CONTENT-OPTIMIZATION.png" alt="EECOMMERCE-CONTENT-OPTIMIZATION" loading='lazy' className='img-fluid' />
                         </div>
                         <h3>E-commerce Content Optimization</h3>

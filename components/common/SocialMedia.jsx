@@ -87,22 +87,22 @@ function SocialMedia() {
                         </div>
                         <div className="col-xs-12 col-md-4 col-lg-4 d-flex justify-content-center">
                             <li>
-                                <a href="/">
+                                <a href="https://www.facebook.com/Webdads2u" target="_blank" rel="noopener noreferrer">
                                     <FaFacebookF className="icon-social-media" />
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://x.com/webdads2u" target="_blank" rel="noopener noreferrer">
                                     <FaTwitter className="icon-social-media" />
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://www.youtube.com/webdads2u" target="_blank" rel="noopener noreferrer">
                                     <FaYoutube className="icon-social-media" />
                                 </a>
                             </li>
                             <li>
-                                <a href="/">
+                                <a href="https://www.instagram.com/webdads2u/" target="_blank" rel="noopener noreferrer">
                                     <IoLogoInstagram className="icon-social-media" />
                                 </a>
                             </li>

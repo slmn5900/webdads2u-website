@@ -8,7 +8,7 @@ function Fluterwave() {
                     <Row>
                         <Col md={6} lg={4}>
                             <div className="crm-box">
-                                <div className="d-flex align-items-center">
+                                <div className="d-flex flex-column flex-md-row align-items-center">
                                     <img src="/webdads/images/flutterapp/Constantly-Evolving-Platform.png" alt="CRM Software Solutions" />
                                     <h2>Constantly Evolving Platform</h2>
                                 </div>
@@ -17,7 +17,7 @@ function Fluterwave() {
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="crm-box">
-                                <div className="d-flex align-items-center">
+                                <div className="d-flex flex-column flex-md-row  align-items-center">
                                     <img src="/webdads/images/flutterapp/High-Speed-Development.png" alt="CRM Maintenance and Upgrades" />
                                     <h2>High Speed Development</h2>
                                 </div>
@@ -26,47 +26,39 @@ function Fluterwave() {
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="crm-box">
-                                <div className="d-flex align-items-center">
+                                <div className="d-flex flex-column flex-md-row  align-items-center">
                                     <img src="/webdads/images/flutterapp/Single-Codebase-for-All.png" alt="CRM Integration Services" />
-                                    <h2>Single Codebase for All
-                                    </h2>
+                                    <h2>Single Codebase for All</h2>
                                 </div>
                                 <p>Our CRM integration services allow you to connect your systems with ease. Increase data flow, enhance communication, and obtain a unified perspective for enhanced decision-making.</p>
                             </div>
                         </Col>
-                    
-                        <Col md={6} lg={4}>
-                            <div className="crm-box1">
-                                <div className="d-flex align-items-center">
-                                    <img src="/webdads/images/flutterapp/Impressive-Time-to-Market.png" alt="CRM Process Automation Solutions" />
-                                    <h2>Impressive Time to Market
-                                    </h2>
-                                </div>
-                                <p>Our CRM process automation solutions can increase productivity. Conveniently streamline repetitive tasks, minimize manual errors, and enhance overall operational efficiency.
 
-</p>
+                        <Col md={6} lg={4}>
+                            <div className="crm-box">
+                                <div className="d-flex flex-column flex-md-row  align-items-center">
+                                    <img src="/webdads/images/flutterapp/Impressive-Time-to-Market.png" alt="CRM Process Automation Solutions" />
+                                    <h2>Impressive Time to Market</h2>
+                                </div>
+                                <p>Our CRM process automation solutions can increase productivity. Conveniently streamline repetitive tasks, minimize manual errors, and enhance overall operational efficiency.</p>
                             </div>
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="crm-box">
-                                <div className="d-flex align-items-center">
+                                <div className="d-flex flex-column flex-md-row  align-items-center">
                                     <img src="/webdads/images/flutterapp/Robust-Widget-Implementation.png" alt="CRM Mobile Application" />
-                                    <h2>Robust Widget Implementation
-                                    </h2>
+                                    <h2>Robust Widget Implementation</h2>
                                 </div>
-                                <p>Stay connected on the go with our CRM mobile application. To increase agility, it is important to have access to real-time data, manage leads, and nurture customer relationships anytime.
-                                </p>
+                                <p>Stay connected on the go with our CRM mobile application. To increase agility, it is important to have access to real-time data, manage leads, and nurture customer relationships anytime.</p>
                             </div>
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="crm-box">
-                                <div className="d-flex align-items-center">
+                                <div className="d-flex flex-column flex-md-row  align-items-center">
                                     <img src="/webdads/images/flutterapp/Faster-and-Continuous-Testing.png" alt="CRM Migration Solutions" />
-                                    <h2>Faster and Continuous Testing
-                                    </h2>
+                                    <h2>Faster and Continuous Testing</h2>
                                 </div>
-                                <p>Upgrade effortlessly with our CRM migration solutions. Seamlessly transition data, maintain system integrity, and ensure a smooth migration process for uninterrupted business operations.
-                                </p>
+                                <p>Upgrade effortlessly with our CRM migration solutions. Seamlessly transition data, maintain system integrity, and ensure a smooth migration process for uninterrupted business operations.</p>
                             </div>
                         </Col>
                     </Row>

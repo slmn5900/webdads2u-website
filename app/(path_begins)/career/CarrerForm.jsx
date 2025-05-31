@@ -151,7 +151,7 @@ const CarrerForm = () => {
                 </Row>
                 <Row>
                     <Col lg={12}>
-                        <div className="">
+                        <div >
                             <h2>
                                 Address <span>(Required)</span>
                             </h2>

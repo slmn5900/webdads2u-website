@@ -53,7 +53,7 @@ function LetterheadHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <h2>Why does any business need professional letterhead design services?</h2>
                                 <p>
                                     It is important that the letterhead design you use for your business is distinctive, professional, and leaves a lasting impression on your employees, buyers, and sellers. It’s important to have a letterhead Design
@@ -83,7 +83,7 @@ function LetterheadHero() {
                             <h2>Our Recent Creations</h2>
                         </Col>
                         <Col md={12} lg={8}>
-                            <div className="">
+                            <div >
                                 <p>
                                     You cannot have a random letterhead design for your company; it should be simple yet eye-catching. Your brand’s appearance should ensure the reader recalls it when they see it, and more importantly, it should set
                                     the stage for the content that will be written on it. These are some of the innovative letterhead designs we created.
@@ -100,7 +100,7 @@ function LetterheadHero() {
                 <Container>
                     <Row>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <h2>Professional Designs</h2>
                                 <p>Letterhead design is a method of expression. Webdads2U offers the services of the finest graphic designers in Chennai, who have helped us become the leading letterhead designing service in Chennai.</p>
                                 <p>

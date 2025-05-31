@@ -26,7 +26,7 @@ function Woocommerceslider() {
                         <Slider {...settings}>
                             <div className="wocomflx align-items-center"> 
                                 <Col md={5} xs={12}>
-                                    <div className="">
+                                    <div >
                                     <img src="/webdads/images/wocommerce/woo-commerce-slider-1.webp" alt="woo-commerce-website-development" className="w-100"></img>
                                     </div>
                                 </Col>
@@ -39,7 +39,7 @@ function Woocommerceslider() {
                             </div>
                             <div className="wocomflx align-items-center"> 
                                 <Col md={5} xs={12}>
-                                    <div className="">
+                                    <div >
                                     <img src="/webdads/images/wocommerce/time-deliver.webp" alt="time-deliver" className="w-100"></img>
                                     </div>
                                 </Col>
@@ -52,7 +52,7 @@ function Woocommerceslider() {
                             </div>
                             <div className="wocomflx align-items-center"> 
                                 <Col md={5} xs={12}>
-                                    <div className="">
+                                    <div >
                                     <img src="/webdads/images/wocommerce/skilled-woo-commerce.webp" alt="skilled-woo-commerce" className="w-100"></img>
                                     </div>
                                 </Col>
@@ -65,7 +65,7 @@ function Woocommerceslider() {
                             </div>
                             <div className="wocomflx align-items-center"> 
                                 <Col md={5} xs={12}>
-                                    <div className="">
+                                    <div >
                                     <img src="/webdads/images/wocommerce/practical.webp" alt="practical" className="w-100"></img>
                                     </div>
                                 </Col>

@@ -53,7 +53,7 @@
 // // // // //                 <Container>
 // // // // //                     <Row>
 // // // // //                         <Col md={4}>
-// // // // //                             <div className="">
+// // // // //                             <div >
 // // // // //                                 <h3>WHY TO CHOOSE</h3>
 // // // // //                                 <h2>Save your time with a lot of features</h2>
 // // // // //                             </div>
@@ -201,7 +201,7 @@
 // // // // //                 <Container>
 // // // // //                     <Row>
 // // // // //                         <Col md={4}>
-// // // // //                             <div className="">
+// // // // //                             <div >
 // // // // //                                 <h3>WHY TO CHOOSE</h3>
 // // // // //                                 <h2>Save your time with a lot of features</h2>
 // // // // //                             </div>
@@ -299,7 +299,7 @@
 // // //                 <Container>
 // // //                     <Row>
 // // //                         <Col md={4}>
-// // //                             <div className="">
+// // //                             <div >
 // // //                                 <h3>WHY TO CHOOSE</h3>
 // // //                                 <h2>Save your time with a lot of features</h2>
 // // //                             </div>
@@ -741,6 +741,7 @@ function WebDesingWhyChooseUsSlider() {
                                 1024: { slidesPerView: 3 },
                                 768: { slidesPerView: 2 },
                                 480: { slidesPerView: 1 },
+                                320: { slidesPerView: 1 },
                             }}
                         >
                             {slideData.map((val, index) => (

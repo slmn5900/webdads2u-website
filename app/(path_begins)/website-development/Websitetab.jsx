@@ -147,11 +147,11 @@ const Websitetab = () => {
         </div>
 
       <div className="d-flex look-btn">
-        <div className="">
+        <div >
           <p>Looking for Immersive Frontends?</p>
         </div>
        
-        <div className="">
+        <div >
           <a herf="/contact-us"><button>Talk To Our UI/UX Consultants</button></a>
         </div>
       </div>

@@ -17,7 +17,7 @@ const OffpageseoHero = () => {
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div className="">
+                            <div >
                                 <img
                                     src="/webdads/images/offpageseo/offpageseo.png"
                                     alt="Best Off Page SEO Company In Chennai 
@@ -36,7 +36,7 @@ const OffpageseoHero = () => {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <h2>Off Page Seo Service Chennai</h2>
                                 <p>
                                     Quality off page seo is a challenge. It takes to do the right things to bring a website up in the Google SERP ranking. And, Google doesn’t make that easy. Be it any business, ranking in the top in SERP means that
@@ -58,7 +58,7 @@ const OffpageseoHero = () => {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <h2>What Is Off page seo Optimization?</h2>
                                 <p>
                                     Best off page SEO company in Chennai will do it for our clients which increase traffics to website visibility in search engine. Off-Page Optimization is not just about links. After effectively completing on-page

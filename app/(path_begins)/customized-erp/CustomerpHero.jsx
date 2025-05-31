@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Slider from '../../../components/common/Slider-image';
 import { IoMdCheckboxOutline } from 'react-icons/io';
-import SocialMedia from '../../../components/common/SocialMedia';
+// import SocialMedia from '../../../components/common/SocialMedia';
 
 function CustomerpHero() {
     return (
@@ -18,7 +18,7 @@ function CustomerpHero() {
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div className="">
+                            <div >
                                 <img
                                     src="/webdads/images/customized-erp/customize-erp.png"
                                     alt="ERP Software Development Company In Chennai
@@ -49,7 +49,7 @@ function CustomerpHero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <h2>Custom Made ERP Web App Development</h2>
                                 <p>
                                     Custom ERP software are meant to be aligned with business processes and assist in achieving target goals. ERPs are capable of being developed to encompass business process management, HR management systems,
@@ -63,7 +63,7 @@ function CustomerpHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <img src="/webdads/images/customized-erp/custome-erp.webp" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>
@@ -74,12 +74,12 @@ function CustomerpHero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <img src="/webdads/images/customized-erp/erp-customized.webp" alt="Shopify service" className="w-100 rounded" />
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <h2>How we do it?</h2>
                                 <p>
                                     Is there anything else you’d like to know about the advantages of hiring a custom ERP development company in India for your venture? This is a brief summary of how a customer relationship management system affects
@@ -185,7 +185,7 @@ function CustomerpHero() {
                     </Row>
                 </Container>
             </section>
-            <SocialMedia />
+            {/* <SocialMedia /> */}
         </>
     );
 }

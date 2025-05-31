@@ -15,7 +15,7 @@
     margin: 50px 0px;
 }
 
- .customwebdesignbanner-main .element-circle{
+.customwebdesignbanner-main .element-circle {
     position: absolute;
     left: 0;
 }
@@ -70,7 +70,7 @@
     }
 }
 
-@media screen and (max-width:426px) {
+@media screen and (max-width: 426px) {
     .customwebdesignbanner h1 {
         font-size: 20px !important;
     }
@@ -84,296 +84,306 @@
         padding: 38px 0px;
     }
 }
-    /* Whywebdads2u */
+/* Whywebdads2u */
 
+.whywebdads2u-main {
+    padding: 60px 0px;
+}
+
+.whywebdads2u h2 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.whywebdads2u p {
+    text-align: left;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.whywebdads2u img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@media screen and (max-width: 767px) {
     .whywebdads2u-main {
-        padding: 60px 0px;
+        padding: 30px 0px;
     }
 
     .whywebdads2u h2 {
-        color: #0B1225;
-        font-family: "Poppins", Sans-serif;
-        font-size: 35px;
-        font-weight: 600;
+        font-size: 25px;
     }
+}
 
-    .whywebdads2u p {
-        text-align: left;
-        color: #5A5A5A;
-        font-family: "Poppins", Sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-    }
+/* customwebdesignservices */
+.customwebdesignservices-main {
+    padding: 60px 0px;
+    background: #f2f9ff;
+}
 
-    .whywebdads2u img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        animation: mover 1s infinite alternate;
-    }
+.customwebdesignservices-card .mb-5 {
+    margin-bottom: 4rem !important;
+}
 
-    @keyframes mover {
-        0% {
-            transform: translateY(0);
-        }
+.customwebdesignservices h3 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
 
-        100% {
-            transform: translateY(-10px);
-        }
-    }
+.customwebdesignservices p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
 
-    @media screen and (max-width:767px) {
-        .whywebdads2u-main {
-            padding: 30px 0px;
-        }
+.customwebdesignservices-card img {
+    width: 100px;
+    border-radius: 100%;
+    border: 10px solid #f5f5f5;
+    background: #fff;
+    box-shadow: 1px 0 5px #ccc;
+    margin-bottom: 15px;
+}
 
-        .whywebdads2u h2 {
-            font-size: 25px;
-        }
-    }
+.customwebdesignservices-card .text-area {
+    background: #fff;
+    box-shadow: 1px 0 5px #ccc;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-top: -65px;
+    padding-top: 60px;
+    border-radius: 10px;
+    height: 100%;
+}
 
-    /* customwebdesignservices */
+.customwebdesignservices-card .text-area:hover {
+    background: linear-gradient(-225deg, #fffeff 0, #f4fcff 100%);
+    box-shadow: 1px 0 20px #ccc;
+    border: 1px solid #6cd1ff;
+}
+
+.customwebdesignservices-card h4 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.customwebdesignservices-card p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 769px) {
     .customwebdesignservices-main {
-        padding: 60px 0px;
+        padding: 30px 0px;
         background: #f2f9ff;
     }
 
-    .customwebdesignservices-card .mb-5 {
-        margin-bottom: 4rem !important;
-    }
-
     .customwebdesignservices h3 {
-        color: #0B1225;
-        font-family: "Poppins", Sans-serif;
-        font-size: 35px;
-        font-weight: 600;
+        font-size: 25px;
     }
+}
 
-    .customwebdesignservices p {
-        color: #5A5A5A;
-        font-family: "Poppins", Sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-    }
+/* whychoosewedads2u */
+.whychoosewedads2u-main {
+    padding: 60px 0px;
+}
 
-    .customwebdesignservices-card img {
-        width: 100px;
-        border-radius: 100%;
-        border: 10px solid #f5f5f5;
-        background: #fff;
-        box-shadow: 1px 0 5px #ccc;
-        margin-bottom: 15px;
-    }
+.whychoosewedads2u img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    .customwebdesignservices-card .text-area {
-        background: #fff;
-        box-shadow: 1px 0 5px #ccc;
-        border: 1px solid #fff;
-        padding: 20px;
-        margin-top: -65px;
-        padding-top: 60px;
-        border-radius: 10px;
-        height: 100%;
-    }
+.whychoosewedads2u h4 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
 
-    .customwebdesignservices-card .text-area:hover {
-        background: linear-gradient(-225deg, #fffeff 0, #f4fcff 100%);
-        box-shadow: 1px 0 20px #ccc;
-        border: 1px solid #6cd1ff;
-    }
+.whychoosewedads2u p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
 
-    .customwebdesignservices-card h4 {
-        color: #0B1225;
-        font-family: "Poppins", Sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-    }
+.whychoosewedads2u li {
+    color: #5a5a5a;
+    list-style-type: none;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
 
-    .customwebdesignservices-card p {
-        color: #5A5A5A;
-        font-family: "Poppins", Sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-    }
+.whychoosewedads2u .checkbox-icon {
+    color: #6ec1e4;
+    font-size: 17px;
 
-    @media screen and (max-width:769px) {
-        .customwebdesignservices-main {
-            padding: 30px 0px;
-            background: #f2f9ff;
-        }
+    margin-right: 8px;
+}
 
-        .customwebdesignservices h3 {
-            font-size: 25px;
-
-        }
-    }
-
-    /* whychoosewedads2u */
+@media screen and (max-width: 769px) {
     .whychoosewedads2u-main {
-        padding: 60px 0px;
-    }
-
-    .whychoosewedads2u img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 30px 0px;
     }
 
     .whychoosewedads2u h4 {
-        color: #0B1225;
-        font-family: "Poppins", Sans-serif;
-        font-size: 35px;
-        font-weight: 600;
+        font-size: 25px;
     }
+}
 
-    .whychoosewedads2u p {
-        color: #5A5A5A;
-        font-family: "Poppins", Sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-    }
+/* Lookingforcustomwebdesign */
 
-    .whychoosewedads2u li {
-        color: #5A5A5A;
-        list-style-type: none;
-        font-family: "Poppins", Sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        padding-bottom: 10px;
-    }
+.lookingforcustomwebdesign-main {
+    padding: 60px 0px;
+    background-color: transparent;
+    background-image: linear-gradient(78deg, #ae52aa 0%, #5a7bcb 100%);
+}
 
-    .whychoosewedads2u .checkbox-icon {
-        color: #6ec1e4;
-        font-size: 17px;
+.lookingforcustomwebdesign h5 {
+    color: #ffffff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
 
-        margin-right: 8px;
-    }
+.lookingforcustomwebdesign p {
+    color: #ffffff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
 
-    @media screen and (max-width:769px) {
-        .whychoosewedads2u-main {
-            padding: 30px 0px;
-        }
+.lookingforcustomwebdesign button {
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    background-color: #fff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 18px 40px;
+}
 
-        .whychoosewedads2u h4 {
-            font-size: 25px;
-        }
-    }
+.lookingforcustomwebdesign button:hover {
+    color: #fff;
+    background: transparent;
+}
 
-    /* Lookingforcustomwebdesign */
-
+@media screen and (max-width: 769px) {
     .lookingforcustomwebdesign-main {
         padding: 60px 0px;
-        background-color: transparent;
-        background-image: linear-gradient(78deg, #AE52AA 0%, #5A7BCB 100%);
     }
 
     .lookingforcustomwebdesign h5 {
-        color: #FFFFFF;
-        font-family: "Poppins", Sans-serif;
-        font-size: 45px;
-        font-weight: 600;
+        font-size: 25px;
+    }
+}
+
+/* FQcustomwebdesign */
+.FQcustomwebdesign-main {
+    padding: 60px 0px;
+    background: rgb(241, 241, 241);
+}
+
+.FQcustomwebdesign h1 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.FQcustomwebdesign p {
+    color: #000000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.FQcustomwebdesign-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+.FQcustomwebdesign-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.FQcustomwebdesign-Accordion .accordion-body {
+    color: var(--e-global-color-text);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.FQcustomwebdesign-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.FQcustomwebdesign-Accordion .accordion-button::after {
+    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203a !important;
+}
+
+.FQcustomwebdesign-Accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203a !important;
+}
+
+.FQcustomwebdesign-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .FQcustomwebdesign-header h1 {
+        font-size: 24px;
     }
 
-    .lookingforcustomwebdesign p {
-        color: #FFFFFF;
-        font-family: "Poppins", Sans-serif;
-        font-size: 18px;
-        font-weight: 400;
+    .frequentlyaskedquestions h1 {
+        font-size: 25px;
     }
+}
 
-    .lookingforcustomwebdesign button {
-        font-family: "Poppins", Sans-serif;
-        font-size: 16px;
-        font-weight: 600;
-        color: #000000;
-        background-color: #FFF;
-        border: 2px solid #FFFFFF;
-        border-radius: 5px;
-        padding: 18px 40px;
+@media screen and (max-width: 426px) {
+    .home-taps-business > div > .MuiTabs-list.MuiTabs-flexContainer.MuiTabs-centered.css-1hqdth1-MuiTabs-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column !important;
+        background-color: #0a1f5f;
     }
-
-    .lookingforcustomwebdesign button:hover {
-        color: #fff;
-        background: transparent;
+    .home-taps-business > div {
+        background-color: #6cd1ff !important;
     }
-
-    @media screen and (max-width:769px) {
-        .lookingforcustomwebdesign-main {
-            padding: 60px 0px;
-        }
-
-        .lookingforcustomwebdesign h5 {
-            font-size: 25px;
-        }
-    }
-
-    /* FQcustomwebdesign */
-    .FQcustomwebdesign-main {
-        padding: 60px 0px;
-        background: rgb(241, 241, 241);
-    }
-
-    .FQcustomwebdesign h1 {
-        color: #0A1F5F;
-        font-family: "Poppins", Sans-serif;
-        font-size: 36px;
-        font-weight: 700;
-        text-transform: capitalize;
-    }
-
-    .FQcustomwebdesign p {
-        color: #000000;
-        font-family: "Poppins", Sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-    }
-
-    .FQcustomwebdesign-Accordion .accordion-item {
-        margin-bottom: 10px;
-    }
-
-
-    .FQcustomwebdesign-Accordion .accordion-button {
-        color: rgb(0, 32, 96);
-        font-family: Poppins, sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-    }
-
-    .FQcustomwebdesign-Accordion .accordion-body {
-        color: var(--e-global-color-text);
-        font-family: Poppins, sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-    }
-
-
-    .FQcustomwebdesign-Accordion .accordion-button {
-        background: #fff;
-        box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
-    }
-
-    .FQcustomwebdesign-Accordion .accordion-button::after {
-        background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
-        transition: all 0.5s;
-        color: #08203A !important;
-    }
-
-    .FQcustomwebdesign-Accordion .accordion-button:not(.collapsed)::after {
-        background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
-        color: #08203A !important;
-    }
-
-    .FQcustomwebdesign-Accordion .accordion-button::after {
-        transition: all 0.5s;
-    }
-
-    @media screen and (max-width: 768px) {
-        .FQcustomwebdesign-header h1 {
-            font-size: 24px;
-        }
-
-        .frequentlyaskedquestions h1 {
-            font-size: 25px;
-        }
-    }
+}

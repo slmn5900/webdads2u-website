@@ -45,7 +45,7 @@ function WebsitedevHero() {
                 <Container>
                     <Row>
                         <Col md={12} lg={7}>
-                            <div className="">
+                            <div >
                                 <h1>Our Web Development Streams</h1>
                                 <p>
                                     Welcome to our web development stream! Join us as we explore the dynamic realm of web development services, covering everything from front-end design to back-end functionality. Whether you’re a beginner or a
@@ -54,10 +54,10 @@ function WebsitedevHero() {
                                 </p>
                             </div>
                             <div className="d-flex look-btn">
-                                <div className="">
+                                <div >
                                     <p>Looking for Immersive Frontends?</p>
                                 </div>
-                                <div className="">
+                                <div >
                                     <a href="/contact-us">
                                         <button>Talk To Our UI/UX Consultants</button>
                                     </a>

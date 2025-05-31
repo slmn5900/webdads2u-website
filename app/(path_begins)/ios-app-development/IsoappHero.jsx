@@ -44,12 +44,12 @@ function IsoappHero() {
                             </p>
                         </div>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <img src="/webdads/images/isoapp/webdads2us-bespoke-iso-development-services.webp" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <h2>Webdads2u&apos;s Bespoke iOS Development Services</h2>
                                 <p>
                                     Welcome to Webdads2u, your premier destination for bespoke iOS app development services. Our team of skilled developers is dedicated to bringing your app ideas to life with precision and innovation. Whether you’re
@@ -161,18 +161,20 @@ function IsoappHero() {
                 <Container>
                     <Row className="align-items-center">
                         <div className="text-center">
-                            <h2>Why Do You Need Customized CRM Development Services?</h2>
-                            <p>
+                            {/* <h2>Why Do You Need Customized CRM Development Services?</h2> */}
+                            {/* <p>
                                 Are you interested in discovering how hiring a custom CRM Software Development company in India can benefit your venture? I will provide a brief overview of how a customer relationship management system affects your
                                 business.
-                            </p>
+                            </p> */}
+                            <h2>Why Choose Webdads2u as Your iOS Mobile App Development Company?</h2>
+                            <p>Radixweb is an iOS app development company that is committed to creating innovative and customized iOS app solutions for businesses of all sizes.</p>
                         </div>
 
                         <Col md={12} lg={6}>
                             <div className="crm-box">
                                 <div className="crm-auto">
                                     <div>
-                                        <img src="/webdads/images/isoapp/Transparent-Approach.png" alt="custome-erp" />
+                                        <img  src="/webdads/images/isoapp/Transparent-Approach.png" alt="custome-erp" />
                                     </div>
                                     <div>
                                         <h3>Transparent Approach </h3>
@@ -219,7 +221,7 @@ function IsoappHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6} className="pt-3">
-                            <div className="">
+                            <div>
                                 <img src="/webdads/images/isoapp/isoapp-image.webp" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>

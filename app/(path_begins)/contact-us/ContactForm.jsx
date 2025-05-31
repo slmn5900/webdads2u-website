@@ -37,7 +37,7 @@
 //     return (
 //         <>
 //             <form onSubmit={handleSubmit} className="contactform">
-//                 <div className="">
+//                 <div >
 //                     <h2>Ready To Get Started?</h2>
 //                 </div>
 //                 <Row>
@@ -210,7 +210,7 @@ const ContactForm = () => {
     return (
         <>
             <form onSubmit={handleSubmit} className="contactform">
-                <div className="">
+                <div>
                     <h2>Ready To Get Started?</h2>
                 </div>
                 <Row>
@@ -268,10 +268,13 @@ const ContactForm = () => {
                             <textarea name="message" value={formData.message} onChange={handleChange} />
                         </div>
                         <div className="mt-2 mb-3">
-                            <ReCAPTCHA
+                            {/* <ReCAPTCHA
                                 sitekey="YOUR_SITE_KEY" // Replace with your reCAPTCHA site key
                                 onChange={handleCaptchaChange}
-                            />
+                            /> */}
+                            <div className="recaptcha">
+                                <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={handleCaptchaChange} />
+                            </div>
                             {errors.captcha && <p>{errors.captcha}</p>}
                         </div>
                         <button type="submit" disabled={loading}>

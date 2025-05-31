@@ -191,39 +191,48 @@ function Formsection() {
                             <div className="quick-form">
                                 <h2>Quick contact us!</h2>
                                 <form onSubmit={handleSubmit(onSubmit)}>
-                                    <div className="infld">
-                                        <input id="name" type="text" placeholder="Name" {...register('name', { required: 'Name is required' })} />
-                                        {errors.name && <p>{errors.name.message}</p>}
-                                    </div>
+                                    <div className="homepage-quick-service-form">
+                                        <section className="homepage-quick-service-form-section">
+                                            <div className="infld">
+                                                <input id="name" type="text" placeholder="Name" {...register('name', { required: 'Name is required' })} />
+                                                {errors.name && <p>{errors.name.message}</p>}
+                                            </div>
 
-                                    <div className="infld">
-                                        <input id="email" type="email" placeholder="Email" {...register('email', { required: 'Email is required' })} />
-                                        {errors.email && <p>{errors.email.message}</p>}
-                                    </div>
+                                            <div className="infld">
+                                                <input id="email" type="email" placeholder="Email" {...register('email', { required: 'Email is required' })} />
+                                                {errors.email && <p>{errors.email.message}</p>}
+                                            </div>
 
-                                    <div className="infld">
-                                        <input id="phone" type="tel" placeholder="Phone" {...register('phone', { required: 'Phone number is required' })} />
-                                        {errors.phone && <p>{errors.phone.message}</p>}
-                                    </div>
+                                            <div className="infld">
+                                                <input id="phone" type="tel" placeholder="Phone" {...register('phone', { required: 'Phone number is required' })} />
+                                                {errors.phone && <p>{errors.phone.message}</p>}
+                                            </div>
+                                        </section>
+                                        <section className="homepage-quick-service-form-recaptcha-parent">
+                                            <div className='homepage-quick-service-form-recaptcha-child1'>
+                                                <select id="services" {...register('services', { required: 'Please select a service' })}>
+                                                    <option value="">Select a service</option>
+                                                    <option value="web-development">Web Development</option>
+                                                    <option value="seo">SEO</option>
+                                                    <option value="marketing">Marketing</option>
+                                                </select>
+                                                {errors.services && <p>{errors.services.message}</p>}
+                                            </div>
 
-                                    <div>
-                                        <select id="services" {...register('services', { required: 'Please select a service' })}>
-                                            <option value="">Select a service</option>
-                                            <option value="web-development">Web Development</option>
-                                            <option value="seo">SEO</option>
-                                            <option value="marketing">Marketing</option>
-                                        </select>
-                                        {errors.services && <p>{errors.services.message}</p>}
-                                    </div>
-
-                                    {/* <div className="check-in">
-                                        <label>
-                                            <input type="checkbox" id="not-robot" onChange={handleCheckboxChange} />I am not a robot
-                                        </label>
-                                    </div> */}
-
-                                    <div className="recaptcha">
-                                        <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={handleRecaptchaChange} />
+                                            <div className="homepage-quick-service-form-recaptcha-child2" style={{ height: '45px' }}>
+                                                <ReCAPTCHA
+                                                    style={{
+                                                        transform: 'scale(0.6)',
+                                                        transformOrigin: '0 0',
+                                                        WebkitTransform: 'scale(0.6)',
+                                                        WebkitTransformOrigin: '0 0'
+                                                    }}
+                                                    Theme="compact"
+                                                    sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                                                    onChange={handleRecaptchaChange}
+                                                />
+                                            </div>
+                                        </section>
                                     </div>
 
                                     <button type="submit" disabled={loading}>

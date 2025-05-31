@@ -23,10 +23,17 @@ const FAQ = React.lazy(() => import('../components/FAQ'));
 const CardCantainer = React.lazy(() => import('../components/CardContainer'));
 const CustomTabPanel = React.lazy(() => import('../components/CustomTabPanel'));
 import '../style/home/landing_page.scss'; // Import your CSS file
+import LoadingComponent from '../components/LoadingComponent';
 const LandingPage = () => {
     return (
         <div>
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense
+                fallback={
+                    <div>
+                        <LoadingComponent />
+                    </div>
+                }
+            >
                 <Herosection />
                 <Formsection />
                 <ServicesSection />

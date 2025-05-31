@@ -196,7 +196,9 @@ p {
             line-height: 20px !important;
         }
         button {
-            display: none;
+            // display: none;
+            font-size: 12px;
+            padding: 6px 12px;
         }
     }
     h2 {

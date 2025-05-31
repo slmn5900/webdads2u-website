@@ -95,7 +95,7 @@ function Wavecard() {
                         <div className="text-center">
                             <h2>CRM DEVELOPMENT SOLUTION</h2>
                             <p>Boost efficiency, streamline processes, and enhance customer relationships seamlessly. Empower your business with our tailored CRM development solutions – Best CRM for small businesses.</p>
-                            <img alt="" src="/webdads/images/crm/crm-mockup.jpg" height="267" width="600"></img>
+                            <img className='crm-develoment-section-image' alt="" src="/webdads/images/crm/crm-mockup.jpg" height="267" width="600" ></img>
                         </div>
                     </Row>
                     <Row className="pt-5 ">
@@ -153,7 +153,7 @@ function Wavecard() {
                     <Row>
                         <Col md={6}>
                             <div className="process d-flex">
-                                <div className="">
+                                <div>
                                     <img alt="" src="/webdads/images/crm/Process-Automation.png"></img>
                                 </div>
                                 <div className="process-auto">
@@ -162,7 +162,7 @@ function Wavecard() {
                                 </div>
                             </div>
                             <div className="process d-flex">
-                                <div className="">
+                                <div>
                                     <img alt="" src="/webdads/images/crm/Enhanced-Security.png"></img>
                                 </div>
                                 <div className="process-auto">
@@ -171,7 +171,7 @@ function Wavecard() {
                                 </div>
                             </div>
                             <div className="process d-flex">
-                                <div className="">
+                                <div>
                                     <img alt="" src="/webdads/images/crm/Customer-Services.png"></img>
                                 </div>
                                 <div className="process-auto">
@@ -180,7 +180,7 @@ function Wavecard() {
                                 </div>
                             </div>
                             <div className="process d-flex">
-                                <div className="">
+                                <div>
                                     <img alt="" src="/webdads/images/crm/Comprehensive-Reporting.png"></img>
                                 </div>
                                 <div className="process-auto">
@@ -189,7 +189,7 @@ function Wavecard() {
                                 </div>
                             </div>
                             <div className="process d-flex">
-                                <div className="">
+                                <div>
                                     <img alt="" src="/webdads/images/crm/Keeping-All-Data-in-One-Location.png"></img>
                                 </div>
                                 <div className="process-auto">
@@ -198,7 +198,7 @@ function Wavecard() {
                                 </div>
                             </div>
                             <div className="process d-flex">
-                                <div className="">
+                                <div>
                                     <img alt="" src="/webdads/images/crm/Regulatory-Compliance.png"></img>
                                 </div>
                                 <div className="process-auto">
@@ -208,7 +208,7 @@ function Wavecard() {
                             </div>
                         </Col>
                         <Col md={6}>
-                            <div className="">
+                            <div>
                                 <img alt="" src="/webdads/images/crm/erp-enter.jpg" className="w-100"></img>
                             </div>
                         </Col>
@@ -219,16 +219,16 @@ function Wavecard() {
                 <Container>
                     <Row>
                         <Col md={6}>
-                            <div className="">
+                            <div>
                                 <img alt="" src="/webdads/images/crm/erp-image.jpg" className="w-100"></img>
                             </div>
                         </Col>
                         <Col md={6}>
-                            <div className="">
+                            <div>
                                 <h2>Our Fully Integrated and Customizable Modules for ERP Systems</h2>
                             </div>
                             <div className="d-flex cust-web">
-                                <div className="">
+                                <div>
                                     <p>
                                         <FaCircleCheck /> Customer Web Portal
                                     </p>
@@ -251,7 +251,7 @@ function Wavecard() {
                                         <FaCircleCheck /> Ecommerce
                                     </p>
                                 </div>
-                                <div className="">
+                                <div>
                                     <p>
                                         <FaCircleCheck /> Order Management
                                     </p>

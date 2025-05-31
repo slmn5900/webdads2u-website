@@ -13,17 +13,18 @@ function BrochuredesignHero() {
                         <Col md={7} xs={7} lg={7}>
                             <h2>Brochure Design Company in Chennai</h2>
                             <p>Captivate with our creative brochure designs! Engage your audience and leave a lasting impression. Let your brand stand out!!</p>
-                            <a href="/contact-us/">
-                                <a href="/contact-us">
-                                    <Button variant="contained">Contact us</Button>
-                                </a>
+                            {/* <a href="/contact-us/"> */}
+                            <a href="/contact-us">
+                                <Button variant="contained">Contact us</Button>
                             </a>
+                            {/* </a> */}
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div className="">
+                            <div>
                                 <img src="/webdads/images/brochuredesign/brochurehero.png" alt="socialmedia service" className="socialbanner" />
                             </div>
                         </Col>
+                        {/* <Slider /> */}
                     </Row>
                 </Container>
             </section>
@@ -46,7 +47,7 @@ function BrochuredesignHero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <img
                                     src="/webdads/images/brochuredesign/One.webp"
                                     alt="Brochure Design Company In Chennai
@@ -55,7 +56,7 @@ function BrochuredesignHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <h2>All You Imagine For Your Brochure Design</h2>
                                 <p>
                                     Unlock boundless creativity with Webdads2u Private Limited, your premier destination for cutting-edge Brochure Design Company. Ignite imagination and captivate your audience with our innovative designs tailored to
@@ -119,12 +120,12 @@ function BrochuredesignHero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <img src="/webdads/images/brochuredesign/why-choose.webp" className="w-100" alt="image not found"></img>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <h2>Why Choose Brochure Design Amazing Web Design Service</h2>
                                 <p>
                                     Choosing brochure design is a strategic decision for several reasons. Firstly, it condenses information into a concise and focused message, ensuring effective communication. Secondly, the visual appeal of engaging
@@ -285,7 +286,7 @@ function BrochuredesignHero() {
             {/* <section className="looking-broch">
                 <Container>
                     <Row>
-                        <div className="">
+                        <div >
                             <h2>Looking for Brochure Design Services?</h2>
                             <p>Then you are at the right place!! Send us your requirements. We will get back to you with a free quote.</p>
                         </div>

@@ -65,7 +65,8 @@ export default function RootLayout({ children }) {
                         capitalizeLinks
                     /> */}
                     {/* <CommonBreadcrumbs /> */}
-                    <div style={{ marginTop: '83px' }}>{children}</div>
+                    {/* <div style={{ marginTop: '83px' }}>{children}</div> */}
+                    <div>{children}</div>
                     <Footer />
                 </LayoutProvider>
             </body>

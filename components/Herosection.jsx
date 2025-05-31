@@ -51,6 +51,7 @@ function Herosection() {
                                     >
                                         <div className="service-icon">
                                             <RiMedalLine />
+                                            {/* <img src="https://res.cloudinary.com/dbpv95wd8/images/v1701068652/Medal-B-2/Medal-B-2.png?_i=AA" alt="Web Development" className="img-fluid" /> */}
                                             <h4>Web Development</h4>
                                         </div>
                                     </a>

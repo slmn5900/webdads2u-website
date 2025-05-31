@@ -45,7 +45,7 @@ const faqData = [
 const FAQ = () => {
     return (
         <div className="container mt-5">
-            <div className="row">
+            <div className="row d-flex align-items-start">
                 <section className="col-md-6">
                     {' '}
                     <div className="landing-page-faq-span-div">
@@ -69,14 +69,15 @@ const FAQ = () => {
                             We have many good <span style={{ color: '#871752' }}>client’s</span> review
                         </h3>
                     </div>
-                    <Carousel className="carousel-parent-container">
+                    {/* <Carousel className="carousel-parent-container"> */}
+                    <Carousel className="carousel-parent-container-home">
                         {testimonials.map((testimonial, index) => (
                             <Carousel.Item key={index} className="carousel-item-container">
                                 <div className="d-flex justify-content-center">
                                     <img className="d-block rounded-circle" src={testimonial.imgSrc} alt={testimonial.name} style={{ width: '100px', height: '100px' }} />
                                 </div>
                                 <Carousel.Caption className="landing-page-testimonial-carousel-caption" style={{ position: 'unset' }}>
-                                    <p className="landing-page-testimonial-carousel-caption-p" style={{ textAlign: 'left' }}>
+                                    <p className="landing-page-testimonial-carousel-caption-p" style={{ textAlign: 'left', paddingLeft: '10px' }}>
                                         {testimonial.content}
                                     </p>
                                     <h3 className="text-center">{testimonial.name}</h3>

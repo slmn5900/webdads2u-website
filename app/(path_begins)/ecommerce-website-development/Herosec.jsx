@@ -78,7 +78,7 @@ function Herosec() {
             <section className="all-you">
                 <Container>
                     <Row>
-                        <div className="">
+                        <div >
                             <h2>All You Imagine For Your Ecommerce</h2>
                             <h3>Our Years of industry experience makes us strong enough to handle all your online business needs</h3>
                             <p>
@@ -92,7 +92,7 @@ function Herosec() {
             <section className="all-you pb-5">
                 <Container>
                     <Row>
-                        <div className="">
+                        <div >
                             <h2>Our Portfolio</h2>
                             <h3>Innovative Ecommerce Web Design</h3>
                         </div>
@@ -254,7 +254,7 @@ function Herosec() {
                 <Container>
                     <Row>
                         <Col md={8}>
-                            <div className="">
+                            <div >
                                 <h2>M-Commerce Service </h2>
                                 <h3>Mobile Commerce – Mobile App For Ecommerce</h3>
                                 <p>
@@ -262,7 +262,7 @@ function Herosec() {
                                     and personalized user interfaces. Stay ahead in the digital realm with our tailored M-Commerce services, revolutionizing the way you engage customers in the ecommerce website services landscape.
                                 </p>
                                 <div className="d-flex shipping">
-                                    <div className="">
+                                    <div >
                                         <ul>
                                             <li>
                                                 <FaCheckSquare /> Search filter{' '}
@@ -278,7 +278,7 @@ function Herosec() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="">
+                                    <div >
                                         <ul>
                                             <li>
                                                 <FaCheckSquare /> Multi-lingual{' '}
@@ -298,7 +298,7 @@ function Herosec() {
                             </div>
                         </Col>
                         <Col md={4}>
-                            <div className="">
+                            <div >
                                 <img alt="" src="/webdads/images/ecommerce/yoga.webp"></img>
                             </div>
                         </Col>
@@ -372,12 +372,12 @@ function Herosec() {
                 <Container>
                     <Row>
                         <Col md={4}>
-                            <div className="">
+                            <div >
                                 <img alt="" src="/webdads/images/ecommerce/atcomart.webp"></img>
                             </div>
                         </Col>
                         <Col md={8}>
-                            <div className="">
+                            <div >
                                 <h2>Social E-Commerce</h2>
 
                                 <p>
@@ -386,7 +386,7 @@ function Herosec() {
                                     our innovative services, redefining the way you connect, share, and shop. Discover the future of shopping with us.{' '}
                                 </p>
                                 <div className="d-flex shipping">
-                                    <div className="">
+                                    <div >
                                         <ul>
                                             <li>
                                                 <FaCheckSquare /> User profiles
@@ -402,7 +402,7 @@ function Herosec() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="">
+                                    <div >
                                         <ul>
                                             <li>
                                                 <FaCheckSquare /> Fully Mobile Friendly

@@ -11,14 +11,14 @@ function SocialmediaHero() {
                         <Col md={7} xs={7} lg={7}>
                             <h2>Best Social Media Design Company </h2>
                             <p>Unlock creativity with our Social Media Design services! Engaging visuals tailored to your brand. Let&apos;s elevate your online presence together.</p>
-                            <a href="/contact-us/">
-                                <a href="/contact-us">
-                                    <Button variant="contained">Contact us</Button>
-                                </a>
+                            {/* <a href="/contact-us/"> */}
+                            <a href="/contact-us">
+                                <Button variant="contained">Contact us</Button>
+                                {/* </a> */}
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div className="">
+                            <div>
                                 <img src="/webdads/images/socialmedia/socail-media-banner.png" alt="Social Media Design Company In Chennai" className="socialbanner" />
                             </div>
                         </Col>
@@ -30,12 +30,12 @@ function SocialmediaHero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div className="">
-                                <img alt="" src="/webdads/images/socialmedia/social-media-design-Services-company.webp"></img>
+                            <div>
+                                <img alt="" src="/webdads/images/socialmedia/social-media-design-Services-company.webp" style={{ width: '100%' }}></img>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div>
                                 <h2>Social Media Design Services Company </h2>
                                 <p>
                                     Welcome to our premier Social Media Design Services Company. We specialize in crafting captivating visuals and strategies that elevate your online presence. With our expertise in Social Media Design, we ensure your
@@ -94,10 +94,10 @@ function SocialmediaHero() {
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
-                                <a href="https://www.linkedin.com/in/webdads2uservices">
+                                <a href="https://www.linkedin.com/company/webdads2u-private-limited/">
                                     <img alt="" src="/webdads/images/socialmedia/Linkedin.webp"></img>
                                 </a>
-                                <a href="https://www.linkedin.com/in/webdads2uservices">
+                                <a href="https://www.linkedin.com/company/webdads2u-private-limited/">
                                     <h3>LinkedIn</h3>
                                 </a>
                                 <p>

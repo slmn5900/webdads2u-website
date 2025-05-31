@@ -44,7 +44,7 @@ const CardContainer = () => {
             <div className='container'>
                 <div className="row pt-5" style={{ display: 'flex',alignItems: 'center', justifyContent: 'center' }} >
                     <div className="elementor-element elementor-element-d32b387 blog-sec elementor-widget elementor-widget-text-editor" data-id="d32b387" data-element_type="widget" data-widget_type="text-editor.default">
-                        <div className="" style={{ textAlign: 'center' ,display: 'flex',alignItems: 'center', justifyContent: 'center',flexDirection: 'column'}}>
+                        <div  style={{ textAlign: 'center' ,display: 'flex',alignItems: 'center', justifyContent: 'center',flexDirection: 'column'}}>
                             <p className='landing-page-card-blog-para-p'>Our Latest Blog</p>
                             <h3 className='landing-page-card-blog-para-h3'>
                                 Connect with us for experiencing the best <span >IT Solutions</span>

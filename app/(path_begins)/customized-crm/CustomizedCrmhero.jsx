@@ -16,7 +16,7 @@ function CustomizedCrmhero() {
                             </a>
                         </Col>
                         <Col md={5} xs={5} lg={5}>
-                            <div className="">
+                            <div >
                                 <img
                                     src="/webdads/images/customized-crm/CRM.png"
                                     alt="CRM Software Development Company In Chennai
@@ -33,7 +33,7 @@ function CustomizedCrmhero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <h2>Custom CRM Development Company in India</h2>
                                 <p>
                                     Looking for a reliable CRM Software Development Company in India to streamline your business processes and enhance customer relationships? Look no further! Our company specializes in custom CRM software development
@@ -47,7 +47,7 @@ function CustomizedCrmhero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <img src="/webdads/images/customized-crm/custome-crm.webp" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>
@@ -107,7 +107,7 @@ function CustomizedCrmhero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div className="">
+                            <div >
                                 <img src="/webdads/images/customized-crm/crm-benift.webp" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>

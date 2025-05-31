@@ -74,7 +74,7 @@ export default function LoadMoreImage() {
         <div className=" ">
             <div className="container">
                 <Row>
-                    <Col md={6} className="">
+                    <Col md={6} >
                         <div className="mt-5">
                             <h5 className="fw-bold">10+ years and 150+ clients</h5>
                             <h1 className="fw-bold load-ayout" style={{ color: '#262250' }}>

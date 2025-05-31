@@ -16,7 +16,6 @@ width: 550px;
 padding: 0px;   
 } */
 
-
 .Star-2-main {
     position: absolute;
     top: 233px;
@@ -73,7 +72,7 @@ padding: 0px;
     animation: mover 1s infinite alternate;
 }
 
-@media screen and (min-width:769px) and (max-width:1025px) {
+@media screen and (min-width: 769px) and (max-width: 1025px) {
     .Star-2-main {
         position: absolute;
         top: 246px;
@@ -131,7 +130,7 @@ padding: 0px;
     }
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width: 769px) {
     .Star-2-main {
         position: absolute;
         top: 187px;
@@ -189,7 +188,6 @@ padding: 0px;
     }
 }
 
-
 .localseoservicebanner h1 {
     color: #fff;
     font-family: 'poppins', sans-serif;
@@ -216,23 +214,28 @@ padding: 0px;
 }
 
 .localseoservicebanner button:hover {
-    color: #0A1F5F;
+    color: #0a1f5f;
     background: #fff;
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width: 769px) {
     .localseoservicebanner h1 {
         font-size: 30px;
     }
 }
 
-@media screen and (max-width:426px) {
+@media screen and (max-width: 426px) {
     .localseoservicebanner h1 {
         font-size: 20px;
     }
 
     .localseoservicebanner p {
         font-size: 12px;
+    }
+
+    .localseoservicebanner button {
+        font-size: 12px;
+        padding: 6px 20px;
     }
 }
 
@@ -242,15 +245,15 @@ padding: 0px;
 }
 
 .seoservicesindia h2 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 35px;
     font-weight: 600;
 }
 
 .seoservicesindia p {
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -273,7 +276,7 @@ padding: 0px;
     width: 550px;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .seoservicesindia-main {
         padding: 30px 0px;
     }
@@ -290,20 +293,20 @@ padding: 0px;
 }
 
 .whyseo h3 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 35px;
     font-weight: 600;
 }
 
 .whyseo p {
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .whyseo-main {
         padding: 30px 0px;
         background: rgb(247, 247, 247);
@@ -320,8 +323,8 @@ padding: 0px;
 }
 
 .localseoservicesinclude-header h3 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 35px;
     font-weight: 600;
     margin: 20px 0px;
@@ -336,7 +339,7 @@ padding: 0px;
 
 .localseoservicesinclude h4 {
     color: #000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -344,13 +347,13 @@ padding: 0px;
 
 .localseoservicesinclude p {
     color: #000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 20px;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .localseoservicesinclude-main {
         padding: 30px 0px;
     }
@@ -366,16 +369,16 @@ padding: 0px;
 }
 
 .localseccompany h5 {
-    color: #0B1225;
-    font-family: "Poppins", Sans-serif;
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 30px;
 }
 
 .localseccompany p {
-    color: #5A5A5A;
-    font-family: "Poppins", Sans-serif;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -386,7 +389,7 @@ padding: 0px;
     margin-right: 10px;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .localseccompany-main {
         padding: 30px 0px;
     }
@@ -407,36 +410,36 @@ padding: 0px;
 }
 
 .lookingEcommerceseo h6 {
-    color: #FFFFFF;
-    font-family: "Poppins", Sans-serif;
+    color: #ffffff;
+    font-family: 'Poppins', Sans-serif;
     font-size: 35px;
     font-weight: 600;
 }
 
 .lookingEcommerceseo p {
-    color: #FFFFFF;
-    font-family: "Poppins", Sans-serif;
+    color: #ffffff;
+    font-family: 'Poppins', Sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
 .lookingEcommerceseo button {
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 600;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border: 2px solid #fff;
     border-radius: 5px;
     padding: 18px 40px;
 }
 
 .lookingEcommerceseo button:hover {
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #00000000;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .lookingEcommerceseo-main {
         padding: 30px 0px;
     }
@@ -453,8 +456,8 @@ padding: 0px;
 }
 
 .fqlocalseoservice h1 {
-    color: #0A1F5F;
-    font-family: "Poppins", Sans-serif;
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
@@ -463,7 +466,7 @@ padding: 0px;
 
 .fqlocalseoservice p {
     color: #000000;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -473,7 +476,7 @@ padding: 0px;
     background-color: #69727d;
     font-size: 15px;
     color: #fff;
-    transition: all .3s;
+    transition: all 0.3s;
     background-color: transparent;
     background-image: linear-gradient(90deg, #871752 0%, #262250 50%);
     border-radius: 30px;
@@ -489,7 +492,6 @@ padding: 0px;
     margin-bottom: 10px;
 }
 
-
 .fqlocalseoservice-Accordion .accordion-button {
     color: rgb(0, 32, 96);
     font-family: Poppins, sans-serif;
@@ -504,7 +506,6 @@ padding: 0px;
     font-weight: 400;
 }
 
-
 .fqlocalseoservice-Accordion .accordion-button {
     background: #fff;
     box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
@@ -513,12 +514,12 @@ padding: 0px;
 .fqlocalseoservice-Accordion .accordion-button::after {
     background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
     transition: all 0.5s;
-    color: #08203A !important;
+    color: #08203a !important;
 }
 
 .fqlocalseoservice-Accordion .accordion-button:not(.collapsed)::after {
     background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
-    color: #08203A !important;
+    color: #08203a !important;
 }
 
 .fqlocalseoservice-Accordion .accordion-button::after {

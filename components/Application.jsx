@@ -16,7 +16,7 @@ export default function Application() {
                 <div className="container ">
                     <div className=" p-4 rounded text-white">
                         <h2 className=" text-center mb-3">Application Development</h2>
-                        <p className="">
+                        <p >
                             Application development empowers businesses with tailored solutions, optimizing user experiences while curbing hardware expenses in favor of efficient software solutions. Rapid deployment of user-friendly applications
                             ensures heightened customer satisfaction and market visibility. Additionally, it enables businesses to glean valuable insights from user engagement data, facilitating informed decision-making processes and paving the way
                             for continuous growth. <br />
@@ -145,8 +145,8 @@ export default function Application() {
                "
                                             >
                                                 <img
-                                                    width="40"
-                                                    height="40"
+                                                    width="30"
+                                                    height="30"
                                                     src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_40,h_40/f_auto,q_auto/v1704344536/metaverse_6558dcb47/metaverse_6558dcb47.png?_i=AA"
                                                     alt="Metaverse"
                                                     className="me-3"
@@ -199,8 +199,8 @@ export default function Application() {
                "
                                             >
                                                 <img
-                                                    width="40"
-                                                    height="40"
+                                                    width="30"
+                                                    height="30"
                                                     src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_40,h_40/f_auto,q_auto/v1701069689/iot-application-development-1/iot-application-development-1.png?_i=AA"
                                                     alt="IoT Application Development"
                                                     className="me-3"

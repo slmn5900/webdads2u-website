@@ -24,8 +24,6 @@ const Slider = dynamic(() => import('../../../components/common/Slider-image'), 
 
 const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });
 
-
-
 const AndroidMain = () => {
     return (
         <div>
@@ -35,7 +33,8 @@ const AndroidMain = () => {
                         <div className="col-7 col-sm-6 col-md-6 col-xs-6">
                             <h1>Android App Development</h1>
                             <p>Learn Android app development to create innovative mobile applications for the Android platform, catering to diverse user needs and preferences.</p>
-                            <button type="button" className="d-none d-sm-block" onClick={() => (window.location.href = '/contact-us')}>
+                            {/* <button type="button" className="d-none d-sm-block" onClick={() => (window.location.href = '/contact-us')}> */}
+                            <button type="button" onClick={() => (window.location.href = '/contact-us')}>
                                 Contact us
                             </button>
                         </div>

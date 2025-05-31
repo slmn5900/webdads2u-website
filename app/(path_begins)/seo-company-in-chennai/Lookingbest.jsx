@@ -11,7 +11,7 @@ function Lookingbest() {
                 <Container>
                     <Row>
                         <Col md={6}>
-                            <div className="">
+                            <div >
                                 <h5>Looking for the Best SEO results? </h5>
                                 <h2>Get more Leads With SEO Optimization.</h2>
                                 <p>Transform your SEO game and seize more leads! Our proven strategies can help you harness the power of optimization. Unleash potential, ignite exponential growth!</p>
@@ -52,14 +52,14 @@ function Lookingbest() {
                                     <button>Conatct us</button>
                                 </a> */}
                             </div>
-                            <div>
+                            <div className="mb-5">
                                 <a href="contact-us" style={{ textDecoration: 'none' }}>
                                     <button className="seo-company-contact-btn">Contact us</button>
                                 </a>
                             </div>
                         </Col>
                         <Col md={6}>
-                            <div className="">
+                            <div >
                                 <img alt="" src="/webdads/images/seo-development/graph-seo.webp"></img>
                             </div>
                         </Col>
@@ -91,7 +91,7 @@ function Lookingbest() {
                             </div>
                         </Col>
                         <Col md={6}>
-                            <div className="">
+                            <div >
                                 <p>Hundreds of reviews from our customers confirm that. Our support team is both friendly and professional, and they usually attempt to help you. .!</p>
                                 <Button href="/contact-us" variant="primary">
                                     Contact us
@@ -102,7 +102,8 @@ function Lookingbest() {
                     <Row className="three-img">
                         <Col md={2}>
                             <div className="website-imgs">
-                                <img alt="" src="/webdads/images/seo-development/rajvision-website.webp"></img>
+                                {/* <img alt="" src="/webdads/images/seo-development/rajvision-website.webp"></img> */}
+                                <img alt="" src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_192,h_427,dpr_1.5/f_auto,q_auto/v1704794894/rajvision-web/rajvision-web.png?_i=AA"></img>
                             </div>
                         </Col>
                         <Col md={8}>

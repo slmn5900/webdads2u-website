@@ -46,7 +46,8 @@ h2 {
     background: #fff;
 }
 .socialbanner {
-    width: 125%;
+    // width: 125%;
+    width: 100%;
 }
 .brochure-com {
     padding-top: 60px;
@@ -308,7 +309,9 @@ h2 {
             font-size: 20px;
         }
         button {
-            display: none;
+            // display: none;
+            font-size: 12px;
+            padding: 5px 15px;
         }
     }
     .corflyer p {
@@ -356,6 +359,6 @@ h2 {
 }
 
 .corflyer p {
-  font-size: 13px;
-  color: #5a5a5a;
+    font-size: 13px;
+    color: #5a5a5a;
 }

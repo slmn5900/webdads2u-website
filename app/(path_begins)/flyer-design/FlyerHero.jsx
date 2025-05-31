@@ -146,7 +146,7 @@ function FlyerHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={4}>
-                            <div className="">
+                            <div className="text-center">
                                 <img alt="" src="/webdads/images/flyerdesign/FLyer.webp"></img>
                             </div>
                         </Col>
@@ -168,14 +168,15 @@ function FlyerHero() {
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
-                                <img alt="" src="/webdads/images/flyerdesign/promotional-help.webp"></img>
+                                {/* <img alt="" src="/webdads/images/flyerdesign/promotional-help.webp"></img> */}
+                                <img alt="" src="/webdads/images/flyerdesign/personalised-outlook.webp"></img>
                                 <h3>Personalised outlook</h3>
                                 <p>The information conveyed is given a personalized touch by them.</p>
                             </div>
                         </Col>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
-                                <img alt="" src="/webdads/images/flyerdesign/personalised-outlook.webp"></img>
+                                <img alt="" src="/webdads/images/flyerdesign/promotional-help.webp"></img>
                                 <h3>Promotional help</h3>
                                 <p>Companies can promote themselves through flyers, which advertise new offers, schemes, and products.</p>
                             </div>

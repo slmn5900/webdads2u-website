@@ -64,7 +64,7 @@ export default function DigitalMargeting() {
                                             <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/Instagram.png"></img>Instagram Marketing
                                         </li>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/webdads2uservices" target="_blank" className="text-decoration-none" style={{ color: '#000' }}>
+                                    <a href="https://www.linkedin.com/company/webdads2u-private-limited/" target="_blank" className="text-decoration-none" style={{ color: '#000' }}>
                                         <li style={{ paddingTop: '10px' }}>
                                             {' '}
                                             <img alt="" style={{ paddingRight: '8px' }} src="/webdads/images/home/linkedin-marketing.png"></img>Linkedin Marketing
@@ -86,7 +86,7 @@ export default function DigitalMargeting() {
                             </Row>
 
                             <Row className="mb-4">
-                                <Col md={4} className="">
+                                <Col md={4} >
                                     <div className="d-flex">
                                         <img src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069742/google-search-engines_47511dc7/google-search-engines_47511dc7.png" alt="Google" width={25} height={26} />
                                         <p className="ms-2">Google</p>
