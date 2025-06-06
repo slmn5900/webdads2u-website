@@ -134,6 +134,7 @@ const ContactForm = () => {
     const [captchaValue, setCaptchaValue] = useState(null);
     const [errors, setErrors] = useState({});
     const [loading, setLoading] = useState(false); // New state for loading
+    const [isCheckboxChecked, setIsCheckboxChecked] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -174,6 +175,10 @@ const ContactForm = () => {
             return;
         }
 
+        if (isCheckboxChecked === false) {
+            alert('Please complete the reCAPTCHA.');
+            return;
+        }
         setLoading(true); // Set loading to true
 
         const data = {
@@ -187,13 +192,21 @@ const ContactForm = () => {
 
         try {
             const response = await contactUsForm(data);
-            if (response.ok) {
-                const result = await response.json();
-                console.log('Success:', result);
+
+            console.log('Success:---------->contact', response);
+            if (response.success) {
+                // const result = await response.json();
+                setFormData({
+                    name: '',
+                    email: '',
+                    phone: '',
+                    service: '',
+                    message: ''
+                });
+                setCaptchaValue(null);
+                setIsCheckboxChecked(false);
+                console.log('Success:', response);
                 alert('Form submitted successfully!');
-            } else {
-                console.error('Error:', response.statusText);
-                alert('Failed to submit form. Please try again.');
             }
         } catch (error) {
             console.error('Error:', error);
@@ -205,6 +218,7 @@ const ContactForm = () => {
 
     const handleCaptchaChange = (value) => {
         setCaptchaValue(value);
+        setIsCheckboxChecked(true);
     };
 
     return (
