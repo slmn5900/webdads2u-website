@@ -1,5 +1,7 @@
-
 import React from 'react';
+import dynamic from "next/dynamic"
+const UnderConstructionsComponent = dynamic(() => import('../../../components/common/UnderConstructionsComponent'), { ssr: false });
+
 export const metadata = {
     title: 'What is CRM Software Development',
     description: 'What is crm software development?',
@@ -8,7 +10,8 @@ export const metadata = {
 const page = () => {
     return (
         <div>
-            <h1>about page</h1>
+            {/* <h1>about page</h1> */}
+            <UnderConstructionsComponent />
         </div>
     );
 };

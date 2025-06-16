@@ -35,6 +35,7 @@ const LandingPage = () => {
                 }
             >
                 <Herosection />
+                {/* <Formsection /> */}
                 <Formsection />
                 <ServicesSection />
                 <LoadMoreImage />

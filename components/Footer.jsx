@@ -144,7 +144,12 @@ function Footer() {
                         <Row>
                             <Col md={12} style={{ textAlign: 'center', color: '#FFF', fontSize: '12px', fontWeight: 600 }}>
                                 <div className="text-center pt-3">
-                                    <span>© {getCurrentYear} by WEBDADS2U PVT LTD.</span>
+                                    <span>
+                                        © {getCurrentYear} by{' '}
+                                        <a href="/" style={{ color: 'inherit', textDecoration: 'none' }}>
+                                            WEBDADS2U PVT LTD.
+                                        </a>
+                                    </span>
                                 </div>
                             </Col>
                         </Row>

@@ -1,6 +1,6 @@
 module.exports = {
-    siteUrl: 'https://webdads2u-website.vercel.app/',
-    generateRobotsTxt: true, // (optional)
+    siteUrl: 'https://www.webdads2u.com/',
+    generateRobotsTxt: true // (optional)
     // sitemapBaseFileName: 'sitemap_index',
     // ...other options
-}
+};

@@ -37,7 +37,7 @@ const BrandingServices = () => {
                                     </div>
 
                                     <div>
-                                        <Link href="/logo-design-portfolio/" className="text-decoration-none ">
+                                        <Link href="/logo-design-agency/" className="text-decoration-none ">
                                             <p className="ms-2 fw-semibold text-black">Logo</p>
                                         </Link>
                                     </div>
