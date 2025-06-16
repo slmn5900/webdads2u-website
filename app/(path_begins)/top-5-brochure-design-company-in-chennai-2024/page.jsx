@@ -1,7 +1,6 @@
-
 import React from 'react';
-
-const UnderConstructionsComponent = dynamic(() => import("../../../components/common/UnderConstructionsComponent"), { ssr: false });
+import dynamic from 'next/dynamic';
+const UnderConstructionsComponent = dynamic(() => import('../../../components/common/UnderConstructionsComponent'), { ssr: false });
 
 export const metadata = {
     title: 'Top 5 Brochure Design Company In Chennai 2024',
@@ -12,7 +11,7 @@ const page = () => {
     return (
         <div>
             {/* <h1>about page</h1> */}
-              <UnderConstructionsComponent />
+            <UnderConstructionsComponent />
         </div>
     );
 };
