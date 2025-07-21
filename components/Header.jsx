@@ -1,1254 +1,549 @@
-// 'use client';
-// import { useState } from 'react';
-// import React from 'react';
-// import Alert from 'react-bootstrap/Alert';
-// import Button from 'react-bootstrap/Button';
-// import Offcanvas from 'react-bootstrap/Offcanvas';
-// import { FaXTwitter } from 'react-icons/fa6';
-// import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPhone } from 'react-icons/fa';
-// import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
-// import { RiMenu3Fill } from 'react-icons/ri';
-// import Link from 'next/link';
-// import { useRouter } from 'next/navigation';
-// import { IoCall } from 'react-icons/io5';
 
-// import '../style/testingheader.scss';
-// const Header = () => {
-//     const router = useRouter();
-//     const [show, setShow] = useState(false);
-//     const handleClose = () => setShow(false);
-//     const handleShow = () => setShow(true);
+// import React from 'react';
+// import {
+//     AppBar,
+//     Box,
+//     Toolbar,
+//     Typography,
+//     Menu,
+//     MenuItem,
+//     IconButton,
+//     Button,
+//     Stack,
+//     Tooltip,
+//     CssBaseline,
+//     Grid2,
+//     Drawer,
+//     useMediaQuery,
+//     useTheme,
+//     Accordion,
+//     AccordionSummary,
+//     AccordionDetails,
+// } from '@mui/material';
+// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+// import MenuIcon from '@mui/icons-material/Menu';
+// import useScrollTrigger from '@mui/material/useScrollTrigger';
+// import PropTypes from 'prop-types';
+// import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+// import PhoneIcon from '@mui/icons-material/Phone';
+// import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import XIcon from '@mui/icons-material/X';
+// import KeyboardDoubleArrowRightRoundedIcon from '@mui/icons-material/KeyboardDoubleArrowRightRounded';
+// import { About, servicesDropdownDatas, Work } from './Headers/headerData';
+
+// function ElevationScroll(props) {
+//     const { children, window } = props;
+//     const trigger = useScrollTrigger({
+//         disableHysteresis: true,
+//         threshold: 0,
+//         target: window ? window() : undefined,
+//     });
+
+//     return React.cloneElement(children, {
+//         elevation: trigger ? 4 : 0,
+//     });
+// }
+
+// ElevationScroll.propTypes = {
+//     children: PropTypes.element.isRequired,
+//     window: PropTypes.func,
+// };
+
+// const servicesDropdownData = servicesDropdownDatas;
+
+// export default function Header(props) {
+//     const theme = useTheme();
+//     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+
+//     const [aboutAnchorEl, setAboutAnchorEl] = React.useState(null);
+//     const [servicesAnchorEl, setServicesAnchorEl] = React.useState(null);
+//     const [workAnchorEl, setWorkAnchorEl] = React.useState(null);
+//     const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
+
+//     const handleAboutMenuOpen = (event) => setAboutAnchorEl(event.currentTarget);
+//     const handleAboutMenuClose = () => setAboutAnchorEl(null);
+//     const handleServicesMenuOpen = (event) => setServicesAnchorEl(event.currentTarget);
+//     const handleServicesMenuClose = () => setServicesAnchorEl(null);
+//     const handleWorkMenuOpen = (event) => setWorkAnchorEl(event.currentTarget);
+//     const handleWorkMenuClose = () => setWorkAnchorEl(null);
+//     const toggleMobileMenu = () => setMobileMenuOpen(!mobileMenuOpen);
 
 //     return (
 //         <>
-//             <div className="d-lg-none mobl-hed">
-//                 <Link href="/" style={{ textDecoration: 'none' }}>
-//                     <div className="site-logo ">
-//                         <img style={{ with: 'inherit' }} onClick={() => router.push('/')} src="/webdads/images/home/webdads2u-logo.svg" alt="why choose us" />
-//                     </div>
-//                 </Link>
-//                 <Button style={{ display: 'block' }} variant="primary" className="d-lg-none" onClick={handleShow}>
-//                     <RiMenu3Fill />
-//                 </Button>
-//             </div>
+//             <CssBaseline />
+//             <ElevationScroll {...props}>
+//                 <AppBar color="default" sx={{ backgroundColor: '#fff', color: '#000', px: { xs: 0, md: 2 } }} >
 
-//             <section className="sidebar-content-div hd-btn">
-//                 <div className="icon-sty">
-//                     <a href="https://web.whatsapp.com/send?phone=+918825607550&text=Welcome+to+Webdads2u" className="sidebar-icon" target="_blank" rel="noopener">
-//                         <svg width="33.163" height="33.158" viewBox="0 0 33.163 33.158" style={{ marginTop: '15px', marginLeft: '6px' }}>
-//                             <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(4 4.579)" fill="#fff"></ellipse>
-//                             <g id="Layer_2" data-name="Layer 2">
-//                                 <g id="Color">
-//                                     <g id="_08.Whatsapp" data-name="08.Whatsapp">
-//                                         <path
-//                                             id="Icon"
-//                                             d="M52.588,36A16.579,16.579,0,0,0,39.163,62.3l-2.072,6.159,6.379-2.039A16.579,16.579,0,1,0,52.588,36ZM61.4,59.447l-1.766,1.766c-1.857,1.857-6.781-.187-11.145-4.559s-6.321-9.284-4.555-11.12L45.7,43.767a1.853,1.853,0,0,1,2.508,0l2.6,2.595a1.728,1.728,0,0,1-.651,2.876,1.687,1.687,0,0,0-1.115,2.048,8.019,8.019,0,0,0,4.833,4.829A1.77,1.77,0,0,0,55.9,54.987a1.733,1.733,0,0,1,2.9-.651l2.6,2.6a1.853,1.853,0,0,1,0,2.508Z"
-//                                             transform="translate(-36.015 -36)"
-//                                             // fill="#07d97e"
-//                                             fill=" #075e54"
-//                                         ></path>
-//                                     </g>
-//                                 </g>
-//                             </g>
-//                         </svg>
-//                     </a>
-//                     {/* <span className="mail-icon-div d-block">
-//                         <a href="mailto:contact@arcmeninterior.com" className="sidebar-icon emil-bx">
-//                             <svg width="19.882" height="14.891" viewBox="0 0 19.882 14.891" style={{ marginTop: '0px', marginLeft: '6px' }}>
-//                                 <path
-//                                     id="Path_24"
-//                                     data-name="Path 24"
-//                                     d="M11.6,176.927a2.99,2.99,0,0,1-3.323,0L.132,171.5Q.065,171.451,0,171.4v8.9a1.83,1.83,0,0,0,1.83,1.83H18.052a1.83,1.83,0,0,0,1.83-1.83v-8.9c-.043.032-.087.064-.133.094Z"
-//                                     transform="translate(0 -167.242)"
-//                                     fill="#fff"
-//                                 ></path>
-//                                 <path
-//                                     id="Path_25"
-//                                     data-name="Path 25"
-//                                     d="M.779,67.551l8.147,5.432a1.826,1.826,0,0,0,2.031,0L19.1,67.551a1.744,1.744,0,0,0,.779-1.455,1.832,1.832,0,0,0-1.83-1.83H1.83A1.832,1.832,0,0,0,0,66.1a1.744,1.744,0,0,0,.779,1.454Z"
-//                                     transform="translate(0 -64.266)"
-//                                     fill="#fff"
-//                                 ></path>
-//                             </svg>
-//                         </a>
-//                     </span> */}
-//                     <span className="mail-icon-div d-block">
-//                         <a href="tel:+91 8825607550" className="sidebar-icon emil-bx">
-//                             <IoCall style={{ marginLeft: '5px', fill: '#fff', fontSize: '20px' }} />
-//                         </a>
-//                     </span>
-//                 </div>
+//                     <Toolbar sx={{ justifyContent: { xs: "space-between", sm: "space-between", md: "space-between", lg: "space-between" } }}>
+//                         {isMobile && (
 
-//                 {/* <button type="button" className="btn btn-primary" onClick={handleShow}>
-//                     Book Now
-//                 </button> */}
-//             </section>
-//             <Offcanvas show={show} onHide={handleClose} responsive="lg">
-//                 <Offcanvas.Header closeButton>
-//                     <Link href="/" style={{ textDecoration: 'none' }}>
-//                         <img src="/webdads/images/home/webdads2u-logo.svg" alt="why choose us w-50"></img>
-//                     </Link>
-//                 </Offcanvas.Header>
-//                 <Offcanvas.Body>
-//                     <nav className="head-fx">
-//                         <div className="container megamnu">
-//                             <div className="row">
-//                                 <div className="col-md-3 logo-cl">
-//                                     <div className="site-logo">
-//                                         {/* <div > */}
-//                                         <Link href="/" style={{ textDecoration: 'none' }}>
-//                                             <img src="/webdads/images/home/webdads2u-logo.svg" alt="why choose us"></img>
-//                                         </Link>
-//                                     </div>
-//                                 </div>
-//                                 <div className="col-md-4 navbr-cl">
-//                                     <div className="mobile_btn">
-//                                         <i className="fas fa-bars"></i>
-//                                     </div>
+//                             <IconButton
+//                                 size="large"
+//                                 aria-label="account of current user"
+//                                 aria-controls="menu-appbar"
+//                                 aria-haspopup="true"
+//                                 onClick={toggleMobileMenu}
+//                                 color="inherit"
+//                             // sx={{ mr: "auto" }}
+//                             >
+//                                 <MenuIcon />
+//                             </IconButton>
+//                         )}
+//                         <Stack direction="row" alignItems="center" spacing={2} sx={{ ml: "auto" }}>
+//                             <img src="/webdads2u-logo-1 1.png" alt="Logo" height="40" />
+//                         </Stack>
 
-//                                     <div className="main_menu">
-//                                         <ul>
-//                                             {/* <li >
-//                                                 <a href="/about" className="active">
-//                                                     About
-//                                                 </a>
-//                                             </li> */}
-//                                             <li className="has_dropdown">
-//                                                 <a href="/about" className="active">
-//                                                     About
-//                                                 </a>
-//                                                 <ul className="sub_menu">
-//                                                     <li>
-//                                                         <a href="/culturals">Culturals</a>
-//                                                     </li>
-//                                                 </ul>
-//                                             </li>
+//                         {!isMobile && (
+//                             <>
+//                                 <Stack direction="row" spacing={1} alignItems="center" >
+//                                     <Button onClick={handleAboutMenuOpen} endIcon={<ArrowDropDownIcon />} sx={{ color: "black", textTransform: "capitalize", fontFamily: "Poppins", fontSize: "15px" }}>
+//                                         About
+//                                     </Button>
+//                                     <Menu anchorEl={aboutAnchorEl} open={Boolean(aboutAnchorEl)} onClose={handleAboutMenuClose} PaperProps={{ sx: { width: "min-content" } }}>
+//                                         <Grid2 container spacing={1} sx={{ px: 2 }}>
+//                                             {About.map((service) => (
+//                                                 <Grid2 size={{ xs: 12, sm: 12, md: 12 }} key={service.label}>
+//                                                     <MenuItem onClick={handleAboutMenuClose} sx={{ textAlign: "start", fontSize: "12px", fontFamily: "Poppins", pl: 0 }}>
+//                                                         <KeyboardDoubleArrowRightRoundedIcon fontSize="small" sx={{ mr: 1 }} />
+//                                                         {service.name}
+//                                                     </MenuItem>
+//                                                 </Grid2>
+//                                             ))}
+//                                         </Grid2>
+//                                     </Menu>
 
-//                                             <li className="mega_menu_dropdown has_dropdown">
-//                                                 <a href="#">
-//                                                     Service <i className="fas fa-angle-down"></i>
-//                                                 </a>
-//                                                 <div className="mega_menu sub_menu">
-//                                                     <div className="mega_menu_item">
-//                                                         <div className="d-flex align-items-center">
-//                                                             <a href="/website-development">
-//                                                                 <img alt="" src="/webdads/images/home/megamenu/responsive-web-design.png" className="w-75"></img>
-//                                                             </a>
-//                                                             <a href="/website-development">
-//                                                                 <h3> Website Development</h3>
-//                                                             </a>
-//                                                         </div>
+//                                     <Button onClick={handleServicesMenuOpen} endIcon={<ArrowDropDownIcon />} sx={{ color: "black", textTransform: "capitalize", fontFamily: "Poppins", fontSize: "15px" }}>
+//                                         Services
+//                                     </Button>
+//                                     <Menu anchorEl={servicesAnchorEl} open={Boolean(servicesAnchorEl)} onClose={handleServicesMenuClose} PaperProps={{ sx: { width: '100vw', maxWidth: 'none', left: '0 !important', right: '0 !important', padding: 2, marginTop: "15px", maxHeight: "calc(100% - 59px)", height: "auto" } }}>
+//                                         <Grid2 container spacing={5} sx={{ px: 2 }}>
+//                                             {servicesDropdownData.map((service) => (
+//                                                 <Grid2 size={{ xs: 12, sm: 6, md: 3, lg: 3, xl: 2 }} key={service.label}>
+//                                                     <Box sx={{ height: "50px" }}>
+//                                                         <Box display="flex" gap={2}>
+//                                                             <Box sx={{ textAlign: "center" }}>
+//                                                                 <img src={service.icon} alt="Logo" width="30" />
+//                                                             </Box>
+//                                                             <Typography variant="subtitle1" fontWeight={600} fontSize="14px" my="auto" fontFamily="Poppins">
+//                                                                 {service.label}
+//                                                             </Typography>
+//                                                         </Box>
+//                                                     </Box>
+//                                                     {service.items.map((item) => (
+//                                                         <MenuItem key={item.label} onClick={handleServicesMenuClose} sx={{ textAlign: "start", fontSize: "12px", fontFamily: "Poppins", pl: 0 }}>
+//                                                             <KeyboardDoubleArrowRightRoundedIcon fontSize="small" sx={{ mr: 1 }} />
+//                                                             {item.label}
+//                                                         </MenuItem>
+//                                                     ))}
+//                                                 </Grid2>
+//                                             ))}
+//                                         </Grid2>
+//                                     </Menu>
 
-//                                                         <a href="/web-portal-development">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Web Portal Development
-//                                                         </a>
-//                                                         <a href="/wordpress-development">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Wordpress Web Development
-//                                                         </a>
-//                                                         <a href="/react-js-development">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             ReactJs Web Development
-//                                                         </a>
-//                                                         <a href="/php-web-development/">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Php Web Development
-//                                                         </a>
-//                                                         <a href="/custom-web-development">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Custom Web Development
-//                                                         </a>
-//                                                     </div>
-//                                                     <div className="mega_menu_item">
-//                                                         <div className="d-flex align-items-center">
-//                                                             <a href="/web-design">
-//                                                                 <img alt="" src="/webdads/images/home/megamenu/custom-web-design.png" className="w-75"></img>
-//                                                             </a>
-//                                                             <a href="/web-design/">
-//                                                                 <h3> Web Design</h3>
-//                                                             </a>
-//                                                         </div>
+//                                     <Button onClick={handleWorkMenuOpen} endIcon={<ArrowDropDownIcon />} sx={{ color: "black", textTransform: "capitalize", fontFamily: "Poppins", fontSize: "15px" }}>
+//                                         Work
+//                                     </Button>
+//                                     <Menu anchorEl={workAnchorEl} open={Boolean(workAnchorEl)} onClose={handleWorkMenuClose} PaperProps={{ sx: { width: "min-content" } }}>
+//                                         <Grid2 container spacing={1} sx={{ px: 2 }}>
+//                                             {Work.map((service) => (
+//                                                 <Grid2 size={{ xs: 12, sm: 12, md: 12 }} key={service.label}>
+//                                                     <MenuItem onClick={handleWorkMenuClose} sx={{ textAlign: "start", fontSize: "12px", fontFamily: "Poppins", pl: 0 }}>
+//                                                         <KeyboardDoubleArrowRightRoundedIcon fontSize="small" sx={{ mr: 1 }} />
+//                                                         {service.name}
+//                                                     </MenuItem>
+//                                                 </Grid2>
+//                                             ))}
+//                                         </Grid2>
+//                                     </Menu>
 
-//                                                         <a href="/html5">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             HTML5 Website design
-//                                                         </a>
-//                                                         <a href="/domain-registration">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Domain Registration
-//                                                         </a>
-//                                                         <a href="/web-hosting-service">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Hosting
-//                                                         </a>
-//                                                         <a href="/custom-web-design">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Custom Web Design
-//                                                         </a>
-//                                                         <a href="/responsive-website">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Responsive Website
-//                                                         </a>
-//                                                         <a href="/ui-ux#">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             UI&UX Design
-//                                                         </a>
-//                                                         <a href="/website-redesign">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Website Redesign
-//                                                         </a>
-//                                                         <a href="website-maintenance">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Website Maintenance
-//                                                         </a>
-//                                                     </div>
-//                                                     <div className="mega_menu_item">
-//                                                         <div className="d-flex align-items-center">
-//                                                             <a href="/seo-company-in-chennai">
-//                                                                 <img alt="" src="/webdads/images/home/megamenu/seo-services-megamenu-icon.webp" className="w-75"></img>
-//                                                             </a>
-//                                                             <a href="/seo-company-in-chennai">
-//                                                                 <h3> SEO Services</h3>
-//                                                             </a>
-//                                                         </div>
+//                                     <Button sx={{ color: "black", textTransform: "capitalize", fontFamily: "Poppins", fontSize: "15px" }}>
+//                                         Contact Us
+//                                     </Button>
+//                                 </Stack>
 
-//                                                         <a href="/digital-marketing-agency">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Digital Marketing
-//                                                         </a>
-//                                                         <a href="/ppc-service">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             PPC Service
-//                                                         </a>
-//                                                         <a href="/e-commerce-seo-service">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             E-commerce SEO Service
-//                                                         </a>
-//                                                         <a href="/local-seo-service">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Local SEO Service
-//                                                         </a>
-//                                                         <a href="/off-page-seo">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Off Page SEO
-//                                                         </a>
-//                                                         <a href="/link-building-service">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Link Building Service
-//                                                         </a>
-//                                                         <a href="/content-writing-service">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Content Writing Service
-//                                                         </a>
-//                                                     </div>
-//                                                     <div className="mega_menu_item">
-//                                                         <div className="d-flex align-items-center">
-//                                                             <a href="/branding-design/">
-//                                                                 <img alt="" src="/webdads/images/home/megamenu/branding-design-megamenu-icon.png" className="w-75"></img>
-//                                                             </a>
-//                                                             <a href="/branding-design/">
-//                                                                 <h3>Branding Design</h3>
-//                                                             </a>
-//                                                         </div>
+//                                 <Stack direction="row" spacing={1} alignItems="center">
+//                                     <Tooltip title="Facebook">
+//                                         <IconButton size="small">
+//                                             <FacebookOutlinedIcon fontSize='small' />
+//                                         </IconButton>
+//                                     </Tooltip>
+//                                     <Tooltip title="Instagram">
+//                                         <IconButton size="small">
+//                                             <InstagramIcon fontSize='small' />
+//                                         </IconButton>
+//                                     </Tooltip>
+//                                     <Tooltip title="Threads">
+//                                         <IconButton size="small">
+//                                             <XIcon fontSize='small' />
+//                                         </IconButton>
+//                                     </Tooltip>
+//                                     <Tooltip title="LinkedIn">
+//                                         <IconButton size="small">
+//                                             <LinkedInIcon fontSize='small' />
+//                                         </IconButton>
+//                                     </Tooltip>
+//                                     <Button variant="contained" sx={{ background: "linear-gradient(90deg,#871752 0%,#262250 50%)", textTransform: "capitalize", fontFamily: "Poppins", }}>
+//                                         Get Quotes
+//                                     </Button>
+//                                     <Stack direction="row" spacing={1} alignItems="center">
+//                                         <Box sx={{ background: "linear-gradient(90deg,#871752 0%,#262250 50%)", color: "white", borderRadius: "50%", height: "32px", width: "32px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+//                                             <PhoneIcon fontSize="small" sx={{ color: "white" }} />
+//                                         </Box>
+//                                         <Typography variant="body2" sx={{ fontFamily: "Poppins", color: "#262250", fontSize: "12px", }}>
+//                                             <span style={{ fontWeight: "500" }}>Feel free to contact us </span> <br /><strong style={{ fontWeight: "600", fontSize: "15px" }}>+91-8825607550</strong>
+//                                         </Typography>
+//                                     </Stack>
+//                                 </Stack>
+//                             </>
+//                         )}
 
-//                                                         <a href="/logo-design">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Logo Design
-//                                                         </a>
-//                                                         <a href="/brochure-design">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Brochure Design
-//                                                         </a>
-//                                                         <a href="/social-media-design">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Social Media Design
-//                                                         </a>
-//                                                         <a href="/flyer-design">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Flyer Design
-//                                                         </a>
-//                                                         <a href="/corporate-gifts-design/">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Corporate Gifts Design
-//                                                         </a>
-//                                                         <a href="/business-card-design">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Business Card Design
-//                                                         </a>
-//                                                         <a href="/letterhead-design">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Letterhead Design
-//                                                         </a>
-//                                                     </div>
-//                                                     <div className="mega_menu_item">
-//                                                         <div className="d-flex align-items-center">
-//                                                             <a href="/mobile-app-development">
-//                                                                 <img alt="" src="/webdads/images/home/megamenu/mobile-app-development-megamenu-icon.png" className="w-75"></img>
-//                                                             </a>
-//                                                             <a href="/mobile-app-development">
-//                                                                 <h3>Mobile App Development</h3>
-//                                                             </a>
-//                                                         </div>
-//                                                         <a href="/ios-app-development">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             IOS App Development
-//                                                         </a>
-//                                                         <a href="/android-app-development">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Android App Development
-//                                                         </a>
-//                                                         <a href="/flutter-app-development/">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Flutter App Development
-//                                                         </a>
-//                                                         <a href="/react-native-app-development">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             React Native App Development{' '}
-//                                                         </a>
-//                                                         <a href="/mobile-app-ui-ux-design">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Mobile App UI/ UX Design
-//                                                         </a>
-//                                                     </div>
-//                                                     <div className="mega_menu_item">
-//                                                         <div className="d-flex align-items-center">
-//                                                             <a href="/crm-erp-development">
-//                                                                 <img alt="" src="/webdads/images/home/megamenu/ecommerce-development-megamenu-icon.webp" className="w-75"></img>
-//                                                             </a>{' '}
-//                                                             <a href="/crm-erp-development">
-//                                                                 <h3>CRM & ERP Development</h3>
-//                                                             </a>
-//                                                         </div>
-//                                                         <a href="/customized-crm">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Customized CRM
-//                                                         </a>
-//                                                         <a href="/customized-erp">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Customized ERP
-//                                                         </a>
-//                                                     </div>
-//                                                     <div className="mega_menu_item">
-//                                                         <div className="d-flex align-items-center">
-//                                                             <a href="/ecommerce-website-development">
-//                                                                 <img alt="" src="/webdads/images/home/megamenu/crm-erp-development-megamenu-icon.webp" className="w-75"></img>
-//                                                             </a>
-//                                                             <a href="/ecommerce-website-development">
-//                                                                 <h3>E-commerce Development</h3>
-//                                                             </a>
-//                                                         </div>
-//                                                         <a href="/woo-commerce">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Woocommerce
-//                                                         </a>
-//                                                         <a href="/opencart-development">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Opencart
-//                                                         </a>
-//                                                         <a href="/shopify-development">
-//                                                             <MdOutlineKeyboardDoubleArrowRight />
-//                                                             Shopify
-//                                                         </a>
-//                                                     </div>
-//                                                 </div>
-//                                             </li>
-//                                             <li className="has_dropdown">
-//                                                 <a href="/work">
-//                                                     Work <i className="fas fa-angle-down"></i>
-//                                                 </a>
-//                                                 <ul className="sub_menu">
-//                                                     <li>
-//                                                         <a href="/wordpress">WordPress</a>
-//                                                     </li>
 
-//                                                     <li>
-//                                                         <a href="/e-commerce">E-Commerce</a>
-//                                                     </li>
-//                                                     <li>
-//                                                         <a href="/php-development-company">Php</a>
-//                                                     </li>
-//                                                     <li>
-//                                                         <a href="/react">React</a>
-//                                                     </li>
-//                                                     <li>
-//                                                         <a href="/logo-design-agency">Logo</a>
-//                                                     </li>
-//                                                     <li>
-//                                                         <a href="/brochure">Brochure</a>
-//                                                     </li>
-//                                                     <li>
-//                                                         <a href="/business-card">Business Card</a>
-//                                                     </li>
-//                                                     <li>
-//                                                         <a href="/social-media-service">Social media</a>
-//                                                     </li>
-//                                                     <li>
-//                                                         <a href="/letter-head/">Letter Head</a>
-//                                                     </li>
-//                                                     <li>
-//                                                         <a href="/flyer-design-work/">flyer design</a>
-//                                                     </li>
-//                                                 </ul>
-//                                             </li>
+//                         {/* {isMobile && (
+//                             <IconButton color="inherit" aria-label="open drawer" edge="start" onClick={toggleMobileMenu}>
+//                                 <MenuIcon />
+//                             </IconButton>
+//                         )} */}
 
-//                                             <li>
-//                                                 <a href="/contact-us">Contact</a>
-//                                             </li>
-//                                         </ul>
-//                                     </div>
-//                                 </div>
-//                                 <div className="col-md-5 contdl-home">
-//                                     <div className="home-header-social-icons">
-//                                         <ul className="d-flex">
-//                                             <a href="https://www.facebook.com/Webdads2u">
-//                                                 <li>
-//                                                     <FaFacebookF />{' '}
-//                                                 </li>
-//                                             </a>
-//                                             <a href="https://x.com/webdads2u">
-//                                                 <li>
-//                                                     <FaXTwitter />{' '}
-//                                                 </li>
-//                                             </a>
-//                                             <a href="https://www.instagram.com/webdads2u/">
-//                                                 <li>
-//                                                     <FaInstagram />
-//                                                 </li>
-//                                             </a>
-//                                             <a href="https://www.linkedin.com/company/webdads2u-private-limited/">
-//                                                 <li>
-//                                                     <FaLinkedinIn />
-//                                                 </li>
-//                                             </a>
-//                                         </ul>
-//                                     </div>
-//                                     <a href="/contact-us" style={{ textDecoration: 'none', color: 'inherit' }}>
-//                                         <Button variant="primary" className="mb-rsbtn">
-//                                             Get a Quotes
-//                                         </Button>
-//                                     </a>
-//                                     <div className="home-header-phone-ic">
-//                                         <div className="Home-header-phn-ic">
-//                                             <FaPhone />{' '}
-//                                         </div>
-//                                         <div className="home-header-phone-det">
-//                                             <h3>Feel free to contact us</h3>
-//                                             <h6>
-//                                                 <a href="tel:+91-8825607550">+91-8825607550</a>
-//                                             </h6>
-//                                         </div>
-//                                     </div>
-//                                 </div>
-//                             </div>
-//                         </div>
-//                     </nav>
-//                 </Offcanvas.Body>
-//             </Offcanvas>
+//                     </Toolbar>
+//                 </AppBar>
+//             </ElevationScroll >
+//             <Toolbar />
+
+//             <Drawer anchor="left" open={mobileMenuOpen} onClose={toggleMobileMenu} >
+//                 <Box sx={{ width: 250 }} role="presentation">
+//                     <Accordion>
+//                         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+//                             <Typography>About</Typography>
+//                         </AccordionSummary>
+//                         <AccordionDetails>
+//                             {About.map((service) => (
+//                                 <MenuItem key={service.label} onClick={toggleMobileMenu}>
+//                                     {service.name}
+//                                 </MenuItem>
+//                             ))}
+//                         </AccordionDetails>
+//                     </Accordion>
+
+//                     <Accordion>
+//                         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+//                             <Typography>Services</Typography>
+//                         </AccordionSummary>
+//                         <AccordionDetails>
+//                             {servicesDropdownData.map((service) => (
+//                                 <Box key={service.label}>
+//                                     <Typography variant="subtitle2" fontWeight={600}>{service.label}</Typography>
+//                                     {service.items.map((item) => (
+//                                         <MenuItem key={item.label} onClick={toggleMobileMenu}>
+//                                             {item.label}
+//                                         </MenuItem>
+//                                     ))}
+//                                 </Box>
+//                             ))}
+//                         </AccordionDetails>
+//                     </Accordion>
+
+//                     <Accordion>
+//                         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+//                             <Typography>Work</Typography>
+//                         </AccordionSummary>
+//                         <AccordionDetails>
+//                             {Work.map((service) => (
+//                                 <MenuItem key={service.label} onClick={toggleMobileMenu}>
+//                                     {service.name}
+//                                 </MenuItem>
+//                             ))}
+//                         </AccordionDetails>
+//                     </Accordion>
+
+//                     <MenuItem onClick={toggleMobileMenu}>Contact Us</MenuItem>
+//                 </Box>
+//             </Drawer>
 //         </>
 //     );
-// };
-// export default Header;
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
-// ==================================================================================================================
+// }
+
 'use client';
-import { useState, useEffect } from 'react';
 import React from 'react';
-import Alert from 'react-bootstrap/Alert';
-import Button from 'react-bootstrap/Button';
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import { FaXTwitter } from 'react-icons/fa6';
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPhone } from 'react-icons/fa';
-import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
-import { RiMenu3Fill } from 'react-icons/ri';
-import Link from 'next/link';
-import { FaChevronUp } from 'react-icons/fa';
-import { FaChevronDown } from 'react-icons/fa';
-import { useRouter } from 'next/navigation';
-import { IoCall } from 'react-icons/io5';
+import {
+    AppBar, Box, Toolbar, Typography, Menu, MenuItem, IconButton, Button, Stack,
+    Tooltip, CssBaseline, Drawer, useMediaQuery, useTheme, Accordion, AccordionSummary,
+    AccordionDetails
+} from '@mui/material';
+import useScrollTrigger from '@mui/material/useScrollTrigger';
+import PropTypes from 'prop-types';
 
-import '../style/testingheader.scss';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import MenuIcon from '@mui/icons-material/Menu';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import PhoneIcon from '@mui/icons-material/Phone';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import XIcon from '@mui/icons-material/X'
+import KeyboardDoubleArrowRightRoundedIcon from '@mui/icons-material/KeyboardDoubleArrowRightRounded';
 
-const Header = () => {
-    const router = useRouter();
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-    // const [activeDropdown, setActiveDropdown] = useState(null);
-    // const toggleDropdown = (dropdown) => {
-    //     setActiveDropdown(activeDropdown === dropdown ? null : dropdown);
-    // };
-    // const [isOpen, setIsOpen] = useState(false);
-    // const toggleDropdown = () => setIsOpen(!isOpen);
-    // const [openDropdown, setOpenDropdown] = (useState < string) | (null > null);
-    const [openDropdown, setOpenDropdown] = useState(null);
+import { About, servicesDropdownDatas, Work } from './Headers/headerData'
 
-    const toggleDropdown = (key) => {
-        setOpenDropdown((prev) => (prev === key ? null : key));
-    };
+function ElevationScroll(props) {
+    const { children, window } = props;
+    const trigger = useScrollTrigger({ disableHysteresis: true, threshold: 0, target: window ? window() : undefined });
+    return React.cloneElement(children, { elevation: trigger ? 4 : 0 });
+}
 
-    useEffect(() => {
-        // Add click event listeners to dropdown items
-        document.querySelectorAll('.main_menu ul li.has_dropdown > a').forEach((item) => {
-            item.addEventListener('click', function (e) {
-                e.preventDefault();
-                const parentLi = this.parentElement;
-                parentLi.classList.toggle('active');
-            });
-        });
-    }, []);
+ElevationScroll.propTypes = {
+    children: PropTypes.element.isRequired,
+    window: PropTypes.func,
+};
+
+export default function Header(props) {
+    const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+
+    const [aboutAnchorEl, setAboutAnchorEl] = React.useState(null);
+    const [servicesAnchorEl, setServicesAnchorEl] = React.useState(null);
+    const [workAnchorEl, setWorkAnchorEl] = React.useState(null);
+    const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
+
+    const handleMenuOpen = (setter) => (event) => setter(event.currentTarget);
+    const handleMenuClose = (setter) => () => setter(null);
 
     return (
         <>
-            {/* <div className="d-lg-none mobl-hed"> */}
-            <div className="mobl-hed">
-                <Link href="/" style={{ textDecoration: 'none' }}>
-                    <div>
-                        <img style={{ width: 'inherit', maxWidth: '200px', position: 'absolute' }} onClick={() => router.push('/')} src="/webdads/images/home/webdads2u-logo.svg" alt="why choose us" />
-                    </div>
-                </Link>
-                {/* <Button style={{ display: 'block' }} variant="primary" className="d-lg-none" onClick={handleShow}> */}
-                <Button style={{ display: 'block' }} variant="primary" onClick={handleShow}>
-                    <RiMenu3Fill />
-                </Button>
-            </div>
+            <CssBaseline />
+            <ElevationScroll {...props}>
+                <AppBar color="default" sx={{ backgroundColor: '#fff', color: '#000', px: { xs: 0, md: 2 } }}>
+                    <Toolbar sx={{ justifyContent: 'space-between' }}>
+                        {isMobile && (
+                            <IconButton onClick={() => setMobileMenuOpen(true)} color="inherit">
+                                <MenuIcon />
+                            </IconButton>
+                        )}
 
-            <section className="sidebar-content-div hd-btn">
-                <div className="icon-sty">
-                    <a href="https://web.whatsapp.com/send?phone=+918825607550&text=Welcome+to+Webdads2u" className="sidebar-icon" target="_blank" rel="noopener">
-                        <svg width="33.163" height="33.158" viewBox="0 0 33.163 33.158" style={{ marginTop: '15px', marginLeft: '6px' }}>
-                            <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(4 4.579)" fill="#fff"></ellipse>
-                            <g id="Layer_2" data-name="Layer 2">
-                                <g id="Color">
-                                    <g id="_08.Whatsapp" data-name="08.Whatsapp">
-                                        <path
-                                            id="Icon"
-                                            d="M52.588,36A16.579,16.579,0,0,0,39.163,62.3l-2.072,6.159,6.379-2.039A16.579,16.579,0,1,0,52.588,36ZM61.4,59.447l-1.766,1.766c-1.857,1.857-6.781-.187-11.145-4.559s-6.321-9.284-4.555-11.12L45.7,43.767a1.853,1.853,0,0,1,2.508,0l2.6,2.595a1.728,1.728,0,0,1-.651,2.876,1.687,1.687,0,0,0-1.115,2.048,8.019,8.019,0,0,0,4.833,4.829A1.77,1.77,0,0,0,55.9,54.987a1.733,1.733,0,0,1,2.9-.651l2.6,2.6a1.853,1.853,0,0,1,0,2.508Z"
-                                            transform="translate(-36.015 -36)"
-                                            fill=" #075e54"
-                                        ></path>
-                                    </g>
-                                </g>
-                            </g>
-                        </svg>
-                    </a>
-                    <span className="mail-icon-div d-block">
-                        <a href="tel:+91 8825607550" className="sidebar-icon emil-bx">
-                            <IoCall style={{ marginLeft: '5px', fill: '#fff', fontSize: '20px' }} />
-                        </a>
-                    </span>
-                </div>
-            </section>
-            <nav>
-                <div className="container megamnu">
-                    <div className="row">
-                        <div className="col-md-3 logo-cl">
-                            <div className="site-logo">
-                                <Link href="/" style={{ textDecoration: 'none' }}>
-                                    <img src="/webdads/images/home/webdads2u-logo.svg" alt="why choose us"></img>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="col-md-4 navbr-cl">
-                            <div className="mobile_btn">
-                                <i className="fas fa-bars"></i>
-                            </div>
+                        <Box sx={{mr:{xs:"67px",sm:"67px",md:"0px"}}}>
+                            <img src="/webdads2u-logo-1 1.png" alt="Logo" height="40" />
+                        </Box>
 
-                            <div className="main_menu">
-                                <ul>
-                                    <li className="has_dropdown">
-                                        <a href="/about"  onClick={() => router.push('/about')} className="active">
-                                            About
-                                        </a>
-                                        <ul className="sub_menu">
-                                            <li>
-                                                <a href="/culturals">Culturals</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                        {!isMobile && (
+                            <Stack direction="row" alignItems="center" spacing={3}>
+                                {/* Dropdown Menus */}
+                                <React.Fragment>
+                                    <Button
+                                        onClick={handleMenuOpen(setAboutAnchorEl)}
+                                        endIcon={<ArrowDropDownIcon />}
+                                        sx={{ color: "black", textTransform: "capitalize", fontFamily: "Poppins", fontSize: "15px" }}
+                                    >
+                                        About
+                                    </Button>
+                                    <Menu anchorEl={aboutAnchorEl} open={Boolean(aboutAnchorEl)} onClose={handleMenuClose(setAboutAnchorEl)} PaperProps={{ sx: { width: "min-content", px: 2 } }}>
+                                        {About.map((item) => (
+                                            <MenuItem key={item.label} onClick={handleMenuClose(setAboutAnchorEl)} sx={{ fontSize: "13px", fontFamily: "Poppins" }}>
+                                                <KeyboardDoubleArrowRightRoundedIcon sx={{ mr: 1 }} fontSize="small" />
+                                                {item.name}
+                                            </MenuItem>
+                                        ))}
+                                    </Menu>
+                                </React.Fragment>
 
-                                    <li className="mega_menu_dropdown has_dropdown">
-                                        <a href="#">
-                                            Service <i className="fas fa-angle-down"></i>
-                                        </a>
-                                        <div className="mega_menu sub_menu">
-                                            <div className="mega_menu_item">
-                                                <div className="d-flex align-items-center">
-                                                    <a href="/website-development">
-                                                        <img alt="" src="/webdads/images/home/megamenu/responsive-web-design.png" className="w-75"></img>
-                                                    </a>
-                                                    <a href="/website-development">
-                                                        <h3> Website Development</h3>
-                                                    </a>
-                                                </div>
+                                <React.Fragment>
+                                    <Button
+                                        onClick={handleMenuOpen(setServicesAnchorEl)}
+                                        endIcon={<ArrowDropDownIcon />}
+                                        sx={{ color: "black", textTransform: "capitalize", fontFamily: "Poppins", fontSize: "15px" }}
+                                    >
+                                        Services
+                                    </Button>
+                                    <Menu
+                                        anchorEl={servicesAnchorEl}
+                                        open={Boolean(servicesAnchorEl)}
+                                        onClose={handleMenuClose(setServicesAnchorEl)}
+                                        PaperProps={{
+                                            sx: { width: '100vw', maxWidth: 'none', left: '0 !important', right: '0 !important', padding: 4, marginTop: "15px", maxHeight: "calc(100% - 59px)", height: "auto" }
+                                        }}
+                                    >
+                                        <Box display="flex" flexWrap="wrap" gap={5}>
+                                            {servicesDropdownDatas.map((group) => (
+                                                <Box key={group.label}>
+                                                    <Box display="flex" gap={2}>
+                                                        <Box sx={{ textAlign: "center" }}>
+                                                            <img src={group.icon} alt="Logo" width="30" />
+                                                        </Box>
+                                                        <Typography variant="subtitle1" fontWeight={600} fontSize="14px" my="auto" fontFamily="Poppins">
+                                                            {group.label}
+                                                        </Typography>
+                                                    </Box>
+                                                    {group.items.map((item) => (
+                                                        <MenuItem
+                                                            key={item.label}
+                                                            onClick={handleMenuClose(setServicesAnchorEl)}
+                                                            sx={{ fontSize: "13px", fontFamily: "Poppins" }}
+                                                        >
+                                                            <KeyboardDoubleArrowRightRoundedIcon sx={{ mr: 1 }} fontSize="small" />
+                                                            {item.label}
+                                                        </MenuItem>
+                                                    ))}
+                                                </Box>
+                                            ))}
+                                        </Box>
+                                    </Menu>
+                                </React.Fragment>
 
-                                                <a href="/web-portal-development">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Web Portal Development
-                                                </a>
-                                                <a href="/wordpress-development">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Wordpress Web Development
-                                                </a>
-                                                <a href="/react-js-development">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    ReactJs Web Development
-                                                </a>
-                                                <a href="/php-web-development/">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Php Web Development
-                                                </a>
-                                                <a href="/custom-web-development">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Custom Web Development
-                                                </a>
-                                            </div>
-                                            <div className="mega_menu_item">
-                                                <div className="d-flex align-items-center">
-                                                    <a href="/web-design">
-                                                        <img alt="" src="/webdads/images/home/megamenu/custom-web-design.png" className="w-75"></img>
-                                                    </a>
-                                                    <a href="/web-design/">
-                                                        <h3> Web Design</h3>
-                                                    </a>
-                                                </div>
+                                <React.Fragment>
+                                    <Button
+                                        onClick={handleMenuOpen(setWorkAnchorEl)}
+                                        endIcon={<ArrowDropDownIcon />}
+                                        sx={{ color: "black", textTransform: "capitalize", fontFamily: "Poppins", fontSize: "15px" }}
+                                    >
+                                        Work
+                                    </Button>
+                                    <Menu anchorEl={workAnchorEl} open={Boolean(workAnchorEl)} onClose={handleMenuClose(setWorkAnchorEl)} PaperProps={{ sx: { width: "min-content", px: 2 } }}>
+                                        {Work.map((item) => (
+                                            <MenuItem key={item.label} onClick={handleMenuClose(setWorkAnchorEl)} sx={{ fontSize: "13px", fontFamily: "Poppins" }}>
+                                                <KeyboardDoubleArrowRightRoundedIcon sx={{ mr: 1 }} fontSize="small" />
+                                                {item.name}
+                                            </MenuItem>
+                                        ))}
+                                    </Menu>
+                                </React.Fragment>
 
-                                                <a href="/html5">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    HTML5 Website design
-                                                </a>
-                                                <a href="/domain-registration">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Domain Registration
-                                                </a>
-                                                <a href="/web-hosting-service">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Hosting
-                                                </a>
-                                                <a href="/custom-web-design">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Custom Web Design
-                                                </a>
-                                                <a href="/responsive-website">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Responsive Website
-                                                </a>
-                                                <a href="/ui-ux#">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    UI&UX Design
-                                                </a>
-                                                <a href="/website-redesign">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Website Redesign
-                                                </a>
-                                                <a href="website-maintenance">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Website Maintenance
-                                                </a>
-                                            </div>
-                                            <div className="mega_menu_item">
-                                                <div className="d-flex align-items-center">
-                                                    <a href="/seo-company-in-chennai">
-                                                        <img alt="" src="/webdads/images/home/megamenu/seo-services-megamenu-icon.webp" className="w-75"></img>
-                                                    </a>
-                                                    <a href="/seo-company-in-chennai">
-                                                        <h3> SEO Services</h3>
-                                                    </a>
-                                                </div>
-
-                                                <a href="/digital-marketing-agency">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Digital Marketing
-                                                </a>
-                                                <a href="/ppc-service">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    PPC Service
-                                                </a>
-                                                <a href="/e-commerce-seo-service">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    E-commerce SEO Service
-                                                </a>
-                                                <a href="/local-seo-service">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Local SEO Service
-                                                </a>
-                                                <a href="/off-page-seo">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Off Page SEO
-                                                </a>
-                                                <a href="/link-building-service">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Link Building Service
-                                                </a>
-                                                <a href="/content-writing-service">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Content Writing Service
-                                                </a>
-                                            </div>
-                                            <div className="mega_menu_item">
-                                                <div className="d-flex align-items-center">
-                                                    <a href="/branding-design/">
-                                                        <img alt="" src="/webdads/images/home/megamenu/branding-design-megamenu-icon.png" className="w-75"></img>
-                                                    </a>
-                                                    <a href="/branding-design/">
-                                                        <h3>Branding Design</h3>
-                                                    </a>
-                                                </div>
-
-                                                <a href="/logo-design">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Logo Design
-                                                </a>
-                                                <a href="/brochure-design">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Brochure Design
-                                                </a>
-                                                <a href="/social-media-design">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Social Media Design
-                                                </a>
-                                                <a href="/flyer-design">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Flyer Design
-                                                </a>
-                                                <a href="/corporate-gifts-design/">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Corporate Gifts Design
-                                                </a>
-                                                <a href="/business-card-design">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Business Card Design
-                                                </a>
-                                                <a href="/letterhead-design">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Letterhead Design
-                                                </a>
-                                            </div>
-                                            <div className="mega_menu_item">
-                                                <div className="d-flex align-items-center">
-                                                    <a href="/mobile-app-development">
-                                                        <img alt="" src="/webdads/images/home/megamenu/mobile-app-development-megamenu-icon.png" className="w-75"></img>
-                                                    </a>
-                                                    <a href="/mobile-app-development">
-                                                        <h3>Mobile App Development</h3>
-                                                    </a>
-                                                </div>
-                                                <a href="/ios-app-development">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    IOS App Development
-                                                </a>
-                                                <a href="/android-app-development">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Android App Development
-                                                </a>
-                                                <a href="/flutter-app-development/">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Flutter App Development
-                                                </a>
-                                                <a href="/react-native-app-development">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    React Native App Development{' '}
-                                                </a>
-                                                <a href="/mobile-app-ui-ux-design">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Mobile App UI/ UX Design
-                                                </a>
-                                            </div>
-                                            <div className="mega_menu_item">
-                                                <div className="d-flex align-items-center">
-                                                    <a href="/crm-erp-development">
-                                                        <img alt="" src="/webdads/images/home/megamenu/ecommerce-development-megamenu-icon.webp" className="w-75"></img>
-                                                    </a>{' '}
-                                                    <a href="/crm-erp-development">
-                                                        <h3>CRM & ERP Development</h3>
-                                                    </a>
-                                                </div>
-                                                <a href="/customized-crm">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Customized CRM
-                                                </a>
-                                                <a href="/customized-erp">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Customized ERP
-                                                </a>
-                                            </div>
-                                            <div className="mega_menu_item">
-                                                <div className="d-flex align-items-center">
-                                                    <a href="/ecommerce-website-development">
-                                                        <img alt="" src="/webdads/images/home/megamenu/crm-erp-development-megamenu-icon.webp" className="w-75"></img>
-                                                    </a>
-                                                    <a href="/ecommerce-website-development">
-                                                        <h3>E-commerce Development</h3>
-                                                    </a>
-                                                </div>
-                                                <a href="/woo-commerce">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Woocommerce
-                                                </a>
-                                                <a href="/opencart-development">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Opencart
-                                                </a>
-                                                <a href="/shopify-development">
-                                                    <MdOutlineKeyboardDoubleArrowRight />
-                                                    Shopify
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="has_dropdown">
-                                        <a href="/work"  onClick={() => router.push('/work')}>
-                                            Work <i className="fas fa-angle-down"></i>
-                                        </a>
-                                        <ul className="sub_menu">
-                                            <li>
-                                                <a href="/wordpress">WordPress</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="/e-commerce">E-Commerce</a>
-                                            </li>
-                                            <li>
-                                                <a href="/php-development-company">Php</a>
-                                            </li>
-                                            <li>
-                                                <a href="/react">React</a>
-                                            </li>
-                                            <li>
-                                                <a href="/logo-design-agency">Logo</a>
-                                            </li>
-                                            <li>
-                                                <a href="/brochure">Brochure</a>
-                                            </li>
-                                            <li>
-                                                <a href="/business-card">Business Card</a>
-                                            </li>
-                                            <li>
-                                                <a href="/social-media-service">Social media</a>
-                                            </li>
-                                            <li>
-                                                <a href="/letter-head/">Letter Head</a>
-                                            </li>
-                                            <li>
-                                                <a href="/flyer-design-work/">flyer design</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-                                        <a href="/contact-us">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-md-5 contdl-home">
-                            <div className="home-header-social-icons">
-                                <ul className="d-flex">
-                                    <a href="https://www.facebook.com/Webdads2u">
-                                        <li>
-                                            <FaFacebookF />{' '}
-                                        </li>
-                                    </a>
-                                    <a href="https://x.com/webdads2u">
-                                        <li>
-                                            <FaXTwitter />{' '}
-                                        </li>
-                                    </a>
-                                    <a href="https://www.instagram.com/webdads2u/">
-                                        <li>
-                                            <FaInstagram />
-                                        </li>
-                                    </a>
-                                    <a href="https://www.linkedin.com/company/webdads2u-private-limited/">
-                                        <li>
-                                            <FaLinkedinIn />
-                                        </li>
-                                    </a>
-                                </ul>
-                            </div>
-                            <a href="/contact-us" style={{ textDecoration: 'none', color: 'inherit' }}>
-                                <Button variant="primary" className="mb-rsbtn">
-                                    Get a Quotes
+                                <Button sx={{ color: "black", textTransform: "capitalize", fontFamily: "Poppins", fontSize: "15px" }}>
+                                    Contact Us
                                 </Button>
-                            </a>
-                            <div className="home-header-phone-ic">
-                                <div className="Home-header-phn-ic">
-                                    <FaPhone />{' '}
-                                </div>
-                                <div className="home-header-phone-det">
-                                    <h3>Feel free to contact us</h3>
-                                    <h6>
-                                        <a href="tel:+91-8825607550">+91-8825607550</a>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
 
-           
+                                {/* Socials + CTA */}
+                                <Stack direction="row" spacing={1} alignItems="center">
+                                    {[FacebookOutlinedIcon, InstagramIcon, XIcon, LinkedInIcon].map((Icon, idx) => (
+                                        <Tooltip key={idx} title={Icon?.name?.replace('Icon', '')}>
+                                            <IconButton size="small"><Icon fontSize="small" /></IconButton>
+                                        </Tooltip>
+                                    ))}
 
-            <Offcanvas show={show} onHide={handleClose}>
-                <Offcanvas.Header closeButton>
-                    <Link href="/" style={{ textDecoration: 'none' }} onClick={handleClose}>
-                        <img src="/webdads/images/home/webdads2u-logo.svg" alt="why choose us w-50" width={200}></img>
-                    </Link>
-                </Offcanvas.Header>
-                <Offcanvas.Body>
-                    <nav>
-                        <div className="container megamnus">
-                            <div className="row">
-                                <div className="col-md-4 navbr-cl">
-                                    <div className="mobile_btns">
-                                        <i className="fas fa-bars"></i>
-                                    </div>
+                                    <Button variant="contained" sx={{
+                                        background: "linear-gradient(90deg,#871752 0%,#262250 50%)",
+                                        textTransform: "capitalize",
+                                        fontFamily: "Poppins"
+                                    }}>
+                                        Get Quotes
+                                    </Button>
 
-                                    <div className="main_menus">
-                                        <ul>
-                                            {/* About Dropdown */}
-                                            <li className={`has_dropdowns ${openDropdown === 'about' ? 'open' : ''}`}>
-                                                <a href="#!" onClick={() => toggleDropdown('about')}>
-                                                    About{' '}
-                                                    <i className="w-100 d-flex justify-content-end">
-                                                        {openDropdown === 'about' ? (
-                                                            <div className="dropdown-show-style">
-                                                                <FaChevronUp />
-                                                            </div>
-                                                        ) : (
-                                                            <div className="dropdown-show-style">
-                                                                <FaChevronDown />
-                                                            </div>
-                                                        )}
-                                                    </i>
-                                                </a>
-                                                {openDropdown === 'about' && (
-                                                    <ul className="sub_menus">
-                                                        <li>
-                                                            <a href="/culturals">Culturals</a>
-                                                        </li>
-                                                    </ul>
-                                                )}
-                                            </li>
+                                    <Stack direction="row" spacing={1} alignItems="center">
+                                        <Box sx={{
+                                            background: "linear-gradient(90deg,#871752 0%,#262250 50%)",
+                                            color: "white",
+                                            borderRadius: "50%",
+                                            height: "32px",
+                                            width: "32px",
+                                            display: "flex",
+                                            alignItems: "center",
+                                            justifyContent: "center"
+                                        }}>
+                                            <PhoneIcon fontSize="small" />
+                                        </Box>
+                                        <Typography variant="body2" sx={{ fontFamily: "Poppins", color: "#262250", fontSize: "12px" }}>
+                                            <span style={{ fontWeight: 500 }}>Feel free to contact us </span><br />
+                                            <strong style={{ fontWeight: 600, fontSize: "15px" }}>+91-8825607550</strong>
+                                        </Typography>
+                                    </Stack>
+                                </Stack>
+                            </Stack>
+                        )}
+                    </Toolbar>
+                </AppBar>
+            </ElevationScroll>
+            <Toolbar />
 
-                                            {/* Service Dropdown */}
-                                            <li className={`has_dropdowns ${openDropdown === 'service' ? 'open' : ''}`}>
-                                                <a href="#!" onClick={() => toggleDropdown('service')}>
-                                                    Service{' '}
-                                                    <i className="w-100 d-flex justify-content-end">
-                                                        {openDropdown === 'service' ? (
-                                                            <div className="dropdown-show-style">
-                                                                <FaChevronUp />
-                                                            </div>
-                                                        ) : (
-                                                            <div className="dropdown-show-style">
-                                                                <FaChevronDown />
-                                                            </div>
-                                                        )}
-                                                    </i>
-                                                </a>
-                                                {openDropdown === 'service' && (
-                                                    <div className="mega_menus sub_menus">
-                                                        <div className="mega_menus_item">
-                                                            <div className="d-flex align-items-start flex-column">
-                                                                <a href="/website-development">
-                                                                    <img alt="" src="/webdads/images/home/megamenu/responsive-web-design.png" className="w-75" />
-                                                                </a>
-                                                                <a href="/website-development">
-                                                                    <h3>Website Development</h3>
-                                                                </a>
-                                                            </div>
-                                                            <a href="/web-portal-development">
-                                                                <MdOutlineKeyboardDoubleArrowRight /> Web Portal Development
-                                                            </a>
-                                                            <a href="/wordpress-development">
-                                                                <MdOutlineKeyboardDoubleArrowRight /> Wordpress Web Development
-                                                            </a>
-                                                            <a href="/react-js-development">
-                                                                <MdOutlineKeyboardDoubleArrowRight /> ReactJs Web Development
-                                                            </a>
-                                                            <a href="/php-web-development/">
-                                                                <MdOutlineKeyboardDoubleArrowRight /> Php Web Development
-                                                            </a>
-                                                            <a href="/custom-web-development">
-                                                                <MdOutlineKeyboardDoubleArrowRight /> Custom Web Development
-                                                            </a>
-                                                        </div>
-                                                        <div className="mega_menus_item">
-                                                            <div className="d-flex align-items-start flex-column">
-                                                                <a href="/web-design">
-                                                                    <img alt="" src="/webdads/images/home/megamenu/custom-web-design.png" className="w-75"></img>
-                                                                </a>
-                                                                <a href="/web-design/">
-                                                                    <h3> Web Design</h3>
-                                                                </a>
-                                                            </div>
+            {/* Mobile Drawer */}
+            <Drawer anchor="left" open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)}>
+                <Box sx={{ width: 280, p: 2, fontFamily: 'Poppins' }} role="presentation">
+                    <Stack spacing={2}>
+                        {/* About Section */}
+                        <Accordion>
+                            <AccordionSummary expandIcon={<ExpandMoreIcon sx={{ color: '#871752' }} />}>
+                                <Typography fontWeight={600} color="#262250">About</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                {About.map((item) => (
+                                    <MenuItem key={item.label} onClick={() => setMobileMenuOpen(false)} sx={{ pl: 2 }}>
+                                        <KeyboardDoubleArrowRightRoundedIcon fontSize="small" sx={{ mr: 1, color: '#871752' }} />
+                                        {item.name}
+                                    </MenuItem>
+                                ))}
+                            </AccordionDetails>
+                        </Accordion>
 
-                                                            <a href="/html5">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                HTML5 Website design
-                                                            </a>
-                                                            <a href="/domain-registration">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Domain Registration
-                                                            </a>
-                                                            <a href="/web-hosting-service">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Hosting
-                                                            </a>
-                                                            <a href="/custom-web-design">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Custom Web Design
-                                                            </a>
-                                                            <a href="/responsive-website">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Responsive Website
-                                                            </a>
-                                                            <a href="/ui-ux#">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                UI&UX Design
-                                                            </a>
-                                                            <a href="/website-redesign">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Website Redesign
-                                                            </a>
-                                                            <a href="website-maintenance">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Website Maintenance
-                                                            </a>
-                                                        </div>
-                                                        <div className="mega_menus_item">
-                                                            <div className="d-flex align-items-start flex-column">
-                                                                <a href="/seo-company-in-chennai">
-                                                                    <img alt="" src="/webdads/images/home/megamenu/seo-services-megamenu-icon.webp" className="w-75"></img>
-                                                                </a>
-                                                                <a href="/seo-company-in-chennai">
-                                                                    <h3> SEO Services</h3>
-                                                                </a>
-                                                            </div>
+                        {/* Services */}
+                        <Accordion defaultExpanded>
+                            <AccordionSummary expandIcon={<ExpandMoreIcon sx={{ color: '#871752' }} />}>
+                                <Typography fontWeight={600} color="#262250">Services</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails sx={{ maxHeight: '60vh', overflowY: 'auto' }}>
+                                {servicesDropdownDatas.map((group) => (
+                                    <Box key={group.label} sx={{ mb: 2 }}>
+                                        <Typography variant="subtitle2" fontWeight={600} sx={{ color: '#871752', mb: 1 }}>
+                                            {group.label}
+                                        </Typography>
+                                        <Stack spacing={0.5}>
+                                            {group.items.map((item) => (
+                                                <MenuItem
+                                                    key={item.label}
+                                                    onClick={() => setMobileMenuOpen(false)}
+                                                    sx={{
+                                                        pl: 2,
+                                                        fontSize: '14px',
+                                                        fontFamily: 'Poppins',
+                                                        '&:hover': {
+                                                            backgroundColor: '#f2f2f2',
+                                                        },
+                                                    }}
+                                                >
+                                                    <KeyboardDoubleArrowRightRoundedIcon fontSize="small" sx={{ mr: 1, color: '#262250' }} />
+                                                    {item.label}
+                                                </MenuItem>
+                                            ))}
+                                        </Stack>
+                                    </Box>
+                                ))}
+                            </AccordionDetails>
+                        </Accordion>
 
-                                                            <a href="/digital-marketing-agency">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Digital Marketing
-                                                            </a>
-                                                            <a href="/ppc-service">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                PPC Service
-                                                            </a>
-                                                            <a href="/e-commerce-seo-service">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                E-commerce SEO Service
-                                                            </a>
-                                                            <a href="/local-seo-service">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Local SEO Service
-                                                            </a>
-                                                            <a href="/off-page-seo">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Off Page SEO
-                                                            </a>
-                                                            <a href="/link-building-service">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Link Building Service
-                                                            </a>
-                                                            <a href="/content-writing-service">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Content Writing Service
-                                                            </a>
-                                                        </div>
-                                                        <div className="mega_menus_item">
-                                                            <div className="d-flex align-items-start flex-column">
-                                                                <a href="/branding-design/">
-                                                                    <img alt="" src="/webdads/images/home/megamenu/branding-design-megamenu-icon.png" className="w-75"></img>
-                                                                </a>
-                                                                <a href="/branding-design/">
-                                                                    <h3>Branding Design</h3>
-                                                                </a>
-                                                            </div>
+                        {/* Work */}
+                        <Accordion>
+                            <AccordionSummary expandIcon={<ExpandMoreIcon sx={{ color: '#871752' }} />}>
+                                <Typography fontWeight={600} color="#262250">Work</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                {Work.map((item) => (
+                                    <MenuItem key={item.label} onClick={() => setMobileMenuOpen(false)} sx={{ pl: 2 }}>
+                                        <KeyboardDoubleArrowRightRoundedIcon fontSize="small" sx={{ mr: 1, color: '#871752' }} />
+                                        {item.name}
+                                    </MenuItem>
+                                ))}
+                            </AccordionDetails>
+                        </Accordion>
 
-                                                            <a href="/logo-design">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Logo Design
-                                                            </a>
-                                                            <a href="/brochure-design">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Brochure Design
-                                                            </a>
-                                                            <a href="/social-media-design">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Social Media Design
-                                                            </a>
-                                                            <a href="/flyer-design">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Flyer Design
-                                                            </a>
-                                                            <a href="/corporate-gifts-design/">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Corporate Gifts Design
-                                                            </a>
-                                                            <a href="/business-card-design">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Business Card Design
-                                                            </a>
-                                                            <a href="/letterhead-design">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Letterhead Design
-                                                            </a>
-                                                        </div>
-                                                        <div className="mega_menus_item">
-                                                            <div className="d-flex align-items-start flex-column">
-                                                                <a href="/mobile-app-development">
-                                                                    <img alt="" src="/webdads/images/home/megamenu/mobile-app-development-megamenu-icon.png" className="w-75"></img>
-                                                                </a>
-                                                                <a href="/mobile-app-development">
-                                                                    <h3>Mobile App Development</h3>
-                                                                </a>
-                                                            </div>
-                                                            <a href="/ios-app-development">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                IOS App Development
-                                                            </a>
-                                                            <a href="/android-app-development">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Android App Development
-                                                            </a>
-                                                            <a href="/flutter-app-development/">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Flutter App Development
-                                                            </a>
-                                                            <a href="/react-native-app-development">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                React Native App Development{' '}
-                                                            </a>
-                                                            <a href="/mobile-app-ui-ux-design">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Mobile App UI/ UX Design
-                                                            </a>
-                                                        </div>
-                                                        <div className="mega_menus_item">
-                                                            <div className="d-flex align-items-start flex-column">
-                                                                <a href="/crm-erp-development">
-                                                                    <img alt="" src="/webdads/images/home/megamenu/ecommerce-development-megamenu-icon.webp" className="w-75"></img>
-                                                                </a>{' '}
-                                                                <a href="/crm-erp-development">
-                                                                    <h3>CRM & ERP Development</h3>
-                                                                </a>
-                                                            </div>
-                                                            <a href="/customized-crm">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Customized CRM
-                                                            </a>
-                                                            <a href="/customized-erp">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Customized ERP
-                                                            </a>
-                                                        </div>
-                                                        <div className="mega_menus_item">
-                                                            <div className="d-flex align-items-start flex-column">
-                                                                <a href="/ecommerce-website-development">
-                                                                    <img alt="" src="/webdads/images/home/megamenu/crm-erp-development-megamenu-icon.webp" className="w-75"></img>
-                                                                </a>
-                                                                <a href="/ecommerce-website-development">
-                                                                    <h3>E-commerce Development</h3>
-                                                                </a>
-                                                            </div>
-                                                            <a href="/woo-commerce">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Woocommerce
-                                                            </a>
-                                                            <a href="/opencart-development">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Opencart
-                                                            </a>
-                                                            <a href="/shopify-development">
-                                                                <MdOutlineKeyboardDoubleArrowRight />
-                                                                Shopify
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                )}
-                                            </li>
-
-                                            {/* Work Dropdown */}
-                                            <li className={`has_dropdowns ${openDropdown === 'work' ? 'open' : ''}`}>
-                                                <a href="#!" onClick={() => toggleDropdown('work')}>
-                                                    Work{' '}
-                                                    <i className="w-100 d-flex justify-content-end">
-                                                        {openDropdown === 'work' ? (
-                                                            <div className="dropdown-show-style">
-                                                                <FaChevronUp />
-                                                            </div>
-                                                        ) : (
-                                                            <div className="dropdown-show-style">
-                                                                <FaChevronDown />
-                                                            </div>
-                                                        )}
-                                                    </i>
-                                                </a>
-                                                {openDropdown === 'work' && (
-                                                    <ul className="sub_menus">
-                                                        <li>
-                                                            <a href="/wordpress">WordPress</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/e-commerce">E-Commerce</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/php-development-company">Php</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/react">React</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/logo-design-agency">Logo</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/brochure">Brochure</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/business-card">Business Card</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/social-media-service">Social Media</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/letter-head/">Letter Head</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/flyer-design-work/">Flyer Design</a>
-                                                        </li>
-                                                    </ul>
-                                                )}
-                                            </li>
-
-                                            {/* Contact */}
-                                            <li className="contact-us-header-sidebar">
-                                                <a href="/contact-us">Contact</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                </Offcanvas.Body>
-            </Offcanvas>
+                        {/* Contact Us */}
+                        <Box sx={{ mt: 2 }}>
+                            <MenuItem onClick={() => setMobileMenuOpen(false)} sx={{
+                                px: 2,
+                                py: 1.5,
+                                fontWeight: 600,
+                                color: '#262250',
+                                fontFamily: 'Poppins',
+                                background: 'linear-gradient(90deg,#871752 0%,#262250 100%)',
+                                color: '#fff',
+                                borderRadius: 1,
+                                justifyContent: 'center',
+                                '&:hover': {
+                                    background: 'linear-gradient(90deg,#6e1343 0%,#1e1a41 100%)',
+                                }
+                            }}>
+                                Contact Us
+                            </MenuItem>
+                        </Box>
+                    </Stack>
+                </Box>
+            </Drawer>
         </>
     );
-};
-export default Header;
+}

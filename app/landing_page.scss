@@ -170,6 +170,7 @@ body{
     border: none;
     cursor: pointer;
     position: relative;
+    font-weight: 500 !important;
 
     // padding: 1rem;
 }
@@ -180,7 +181,7 @@ body{
     outline: none;
     font-family: 'Poppins', Sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500 !important;
     color: #aaa;
 }
 
@@ -349,6 +350,7 @@ body{
     position: absolute;
     top: 13%;
     left: 125px;
+    
 }
 .landing-page-casestudy-content{
     color: #666;

@@ -3,12 +3,12 @@
 .quick-form {
     background-color: transparent;
     background-image: linear-gradient(90deg, #871752 1%, #262250 44%);
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     border-radius: 10px 10px 0px 0px;
 
     form {
-        display: flex;
-        column-gap: 5px;
+        // display: flex;
+        // column-gap: 5px;
     }
     h2 {
         color: #fff;
@@ -26,7 +26,7 @@
         input {
             width: 105px;
             height: 45px;
-            padding-left: 5px;
+            // padding-left: 5px;
         }
     }
     .check-in {

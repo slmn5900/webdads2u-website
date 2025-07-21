@@ -2,7 +2,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const CaseStudy = () => {
     return (
-        <Container className="my-5">
+        <Container className="pt-5 ">
             <Row>
                 <section className="col-md-6">
                     <div className="landing-page-casestudy-span-div">

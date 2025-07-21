@@ -20,7 +20,7 @@
 
 .landing-page-card-blog-para-p {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     color: #871752;
     position: relative;
     max-width: 200px;
@@ -55,7 +55,7 @@
     font-family: 'Poppins', Sans-serif;
     font-size: 29px;
     margin-bottom: 16px;
-    font-weight: 700;
+    font-weight: 600;
     max-width: 700px;
     margin: auto;
 }
@@ -94,10 +94,10 @@
     // border-color: transparent;
     // outline: 2px solid #d5d8dc;
     // border: 2px solid #1b60bb !important;
-    border: 2px solid #d5d8dc;
+    // border: 2px solid #d5d8dc;
 }
 
-.accordion-button:not(.collapsed) {
+.accordion-button:active {
     background-color: #262250 !important;
     color: #fff !important;
     border: none !important;
@@ -117,15 +117,15 @@
     // background-color: #fff;
     // color: wheat !important;
     color: #d5d8dc !important;
-    background-image: url('/webdads/images/plus.svg') !important;
+    // background-image: url('/webdads/images/plus.svg') !important;
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url('/webdads/images/dash.svg') !important;
+    // background-image: url('/webdads/images/dash.svg') !important;
 }
 
 .accordion-button {
-    border: 1px solid #d5d8dc !important;
+    // border: 1px solid #d5d8dc !important;
     color: #aaa !important;
 }
 
@@ -248,7 +248,8 @@
     width: 80px;
     height: 3px;
     position: absolute;
-    top: 13%;
+    top: 15px;
+    bottom: 0;
     left: 125px;
 }
 .landing-page-casestudy-content {

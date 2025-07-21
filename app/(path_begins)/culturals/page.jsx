@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 const UnderConstructions = dynamic(() => import('./UnderConstructions'), { ssr: false });
 
 export const metadata = {
-    title: 'Pongal Celebrate In Webdads2u | Culturals',
+    title: 'Pongal Celebrate In Webdads2u | Cultural',
     description: "At Webdads2u,we joyfully celebrate Pongal, honoring Tamil culture with traditional rituals, team unity, and gratitude for nature's bounty.",
     keyword: 'pongal function,office celebration '
 };

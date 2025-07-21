@@ -1411,30 +1411,35 @@
 // @media (max-width: 767.98px) {
 
 @media (max-width: 1200px) {
+
     .main_menu ul li ul,
     .main_menu ul li .mega_menu {
-        display: none; /* Initially hide dropdowns */
+        display: none;
+        /* Initially hide dropdowns */
     }
 
-    .main_menu ul li.active > ul,
-    .main_menu ul li.active > .mega_menu {
-        display: block; /* Show dropdowns when parent is active */
+    .main_menu ul li.active>ul,
+    .main_menu ul li.active>.mega_menu {
+        display: block;
+        /* Show dropdowns when parent is active */
     }
 
-    .main_menu ul li.has_dropdown > a::after {
-        content: '+'; /* Add a plus sign to indicate dropdown */
+    .main_menu ul li.has_dropdown>a::after {
+        content: '+';
+        /* Add a plus sign to indicate dropdown */
         font-size: 14px;
         margin-left: 5px;
     }
 
-    .main_menu ul li.has_dropdown.active > a::after {
-        content: '-'; /* Change to minus sign when dropdown is open */
+    .main_menu ul li.has_dropdown.active>a::after {
+        content: '-';
+        /* Change to minus sign when dropdown is open */
     }
 }
 
 .main_menu ul li a {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: center;
 }
 
@@ -1460,9 +1465,9 @@ nav {
 }
 
 .home-header-phone-ic {
-    .home-header-phone-det > h3 {
+    .home-header-phone-det>h3 {
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 200;
         font-family: 'poppins';
         color: #262250;
         margin-bottom: 0px;
@@ -1492,15 +1497,24 @@ nav {
     text-decoration: none;
 }
 
-.Home-header-phn-ic svg {
+.Home-header-phn-ic {
     background-image: linear-gradient(29deg, #a61131 0%, #262250 50%);
-    width: 30px;
-    height: 30px;
+    padding: 7px;
+    width: 40px;
+    height: 40px;
     fill: #fff;
-    padding: 5px;
-    rotate: 89deg;
+
+    // rotate: 89deg;
     border-radius: 28px;
+
+    svg {
+        // background-image: linear-gradient(29deg, #a61131 0%, #262250 50%);
+        color: #fff;
+
+    }
 }
+
+
 
 a {
     text-decoration: none;
@@ -1554,7 +1568,7 @@ ol {
 
 /* normal menu css */
 
-.main_menu > ul > li {
+.main_menu>ul>li {
     display: inline-block;
     position: relative;
     margin: 0 -2px;
@@ -1580,10 +1594,11 @@ ol {
 .main_menu ul li a {
     font-size: 16px;
     color: #353535;
-    padding: 10px 15px;
+    padding: 10px 12px;
     display: block;
     font-weight: 400;
     text-decoration: none;
+    text-align: start;
 }
 
 .contdl-home {
@@ -1642,12 +1657,12 @@ ol {
 
 .mega_menu_item {
     width: 20%;
-    padding: 30px 20px;
+    padding: 20px 20px;
 }
 
 .main_menu ul li .mega_menu_item a {
-    padding: 5px 0;
-    font-size: 14px;
+    padding: 2px 0;
+    font-size: 12px;
     font-weight: 500;
     color: #262250;
 }
@@ -1716,8 +1731,8 @@ ol {
         /* margin-top: 50px; */
     }
 
-    .main_menu ul li:hover > ul,
-    .main_menu ul li:hover > .mega_menu {
+    .main_menu ul li:hover>ul,
+    .main_menu ul li:hover>.mega_menu {
         visibility: visible;
         opacity: 1;
         /* margin-top: 20px; */
@@ -1725,7 +1740,7 @@ ol {
         z-index: 99;
     }
 
-    .main_menu ul .has_dropdown:hover > .mega_menu {
+    .main_menu ul .has_dropdown:hover>.mega_menu {
         visibility: visible;
         display: flex !important;
         margin-top: 3px;
@@ -1734,6 +1749,7 @@ ol {
 }
 
 @media (max-width: 767.98px) {
+
     .mega_menu_demo_2 .mega_menu,
     .container {
         width: 100%;
@@ -1832,7 +1848,7 @@ ol {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .main_menu ul li:hover > .mega_menu {
+    .main_menu ul li:hover>.mega_menu {
         margin-top: 0px;
     }
 
@@ -1864,6 +1880,7 @@ ol {
     border-radius: 0px 10px 10px 0px;
     margin-bottom: 20px;
 }
+
 /* .hd-btn button {
     font-size: 15px;
     padding: 8px 10px;
@@ -1877,6 +1894,7 @@ ol {
     width: 40px;
     height: 40px;
 }
+
 .mail-icon-div {
     display: inline-block;
     /* background: #fdfdfd; */
@@ -1908,6 +1926,7 @@ ol {
     .megamnu {
         display: none;
     }
+
     .mobl-hed {
         display: flex;
         justify-content: space-between;
@@ -1946,14 +1965,17 @@ ol {
     .mega_menu_item .w-25 {
         width: 20% !important;
     }
+
     .megamnu {
         display: none;
     }
 }
+
 @media screen and (min-width: 1201px) {
     .mobl-hed {
         display: none;
     }
+
     .megamnu {
         display: block;
     }
@@ -1985,6 +2007,7 @@ ol {
 .mega_menus_item {
     margin-top: 1rem;
 }
+
 .sub_menu {
     list-style: none;
     padding-left: 20px;
@@ -2003,6 +2026,7 @@ ol {
     font-weight: 500;
     color: #262250;
 }
+
 .dropdown-show-style {
     border-radius: 49px;
     width: 35px;

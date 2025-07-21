@@ -301,7 +301,7 @@ export default function BasicTabs() {
     };
 
     return (
-        <Box sx={{ width: '100%', marginTop: { xs: '120px', md: '60px' } }}>
+        <Box sx={{ width: '100%', pt: { xs: '158px',sm:"80px", md: '0px' } }}>
             <Box
                 sx={{
                     borderBottom: 1,
@@ -318,14 +318,17 @@ export default function BasicTabs() {
                     scrollButtons={isMobile ? 'auto' : false}
                     allowScrollButtonsMobile
                     centered={!isMobile}
+
+
                     sx={{
+
                         '& .MuiTabs-flexContainer': {
                             justifyContent: isMobile ? 'flex-start' : 'center'
                         }
                     }}
                 >
                     {tabData.map((tab, index) => (
-                        <Tab label={tab.label} {...a11yProps(index)} key={index} />
+                        <Tab sx={{ fontWeight: "600", fontFamily: "Poppins", color: "black", fontSize: "15px", letterSpacing: "2px" }} label={tab.label} {...a11yProps(index)} key={index} />
                     ))}
                 </Tabs>
             </Box>
@@ -348,7 +351,7 @@ export default function BasicTabs() {
                     <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
                         {imagesToShow < tab.images.length && (
                             <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>
-                                <Button variant="outlined" onClick={handleLoadMore}>
+                                <Button variant="outlined" onClick={handleLoadMore} sx={{ color: "white", fontFamily: "Poppins", padding: 1,textTransform:"capitalize",fontWeight:"500" }}>
                                     Load More
                                 </Button>
                             </Box>
