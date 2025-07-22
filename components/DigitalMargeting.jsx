@@ -177,7 +177,7 @@ import {
 // For MUI v5
 import { motion } from "framer-motion";
 import Image from "next/image";
-
+import '../style/home/project.css';
 export default function DigitalMarketing() {
     const socialMedia = [
         {
@@ -260,17 +260,12 @@ export default function DigitalMarketing() {
                                 Digital Marketing
                             </Typography>
                             <Typography paragraph fontSize={isSmDown ? "0.9rem" : "1rem"} sx={{ fontFamily: "Poppins" }}>
-                                Digital Marketing harnesses digital technologies to promote
-                                products/services, utilizing online platforms like social media,
-                                websites, SEO, and email campaigns. It involves content creation
-                                to engage and build relationships with potential customers, aiming
-                                to foster brand loyalty.
+                                Digital Marketing harnesses digital technologies to promote products/services, utilizing online platforms like social media, websites, SEO, and email campaigns. It involves content creation (blogs, videos, etc.) to engage and build relationships with potential customers, aiming to foster brand loyalty.
+                                <br />
                             </Typography>
+
                             <Typography paragraph fontSize={isSmDown ? "0.9rem" : "1rem"} sx={{ fontFamily: "Poppins" }}>
-                                As a leading web designing and web development company in Chennai,
-                                Webdads2u Pvt. Ltd. comprehends the significance of integrating
-                                effective digital marketing strategies to bolster brands and engage
-                                target audiences.
+                                As a leading web designing and web development company in Chennai, Webdads2u Pvt. Ltd. comprehends the significance of integrating effective digital marketing strategies to bolster brands and engage target audiences.
                             </Typography>
                             <Typography paragraph fontSize={isSmDown ? "0.9rem" : "1rem"} sx={{ fontFamily: "Poppins" }}>
                                 <strong>
@@ -278,9 +273,7 @@ export default function DigitalMarketing() {
                                         Webdads2u Pvt. Ltd.
                                     </a>
                                 </strong>{" "}
-                                offers services such as website design and development, search
-                                engine optimization, content marketing, email marketing, mobile
-                                marketing, and more.
+                                is an expert in digital marketing and Web design and web development in Chennai, India . They offer services such as website design and development, search engine optimization, content marketing, email marketing, mobile marketing, and more. They create custom strategies and campaigns to reach their client’s target audiences and maximize their online presence.
                             </Typography>
 
                             {/* Social Media Marketing */}
@@ -317,6 +310,7 @@ export default function DigitalMarketing() {
                                                     height={24}
                                                     style={{ marginRight: 8 }}
                                                     priority={true}
+
                                                 />
                                                 <Typography variant="body1" sx={{ fontFamily: "Poppins" }}>{item.name}</Typography>
                                             </Box>
@@ -371,23 +365,31 @@ export default function DigitalMarketing() {
                                 mx: "auto",
                                 px: { xs: 2, sm: 0 },
                             }}
+
                         >
-                            <Image
-                                src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_648,h_579/f_auto,q_auto/v1718112583/digital-marketing-image_444f04b2_213195b88a/digital-marketing-image_444f04b2_213195b88a.webp"
-                                alt="Digital Marketing"
-                                width={648}
-                                height={579}
-                                style={{
-                                    width: "100%",
-                                    height: "auto",
-                                    borderRadius: 8,
-                                }}
-                                priority={true}
-                            />
+                            <div className="particle-animation">
+<div>
+
+                                <Image
+                                    src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_648,h_579/f_auto,q_auto/v1718112583/digital-marketing-image_444f04b2_213195b88a/digital-marketing-image_444f04b2_213195b88a.webp"
+                                    alt="Digital Marketing"
+                                    width={648}
+                                    height={579}
+                                    className="img-fluid"
+                                    style={{
+                                        width: "100%",
+                                        height: "auto",
+                                        borderRadius: 8,
+                                    }}
+                                    priority={true}
+
+                                />
+</div>
+                            </div>
                         </Box>
                     </Grid2>
                 </Grid2>
-                <Box mt={2} textAlign={"center"}>
+                <Box mt={2} textAlign={"start"}>
                     <Button
                         variant="contained"
                         href="/digital-marketing-agency/"

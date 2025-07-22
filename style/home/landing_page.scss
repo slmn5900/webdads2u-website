@@ -1,3 +1,24 @@
+.landing-page-testimonial-carousel-caption-p {
+  position: relative;
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 20px; /* Ensure room for the quote */
+}
+
+.landing-page-testimonial-carousel-caption-p::before {
+  content: "";
+  width: 65px;
+  height: 53px;
+  position: absolute;
+  top: -55px;
+  left: 0;
+  background: url('https://res.cloudinary.com/dbpv95wd8/images/f_auto,q_auto/v1701069245/quotes/quotes.png?_i=AA');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
 .landing-page-card-btn:hover {
     background-color: transparent;
     background-image: linear-gradient(90deg, #262250 0%, #871752 100%);
@@ -65,7 +86,7 @@
 }
 
 .landing-page-faq-accordionItem {
-    margin-bottom: 1rem;
+    margin-bottom:0.75rem;
     border: none;
 }
 
@@ -216,8 +237,8 @@
 }
 
 .carousel-indicators > button[aria-current='true'] {
-    background-color: #871752;
-    border: 2px solid #871752;
+    background-color:#262250;
+    border: 2px solid #262250;
     border-radius: 50%;
     width: 15px;
     height: 15px;

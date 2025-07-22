@@ -262,6 +262,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import image1 from '../public/webdads/images/home/projectimage/mockup_21318e73bc.avif';
+import "./styles.scss"
 
 // Animation Variant
 const fadeInUp = {
@@ -285,30 +286,38 @@ export default function Project() {
     {
       title: 'PHP Website Development',
       description:
-        'Webdads2u Pvt. Ltd., a leading web designing and web development company in Chennai, specializes in bespoke web development services, notably excelling in PHP website development. Our adept team ensures the creation of high-performance, tailored websites, delivering seamless integration and reliable maintenance.',
+        'Webdads2u Pvt. Ltd., a leading web designing and web development company in Chennai, specializes in bespoke web development services, notably excelling in PHP website development. Our adept team ensures the creation of high-performance, tailored websites, delivering seamless integration and reliable maintenance. With a commitment to excellence, we prioritize client satisfaction, offering innovative solutions that elevate online presence and business success.',
     },
     {
       title: 'React js Website Development',
       description:
-        'Webdads2u Pvt. Ltd. stands as a seasoned web designing and web development company in Chennai, India, specializing in top-tier React JS website development services. We excel in crafting high-caliber, cost-efficient React JS web solutions tailored for both businesses and individuals.',
+        'Webdads2u Pvt. Ltd.stands as a seasoned web designing and web development company in Chennai, India, specializing in top-tier React JS website development services. We excel in crafting high-caliber, cost-efficient React JS web solutions tailored for both businesses and individuals. Our commitment revolves around delivering cutting-edge, user-centric websites finely tuned to meet your precise requirements. With a proficient team of React JS developers, we ensure a seamless and hassle-free development journey.',
     },
     {
       title: 'WordPress Website',
       description:
-        'Webdads2u Pvt. Ltd. stands as a premier web designing and web development company in Chennai, India, recognized for its prowess in crafting bespoke, secure, and high-performing custom WordPress websites. Our adept team boasts extensive experience in tailoring WordPress themes, plugin development, and more.',
+        'Webdads2u Pvt. Ltd. stands as a premier web designing and web development company in Chennai, India, recognized for its prowess in crafting bespoke, secure, and high-performing custom WordPress websites. Our adept team of WordPress developers boasts extensive experience in tailoring WordPress themes, excelling in plugin development, and executing various custom development tasks. We take pride in offering comprehensive WordPress development services, meticulously designed to cater to the unique requirements of our esteemed clients.',
     },
   ];
 
   return (
     <Box
       component="section"
+      className='Web-Designing-images'
       sx={{
         background: 'linear-gradient(90deg, #871752 1%, #262250 44%)',
         pt: { xs: 6, sm: 8, md: 8 },
         pb: { xs: 6, sm: 8, md: 1 },
         color: 'white',
         height: "auto",
-        maxHeight: { md: "calc(80vh - -525px)", lg: "calc(80vh - -350px)" }
+        // maxHeight: {
+        //   xs: '100%',
+        //   sm: '100%',
+        //   md: 'calc(80vh - -400px)',   // or adjust as needed
+        //   lg: 'calc(51vh - -160px)',
+        //   xl: 'calc(51vh - -190px)'
+        // }
+
       }}
     >
       <Container maxWidth="lg" sx={{ px: { xs: 2, sm: 3, md: 0 } }}>
@@ -318,13 +327,13 @@ export default function Project() {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          <Box sx={{ textAlign: { sx: "left", md: "center" } }} mx="auto" px={2}>
+          <Box sx={{ textAlign: { sx: "left", md: "center" } }} mx="auto" px={1}>
             <Typography
               variant={isSmDown ? 'h6' : 'h4'}
               fontWeight="bold"
               gutterBottom
 
-              sx={{ pb: 2, fontSize: { md: "25px" }, fontFamily: "Poppins" }}
+              sx={{ pb: 1, fontSize: { md: "25px" }, fontFamily: "Poppins" }}
             >
               Web Designing and Web Development Company in Chennai
             </Typography>
@@ -361,7 +370,7 @@ export default function Project() {
                     <Typography variant="h6" fontWeight="bold" gutterBottom sx={{ fontFamily: "Poppins" }}>
                       {item.title}
                     </Typography>
-                    <Typography variant="body2" sx={{ lineHeight: 1.7, fontFamily: "Poppins" }}>
+                    <Typography variant="body2" sx={{ lineHeight: 1.7, fontFamily: "Poppins", fontSize: "12px", textAlign: "start" }}>
                       {item.description}
                     </Typography>
                   </Box>

@@ -1,0 +1,363 @@
+{
+    "header": {
+        "subheader": {
+            "logo": "webdads2u-logo.png",
+            "cta": {
+                "label": "Get Started",
+                "link": "#",
+                "style": "outlined",
+                "color": "error"
+            }
+        },
+        "page": "Web Development",
+        "title": "Empowering Businesses through Web Solutions",
+        "subtitle": "Masters of Cutting-Edge Technology in Web Solutions",
+        "badge": {
+            "text": "Web Development",
+            "style": "rounded",
+            "color": "primary"
+        },
+        "form": {
+            "fields": [
+                {
+                    "label": "Name",
+                    "name": "name",
+                    "type": "text",
+                    "placeholder": "Enter your name",
+                    "icon": "lucide:user"
+                },
+                {
+                    "label": "Phone Number",
+                    "name": "phone",
+                    "type": "tel",
+                    "placeholder": "Enter your phone number",
+                    "icon": "lucide:phone"
+                }
+            ],
+            "actions": [
+                {
+                    "label": "Contact Us",
+                    "type": "submit",
+                    "style": "contained",
+                    "color": "error",
+                    "icon": "lucide:mail"
+                },
+                {
+                    "label": "Whatsapp",
+                    "type": "link",
+                    "href": "https://wa.me/918825607550",
+                    "style": "contained",
+                    "color": "success",
+                    "icon": "lucide:message-circle"
+                }
+            ]
+        },
+        "contact_info": 
+            {
+             
+                "email": "info@webdads2u.com",
+                "phone": "8825607550"
+              
+            }
+            
+        ,
+        "gallery": {
+            "title": "Our Work",
+            "images": [
+                "/webdadsNewImages/webdevelopment/Sellibuy phone mockup 1.png",
+                "/webdadsNewImages/webdevelopment/Yokagava laptop view 1.png",
+                "/webdadsNewImages/webdevelopment/Arcmen mockup images 3.png",
+                "/webdadsNewImages/webdevelopment/Pediatrics mockup 2.png",
+                "/webdadsNewImages/webdevelopment/bigindiamart.jpg",
+                "/webdadsNewImages/webdevelopment/BsquereLaptop.jpg",
+                "/webdadsNewImages/webdevelopment/mobileselli.jpg"
+            ]
+        }
+    },
+    "clients": {
+        "title": "Showcasing Our Trusted Clients: Partners in Success",
+        "logos": [
+            {
+                "name": "TEAM",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/teamlogo.png"
+            },
+            {
+                "name": "BEST",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/bestlogo.png"
+            },
+            {
+                "name": "DIAMOND",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/diamond.png"
+            },
+            {
+                "name": "Pediatric-Association",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/pediatric-association.png"
+            },
+            {
+                "name": "Lead-G",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/leadlogo.png"
+            },
+            {
+                "name": "Skill-Tech",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/skill-logo.png"
+            },
+            {
+                "name": "B-Square",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/b-square.png"
+            },
+            {
+                "name": "ZEN",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/zenlogo.png"
+            }
+        ]
+    },
+    "why_choose_us": {
+        "heading": "Why Choose WEBDADS2U?",
+        "subheading": "Specialized React Web Development to Power Your Digital Vision",
+        "description": "Webdads2u Private Limited was founded in 2013 to help companies to achieve their business goals on the Web in the best way.",
+        "services": [
+            {
+                "title": "Personalized React Development Services",
+                "description": "Tailored web solutions using React’s component-based architecture.",
+                "icon": "/webdadsNewImages/webdevelopment/why-choose/slider_10283524 1 (1).png"
+            },
+            {
+                "title": "React App Optimization",
+                "description": "Improve load times, performance, and SEO using React best practices.",
+                "icon": "/webdadsNewImages/webdevelopment/why-choose/painting-brush_9175169 1.png"
+            },
+            {
+                "title": "Migration to React",
+                "description": "Upgrade your existing website or application to React for enhanced performance.",
+                "icon": "/webdadsNewImages/webdevelopment/why-choose/Vector.png"
+            }
+        ],
+        "stats": [
+            {
+                "label": "Years of Experience",
+                "value": "10+",
+                "icon": "/webdadsNewImages/webdevelopment/why-choose/Group.png"
+            },
+            {
+                "label": "Successful Projects",
+                "value": "250+",
+                "icon": "/webdadsNewImages/webdevelopment/why-choose/file_13194621 1.png"
+            },
+            {
+                "label": "Sales Closed",
+                "value": "300+",
+                "icon": "lucide:dollar-sign"
+            },
+            {
+                "label": "Satisfied Clients",
+                "value": "150+",
+                "icon": "/webdadsNewImages/webdevelopment/why-choose/Group 1000001788.png"
+            }
+        ]
+    },
+    "voiceoftrust": {
+        "title": "Voices of Trust That Shaped Our Reliable Reputation",
+        "subtitle": "Real Stories. Real Impact.",
+        "carousel": {
+            "activeIndex": 0,
+            "cards": [
+                {
+                    "name": "Client A",
+                    "designation": "CEO, Company A",
+                    "feedback": "Webdads2u helped transform our online business with React. The performance boost was noticeable immediately.",
+                    "icon": "lucide:quote"
+                },
+                {
+                    "name": "Client B",
+                    "designation": "CTO, Startup B",
+                    "feedback": "Their migration to React improved our scalability and speed dramatically. Highly recommended!",
+                    "icon": "lucide:quote"
+                },
+                {
+                    "name": "Client C",
+                    "designation": "Founder, Agency C",
+                    "feedback": "Reliable, skilled, and professional — Webdads2u has been a trusted partner throughout our growth.",
+                    "icon": "lucide:quote"
+                }
+            ],
+            "indicators": {
+                "total": 3,
+                "activeColor": "#ff1e3e",
+                "inactiveColor": "#7c7c7c"
+            }
+        }
+    },
+    "google_reviews": {
+        "title": "Discover how strong partnerships fuel great outcomes.",
+        "subtitle": "Google reviews",
+        "reviews": [
+            {
+                "name": "Krishna Moorthy",
+                "initial": "K",
+                "avatarStyle": "circle",
+                "ratingPlatform": "Google",
+                "review": "Lorem ipsum dolor sit amet consectetur. Malesuada mauris erat amet semper in ut aliquam sagittis. Ipsum quis neque amet parturient lacus penatibus.",
+                "icon": "lucide:message-square"
+            },
+            {
+                "name": "Krishna Moorthy",
+                "initial": "K",
+                "avatarStyle": "circle",
+                "ratingPlatform": "Google",
+                "review": "Lorem ipsum dolor sit amet consectetur. Malesuada mauris erat amet semper in ut aliquam sagittis. Ipsum quis neque amet parturient lacus penatibus.",
+                "highlighted": true,
+                "icon": "lucide:message-square"
+            },
+            {
+                "name": "Krishna Moorthy",
+                "initial": "K",
+                "avatarStyle": "circle",
+                "ratingPlatform": "Google",
+                "review": "Lorem ipsum dolor sit amet consectetur. Malesuada mauris erat amet semper in ut aliquam sagittis. Ipsum quis neque amet parturient lacus penatibus.",
+                "icon": "lucide:message-square"
+            },
+            {
+                "name": "Krishna Moorthy",
+                "initial": "K",
+                "avatarStyle": "circle",
+                "ratingPlatform": "Google",
+                "review": "Lorem ipsum dolor sit amet consectetur. Malesuada mauris erat amet semper in ut aliquam sagittis. Ipsum quis neque amet parturient lacus penatibus.",
+                "icon": "lucide:message-square"
+            }
+        ]
+    },
+    "project_portfolio": {
+        "title": "Highlights from Our Project Portfolio",
+        "cta": {
+            "label": "Contact",
+            "link": "#contact",
+            "style": "contained",
+            "color": "error",
+            "icon": "lucide:send"
+        },
+        "description": "Choosing the best WordPress development company in Chennai means working with experienced developers who specialize in creating websites that are both user-friendly and high-performing. We deliver customized solutions tailored to your business needs.",
+        "projects": [
+            {
+                "name": "B Square",
+                "image": "/webdadsNewImages/webdevelopment/Portiflio/leadg.in_ 2.png",
+                "url": "#",
+                "icon": "lucide:layout-template"
+            },
+            {
+                "name": "Bhava Business Consultants",
+                "image": "/webdadsNewImages/webdevelopment/Portiflio/www.pediatricsfrisco.com_ (1) 2.png",
+                "url": "#",
+                "icon": "lucide:briefcase"
+            },
+            {
+                "name": "Arcmen",
+                "image": "/webdadsNewImages/webdevelopment/Portiflio/www.arcmeninterior.com_ 2.png",
+                "url": "#",
+                "icon": "lucide:home"
+            }
+        ],
+        "carousel": {
+            "indicators": true,
+            "activeIndex": 0,
+            "totalSlides": 3,
+            "activeColor": "#ff1e3e",
+            "inactiveColor": "#ccc"
+        }
+    },
+    "tech_stack": {
+        "title": "Web Development",
+        "description": "Core technologies we specialize in for delivering powerful and scalable web solutions.",
+        "technologies": [
+            {
+                "name": "React JS",
+                "icon": "lucide:atom"
+            },
+            {
+                "name": "Next JS",
+                "icon": "lucide:circle-arrow-right"
+            },
+            {
+                "name": "Node JS",
+                "icon": "lucide:server"
+            },
+            {
+                "name": "PHP",
+                "icon": "lucide:code"
+            },
+            {
+                "name": "Mongo DB",
+                "icon": "lucide:database"
+            },
+            {
+                "name": "WordPress",
+                "icon": "lucide:wordpress"
+            }
+        ],
+        "layout": "radial",
+        "style": {
+            "primaryColor": "#1e1e2f",
+            "secondaryColor": "#ff1e3e"
+        }
+    },
+    "contact_section": {
+        "title": "Ready to Become a World-Class Brand?",
+        "description": "Let's discuss how we can help you achieve your goals. Fill out the form below and we'll get back to you within 24 hours.",
+        "form": {
+            "fields": [
+                {
+                    "label": "First Name",
+                    "name": "firstName",
+                    "type": "text",
+                    "placeholder": "Enter your first name",
+                    "icon": "lucide:user"
+                },
+                {
+                    "label": "Last Name",
+                    "name": "lastName",
+                    "type": "text",
+                    "placeholder": "Enter your last name",
+                    "icon": "lucide:user"
+                },
+                {
+                    "label": "Email",
+                    "name": "email",
+                    "type": "email",
+                    "placeholder": "Enter your email",
+                    "icon": "lucide:mail"
+                },
+                {
+                    "label": "Phone Number",
+                    "name": "phone",
+                    "type": "tel",
+                    "placeholder": "Enter your phone number",
+                    "icon": "lucide:phone"
+                },
+                {
+                    "label": "Message",
+                    "name": "message",
+                    "type": "textarea",
+                    "placeholder": "Write your message..",
+                    "icon": "lucide:message-square"
+                }
+            ],
+            "submit_button": {
+                "label": "Send a Message",
+                "style": "contained",
+                "color": "error",
+                "icon": "lucide:send"
+            }
+        },
+        "contact_info": [
+            {
+                "type": "email",
+                "label": "info@webdads2u.com",
+                "icon": "lucide:mail"
+            },
+            {
+                "type": "phone",
+                "label": "8825 6075 50",
+                "icon": "lucide:phone"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+/* Formsection.module.css */
+.Web-Designing-images {
+  max-height: 100%;
+}
+
+@media (min-width: 900px) {
+  .Web-Designing-images {
+    max-height: calc(80vh - 100px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .Web-Designing-images {
+    max-height: calc(80vh - -400px);
+  }
+}
+
+@media (min-width: 1440px) {
+  .Web-Designing-images {
+    max-height: calc(52vh - -143px);
+  }
+}

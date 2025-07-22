@@ -97,14 +97,14 @@ const CounterItem = ({ title, endValue }) => {
             >
                 <Card sx={{ textAlign: 'center', p: 5, boxShadow: "none", background: "transparent" }}>
                     <Box display="flex" justifyContent="center" alignItems="baseline">
-                        <Typography variant="h4" sx={{ fontWeight: 700, color: '#08203A', fontFamily: 'Poppins, sans-serif' }}>
+                        <Typography variant="h4" sx={{ fontWeight: 700, color: '#08203A', fontFamily: 'Poppins, sans-serif',fontSize:"40px" }}>
                             {count}
                         </Typography>
                         <Typography variant="h4" sx={{ fontWeight: 800, color: '#08203A', fontFamily: 'Poppins, sans-serif' }}>
                             +
                         </Typography>
                     </Box>
-                    <Typography variant="body1" sx={{ mt: 1, fontWeight: 500, fontFamily: 'Poppins, sans-serif' }}>
+                    <Typography variant="body1" sx={{ mt: 1, fontWeight: 500, fontFamily: 'Poppins, sans-serif', fontSize:{xs:12,sm:"12px",md:"15px"} }}>
                         {title}
                     </Typography>
                 </Card>

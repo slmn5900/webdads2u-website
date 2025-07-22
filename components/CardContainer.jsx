@@ -44,13 +44,13 @@
 //             <div className='container'>
 //                 <div className="row pt-5" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} >
 //                     <div className="elementor-element elementor-element-d32b387 blog-sec elementor-widget elementor-widget-text-editor" data-id="d32b387" data-element_type="widget" data-widget_type="text-editor.default">
-//                         <div style={{ textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-//                             <p className='landing-page-card-blog-para-p'>Our Latest Blog</p>
-//                             <h3 className='landing-page-card-blog-para-h3'>
-//                                 Connect with us for experiencing the best <span >IT Solutions</span>
-//                             </h3>
+// <div style={{ textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
+//     <p className='landing-page-card-blog-para-p'>Our Latest Blog</p>
+//     <h3 className='landing-page-card-blog-para-h3'>
+//         Connect with us for experiencing the best <span >IT Solutions</span>
+//     </h3>
 
-//                         </div>
+// </div>
 //                     </div>
 //                 </div>
 //             </div>
@@ -116,7 +116,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Container, Grid2, Typography, Card, CardMedia, CardContent, Button, Box } from '@mui/material';
+import { Container, Grid2, Typography, Card, CardMedia, CardContent, Button, Box, Avatar } from '@mui/material';
 import { CiClock1 } from 'react-icons/ci';
 import { motion } from 'framer-motion';
 
@@ -153,32 +153,17 @@ const initialPosts = [
 const CardContainer = () => {
     return (
         <>
-            <Box sx={{py:7}}>
+            <Box sx={{ py: 7 }}>
 
                 {/* Header Section */}
                 <Container sx={{ textAlign: 'center', py: 7 }}>
-                    <Typography
-                        variant="subtitle1"
-                        sx={{
-                            fontFamily: 'Poppins, sans-serif',
-                            color: '#555',
-                            mb: 1,
-                        }}
-                    >
-                        Our Latest Blog
-                    </Typography>
-                    <Typography
-                        variant="h4"
-                        sx={{
-                            fontFamily: 'Poppins, sans-serif',
-                            fontWeight: 600,
-                        }}
-                    >
-                        Connect with us for experiencing the best{' '}
-                        <Box component="span" sx={{ color: '#08203A' }}>
-                            IT Solutions
-                        </Box>
-                    </Typography>
+                    <div style={{ textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
+                        <p className='landing-page-card-blog-para-p' style={{ fontFamily: "Poppins" }}>Our Latest Blog</p>
+                        <h3 className='landing-page-card-blog-para-h3'>
+                            Connect with us for experiencing the best <span >IT Solutions</span>
+                        </h3>
+
+                    </div>
                 </Container>
 
                 {/* Card Section */}
@@ -221,9 +206,15 @@ const CardContainer = () => {
                                                 {post.title}
                                             </Typography>
 
+
                                             <Typography
-                                                sx={{ display: 'flex', alignItems: 'center', color: '#929292', mt: 1, fontSize: '14px' }}
+                                                sx={{ display: 'flex', alignItems: 'center', color: '#929292', mt: 1, fontSize: '14px', gap: 2 }}
                                             >
+                                                <Avatar
+                                                    alt="Remy Sharp"
+                                                    src="/webdads/images/home/testimonial/client-review-4.avif"
+                                                    sx={{ width: 24, height: 24 }}
+                                                /> <Link href="/" style={{ textDecoration: "none",fontSize:"15px" }}>Webdads2u</Link>
                                                 <CiClock1 style={{ fontSize: '18px', marginRight: '5px' }} /> {post.date}
                                             </Typography>
 

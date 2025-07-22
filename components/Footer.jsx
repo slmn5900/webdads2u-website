@@ -23,15 +23,15 @@
 //                                 </div>
 //                             </Col>
 //                             <Col md={6}>
-//                                 <div className="footer-top-phone-sec">
-//                                     <a href="tel:+91-8825607550">
-//                                         <FaPhone />
-//                                     </a>
-//                                     <p>REACH OUT NOW!</p>
-//                                     <a href="/contact-us" style={{ textDecoration: 'none' }}>
-//                                         <Button variant="primary">Contact Us</Button>
-//                                     </a>
-//                                 </div>
+// <div className="footer-top-phone-sec">
+//     <a href="tel:+91-8825607550">
+//         <FaPhone />
+//     </a>
+//     <p>REACH OUT NOW!</p>
+//     <a href="/contact-us" style={{ textDecoration: 'none' }}>
+//         <Button variant="primary">Contact Us</Button>
+//     </a>
+// </div>
 //                             </Col>
 //                         </Row>
 //                     </Container>
@@ -166,7 +166,7 @@
 'use client';
 import React from 'react';
 import {
-    Box,    
+    Box,
     Container,
     Grid2,
     Typography,
@@ -189,23 +189,21 @@ function Footer() {
                 <Container maxWidth="lg">
                     <Grid2 container spacing={4} alignItems="center">
                         <Grid2 size={{ xs: 12, md: 6 }}>
-                            <Typography variant="h5" gutterBottom>
-                                Our experienced IT staff can provide you with more Information
-                            </Typography>
-                            <Typography>
-                                We’re available for 24×7 hours a day! Contact to require detailed analysis and assessment of your plan.
-                            </Typography>
+                            <div className="footer-top-content" style={{ fontFamily: "Poppins" }}>
+                                <h3>Our experienced IT staff can provide you with more Information</h3>
+                                <p>We’re available for 24×7 hours a day! Contact to require detailed analysis and assessment of your plan.</p>
+                            </div>
                         </Grid2>
-                        <Grid2 item xs={12} md={6}>
-                            <Box display="flex" alignItems="center" gap={2}>
-                                <IconButton color="primary" href="tel:+91-8825607550">
+                        <Grid2 size={{ xs: 12, md: 6 }} >
+                            <div className="footer-top-phone-sec">
+                                <a href="tel:+91-8825607550">
                                     <FaPhone />
-                                </IconButton>
-                                <Typography>REACH OUT NOW!</Typography>
-                                <Button variant="contained" color="primary" href="/contact-us">
-                                    Contact Us
-                                </Button>
-                            </Box>
+                                </a>
+                                <p>REACH OUT NOW!</p>
+                                <a href="/contact-us" style={{ textDecoration: 'none' }}>
+                                    <Button variant="primary">Contact Us</Button>
+                                </a>
+                            </div>
                         </Grid2>
                     </Grid2>
                 </Container>
@@ -218,26 +216,26 @@ function Footer() {
                         {/* Logo and Social Icons */}
                         <Grid2 size={{ xs: 12, sm: 6, md: 3 }}>
                             <Box sx={{ mb: 2 }}>
-                                <Image src={logoSrc} alt="Logo" width={150} />
+                                <Image src={logoSrc} alt="Logo" width={200} />
                             </Box>
                             <Box sx={{ display: 'flex', gap: 0 }}>
                                 <IconButton component="a" href="https://www.facebook.com/Webdads2u" target="_blank" sx={{ color: 'white' }}>
-                                    <FaFacebookF />
+                                    <FaFacebookF fontSize={"small"} />
                                 </IconButton>
                                 <IconButton component="a" href="https://x.com/webdads2u" target="_blank" sx={{ color: 'white' }}>
-                                    <FaXTwitter />
+                                    <FaXTwitter fontSize={"small"} />
                                 </IconButton>
                                 <IconButton component="a" href="https://www.instagram.com/webdads2u/" target="_blank" sx={{ color: 'white' }}>
-                                    <FaInstagram />
+                                    <FaInstagram fontSize={"small"} />
                                 </IconButton>
                                 <IconButton component="a" href="https://www.linkedin.com/company/webdads2u-private-limited/" target="_blank" sx={{ color: 'white' }}>
-                                    <FaLinkedinIn />
+                                    <FaLinkedinIn fontSize={"small"} />
                                 </IconButton>
                                 <IconButton component="a" href="https://in.pinterest.com/webdads2u/" target="_blank" sx={{ color: 'white' }}>
-                                    <FaPinterest />
+                                    <FaPinterest fontSize={"small"} />
                                 </IconButton>
                                 <IconButton component="a" href="https://www.youtube.com/webdads2u" target="_blank" sx={{ color: 'white' }}>
-                                    <FaYoutube />
+                                    <FaYoutube fontSize={"small"} />
                                 </IconButton>
                             </Box>
                         </Grid2>
@@ -266,11 +264,10 @@ function Footer() {
 
                         {/* Address */}
                         <Grid2 size={{ xs: 12, sm: 6, md: 3 }}>
-                            <Typography sx={{fontWeight:"500"}}>
-                                No: S19, Subham Complex 2nd Floor, North Park Street, Ambattur O.T,
-                                Chennai, Tamil Nadu – 600053<br />
+                            <Box fontSize={"15px"}>
+                                FIRST FLOOR, 2ND PORTION, 36, Saraswati Nagar Main Rd, Saraswati Nagar, Thirumullaivoyal, Chennai, Tamil Nadu 600062<br />
                                 info@webdads2u.com
-                            </Typography>
+                            </Box>
                         </Grid2>
 
                         {/* Career Section */}
