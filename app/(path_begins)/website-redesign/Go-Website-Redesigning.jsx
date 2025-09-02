@@ -18,7 +18,11 @@ function Gowebsiteredesigning() {
                         </div>
                         <div className="text-area">
                             <h5>Manage Your Content Better</h5>
+<<<<<<< HEAD
                             <p>New website design allows you to have improved control over the website content. Are you looking for a way to enhance your management skills? Look no further than content management systems like Joomla and WordPress.</p>
+=======
+                            <p>new website design allows you to have improved control over the website content. Are you looking for a way to enhance your management skills? Look no further than content management systems like Joomla and WordPress.</p>
+>>>>>>> a0d19cc (Initial commit)
                         </div>
                     </div>
                 </div>
@@ -28,7 +32,11 @@ function Gowebsiteredesigning() {
                         <img src="webdads/images/website-redesign/technique.png" alt="technique" loading='lazy' className='img-fluid' />
                         </div>
                         <div className="text-area">
+<<<<<<< HEAD
                             <h5>Benefit From New Technology</h5>
+=======
+                            <h5>Benefit From new Technology</h5>
+>>>>>>> a0d19cc (Initial commit)
                             <p>Is your website not performing well? Just like machines, websites require frequent maintenance and redesign to stay effective. Regularly improving and redesigning your website can help keep it current, visually appealing, and user-friendly.</p>
                         </div>
                     </div>

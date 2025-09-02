@@ -8,7 +8,11 @@ export const metadata = {
     keyword:
         'android app development company in chennai,android app development company,mobile app development services, mobile app development company, app development companies, app development company, app development services, mobile app developers'
 };
+<<<<<<< HEAD
 const page = () => {
+=======
+const Page = () => {
+>>>>>>> a0d19cc (Initial commit)
     return (
         <>
             <AndroidMain />
@@ -16,4 +20,8 @@ const page = () => {
     );
 };
 
+<<<<<<< HEAD
 export default page;
+=======
+export default Page;
+>>>>>>> a0d19cc (Initial commit)

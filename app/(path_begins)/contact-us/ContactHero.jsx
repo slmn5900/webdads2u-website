@@ -50,7 +50,11 @@ const ContactHero = () => {
                                 <img alt="" src="/webdads/images/contact/phone.webp"></img>
                                 <h3>Office Number</h3>
                                 <p>
+<<<<<<< HEAD
                                     <a href="tel:+91-8825607550">+91-8825607550</a>
+=======
+                                    <a href="tel:+91-88256 07550">+91-88256 07550</a>
+>>>>>>> a0d19cc (Initial commit)
                                 </p>
                                 <p>
                                     <a href="tel:+91-6382253490">+91-6382253490</a>

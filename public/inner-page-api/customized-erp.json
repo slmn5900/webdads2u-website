@@ -1,0 +1,135 @@
+{
+    "header_section": {
+      "title": "Customized ERP software Development service",
+      "description":"Tailored ERP solution: Streamline operations,boost efficiency.Expert development for your business needs",
+      "button": "Contact us",
+      "bg_img": "https://res.cloudinary.com/dbpv95wd8/images/v1707550943/Banner-background-5/Banner-background-5.jpg?_i=AA",
+      "img":"https://res.cloudinary.com/dbpv95wd8/images/v1707550953/Banner-img-3/Banner-img-3.png?_i=AA"
+    },
+      "slider_section": {
+      "title": "Trusted by over 150+ businesses worldwide!",
+      "logos": [
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069865/smart-duckling-logo_2184e61c/smart-duckling-logo_2184e61c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069793/iritube-logo-2/iritube-logo-2.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069786/lalit-food-machines_263339d3/lalit-food-machines_263339d3.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069797/corengg-serve-engineering_2608905d/corengg-serve-engineering_2608905d.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069802/ssr-academy_2594356c/ssr-academy_2594356c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069817/rps-group-1/rps-group-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069821/pv-pharma_25467877/pv-pharma_25467877.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069825/arc-man-logo_2299280a/arc-man-logo_2299280a.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069828/best-1/best-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069832/best_227e2dba/best_227e2dba.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069839/golden-logo_22618361/golden-logo_22618361.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069835/iritube-logo-1/iritube-logo-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069843/iritube-logo_22463754/iritube-logo_22463754.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069847/oilsep-logo_22387653/oilsep-logo_22387653.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069861/teamwater-logo_220f3c18/teamwater-logo_220f3c18.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069865/smart-duckling-logo_2184e61c/smart-duckling-logo_2184e61c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069793/iritube-logo-2/iritube-logo-2.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069786/lalit-food-machines_263339d3/lalit-food-machines_263339d3.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069778/matchbox-mansion_2643c180/matchbox-mansion_2643c180.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069857/saj-hotel-logo_221ae891/saj-hotel-logo_221ae891.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069774/pridermx_26585aab/pridermx_26585aab.png?_i=AA"
+    ]
+    },
+    "company_section": {
+      "title": "Custom ERP Solution Company in India",
+      "description": "Discover a leading custom ERP solution company in India, specializing in bespoke ERP software development tailored to your unique business requirements. Our expert team harnesses cutting-edge technologies to deliver scalable and efficient ERP solutions that streamline operations and drive growth. Whether you’re a small startup or a large enterprise, our customizable ERP software empowers you to optimize processes, enhance productivity, and stay ahead of the competition. Partner with us for comprehensive ERP solutions designed to elevate your business performance"
+    },
+    "design_section": {
+      "title": "Custom Made ERP Web App Development",
+      "description": "Custom ERP software are meant to be aligned with business processes and assist in achieving target goals. ERPs are capable of being developed to encompass business process management, HR management systems, appraisal systems, lead management, inventory management, workflow management, and more.",
+      "button":"Contact us",
+      "img" :"https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_626,h_626,dpr_1.5/f_auto,q_auto/v1707548680/custome-erp/custome-erp.png?_i=AA"
+    },
+    "list_section": {
+      "img": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_626,h_417,dpr_1.5/f_auto,q_auto/v1707549157/erp-customized/erp-customized.png?_i=AA",
+      "title": "How we do it?",
+      "description": "Is there anything else you’d like to know about the advantages of hiring a custom ERP development company in India for your venture? This is a brief summary of how a customer relationship management system affects your business.",
+      "lists": [
+       "Visiting the client's location",
+       "A comprehensive understanding of the business's work flow",
+       "A feasibility analysis that takes into account cost, installation, and maintenance.",
+       "Client demands necessitate flexibility.",
+       "Implementation of the ERP",
+       "The integration of the working model",
+       "Testing phase",
+       "Continued support will be provided after implementation."
+      ]
+    },
+    "connect_section": {
+      "title": "Connect with Us on Social Media",
+      "description": "Stay in the loop with the latest trends and updates from WebDads2U. Follow our social media channels for insightful content, tips, and exciting announcements",
+      "img":"/webdads/images/common/social-arrow.svg",
+      "icons":[
+        "https://www.facebook.com/Webdads2u",
+        "https://x.com/webdads2u",
+        "https://www.youtube.com/webdads2u",
+        "https://www.instagram.com/webdads2u/"
+      ]
+    },
+    "amazingcard_section": {
+      "title": "Our Custom ERP Software Development Services",
+      "description": "Webdads2u’s team of experienced professionals offers a vast selection of ERP options to fit every business need.",
+        "cards":[{
+        "icon":"https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1707550462/Expert-ERP-Implementations/Expert-ERP-Implementations.png?_i=AA",
+        "title":"Expert ERP Implementations",
+        "description":"We install servers, security, networks, and data management solutions throughout your organization, ensuring that data integrity is maintained and there is minimal downtime."
+      },
+      {
+        "icon":"https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1707550470/Custom-ERP-Development/Custom-ERP-Development.png?_i=AA",
+        "title":"Custom ERP Development",
+        "description":"Our customized ERP software is designed to fit your unique business model and includes design functionality."
+      },
+      {
+        "icon":"https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1707550453/Seamless-Data-Migrations/Seamless-Data-Migrations.png?_i=AA",
+        "title":"Seamless Data Migrations",
+        "description":"Data integrity is ensured when transferring data, blending raw data silos, and transforming data infrastructure through the use of highly experienced developers who update legacy systems."
+      }  ,
+      {
+        "icon":"https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1707550475/Bespoke-Solutions/Bespoke-Solutions.png?_i=AA",
+        "title":"Bespoke Solutions",
+        "description":"Our ERP software are tailored to fit specific business requirements to create a scalable, scalable ERP system that automates important processes and provides valuable data insight across mobile, on-premises, and web-based platforms, allowing for real-time access to mission-critical data."
+      },
+      {
+        "icon":"https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1707550457/Effective-Integration-Services/Effective-Integration-Services.png?_i=AA",
+        "title":"Effective Integration Services",
+        "description":"We make sure that your business can grow by promoting real-time data automation within systems using the centralized architecture of your preferred fully integrated business IT environment."
+      },
+            {
+        "icon":"https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1707550466/ERP-System-Configurations/ERP-System-Configurations.png?_i=AA",
+        "title":"ERP System Configurations",
+        "description":"Our configuration process involves defining separate roles, fields, modifications, business intelligence, interface improvement, and the addition of specific fields and more."
+      }
+      ]},
+    "consultation_section": {
+      "title": "Looking for Custom ERP Software Development?",
+      "description": "Send us your requirements. We will get back to you with a free quote.",
+      "button":"Connect For Free Consultation",
+      "bgimg":"https://webdads2u.com/wp-content/uploads/2024/02/Banner-background-5.jpg"
+    },
+    "qna_section":{
+    "title":"Frequently Asked Questions",
+    "description":"Explore our FAQ section to find answers to common queries about custom ERP software development. Learn about the benefits of ERP software development for your business, the development timeline, integration capabilities, technologies used, and post-implementation support services.",
+    "queries":[{
+       "ques":"What is ERP software, and how can it benefit my business?",
+       "ans":"(Enterprise Resource Planning) ERP software integrates various business processes and functions into a single system, enhancing efficiency and productivity. Benefits include streamlined operations, improved data accuracy, and better decision-making.."
+    },
+    {
+       "ques":"How long does it take to develop a custom ERP software development?",
+       "ans":"The development time for a custom ERP software development depends on factors such as project complexity, scope, and specific requirements. Generally, it can range from several months to over a year, ensuring thorough customization and testing for optimal performance."
+    },{
+       "ques":"Can the custom ERP software integrate with existing systems in my organization?",
+       "ans":"Yes, our custom ERP solutions are designed to seamlessly integrate with your existing systems, including CRMs, accounting software, and inventory management systems. This ensures data consistency and smooth workflows across all departments."
+    },{
+       "ques":"What technologies do you use for custom ERP development?",
+       "ans":"We leverage a variety of technologies such as Java, Python, .NET, and cloud platforms like AWS or Azure to develop robust and scalable ERP solutions. Our choice of technology depends on project requirements, scalability, and security needs."
+    },{
+       "ques":"What features should I look for in a CRM system?",
+       "ans":"Consider features like contact management, lead tracking, automation, analytics, and scalability when choosing a CRM system for your specific business needs."
+    },{
+       "ques":"Do you provide post-implementation support and maintenance for the custom ERP software?",
+       "ans":"Yes, we offer comprehensive support and maintenance services post-implementation to ensure the smooth operation and continuous improvement of your custom ERP solution. Our dedicated team is available to address any issues, perform updates, and provide ongoing assistance as needed."
+    }
+]}  
+}

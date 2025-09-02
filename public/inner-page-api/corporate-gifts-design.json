@@ -1,0 +1,120 @@
+{
+  "header_section": {
+    "title": "Corporate Gifting",
+    "description": "personalized gifts for employees and clients. Gift useful & budget friendly customized combos this Diwali",
+    "button": "Contact us",
+    "img": "https://res.cloudinary.com/dbpv95wd8/images/v1710767357/Gifts/Gifts.png?_i=AA",
+   "bg_img": "https://res.cloudinary.com/dbpv95wd8/images/v1710767335/Banner-Background-3_19069a0ca6/Banner-Background-3_19069a0ca6.jpg?_i=AA"
+  },
+  "slider_section": {
+    "title": "Trusted by over 150+ businesses worldwide!",
+     "logos": [
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069865/smart-duckling-logo_2184e61c/smart-duckling-logo_2184e61c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069793/iritube-logo-2/iritube-logo-2.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069786/lalit-food-machines_263339d3/lalit-food-machines_263339d3.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069797/corengg-serve-engineering_2608905d/corengg-serve-engineering_2608905d.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069802/ssr-academy_2594356c/ssr-academy_2594356c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069817/rps-group-1/rps-group-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069821/pv-pharma_25467877/pv-pharma_25467877.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069825/arc-man-logo_2299280a/arc-man-logo_2299280a.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069828/best-1/best-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069832/best_227e2dba/best_227e2dba.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069839/golden-logo_22618361/golden-logo_22618361.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069835/iritube-logo-1/iritube-logo-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069843/iritube-logo_22463754/iritube-logo_22463754.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069847/oilsep-logo_22387653/oilsep-logo_22387653.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069861/teamwater-logo_220f3c18/teamwater-logo_220f3c18.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069865/smart-duckling-logo_2184e61c/smart-duckling-logo_2184e61c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069793/iritube-logo-2/iritube-logo-2.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069786/lalit-food-machines_263339d3/lalit-food-machines_263339d3.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069778/matchbox-mansion_2643c180/matchbox-mansion_2643c180.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069857/saj-hotel-logo_221ae891/saj-hotel-logo_221ae891.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069774/pridermx_26585aab/pridermx_26585aab.png?_i=AA"
+    ]
+  },
+  "company_section": {
+    "title": "Corporate Gifts",
+    "description": "Welcome to our Corporate Gifts Design collection, curated to impress and express your gratitude. Our range combines functionality with elegance, ensuring your brand stands out. From sleek executive accessories to personalized keepsakes, each item is meticulously crafted to leave a lasting impression. Elevate your corporate image with our exclusive designs, perfect for any occasion. Explore our Corporate Gifts Design selection today and make a statement that resonates with professionalism and appreciation."
+  },
+  "list_section": {
+    "img": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_450,h_450,dpr_1.5/f_auto,q_auto/v1710768321/Images_19107dfa0a/Images_19107dfa0a.png?_i=AA",
+    "title": "Why does any business need professional Gift card design services?",
+    "description": "Businesses benefit from Gifts Design services to elevate their brand image and strengthen client relationships. A thoughtfully crafted Corporate Gifts Design reflects professionalism and appreciation. It enables businesses to make a lasting impression and stand out in a competitive market. Invest in Gifts Design services to leave a memorable mark on clients and partners.",
+    "lists": [
+      "Engaging Gifts Design",
+      "Unique Gifts Design Concepts",
+      "Award-Winning Support for Gifts Design"
+    ]
+  },
+  "ourrecent_section": {
+    "title": "Our Recent Creations",
+    "description": "Explore Our Recent Corporate Gifts Design. Discover our latest creations tailored to elevate your brand image and strengthen client relationships. From sleek executive accessories to personalized keepsakes, find the perfect gift for any occasion.",
+    "img": [
+      {
+        "img": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_370,h_230,dpr_1.5/f_auto,q_auto/v1701069283/nivas-portfolio-letterhead_114718981/nivas-portfolio-letterhead_114718981.jpg?_i=AA",
+        "alt": "Creation 1"
+      },
+      {
+        "img": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_370,h_230,dpr_1.5/f_auto,q_auto/v1701069288/arcman-kitchen-interior-portfolio-letterhead_114941dd7/arcman-kitchen-interior-portfolio-letterhead_114941dd7.png?_i=AA",
+        "alt": "Creation 2"
+      },
+      {
+        "img": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_370,h_230,dpr_1.5/f_auto,q_auto/v1701069292/aarthi-homes-portfolio-letterhead_114822db4/aarthi-homes-portfolio-letterhead_114822db4.jpg?_i=AA",
+        "alt": "Creation 3"
+      }
+    ]
+  },
+  "amazingcard_section": {
+    "title": "Why our Corporate Gifts Design?",
+    "description": "Elevate Your Brand with Our Corporate Gifts Design. Impress clients and partners with our meticulously crafted and tailored gifts.",
+    "cards": [
+      {
+        "icon": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1710767870/Easy-to-create-and-customise_19099c7755/Easy-to-create-and-customise_19099c7755.png?_i=AA",
+        "title": "Easy to create and customise",
+        "description": "Creating Your Corporate Gifts Design Online is Effortless. Follow our intuitive steps to select customization options, templates, and edit online for memorable and impactful corporate gifts."
+      },
+      {
+        "icon": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1710767876/Connect-with-our-customer-support_191013685c/Connect-with-our-customer-support_191013685c.png?_i=AA",
+        "title": "Collaborate with our designers",
+        "description": "Partner with Our Expert Designers for Custom Corporate Gifts. Collaborate with our team for super-catchy, modern designs, ensuring print-perfect results every time."
+      },
+      {
+        "icon": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1710767882/Collaborate-with-our-designers_1910029836/Collaborate-with-our-designers_1910029836.png?_i=AA",
+        "title": "Connect with our customer support",
+        "description": "Our dedicated customer support team is here to assist you, elevating your corporate gifts to the next level with expert guidance and assistance."
+      }
+    ]
+  },
+  "consultation_section": {
+    "title": "Looking for Letterheads design?",
+    "description": "Browse through our range of premium corporate gifts design, meticulously crafted to leave a lasting impression on your employees.",
+    "button": "Connect For Free Consultation",
+    "bgimg":"linear-gradient(121deg,#4D05B1 0%,#2CD6F9 100%)"
+  },
+  "qna_section": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common inquiries about our Corporate Gifts Design. From customization options to delivery times, explore our FAQ section for all the information you need to make informed decisions about your corporate gifting needs.",
+    "queries": [
+      {
+        "ques": "What types of corporate gifts do you offer?",
+        "ans": "We offer a wide range of corporate gifts including executive accessories, personalized keepsakes, branded merchandise, and more."
+      },
+      {
+        "ques": "Can I customize the corporate gifts with our company logo?",
+        "ans": "Absolutely! We provide customization options, allowing you to add your company logo or branding to our corporate gift designs."
+      },
+      {
+        "ques": "How long does it take to receive my customized corporate gifts?",
+        "ans": "The time varies depending on the complexity of customization and quantity ordered. Our team will provide you with an estimated timeline once the design details are finalized."
+      },
+      {
+        "ques": "Do you offer bulk discounts for corporate gift orders?",
+        "ans": "Yes, we offer competitive pricing and discounts for bulk orders of corporate gifts. Get in touch with our team to discuss your specific requirements."
+      },
+      {
+        "ques": "What sets your corporate gifts design apart from others?",
+        "ans": "Our corporate gifts design are meticulously crafted, combining functionality with elegance. We focus on quality, uniqueness, and attention to detail to ensure your gifts leave a lasting impression."
+      }
+    ]
+  }
+}

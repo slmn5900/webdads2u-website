@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // // 'use client';
 // // import React from 'react';
 // // import { LayoutProvider } from '../layout/context/layoutcontext';
@@ -83,23 +84,74 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { usePathname } from 'next/navigation';
 import '../style/home/home.scss';
+=======
+'use client'; // only for App Router; remove if you're using _app.js
+
+import React from 'react';
+import { LayoutProvider } from '../layout/context/layoutcontext'; // Make sure this is a named export
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from '../components/Footer'; // Make sure Footer uses `export default`
+import Header from '../components/Header'; // Make sure Header uses `export default`
+import { usePathname } from 'next/navigation';
+import '../style/home/home.scss';
+import { MenuProvider } from '../layout/context/menucontext';
+import SocialMedia from "../components/common/SocialMedia.jsx"
+>>>>>>> a0d19cc (Initial commit)
 
 export default function RootLayout({ children }) {
     const pathname = usePathname();
 
+<<<<<<< HEAD
     // Define the paths where you want to hide header/footer
     const omitHeaderFooterPaths = ['/login', '/register', '/new', "/brochure-design-page", "/social-media-design-page", "/logo-design-page"];
+=======
+    const omitHeaderFooterPaths = [
+        '/login',
+        '/register',
+        '/web-development-company',
+        '/brochure-design-page',
+        '/poster-design-company',
+        '/logo-design-company',
+        '/digital-marketing-company',
+        '/seo',
+        '/corporate-website',
+        '/flyer-design-page',
+        '/app-development',
+        '/crm-page',
+        '/wordpress-page',
+        '/react-page',
+        '/eccomerce-react-page',
+        '/eccomerce-wordpress-page',
+        '/shopify-page',
+        '/ui-ux-page',
+        '/openkart-page',
+        '/letter-head-page',
+        '/business-card-page',
+        '/web-design'
+    ];
+>>>>>>> a0d19cc (Initial commit)
 
     const omitHeaderFooter = omitHeaderFooterPaths.includes(pathname);
 
     return (
         <html lang="en" suppressHydrationWarning>
             <body>
+<<<<<<< HEAD
                 <LayoutProvider>
                     {!omitHeaderFooter && <Header />}
                     <div>{children}</div>
                     {!omitHeaderFooter && <Footer />}
                 </LayoutProvider>
+=======
+                <MenuProvider>
+                    <LayoutProvider>
+                        {!omitHeaderFooter && <Header />}
+                        <main>{children}</main>
+                        {!omitHeaderFooter && <SocialMedia />}
+                        {!omitHeaderFooter && <Footer />}
+                    </LayoutProvider>
+                </MenuProvider>
+>>>>>>> a0d19cc (Initial commit)
             </body>
         </html>
     );

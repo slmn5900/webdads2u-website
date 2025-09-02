@@ -1,0 +1,141 @@
+{
+    "header_section": {
+      "title": "Customized CRM Development",
+      "description":"At WebDads2U, we are offering open-source CRM as well as cloud-based CRM and CRM apps for every business.",
+      "button": "Contact us",
+      "img": "img.png"
+    },
+      "slider_section": {
+      "title": "Trusted by over 150+ businesses worldwide!",
+          "logos": [
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069865/smart-duckling-logo_2184e61c/smart-duckling-logo_2184e61c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069793/iritube-logo-2/iritube-logo-2.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069786/lalit-food-machines_263339d3/lalit-food-machines_263339d3.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069797/corengg-serve-engineering_2608905d/corengg-serve-engineering_2608905d.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069802/ssr-academy_2594356c/ssr-academy_2594356c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069817/rps-group-1/rps-group-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069821/pv-pharma_25467877/pv-pharma_25467877.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069825/arc-man-logo_2299280a/arc-man-logo_2299280a.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069828/best-1/best-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069832/best_227e2dba/best_227e2dba.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069839/golden-logo_22618361/golden-logo_22618361.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069835/iritube-logo-1/iritube-logo-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069843/iritube-logo_22463754/iritube-logo_22463754.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069847/oilsep-logo_22387653/oilsep-logo_22387653.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069861/teamwater-logo_220f3c18/teamwater-logo_220f3c18.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069865/smart-duckling-logo_2184e61c/smart-duckling-logo_2184e61c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069793/iritube-logo-2/iritube-logo-2.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069786/lalit-food-machines_263339d3/lalit-food-machines_263339d3.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069778/matchbox-mansion_2643c180/matchbox-mansion_2643c180.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069857/saj-hotel-logo_221ae891/saj-hotel-logo_221ae891.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069774/pridermx_26585aab/pridermx_26585aab.png?_i=AA"
+    ]
+    },
+    "design_section": {
+      "title": "Custom CRM Development Company in India",
+      "description": "Looking for a reliable CRM Software Development Company in India to streamline your business processes and enhance customer relationships? Look no further! Our company specializes in custom CRM software development tailored to meet your specific business needs. With years of experience in the industry, we have a team of skilled developers who are experts in building robust and scalable CRM solutions using cutting-edge technologies.Our custom CRM Software Development services include CRM integration, customization, migration, and support, ensuring seamless implementation and smooth operation of your CRM system.By choosing us as your CRM Software Development Company in India, you can expect top-notch quality, timely delivery, and cost-effective solutions that exceed your expectations. Contact us today to discuss your CRM requirements and take your business to the next level!",
+      "img":"https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_626,h_471,dpr_1.5/f_auto,q_auto/v1707541789/custome-crm/custome-crm.png?_i=AA"
+    },
+    "development_section":{
+    "title":"Why Do You Need Customized CRM Development Services?",
+    "description":"Are you interested in discovering how hiring a custom CRM Software Development company in India can benefit your venture? I will provide a brief overview of how a customer relationship management system affects your business.",
+    "img":"https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_626,h_482,dpr_1.5/f_auto,q_auto/v1707542822/crm-benift/crm-benift.png?_i=AA",
+    "lists":[{
+          "icon": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1707547637/Automation-of-Activities_12425dbdea/Automation-of-Activities_12425dbdea.png?_i=AA",
+          "title": "Automation of Activities",
+          "description": "By using an automated operation management system, it is possible to keep track of everything that affects the entire course of business growth."
+        },
+    {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1707547614/Real-Time-Reports/Real-Time-Reports.png?_i=AA",
+          "title": "Real-Time Reports",
+          "description": "An agile possibility for timely analysis can be achieved with a bespoke customer relationship management system that effortlessly delivers real-time assessment data."
+        },
+        {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1707547610/Protection-of-User-Data/Protection-of-User-Data.png?_i=AA",
+          "title": "Protection of User Data",
+          "description": "Brands can restore their operational efficiency by using well-designed CRM solutions, as well as store important customer data with the utmost safety."
+        },
+    {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_100,h_100,dpr_1.5/f_auto,q_auto/v1707547605/Improved-Productivity/Improved-Productivity.png?_i=AA",
+          "title": "Improved Productivity",
+          "description": "By using CRM applications and custom platforms, data security, lead management, and other operations can be simplified, ultimately leading to overall productivity."
+        }
+    
+]
+
+  },
+  "connect_section": {
+      "title": "Connect with Us on Social Media",
+      "description": "Stay in the loop with the latest trends and updates from WebDads2U. Follow our social media channels for insightful content, tips, and exciting announcements",
+      "img":"/webdads/images/common/social-arrow.svg",
+        "icons":[
+        "https://www.facebook.com/Webdads2u",
+        "https://x.com/webdads2u",
+        "https://www.youtube.com/webdads2u",
+        "https://www.instagram.com/webdads2u/"
+      ]
+
+},
+"choose_section": {
+      "title":"Why Do You Need a Custom CRM Software Development for Your Business?",
+      "cards": [
+        {
+          "icon": "img.png",
+          "title": "Automated Sales Operations",
+          "description": "Your sales team can now spend more time attracting and engaging with the right audience with a customized CRM Software Development . The responsibility of filling out forms, producing reports, or raising legal issues has been abolished."
+        },
+    {
+          "icon": "img.png",
+          "title": "Real-time Analysis and Reports",
+          "description": "Our CRM Software Development tool is custom built with advanced tools, plugins, and intelligent technologies that give you a quick overview of actual sales, conversions, customer interaction information, and much more."
+        },
+    {
+          "icon": "img.png",
+          "title": "Better Customer Information",
+          "description": "Every customer is a valuable asset to any business. To fully understand the value of each customer, it is imperative to understand their behavior, interactions, purchase history, buying patterns, and demographics."
+        },
+    {
+          "icon": "img.png",
+          "title": "Increased Productivity",
+          "description": "Unlock business potential with our advanced CRM software. Tailored features enhance customer interactions, streamline workflows, and boost overall efficiency."
+        },
+    {
+          "icon": "img.png",
+          "title": "Enhanced Lead Management",
+          "description": "Our custom CRM developers carefully design a CRM system that can effectively manage your lead management operations to increase your customer engagement and conversion rates."
+        },
+    {
+          "icon": "img.png",
+          "title": "High Data Security",
+          "description": "Keeping your confidential data secure is necessary because a CRM system stores so much customer and business data. A highly secured and centralized CRM system is developed by our custom CRM software developers with the use of reliable security systems."
+        }
+        ]},
+ "consultation_section": {
+      "title": "Looking for Custom CRM Software Development Services?",
+      "description": "Looking to streamline your business processes and enhance customer relationships? Our Indian CRM Development Company specializes in custom solutions tailored to your needs.",
+      "button":"Connect For Free Consultation",
+      "bgimg":"linear-gradient(121deg,#18A5A7 0%,#BFFFC7 100%)"
+    },
+  "qna_section":{
+    "title":"Frequently Asked Questions",
+    "description":"Discover how our post-implementation support ensures the seamless operation of your custom CRM solution.",
+    "queries":[{
+       "ques":"What is CRM Software Development , and why do I need it?",
+       "ans":"(Customer Relationship Management) CRM Software Development involves creating customized software solutions to manage interactions with current and potential customers. It helps businesses streamline processes, improve customer satisfaction, and boost sales."
+    },
+    {
+       "ques":"How long does it take to develop a custom CRM Software Development ?",
+       "ans":"The time to develop a custom CRM Software Development depends on various factors such as the complexity of features, integration requirements, and customization needs. Generally, it can take anywhere from a few weeks to several months to complete the development process."
+    },{
+       "ques":"What technologies do you use for CRM Software Development ?",
+       "ans":"We leverage a wide range of technologies for CRM Software Development , including but not limited to, JavaScript frameworks like React and Angular, backend technologies like Node.js or Python, and databases such as MySQL or MongoDB. We choose technologies based on project requirements and scalability."
+    },{
+       "ques":"Can you integrate the CRM Software Development with other software systems we use?",
+       "ans":"Yes, our (Customer Relationship Management) services include integration with third-party software systems such as ERP, accounting software, marketing automation tools, and more. Seamless integration ensures data consistency and enhances overall business efficiency."
+    },{
+       "ques":"Do you provide support and maintenance after CRM implementation?",
+       "ans":"Yes, we offer comprehensive support and maintenance services post-implementation to ensure smooth operation and optimal performance of your CRM solution. Our dedicated team is available to address any issues, perform updates, and provide ongoing assistance as needed."
+    }
+]}
+   
+}

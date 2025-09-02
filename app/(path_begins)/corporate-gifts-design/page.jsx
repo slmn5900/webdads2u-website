@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 // import UnderConstructions from './UnderConstructions';
 import dynamic from 'next/dynamic';
@@ -16,3 +17,15 @@ const page = () => {
 };
 
 export default page;
+=======
+
+import CorporateGiftDesign from './CorporateGiftDesign'
+
+export default function Page() {
+  return (
+    
+        <CorporateGiftDesign />
+  
+  )
+}
+>>>>>>> a0d19cc (Initial commit)

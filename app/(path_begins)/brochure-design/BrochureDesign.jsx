@@ -23,6 +23,11 @@ const BrochuredesignHero = dynamic(() => import('./BrochuredesignHero'), {
 });
 
 const BrochureDesign = () => {
+<<<<<<< HEAD
+=======
+
+  
+>>>>>>> a0d19cc (Initial commit)
   return (
     <>
       <BrochuredesignHero />

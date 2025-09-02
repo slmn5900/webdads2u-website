@@ -6,7 +6,11 @@ import Developmentcompanyinchennai from './Development-company-in-Chennai'
 import Phpcardhover from './php-card-hover'
 import Optforphp from './Opt-For-PHP'
 import BenefitsofPHP from './Benefits-of-PHP'
+<<<<<<< HEAD
 import Newtechnologies from './New-Technologies'
+=======
+import newtechnologies from './new-Technologies'
+>>>>>>> a0d19cc (Initial commit)
 import Phpframeworks from './Php-Frameworks'
 import Phpframeworkscard from './Php-Frameworks-card'
 import Frequentlyphp from './Frequently-php'
@@ -20,7 +24,11 @@ const PhpMain = () => {
       <Optforphp />
       <BenefitsofPHP />
       {/* < /> */}
+<<<<<<< HEAD
       <Newtechnologies />
+=======
+      <newtechnologies />
+>>>>>>> a0d19cc (Initial commit)
       <Phpframeworks />
       <Phpframeworkscard />
       <Frequentlyphp />

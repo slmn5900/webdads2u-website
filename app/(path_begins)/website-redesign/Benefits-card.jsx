@@ -12,7 +12,11 @@ function Benefitscard() {
                         <img src="webdads/images/website-redesign/start-new.png" alt="start-new" loading='lazy' className='img-fluid' />
                         </div>
                         <div className="card-text">
+<<<<<<< HEAD
                             <h3>Start a New</h3>
+=======
+                            <h3>Start a new</h3>
+>>>>>>> a0d19cc (Initial commit)
                             <p>website redesign offers the opportunity to implement lessons learned from past mistakes, ensuring a fresh start that aligns seamlessly with your current objectives and resonates with a broader audience from the outset.</p>
                         </div>
                     </div>

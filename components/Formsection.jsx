@@ -134,7 +134,11 @@
 // //         watch
 // //     } = useForm();
 // //     // const [isCheckboxChecked, setIsCheckboxChecked] = useState(false);
+<<<<<<< HEAD
 // //     const [loading, setLoading] = useState(false); // New state for loading
+=======
+// //     const [loading, setLoading] = useState(false); // new state for loading
+>>>>>>> a0d19cc (Initial commit)
 // //     const [recaptchaValue, setRecaptchaValue] = useState(false);
 
 // //     const onSubmit = async (data) => {
@@ -393,7 +397,10 @@
 
 // // export default Formsection;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a0d19cc (Initial commit)
 // 'use client';
 
 // import { Container, Row, Col, Button } from 'react-bootstrap';
@@ -542,7 +549,10 @@
 //                                             </div></Grid2>
 //                                     </Grid2>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a0d19cc (Initial commit)
 //                                 </form>
 //                             </div>
 //                         </Col>
@@ -610,15 +620,24 @@ function Formsection() {
     };
 
     return (
+<<<<<<< HEAD
         <Box component="section" className="quick-contactsec" sx={{ position: "relative", m: "auto" }}>
             <Grid2 container spacing={1} sx={{ position: { xs: "relative", md: "absolute" }, bottom: "0", width: "100%", margin: "auto" }}  >
                 <Grid2 size={{ xs: 12, md: 7 }} sx={{ ml: { xs: "0px", md: "70px" } }}>
                     <Box className="quick-form" p={3} boxShadow={3} >
                         <Typography variant="h2" gutterBottom sx={{ color: "white" }}>
+=======
+        <Box component="section" className="quick-contactsec" sx={{ position: 'relative', m: 'auto', px: { xs: 2, md: 0 } }}>
+            <Grid2 container spacing={1} sx={{ position: { xs: 'relative', md: 'absolute' }, bottom: '0', width: '100%', margin: 'auto' }}>
+                <Grid2 size={{ xs: 12, md: 7 }} sx={{ ml: { xs: '0px', md: '70px' } }}>
+                    <Box className="quick-form" p={3} boxShadow={3}>
+                        <Typography variant="h2" gutterBottom sx={{ color: 'white' }}>
+>>>>>>> a0d19cc (Initial commit)
                             Quick contact us!
                         </Typography>
 
                         <form onSubmit={handleSubmit(onSubmit)} noValidate>
+<<<<<<< HEAD
                             <Grid2 container spacing={1} position={"relative"}>
                                 <Grid2 size={{ xs: 12, sm: 2 }}>
                                     <TextField
@@ -627,23 +646,46 @@ function Formsection() {
                                         placeholder='Name'
                                         InputProps={{
                                             sx: { backgroundColor: 'white' }  // ✅ Correct target
+=======
+                            <Grid2 container spacing={1} position={'relative'} textAlign={'center'} alignItems={'center'}>
+                                <Grid2 size={{ xs: 12, sm: 3, md: 2 }}>
+                                    <TextField
+                                        fullWidth
+                                        // label="Name"
+                                        placeholder="Name"
+                                        InputProps={{
+                                            sx: { backgroundColor: 'white' } // ✅ Correct target
+>>>>>>> a0d19cc (Initial commit)
                                         }}
                                         InputLabelProps={{
                                             sx: { color: 'black' } // ✅ Label in black
                                         }}
+<<<<<<< HEAD
                                         size='small'
+=======
+                                        size="small"
+>>>>>>> a0d19cc (Initial commit)
                                         variant="outlined"
                                         {...register('name', { required: 'Name is required' })}
                                         error={!!errors.name}
                                         helperText={errors.name?.message}
                                     />
                                 </Grid2>
+<<<<<<< HEAD
                                 <Grid2 size={{ xs: 12, sm: 2 }}>
                                     <TextField
                                         fullWidth
                                         // label="Phone"
                                         placeholder='Mobile'
                                         size='small'
+=======
+                                <Grid2 size={{ xs: 12, sm: 3, md: 2 }}>
+                                    <TextField
+                                        fullWidth
+                                        // label="Phone"
+                                        placeholder="Mobile"
+                                        size="small"
+>>>>>>> a0d19cc (Initial commit)
                                         InputProps={{
                                             sx: {
                                                 backgroundColor: 'white',
@@ -675,6 +717,7 @@ function Formsection() {
                                     />
                                 </Grid2>
                                 <Grid2 size={{ xs: 12, sm: 3 }}>
+<<<<<<< HEAD
                                     <FormControl fullWidth size='small' error={!!errors.services}  >
                                         <InputLabel sx={{
                                             color: 'black',
@@ -687,11 +730,30 @@ function Formsection() {
 
                                             },
                                         }} >Select a service</InputLabel>
+=======
+                                    <FormControl fullWidth size="small" error={!!errors.services}>
+                                        <InputLabel
+                                            sx={{
+                                                color: 'black',
+                                                // backgroundColor: 'white',
+                                                px: 0.5,
+                                                pb: 2,
+                                                '&.Mui-focused': {
+                                                    color: '#0000',
+                                                    fontWeight: '600',
+                                                    border: '#ffff'
+                                                }
+                                            }}
+                                        >
+                                            Select a Service
+                                        </InputLabel>
+>>>>>>> a0d19cc (Initial commit)
                                         <Select
                                             labelId="services-label"
                                             defaultValue=""
                                             {...register('services', { required: 'Please select a service' })}
                                             label="Select a service"
+<<<<<<< HEAD
 
 
                                             inputProps={{
@@ -700,10 +762,18 @@ function Formsection() {
                                                 }
                                             }}
 
+=======
+                                            inputProps={{
+                                                sx: {
+                                                    backgroundColor: 'white'
+                                                }
+                                            }}
+>>>>>>> a0d19cc (Initial commit)
                                             sx={{
                                                 backgroundColor: 'white',
                                                 color: 'black',
                                                 '& .MuiSelect-icon': {
+<<<<<<< HEAD
                                                     color: 'black',
                                                 },
                                                 '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
@@ -717,6 +787,17 @@ function Formsection() {
 
                                         >
                                             <MenuItem value="" >Select a service</MenuItem>
+=======
+                                                    color: 'black'
+                                                },
+                                                '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+                                                    borderColor: 'white',
+                                                    color: 'white'
+                                                }
+                                            }}
+                                        >
+                                            <MenuItem value="">Select a service</MenuItem>
+>>>>>>> a0d19cc (Initial commit)
                                             <MenuItem value="Website Development">Web Development</MenuItem>
                                             <MenuItem value="SEO">SEO</MenuItem>
                                             <MenuItem value="App Development">App Development</MenuItem>
@@ -734,6 +815,7 @@ function Formsection() {
                                             WebkitTransform: 'scale(0.50)',
                                             WebkitTransformOrigin: '0 0',
                                             height: '40px',
+<<<<<<< HEAD
                                             // width:"50px",
                                             display: "flex"
                                         }}
@@ -760,11 +842,32 @@ function Formsection() {
 
                                     </Grid2>
 
+=======
+                                            // width:"50px",``
+                                            display: 'flex'
+                                        }}
+                                    >
+                                        <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={handleRecaptchaChange} />
+                                    </Box>
+                                </Grid2>
+                                <Grid2 size={{ xs: 12, sm: 5, md: 2 }} textAlign={'center'} alignSelf={'center'} position={{ sm: 'relative', md:'static' }} left={'30%'} >
+                                    <Button
+                                        // fullWidth
+                                        variant="contained"
+                                        color="primary"
+                                        type="submit"
+                                        disabled={loading}
+                                        size="small"
+                                    >
+                                        {loading ? 'Loading...' : 'Submit'}
+                                    </Button>
+>>>>>>> a0d19cc (Initial commit)
                                 </Grid2>
                             </Grid2>
                         </form>
                     </Box>
                 </Grid2>
+<<<<<<< HEAD
                 <Grid2 size={{ xs: 12, sm: 2 }} display={{ xs: 'none', md: 'block' }}>
                     {/* Optional side content */}
                 </Grid2>
@@ -774,3 +877,11 @@ function Formsection() {
 }
 
 export default Formsection;
+=======
+            </Grid2>
+        </Box>
+    );
+}
+
+export default Formsection;
+>>>>>>> a0d19cc (Initial commit)

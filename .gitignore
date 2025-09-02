@@ -4,8 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
+<<<<<<< HEAD
 .zip*
 # testing
+=======
+
+# testing //
+>>>>>>> a0d19cc (Initial commit)
 /coverage
 
 # next.js

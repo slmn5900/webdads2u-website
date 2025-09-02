@@ -365,7 +365,11 @@ const Testing = () => {
                                         <div className="home-header-phone-det">
                                             <h3>Feel free to contact us</h3>
                                             <h6>
+<<<<<<< HEAD
                                                 <a href="tel:+91-8825607550">+91-8825607550</a>
+=======
+                                                <a href="tel:+91-88256 07550">+91-88256 07550</a>
+>>>>>>> a0d19cc (Initial commit)
                                             </h6>
                                         </div>
                                     </div>

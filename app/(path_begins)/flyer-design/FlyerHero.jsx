@@ -53,7 +53,11 @@ function FlyerHero() {
                         <Col md={6} lg={3}>
                             <div className="flyerbox">
                                 <img alt="Flyer Design Company In Chennai" src="/webdads/images/flyerdesign/global-enterprises.webp" className="w-100"></img>
+<<<<<<< HEAD
                                 <h3>Newspaper flyer</h3>
+=======
+                                <h3>newspaper flyer</h3>
+>>>>>>> a0d19cc (Initial commit)
                             </div>
                         </Col>
                         <Col md={6} lg={3}>

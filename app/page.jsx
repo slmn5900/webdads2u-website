@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 // import '../style/home/home.scss';
+<<<<<<< HEAD
 import { Metadata } from 'next';
 export const metadata = {
     title: 'Web Design Company In Chennai & Web Development Company In Chennai',
@@ -7,6 +8,9 @@ export const metadata = {
     keyword:
         'web design company in chennai,web designing company in chennai,website design company in chennai,website company in chennai,top web design company in chennai,best web design company in chennai,low cost web design company in chennai,web designers company in chennai,custom web design company in chennai,web development company in chennai,web developers in chennai,website price in chennai,website designers in chennai'
 };
+=======
+
+>>>>>>> a0d19cc (Initial commit)
 // Lazy load the components
 const Herosection = React.lazy(() => import('../components/Herosection'));
 const Formsection = React.lazy(() => import('../components/Formsection'));
@@ -24,6 +28,10 @@ const CardCantainer = React.lazy(() => import('../components/CardContainer'));
 const CustomTabPanel = React.lazy(() => import('../components/CustomTabPanel'));
 import '../style/home/landing_page.scss'; // Import your CSS file
 import LoadingComponent from '../components/LoadingComponent';
+<<<<<<< HEAD
+=======
+
+>>>>>>> a0d19cc (Initial commit)
 const LandingPage = () => {
     return (
         <div>

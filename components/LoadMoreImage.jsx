@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import Image from 'next/image';
 // import { Container } from 'postcss';
 // import { Button, Col, Row } from 'react-bootstrap';
@@ -137,11 +138,17 @@
 'use client';
 
 import React from 'react';
+=======
+'use client';
+>>>>>>> a0d19cc (Initial commit)
 import Image from 'next/image';
 import { Grid2, Box, Typography, Button, Container } from '@mui/material';
 import { motion } from 'framer-motion';
 import Loader from './Loader';
+<<<<<<< HEAD
 
+=======
+>>>>>>> a0d19cc (Initial commit)
 // Images
 import a1 from '../public/webdads/images/home/Assert/Adsfit_19890fc227.png';
 import a2 from '../public/webdads/images/home/Assert/Amethyst.png';
@@ -168,11 +175,16 @@ const about = [
     { no: 9, img: a9 },
     { no: 10, img: a10 },
     { no: 11, img: a11 },
+<<<<<<< HEAD
     { no: 12, img: a12 },
+=======
+    { no: 12, img: a12 }
+>>>>>>> a0d19cc (Initial commit)
 ];
 
 const LoadMoreImage = () => {
     return (
+<<<<<<< HEAD
         <Box sx={{ mt: 3 }}>
             <Container>
                 <Grid2 container spacing={4} alignItems="center">
@@ -187,16 +199,32 @@ const LoadMoreImage = () => {
                                 fontWeight="bold"
                                 sx={{ color: '#262250', fontFamily: "Poppins" }}
                             >
+=======
+        <Box sx={{ mt: 3, px: { xs: 0, md: 7 }, pb: 2 }}>
+            <Container>
+                <Grid2 container spacing={4} alignItems="center">
+                    {/* Left Side */}
+                    <Grid2 size={{ xs: 12, md: 6 }}>
+                        <Box sx={{ mt: { xs: 0, sm: 5 } }}>
+                            <Typography variant="h6" fontWeight="bold" sx={{ fontFamily: 'Poppins' }}>
+                                10+ years and 150+ clients
+                            </Typography>
+                            <Typography variant="h4" fontWeight="bold" sx={{ color: '#262250', fontFamily: 'Poppins' }}>
+>>>>>>> a0d19cc (Initial commit)
                                 We are the Solution for Web Designing and Web Development
                             </Typography>
                             <Typography mt={2}>
                                 <Box component="span" fontWeight="bold" sx={{ color: '#7a7a7a', fontSize: '18px' }}>
+<<<<<<< HEAD
                                     <a
                                         href="https://webdads2u.com/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         style={{ textDecoration: 'none', color: 'inherit', fontFamily: "Poppins" }}
                                     >
+=======
+                                    <a href="https://webdads2u.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit', fontFamily: 'Poppins' }}>
+>>>>>>> a0d19cc (Initial commit)
                                         Best Web Design and Web Development Company in Chennai
                                     </a>
                                 </Box>
@@ -212,8 +240,13 @@ const LoadMoreImage = () => {
                                         px: 5,
                                         py: 1.5,
                                         background: 'linear-gradient(90deg, #871752 0%, #262250 50%)',
+<<<<<<< HEAD
                                         fontFamily: "Poppins",
                                         textTransform: "capitalize"
+=======
+                                        fontFamily: 'Poppins',
+                                        textTransform: 'capitalize'
+>>>>>>> a0d19cc (Initial commit)
                                     }}
                                 >
                                     More About
@@ -223,17 +256,25 @@ const LoadMoreImage = () => {
                     </Grid2>
 
                     {/* Right Side - Logos */}
+<<<<<<< HEAD
                     <Grid2 size={{ xs: 12, md: 6 }} >
+=======
+                    <Grid2 size={{ xs: 12, md: 6 }} sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
+>>>>>>> a0d19cc (Initial commit)
                         <Grid2 container spacing={2}>
                             {about.length > 0 ? (
                                 about.map((item, index) => (
                                     <Grid2 size={{ xs: 6, sm: 3 }} key={index}>
+<<<<<<< HEAD
                                         <motion.div
                                             initial={{ opacity: 0, scale: 0.8 }}
                                             animate={{ opacity: 1, scale: 1 }}
                                             transition={{ delay: index * 0.05 }}
                                             whileHover={{ scale: 1.1 }}
                                         >
+=======
+                                        <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: index * 0.05 }} whileHover={{ scale: 1.1 }}>
+>>>>>>> a0d19cc (Initial commit)
                                             <Box
                                                 sx={{
                                                     boxShadow: '0 15px 55px rgb(138 138 138 / 30%)',
@@ -242,6 +283,7 @@ const LoadMoreImage = () => {
                                                     display: 'flex',
                                                     justifyContent: 'center',
                                                     alignItems: 'center',
+<<<<<<< HEAD
                                                     p: 1,
                                                 }}
                                             >
@@ -252,6 +294,12 @@ const LoadMoreImage = () => {
                                                     height={100}
                                                     style={{ objectFit: 'contain' }}
                                                 />
+=======
+                                                    p: 1
+                                                }}
+                                            >
+                                                <Image src={item.img} alt="about" width={100} height={100} style={{ objectFit: 'contain' }} />
+>>>>>>> a0d19cc (Initial commit)
                                             </Box>
                                         </motion.div>
                                     </Grid2>

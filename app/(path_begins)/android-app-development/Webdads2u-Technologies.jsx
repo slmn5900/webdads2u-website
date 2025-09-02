@@ -87,7 +87,11 @@ function Webdads2uTechnologies() {
                     <div className="col-xs-12 col-md-6 col-lg-3">
                         <div className="card">
                             <div className="card-title">
+<<<<<<< HEAD
                                 <h2>Embracing New Versions</h2>
+=======
+                                <h2>Embracing new Versions</h2>
+>>>>>>> a0d19cc (Initial commit)
                                 <p>
                                     Stay ahead of the curve with our Android app development services, embracing new versions and updates. Our team constantly adapts to the latest advancements, ensuring your app remains compatible, secure, and
                                     optimized for the newest Android versions.

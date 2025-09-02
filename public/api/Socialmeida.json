@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> a0d19cc (Initial commit)
 {
     "header": {
         "subheader": {
@@ -46,13 +49,18 @@
                 {
                     "label": "Whatsapp",
                     "type": "link",
+<<<<<<< HEAD
                     "href": "https://wa.me/918825607550",
+=======
+                    "href": "https://wa.me/9188256 07550",
+>>>>>>> a0d19cc (Initial commit)
                     "style": "contained",
                     "color": "success",
                     "icon": "lucide:message-circle"
                 }
             ]
         },
+<<<<<<< HEAD
         "contact_info": 
            {
              
@@ -70,6 +78,22 @@
                 "/webdadsNewImages/social-media/Bhava mockups 4 (1).png",
                 "/webdadsNewImages/social-media/B square laptop mockup 1.png",
                 "/webdadsNewImages/social-media/Zen mobile mockup 1.png"
+=======
+        "contact_info": {
+            "email": "info@webdads2u.com",
+            "phone": "88256 07550"
+        },
+        "gallery": {
+            "title": "Our Work",
+            "images": [
+                "/webdadsNewImages/socialmedia/1a698c7340f9690aff0c29ea4415610f1e44622c.jpg",
+                "/webdadsNewImages/socialmedia/B square laptop mockup 1.png",
+                "/webdadsNewImages/socialmedia/Zen mobile mockup 1 (1).png",
+                "/webdadsNewImages/socialmedia/fbe1d199d13ebbe3aed05118894b6e9693ac0457.jpg",
+                "/webdadsNewImages/socialmedia/Arcmen mockup images 2 (1).png",
+                "/webdadsNewImages/socialmedia/leading mockup 1 (3).png",
+                "/webdadsNewImages/socialmedia/Bhava mockups 1 (1).png"
+>>>>>>> a0d19cc (Initial commit)
             ]
         }
     },
@@ -78,6 +102,7 @@
         "logos": [
             {
                 "name": "TEAM",
+<<<<<<< HEAD
                 "logo": "webdadsNewImages/webdevelopment/clientslogo/teamlogo.png"
             },
             {
@@ -107,11 +132,43 @@
             {
                 "name": "ZEN",
                 "logo": "webdadsNewImages/webdevelopment/clientslogo/zenlogo.png"
+=======
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/teamlogo.png"
+            },
+            {
+                "name": "BEST",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/bestlogo.png"
+            },
+            {
+                "name": "DIAMOND",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/diamond.png"
+            },
+            {
+                "name": "Pediatric-Association",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/pediatric-association.png"
+            },
+            {
+                "name": "Lead-G",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/leadlogo.png"
+            },
+            {
+                "name": "Skill-Tech",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/skill-logo.png"
+            },
+            {
+                "name": "B-Square",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/b-square.png"
+            },
+            {
+                "name": "ZEN",
+                "logo": "/webdadsNewImages/webdevelopment/clientslogo/zenlogo.png"
+>>>>>>> a0d19cc (Initial commit)
             }
         ]
     },
     "why_choose_us": {
         "heading": "Why Choose WEBDADS2U?",
+<<<<<<< HEAD
         "subheading": "Specialized React Web Development to Power Your Digital Vision",
         "description": "Webdads2u Private Limited was founded in 2013 to help companies to achieve their business goals on the Web in the best way.",
         "services": [
@@ -141,20 +198,63 @@
                 "label": "Successful Projects",
                 "value": "250+",
                 "icon": "/webdadsNewImages/webdevelopment/why-choose/file_13194621 1.png"
+=======
+        "subheading": "Discover Our Expertise as a Wordpress Web Design and Development Company",
+        "description": "Webdads2u Private Limited was founded in 2013 to help companies to achieve their business goals on the Web in the best way.",
+        "services": [
+            {
+                "title": "Custom WordPress Development",
+                "description": "Our web developers excel in creating commercially successful and popular websites.",
+                "icon": "/webdadsNewImages/common-icon/why-choose/Group.svg"
+            },
+            {
+                "title": "WordPress Theme Customization",
+                "description": "Great design drives results — we go beyond creativity to connect your brand with your audience.",
+                "icon": "/webdadsNewImages/common-icon/why-choose/painting-brush_9175169 1.svg"
+            },
+            {
+                "title": "WordPress Theme integration",
+                "description": "Enhance your site's appeal and user interaction with our seamless custom theme integration services.",
+                "icon": "/webdadsNewImages/common-icon/why-choose/Vector.svg"
+            }
+        ],
+        "stats": [
+            {
+                "label": "Years of Experience",
+                "value": "10+",
+                "icon": "/webdadsNewImages/common-icon/why-choose/Group.png"
+>>>>>>> a0d19cc (Initial commit)
             },
             {
                 "label": "Sales Closed",
                 "value": "300+",
+<<<<<<< HEAD
                 "icon": "lucide:dollar-sign"
+=======
+                "icon": "/webdadsNewImages/common-icon/why-choose/Frame 1984078326 (1).svg"
+            },
+            {
+                "label": "Successful Projects",
+                "value": "250+",
+                "icon": "/webdadsNewImages/common-icon/why-choose/file_13194621 1.png"
+>>>>>>> a0d19cc (Initial commit)
             },
             {
                 "label": "Satisfied Clients",
                 "value": "150+",
+<<<<<<< HEAD
                 "icon": "/webdadsNewImages/webdevelopment/why-choose/Group 1000001788.png"
             }
         ]
     },
     "voice-of-trust": {
+=======
+                "icon": "/webdadsNewImages/common-icon/why-choose/Group 1000001788.png"
+            }
+        ]
+    },
+    "voiceoftrust": {
+>>>>>>> a0d19cc (Initial commit)
         "title": "Voices of Trust That Shaped Our Reliable Reputation",
         "subtitle": "Real Stories. Real Impact.",
         "carousel": {
@@ -238,19 +338,31 @@
         "projects": [
             {
                 "name": "Team",
+<<<<<<< HEAD
                 "image": "/webdadsNewImages/social-media/project/leadg.in_ 2 (2).png",
+=======
+                "image": "/webdadsNewImages/socialmedia/portfolio/leadg.in_ 2 (1).svg",
+>>>>>>> a0d19cc (Initial commit)
                 "url": "",
                 "icon": "lucide:layout-template"
             },
             {
                 "name": "Adsfit",
+<<<<<<< HEAD
                 "image": "/webdadsNewImages/social-media/project/www.arcmeninterior.com_ 2 (2).png",
+=======
+                "image": "/webdadsNewImages/socialmedia/portfolio/www.arcmeninterior.com_ 2 (1).svg",
+>>>>>>> a0d19cc (Initial commit)
                 "url": "",
                 "icon": "lucide:briefcase"
             },
             {
                 "name": "Aquaflo Plast",
+<<<<<<< HEAD
                 "image": "/webdadsNewImages/social-media/project/www.pediatricsfrisco.com_ (1) 2 (2).png",
+=======
+                "image": "/webdadsNewImages/socialmedia/portfolio/www.pediatricsfrisco.com_ (1) 2 (1).svg",
+>>>>>>> a0d19cc (Initial commit)
                 "url": "",
                 "icon": "lucide:home"
             }
@@ -263,7 +375,12 @@
             "inactiveColor": "#ccc"
         }
     },
+<<<<<<< HEAD
     "logo_design": {
+=======
+    "logo_design": 
+  [  {
+>>>>>>> a0d19cc (Initial commit)
         "title": "Logo Design",
         "description": "Lorem ipsum dolor sit amet consectetur.",
         "features": [
@@ -283,7 +400,11 @@
             "file_name": "/webdadsNewImages/broucher/Arcmen 1.png",
             "alt_text": "Professional Logo Design Services"
         }
+<<<<<<< HEAD
     },
+=======
+    }],
+>>>>>>> a0d19cc (Initial commit)
     "contact_section": {
         "title": "Ready to Become a World-Class Brand?",
         "description": "Let's discuss how we can help you achieve your goals. Fill out the form below and we'll get back to you within 24 hours.",
@@ -345,5 +466,9 @@
             }
         ]
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> a0d19cc (Initial commit)

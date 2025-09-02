@@ -1,18 +1,30 @@
 .Hero-content {
     h1 {
+<<<<<<< HEAD
         font-size: 30px !important;
+=======
+        // font-size: 30px !important;
+>>>>>>> a0d19cc (Initial commit)
         background: linear-gradient(to left, #262250 30%, #E40724);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 700 !important;
+<<<<<<< HEAD
         line-height: 55px !important;
+=======
+        // line-height: 55px !important;
+>>>>>>> a0d19cc (Initial commit)
         font-family: "Poppins", Sans-serif;
 
         padding-bottom: 5px;
     }
 
     p {
+<<<<<<< HEAD
         font-size: 15px !important;
+=======
+        // font-size: 15px !important;
+>>>>>>> a0d19cc (Initial commit)
         background: linear-gradient(to left, #262250 30%, #E40724);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -108,11 +120,19 @@
     flex-direction: row;
 }
 
+<<<<<<< HEAD
 .mb-rsbtn {
 
     // width: 167px;
 
 }
+=======
+// .mb-rsbtn {
+
+//     // width: 167px;
+
+// }
+>>>>>>> a0d19cc (Initial commit)
 
 @media screen and (max-width:768px) {
 
@@ -223,11 +243,35 @@
         padding-top: 40px;
     }
 
+<<<<<<< HEAD
     .Hero-content h1 {
         font-size: 20px !important;
         line-height: 30px !important;
     }
 }
+=======
+    // .Hero-content h1 {
+    //     font-size: 20px !important;
+    //     line-height: 30px !important;
+    // }
+}
+// @media  (max-width:1020px) {
+    
+
+//     .Hero-content h1 {
+//         font-size: 20px !important;
+//         line-height: 30px !important;
+//     }
+// }
+// @media (max-width:1920px ) {
+    
+
+//     .Hero-content h1 {
+//         font-size: 45px !important;
+//         line-height: 68px !important;
+//     }
+// }
+>>>>>>> a0d19cc (Initial commit)
 
 
 

@@ -33,7 +33,11 @@ import dynamic from 'next/dynamic';
 import './Fq-website-maintenance.css';
 
 // Dynamically import components with SSR set to false
+<<<<<<< HEAD
 const Websitemaintenancebanner = dynamic(() => import('./website-maintenancebanner'), { ssr: false });
+=======
+const Websitemaintenancebanner = dynamic(() => import('./WebsiteBanner.jsx'), { ssr: false });
+>>>>>>> a0d19cc (Initial commit)
 const Websitemaintenancecompany = dynamic(() => import('./website-maintenance-company'), { ssr: false });
 const Webmaintenanceservices = dynamic(() => import('./Web-Maintenance-Services'), { ssr: false });
 const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });

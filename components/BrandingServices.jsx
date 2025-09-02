@@ -202,6 +202,7 @@
 'use client';
 
 import React from 'react';
+<<<<<<< HEAD
 import {
     Box,
     Container,
@@ -211,6 +212,9 @@ import {
     useTheme,
     useMediaQuery,
 } from '@mui/material';
+=======
+import { Box, Container, Grid2, Typography, Button, useTheme, useMediaQuery } from '@mui/material';
+>>>>>>> a0d19cc (Initial commit)
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -224,9 +228,15 @@ const fadeInUp = {
         transition: {
             delay: i * 0.1,
             duration: 0.6,
+<<<<<<< HEAD
             ease: 'easeOut',
         },
     }),
+=======
+            ease: 'easeOut'
+        }
+    })
+>>>>>>> a0d19cc (Initial commit)
 };
 
 // Branding services data
@@ -234,38 +244,67 @@ const brandingItems = [
     {
         title: 'Logo',
         link: '/logo-design-agency/',
+<<<<<<< HEAD
         icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069682/logo-branding-services_5869f711/logo-branding-services_5869f711.png',
+=======
+        icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069682/logo-branding-services_5869f711/logo-branding-services_5869f711.png'
+>>>>>>> a0d19cc (Initial commit)
     },
     {
         title: 'Business Card',
         link: '/business-card/',
+<<<<<<< HEAD
         icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069686/bussiness-card-branding-services_58549342/bussiness-card-branding-services_58549342.png',
+=======
+        icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069686/bussiness-card-branding-services_58549342/bussiness-card-branding-services_58549342.png'
+>>>>>>> a0d19cc (Initial commit)
     },
     {
         title: 'Brochure',
         link: '/brochure/',
+<<<<<<< HEAD
         icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069662/brochure-branding-services_591cb50b/brochure-branding-services_591cb50b.png',
+=======
+        icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069662/brochure-branding-services_591cb50b/brochure-branding-services_591cb50b.png'
+>>>>>>> a0d19cc (Initial commit)
     },
     {
         title: 'Product Design',
         link: '/',
+<<<<<<< HEAD
         icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069674/product-branding-services_58850203/product-branding-services_58850203.png',
+=======
+        icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069674/product-branding-services_58850203/product-branding-services_58850203.png'
+>>>>>>> a0d19cc (Initial commit)
     },
     {
         title: 'PPT Design',
         link: '/',
+<<<<<<< HEAD
         icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069678/ppt-branding-services_5874dfa2/ppt-branding-services_5874dfa2.png',
+=======
+        icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069678/ppt-branding-services_5874dfa2/ppt-branding-services_5874dfa2.png'
+>>>>>>> a0d19cc (Initial commit)
     },
     {
         title: 'Social Media Poster',
         link: '/social-media-service/',
+<<<<<<< HEAD
         icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069670/social-media-branding-services_5896bc63/social-media-branding-services_5896bc63.png',
+=======
+        icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069670/social-media-branding-services_5896bc63/social-media-branding-services_5896bc63.png'
+>>>>>>> a0d19cc (Initial commit)
     },
     {
         title: 'Letter Head',
         link: '/',
+<<<<<<< HEAD
         icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069666/letter-head-branding-services_590104d0/letter-head-branding-services_590104d0.png',
     },
+=======
+        icon: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_25,h_26/f_auto,q_auto/v1701069666/letter-head-branding-services_590104d0/letter-head-branding-services_590104d0.png'
+    }
+>>>>>>> a0d19cc (Initial commit)
 ];
 
 export default function BrandingServices() {
@@ -273,6 +312,7 @@ export default function BrandingServices() {
     const isSm = useMediaQuery(theme.breakpoints.down('sm'));
 
     return (
+<<<<<<< HEAD
         <Box sx={{ fontFamily: 'Poppins, sans-serif', py: 4 }}>
             <Container>
                 <Grid2 container spacing={5} alignItems="flex-start">
@@ -288,6 +328,18 @@ export default function BrandingServices() {
                                 Branding Services
                             </Typography>
                             <Typography variant="body1" color="text.secondary" paragraph sx={{ fontFamily: 'Poppins', }}>
+=======
+        <Box sx={{ fontFamily: 'Poppins, sans-serif', py: { xs: 2, sm: 3, md: 7 }, px: { md: 7 } }}>
+            <Container>
+                <Grid2 container spacing={5} alignItems="flex-start">
+                    {/* Left Content */}
+                    <Grid2 size={{ xs: 12, md: 6 }}>
+                        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+                            <Typography variant="h4" fontWeight="bold" gutterBottom sx={{ fontFamily: 'Poppins' }}>
+                                Branding Services
+                            </Typography>
+                            <Typography variant="body1" color="text.secondary" paragraph sx={{ fontFamily: 'Poppins', textAlign: { xs: 'left', sm: 'left', md: 'justify' } }}>
+>>>>>>> a0d19cc (Initial commit)
                                 <strong>
                                     <Link href="/branding-design/" style={{ color: '#7a7a7a', textDecoration: 'none' }}>
                                         Branding services
@@ -295,13 +347,20 @@ export default function BrandingServices() {
                                 </strong>{' '}
                                 encompass the strategic initiatives a company implements to forge, sustain, and amplify its brand identity. The primary goal is to cultivate a robust, distinct, and cohesive image within the intended audience.
                             </Typography>
+<<<<<<< HEAD
                             <Typography variant="body1" color="text.secondary" paragraph sx={{ fontFamily: 'Poppins', }}>
                                 As a distinguished web designing and web development company in Chennai, Webdads2u Pvt. Ltd. recognizes the pivotal role of branding services in fortifying a company’s online presence and fostering positive relationships with its audience.
+=======
+                            <Typography variant="body1" color="text.secondary" paragraph sx={{ fontFamily: 'Poppins', textAlign: { xs: 'left', sm: 'left', md: 'justify' } }}>
+                                As a distinguished web designing and web development company in Chennai, Webdads2u Pvt. Ltd. recognizes the pivotal role of branding services in fortifying a company’s online presence and fostering positive
+                                relationships with its audience.
+>>>>>>> a0d19cc (Initial commit)
                             </Typography>
                         </motion.div>
 
                         <Grid2 container spacing={2} mt={2}>
                             {brandingItems.map((item, i) => (
+<<<<<<< HEAD
                                 <Grid2 size={{ xs: 6, md: 6 }} key={i}>
                                     <motion.div
                                         initial="hidden"
@@ -314,6 +373,14 @@ export default function BrandingServices() {
                                             <Image src={item.icon} alt={item.title} width={25} height={25} />
                                             <Link href={item.link} passHref style={{ textDecoration: "none" }}>
                                                 <Typography variant="body2" fontWeight="500" color="text.primary" sx={{ ml: 1, cursor: 'pointer', fontFamily: 'Poppins', color: "#565376" }}>
+=======
+                                <Grid2 size={{ xs: 6, sm: 4 ,md: 6 }} key={i}>
+                                    <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} custom={i}>
+                                        <Box display="flex" alignItems="center">
+                                            <Image src={item.icon} alt={item.title} width={25} height={25} />
+                                            <Link href={item.link} passHref style={{ textDecoration: 'none' }}>
+                                                <Typography variant="body2" fontWeight="500" color="text.primary" sx={{ ml: 1, cursor: 'pointer', fontFamily: 'Poppins', color: '#565376' }}>
+>>>>>>> a0d19cc (Initial commit)
                                                     {item.title}
                                                 </Typography>
                                             </Link>
@@ -339,7 +406,11 @@ export default function BrandingServices() {
                 </Grid2>
 
                 {/* CTA Button */}
+<<<<<<< HEAD
                 <Box mt={5} textAlign="center">
+=======
+                <Box mt={2} textAlign="center">
+>>>>>>> a0d19cc (Initial commit)
                     <Button
                         variant="contained"
                         href="/branding-design/"
@@ -347,6 +418,7 @@ export default function BrandingServices() {
                             borderRadius: 15,
                             px: 5,
                             py: 1.8,
+<<<<<<< HEAD
                             fontWeight: "500",
                             background: 'linear-gradient(90deg, #871752 0%, #262250 50%)',
                             '&:hover': {
@@ -354,6 +426,15 @@ export default function BrandingServices() {
                             },
                             fontFamily: 'Poppins',
                             textTransform: "capitalize"
+=======
+                            fontWeight: '500',
+                            background: 'linear-gradient(90deg, #871752 0%, #262250 50%)',
+                            '&:hover': {
+                                background: 'linear-gradient(90deg, #871752 10%, #262250 90%)'
+                            },
+                            fontFamily: 'Poppins',
+                            textTransform: 'capitalize'
+>>>>>>> a0d19cc (Initial commit)
                         }}
                     >
                         Read More

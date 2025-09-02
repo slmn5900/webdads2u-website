@@ -1,5 +1,9 @@
 import React from 'react';
 import LogoMain from './LogoMain';
+<<<<<<< HEAD
+=======
+import LogoDesignPage from './LogoDesignPage'
+>>>>>>> a0d19cc (Initial commit)
 
 export const metadata = {
     title: 'Logo Design Company In Chennai ',
@@ -10,7 +14,12 @@ export const metadata = {
 const page = () => {
     return (
         <div>
+<<<<<<< HEAD
             <LogoMain />
+=======
+            {/* <LogoMain /> */}
+            <LogoDesignPage />
+>>>>>>> a0d19cc (Initial commit)
         </div>
     );
 };

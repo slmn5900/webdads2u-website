@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // import React from 'react';
+=======
+   // import React from 'react';
+>>>>>>> a0d19cc (Initial commit)
 // import dynamic from 'next/dynamic';
 // const UnderConstructions = dynamic(() => import('./UnderConstructions'), { ssr: false });
 // export const metadata = {

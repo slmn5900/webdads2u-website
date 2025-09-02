@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { careerForm } from '../../../api/UserAuthentication';
+<<<<<<< HEAD
 const allCountries = [
     'Afghanistan',
     'Albania',
@@ -198,6 +199,10 @@ const allCountries = [
     'Zambia',
     'Zimbabwe'
 ];
+=======
+import { AllCountriess } from './country.jsx';
+const allCountries = AllCountriess;
+>>>>>>> a0d19cc (Initial commit)
 const CarrerForm = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -259,6 +264,10 @@ const CarrerForm = () => {
             return;
         }
 
+<<<<<<< HEAD
+=======
+        // const formDataValues = new FormData();
+>>>>>>> a0d19cc (Initial commit)
         const formDataValues = new FormData();
 
         // Append each field to the FormData object
@@ -466,7 +475,11 @@ const CarrerForm = () => {
                         </div>
                         <div className="mt-2 mb-2">
                             {/* <ReCAPTCHA
+<<<<<<< HEAD
                                 sitekey="YOUR_NEW_SITE_KEY" // Replace with your actual reCAPTCHA site key
+=======
+                                sitekey="YOUR_new_SITE_KEY" // Replace with your actual reCAPTCHA site key
+>>>>>>> a0d19cc (Initial commit)
                                 onChange={handleCaptchaChange}
                             /> */}
                             <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={handleCaptchaChange} />

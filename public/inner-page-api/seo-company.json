@@ -1,0 +1,261 @@
+{
+    "header_section": {
+        "title": "Leading Business in the Right Direction",
+        "description": "Real-time tools abd rich insights mean our support solution amplifies your tem for an  unbeatable experience",
+        "img1": "img.png",
+        "img2": "img.png"
+    },
+    "slider_section": {
+        "title": "Trusted by over 150+ businesses worldwide!",
+       "logos": [
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069865/smart-duckling-logo_2184e61c/smart-duckling-logo_2184e61c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069793/iritube-logo-2/iritube-logo-2.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069786/lalit-food-machines_263339d3/lalit-food-machines_263339d3.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069797/corengg-serve-engineering_2608905d/corengg-serve-engineering_2608905d.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069802/ssr-academy_2594356c/ssr-academy_2594356c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069817/rps-group-1/rps-group-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069821/pv-pharma_25467877/pv-pharma_25467877.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069825/arc-man-logo_2299280a/arc-man-logo_2299280a.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069828/best-1/best-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069832/best_227e2dba/best_227e2dba.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069839/golden-logo_22618361/golden-logo_22618361.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069835/iritube-logo-1/iritube-logo-1.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069843/iritube-logo_22463754/iritube-logo_22463754.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069847/oilsep-logo_22387653/oilsep-logo_22387653.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069861/teamwater-logo_220f3c18/teamwater-logo_220f3c18.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069865/smart-duckling-logo_2184e61c/smart-duckling-logo_2184e61c.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069793/iritube-logo-2/iritube-logo-2.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069786/lalit-food-machines_263339d3/lalit-food-machines_263339d3.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069778/matchbox-mansion_2643c180/matchbox-mansion_2643c180.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069857/saj-hotel-logo_221ae891/saj-hotel-logo_221ae891.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_143,h_113,dpr_1.5/f_auto,q_auto/v1701069774/pridermx_26585aab/pridermx_26585aab.png?_i=AA"
+    ]
+    },
+    "seo_help_section": {
+        "title1": "Why every business need SEO",
+        "title2": "Our web solutions help your business grow online",
+        "description": "Unlock the potential of your business with our impactful SEO Company In Chennai. In today’s digital landscape, visibility is key. Our tailored solutions ensure your online presence thrives, reaching your audience effectively. Elevate your brand, connect with customers, and witness unparalleled growth with our dedicated SEO expertise in Chennai.",
+        "tab": [
+            {
+                "value": "Website SEO Copywriting",
+                "icon": "/webdads/images/seo-development/Coppy-writting.svg",
+                "label": "Website SEO Copywriting",
+                "content_1": [
+                    {
+                        "title": "Website SEO Copywriting",
+                        "text": "Discover the transformative power of our SEO Company In Chennai. Elevate your online presence with expertly crafted strategies tailored to your business. We specialize in driving traffic, enhancing visibility, and ensuring your brand stands out amidst competition. With our dedicated team, witness your website soar to the top ranks, captivating audiences and fostering meaningful connections. Maximize your potential and embrace success with our unparalleled SEO services in Chennai.",
+                        "image": "/webdads/images/seo-development/copyright-seo.webp"
+                    }
+                ]
+            },
+            {
+                "value": "Website Call Tracking",
+                "icon": "/webdads/images/seo-development/Call.svg",
+                "label": "Website Call Tracking",
+                "content_2": {
+                    "title": "Website Call Tracking",
+                    "text": "Experience the transformative impact of our SEO Company In Chennai with our innovative website call tracking. Beyond just optimizing your online presence, we provide insights into every click that drives your success. Hear the resonance of growth as our tailored strategies amplify your visibility in Chennai. With precise call tracking, witness firsthand the connections forged, the leads captured, and the triumphant rise of your business, fueled by our passionate dedication to SEO excellence in Chennai.",
+                    "image": "/webdads/images/seo-development/call_tracking.webp"
+                }
+            },
+            {
+                "value": "Custom SEO Reporting",
+                "icon": "/webdads/images/seo-development/custom.svg",
+                "label": "Custom SEO Reporting",
+                "content_3": {
+                    "title": "Custom SEO Reporting",
+                    "text": "Embrace the journey of success with our SEO Company In Chennai, enhanced by custom reporting. Beyond raw numbers, our reports paint vibrant portraits of your digital evolution. Each data point is a triumph, each analysis is a testament to your brand's ascent in Chennai. Experience the thrill as our tailored reports narrate the story of your growth, reflecting our unwavering commitment to fueling your success through unparalleled SEO services in Chennai.",
+                    "image": "/images/Report.svg"
+                }
+            },
+            {
+                "value": "Personalized Web Content",
+                "icon": "/webdads/images/seo-development/Speed.svg",
+                "label": "Personalized Web Content",
+                "content_4": {
+                    "title": "Personalized Web Content",
+                    "text": "Uncover the transformative power of personalized web content with Webdads2u. We don't just craft words and visuals; we sculpt a digital symphony that resonates deeply with your audience. Every element meticulously designed to evoke emotions, forge connections, and inspire action. Witness the alchemy of tailored content as visitors become ardent advocates, propelling your brand to unparalleled heights of resonance and connection, all guided by the passionate expertise of Webdads2u.",
+                    "image": "/images/Web-Content.svg"
+                }
+            },
+            {
+                "value": "Page Speed Optimization",
+                "icon": "/webdads/images/seo-development/Speed.svg",
+                "label": "Page Speed Optimization",
+                "content_5": {
+                    "title": "Page Speed Optimization",
+                    "text": "Experience the lightning-fast evolution of your website's performance with Webdads2u's page speed optimization. Every millisecond counts in capturing attention and fostering engagement. Our meticulous approach ensures your site loads swiftly, captivating visitors and keeping them immersed in your digital world. Feel the exhilaration as your pages load seamlessly, forging an unbreakable connection with your audience. Embrace the power of a swift, responsive website, propelling your brand to new heights of online success.",
+                    "image": "/webdads/images/seo-development/page-speed-optimization.webp"
+                }
+            }
+        ]
+    },
+    "our_service": {
+        "title1": "Our services",
+        "title2": "Services we provide special for you",
+        "description": "In the digital realm, diverse businesses harbor unique needs, yet all crave visibility. While many acknowledge its importance, some hesitate to allocate more marketing budget to SEO. These individuals ought to shift their perspective about SEO. It’s not an expense; it’s an impactful investment. Webdads2u echoes this sentiment, illuminating the truth that search engine optimization isn’t merely a cost but a potent catalyst for growth. It’s about nurturing your digital presence into a thriving, magnetic force that attracts success.",
+        "lists": [
+            {
+                "title1": "",
+                "icon": "icon.png",
+                "img": "img.png",
+                "title2": "",
+                "description": "",
+                "lists": [
+                    "Facebook Marketing",
+                    "Instagram Marketing",
+                    "Twitter Marketing"
+                ]
+            },
+            {
+                "title1": "Digital Marketing",
+                "icon": "icon.png",
+                "img": "img.png",
+                "title2": "Digital Marketing",
+                "description": "In the vibrant landscape of digital marketing, our passion at Webdads2u transcends conventional strategies. We infuse each campaign with soul, crafting experiences that resonate deeply. Our SEO Company In Chennai epitomize this approach, fueling your brand’s journey to stand out amidst the digital noise. It’s not just marketing; it’s a symphony of connections, emotions, and dedication to your success.",
+                "button": "Read More >"
+            },
+            {
+                "title1": "PPC Service",
+                "icon": "icon.png",
+                "img": "img.png",
+                "title2": "PPC Service",
+                "description": "Experience the transformative impact of our PPC services. Watch your brand soar as we craft targeted campaigns that speak directly to your audience. With precision and expertise, we channel your message to the right people at the right time, ensuring maximum impact and unparalleled results. Elevate your online presence and witness the power of strategic PPC in action.",
+                "button": "Read More >"
+            },
+            {
+                "title1": "E-commerce SEO Service",
+                "icon": "icon.png",
+                "img": "img.png",
+                "title2": "E-commerceSEO Service",
+                "description": "Discover the magic of our E-commerce SEO service. Watch your online store thrive as we meticulously optimize every facet, from keywords to user experience. We’re not just boosting rankings; we’re igniting your sales potential. With our expertise, your products will shine brightly in search results, captivating customers and transforming clicks into conversions. Elevate your E-commerce game and write a success story worth sharing.",
+                "button": "Read More >"
+            },
+            {
+                "title1": "Local SEO Service",
+                "icon": "icon.png",
+                "img": "img.png",
+                "title2": "Local SEO Service",
+                "description": "Experience the transformative force of our Local SEO service. We craft personalized strategies that speak directly to your community, igniting connections and driving growth. From optimizing listings to boosting visibility, our expertise ensures your business stands out locally, creating lasting impressions that resonate with your audience, paving the way for unparalleled success.",
+                "button": "Read More >"
+            },
+            {
+                "title1": "Off Page SEO",
+                "icon": "icon.png",
+                "img": "img.png",
+                "title2": "Off Page SEO",
+                "description": "Discover the transformative power of Off-Page SEO with WebDads2U. Beyond mere websites, we craft strategies that elevate your brand’s digital presence. Through authentic connections and quality backlinks, we amplify your online authority, ensuring your brand resonates powerfully, captivating audiences far and wide, paving the path for lasting success.",
+                "button": "Read More >"
+            },
+            {
+                "title1": "Link Building Service",
+                "icon": "icon.png",
+                "img": "img.png",
+                "title2": "Link Building Service",
+                "description": "Experience the game-changing prowess of our Link Building Service coupled with top-notch SEO Company In Chennai. We don’t just build links; we craft pathways to elevate your brand’s digital authority. With strategic precision, we forge connections that amplify your online presence, ensuring your brand captivates audiences and secures enduring success.",
+                "button": "Read More >"
+            },
+            {
+                "title1": "Content Writing Service",
+                "icon": "icon.png",
+                "img": "img.png",
+                "title2": "Content Writing Service",
+                "description": "Experience the magic of storytelling with our Content Writing Service. We don’t just craft words; we weave narratives that resonate deeply. From compelling copy to engaging articles, we breathe life into your brand’s voice. Let your story ignite emotions, captivate audiences, and forge lasting connections in the hearts of your readers.",
+                "button": "Read More >"
+            }
+        ]
+    },
+    "seo_looking": {
+        "title1": "Looking for the Best SEO results?",
+        "title2": "Get more Leads With SEO Optimization.",
+        "description": "Transform your SEO game and seize more leads! Our proven strategies can help you harness the power of optimization. Unleash potential, ignite exponential growth!",
+        "img": "img.png",
+        "lists": [
+            {
+                "icon": "/images/seo-development/graph-seo.webp",
+                "title": "Performance",
+                "desc": "Slow pages, too-large CSS or HTML"
+            },
+            {
+                "icon": "icon.png",
+                "title": "Localization",
+                "desc": "All issues with hrefiang, language"
+            },
+            {
+                "icon": "icon.png",
+                "title": "Content Quality",
+                "desc": "Unconsolidated duplicate page"
+            }
+        ],
+        "button": "Contact us"
+    },
+    "our_process": {
+        "title": "Our Process",
+        "img": "/images/process.png"
+    },
+    "our_handpick": {
+        "title_1": "Our Handpicked",
+        "title_2": "SEO Projects",
+        "description": "Hundreds of reviews from our customers confirm that. Our support team is both friendly and professional, and they usually attempt to help you. .!",
+        "button": "Contact Us",
+        "lists": [
+            {
+                "img_1": "/images/atgomart-web.avif"
+            },
+            {
+                "img_2": "/images/rajvision-web.avif"
+            },
+            {
+                "img_3": "/images/adsfit-web.avif"
+            }
+        ]
+    },
+    "seo_sheer": {
+        "title": "SEO the Sheer Digital Marketing Tool",
+        "img": "img.png",
+        "lists": [
+            {
+                "img": "/images/Helps.png",
+                "title": "Helps to Understand Search Behaviour"
+            },
+            {
+                "img": "/images/gettoknow.png",
+                "title": "Get to Know Customer Needs"
+            },
+            {
+                "img": "/images/Appropiate.png",
+                "title": "Appropiate Content"
+            },
+            {
+                "img": "/images/Analyze.png",
+                "title": "Analyze, Implement and Repeat strategy"
+            }
+        ]
+    },
+    "free_ask_qus": {
+        "title": "Frequently Asked Questions",
+        "description": "Hundreds of reviews from our customers confirm that. Our support team is both friendly and professional, and they usually attempt to help you. .!",
+        "queries": [
+            {
+                "question": "What does having Managed your services provider?",
+                "answer": "What does having Managed your services provider?"
+            },
+            {
+                "question": "What you about say your Business planning?",
+                "answer": "We encourage every team member to be a whole person. We have a flexible, high trust environment that is focused on doing great work."
+            },
+            {
+                "question": "You have a unique way of the working in IT?",
+                "answer": "Our purpose is to build solutions that remove barriers preventing people from doing their best work, and this is at the heart."
+            },
+            {
+                "question": "What types of systems do you support?",
+                "answer": "Increase social reach and productivity with our App Directory, a collection of famous applications like Instagram other web design."
+            },
+            {
+                "question": "Can you provide of all IT Managenment services?",
+                "answer": "Design studio founded in London and expanded our services, and become a multinational firm, offering services and solutions."
+            }
+        ]
+    }
+}
