@@ -68,11 +68,7 @@
 //                                 <h2 className="mt-3 text-white" style={{fontSize: '16px'}}>
 //                                     {service.title.split(' ').map((word, i) => (
 //                                         <React.Fragment key={i}>
-<<<<<<< HEAD
 //                                             {word} &nbsp; 
-=======
-//                                             {word} &nbsp;
->>>>>>> a0d19cc (Initial commit)
 
 //                                         </React.Fragment>
 //                                     ))}
@@ -85,26 +81,17 @@
 //             </Container>
 //         </section>
 
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> a0d19cc (Initial commit)
 //         </>
 //     );
 // };
 
 // export default ServicesSection;
-<<<<<<< HEAD
 "use client"
 import React from 'react';
 import { Container, Grid, Typography, Box } from '@mui/material';
-=======
-'use client';
-import React from 'react';
-import { Container, Grid2, Typography, Box } from '@mui/material';
->>>>>>> a0d19cc (Initial commit)
 import { motion } from 'framer-motion';
 import Image from 'next/image'; // If you're using Next.js. Otherwise, fallback to <img>
 
@@ -116,7 +103,6 @@ const cardVariants = {
         y: 0,
         transition: {
             delay: i * 0.1,
-<<<<<<< HEAD
             duration: 0.5,
         },
     }),
@@ -124,15 +110,6 @@ const cardVariants = {
         scale: 1.05,
         transition: { duration: 0.3 },
     },
-=======
-            duration: 0.5
-        }
-    }),
-    whileHover: {
-        scale: 1.05,
-        transition: { duration: 0.3 }
-    }
->>>>>>> a0d19cc (Initial commit)
 };
 
 const services = [
@@ -141,68 +118,43 @@ const services = [
         title: 'Website Development',
         imgSrc: '/webdads/images/home/web-development.png',
         link: '/website-development/',
-<<<<<<< HEAD
         alt: 'web-development',
-=======
-        alt: 'web-development'
->>>>>>> a0d19cc (Initial commit)
     },
     {
         id: 'service-box-2',
         title: 'SEO Services',
         imgSrc: '/webdads/images/home/seo-services.png',
         link: '/seo-company-in-chennai/',
-<<<<<<< HEAD
         alt: 'seo-services',
-=======
-        alt: 'seo-services'
->>>>>>> a0d19cc (Initial commit)
     },
     {
         id: 'service-box-3',
         title: 'Branding Design',
         imgSrc: '/webdads/images/home/branding-design.avif',
         link: '/branding-design/',
-<<<<<<< HEAD
         alt: 'branding-design',
-=======
-        alt: 'branding-design'
->>>>>>> a0d19cc (Initial commit)
     },
     {
         id: 'service-box-4',
         title: 'E-Commerce Development',
         imgSrc: '/webdads/images/home/e-commerce-development.avif',
         link: '/ecommerce-website-development/',
-<<<<<<< HEAD
         alt: 'e-commerce-development',
-=======
-        alt: 'e-commerce-development'
->>>>>>> a0d19cc (Initial commit)
     },
     {
         id: 'service-box-5',
         title: 'Mobile App Development',
         imgSrc: '/webdads/images/home/mobiile-app-development.avif',
         link: '/mobile-app-development/',
-<<<<<<< HEAD
         alt: 'mobile-app-development',
-=======
-        alt: 'mobile-app-development'
->>>>>>> a0d19cc (Initial commit)
     },
     {
         id: 'service-box-6',
         title: 'CRM & ERP Development',
         imgSrc: '/webdads/images/home/crm-erp-development.avif',
         link: '/crm-erp-development/',
-<<<<<<< HEAD
         alt: 'crm-erp-development',
     },
-=======
-        alt: 'crm-erp-development'
-    }
->>>>>>> a0d19cc (Initial commit)
 ];
 
 const ServicesSection = () => {
@@ -212,7 +164,6 @@ const ServicesSection = () => {
             sx={{
                 py: 5,
                 backgroundImage: 'linear-gradient(90deg,#871752 1%,#262250 44%)',
-<<<<<<< HEAD
                 overflow: 'hidden',
             }}
         >
@@ -264,47 +215,6 @@ const ServicesSection = () => {
                     ))}
                 </Grid>
             </Container>
-=======
-                overflow: 'hidden'
-            }}
-        >
-            <Grid2 container spacing={3} justifyContent="center">
-                {services.map((service, index) => (
-                    <Grid2
-                        size={{ xs: 12, sm: 4, md: 2 }}
-                        key={service.id}
-                        sx={{
-                            borderRight: {
-                                md: '1px solid #433674'
-                            },
-                            '&:last-of-type': {
-                                borderRight: {
-                                    md: 'none'
-                                }
-                            }
-                        }}
-                    >
-                        <motion.a href={service.link} style={{ textDecoration: 'none' }} custom={index} initial="hidden" animate="visible" whileHover="whileHover" variants={cardVariants}>
-                            <Box
-                                textAlign="center"
-                                sx={{
-                                    // borderRight: {
-                                    //     md: '1px solid white',
-                                    // },
-                                    pr: 2,
-                                    pl: 2
-                                }}
-                            >
-                                <motion.img src={service.imgSrc} alt={service.alt} width={76} height={76} loading="lazy" style={{ borderRadius: 8 }} />
-                                <Typography variant="subtitle1" sx={{ mt: 2, color: 'white', fontSize: { xs: '12px', sm: '12px', md: '13px' }, fontWeight: 500, fontFamily: 'Poppins' }}>
-                                    {service.title}
-                                </Typography>
-                            </Box>
-                        </motion.a>
-                    </Grid2>
-                ))}
-            </Grid2>
->>>>>>> a0d19cc (Initial commit)
         </Box>
     );
 };

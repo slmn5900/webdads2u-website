@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 
 
-=======
->>>>>>> a0d19cc (Initial commit)
 'use client';
 import React, { useState } from 'react';
 import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material';
@@ -70,7 +67,6 @@ const FAQ = () => {
     };
 
     return (
-<<<<<<< HEAD
         <div className="container mt-5">
             <div className="row d-flex align-items-start">
                 <section className="col-md-6">
@@ -81,17 +77,6 @@ const FAQ = () => {
                     {faqData.map((data, index) => (
                         <Accordion
 
-=======
-        <div className="container ">
-            <div className="row d-flex align-items-start  " style={{ marginTop: '15px' }}>
-                <section className="col-md-6 ">
-                    <div className="landing-page-faq-span-div">
-                        <span>FAQs</span>
-                        <h2 style={{ paddingBottom: '20px', lineHeight: 1.2 }}>Frequently Asked Questions</h2>
-                    </div>
-                    {faqData.map((data, index) => (
-                        <Accordion
->>>>>>> a0d19cc (Initial commit)
                             key={index}
                             expanded={expanded === `panel${index}`}
                             onChange={handleChange(`panel${index}`)}
@@ -103,44 +88,28 @@ const FAQ = () => {
                                     backgroundColor: expanded === `panel${index}` ? '#262250' : '#f8f9fa',
                                     borderRadius: expanded === `panel${index}` ? '4px 4px 0 0' : '4px',
                                     color: expanded === `panel${index}` ? '#fff' : '#aaa',
-<<<<<<< HEAD
                                     transition: 'all 0.3s ease',
                                     // boxShadow: "none",
 
-=======
-                                    transition: 'all 0.3s ease'
-                                    // boxShadow: "none",
->>>>>>> a0d19cc (Initial commit)
                                 }}
                                 expandIcon={
                                     expanded === `panel${index}` ? (
                                         <RemoveIcon style={{ color: '#fff', fontSize: '1.25rem', fontWeight: 'bold' }} />
                                     ) : (
-<<<<<<< HEAD
                                         <AddIcon style={{ color: '#000', fontSize: '1.25rem', fontWeight: 'bold', stroke: "#000", strokeWidth: 2 }} />
-=======
-                                        <AddIcon style={{ color: '#000', fontSize: '1.25rem', fontWeight: 'bold', stroke: '#000', strokeWidth: 2 }} />
->>>>>>> a0d19cc (Initial commit)
                                     )
                                 }
                                 className=""
                             >
-<<<<<<< HEAD
                                 <Typography sx={{ fontFamily: "Poppins", fontWeight: "600" }}>{data.headerContent}</Typography>
                             </AccordionSummary>
                             <AccordionDetails className="accordion-body" sx={{ fontFamily: "Poppins", color: "black" }}>
-=======
-                                <Typography sx={{ fontFamily: 'Poppins', fontWeight: '600' }}>{data.headerContent}</Typography>
-                            </AccordionSummary>
-                            <AccordionDetails className="accordion-body" sx={{ fontFamily: 'Poppins', color: 'black' }}>
->>>>>>> a0d19cc (Initial commit)
                                 {data.boadyContent}
                             </AccordionDetails>
                         </Accordion>
                     ))}
                 </section>
 
-<<<<<<< HEAD
                 <section className="col-md-6">
                     <div className="landing-page-testimonial" style={{ fontFamily: "Poppins" }}>
                         Testimonial
@@ -169,24 +138,6 @@ const FAQ = () => {
                                         className="landing-page-testimonial-carousel-caption-p"
                                         style={{ textAlign: 'left', paddingLeft: '10px' }}
                                     >
-=======
-                <section className="col-md-6  ">
-                    <div className="landing-page-testimonial " style={{ fontFamily: 'Poppins' }}>
-                        Testimonial
-                        {/* <div className="container mt-5"> */}
-                        <h3>
-                            We have many good <span style={{ color: '#871752', marginTop: 10 }}>client’s</span> review
-                        </h3>
-                    </div>
-                    <Carousel className="carousel-parent-container-home ">
-                        {testimonials.map((testimonial, index) => (
-                            <Carousel.Item key={index} className="carousel-item-container">
-                                <div className="d-flex justify-content-center">
-                                    <img className="d-block rounded-circle" src={testimonial.imgSrc} alt={testimonial.name} style={{ width: '100px', height: '100px' }} />
-                                </div>
-                                <Carousel.Caption className="landing-page-testimonial-carousel-caption" style={{ position: 'unset' }}>
-                                    <p className="landing-page-testimonial-carousel-caption-p" style={{ textAlign: 'left', paddingLeft: '10px' }}>
->>>>>>> a0d19cc (Initial commit)
                                         {testimonial.content}
                                     </p>
                                     <h3 className="text-center">{testimonial.name}</h3>
@@ -197,11 +148,7 @@ const FAQ = () => {
                     </Carousel>
                 </section>
             </div>
-<<<<<<< HEAD
         </div >
-=======
-        </div>
->>>>>>> a0d19cc (Initial commit)
     );
 };
 

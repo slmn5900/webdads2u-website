@@ -1,11 +1,7 @@
 {
     "header": {
         "subheader": {
-<<<<<<< HEAD
             "logo": "webdads2u-logo.png",
-=======
-            "logo": "/webdadsNewImages/webdads2u-logo-1.svg",
->>>>>>> a0d19cc (Initial commit)
             "cta": {
                 "label": "Get Started",
                 "link": "#",
@@ -49,18 +45,13 @@
                 {
                     "label": "Whatsapp",
                     "type": "link",
-<<<<<<< HEAD
                     "href": "https://wa.me/918825607550",
-=======
-                    "href": "https://wa.me/9188256 07550",
->>>>>>> a0d19cc (Initial commit)
                     "style": "contained",
                     "color": "success",
                     "icon": "lucide:message-circle"
                 }
             ]
         },
-<<<<<<< HEAD
         "contact_info": 
             {
              
@@ -80,60 +71,6 @@
                 "/webdadsNewImages/webdevelopment/bigindiamart.jpg",
                 "/webdadsNewImages/webdevelopment/BsquereLaptop.jpg",
                 "/webdadsNewImages/webdevelopment/mobileselli.jpg"
-=======
-        "contact_info": {
-            "email": "info@webdads2u.com",
-            "phone": "88256 07550"
-        },
-        "gallery": {
-            "title": "Our Work",
-            "images": [
-                
-                    "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872110/landing-page/web-development-company/selli-mockup-webdevelopment.jpg"
-              ,
-               
-                     "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872115/landing-page/web-development-company/yegovah-laptop-mockup-webdevelopment.jpg"
-                ,
-              
-                  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872117/landing-page/web-development-company/yegovah-mobile-mockup-webdevelopment.jpg"
-                ,
-                 "zenacademy mockup webdevelopment",
-                   "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872119/landing-page/web-development-company/zenacademy-mockup-webdevelopment.jpg"
-                ,
-                 "arcmen mockup webdevelopment",
-                    "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872096/landing-page/web-development-company/arcmen-mockup-webdevelopment.jpg"
-                ,
-               
-                    "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872106/landing-page/web-development-company/pediatricsfrisco-mockup-webdevelopment.jpg"
-                ,
-               
-                  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872097/landing-page/web-development-company/bestindiakart-mockup-webdevelopment.jpg"
-                ,
-             
-                   "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872113/landing-page/web-development-company/wayhead-mockup-webdevelopment.jpg"
-                ,
-               
-                  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872112/landing-page/web-development-company/svm-mockup-webdevelopment.jpg"
-                ,
-               
-                 "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872108/landing-page/web-development-company/pinandfind-mockup-webdevelopment.png"
-                ,
-             
-                  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872104/landing-page/web-development-company/mothertheresa-mockup-webdevelopment.jpg"
-                ,
-              
-                  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872102/landing-page/web-development-company/leadg-mockup-webdevelopment.jpg"
-                ,
-                
-                    "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872101/landing-page/web-development-company/kbhomes-mockup-webdevelopment.jpg"
-                ,
-              
-                     "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872100/landing-page/web-development-company/bsquare-mockup-webdevelopment.jpg"
-                ,
-                
-                  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872098/landing-page/web-development-company/aynhayat-mockup-webdevelopment.jpg"
-                
->>>>>>> a0d19cc (Initial commit)
             ]
         }
     },
@@ -176,7 +113,6 @@
     },
     "why_choose_us": {
         "heading": "Why Choose WEBDADS2U?",
-<<<<<<< HEAD
         "subheading": "Specialized React Web Development to Power Your Digital Vision",
         "description": "Webdads2u Private Limited was founded in 2013 to help companies to achieve their business goals on the Web in the best way.",
         "services": [
@@ -194,64 +130,28 @@
                 "title": "Migration to React",
                 "description": "Upgrade your existing website or application to React for enhanced performance.",
                 "icon": "/webdadsNewImages/webdevelopment/why-choose/Vector.png"
-=======
-        "subheading": "Discover Our Expertise as a Wordpress Web Design and Development Company",
-        "description": "Webdads2u Private Limited was founded in 2013 to help companies to achieve their business goals on the Web in the best way.",
-        "services": [
-            {
-                "title": "Custom WordPress Development",
-                "description": "Our web developers excel in creating commercially successful and popular websites.",
-                "icon": "/webdadsNewImages/common-icon/why-choose/Group.svg"
-            },
-            {
-                "title": "WordPress Theme Customization",
-                "description": "Great design drives results — we go beyond creativity to connect your brand with your audience.",
-                "icon": "/webdadsNewImages/common-icon/why-choose/painting-brush_9175169 1.svg"
-            },
-            {
-                "title": "WordPress Theme integration",
-                "description": "Enhance your site's appeal and user interaction with our seamless custom theme integration services.",
-                "icon": "/webdadsNewImages/common-icon/why-choose/Vector.svg"
->>>>>>> a0d19cc (Initial commit)
             }
         ],
         "stats": [
             {
                 "label": "Years of Experience",
                 "value": "10+",
-<<<<<<< HEAD
                 "icon": "/webdadsNewImages/webdevelopment/why-choose/Group.png"
             },
             {
                 "label": "Successful Projects",
                 "value": "250+",
                 "icon": "/webdadsNewImages/webdevelopment/why-choose/file_13194621 1.png"
-=======
-                "icon": "/webdadsNewImages/common-icon/why-choose/Group.png"
->>>>>>> a0d19cc (Initial commit)
             },
             {
                 "label": "Sales Closed",
                 "value": "300+",
-<<<<<<< HEAD
                 "icon": "lucide:dollar-sign"
-=======
-                "icon": "/webdadsNewImages/common-icon/why-choose/Frame 1984078326 (1).svg"
-            },
-            {
-                "label": "Successful Projects",
-                "value": "250+",
-                "icon": "/webdadsNewImages/common-icon/why-choose/file_13194621 1.png"
->>>>>>> a0d19cc (Initial commit)
             },
             {
                 "label": "Satisfied Clients",
                 "value": "150+",
-<<<<<<< HEAD
                 "icon": "/webdadsNewImages/webdevelopment/why-choose/Group 1000001788.png"
-=======
-                "icon": "/webdadsNewImages/common-icon/why-choose/Group 1000001788.png"
->>>>>>> a0d19cc (Initial commit)
             }
         ]
     },
@@ -323,25 +223,6 @@
                 "ratingPlatform": "Google",
                 "review": "Lorem ipsum dolor sit amet consectetur. Malesuada mauris erat amet semper in ut aliquam sagittis. Ipsum quis neque amet parturient lacus penatibus.",
                 "icon": "lucide:message-square"
-<<<<<<< HEAD
-=======
-            },
-            {
-                "name": "Krishna Moorthy",
-                "initial": "K",
-                "avatarStyle": "circle",
-                "ratingPlatform": "Google",
-                "review": "Lorem ipsum dolor sit amet consectetur. Malesuada mauris erat amet semper in ut aliquam sagittis. Ipsum quis neque amet parturient lacus penatibus.",
-                "icon": "lucide:message-square"
-            },
-            {
-                "name": "Krishna Moorthy",
-                "initial": "K",
-                "avatarStyle": "circle",
-                "ratingPlatform": "Google",
-                "review": "Lorem ipsum dolor sit amet consectetur. Malesuada mauris erat amet semper in ut aliquam sagittis. Ipsum quis neque amet parturient lacus penatibus.",
-                "icon": "lucide:message-square"
->>>>>>> a0d19cc (Initial commit)
             }
         ]
     },
@@ -358,153 +239,21 @@
         "projects": [
             {
                 "name": "B Square",
-<<<<<<< HEAD
                 "image": "/webdadsNewImages/webdevelopment/Portiflio/leadg.in_ 2.png",
                 "url": "#",
-=======
-                "image": {
-                    "alt": "ambika-webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876291/landing-page/web-development-company/ambika-webdevelopment.jpg"
-                },
-                "url": "",
->>>>>>> a0d19cc (Initial commit)
                 "icon": "lucide:layout-template"
             },
             {
                 "name": "Bhava Business Consultants",
-<<<<<<< HEAD
                 "image": "/webdadsNewImages/webdevelopment/Portiflio/www.pediatricsfrisco.com_ (1) 2.png",
                 "url": "#",
-=======
-                "image": {
-                    "alt": "bestindiakart webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876296/landing-page/web-development-company/bestindiakart-webdevelopment.jpg"
-                },
-                "url": "",
->>>>>>> a0d19cc (Initial commit)
                 "icon": "lucide:briefcase"
             },
             {
                 "name": "Arcmen",
-<<<<<<< HEAD
                 "image": "/webdadsNewImages/webdevelopment/Portiflio/www.arcmeninterior.com_ 2.png",
                 "url": "#",
                 "icon": "lucide:home"
-=======
-                "image": {
-                    "alt": "bhava webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876412/landing-page/web-development-company/bhava-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:home"
-            },
-            {
-                "name": "B Square",
-                "image": {
-                    "alt": "chakaravathy webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876418/landing-page/web-development-company/chakaravathy-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:layout-template"
-            },
-            {
-                "name": "Arcmen",
-                "image": {
-                    "alt": "chennai caterers webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876424/landing-page/web-development-company/chennaicaterers-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:briefcase"
-            },
-            {
-                "name": "Bhava Business Consultants",
-                "image": {
-                    "alt": "leadg webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876427/landing-page/web-development-company/leadg-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:briefcase"
-            },
-            {
-                "name": "Bhava Business Consultants",
-                "image": {
-                    "alt": "mathioli webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876435/landing-page/web-development-company/mathioli-webdevelopment.jpg"
-                },
-                "icon": "lucide:briefcase"
-            },
-            {
-                "name": "Arcmen",
-                "image": {
-                    "alt": "mothertheresa webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876440/landing-page/web-development-company/mothertheresa-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:briefcase"
-            },
-            {
-                "name": "Arcmen",
-                "image": {
-                    "alt": "pediatric frisco webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876447/landing-page/web-development-company/pediatricfrisco-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:briefcase"
-            },
-            {
-                "name": "Arcmen",
-                "image": {
-                    "alt": "promelopixel webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876452/landing-page/web-development-company/promelopixel-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:briefcase"
-            },
-            {
-                "name": "Arcmen",
-                "image": {
-                    "alt": "racepro webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876459/landing-page/web-development-company/racepro-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:briefcase"
-            },
-            {
-                "name": "Arcmen",
-                "image": {
-                    "alt": "sellibuy webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876464/landing-page/web-development-company/sellibuy-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:briefcase"
-            },
-            {
-                "name": "Arcmen",
-                "image": {
-                    "alt": "svmschool webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876476/landing-page/web-development-company/svmschool-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:briefcase"
-            },
-            {
-                "name": "Arcmen",
-                "image": {
-                    "alt": "yegovah webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876484/landing-page/web-development-company/yegovah-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:briefcase"
-            },
-            {
-                "name": "Arcmen",
-                "image": {
-                    "alt": "zenacademy webdevelopment",
-                    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753876505/landing-page/web-development-company/zenacademy-webdevelopment.jpg"
-                },
-                "url": "",
-                "icon": "lucide:briefcase"
->>>>>>> a0d19cc (Initial commit)
             }
         ],
         "carousel": {

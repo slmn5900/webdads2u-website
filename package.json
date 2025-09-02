@@ -11,7 +11,6 @@
         "postbuild": "next-sitemap"
     },
     "dependencies": {
-<<<<<<< HEAD
         "@emotion/react": "^11.13.3",
         "@emotion/styled": "^11.13.0",
         "@lottiefiles/dotlottie-react": "^0.13.4",
@@ -22,18 +21,6 @@
         "bootstrap": "^5.3.3",
         "chart.js": "4.2.1",
         "framer-motion": "^12.23.6",
-=======
-        "@emotion/react": "^11.14.0",
-        "@emotion/styled": "^11.14.1",
-        "@lottiefiles/dotlottie-react": "^0.13.4",
-        "@mui/icons-material": "^6.1.0",
-        "@mui/lab": "^6.0.0-beta.13",
-        "@mui/material": "^6.5.0",
-        "@types/react-dom": "18.2.5",
-        "bootstrap": "^5.3.3",
-        "chart.js": "4.2.1",
-        "framer-motion": "^12.23.12",
->>>>>>> a0d19cc (Initial commit)
         "js-cookie": "^3.0.5",
         "lottie-react": "^2.4.1",
         "next": "13.4.8",
@@ -43,21 +30,13 @@
         "react-dom": "18.2.0",
         "react-google-recaptcha": "^3.1.0",
         "react-hook-form": "^7.53.0",
-<<<<<<< HEAD
         "react-icons": "^5.3.0",
-=======
-        "react-icons": "^5.5.0",
->>>>>>> a0d19cc (Initial commit)
         "react-intersection-observer": "^9.16.0",
         "react-slick": "^0.30.2",
         "slick-carousel": "^1.8.1",
         "swiper": "^11.2.6"
     },
     "devDependencies": {
-<<<<<<< HEAD
-        "@types/node": "24.0.15",
-=======
->>>>>>> a0d19cc (Initial commit)
         "eslint": "8.43.0",
         "eslint-config-next": "13.4.6",
         "prettier": "^2.8.8",

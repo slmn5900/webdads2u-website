@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-"use client"
-import { Typography } from '@mui/material';
->>>>>>> a0d19cc (Initial commit)
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const CaseStudy = () => {
@@ -19,17 +14,10 @@ const CaseStudy = () => {
 
                 <section className="col-md-6">
                     <div className='landing-page-casestudy-content ' >
-<<<<<<< HEAD
                         <p style={{ textAlign: "justify" }}>
                             We showcase exceptional websites and portfolios crafted with unwavering passion, simplicity, and creativity. Our team excels in designing groundbreaking products and offering consultancy services to companies. As a
                             distinguished web design and web development company in Chennai, our commitment to excellence reflects in our innovative solutions and client-centric approach.
                         </p>
-=======
-                        <Typography style={{ textAlign: { xs: "left", sm: "left", md: "justify" } }}>
-                            We showcase exceptional websites and portfolios crafted with unwavering passion, simplicity, and creativity. Our team excels in designing groundbreaking products and offering consultancy services to companies. As a
-                            distinguished web design and web development company in Chennai, our commitment to excellence reflects in our innovative solutions and client-centric approach.
-                        </Typography>
->>>>>>> a0d19cc (Initial commit)
                     </div>
                 </section>
             </Row>

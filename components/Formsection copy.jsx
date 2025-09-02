@@ -134,11 +134,7 @@
 //         watch
 //     } = useForm();
 //     // const [isCheckboxChecked, setIsCheckboxChecked] = useState(false);
-<<<<<<< HEAD
 //     const [loading, setLoading] = useState(false); // New state for loading
-=======
-//     const [loading, setLoading] = useState(false); // new state for loading
->>>>>>> a0d19cc (Initial commit)
 //     const [recaptchaValue, setRecaptchaValue] = useState(false);
 
 //     const onSubmit = async (data) => {

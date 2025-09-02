@@ -168,17 +168,10 @@ export default function Loader() {
   return (
     <Box sx={{ pt: 4 }}>
 
-<<<<<<< HEAD
       <Box sx={{ background: '#F5F5F5', p: 2, }}>
 
         <Container >
           <Grid2 container spacing={1} justifyContent="center" >
-=======
-      <Box sx={{ p: 1, }}>
-
-        <Container >
-          <Grid2 container spacing={2} justifyContent="center" >
->>>>>>> a0d19cc (Initial commit)
             {data.slice(0, visibleCount).map((item, index) => (
               <Grid2 size={{ xs: 6, sm: 4, md: 2 }} key={index}>
                 <motion.div
@@ -189,65 +182,25 @@ export default function Loader() {
                   style={{
 
                     // boxShadow: '0 15px 55px rgb(138 138 138 / 30%)',
-<<<<<<< HEAD
                     // borderRadius: 8,
                     // padding: 4,
                   }}
                 >
                   <Box
-=======
-                    borderRadius: 8,
-                    // padding: 4,
-                  }}
-                >
-                  {/* <Box
->>>>>>> a0d19cc (Initial commit)
                     component="img"
                     src={item.url}
                     alt={item.name}
 
-<<<<<<< HEAD
                     sx={{ width: { xs: "133px", md: 180 }, height: { xs: 100, md: 150 }, objectFit: 'contain', }}
 
                   />
-=======
-                    sx={{
-                      width: { xs: "133px", md: 180 }, height: { xs: 100, md: 150 },
-                      borderRadius: '8px',
-                    }}
-
-                  /> */}
-                  <Box
-                    sx={{
-                      boxShadow: '0 15px 55px rgb(138 138 138 / 30%)',
-                      borderRadius: '8px',
-                      backgroundColor: 'white',
-                      display: 'flex',
-                      justifyContent: 'center',
-                      alignItems: 'center',
-                      p: 1,
-                    }}
-                  >
-                    <Image
-                      src={item.url}
-                      alt="about"
-                      width={100}
-                      height={100}
-                      style={{ objectFit: 'contain' }}
-                    />
-                  </Box>
->>>>>>> a0d19cc (Initial commit)
                 </motion.div>
               </Grid2>
             ))}
           </Grid2>
 
           {visibleCount < data.length && (
-<<<<<<< HEAD
             <Box textAlign="center" mt={5} >
-=======
-            <Box textAlign="center" mt={3} >
->>>>>>> a0d19cc (Initial commit)
               <Button
                 variant="contained"
                 onClick={handleLoadMore}
@@ -259,13 +212,7 @@ export default function Loader() {
                   background: 'linear-gradient(90deg, #871752 0%, #262250 50%)',
                   outline: '2px solid #FEFEFE',
                   fontFamily: "Poppins",
-<<<<<<< HEAD
                   mb: 3
-=======
-                  mb: 0,
-
-
->>>>>>> a0d19cc (Initial commit)
                 }}
               >
                 Load More

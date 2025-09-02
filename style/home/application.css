@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 @keyframes NewsletterAnimated2 {
-=======
-@keyframes newsletterAnimated2 {
->>>>>>> a0d19cc (Initial commit)
     0% {
         transform: translateX(0px);
     }
@@ -25,9 +21,5 @@
 }
 
 .ct-effect2 {
-<<<<<<< HEAD
     animation: NewsletterAnimated2 12s infinite linear alternate;
-=======
-    animation: newsletterAnimated2 12s infinite linear alternate;
->>>>>>> a0d19cc (Initial commit)
 }
