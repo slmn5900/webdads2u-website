@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Image from 'next/image';
-import Reactimg from '../../../public/webdads/images/website-development/React-js.png';
+import Reactimg from '../../../public/webdads/images/website-development/React-js.png'
 function WebdevService() {
     return (
         <>
