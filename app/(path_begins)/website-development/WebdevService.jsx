@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Image from 'next/image';
-import Reactimg from '../../../public/webdads/images/website-development/React-js.png'
+
 function WebdevService() {
     return (
         <>
@@ -16,7 +16,7 @@ function WebdevService() {
                     <Row className="pt-4 pb-4">
                         <Col md={6} lg={3}>
                             <div className="webdev-box">
-                                <Image src={Reactimg} alt="Logo" className="img-fluid" />
+                                <Image src={'/webdads/images/website-development/React-js.png'} alt="Logo" className="img-fluid" />
                                 <a href="/react-js-development/">
                                     <h2>React.js</h2>
                                 </a>
