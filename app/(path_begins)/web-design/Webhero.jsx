@@ -364,11 +364,7 @@ function Webhero() {
                 <Container>
                     <Row className="elevate">
                         <Col md={5}>
-<<<<<<< HEAD
                             <h2>Elevate your website to New Heights!</h2>
-=======
-                            <h2>Elevate your website to new Heights!</h2>
->>>>>>> a0d19cc (Initial commit)
                             <a href="https://www.facebook.com/Webdads2u">
                                 <Button variant="contained">Talk to Us</Button>
                             </a>

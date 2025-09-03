@@ -270,16 +270,9 @@ body{
 }
 
 /* Media query for smaller screens */
-<<<<<<< HEAD
 @media (max-width: 768px) {
     .landing-page-testimonial h3 {
         font-size: calc(1.5rem + 1vw); /* Adjust as needed for smaller screens */
-=======
-@media  (max-width: 425px) {
-    .landing-page-testimonial h3 {
-        font-size: calc(1.5rem + 1vw); /* Adjust as needed for smaller screens */
-        line-height: 30px;
->>>>>>> a0d19cc (Initial commit)
     }
 }
 

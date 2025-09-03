@@ -12,7 +12,7 @@ import GradientSwiper from './landingpage/ReusabelComponents/GradientSwiper'
 import TechOrbitSection from "./landingpage/ReusabelComponents/TechOrbitSection"
 import { Box } from '@mui/material'
 
-export default function page() {
+export default function Page() {
   const [data, setData] = useState([])
   const fetchData = async () => {
     try {

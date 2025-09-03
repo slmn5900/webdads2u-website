@@ -9,11 +9,6 @@ export const metadata = {
 };
 
 const page = () => {
-<<<<<<< HEAD
-=======
-
-    
->>>>>>> a0d19cc (Initial commit)
     return (
         <>
             <BrochureDesign />

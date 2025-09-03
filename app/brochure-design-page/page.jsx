@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "use client"
 
 import React, { useEffect, useState } from 'react'
@@ -14,7 +13,7 @@ import TechOrbitSection from "../new/landingpage/ReusabelComponents/TechOrbitSec
 import { Box } from '@mui/material'
 import LogoDesignSection from "../Lading-page/ResuabelComponent/LogoDesignSection"
 
-export default function page() {
+export default function Page() {
     const [data, setData] = useState([])
     const fetchData = async () => {
         try {
@@ -49,35 +48,4 @@ export default function page() {
             <LogoDesignSection data={data}/>
             <Footer /></div>
     )
-=======
-// import React from 'react'
-// import Broucher from './Broucher'
-
-// export const metadata = {
-//     title: 'Web Development Company | Webdads2u',
-//     description: 'Looking for a professional web development company? We build fast, responsive, SEO-friendly websites tailored to your business needs. Get a free quote today',
-//     keywords:
-//         'app development company,mobile app development company,custom app development,android app development services,ios app development company'
-// };
-
-// export const Page = () => {
-//     return (
-//         <>
-//             <Broucher />
-//         </>
-//     )
-// }
-
-import React from 'react';
-import Broucher from './Broucher';
-
-export const metadata = {
-    title: 'Web Development Company | Webdads2u',
-    description: 'Looking for a professional web development company? We build fast, responsive, SEO-friendly websites tailored to your business needs. Get a free quote today',
-    keywords: 'app development company,mobile app development company,custom app development,android app development services,ios app development company'
-};
-
-export default function Page() {
-    return <Broucher />;
->>>>>>> a0d19cc (Initial commit)
 }

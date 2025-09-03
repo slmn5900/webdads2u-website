@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-export default function page() {
-  return (
-    <div>page</div>
-  )
-=======
 import React from 'react';
 import AppDevelopment from './AppDevelopment.jsx';
 
@@ -21,5 +13,4 @@ export default function Page() {
             <AppDevelopment />
         </>
     );
->>>>>>> a0d19cc (Initial commit)
 }

@@ -13,7 +13,7 @@ import TechOrbitSection from "../new/landingpage/ReusabelComponents/TechOrbitSec
 import { Box } from '@mui/material'
 import LogoDesignSection from "../Lading-page/ResuabelComponent/LogoDesignSection"
 
-export default function page() {
+export default function Page() {
   const [data, setData] = useState([])
   const fetchData = async () => {
     try {

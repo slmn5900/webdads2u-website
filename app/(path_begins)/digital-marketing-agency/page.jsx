@@ -9,7 +9,7 @@ export const metadata = {
         'digital marketing agency in chennai,digital marketing agency,digital marketing service,digital marketing agency,best digital marketing company in chennai,digital marketing agency in chennai,online marketing in chennai,digital marketing services in chennai'
 };
 
-const page = () => {
+const Page = () => {
     return (
         <div>
             <DigitalMarketingagencys />
@@ -17,4 +17,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

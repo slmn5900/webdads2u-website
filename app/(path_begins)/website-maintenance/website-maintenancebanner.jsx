@@ -32,9 +32,3 @@ function Websitemaintenancebanner() {
 }
 
 export default Websitemaintenancebanner;
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> a0d19cc (Initial commit)

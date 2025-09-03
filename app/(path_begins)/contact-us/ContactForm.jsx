@@ -133,11 +133,7 @@ const ContactForm = () => {
     });
     const [captchaValue, setCaptchaValue] = useState(null);
     const [errors, setErrors] = useState({});
-<<<<<<< HEAD
     const [loading, setLoading] = useState(false); // New state for loading
-=======
-    const [loading, setLoading] = useState(false); // new state for loading
->>>>>>> a0d19cc (Initial commit)
     const [isCheckboxChecked, setIsCheckboxChecked] = useState(false);
 
     const handleChange = (e) => {

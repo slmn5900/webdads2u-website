@@ -28,25 +28,14 @@
 // =====================================
 // import Header from '@/components/Header';
 // import { MyProvider } from '@/components/ContextAPIProvide';
-<<<<<<< HEAD
 import { Fragment } from 'react';
-=======
-'use client'
-import { ThemeProvider } from '@mui/material';
-import { Fragment } from 'react';
-import theme from './theme.js';
->>>>>>> a0d19cc (Initial commit)
 
 export default function RootLayout({ children }) {
     return (
         <Fragment>
-<<<<<<< HEAD
            
             {children}
           
-=======
-            <ThemeProvider theme={theme}>{children}</ThemeProvider>
->>>>>>> a0d19cc (Initial commit)
         </Fragment>
     );
 }

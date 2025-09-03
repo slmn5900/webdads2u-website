@@ -1,42 +1,30 @@
-"use client";
-import React from "react";
-import {
-    Box,
-    Typography,
-    Paper,
-    useTheme,
-    useMediaQuery,
-    Grid2
-} from "@mui/material";
+'use client';
+import React from 'react';
+import { Box, Typography, Paper, useTheme, useMediaQuery, Grid2 } from '@mui/material';
 
-import { motion } from "framer-motion";
-import {
-    AccessTime,
-    CheckCircle,
-    TrendingUp,
-    EmojiEvents
-} from "@mui/icons-material";
+import { motion } from 'framer-motion';
+import { AccessTime, CheckCircle, TrendingUp, EmojiEvents } from '@mui/icons-material';
 const cards = [
     {
-        title: "Years of Experience",
-        value: "10+",
-        icon: <AccessTime sx={{ color: 'white' }} fontSize="large" />,
+        title: 'Years of Experience',
+        value: '10+',
+        icon: <AccessTime sx={{ color: 'white' }} fontSize="large" />
     },
     {
-        title: "Sales Closed",
-        value: "300+",
-        icon: <CheckCircle sx={{ color: 'white' }} fontSize="large" />,
+        title: 'Sales Closed',
+        value: '300+',
+        icon: <CheckCircle sx={{ color: 'white' }} fontSize="large" />
     },
     {
-        title: "Successful Projects",
-        value: "250+",
-        icon: <TrendingUp sx={{ color: 'white' }} fontSize="large" />,
+        title: 'Successful Projects',
+        value: '250+',
+        icon: <TrendingUp sx={{ color: 'white' }} fontSize="large" />
     },
     {
-        title: "Satisfied Clients",
-        value: "150+",
-        icon: <EmojiEvents sx={{ color: 'white' }} fontSize="large" />,
-    },
+        title: 'Satisfied Clients',
+        value: '150+',
+        icon: <EmojiEvents sx={{ color: 'white' }} fontSize="large" />
+    }
 ];
 
 const MotionPaper = motion(Paper);
@@ -74,43 +62,33 @@ const MotionPaper = motion(Paper);
 //     </motion.div>
 // );
 
-export default function WhyChooseWEBDADS2U(data) {
+export default function WhyChooseWEBDADS2U({data}) {
     const theme = useTheme();
-    const isSm = useMediaQuery(theme.breakpoints.down("sm"));
-    const response = data.data.why_choose_us
-    console.log(response, "response")
+    const isSm = useMediaQuery(theme.breakpoints.down('sm'));
+    const response = data.why_choose_us;
+    console.log(response, 'response');
 
     return (
         <Box px={isSm ? 2 : 6} py={6} bgcolor="#f9f9f9">
             <Grid2 container spacing={1} justifyContent="center">
-                <Grid2 size={{ xs: 12 }} >
-                    <Typography
-                        variant="body1"
-                        color="black"
-                        fontWeight={600}
-                        textAlign="start"
-                        fontFamily="Poppins"
-                    >
+                <Grid2 size={{ xs: 12 }}>
+                    <Typography variant="body1" color="black" fontWeight={600} textAlign="start" fontFamily="Poppins">
                         {response?.heading}
                     </Typography>
                 </Grid2>
 
                 <Grid2 size={{ sm: 12, md: 6 }}>
-                    <motion.div
-                        initial={{ opacity: 0, x: -50 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.7 }}
-                    >
+                    <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }}>
                         <Typography
                             variant="h4"
                             fontWeight={600}
                             fontFamily="Poppins"
                             gutterBottom
                             sx={{
-                                background: "linear-gradient(90deg, #871752 0%, #262250 50%)",
-                                WebkitBackgroundClip: "text",
-                                WebkitTextFillColor: "transparent",
-                                display: "inline-block"
+                                background: 'linear-gradient(90deg, #871752 0%, #262250 50%)',
+                                WebkitBackgroundClip: 'text',
+                                WebkitTextFillColor: 'transparent',
+                                display: 'inline-block'
                             }}
                         >
                             {response?.subheading}
@@ -121,27 +99,16 @@ export default function WhyChooseWEBDADS2U(data) {
                         </Typography>
 
                         <Box sx={{ gap: 3 }}>
-
-                            {response?.services.map((item) =>
-                            (
-
-                                <Box mb={4} sx={{ display: "flex", gap: 2 }}>
-                                    <Box >
-                                        <img src={item?.icon} alt="" width={"30px"} />
+                            {response?.services.map((item, index) => (
+                                <Box mb={4} key={index} sx={{ display: 'flex', gap: 2 }}>
+                                    <Box>
+                                        <img src={item?.icon} alt="" width={'30px'} />
                                     </Box>
                                     <Box>
-
-                                        <Typography
-                                            variant="h6"
-                                            sx={{ color: "#1F167B" }}
-                                            fontWeight={600}
-                                            fontFamily="Poppins"
-                                        >
+                                        <Typography variant="h6" sx={{ color: '#1F167B' }} fontWeight={600} fontFamily="Poppins">
                                             {item?.title}
                                         </Typography>
-                                        <Typography variant="body1">
-                                            {item?.description}
-                                        </Typography>
+                                        <Typography variant="body1">{item?.description}</Typography>
                                     </Box>
                                 </Box>
                             ))}
@@ -206,22 +173,22 @@ export default function WhyChooseWEBDADS2U(data) {
                                             sx={{
                                                 p: 2,
                                                 borderRadius: 2,
-                                                position: "relative",
-                                                overflow: "hidden",
+                                                position: 'relative',
+                                                overflow: 'hidden'
                                                 // outline: "0.65px solid rgba(0,0,0,0.05)",
                                             }}
                                         >
                                             <Box
                                                 sx={{
-                                                    position: "absolute",
+                                                    position: 'absolute',
                                                     width: 144,
                                                     height: 144,
                                                     top: 0,
                                                     left: -30,
                                                     // bgcolor: "red",
-                                                    filter: "blur(32px)",
-                                                    borderRadius: "50%",
-                                                    zIndex: 0,
+                                                    filter: 'blur(32px)',
+                                                    borderRadius: '50%',
+                                                    zIndex: 0
                                                 }}
                                             />
 
@@ -229,31 +196,25 @@ export default function WhyChooseWEBDADS2U(data) {
                                                 sx={{
                                                     width: 56,
                                                     height: 56,
-                                                    borderRadius: "50%",
-                                                    background: "linear-gradient(to bottom, #e53935, #1a237e)",
-                                                    display: "flex",
-                                                    alignItems: "center",
-                                                    justifyContent: "center",
+                                                    borderRadius: '50%',
+                                                    background: 'linear-gradient(to bottom, #e53935, #1a237e)',
+                                                    display: 'flex',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center',
                                                     // boxShadow: "0px 2px 9px rgba(0,0,0,0.19)",
                                                     mb: 3,
 
-                                                    position: "relative",
-                                                    zIndex: 1,
+                                                    position: 'relative',
+                                                    zIndex: 1
                                                 }}
                                             >
-                                              <img src={card.icon} alt="" />  
+                                                <img src={card.icon} alt="" />
                                             </Box>
 
-                                            <Typography
-                                                variant="h4"
-                                                sx={{ fontWeight: 400, zIndex: 1, color: "red", }}
-                                            >
+                                            <Typography variant="h4" sx={{ fontWeight: 400, zIndex: 1, color: 'red' }}>
                                                 {card.value}
                                             </Typography>
-                                            <Typography
-                                                variant="h6"
-                                                sx={{ color: "#1a237e", fontWeight: 500, fontFamily: "Poppins", zIndex: 1 }}
-                                            >
+                                            <Typography variant="h6" sx={{ color: '#1a237e', fontWeight: 500, fontFamily: 'Poppins', zIndex: 1 }}>
                                                 {card.label}
                                             </Typography>
                                         </MotionPaper>
@@ -264,6 +225,6 @@ export default function WhyChooseWEBDADS2U(data) {
                     </Grid2>
                 </Grid2>
             </Grid2>
-        </Box >
+        </Box>
     );
 }

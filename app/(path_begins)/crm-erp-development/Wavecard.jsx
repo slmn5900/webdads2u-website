@@ -95,11 +95,7 @@ function Wavecard() {
                         <div className="text-center">
                             <h2>CRM DEVELOPMENT SOLUTION</h2>
                             <p>Boost efficiency, streamline processes, and enhance customer relationships seamlessly. Empower your business with our tailored CRM development solutions – Best CRM for small businesses.</p>
-<<<<<<< HEAD
                             <img className='crm-develoment-section-image' alt="" src="/webdads/images/crm/crm-mockup.jpg" height="267" width="600" ></img>
-=======
-                            <img className="crm-develoment-section-image" alt="" src="/webdads/images/crm/crm-mockup.jpg" height="267" width="600"></img>
->>>>>>> a0d19cc (Initial commit)
                         </div>
                     </Row>
                     <Row className="pt-5 ">
