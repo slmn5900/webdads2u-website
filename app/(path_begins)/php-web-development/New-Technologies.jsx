@@ -1,6 +1,6 @@
 import React from 'react'
 
-function newtechnologies() {
+function Newtechnologies() {
     return (
         <section className='newtechnologies-main'>
             <div className="container">
@@ -9,7 +9,7 @@ function newtechnologies() {
                     <img src="webdads/images/php-web-development/php-extre.png" alt="php-extre" loading='lazy' className='img-fluid' />
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-6 align-self-center">
-                    <h1>We use new Technologies and Methods</h1>
+                    <h1>We use New Technologies and Methods</h1>
                     <p>As a leading PHP Web Development company in Chennai, we constantly embrace new technologies and methodologies to enhance our services. Our commitment to innovation ensures that we deliver cutting-edge solutions tailored to your needs, staying ahead of the curve in the dynamic digital landscape.</p>
                     <div className="d-flex flex-row newtechnologies-min">
                         <div className="p-2 card flex-fill"><img src="webdads/images/php-web-development/PHPphp.png" alt="PHPphp" loading='lazy' className='img-fluid' /></div>
@@ -28,4 +28,4 @@ function newtechnologies() {
     )
 }
 
-export default newtechnologies
+export default Newtechnologies
