@@ -1,0 +1,486 @@
+/* Customwebdevelopment */
+
+.customwebdevelopmentbanner-main {
+    background-image: url(../../../public/webdads/images/custom-web-development/Banner-Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0px;
+}
+
+.customwebdevelopmentbanner h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppins', Sans-serif;
+}
+
+.customwebdevelopmentbanner p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.customwebdevelopmentbanner button {
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 17px;
+    padding: 9px 25px;
+}
+
+.customwebdevelopmentbanner button:hover {
+    color: #000;
+    background: #ffffff;
+}
+
+.customwebdevelopmentbanner img {
+    animation: mover 1s infinite alternate;
+    display: block;
+    margin-left: auto;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 780px) {
+    .customwebdevelopmentbanner h1 {
+        font-size: 30;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .customwebdevelopmentbanner h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .customwebdevelopmentbanner-main {
+        padding: 40px 0px;
+    }
+    .customwebdevelopmentbanner h1 {
+        font-size: 20px;
+    }
+    .customwebdevelopmentbanner p {
+        font-size: 14px;
+    }
+}
+
+/* Customwebsite */
+
+.customwebsite-main {
+    padding: 60px 0px;
+}
+
+.customwebsite h2 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.customwebsite p {
+    text-align: center;
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+    .customwebsite-main {
+        padding: 30px 0px;
+    }
+
+    .customwebsite h2 {
+        font-size: 25px;
+    }
+}
+
+/* Createinteractive */
+.createinteractive h1 {
+    color: #e20825;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.createinteractive h2 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.createinteractive-para p {
+    color: #7a7a7a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.createinteractive-para img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .createinteractive h1 {
+        font-size: 25px;
+    }
+    .createinteractive h2 {
+        font-size: 25px;
+    }
+}
+
+/* Customwebsitedevelopment */
+
+.customwebsitedevelopment-main {
+    padding: 60px 0px;
+}
+
+.customwebsitedevelopment-backgrount {
+    background-image: linear-gradient(rgba(3, 0, 27, 0.8), rgba(3, 0, 27, 0.8)), url(../../../public/webdads/images/custom-web-development/custom-web-development-serv.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 138px 15px;
+}
+
+.customwebsitedevelopment-backgrount h2 {
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.customwebsitedevelopment-backgrount p {
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.customwebsitedevelopment-backgrount button {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Poppins', Sans-serif;
+    font-weight: 600;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 18px 40px;
+    background-color: #fff;
+}
+
+.customwebsitedevelopment-backgrount button:hover {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.customwebsitedevelopment-card .card {
+    padding: 20px;
+    border: 1px solid #2cd6f9;
+    border-radius: 5px;
+    box-shadow: 8px 10px 0 0 hsl(190, 94%, 57%);
+    /* width: 50%; */
+    width: 100%;
+}
+
+/* @media screen and (max-width: 321px) { */
+@media screen and (max-width: 425px) {
+    .customwebsitedevelopment-card .card {
+        width: 100%;
+    }
+    .customwebsitedevelopment-card .element {
+        flex-wrap: wrap;
+    }
+}
+
+.customwebsitedevelopment-card .card:hover {
+    border: 1px solid #4c05af;
+    box-shadow: 10px 12px 0 0 #4c05af;
+}
+
+.customwebsitedevelopment-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+}
+
+.customwebsitedevelopment-card h5 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.customwebsitedevelopment-card p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+    .customwebsitedevelopment-main {
+        padding: 30px 0px;
+    }
+
+    .customwebsitedevelopment-backgrount {
+        padding: auto 5px;
+    }
+
+    .customwebsitedevelopment-backgrount h2 {
+        font-size: 25px;
+    }
+}
+
+/* scalableweb */
+.scalableweb-main {
+    padding: 60px 0px;
+    color: #f2f9ff;
+}
+
+.scalableweb h3 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.scalableweb-1 h4 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .scalableweb-main {
+        padding: 30px 0px;
+    }
+
+    .scalableweb h3 {
+        font-size: 25px;
+    }
+
+    .scalableweb-1 h4 {
+        font-size: 18px;
+        padding: 18px 0px;
+    }
+}
+
+/* Customwebdevelopmentservices */
+.Customwebdevelopmentservices-main {
+    padding: 60px 0px;
+}
+
+.Customwebdevelopmentservices h2 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Customwebdevelopmentservices-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+}
+
+.Customwebdevelopmentservices-card .image-area {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    width: 113px !important;
+    height: 113px;
+    border-radius: 100%;
+    border: 10px solid #f5f5f5;
+    background: #fff;
+    box-shadow: 1px 0 5px #ccc;
+    position: relative;
+    z-index: 10;
+}
+
+.Customwebdevelopmentservices-card .text-area {
+    background: #fff;
+    box-shadow: 1px 0 5px #ccc;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-top: -65px;
+    padding-top: 60px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.Customwebdevelopmentservices-card .text-area:hover {
+    background: linear-gradient(-225deg, #fffeff 0, #f4fcff 100%);
+    box-shadow: 1px 0 20px #ccc;
+    border: 1px solid #6cd1ff;
+}
+
+.Customwebdevelopmentservices-card h3 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.Customwebdevelopmentservices-card p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+    .Customwebdevelopmentservices-main {
+        padding: 30px 0px;
+    }
+
+    .Customwebdevelopmentservices h2 {
+        font-size: 25px;
+    }
+}
+
+/* Lookingforcustomwebsite */
+
+.lookingforcustomwebsite-main {
+    padding: 60px 0px;
+    background-color: transparent;
+    background-image: linear-gradient(121deg, #4d05b1 0%, #2cd6f9 100%);
+}
+
+.lookingforcustomwebsite h1 {
+    color: #ffffff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.lookingforcustomwebsite p {
+    color: #ffffff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.lookingforcustomwebsite button {
+    color: #000000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 18px 40px;
+}
+
+.lookingforcustomwebsite button:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+    .lookingforcustomwebsite-main {
+        padding: 30px 0px;
+    }
+
+    .lookingforcustomwebsite h1 {
+        font-size: 25px;
+    }
+}
+
+/* Frequently-Asked-Questions-Custom-Website */
+.Frequentlyaskedquestionscustomwebsite-main {
+    padding: 60px 0px;
+    background: rgb(241, 241, 241);
+}
+.Frequentlyaskedquestionscustomwebsite-header h3 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.Frequentlyaskedquestionscustomwebsite-header p {
+    text-align: center;
+    color: #000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+
+.FrequentlyAskedQuestions-customwebsite .accordion-item {
+    margin-bottom: 10px;
+}
+
+.FrequentlyAskedQuestions-customwebsite .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.FrequentlyAskedQuestions-customwebsite .accordion-body {
+    color: var(--e-global-color-text);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.FrequentlyAskedQuestions-customwebsite .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.FrequentlyAskedQuestions-customwebsite .accordion-button::after {
+    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203a !important;
+}
+
+.FrequentlyAskedQuestions-customwebsite .accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203a !important;
+}
+
+.FrequentlyAskedQuestions-customwebsite .accordion-button::after {
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .FrequentlyAskedQuestions-header h1 {
+        font-size: 24px;
+    }
+
+    .frequentlyaskedquestions h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .customwebdevelopmentbanner > div {
+        margin-top: 0px !important;
+    }
+}

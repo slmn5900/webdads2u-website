@@ -1,0 +1,511 @@
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+/* ppc-service-banner */
+.ppcservicebanner-main {
+    background-image: url(../../../public/webdads/images/ppc-service/convertio.in_Banner-background-8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+@media screen and (max-width: 426px) {
+    .ppcservicebanner h1 {
+        font-size: 24px !important;
+    }
+
+    .ppcservicebanner p {
+        font-size: 14px !important;
+    }
+    .element-hand {
+        width: 30px;
+    }
+}
+
+.ppcservicebanner h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.ppcservicebanner p {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.ppcservicebanner button {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    padding: 8px 25px;
+}
+
+.ppcservicebanner button:hover {
+    color: #0a1f5f;
+    background: #fff;
+}
+
+.ppcservicebanner .pppc-image-hover {
+    animation: mover 1s infinite alternate;
+}
+
+@media screen and (max-width: 769px) {
+    .ppcservicebanner-main {
+        padding: 100px 0px;
+    }
+
+    .ppcservicebanner h1 {
+        font-size: 25px;
+    }
+
+    .ppcservicebanner button {
+        color: #fff;
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        border: 2px solid #fff;
+        border-radius: 50px;
+        background: transparent;
+        padding: 8px 25px;
+    }
+}
+
+/* WhatarePPCServices */
+.whatarePPCServices-main {
+    padding: 60px 0px;
+}
+
+.whatarePPCServices h3 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.whatarePPCServices p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.whatarePPCServices button {
+    color: #fff;
+    background-color: #34187f;
+    border-radius: 5px;
+    padding: 13px 40px;
+}
+
+.whatarePPCServices button:hover {
+    background-color: #563085;
+}
+
+.whatarePPCServices img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+@media screen and (max-width: 767px) {
+    .whatarePPCServices-main {
+        padding: 30px 0px;
+    }
+
+    .whatarePPCServices h3 {
+        font-size: 25px;
+    }
+}
+
+/* Promotewebdads2uppc */
+.promotewebdads2uppc-main {
+    padding: 60px 0px;
+}
+
+.promotewebdads2uppc img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.promotewebdads2uppc img:hover {
+    animation-name: elementor-animation-wobble-horizontal;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes elementor-animation-wobble-horizontal {
+    16.65% {
+        transform: translateX(8px);
+    }
+
+    33.3% {
+        transform: translateX(-6px);
+    }
+
+    49.95% {
+        transform: translateX(4px);
+    }
+
+    66.6% {
+        transform: translateX(-2px);
+    }
+
+    83.25% {
+        transform: translateX(1px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.promotewebdads2uppc h4 {
+    color: #000000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.promotewebdads2uppc p {
+    color: #000000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+    .promotewebdads2uppc-main {
+        padding: 30px 0px;
+    }
+
+    .promotewebdads2uppc h4 {
+        font-size: 25px;
+    }
+}
+
+/* PPCservicesindia */
+.payperclick-main {
+    padding: 60px 0px;
+    background: rgb(241, 241, 241);
+}
+
+.payperclick h5 {
+    color: #0a1f5f;
+    font-family: 'Roboto', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.payperclick p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.payperclick-card .card {
+    padding: 20px;
+    border: 1px solid #9d3e82;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.payperclick-card .card:hover {
+    box-shadow: 10px 10px 0px 2px rgba(77, 5, 175, 1);
+}
+
+.payperclick-card .none-card:hover {
+    box-shadow: -10px -10px 0px 2px rgba(77, 5, 175, 1);
+}
+
+.payperclick-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.payperclick-card h3 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.payperclick-card p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+    .payperclick-main {
+        padding: 30px 0px;
+    }
+
+    .payperclick h5 {
+        font-size: 25px;
+    }
+}
+
+/* PPCservicesindia */
+.ppcservicesindia-main {
+    padding: 60px 0px;
+}
+
+.ppcservicesindia img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ppcservicesindia .header {
+    color: #fa4970;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ppcservicesindia h6 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.ppcservicesindia p {
+    color: #000000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ppcservicesindia button {
+    color: #fff;
+    background: #34187f;
+    border-radius: 5px;
+    padding: 13px 40px;
+}
+
+.ppcservicesindia button:hover {
+    background-color: #563085;
+}
+
+.ppcservicesindia h5 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.ppcservicesindia .pps-item {
+    color: #fff;
+    background-color: #871752;
+    border-radius: 50%;
+    font-size: 23px;
+}
+
+.ppcservicesindia .pps-item:hover .pps-icon {
+    color: #69727d;
+}
+
+@media screen and (max-width: 769px) {
+    .ppcservicesindia .header {
+        margin-top: 2.5rem;
+    }
+    .ppcservicesindia h6 {
+        font-size: 25px;
+    }
+    .ppcservicesindia .pps-item {
+        color: #fff;
+        background-color: #871752;
+        border-radius: 50%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* fqppcservice */
+.fqppcservice-main {
+    padding: 60px 0px;
+    background-color: #f7f7f7;
+}
+
+.fqppcservice h1 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.fqppcservice p {
+    color: #000000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.fqppcservice-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+.fqppcservice-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fqppcservice-Accordion .accordion-body {
+    color: #7a7a7a;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fqppcservice-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.fqppcservice-Accordion .accordion-button::after {
+    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203a !important;
+}
+
+.fqppcservice-Accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203a !important;
+}
+
+.fqppcservice-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 769px) {
+    .fqppcservice-header h1 {
+        font-size: 24px;
+    }
+
+    .fqppcservice h1 {
+        font-size: 25px;
+    }
+}
+
+/* Ppcgoogle */
+.ppcgoogle-main {
+    padding: 60px 0px;
+    background: rgb(241, 241, 241);
+}
+
+.ppcgoogle-header h2 {
+    color: #0a1f5f;
+    font-family: 'Roboto', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .ppcgoogle-main {
+        padding: 30px 0px;
+        background: rgb(241, 241, 241);
+    }
+
+    .ppcgoogle-header h2 {
+        font-size: 25px;
+    }
+}
+
+/*  */
+
+.ppcgoogle .card {
+    position: relative;
+    /* top: 50%;
+    left: 50%; */
+    width: 100%;
+    height: 300px;
+    /* margin: -150px; */
+    /* float: left;*/
+    perspective: 1000px;
+    margin-bottom: 20px;
+}
+
+.ppcgoogle .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ppcgoogle .card:hover .content {
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+}
+
+.ppcgoogle .front,
+.back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    backface-visibility: hidden;
+}
+
+.ppcgoogle .back {
+    align-items: center;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #9d3e82 0%, #2966e0 100%);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.ppcgoogle h3 {
+    color: #000000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ppcgoogle p {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 5px !important;
+    margin: 100px 10px;
+}
+
+.text-text-boss {
+    margin: 75px 10px;
+}
+
+.ppcgoogle img {
+    width: 100px;
+}
