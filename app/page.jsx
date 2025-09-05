@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 // import '../style/home/home.scss';
+
 // Lazy load the components
 const Herosection = React.lazy(() => import('../components/Herosection'));
 const Formsection = React.lazy(() => import('../components/Formsection'));
@@ -17,6 +18,7 @@ const CardCantainer = React.lazy(() => import('../components/CardContainer'));
 const CustomTabPanel = React.lazy(() => import('../components/CustomTabPanel'));
 import '../style/home/landing_page.scss'; // Import your CSS file
 import LoadingComponent from '../components/LoadingComponent';
+
 const LandingPage = () => {
     return (
         <div>

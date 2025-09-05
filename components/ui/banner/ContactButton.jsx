@@ -10,13 +10,13 @@ export default function ContactButton() {
     return (
         <>
             <Button
-                variant="outlined"
+                // variant="outlined"
                 sx={{
-                    backgroundColor: 'white',
+                    // backgroundColor: 'tra',
                     fontWeight: 600,
                     border: '2px solid #fff',
                     borderRadius: '50px',
-                    color: '#000085 ',
+                    color: 'black ',
                     borderColor: 'white',
                     '&:hover': {
                         backgroundColor: 'transparent',

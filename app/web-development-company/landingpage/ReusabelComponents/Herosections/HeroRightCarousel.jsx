@@ -4,9 +4,9 @@ import React, { useEffect, useRef } from 'react';
 import { Box } from '@mui/material';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
-import 'swiper/css'
+import 'swiper/css';
 
-
+// Individual vertical scrolling image ticker
 const TickerSlider = ({ images = [], reverseDirection = false }) => {
     const swiperRef = useRef(null);
 

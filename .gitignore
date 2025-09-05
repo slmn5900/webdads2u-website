@@ -5,15 +5,7 @@
 /.pnp
 .pnp.js
 
-
 # testing //
-
-.zip*
-# testing
-
-
-# testing //
-
 /coverage
 
 # next.js

@@ -188,14 +188,43 @@
   },
   "work_section": {
     "title": "Our Works",
-    "images": [
-      "/webdads/images/brochuredesign/brochure-portfolio.png",
-      "/webdads/images/brochuredesign/high-look-1.webp",
-      "/webdads/images/brochuredesign/ayurvedic-portfolio.png",
-      "/webdads/images/brochuredesign/d-prince-portfolio.png",
-      "/webdads/images/brochuredesign/nuvotech-portfolio.webp",
-      "/webdads/images/brochuredesign/pride-rmx-1.webp"
-    ],
+   
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756468840/webdads2u/brochure/green-yard-brochure.webp",
+      "alt": "green yard brochure"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756468839/webdads2u/brochure/srt-brochure.jpg",
+      "alt": "srt brochure"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756468838/webdads2u/brochure/aadhil-enterprises-brochure.jpg",
+      "alt": "aadhil enterprises brochure"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756468485/webdads2u/brochure/puvan-brochure.jpg",
+      "alt": "puvan brochure"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756468877/webdads2u/brochure/avayan-flowtech-brochure.webp",
+      "alt": "avayan flowtech brochure"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756468875/webdads2u/brochure/high-lock-brochure.webp",
+      "alt": "high lock brochure"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756468873/webdads2u/brochure/nuvotech-brochure.webp",
+      "alt": "nuvotech brochure"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756468849/webdads2u/brochure/pride-rmx-brochure.webp",
+      "alt": "pride rmx brochure"
+    }
+  ],
+
+
     "button": "View More"
   },
   "choose_section": {
@@ -232,7 +261,7 @@
     "title": "Looking for Brochure Design Services?",
     "description": "Then you are at the right place!! Send us your requirements. We will get back to you with a free quote.",
     "button": "Connect For Free Consultation",
-      "bgimg":"linear-gradient(121deg,#4D05B1 0%,#2CD6F9 100%)"
+      "bgimg":"/webdads/images/brochuredesign/looking-contact.webp"
 
   },
   "qna_section": {

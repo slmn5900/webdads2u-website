@@ -249,6 +249,7 @@ const ContactForm = () => {
         } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
             newErrors.email = 'Email address is invalid';
         }
+
         if (!formData.phone) {
             newErrors.phone = 'Phone number is required';
         } else if (!/^\d{10}$/.test(formData.phone)) {

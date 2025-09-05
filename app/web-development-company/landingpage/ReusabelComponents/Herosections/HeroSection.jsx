@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Box, Grid2 } from '@mui/material';
+import GridLines from './GridLines';
 import HeroLeftContent from './HeroLeftContent';
 // import HeroRightCarousel from './HeroRightCarousel';
 import CustomGradientBarButton from '../header';

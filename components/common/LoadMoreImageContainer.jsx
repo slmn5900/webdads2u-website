@@ -78,6 +78,7 @@ const LoadMoreImageContainer = ({ images, heading1, heading2, paragraph1, paragr
                     <h1 className="brochure-page-heading2">{heading2}</h1>
                     <p className="brochure-page-paragraph2">{paragraph2}</p>
                 </div>
+
                 <section className="loadmore-section">
                     <Container>
                         <Row>

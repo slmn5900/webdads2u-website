@@ -274,15 +274,7 @@ const CarrerForm = () => {
                         </div>
                         <div className="mt-2 mb-2">
                             {/* <ReCAPTCHA
-<<<<<<< HEAD
                                 sitekey="YOUR_new_SITE_KEY" // Replace with your actual reCAPTCHA site key
-=======
-<<<<<<< HEAD
-                                sitekey="YOUR_NEW_SITE_KEY" // Replace with your actual reCAPTCHA site key
-=======
-                                sitekey="YOUR_new_SITE_KEY" // Replace with your actual reCAPTCHA site key
->>>>>>> a0d19cc (Initial commit)
->>>>>>> 60fca1200a6f745aab737cfcec771f3fcc48a64c
                                 onChange={handleCaptchaChange}
                             /> */}
                             <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={handleCaptchaChange} />
