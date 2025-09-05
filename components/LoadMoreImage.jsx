@@ -4,7 +4,7 @@ import { Grid2, Box, Typography, Button, Container } from '@mui/material';
 import { motion } from 'framer-motion';
 import Loader from './Loader';
 // Images
-import a1 from '../public/webdads/images/home/Assert/Adsfit_19890fc227.png';
+import a1 from '/webdads/images/home/Assert/Adsfit_19890fc227.png';
 import a2 from '../public/webdads/images/home/Assert/Amethyst.png';
 import a3 from '../public/webdads/images/home/Assert/Atgomart_198912fc12.png';
 import a4 from '../public/webdads/images/home/Assert/Global_198926bdb3.png';
@@ -18,18 +18,18 @@ import a11 from '../public/webdads/images/home/Assert/smart-duckling-logo_2184e6
 import a12 from '../public/webdads/images/home/Assert/teamwater-logo_220f3c18.avif';
 
 const about = [
-    { no: 1, img: a1 },
-    { no: 2, img: a2 },
-    { no: 3, img: a3 },
-    { no: 4, img: a4 },
-    { no: 5, img: a5 },
-    { no: 6, img: a6 },
-    { no: 7, img: a7 },
-    { no: 8, img: a8 },
-    { no: 9, img: a9 },
-    { no: 10, img: a10 },
-    { no: 11, img: a11 },
-    { no: 12, img: a12 }
+    { no: 1, img: '/webdads/images/home/Assert/Adsfit_19890fc227.png' },
+    { no: 2, img: '/webdads/images/home/Assert/Amethyst.png' },
+    { no: 3, img: '/webdads/images/home/Assert/Atgomart_198912fc12.png' },
+    { no: 4, img: '/webdads/images/home/Assert/Global_198926bdb3.png' },
+    { no: 5, img: '/webdads/images/home/Assert/arc-man-logo_2299280a.avif' },
+    { no: 6, img: '/webdads/images/home/Assert/best_227e2dba.avif' },
+    { no: 7, img: '/webdads/images/home/Assert/diamond.avif' },
+    { no: 8, img: '/webdads/images/home/Assert/greem-yard.png' },
+    { no: 9, img: '/webdads/images/home/Assert/re-life_222a8f32.avif' },
+    { no: 10, img: '/webdads/images/home/Assert/saj-hotel-logo_221ae891.avif' },
+    { no: 11, img: '/webdads/images/home/Assert/smart-duckling-logo_2184e61c.avif' },
+    { no: 12, img: '/webdads/images/home/Assert/teamwater-logo_220f3c18.avif' }
 ];
 
 const LoadMoreImage = () => {

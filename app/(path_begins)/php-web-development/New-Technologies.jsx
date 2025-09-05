@@ -1,6 +1,6 @@
 import React from 'react'
 
-function newtechnologies() {
+function Newtechnologies() {
     return (
         <section className='newtechnologies-main'>
             <div className="container">
@@ -28,4 +28,4 @@ function newtechnologies() {
     )
 }
 
-export default newtechnologies
+export default Newtechnologies
