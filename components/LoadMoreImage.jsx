@@ -3,19 +3,7 @@ import Image from 'next/image';
 import { Grid2, Box, Typography, Button, Container } from '@mui/material';
 import { motion } from 'framer-motion';
 import Loader from './Loader';
-// Images
-import a1 from '/webdads/images/home/Assert/Adsfit_19890fc227.png';
-import a2 from '../public/webdads/images/home/Assert/Amethyst.png';
-import a3 from '../public/webdads/images/home/Assert/Atgomart_198912fc12.png';
-import a4 from '../public/webdads/images/home/Assert/Global_198926bdb3.png';
-import a5 from '../public/webdads/images/home/Assert/arc-man-logo_2299280a.avif';
-import a6 from '../public/webdads/images/home/Assert/best_227e2dba.avif';
-import a7 from '../public/webdads/images/home/Assert/diamond.avif';
-import a8 from '../public/webdads/images/home/Assert/greem-yard.png';
-import a9 from '../public/webdads/images/home/Assert/re-life_222a8f32.avif';
-import a10 from '../public/webdads/images/home/Assert/saj-hotel-logo_221ae891.avif';
-import a11 from '../public/webdads/images/home/Assert/smart-duckling-logo_2184e61c.avif';
-import a12 from '../public/webdads/images/home/Assert/teamwater-logo_220f3c18.avif';
+// Images array
 
 const about = [
     { no: 1, img: '/webdads/images/home/Assert/Adsfit_19890fc227.png' },
