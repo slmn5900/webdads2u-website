@@ -6,10 +6,10 @@ import Loader from './Loader';
 // Images array
 
 const about = [
-    { no: 1, img: '/webdads/images/home/Assert/Adsfit_19890fc227.png' },
-    { no: 2, img: '/webdads/images/home/Assert/Amethyst.png' },
-    { no: 3, img: '/webdads/images/home/Assert/Atgomart_198912fc12.png' },
-    { no: 4, img: '/webdads/images/home/Assert/Global_198926bdb3.png' },
+    { no: 1, img: '/webdads/images/Load/Adsfit_19890fc227.png' },
+    { no: 2, img: '/webdads/images/Load/Adsfit_19890fc227.png' },
+    { no: 3, img: '/webdads/images/Load/Adsfit_19890fc227.png' },
+    { no: 4, img: '/webdads/images/Load/Adsfit_19890fc227.png' },
     { no: 5, img: '/webdads/images/home/Assert/arc-man-logo_2299280a.avif' },
     { no: 6, img: '/webdads/images/home/Assert/best_227e2dba.avif' },
     { no: 7, img: '/webdads/images/home/Assert/diamond.avif' },
