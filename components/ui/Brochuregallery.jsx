@@ -28,7 +28,7 @@ const Brochuregallery = () => {
     };
 
     return (
-        <Box sx={{ background: '#f5f5f5', py: { xs: 0, md: 5 }, pb: { xs: 5, md: 5 } }}>
+        <Box sx={{ background: '#f5f5f5', py: { xs: 3, md: 5 }, pb: { xs: 5, md: 5 } }}>
             <Container maxWidth="lg">
                 <Grid2 container justifyContent="center">
                     <Typography

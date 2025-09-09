@@ -2,7 +2,7 @@ import React from 'react'
 
 function Digitalmarketingactivities() {
   return (
-    <section className='digitalmarketingactivities-main'>
+    <section className='digitalmarketingactivities-main pt-0 '>
         <div className="container">
             <div className="row text-center digitalmarketingactivities">
                 <div className="col-sm-12 col-md-12 col-lg-12">

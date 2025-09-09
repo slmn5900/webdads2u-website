@@ -7,7 +7,6 @@ export const metadata = {
         'best content writing services in chennai ,content writing services in chennai,content writing services,content writing services in chennai,content writers in chennai,content writing services provider in chennai,content writing companies in chennai,website content writing services,content writing company in chennai'
 };
 const page = () => {
-    0;
     return (
         <>
             <ContenetWriting />

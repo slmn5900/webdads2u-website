@@ -58,7 +58,8 @@
         },
         "gallery": {
             "title": "Our Work",
-            "images": "/webdadsNewImages/app-development/headerimg/Frame 1984078319.svg"
+            "images": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756962596/landing-page/app-development/app-development.png",
+            "alt":"app development"
         }
     },
     "clients": {

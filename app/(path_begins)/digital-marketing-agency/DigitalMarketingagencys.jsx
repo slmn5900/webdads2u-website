@@ -22,7 +22,7 @@ export default function DigitalMarketingagencys() {
             <Socialmediamarketingtwo />
             <Advantagesgoogleanalytics />
             <Socialmediamarketing />
-            <SocialMedia />
+            {/* <SocialMedia /> */}
             <Fqdigitalmarketingagency />
         </div>
     );

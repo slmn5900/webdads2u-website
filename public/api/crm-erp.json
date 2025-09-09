@@ -58,7 +58,7 @@
         },
         "gallery": {
             "title": "Our Work",
-            "images": "/webdadsNewImages/corporate-website/banner 1 1.png"
+            "images": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756136411/landing-page/erp-crm-development-company/erp-crm-development-company.png","alt":"erp crm development company"
         }
     },
     "clients": {

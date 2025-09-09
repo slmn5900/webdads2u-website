@@ -52,7 +52,7 @@ const WebsiteMain = () => {
       <Benefitsselectingcard />
       <Lookingwebsitemaintenance />
       <Fqwebsitemaintenance />
-      <SocialMedia />
+      {/* <SocialMedia /> */}
     </div>
   );
 }

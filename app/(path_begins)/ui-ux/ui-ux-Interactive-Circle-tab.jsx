@@ -1,107 +1,309 @@
+'use client';
+
 import React, { useState } from 'react';
+import { Box, Typography, Grid2, Button } from '@mui/material';
+import { motion, AnimatePresence } from 'framer-motion';
+
+const tabs = [
+    {
+        id: 'tab-1',
+        label: 'Information Architecture',
+        desc: 'The core focus of our UI UX design and development services is usability. The design elements are created in a way that they guide the user base to their end goal.',
+        color: 'linear-gradient(135deg, #42a5f5, #478ed1)'
+    },
+    {
+        id: 'tab-2',
+        label: 'Usability Testing',
+        desc: 'We maintain writing clean codes to create value-driven, consumer-focussed interfaces that build ROI for our clients and promote user interaction.',
+        color: 'linear-gradient(135deg, #66bb6a, #43a047)'
+    },
+    {
+        id: 'tab-3',
+        label: 'Visual Design',
+        desc: 'We integrate a design philosophy into our interfaces that comprehend the psychology of the user, are visually appealing, and highly interactive.',
+        color: 'linear-gradient(135deg, #ab47bc, #8e24aa)'
+    },
+    {
+        id: 'tab-4',
+        label: 'Wireframe and Prototype',
+        desc: 'The roadmap designed is elaborative and shows the positioning of design elements in detail. Clickable prototypes show the exact flow of the structure.',
+        color: 'linear-gradient(135deg, #ffa726, #fb8c00)'
+    },
+    {
+        id: 'tab-5',
+        label: 'UI Development',
+        desc: 'We align your vision into the design architecture, keeping in mind usability, functionality, and the interactive quotient of the design.',
+        color: 'linear-gradient(135deg, #ef5350, #e53935)'
+    },
+    {
+        id: 'tab-6',
+        label: 'Research and Strategy',
+        desc: 'An in-depth analysis of business needs is done along with competition mapping to devise a strategic blueprint and determine design goals.',
+        color: 'linear-gradient(135deg, #26c6da, #00acc1)'
+    }
+];
+
+// const CircleTabs = () => {
+//     const [activeTab, setActiveTab] = useState('tab-1');
+
+//     return (
+//         <Box component="section" sx={{ py: 6, px: 2 }}>
+//             <Typography
+//                 variant="h4"
+//                 align="center"
+//                 sx={{
+//                     mb: 4,
+//                     fontWeight: 'bold',
+//                     background: 'linear-gradient(90deg,#42a5f5,#ab47bc)',
+//                     WebkitBackgroundClip: 'text',
+//                     WebkitTextFillColor: 'transparent'
+//                 }}
+//             >
+//                 Our Approach to UI UX Services
+//             </Typography>
+
+//             <Grid2 container justifyContent="center">
+//                 <Grid2 size={{ xs: 12, md: 8 }}>
+//                     <Box
+//                         sx={{
+//                             position: 'relative',
+//                             width: { xs: 300, md: 420 },
+//                             height: { xs: 300, md: 420 },
+//                             mx: 'auto',
+//                             borderRadius: '50%',
+//                             border: '5px solid transparent',
+//                             background: 'linear-gradient(white, white) padding-box, linear-gradient(135deg, #42a5f5, #ab47bc) border-box',
+//                             display: 'flex',
+//                             justifyContent: 'center',
+//                             alignItems: 'center'
+//                         }}
+//                     >
+//                         {/* Tabs positioned around the circle */}
+//                         {tabs.map((tab, index) => {
+//                             const angle = (index / tabs.length) * (2 * Math.PI);
+//                             const radius = 170;
+//                             const x = radius * Math.cos(angle);
+//                             const y = radius * Math.sin(angle);
+
+//                             return (
+//                                 <motion.div
+//                                     key={tab.id}
+//                                     initial={{ opacity: 0 }}
+//                                     animate={{ opacity: 1 }}
+//                                     transition={{ delay: index * 0.1 }}
+//                                     style={{
+//                                         position: 'absolute',
+//                                         top: `calc(50% + ${y}px)`,
+//                                         left: `calc(50% + ${x}px)`,
+//                                         transform: 'translate(-50%, -50%)'
+//                                     }}
+//                                 >
+//                                     <Button
+//                                         onClick={() => setActiveTab(tab.id)}
+//                                         sx={{
+//                                             borderRadius: '50%',
+//                                             textAlign: 'center',
+//                                             width: { xs: 80, md: 100 },
+//                                             height: { xs: 80, md: 100 },
+//                                             fontSize: { xs: '0.65rem', md: '0.8rem' },
+//                                             fontWeight: 600,
+//                                             color: '#fff',
+//                                             background: activeTab === tab.id ? tab.color : 'linear-gradient(135deg,#e0e0e0,#bdbdbd)',
+//                                             boxShadow: activeTab === tab.id ? '0px 4px 20px rgba(0,0,0,0.3)' : 'none',
+//                                             transition: 'all 0.3s ease',
+//                                             '&:hover': {
+//                                                 transform: 'scale(1.1)',
+//                                                 background: tab.color
+//                                             }
+//                                         }}
+//                                     >
+//                                         {tab.label.split(' ').slice(0, 2).join(' ')}
+//                                     </Button>
+//                                 </motion.div>
+//                             );
+//                         })}
+
+//                         {/* Circle Content */}
+//                         <Box
+//                             sx={{
+//                                 width: { xs: 180, md: 240 },
+//                                 height: { xs: 180, md: 240 },
+//                                 borderRadius: '50%',
+//                                 bgcolor: '#fff',
+//                                 boxShadow: 6,
+//                                 display: 'flex',
+//                                 alignItems: 'center',
+//                                 justifyContent: 'center',
+//                                 textAlign: 'center',
+//                                 p: 2
+//                             }}
+//                         >
+//                             <AnimatePresence mode="wait">
+//                                 {tabs
+//                                     .filter((t) => t.id === activeTab)
+//                                     .map((t) => (
+//                                         <motion.div key={t.id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.4 }}>
+//                                             <Typography
+//                                                 variant="h6"
+//                                                 sx={{
+//                                                     fontWeight: 700,
+//                                                     background: t.color,
+//                                                     WebkitBackgroundClip: 'text',
+//                                                     WebkitTextFillColor: 'transparent',
+//                                                     mb: 1,
+//                                                     fontSize: { xs: 12, md: 17 }
+//                                                 }}
+//                                             >
+//                                                 {t.label}
+//                                             </Typography>
+//                                             <Typography variant="body2" sx={{ color: 'text.secondary', fontSize: { xs: 10, md: 15 } }}>
+//                                                 {t.desc}
+//                                             </Typography>
+//                                         </motion.div>
+//                                     ))}
+//                             </AnimatePresence>
+//                         </Box>
+//                     </Box>
+//                 </Grid2>
+//             </Grid2>
+//         </Box>
+//     );
+// };
 
 const CircleTabs = () => {
-    // State to keep track of the active tab
     const [activeTab, setActiveTab] = useState('tab-1');
 
-    // Function to handle tab click
-    const handleTabClick = (tabId) => {
-        setActiveTab(tabId);
-    };
-
     return (
+        <Box component="section" sx={{ py: 6, px: 2 }}>
+            <Typography
+                variant="h4"
+                align="center"
+                sx={{
+                    mb: 4,
+                    fontWeight: 'bold',
+                    background: 'linear-gradient(90deg,#42a5f5,#ab47bc)',
+                    WebkitBackgroundClip: 'text',
+                    WebkitTextFillColor: 'transparent',
+                    fontSize: { xs: '1.5rem', md: '2rem' }
+                }}
+            >
+                Our Approach to UI UX Services
+            </Typography>
 
+            <Grid2 container justifyContent="center">
+                <Grid2 size={{ xs: 12, md: 8 }}>
+                    <Box
+                        sx={{
+                            position: 'relative',
+                            width: { xs: 260, md: 420 }, // smaller circle on mobile
+                            height: { xs: 260, md: 420 },
+                            mx: 'auto',
+                            borderRadius: '50%',
+                            border: '5px solid transparent',
+                            background: 'linear-gradient(white, white) padding-box, linear-gradient(135deg, #42a5f5, #ab47bc) border-box',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center'
+                        }}
+                    >
+                        {/* Tabs positioned around the circle */}
+                        {tabs.map((tab, index) => {
+                            const angle = (index / tabs.length) * (2 * Math.PI);
+                            const radius = window.innerWidth < 600 ? 110 : 170; // responsive radius
+                            const x = radius * Math.cos(angle);
+                            const y = radius * Math.sin(angle);
 
-        <section className='circle-tab-main'>
-            <div className="container-fluid">
-                <div className="row circle-tabtabs">
-                    <h2 className="text-center m-3">Our Approach to UI UX Services</h2>
-                    <div className="circle-tabs">
-                        <div className="tab-container">
-                            <div
-                                className={`tab ${activeTab === 'tab-1' ? 'active' : ''}`}
-                                onClick={() => handleTabClick('tab-1')}
-                            >
-                                <span>Information <br /> Architecture</span>
-                            </div>
-                            <div
-                                className={`tab ${activeTab === 'tab-2' ? 'active' : ''}`}
-                                onClick={() => handleTabClick('tab-2')}
-                            >
-                                <span>Usability <br /> Testing</span>
-                            </div>
-                            <div
-                                className={`tab ${activeTab === 'tab-3' ? 'active' : ''}`}
-                                onClick={() => handleTabClick('tab-3')}
-                            >
-                                <span>Visual <br /> Design</span>
-                            </div>
-                            <div
-                                className={`tab ${activeTab === 'tab-4' ? 'active' : ''}`}
-                                onClick={() => handleTabClick('tab-4')}
-                            >
-                                <span>Wireframe and <br /> Prototype</span>
-                            </div>
-                            <div
-                                className={`tab ${activeTab === 'tab-5' ? 'active' : ''}`}
-                                onClick={() => handleTabClick('tab-5')}
-                            >
-                                <span>UI <br /> Development</span>
-                            </div>
-                            <div
-                                className={`tab ${activeTab === 'tab-6' ? 'active' : ''}`}
-                                onClick={() => handleTabClick('tab-6')}
-                            >
-                                <span>Research and <br /> Strategy</span>
-                            </div>
-                        </div>
-                        <div className="circle">
-                            <div className="circle-inner">
-                                <div className="circle-content">
-                                    {activeTab === 'tab-1' && (
-                                        <div className="tab-content" id="tab-1">
-                                            <h2>Information Architecture</h2>
-                                            <p>The core focus of our UI UX design and development services is usability. The design elements are created in a way that they guide the user base to their end goal</p>
-                                        </div>
-                                    )}
-                                    {activeTab === 'tab-2' && (
-                                        <div className="tab-content" id="tab-2">
-                                            <h2>Usability Testing</h2>
-                                            <p>We maintain writing clean codes to create value-driven, consumer-focussed interfaces that build ROI for our clients and promote user interaction</p>
-                                        </div>
-                                    )}
-                                    {activeTab === 'tab-3' && (
-                                        <div className="tab-content" id="tab-3">
-                                            <h2>Visual Design</h2>
-                                            <p>We integrate a design philosophy into our interfaces that comprehend the psychology of the user, is visually appealing and highly interactive to his actions</p>
-                                        </div>
-                                    )}
+                            return (
+                                <motion.div
+                                    key={tab.id}
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    transition={{ delay: index * 0.1 }}
+                                    style={{
+                                        position: 'absolute',
+                                        top: `calc(50% + ${y}px)`,
+                                        left: `calc(50% + ${x}px)`,
+                                        transform: 'translate(-50%, -50%)'
+                                    }}
+                                >
+                                    <Button
+                                        onClick={() => setActiveTab(tab.id)}
+                                        sx={{
+                                            borderRadius: '50%',
+                                            textAlign: 'center',
+                                            width: { xs: 60, md: 100 },
+                                            height: { xs: 60, md: 100 },
+                                            fontSize: { xs: '0.55rem', md: '0.8rem' },
+                                            lineHeight: 1.2,
+                                            fontWeight: 600,
+                                            color: '#fff',
+                                            whiteSpace: 'normal',
+                                            background: activeTab === tab.id ? tab.color : 'linear-gradient(135deg,#e0e0e0,#bdbdbd)',
+                                            boxShadow: activeTab === tab.id ? '0px 4px 15px rgba(0,0,0,0.25)' : 'none',
+                                            transition: 'all 0.3s ease',
+                                            '&:hover': {
+                                                transform: 'scale(1.1)',
+                                                background: tab.color
+                                            }
+                                        }}
+                                    >
+                                        {tab.label.split(' ').slice(0, 2).join(' ')}
+                                    </Button>
+                                </motion.div>
+                            );
+                        })}
 
-                                    {activeTab === 'tab-4' && (
-                                        <div className="tab-content" id="tab-4">
-                                            <h2>Wireframe and Prototype</h2>
-                                            <p>The roadmap designed are elaborative and show the positioning of the design elements in great detail. The clickable prototypes show the exact flow of the structure</p>
-                                        </div>
-                                    )}
-                                    {activeTab === 'tab-5' && (
-                                        <div className="tab-content" id="tab-5">
-                                            <h2>UI Development</h2>
-                                            <p>We align your vision into the design architecture keeping in mind the usability, functionality and interactive quotient of the design interface</p>
-                                        </div>
-                                    )}
-                                    {activeTab === 'tab-6' && (
-                                        <div className="tab-content" id="tab-6">
-                                            <h2>Research and Strategy</h2>
-                                            <p>An in-depth analysis of business needs is done along with competition mapping to devise a strategic blueprint and determine the aesthetic goals for the designs</p>
-                                        </div>
-                                    )}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                        {/* Circle Content */}
+                        <Box
+                            sx={{
+                                width: { xs: 150, md: 240 },
+                                height: { xs: 150, md: 240 },
+                                borderRadius: '50%',
+                                bgcolor: '#fff',
+                                boxShadow: 6,
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                textAlign: 'center',
+                                p: 2
+                            }}
+                        >
+                            <AnimatePresence mode="wait">
+                                {tabs
+                                    .filter((t) => t.id === activeTab)
+                                    .map((t) => (
+                                        <motion.div key={t.id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.4 }}>
+                                            <Typography
+                                                variant="h6"
+                                                sx={{
+                                                    fontWeight: 700,
+                                                    background: t.color,
+                                                    WebkitBackgroundClip: 'text',
+                                                    WebkitTextFillColor: 'transparent',
+                                                    mb: 1,
+                                                    fontSize: { xs: 11, md: 17 }
+                                                }}
+                                            >
+                                                {t.label}
+                                            </Typography>
+                                            <Typography
+                                                variant="body2"
+                                                sx={{
+                                                    color: 'text.secondary',
+                                                    fontSize: { xs: 9, md: 15 },
+                                                    lineHeight: 1.3
+                                                }}
+                                            >
+                                                {t.desc}
+                                            </Typography>
+                                        </motion.div>
+                                    ))}
+                            </AnimatePresence>
+                        </Box>
+                    </Box>
+                </Grid2>
+            </Grid2>
+        </Box>
     );
 };
 

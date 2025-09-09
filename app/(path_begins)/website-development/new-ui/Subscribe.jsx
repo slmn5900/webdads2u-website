@@ -19,7 +19,7 @@ const Subscribe = () => {
 
     return (
         <CtaSection>
-            <Container sx={{ py: 6 }}>
+            <Container sx={{ py: { xs: 0, md: 6 } }}>
                 <Grid2 container spacing={3} direction={isMobile ? 'column' : 'row'} alignItems={isMobile ? 'flex-start' : 'center'}>
                     <Grid2 size={{ xs: 12, sm: 9 }}>
                         <Typography

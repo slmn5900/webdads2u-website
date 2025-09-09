@@ -2,11 +2,13 @@ import React from 'react';
 
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Slider from '../../../components/common/Slider-image';
+import Banner from '../../../components/ui/banner/Banner';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 function MobileuiuxHero() {
     return (
         <>
             {/* Hero section */}
-            <section className="mobileuiux">
+            {/* <section className="mobileuiux">
                 <Container>
                     <Row className="align-items-center">
                         <Col md={7} xs={7} lg={7}>
@@ -23,15 +25,19 @@ function MobileuiuxHero() {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section> */}
+
+            <Banner />
             {/* Slider */}
-            <Slider />
+            {/* <Slider /> */}
+
+            <ClientLogoSlider />
             {/*  */}
             <section className="mobileuiux-design pt-5 pb-5">
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <h2>Mobile UI Designing-Endless Possibilities to Enhance your Online Business!</h2>
                                 <p>
                                     Unlock the full potential of your online business with our cutting-edge Mobile UI/UX Design solutions! Mobile devices have evolved beyond mere communication tools, and we’re here to help you harness their
@@ -42,7 +48,7 @@ function MobileuiuxHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <img src="/webdads/images/mobileuiux/mobile-uI-designing-Endless-Possibilities-to-enhan.webp" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>
@@ -132,7 +138,7 @@ function MobileuiuxHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <img src="/webdads/images/customized-crm/crm-benift.webp" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>

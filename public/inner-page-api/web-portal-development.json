@@ -3,9 +3,9 @@
     "title": "Web Portal Development",
     "description": "Building unique, industry-specific, custom-made web portals for outstanding customer experience",
     "button": "Contact us",
-    "img": "/webdads/images/webportal/Web-Portal-Development.png",
-    "bg_img": "/webdads/images/webportal/web-portal.jpg",
-    "img_alt":"brochure design company"
+    "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757328846/webdads2u/web-portal-development/web-portal-development.png",
+    "bg_img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757328843/webdads2u/web-portal-development/web-portal.webp",
+    "img_alt":"web-portal-development"
   },
   "slider_section": {
     "title": "Trusted by over 150+ businesses worldwide!",

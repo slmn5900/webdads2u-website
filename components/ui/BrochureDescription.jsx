@@ -18,8 +18,7 @@ const fadeSlideUp = keyframes`
 const DescriptionContainer = styled(Box)(() => ({
     maxWidth: '900px',
     margin: '0 auto',
-    textAlign: 'center',
-    
+    textAlign: 'center'
 }));
 
 export default function BrochureDescription() {
@@ -30,7 +29,7 @@ export default function BrochureDescription() {
     const description = company_section?.description || 'Default description text goes here until API loads.';
     console.log(company_section?.description, 'company_section?.description');
     return (
-        <DescriptionContainer sx={{py:4}}>
+        <DescriptionContainer sx={{ py: { xs: 0, md: 4 } }}>
             <Typography
                 variant="h4"
                 component="h5"
@@ -42,8 +41,7 @@ export default function BrochureDescription() {
                     opacity: 0,
                     transform: 'scale(0.8)',
                     animation: `${popIn} 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards`,
-                    fontSize: { xs: '1.50rem', md: '2rem' },
-                    
+                    fontSize: { xs: '1.50rem', md: '2rem' }
                 }}
             >
                 {title}

@@ -1,37 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Slider from '../../../components/common/Slider-image';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import SocialMedia from '../../../components/common/SocialMedia';
+import { MenuContext } from '../../../layout/context/menucontext';
+import ISOAppDevelopment from './component/ISOAppDevelopment';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 function IsoappHero() {
     return (
         <>
             {/* Hero section */}
-            <section className="isoapp">
-                <Container>
-                    <Row className="align-items-center">
-                        <Col md={7} xs={7} lg={6}>
-                            <h2>ISO App Development Company</h2>
-                            <p>Elevate your brand with our iOS app development expertise. From concept to launch, we deliver immersive experiences tailored to your audience. Let&apos;s bring your ideas to life and redefine user engagement on iOS.</p>
-                            <a href="/contact-us/">
-                                <Button variant="contained">Contact us</Button>
-                            </a>
-                        </Col>
-                        <Col md={5} xs={5} lg={6}>
-                            <div className="text-center iso-icon">
-                                <img
-                                    src="/webdads/images/isoapp/iso-mobile.png"
-                                    alt="IOS App Development Company In Chennai
-"
-                                    className="w-50"
-                                />
-                                <img src="/webdads/images/isoapp/App-icons.png" alt="mobileuiux-hero" className="iso-iconsft" />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
+            <ISOAppDevelopment />
             {/* Slider */}
-            <Slider />
+            <ClientLogoSlider />
             {/*  */}
             <section className="isoempower pt-5 pb-5">
                 <Container>
@@ -75,7 +55,7 @@ function IsoappHero() {
                     </Row>
                 </Container>
             </section>
-            <section className=" pt-5 pb-5">
+            <section className=" pt-5 ">
                 <Container>
                     <Row className="align-items-center">
                         <div className="text-center">
@@ -157,7 +137,7 @@ function IsoappHero() {
                     </Row>
                 </Container>
             </section>
-            <section className="custom-made pt-5 pb-5">
+            <section className="custom-made  pb-5">
                 <Container>
                     <Row className="align-items-center">
                         <div className="text-center">
@@ -174,7 +154,7 @@ function IsoappHero() {
                             <div className="crm-box">
                                 <div className="crm-auto">
                                     <div>
-                                        <img  src="/webdads/images/isoapp/Transparent-Approach.png" alt="custome-erp" />
+                                        <img src="/webdads/images/isoapp/Transparent-Approach.png" alt="custome-erp" />
                                     </div>
                                     <div>
                                         <h3>Transparent Approach </h3>
@@ -228,7 +208,7 @@ function IsoappHero() {
                     </Row>
                 </Container>
             </section>
-            <SocialMedia />
+            {/* <SocialMedia /> */}
         </>
     );
 }

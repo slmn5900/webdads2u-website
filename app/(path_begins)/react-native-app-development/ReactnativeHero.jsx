@@ -2,11 +2,14 @@ import React from 'react';
 import SocialMedia from '../../../components/common/SocialMedia';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Slider from '../../../components/common/Slider-image';
+import MobileUiUxHero from './Component/MobileUiUxHero';
+import { Box } from '@mui/material';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 function ReactnativeHero() {
     return (
         <>
             {/* Hero section */}
-            <section className="mobileuiux">
+            {/* <section className="mobileuiux">
                 <Container>
                     <Row className="align-items-center">
                         <Col md={7} xs={6} lg={6}>
@@ -29,9 +32,10 @@ function ReactnativeHero() {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section> */}
+            <MobileUiUxHero />
             {/* Slider */}
-            <Slider />
+            <ClientLogoSlider />
             {/*  */}
             <section className="react-nativeimhr pt-5 pb-5">
                 <Container>
@@ -183,7 +187,9 @@ function ReactnativeHero() {
                 <Container>
                     <Row>
                         <div className="text-center">
-                            <h2>Looking for Custom Web Application Development?</h2>
+                            <Box Component={'h3'} sx={{ fontSize: { xs: 20, md: 28 }, fontFamily: 'Poppins', color: 'white' }}>
+                                Looking for Custom Web Application Development?
+                            </Box>
                             <p>Send us your requirements. We will get back to you with a free quote.</p>
                             <a href="/contact-us/">
                                 <Button variant="contained">Connect For Free Consultation</Button>
@@ -193,7 +199,7 @@ function ReactnativeHero() {
                 </Container>
             </section>
 
-            <SocialMedia />
+            {/* <SocialMedia /> */}
         </>
     );
 }

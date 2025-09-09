@@ -4,36 +4,16 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Fluterwave from './Fluterwave';
 import SocialMedia from '../../../components/common/SocialMedia';
 import { RiRadioButtonFill } from 'react-icons/ri';
+import Banner from '../../../components/ui/banner/Banner';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 
 function FlutterappHero() {
     return (
         <>
             {/* Hero section */}
-            <section className="mobileuiux">
-                <Container>
-                    <Row className="align-items-center">
-                        <Col md={7} xs={7} lg={7}>
-                            <h2>Flutter App Development</h2>
-                            <p>Empower your online business with expert Shopify web development. Top rated Shopify development service provider.</p>
-                            <a href="/contact-us/">
-                                <Button variant="contained">Contact us</Button>
-                            </a>
-                        </Col>
-                        <Col md={5} xs={5} lg={5}>
-                            <div >
-                                <img
-                                    src="/webdads/images/flutterapp/flutter-hero.png"
-                                    alt="Flutter App Development Company In Chennai
-"
-                                    className="w-100"
-                                />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
+            <Banner />
             {/* Slider */}
-            <Slider />
+            <ClientLogoSlider />
             {/*  */}
             <section className="react-nativeimhr pt-5 pb-5">
                 <Container>
@@ -44,7 +24,7 @@ function FlutterappHero() {
                         </div>
 
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <h2>Flutter Expressive and Flexible</h2>
                                 <p>
                                     {' '}
@@ -58,7 +38,7 @@ function FlutterappHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <img src="/webdads/images/flutterapp/Flutter-Expressive-and-Flexible.png" alt="custome-erp" className="w-100 rounded" />
                             </div>
                         </Col>
@@ -71,7 +51,7 @@ function FlutterappHero() {
                 <Container>
                     <Row>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <h2>Our On-Demand Flutter Mobile App Development Services</h2>
                                 <p>Radixweb offers Flutter app development services that are geared towards scaling and bringing robustness to your mobile business strategy, which is achieved through Flutter.</p>
                                 <p>
@@ -92,14 +72,13 @@ function FlutterappHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <img src="/webdads/images/flutterapp/Our-On-Demand-Flutter-Mobile-App-Development-Services.png" alt="Our-On-Demand-Flutter-Mobile-App-Development-Services" className="w-100 rounded" />
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </section>
-            <SocialMedia />
         </>
     );
 }

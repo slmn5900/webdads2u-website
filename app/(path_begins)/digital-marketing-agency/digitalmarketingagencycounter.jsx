@@ -122,7 +122,7 @@ const Digitalmarketingagencycounter = () => {
     }, [isScrolling, stats]); // Using memoized `stats`
 
     return (
-        <section className="digitalmarketingagencycounter-main">
+        <section className="digitalmarketingagencycounter-main ">
             <div className="container-fluid">
                 {/* <div className="row text-center digitalmarketingagencycounter">
           <div className="col-sm-12 col-md-12 col-lg-12">

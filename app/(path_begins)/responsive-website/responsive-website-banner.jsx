@@ -4,7 +4,7 @@ import Slider from '../../../components/common/Slider-image';
 function Responsivewebsitebanner() {
     return (
         <>
-            <section className="responsivewebsitebanner-main mt-5">
+            <section className="responsivewebsitebanner-main">
                 <div className="container">
                     <div className="row responsivewebsitebanner">
                         <div className="col-7 col-sm-6 col-md-6 col-md-6 align-self-center">

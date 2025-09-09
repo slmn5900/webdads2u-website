@@ -84,9 +84,9 @@ const LogoDesignCard = () => {
 
                     {/* Cards Column */}
                     <Grid2 size={{ xs: 12, md: 6 }}>
-                        <Grid2 container spacing={0} sx={{ position: 'relative' }}>
+                        <Grid2 container spacing={{ xs: 3, md: 0 }} sx={{ position: 'relative' }}>
                             {/* Large Card */}
-                            <Grid2 size={{ xs: 12, md: 6 }} sx={{ position: 'absolute', left: { xs: '0%', sm: '20px', md: '35%' }, bottom: { xs: '0px', sm: '20px', md: '0px' } }}>
+                            <Grid2 size={{ xs: 12, md: 6 }} sx={{ position: { xs: 'relative', md: 'absolute' }, left: { xs: '0%', sm: '20px', md: '35%' }, bottom: { xs: '0px', sm: '20px', md: '0px' } }}>
                                 <Card
                                     sx={{
                                         backgroundColor: theme.palette.primary.main,
@@ -120,7 +120,7 @@ const LogoDesignCard = () => {
 
                             {/* Small Cards Row */}
 
-                            <Grid2 size={{ xs: 12, sm: 12, md: 12 }} sx={{ position: 'absolute', left: { xs: '0%', sm: '20px', md: '20px' }, top: { xs: '-10px', sm: '0px', md: '-20px' } }}>
+                            <Grid2 size={{ xs: 12, sm: 12, md: 12 }} sx={{ position: { xs: 'relative', md: 'absolute' }, left: { xs: '0%', sm: '20px', md: '20px' }, top: { xs: '-10px', sm: '0px', md: '-20px' } }}>
                                 <Card
                                     sx={{
                                         backgroundColor: theme.palette.secondary.main,
@@ -152,7 +152,7 @@ const LogoDesignCard = () => {
                                 </Card>
                             </Grid2>
 
-                            <Grid2 size={{ xs: 12, sm: 12, md: 12 }} sx={{ position: 'absolute', top: { xs: '-10px', sm: '0px', md: '-20px' }, left: { xs: '0%', sm: '20px', md: '330px' } }}>
+                            <Grid2 size={{ xs: 12, sm: 12, md: 12 }} sx={{ position: { xs: 'relative', md: 'absolute' }, top: { xs: '-10px', sm: '0px', md: '-20px' }, left: { xs: '0%', sm: '20px', md: '330px' } }}>
                                 <Card
                                     sx={{
                                         backgroundColor: theme.palette.success.main,

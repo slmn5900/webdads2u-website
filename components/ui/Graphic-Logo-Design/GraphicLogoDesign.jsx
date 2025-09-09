@@ -13,7 +13,7 @@ export default function GraphicLogoDesign() {
     const lists = list_section?.lists;
     const alt = list_section?.alt;
     return (
-        <Box sx={{ py: 10}}>
+        <Box sx={{ py: { xs: 2, md: 0 } }}>
             <Container>
                 <Grid2 container>
                     <ImageBox image={image} alt={alt} />

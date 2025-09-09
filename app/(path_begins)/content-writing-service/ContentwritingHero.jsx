@@ -3,10 +3,15 @@ import Slider from '../../../components/common/Slider-image';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import SocialMedia from '../../../components/common/SocialMedia';
 import ContentFaq from './ContentFaq';
+import Banner from '../../../components/ui/banner/Banner';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import IStudioTechSection from './Components/IStudioTechSection';
+import ContentMarketingServices from './Components/ContentMarketingServices';
+import BrochureFaq from '../../../components/ui/BrochureFaq';
 const ContentwritingHero = () => {
     return (
         <>
-            <section className="content-writing">
+            {/* <section className="content-writing">
                 <Container>
                     <Row className="align-items-center">
                         <Col md={7} xs={7} lg={7}>
@@ -29,10 +34,9 @@ const ContentwritingHero = () => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
-
-            <Slider />
-
+            </section> */}
+            <Banner />
+            <ClientLogoSlider />
             <section className="content-marketing">
                 <Container>
                     <Row className="align-items-center">
@@ -119,7 +123,7 @@ const ContentwritingHero = () => {
                     </Row>
                 </Container>
             </section>
-            <section style={{ background: '#ECFCF9E6' }} className="istudiotech pt-5 pb-5">
+            {/* <section style={{ background: '#ECFCF9E6' }} className="istudiotech pt-5 pb-5">
                 <Container>
                     <Row>
                         <div className="text-center">
@@ -163,8 +167,9 @@ const ContentwritingHero = () => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
-            <section className="contentwrit pt-5 pb-5">
+            </section> */}
+            <IStudioTechSection />
+            {/* <section className="contentwrit pt-5 pb-5">
                 <Container>
                     <Row>
                         <div className="text-center">
@@ -221,7 +226,8 @@ const ContentwritingHero = () => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section> */}
+            <ContentMarketingServices />
 
             <section className="pt-5">
                 <Container>
@@ -234,7 +240,7 @@ const ContentwritingHero = () => {
                         <Col md={6}>
                             <div className="process d-flex">
                                 <div>
-                                    <img alt="" src="/webdads/images/content-writing/we-deliver-recognition.webp" loading="lazy" width={62}/>
+                                    <img alt="" src="/webdads/images/content-writing/we-deliver-recognition.webp" loading="lazy" width={62} />
                                 </div>
                                 <div className="process-auto">
                                     <h2>We Deliver Recognition</h2>
@@ -243,7 +249,7 @@ const ContentwritingHero = () => {
                             </div>
                             <div className="process d-flex">
                                 <div>
-                                    <img alt="" src="/webdads/images/content-writing/we-bring-traffic.webp" loading="lazy" width={62}/>
+                                    <img alt="" src="/webdads/images/content-writing/we-bring-traffic.webp" loading="lazy" width={62} />
                                 </div>
                                 <div className="process-auto">
                                     <h2>We Bring Traffic </h2>
@@ -252,7 +258,7 @@ const ContentwritingHero = () => {
                             </div>
                             <div className="process d-flex">
                                 <div>
-                                    <img alt="" src="/webdads/images/content-writing/we-get-you-leads.webp" loading="lazy" width={62}/>
+                                    <img alt="" src="/webdads/images/content-writing/we-get-you-leads.webp" loading="lazy" width={62} />
                                 </div>
                                 <div className="process-auto">
                                     <h2>We Get You Leads</h2>
@@ -261,7 +267,7 @@ const ContentwritingHero = () => {
                             </div>
                             <div className="process d-flex">
                                 <div>
-                                    <img alt="" src="/webdads/images/content-writing/we-offer-conversions.webp" loading="lazy" width={62}/>
+                                    <img alt="" src="/webdads/images/content-writing/we-offer-conversions.webp" loading="lazy" width={62} />
                                 </div>
                                 <div className="process-auto">
                                     <h2>We Offer Conversions</h2>
@@ -290,8 +296,9 @@ const ContentwritingHero = () => {
                     </Row>
                 </Container>
             </section>
-            <ContentFaq />
-            <SocialMedia />
+            {/* <ContentFaq /> */}
+            {/* <SocialMedia /> */}
+            <BrochureFaq />
         </>
     );
 };

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Inorganicdigitalmarketing() {
   return (
-    <section className='inorganicdigitalmarketing-main'>
+    <section className='inorganicdigitalmarketing-main pt-0'>
       <div className="container">
         <div className="row text-center inorganicdigitalmarketing">
           <div className="col-sm-12 col-md-12 col-lg-12">

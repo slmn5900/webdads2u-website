@@ -2,7 +2,7 @@ import React from 'react'
 
 function Provenecommerce() {
   return (
-    <section className='provenecommerce-main'>
+    <section className='provenecommerce-main pt-0'>
         <div className="container">
             <div className="row justify-content-center text-center provenecommerce">
                 <div className="col-sm-12 col-md-12 col-lg-8">

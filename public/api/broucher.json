@@ -56,71 +56,72 @@
             "email": "info@webdads2u.com",
             "phone": "88256 07550"
         },
-        "gallery": {
-            "title": "Our Work",
-          "images": [
+      "gallery": {
+  "title": "Our Work",
+  "images": [
     {
-      "title": "selli mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872110/landing-page/web-development-company/selli-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963762/landing-page/brochure-design-company/1vse-broucherdesign.jpg",
+      "title": "1vse broucherdesign"
     },
     {
-      "title": "yegovah laptop mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872115/landing-page/web-development-company/yegovah-laptop-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963818/landing-page/brochure-design-company/2vse-broucherdesign.jpg",
+      "title": "2vse broucherdesign"
     },
     {
-      "title": "yegovah mobile mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872117/landing-page/web-development-company/yegovah-mobile-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963818/landing-page/brochure-design-company/vse-broucherdesign.jpg",
+      "title": "vse broucherdesign"
     },
     {
-      "title": "zenacademy mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872119/landing-page/web-development-company/zenacademy-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963820/landing-page/brochure-design-company/uzhavaroil-broucherdesign.jpg",
+      "title": "uzhavaroil broucherdesign"
     },
     {
-      "title": "arcmen mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872096/landing-page/web-development-company/arcmen-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963819/landing-page/brochure-design-company/srt-broucherdesign.jpg",
+      "title": "srt broucherdesign"
     },
     {
-      "title": "pediatricsfrisco mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872106/landing-page/web-development-company/pediatricsfrisco-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963817/landing-page/brochure-design-company/teamwater-broucherdesign.jpg",
+      "title": "teamwater broucherdesign"
     },
     {
-      "title": "bestindiakart mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872097/landing-page/web-development-company/bestindiakart-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963817/landing-page/brochure-design-company/studynordic-broucherdesign.jpg",
+      "title": "studynordic broucherdesign"
     },
     {
-      "title": "wayhead mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872113/landing-page/web-development-company/wayhead-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963816/landing-page/brochure-design-company/puvan-broucherdesign.jpg",
+      "title": "puvan broucherdesign"
     },
     {
-      "title": "svm mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872112/landing-page/web-development-company/svm-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963764/landing-page/brochure-design-company/instagreen-broucherdesign.jpg",
+      "title": "instagreen broucherdesign"
     },
     {
-      "title": "pinandfind mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872108/landing-page/web-development-company/pinandfind-mockup-webdevelopment.png"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963763/landing-page/brochure-design-company/nuvotectitanium-broucherdesign.jpg",
+      "title": "nuvotectitanium broucherdesign"
     },
     {
-      "title": "mothertheresa mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872104/landing-page/web-development-company/mothertheresa-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963762/landing-page/brochure-design-company/dprince-broucherdesign.jpg",
+      "title": "dprince broucherdesign"
     },
     {
-      "title": "leadg mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872102/landing-page/web-development-company/leadg-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963718/landing-page/brochure-design-company/pridermx-broucherdesign.jpg",
+      "title": "pridermx broucherdesign"
     },
     {
-      "title": "kbhomes mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872101/landing-page/web-development-company/kbhomes-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963714/landing-page/brochure-design-company/arcmen-broucherdesign.jpg",
+      "title": "arcmen broucherdesign"
     },
     {
-      "title": "bsquare mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872100/landing-page/web-development-company/bsquare-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963714/landing-page/brochure-design-company/diamond-broucherdesign.jpg",
+      "title": "diamond broucherdesign"
     },
     {
-      "title": "aynhayat mockup webdevelopment",
-      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753872098/landing-page/web-development-company/aynhayat-mockup-webdevelopment.jpg"
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756963714/landing-page/brochure-design-company/aadhilenterprises-broucherdesign.jpg",
+      "title": "aadhilenterprises broucherdesign"
     }
   ]
-        }
+}
+
     },
     "clients": {
         "title": "Showcasing Our Trusted Clients: Partners in Success",

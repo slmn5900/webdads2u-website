@@ -21,7 +21,7 @@ export default function CustomeWebDevelopermenets() {
                 <Customwebdevelopmentservices />
                 <Lookingforcustomwebsite />
                 <Frequentlyaskedquestionscustomwebsite />
-                <SocialMedia />
+                {/* <SocialMedia /> */}
             </>
         </div>
     );

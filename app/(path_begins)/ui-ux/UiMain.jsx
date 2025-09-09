@@ -1,48 +1,12 @@
-// "use client"
-// import React from 'react'
-// import './ui-ux.css'
-// import Uiuxbanner from './ui-ux-banner'
-// import Webdevelopmentservices from './Web-Development-Services'
-// import UXdesign from './UX-Design'
-// import UXcesigncompany from './UX-Design-Company'
-// import KeyelementUI from './Key-Elements-UI'
-// import Fquiux from './FQ-ui-ux'
-// import UXwebdesigndevelopment from './UX-Web-Design-Development'
-// import WebsiteUXUIdesigningservices from './Website-UX-UI-Designing-Services'
-// import SocialMedia from '../../../components/common/SocialMedia'
-// import Uxdesign from './Best-UI/UX-Design'
-// import Ux from './UX'
-// import Uiuxsliser from './Ui-ux-sliser'
-// import CircleTabs from './ui-ux-Interactive-Circle-tab'
 
 
-// const page = () => {
-//   return (
-//     <div>
-//       <Uiuxbanner />
-//       <Webdevelopmentservices />
-//       <UXdesign />
-//       <UXcesigncompany />
-//       <KeyelementUI />
-//       <CircleTabs />
-//       <Uiuxsliser />
-//       <Ux />
-//       <Uxdesign />
-//       <SocialMedia />
-//       <WebsiteUXUIdesigningservices />
-//       <UXwebdesigndevelopment />
-//       <Fquiux />
-//     </div>
-//   )
-// }
-
-// export default page
-
-
-"use client";
-import React from 'react';
+'use client';
+import React, { useContext, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import './ui-ux.css';
+import { MenuContext } from '../../../layout/context/menucontext';
+import Banner from '../../../components/ui/banner/Banner';
+import BrochureFaq from '../../../components/ui/BrochureFaq';
 
 // Dynamically import components with SSR set to false
 const Uiuxbanner = dynamic(() => import('./ui-ux-banner'), { ssr: false });
@@ -60,23 +24,65 @@ const Uiuxsliser = dynamic(() => import('./Ui-ux-sliser'), { ssr: false });
 const CircleTabs = dynamic(() => import('./ui-ux-Interactive-Circle-tab'), { ssr: false });
 
 const Page = () => {
-  return (
-    <div>
-      <Uiuxbanner />
-      <Webdevelopmentservices />
-      <UXdesign />
-      <UXcesigncompany />
-      <KeyelementUI />
-      <CircleTabs />
-      <Uiuxsliser />
-      <Ux />
-      <Uxdesign />
-      <WebsiteUXUIdesigningservices />
-      <UXwebdesigndevelopment />
-      <Fquiux />
-      <SocialMedia />
-    </div>
-  );
-}
+    const {
+        header_section,
+        setPagedata,
+        setHeader_section,
+        setSlider_section,
+        setCompany_section,
+        setDesign_section,
+        setList_section,
+        setAmazing_section,
+        setAmazingcard_section,
+        setWork_section,
+        setChoose_section,
+        setConsultation_section,
+        setQna_section
+    } = useContext(MenuContext);
+
+    useEffect(() => {
+        const getdata = async () => {
+            try {
+                const response = await fetch('/inner-page-api/ui-ux.json');
+                const data = await response.json();
+                setPagedata(data);
+                setHeader_section(data.header_section);
+                setSlider_section(data.slider_section);
+                setCompany_section(data.company_section);
+                setDesign_section(data.design_section);
+                setList_section(data.list_section);
+                setAmazing_section(data.amazing_section);
+                setAmazingcard_section(data.amazingcard_section);
+                setWork_section(data.work_section);
+                setChoose_section(data.choose_section);
+                setConsultation_section(data.consultation_section);
+                setQna_section(data.qna_section);
+            } catch (error) {
+                console.log(error, 'error');
+            }
+        };
+        getdata();
+    }, []);
+
+    return (
+        <div>
+            <Banner />
+            {/* <Uiuxbanner /> */}
+            <Webdevelopmentservices />
+            <UXdesign />
+            <UXcesigncompany />
+            <KeyelementUI />
+            <CircleTabs />
+            <Uiuxsliser />
+            <Ux />
+            <Uxdesign />
+            <WebsiteUXUIdesigningservices />
+            <UXwebdesigndevelopment />
+            {/* <Fquiux /> */}
+            <BrochureFaq />
+            {/* <SocialMedia /> */}
+        </div>
+    );
+};
 
 export default Page;

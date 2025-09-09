@@ -33,8 +33,7 @@ export default function Corporate() {
     return (
         <Box sx={{ overflow: 'hidden' }}>
             <HeroSection data={data} />
-            <Box >
-
+            <Box>
                 <GradientSwiper data={data} />
             </Box>
             <WhyChooseWEBDADS2U data={data} />

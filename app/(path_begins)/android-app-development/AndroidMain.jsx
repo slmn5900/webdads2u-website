@@ -1,9 +1,12 @@
 'use client';
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import './android-app-development.css';
-
+import { MenuContext } from '../../../layout/context/menucontext';
+import Banner from '../../../components/ui/banner/Banner';
 // Dynamically import components that should only be rendered on the client side
 import dynamic from 'next/dynamic';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import BrochureFaq from '../../../components/ui/BrochureFaq';
 
 // Import Android-related services dynamically without SSR
 const AndroidAppDevelopmentServices = dynamic(() => import('./Android-App-Development-Services'), { ssr: false });
@@ -25,35 +28,36 @@ const Slider = dynamic(() => import('../../../components/common/Slider-image'), 
 const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });
 
 const AndroidMain = () => {
+    const { setPagedata, setHeader_section, setSlider_section, setCompany_section, setDesign_section, setList_section, setAmazing_section, setAmazingcard_section, setWork_section, setChoose_section, setConsultation_section, setQna_section } =
+        useContext(MenuContext);
+
+    useEffect(() => {
+        const getdata = async () => {
+            try {
+                const response = await fetch('/inner-page-api/android-app-development.json');
+                const data = await response.json();
+                setPagedata(data);
+                setHeader_section(data.header_section);
+                setSlider_section(data.slider_section);
+                setCompany_section(data.company_section);
+                setDesign_section(data.design_section);
+                setList_section(data.list_section);
+                setAmazing_section(data.amazing_section);
+                setAmazingcard_section(data.amazingcard_section);
+                setWork_section(data.work_section);
+                setChoose_section(data.choose_section);
+                setConsultation_section(data.consultation_section);
+                setQna_section(data.qna_section);
+            } catch (error) {
+                console.log(error, 'error');
+            }
+        };
+        getdata();
+    }, []);
     return (
         <div>
-            <section className="android-app-development-banner-image">
-                <div className="container">
-                    <div className="row align-items-center android-app-development">
-                        <div className="col-7 col-sm-6 col-md-6 col-xs-6">
-                            <h1>Android App Development</h1>
-                            <p>Learn Android app development to create innovative mobile applications for the Android platform, catering to diverse user needs and preferences.</p>
-                            {/* <button type="button" className="d-none d-sm-block" onClick={() => (window.location.href = '/contact-us')}> */}
-                            <button type="button" onClick={() => (window.location.href = '/contact-us')}>
-                                Contact us
-                            </button>
-                        </div>
-                        <div className="col-5 col-sm-6 col-md-6 col-xs-6">
-                            <img src="webdads/images/android-app-development/Mobile.png" alt="android-app-development" className="img-fluid" loading="lazy" />
-                            <div className="element-app">
-                                <img
-                                    src="webdads/images/android-app-development/Bodium.png"
-                                    alt="Android App Development Company In Chennai
-"
-                                    loading="lazy"
-                                    className="img-fluid android-app-gallery-slider-banner"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <Slider />
+            <Banner />
+            <ClientLogoSlider />
             <div>
                 <AndroidAppDevelopmentServices />
                 <AndroidAppServices />
@@ -62,8 +66,8 @@ const AndroidMain = () => {
                 {/* <SocialMedia /> */}
                 <TypesofCustomAndroid />
                 <AndroidApp />
-                <FrequentlyAskedQuestions />
-                <SocialMedia />
+                <BrochureFaq />
+                {/* <SocialMedia /> */}
             </div>
         </div>
     );

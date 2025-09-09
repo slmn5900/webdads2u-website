@@ -1,15 +1,61 @@
-import React from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import SocialMedia from '../../../components/common/SocialMedia';
 import { IoIosCheckbox } from 'react-icons/io';
 import OpencartFqa from './OpencartFqa';
 import OpencartTap from './OpencartTap';
 import Sliderimage from '../../../components/common/Slider-image';
+import { MenuContext } from '../../../layout/context/menucontext';
+import Banner from '../../../components/ui/banner/Banner';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import BrochureFaq from '../../../components/ui/BrochureFaq';
 
 function Openhero() {
+    const {
+        header_section,
+        setSlider_section2,
+        setHeader_section,
+        setSlider_section,
+        setCompany_section,
+        setDesign_section,
+        setList_section,
+        setAmazing_section,
+        setAmazingcard_section,
+        setWork_section,
+        setChoose_section,
+        setConsultation_section,
+        setQna_section
+    } = useContext(MenuContext);
+    const [data, setData] = useState(null);
+
+    useEffect(() => {
+        const getdata = async () => {
+            try {
+                const response = await fetch('/inner-page-api/opencart-development.json');
+                const data = await response.json();
+                console.log(data, 'data');
+                setData(data);
+                setHeader_section(data.header_section);
+                setSlider_section(data.slider_section);
+                setSlider_section2(data.slider2_section);
+                setCompany_section(data.company_section);
+                setDesign_section(data.design_section);
+                setList_section(data.list_section);
+                setAmazing_section(data.amazing_section);
+                setAmazingcard_section(data.amazingcard_section);
+                setWork_section(data.work_section);
+                setChoose_section(data.choose_section);
+                setConsultation_section(data.consultation_section);
+                setQna_section(data.qna_section);
+            } catch (error) {
+                console.log(error, 'error');
+            }
+        };
+        getdata();
+    }, []);
     return (
         <>
-            <section className="openkarthero">
+            {/* <section className="openkarthero">
                 <Container>
                     <Row className="align-items-center">
                         <Col md={6} xs={7}>
@@ -23,7 +69,7 @@ function Openhero() {
                             </a>
                         </Col>
                         <Col md={6} xs={5}>
-                            <div >
+                            <div>
                                 <img
                                     src="/webdads/images/opencart/opencrat-banner.webp"
                                     alt="OpenCart Development Company In Chennai
@@ -34,8 +80,9 @@ function Openhero() {
                         </Col>
                     </Row>
                 </Container>
-            </section>
-            <Sliderimage />
+            </section> */}
+            <Banner />
+            <ClientLogoSlider />
             <section className="leading-shopify pt-5">
                 <Container>
                     <Row>
@@ -54,12 +101,12 @@ function Openhero() {
                 <Container>
                     <Row>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <img src="/webdads/images/opencart/opencart-development.webp" alt="opencart-development" className="w-100 rounded" />
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <h2>Technologies We Use for OpenCart Development</h2>
                                 <p>
                                     In opencart development, we utilize PHP, MySQL, HTML5, CSS3, and JavaScript frameworks such as jQuery for dynamic user experiences. Our approach includes responsive design for cross-device compatibility,
@@ -68,22 +115,22 @@ function Openhero() {
                             </div>
                             <Row>
                                 <Col lg={3} md={3} xs={6}>
-                                    <div >
+                                    <div>
                                         <img alt="" src="/webdads/images/opencart/PHP.png" className="w-100"></img>
                                     </div>
                                 </Col>
                                 <Col lg={3} md={3} xs={6}>
-                                    <div >
+                                    <div>
                                         <img alt="" src="/webdads/images/opencart/react-logo.png" className="w-100"></img>
                                     </div>
                                 </Col>
                                 <Col lg={3} md={3} xs={6}>
-                                    <div >
+                                    <div>
                                         <img alt="" src="/webdads/images/opencart/node-js-logo.png" className="w-100"></img>
                                     </div>
                                 </Col>
                                 <Col lg={3} md={3} xs={6}>
-                                    <div >
+                                    <div>
                                         <img alt="" src="/webdads/images/opencart/angular-js-logo.webp" className="w-100"></img>
                                     </div>
                                 </Col>
@@ -96,7 +143,7 @@ function Openhero() {
                 <Container>
                     <Row>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <h2>Benefits of OpenCart Development </h2>
                                 <p>Businesses have found OpenCart to be a brilliant solution. Not only does it have power, but it also provides its users with numerous benefits. Let’s see them one by one.</p>
                                 <ul>
@@ -116,7 +163,7 @@ function Openhero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 {/* <img src="/webdads/images/opencart/open-cart.webp" alt="opencart-development" className="w-100 rounded" /> */}
                                 <img src="https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_550,h_399,dpr_1.5/f_auto,q_auto/v1707472086/open-crat/open-crat.png?_i=AA" alt="opencart-development" className="w-100 rounded" />
                             </div>
@@ -124,8 +171,7 @@ function Openhero() {
                     </Row>
                 </Container>
             </section>
-            <OpencartFqa />
-            <SocialMedia />
+            <BrochureFaq />
         </>
     );
 }

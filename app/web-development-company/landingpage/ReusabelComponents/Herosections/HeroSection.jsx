@@ -29,7 +29,8 @@ const HeroSectionProps = ({ tagline, heading, description, email, phone, button1
         '/flyer-design-company',
         '/wordpress-page',
         '/react-page',
-        '/letter-head-page'
+        '/letter-head-page',
+        '/corporate-website-development'
         // '/digital-marketing-company'
     ];
 

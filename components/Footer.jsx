@@ -1,10 +1,8 @@
 'use client';
 import React from 'react';
 import { Box, Container, Grid2, Typography, IconButton, Button, Link as MUILink } from '@mui/material';
-import Image from 'next/image';
 import { FaPhone, FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterest, FaYoutube } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
-// import logoSrc from '../public/webdads/images/home/white-logo.png';
 
 function Footer() {
     const currentYear = new Date().getFullYear();
@@ -45,7 +43,7 @@ function Footer() {
                         {/* Logo and Social Icons */}
                         <Grid2 size={{ xs: 12, sm: 6, md: 3 }}>
                             <Box sx={{ mb: 2 }}>
-                                <Image src={'/webdads/images/home/white-logo.png'} alt="Logo" width={200} />
+                                <img src={'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406867/webdads2u/footer-logo.avif'} alt="Logo" width={200} />
                             </Box>
                             <Box sx={{ display: 'flex', gap: 0 }}>
                                 <IconButton component="a" href="https://www.facebook.com/Webdads2u" target="_blank" sx={{ color: 'white' }}>

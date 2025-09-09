@@ -9,6 +9,9 @@ import { usePathname } from 'next/navigation';
 import '../style/home/home.scss';
 import { MenuProvider } from '../layout/context/menucontext';
 import SocialMedia from '../components/common/SocialMedia.jsx';
+import './home.scss';
+import ScrollToTop from '../components/common/ScrollToTop.jsx';
+import StickyContactIcons from '../components/common/StickyContactIcons.jsx';
 
 export default function RootLayout({ children }) {
     const pathname = usePathname();
@@ -35,7 +38,9 @@ export default function RootLayout({ children }) {
         '/ui-ux-page',
         '/openkart-page',
         '/letter-head-page',
-        '/business-card-page'
+        '/business-card-page',
+        '/corporate-website-development',
+        '/crm-erp-development-page'
         // '/web-design'
     ];
 
@@ -50,6 +55,8 @@ export default function RootLayout({ children }) {
                         <main>{children}</main>
                         {!omitHeaderFooter && <SocialMedia />}
                         {!omitHeaderFooter && <Footer />}
+                        <ScrollToTop />
+                        <StickyContactIcons />
                     </LayoutProvider>
                 </MenuProvider>
             </body>

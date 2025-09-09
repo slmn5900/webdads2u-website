@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-// import '../style/home/home.scss';
+import './home.scss';
 
 // Lazy load the components
 const Herosection = React.lazy(() => import('../components/Herosection'));

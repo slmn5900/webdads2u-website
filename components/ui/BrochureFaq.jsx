@@ -37,7 +37,8 @@ function BrochureFaq() {
                                 sx={{
                                     fontSize: '1.1rem',
                                     lineHeight: 1.6,
-                                    color: 'black'
+                                    color: 'black',
+                                    fontFamily: 'Poppins'
                                 }}
                             >
                                 {descriptions}
@@ -72,13 +73,13 @@ function BrochureFaq() {
                                             }
                                         }}
                                     >
-                                        <Typography variant="subtitle1" sx={{ fontWeight: 600, color: '#002060' }}>
-                                            {item?.question || item.ques}
+                                        <Typography variant="subtitle1" sx={{ fontWeight: 600, color: '#002060', fontFamily: 'Poppins' }}>
+                                            {item?.question || item?.ques}
                                         </Typography>
                                     </AccordionSummary>
                                     <AccordionDetails>
-                                        <Typography variant="p" sx={{ lineHeight: 1.5, fontWeight: 500, textAlign: 'justify' }}>
-                                            {item?.answer || item.ans}
+                                        <Typography variant="p" sx={{ lineHeight: 1.5, fontWeight: 500, textAlign: 'justify', fontFamily: 'Poppins' }}>
+                                            {item?.answer || item?.ans}
                                         </Typography>
                                     </AccordionDetails>
                                 </Accordion>

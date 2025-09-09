@@ -27,7 +27,7 @@ export default function BannerTitle() {
                         fontWeight: 'bold',
                         color: 'white',
                         // textAlign: 'start',
-                        fontSize: { xs: '20px', md: '45px' }
+                        fontSize: { xs: '20px', md: '40px' }
                         // whiteSpace: { xs: 'pre-line', sm: "normal", md: "normal" }
                     }}
                     width={{ xs: '300px', sm: '700px', md: '1000px' }}

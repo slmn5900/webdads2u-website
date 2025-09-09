@@ -3,22 +3,9 @@ import Image from 'next/image';
 import { Grid2, Box, Typography, Button, Container } from '@mui/material';
 import { motion } from 'framer-motion';
 import Loader from './Loader';
-// Images array
+import { Logos } from './common/Datas/Logo';
 
-const about = [
-    { no: 1, img: '/webdads/images/Load/Adsfit_19890fc227.png' },
-    { no: 2, img: '/webdads/images/Load/Adsfit_19890fc227.png' },
-    { no: 3, img: '/webdads/images/Load/Adsfit_19890fc227.png' },
-    { no: 4, img: '/webdads/images/Load/Adsfit_19890fc227.png' },
-    { no: 5, img: '/webdads/images/home/Assert/arc-man-logo_2299280a.avif' },
-    { no: 6, img: '/webdads/images/home/Assert/best_227e2dba.avif' },
-    { no: 7, img: '/webdads/images/home/Assert/diamond.avif' },
-    { no: 8, img: '/webdads/images/home/Assert/greem-yard.png' },
-    { no: 9, img: '/webdads/images/home/Assert/re-life_222a8f32.avif' },
-    { no: 10, img: '/webdads/images/home/Assert/saj-hotel-logo_221ae891.avif' },
-    { no: 11, img: '/webdads/images/home/Assert/smart-duckling-logo_2184e61c.avif' },
-    { no: 12, img: '/webdads/images/home/Assert/teamwater-logo_220f3c18.avif' }
-];
+const about = Logos.slice(0, 11);
 
 const LoadMoreImage = () => {
     return (
@@ -80,7 +67,7 @@ const LoadMoreImage = () => {
                                                     p: 1
                                                 }}
                                             >
-                                                <Image src={item.img} alt="about" width={100} height={100} style={{ objectFit: 'contain' }} />
+                                                <Image src={item.url} alt="about" width={100} height={100} style={{ objectFit: 'contain' }} />
                                             </Box>
                                         </motion.div>
                                     </Grid2>

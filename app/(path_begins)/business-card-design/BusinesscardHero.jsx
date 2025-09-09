@@ -4,11 +4,13 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Businessgallery from './Businessgallery';
 import { FaCircleCheck } from 'react-icons/fa6';
 import SocialMedia from '../../../components/common/SocialMedia';
+import Banner from '../../../components/ui/banner/Banner';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 function BusinesscardHero() {
     return (
         <>
             {/* Hero section */}
-            <section className="busnesscardhero">
+            {/* <section className="busnesscardhero">
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} xs={11} lg={7}>
@@ -23,9 +25,11 @@ function BusinesscardHero() {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section> */}
             {/* Slider */}
-            <Slider />
+            {/* <Slider /> */}
+            <Banner />
+            <ClientLogoSlider />
             {/*  */}
             <section className="justcard pt-5 pb-5">
                 <Container>
@@ -124,12 +128,12 @@ function BusinesscardHero() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <img src="/webdads/images/businesscard/why-choose-us.webp" alt="why choose us" className="w-100"></img>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <h3>WHY CHOOSE US?</h3>
                                 <h2 style={{ fontWeight: 700 }}>Why Webdads2u Business Card Designing Services?</h2>
                                 <p className="businessCardHero-why-choose-us">
@@ -217,7 +221,7 @@ function BusinesscardHero() {
                     </Row>
                 </Container>
             </section>
-            <SocialMedia />
+            {/* <SocialMedia /> */}
         </>
     );
 }

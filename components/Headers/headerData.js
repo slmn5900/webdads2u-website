@@ -35,7 +35,7 @@ export const servicesDropdownDatas = [
             { label: 'PPC Service', link: '/ppc-service/' },
             { label: 'E-commerce SEO Service', link: '/e-commerce-seo-service/' },
             { label: 'Local SEO Service', link: '/local-seo-service/' },
-            { label: 'Off Page SEO', link: '/local-seo-service/' },
+            { label: 'Off Page SEO', link: '/off-page-seo' },
             { label: 'Link Building Service', link: '/link-building-service/' },
             { label: 'Content Writing Service', link: '/content-writing-service/' }
         ]

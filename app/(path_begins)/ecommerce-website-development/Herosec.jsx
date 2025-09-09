@@ -1,13 +1,65 @@
 'use client';
-import React from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaCheckSquare } from 'react-icons/fa';
 import Sliderimage from '../../../components/common/Slider-image';
+import { MenuContext } from '../../../layout/context/menucontext';
+import EcommerceBanner from './Components/EcommerceBanner';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import EcommerceStreams from './Components/EcommerceStreams';
+import EcommercePortfolio from './Components/EcommercePortfolio';
+import EcommerceSection from './Components/EcommerceSection';
+import MultiVendorFeatures from './Components/MultiVendorFeatures';
+import MCommerceSection from './Components/MCommerceSection';
+import FeaturesSection from './Components/FeaturesSection';
+import SocialEcommerce from './Components/SocialEcommerce';
 
 function Herosec() {
+    const {
+        header_section,
+        setSlider_section2,
+        setHeader_section,
+        setSlider_section,
+        setCompany_section,
+        setDesign_section,
+        setList_section,
+        setAmazing_section,
+        setAmazingcard_section,
+        setWork_section,
+        setChoose_section,
+        setConsultation_section,
+        setQna_section
+    } = useContext(MenuContext);
+    const [data, setData] = useState(null);
+
+    useEffect(() => {
+        const getdata = async () => {
+            try {
+                const response = await fetch('/inner-page-api/ecommerce-website-development.json');
+                const data = await response.json();
+                console.log(data, 'data');
+                setData(data);
+                setHeader_section(data.header_section);
+                setSlider_section(data.slider_section);
+                setSlider_section2(data.slider2_section);
+                setCompany_section(data.company_section);
+                setDesign_section(data.design_section);
+                setList_section(data.list_section);
+                setAmazing_section(data.amazing_section);
+                setAmazingcard_section(data.amazingcard_section);
+                setWork_section(data.work_section);
+                setChoose_section(data.choose_section);
+                setConsultation_section(data.consultation_section);
+                setQna_section(data.qna_section);
+            } catch (error) {
+                console.log(error, 'error');
+            }
+        };
+        getdata();
+    }, []);
     return (
         <>
-            <section className="ecommerce-baner">
+            {/* <section className="ecommerce-baner">
                 <Container>
                     <Row>
                         <div className="text-center">
@@ -25,15 +77,10 @@ function Herosec() {
                         </div>
                     </Row>
                 </Container>
-            </section>
-            <section className="mt-5 mb-5">
-                <Container>
-                    <Row>
-                        <Sliderimage />
-                    </Row>
-                </Container>
-            </section>
-            <section className="emc-strm">
+            </section> */}
+            <EcommerceBanner />
+            <ClientLogoSlider />
+            {/* <section className="emc-strm">
                 <Container>
                     <Row className="strm-bg">
                         <Col md={3}>
@@ -73,12 +120,13 @@ function Herosec() {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section> */}
+            <EcommerceStreams />
 
             <section className="all-you">
                 <Container>
                     <Row>
-                        <div >
+                        <div>
                             <h2>All You Imagine For Your Ecommerce</h2>
                             <h3>Our Years of industry experience makes us strong enough to handle all your online business needs</h3>
                             <p>
@@ -89,10 +137,12 @@ function Herosec() {
                     </Row>
                 </Container>
             </section>
+
+            {/* 
             <section className="all-you pb-5">
                 <Container>
                     <Row>
-                        <div >
+                        <div>
                             <h2>Our Portfolio</h2>
                             <h3>Innovative Ecommerce Web Design</h3>
                         </div>
@@ -138,8 +188,10 @@ function Herosec() {
                         </Col>
                     </Row>
                 </Container>
-            </section>
-            <section className="ecommerce-website">
+            </section> */}
+            <EcommercePortfolio />
+
+            {/* <section className="ecommerce-website">
                 <Container>
                     <Row>
                         <div className="text-center">
@@ -170,8 +222,10 @@ function Herosec() {
                         </Col>
                     </Row>
                 </Container>
-            </section>
-            <section className="Feature-sec">
+            </section> */}
+            <EcommerceSection />
+
+            {/* <section className="Feature-sec">
                 <Container>
                     <Row className="pt-3">
                         <div className="text-center">
@@ -249,12 +303,13 @@ function Herosec() {
                         </Col>
                     </Row>
                 </Container>
-            </section>
-            <section className="m-commerce">
+            </section> */}
+            <MultiVendorFeatures />
+            {/* <section className="m-commerce">
                 <Container>
                     <Row>
                         <Col md={8}>
-                            <div >
+                            <div>
                                 <h2>M-Commerce Service </h2>
                                 <h3>Mobile Commerce – Mobile App For Ecommerce</h3>
                                 <p>
@@ -262,7 +317,7 @@ function Herosec() {
                                     and personalized user interfaces. Stay ahead in the digital realm with our tailored M-Commerce services, revolutionizing the way you engage customers in the ecommerce website services landscape.
                                 </p>
                                 <div className="d-flex shipping">
-                                    <div >
+                                    <div>
                                         <ul>
                                             <li>
                                                 <FaCheckSquare /> Search filter{' '}
@@ -278,7 +333,7 @@ function Herosec() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div >
+                                    <div>
                                         <ul>
                                             <li>
                                                 <FaCheckSquare /> Multi-lingual{' '}
@@ -298,86 +353,26 @@ function Herosec() {
                             </div>
                         </Col>
                         <Col md={4}>
-                            <div >
+                            <div>
                                 <img alt="" src="/webdads/images/ecommerce/yoga.webp"></img>
                             </div>
                         </Col>
                     </Row>
                 </Container>
-            </section>
-            <section className="Feature-sec">
-                <Container>
-                    <Row className="pt-3">
-                        <div className="text-center">
-                            <h2>Features of Multi-Vendor</h2>
-                            <p>
-                                If you are looking for innovative solutions and unparalleled expertise, your search ends here. Explore a world of possibilities as we deliver exceptional services tailored to meet your unique needs. Your success is our
-                                priority.
-                            </p>
-                        </div>
-                        <Col md={3} xs={6}>
-                            <div className="vendor-left text-center">
-                                <img alt="" src="/webdads/images/ecommerce/user-accounts.png"></img>
-                                <h3>User Account</h3>
-                            </div>
-                        </Col>
-                        <Col md={3} xs={6}>
-                            <div className="vendor-right text-center">
-                                <img alt="" src="/webdads/images/ecommerce/Sign-social.png"></img>
-                                <h3>Sign With Social Media</h3>
-                            </div>
-                        </Col>
-                        <Col md={3} xs={6}>
-                            <div className="vendor-left text-center">
-                                <img alt="" src="/webdads/images/ecommerce/shipping-pay.png"></img>
-                                <h3>Shipping</h3>
-                            </div>
-                        </Col>
-                        <Col md={3} xs={6}>
-                            <div className="vendor-right text-center">
-                                <img alt="" src="/webdads/images/ecommerce/Payment.png"></img>
-                                <h3>Payment</h3>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row className="pt-5 pb-5 color-chng">
-                        <Col md={3} xs={6}>
-                            <div className="vendor-left text-center">
-                                <img alt="" src="/webdads/images/ecommerce/Search-Filter.png"></img>
-                                <h3>User Account </h3>
-                            </div>
-                        </Col>
-                        <Col md={3} xs={6}>
-                            <div className="vendor-right text-center">
-                                <img alt="" src="/webdads/images/ecommerce/Push-Notifications.png"></img>
-                                <h3>Push Notifications</h3>
-                            </div>
-                        </Col>
-                        <Col md={3} xs={6}>
-                            <div className="vendor-left text-center">
-                                <img alt="" src="/webdads/images/ecommerce/Multi-lingual.png"></img>
-                                <h3>Multi-lingual</h3>
-                            </div>
-                        </Col>
-                        <Col md={3} xs={6}>
-                            <div className="vendor-right text-center">
-                                <img alt="" src="/webdads/images/ecommerce/Blog.png"></img>
-                                <h3> Blog</h3>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-            <section className="m-commerce social-left">
+            </section> */}
+            <MCommerceSection />
+
+            <FeaturesSection />
+            {/* <section className="m-commerce social-left">
                 <Container>
                     <Row>
                         <Col md={4}>
-                            <div >
+                            <div>
                                 <img alt="" src="/webdads/images/ecommerce/atcomart.webp"></img>
                             </div>
                         </Col>
                         <Col md={8}>
-                            <div >
+                            <div>
                                 <h2>Social E-Commerce</h2>
 
                                 <p>
@@ -386,7 +381,7 @@ function Herosec() {
                                     our innovative services, redefining the way you connect, share, and shop. Discover the future of shopping with us.{' '}
                                 </p>
                                 <div className="d-flex shipping">
-                                    <div >
+                                    <div>
                                         <ul>
                                             <li>
                                                 <FaCheckSquare /> User profiles
@@ -402,7 +397,7 @@ function Herosec() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div >
+                                    <div>
                                         <ul>
                                             <li>
                                                 <FaCheckSquare /> Fully Mobile Friendly
@@ -423,7 +418,8 @@ function Herosec() {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section> */}
+            <SocialEcommerce />
         </>
     );
 }

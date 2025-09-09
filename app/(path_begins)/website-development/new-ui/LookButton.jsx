@@ -32,7 +32,7 @@ const LookBtnButton = styled(Button)(({ theme }) => ({
     [theme.breakpoints.down('sm')]: {
         width: '100%',
         padding: '0px 20px',
-        fontSize:"15px"
+        fontSize: '15px'
     }
 }));
 
@@ -57,7 +57,7 @@ const LookButton = () => {
                 <LookBtnText variant="body1">Looking for Immersive Frontends?</LookBtnText>
             </Box>
             <Box>
-                <LookBtnButton variant="contained" href="/contact-us" fullWidth={isMobile}>
+                <LookBtnButton variant="contained" href="/contact-us" fullWidth={isMobile} sx={{ textAlign: { xs: 'center', md: 'center' } }}>
                     Talk To Our UI/UX Consultants
                 </LookBtnButton>
             </Box>

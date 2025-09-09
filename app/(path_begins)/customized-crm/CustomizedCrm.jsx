@@ -61,11 +61,9 @@ export default function CustomizedCrm() {
     return (
         <div>
             <CustomizeErpHero />
-
             <ClientLogoSlider />
             <CustomCrmDescription />
             <Development data={data?.development_section} />
-
             <AmazingWebDesign />
             <FreeConsultation />
             <BrochureFaq />

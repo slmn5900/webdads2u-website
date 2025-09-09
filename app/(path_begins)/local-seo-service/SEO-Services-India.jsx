@@ -2,7 +2,7 @@ import React from 'react'
 
 function SEOservicesindia() {
   return (
-    <section className='seoservicesindia-main'>
+    <section className='seoservicesindia-main pt-0'>
         <div className="container">
             <div className="row seoservicesindia">
                 <div className="col-ms-12 col-md-6 col-lg-6">

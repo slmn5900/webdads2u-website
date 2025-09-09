@@ -12,15 +12,15 @@ function AndroidAppServices() {
                 </div>
                 <div className="row AndroidAppServices">
                     <div className="col-sm-12 col-md-4 col-lg-4">
-                        <div className="card">
-                            <div className="content">
+                        <div className="card bg-none">
+                            <div className="content bg-none">
                                 <div className="front">
                                     <div>
                                         <img src="webdads/images/android-app-development/Utility-app.png" alt="Utility-app" />
                                     </div>
                                     <h5>Business Apps</h5>
                                 </div>
-                                <div className="back">
+                                <div className="back bg-none">
                                     <p>Maximize your business potential with cutting-edge Android app development. Our tailored solutions empower your organization with efficient, user-friendly business apps.</p>
                                 </div>
                             </div>

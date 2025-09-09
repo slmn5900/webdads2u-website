@@ -96,7 +96,7 @@ const DomainRegistration = () => {
             <Rightdomain />
             <Lookingdomain />
             <Fqdomainregistration />
-            <SocialMedia />
+            {/* <SocialMedia /> */}
         </>
     );
 };

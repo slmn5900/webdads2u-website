@@ -3,10 +3,13 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Slider from '../../../components/common/Slider-image';
 import SocialMedia from '../../../components/common/SocialMedia';
 import OffpageFaq from './OffpageFaq';
+import Banner from '../../../components/ui/banner/Banner';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import BrochureFaq from '../../../components/ui/BrochureFaq';
 const OffpageseoHero = () => {
     return (
         <>
-            <section className="offpage-seo">
+            {/* <section className="offpage-seo">
                 <Container>
                     <Row className="align-items-center">
                         <Col md={7} xs={7} lg={7}>
@@ -30,13 +33,15 @@ const OffpageseoHero = () => {
                 </Container>
             </section>
 
-            <Slider />
+            <Slider /> */}
+            <Banner />
+            <ClientLogoSlider />
 
             <section className="pt-5 ptb-5 ">
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <h2>Off Page Seo Service Chennai</h2>
                                 <p>
                                     Quality off page seo is a challenge. It takes to do the right things to bring a website up in the Google SERP ranking. And, Google doesn’t make that easy. Be it any business, ranking in the top in SERP means that
@@ -58,7 +63,7 @@ const OffpageseoHero = () => {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <h2>What Is Off page seo Optimization?</h2>
                                 <p>
                                     Best off page SEO company in Chennai will do it for our clients which increase traffics to website visibility in search engine. Off-Page Optimization is not just about links. After effectively completing on-page
@@ -197,9 +202,8 @@ const OffpageseoHero = () => {
                     </Row>
                 </Container>
             </section>
-            <OffpageFaq />
 
-            <SocialMedia />
+            <BrochureFaq />
         </>
     );
 };

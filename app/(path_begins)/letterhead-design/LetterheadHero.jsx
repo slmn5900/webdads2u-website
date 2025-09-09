@@ -5,36 +5,16 @@ import SocialMedia from '../../../components/common/SocialMedia';
 // import { LuCheckCircle } from "react-icons/lu";
 import { LuCircleCheckBig } from 'react-icons/lu';
 import LetterheadSlider from './LetterheadSlider';
+import Banner from '../../../components/ui/banner/Banner';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 
 function LetterheadHero() {
     return (
         <>
-            {/* Hero section */}
-            <section className="isoapp">
-                <Container>
-                    <Row className="align-items-center">
-                        <Col md={7} xs={7} lg={6}>
-                            <h2>Letterhead designing company in India</h2>
-                            <p>Professional letterhead designs tailored to reflect your brand identity, enhance credibility, and leave a lasting impression on recipients. </p>
-                            <a href="/contact-us/">
-                                <Button variant="contained">Contact us</Button>
-                            </a>
-                        </Col>
-                        <Col md={5} xs={5} lg={6}>
-                            <div className="text-center">
-                                <img
-                                    src="/webdads/images/letterhead/letterhead-hero.png"
-                                    alt="Letterhead Design Service In Chennai 
-"
-                                    className="w-100"
-                                />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
+            <Banner />
             {/* Slider */}
-            <Slider />
+            <ClientLogoSlider />
+
             {/*  */}
             <section className="lhdpro pt-5 pb-5">
                 <Container>
@@ -53,7 +33,7 @@ function LetterheadHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <h2>Why does any business need professional letterhead design services?</h2>
                                 <p>
                                     It is important that the letterhead design you use for your business is distinctive, professional, and leaves a lasting impression on your employees, buyers, and sellers. It’s important to have a letterhead Design
@@ -83,7 +63,7 @@ function LetterheadHero() {
                             <h2>Our Recent Creations</h2>
                         </Col>
                         <Col md={12} lg={8}>
-                            <div >
+                            <div>
                                 <p>
                                     You cannot have a random letterhead design for your company; it should be simple yet eye-catching. Your brand’s appearance should ensure the reader recalls it when they see it, and more importantly, it should set
                                     the stage for the content that will be written on it. These are some of the innovative letterhead designs we created.
@@ -100,7 +80,7 @@ function LetterheadHero() {
                 <Container>
                     <Row>
                         <Col md={12} lg={6}>
-                            <div >
+                            <div>
                                 <h2>Professional Designs</h2>
                                 <p>Letterhead design is a method of expression. Webdads2U offers the services of the finest graphic designers in Chennai, who have helped us become the leading letterhead designing service in Chennai.</p>
                                 <p>
@@ -163,7 +143,7 @@ function LetterheadHero() {
                     </Row>
                 </Container>
             </section>
-            <SocialMedia />
+            {/* <SocialMedia /> */}
         </>
     );
 }

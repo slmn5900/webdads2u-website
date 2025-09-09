@@ -7,6 +7,7 @@ import WebportalFaq from './WebportalFaq';
 import Banner from '../../../components/ui/banner/Banner';
 import { MenuContext } from '../../../layout/context/menucontext';
 import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import { Box } from '@mui/material';
 function WebportalHero() {
     const {
         header_section,
@@ -51,7 +52,7 @@ function WebportalHero() {
         <>
             <Banner />
             <ClientLogoSlider />
-            <section className="pt-5 pb-5">
+            <Box sx={{ py: { xs: 0, md: 5 } }}>
                 <Container>
                     <Row>
                         <div className="text-center">
@@ -69,7 +70,7 @@ function WebportalHero() {
                     <Row className="align-items-center pt-3 on-lineport">
                         <Col md={6}>
                             <div>
-                                <img alt="" src="/webdads/images/webportal/online-portal.webp" className="w-100"></img>
+                                <img alt="online-portal-development-solutions" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757328858/webdads2u/web-portal-development/online-portal-development-solutions.png" className="w-100"></img>
                             </div>
                         </Col>
                         <Col md={6}>
@@ -90,13 +91,13 @@ function WebportalHero() {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </Box>
             <section className="Looking-for">
                 <Container>
                     <Row className="align-items-center">
                         <Col md={5}>
                             <div>
-                                <img alt="" src="/webdads/images/webportal/b2b-portal.webp"></img>
+                                <img alt="web-portal-development-services" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757328855/webdads2u/web-portal-development/web-portal-development-services.png"></img>
                             </div>
                         </Col>
                         <Col md={7}>

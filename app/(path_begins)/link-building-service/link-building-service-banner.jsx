@@ -1,5 +1,4 @@
 import React from 'react';
-import Slider from '../../../components/common/Slider-image';
 
 function Linkbuildingservicebanner() {
     return (
@@ -32,7 +31,6 @@ function Linkbuildingservicebanner() {
                     </div>
                 </div>
             </section>
-            <Slider />
         </>
     );
 }

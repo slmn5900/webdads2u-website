@@ -56,10 +56,36 @@
             "email": "info@webdads2u.com",
             "phone": "88256 07550"
         },
-        "gallery": {
-            "title": "Our Work",
-            "images": "/webdadsNewImages/corporate-website/banner 1 1.png"
-        }
+       "gallery": {
+  "title": "Our Work",
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920213/landing-page/corporate-website-development/bestindiakart-mockup-webdevelopment.jpg",
+      "title": "bestindiakart mockup webdevelopment"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920214/landing-page/corporate-website-development/bhava-mockup-webdevelopment.jpg",
+      "title": "bhava mockup webdevelopment"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920259/landing-page/corporate-website-development/bsquare-mockup-webdevelopment.jpg",
+      "title": "bsquare mockup webdevelopment"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920381/landing-page/corporate-website-development/invo-mockup-webdevelopment.jpg",
+      "title": "invo mockup webdevelopment"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920391/landing-page/corporate-website-development/skilltech-mockup-webdevelopment.jpg",
+      "title": "skilltech mockup webdevelopment"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920393/landing-page/corporate-website-development/teamwater-mockup-webdevelopment.jpg",
+      "title": "teamwater mockup webdevelopment"
+    }
+  ]
+}
+
     },
     "clients": {
         "title": "Showcasing Our Trusted Clients: Partners in Success",
@@ -223,26 +249,45 @@
             "icon": "lucide:send"
         },
         "description": "Choosing the best WordPress development company in Chennai means working with experienced developers who specialize in creating websites that are both user-friendly and high-performing. We deliver customized solutions tailored to your business needs.",
-        "projects": [
-            {
-                "name": "B Square",
-                "image": "/webdadsNewImages/corporate-website/Portiflio/leadg.in_ 2.png",
-                "url": "",
-                "icon": "lucide:layout-template"
-            },
-            {
-                "name": "Bhava Business Consultants",
-                "image": "/webdadsNewImages/corporate-website/Portiflio/www.pediatricsfrisco.com_ (1) 2.png",
-                "url": "",
-                "icon": "lucide:briefcase"
-            },
-            {
-                "name": "InVo",
-                "image": "/webdadsNewImages/corporate-website/Portiflio/invo.webdadsprojects.com_ 1.svg",
-                "url": "",
-                "icon": "lucide:home"
-            }
-        ],
+      "projects": [
+  {
+    "name": "bestindiakart webdevelopment",
+    "image": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920937/landing-page/corporate-website-development/bestindiakart-webdevelopment.jpg",
+    "url": "",
+    "icon": "lucide:layout-template"
+  },
+  {
+    "name": "teamwater webdevelopment",
+    "image": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920939/landing-page/corporate-website-development/teamwater-webdevelopment.jpg",
+    "url": "",
+    "icon": "lucide:briefcase"
+  },
+  {
+    "name": "skilltech webdevelopment",
+    "image": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920942/landing-page/corporate-website-development/skilltech-webdevelopment.jpg",
+    "url": "",
+    "icon": "lucide:home"
+  },
+  {
+    "name": "invo webdevelopment",
+    "image": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920946/landing-page/corporate-website-development/invo-webdevelopment.jpg",
+    "url": "",
+    "icon": "lucide:home"
+  },
+  {
+    "name": "bhava webdevelopment",
+    "image": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920951/landing-page/corporate-website-development/bhava-webdevelopment.jpg",
+    "url": "",
+    "icon": "lucide:briefcase"
+  },
+  {
+    "name": "bsquare webdevelopment",
+    "image": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1753920954/landing-page/corporate-website-development/bsquare-webdevelopment.jpg",
+    "url": "",
+    "icon": "lucide:layout-template"
+  }
+]
+,
         "carousel": {
             "indicators": true,
             "activeIndex": 0,
