@@ -1,0 +1,304 @@
+/* responsive-website/ */
+.responsivewebsitebanner-main {
+    background-image: url(../../../public/webdads/images/responsive-website/Banner-Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+@media screen and (max-width: 426px) {
+    .responsivewebsitebanner h1 {
+        font-size: 20px !important;
+    }
+
+    .responsivewebsitebanner p {
+        font-size: 12px !important;
+    }
+}
+
+.responsivewebsitebanner .element-bubbles {
+    position: absolute;
+    top: 109px;
+    /* left: 1045px; */
+    right: 0px;
+    animation: up-dwon 2s infinite alternate;
+    height: 200px;
+}
+
+@keyframes up-dwon {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.responsivewebsitebanner h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppins ', sans-serif;
+}
+
+.responsivewebsitebanner p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.responsivewebsitebanner button {
+    color: #fff;
+    font-family: 17px;
+    font-weight: 400;
+    font-family: 'Poppins ', sans-serif;
+    border-radius: 50px;
+    padding: 8px 25px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.responsivewebsitebanner button:hover {
+    background: #fff;
+    color: rgb(30, 37, 89);
+}
+
+.responsivewebsitebanner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 769px) {
+    .responsivewebsitebanner h1 {
+        font-size: 25px;
+    }
+}
+
+/* Reponsivewebdesigningservices  */
+
+.reponsivewebdesigningservices-main {
+    padding: 60px 0px;
+    background: #f8f9fd;
+}
+
+.reponsivewebdesigningservices h2 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.reponsivewebdesigningservices p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.reponsivewe-card .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+}
+
+.reponsivewe-card .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.reponsivewe-card h3 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.reponsivewe-card p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 769px) {
+    .reponsivewebdesigningservices-main {
+        padding: 30px 0px;
+    }
+
+    .reponsivewebdesigningservices h2 {
+        font-size: 25px;
+    }
+}
+
+/* ResponsiveWebdesigncompanychennai */
+
+.ResponsiveWebdesigncompanychennai-main {
+    padding: 60px 0px;
+    background: #f5f5f5;
+}
+
+.ResponsiveWebdesigncompanychennai h3 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.ResponsiveWebdesigncompanychennai p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ResponsiveWebdesigncompanychennai button {
+    color: #fff;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #871752 0%, #262250 50%);
+    border-radius: 5px;
+    padding: 13px 40px;
+}
+
+.ResponsiveWebdesigncompanychennai button:hover {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #262250 0%, #871752 100%);
+}
+
+@media screen and (max-width: 769px) {
+    .ResponsiveWebdesigncompanychennai-main {
+        padding: 30px 0px;
+    }
+
+    .ResponsiveWebdesigncompanychennai h3 {
+        font-size: 25px;
+    }
+}
+
+/* Advantagesusingresponsiveweb */
+.advantagesusingresponsiveweb-main {
+    padding: 60px 0px;
+}
+
+.advantagesusingresponsiveweb-hearder h4 {
+    color: #0b1225;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.advantagesusingresponsiveweb img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.advantagesusingresponsiveweb p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.advantagesusingresponsiveweb .icon-item {
+    color: #871752;
+    margin-right: 5px;
+}
+
+.advantagesusingresponsiveweb li {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 769px) {
+    .advantagesusingresponsiveweb-main {
+        padding: 30px 0px;
+    }
+
+    .advantagesusingresponsiveweb-hearder h4 {
+        font-size: 25px;
+    }
+}
+
+/* Fqresponsivewebsite */
+.fqresponsivewebsite-main {
+    padding: 60px 0px;
+}
+
+.fqresponsivewebsite-header h1 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.fqresponsivewebsite-header p {
+    color: #000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fqresponsivewebsite-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+.fqresponsivewebsite-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fqresponsivewebsite-Accordion .accordion-body {
+    color: #7a7a7a;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fqresponsivewebsite-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.fqresponsivewebsite-Accordion .accordion-button::after {
+    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203a !important;
+}
+
+.fqresponsivewebsite-Accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203a !important;
+}
+
+.fqresponsivewebsite-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+.fqresponsivewebsite-Accordion .accordion-body {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+    margin-bottom: 15px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .fqresponsivewebsite-header h1 {
+        font-size: 24px;
+    }
+
+    .frequentlyaskedquestions h1 {
+        font-size: 25px;
+    }
+}

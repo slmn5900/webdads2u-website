@@ -1,0 +1,308 @@
+.hero-rotate {
+    position: relative;
+}
+.react-scroll {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    animation-name: rotateme;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotateme;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+@keyframes rotateme {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+h2 {
+    color: #262250;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+p {
+    color: #7a7a7a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.mobileuiux {
+    background: url('/webdads/images/reactnative/banner-background.jpg');
+    padding-bottom: 80px;
+    padding-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2 {
+        font-size: 45px;
+        color: #fff;
+        font-weight: 700;
+    }
+    p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+    }
+    button {
+        background: #fff;
+        border-radius: 50px;
+        color: #29aeaa;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px 30px;
+        border: 2px solid #fff;
+    }
+    button:hover {
+        background: #0000;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+}
+.android-app-development-slider {
+    margin-top: -50px;
+    background: #fff;
+}
+.react-nativeimhr {
+    img {
+        animation: image_upDown2 2s infinite alternate;
+    }
+    h2 {
+        color: #000000;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+
+@keyframes image_upDown2 {
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+.our-native .shopify-weoffer {
+    padding: 20px 20px 20px 20px;
+
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(216, 214, 214, 0.7);
+    text-align: center;
+    height: 320px;
+    margin-top: 30px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    background: #fff;
+    h3 {
+        color: #4d4d4d;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 14px;
+        color: #7a7a7a;
+    }
+    img {
+        width: 35%;
+    }
+}
+.react-nativebx {
+    padding-bottom: 30px;
+}
+.our-native .shopify-weoffer:hover {
+    transform: translate3d(0, -15px, 10px) !important;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.react-nativebx .woocom-box {
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffff;
+
+    margin-bottom: 30px;
+
+    border-radius: 5px 5px 5px 5px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform var(--e-transform-transition-duration, 0.4s);
+    h3 {
+        margin-bottom: 0px;
+        color: #0b1225;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    p {
+        color: #5a5a5a;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+.react-nativebx .woocom-box:hover {
+    box-shadow: 7px 7px 0px 0px #4c05af;
+}
+.react-nativebx .wocom-rgt:hover {
+    box-shadow: 7px 7px 0px 0px #4c05af;
+}
+
+.looking-native {
+    background-color: transparent;
+    background-image: linear-gradient(121deg, #4d05b1 0%, #2cd6f9 100%);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    P {
+        font-size: 18px;
+        color: #fff;
+    }
+    button {
+        background: #fff;
+        font-size: #000;
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+        padding: 10px 30px;
+        border: 2px solid #fff;
+    }
+    button:hover {
+        border: 2px solid #fff;
+        background: transparent;
+        color: #fff;
+    }
+    h2 {
+        color: #fff;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+    }
+}
+// Accordian
+
+.FrequentlyAskedQuestions-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-body {
+    color: var(--e-global-color-text);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.frequentlyaskedquestions-main h1 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203a !important;
+}
+.FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203a !important;
+}
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .mobileuiux {
+        h2 {
+            font-size: 35px;
+        }
+        button: {
+            font-size: 12px;
+            padding: 12px 24px;
+        }
+    }
+    .react-scroll {
+        width: 50%;
+    }
+
+    .mobileuiux button {
+        font-size: 12px;
+        padding: 12px 24px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 769px) {
+    .mobileuiux {
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 14px;
+            color: #fff;
+            font-weight: 500;
+            line-height: normal;
+        }
+        button: {
+            font-size: 12px;
+            padding: 12px 24px;
+        }
+    }
+    .react-scroll {
+        width: 50%;
+    }
+    .mobileuiux button {
+        font-size: 12px;
+        padding: 12px 24px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .mobileuiux {
+        h2 {
+            font-size: 18px !important;
+        }
+        p {
+            font-size: 12px;
+            color: #fff;
+            font-weight: 500;
+            line-height: normal;
+        }
+        button: {
+            font-size: 12px;
+            padding: 12px 24px;
+        }
+    }
+    .mobileuiux button {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+    .react-scroll {
+        width: 50%;
+    }
+}

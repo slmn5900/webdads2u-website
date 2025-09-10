@@ -1,0 +1,145 @@
+.home-header {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #fff; // Adjust background color
+    //   box-shadow: 0 2px 5px rgba(0,0,0,0.1); // Optional shadow
+    a {
+        color: #000;
+        font-size: 14px;
+    }
+    // .Home-header-phn-ic  {
+    //     background-image: linear-gradient(29deg, #a61131 0%, #262250 50%);
+    //     width: 30px;
+    //     height: 30px;
+    //     fill: #fff;
+    //     padding: 5px;
+    //     // rotate: 89deg;
+    //     border-radius: 28px;
+    // }
+    // .home-header-phone-ic {
+    //     display: flex !important;
+    //     column-gap: 10px;
+    // }
+    .home-header-social-icons {
+        svg {
+            fill: #b1b1b1;
+            font-size: 21px;
+        }
+        li {
+            padding: 0px 10px;
+        }
+    }
+    .heade-contain {
+        align-items: baseline !important;
+    }
+    .home-header-phone-det {
+        h3 {
+            font-size: 14px;
+            font-weight: 600;
+            font-family: 'poppins';
+            color: #262250;
+            margin-bottom: 0px;
+        }
+        a {
+            color: #262250;
+            font-family: 'Poppins', Sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+    }
+    button {
+        background-color: transparent;
+        background-image: linear-gradient(90deg, #a61131 0%, #262250 50%);
+        border-radius: 4px 4px 4px 4px;
+        padding: 10px 25px 9px 26px;
+    }
+    .heade-contain {
+        column-gap: 10px;
+    }
+}
+.current-home-page-breadcrumb {
+    margin-top: 100px;
+    ol > .breadcrumb-item a {
+        color: #54595f !important;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+}
+
+.breadcrumb-item.active {
+    color: #54595f !important;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #1f6dcd !important;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.current-home-page-breadcrumb {
+    display: flex;
+    align-items: center;
+}
+
+.current-home-page-breadcrumb .breadcrumb-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.current-home-page-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    // content: " >> ";
+    // content: url("/webdads/images/home/right-arrow.svg");
+    // background-image: url("../../public/webdads/images/svg-viewer.svg");
+    // content: " ";
+    // background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#74C0FC" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>') no-repeat center center;
+
+    // content: "";
+    // content: url("../../public/webdads/images/svg-viewer.svg");
+    // position: absolute;
+    // left: -20px; /* Adjust based on spacing needs */
+    display: none !important;
+}
+
+.current-home-page-breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .home-header-social-icons,
+    .home-header .home-header-phone-ic,
+    .mb-rsbtn {
+        display: none !important;
+    }
+    .home-header button {
+        background: #fff;
+    }
+    .current-home-page-breadcrumb {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .offcanvas-body nav {
+        padding: 0px;
+        width: inherit;
+        height: 100vh;
+        overflow: auto;
+    }
+    .current-home-page-breadcrumb {
+        margin-top: 0px;
+    }
+}

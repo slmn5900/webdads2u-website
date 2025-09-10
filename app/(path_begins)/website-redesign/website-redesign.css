@@ -1,0 +1,501 @@
+/* website-redesign */
+/* .websiteredesign-main {
+    background-image: url(../../../public/webdads/images/website-redesign/Banner-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+} */
+
+.websiteredesign-main {
+    background-image: url(../../../public/webdads/images/website-redesign/1-Wave.png), url(../../../public/webdads/images/website-redesign/Banner-background.jpg);
+    background-position: right bottom, left top;
+    background-repeat: 155px 0, 2px 0;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+@media screen and (max-width: 426px) {
+    .websiteredesign h1 {
+        font-size: 24px !important;
+    }
+
+    .websiteredesign p {
+        font-size: 14px !important;
+    }
+}
+
+.websiteredesign h1 {
+    color: #035397;
+    font-size: 43px;
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+}
+
+.websiteredesign p {
+    color: #035397;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.websiteredesign button {
+    color: #dbedfe;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+    background: #025496;
+    border: 0px solid transparent !important;
+    border-radius: 50px;
+    padding: 8px 25px;
+}
+
+.websiteredesign button:hover {
+    background: #0092ff;
+}
+
+.websiteredesign img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .websiteredesign h1 {
+        font-size: 25px;
+    }
+}
+
+/* benefitswebsite */
+.benefitswebsite-main {
+    padding-top: 60px;
+}
+
+.benefitswebsite h2,
+.benefitswebsite h3 {
+    color: #035397;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.benefitswebsite p {
+    color: #000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+    .benefitswebsite-main {
+        padding-top: 30px;
+    }
+
+    .benefitswebsite h2,
+    .benefitswebsite h3 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .benefitswebsite p {
+        text-align: justify;
+    }
+}
+
+/* Benefitscard */
+
+.benefitscard-main {
+    padding-bottom: 60px;
+}
+
+.benefitscard .card {
+    padding: 20px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+.benefitscard img {
+    width: 95px;
+    margin-bottom: 5px;
+}
+
+.benefitscard h3 {
+    color: #035397;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.benefitscard p {
+    color: #000;
+    font-family: 'Roboto', Sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .benefitscard-main {
+        padding-bottom: 60px;
+    }
+}
+
+/* gowebsiteredesigning-main */
+
+.gowebsiteredesigning-main {
+    padding: 60px 0px;
+    background: rgb(1, 32, 96);
+}
+
+.gowebsiteredesigning h4 {
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.gowebsiteredesigning p {
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.gowebsiteredesigning-card {
+    margin: 10px 0px;
+}
+
+.gowebsiteredesigning-card .card {
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+    transform: rotate(-5deg);
+    height: 100%;
+}
+
+.gowebsiteredesigning-card img {
+    width: 70px !important;
+    margin: 10px;
+}
+
+.gowebsiteredesigning-card h5 {
+    color: #035397;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.gowebsiteredesigning-card p {
+    color: #7a7a7a;
+}
+
+@media screen and (max-width: 426px) {
+    .gowebsiteredesigning p {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gowebsiteredesigning-main {
+        padding: 30px 0px;
+        background: rgb(1, 32, 96);
+    }
+
+    .gowebsiteredesigning h4 {
+        font-size: 25px;
+    }
+
+    .gowebsiteredesigning-card .card {
+        margin-bottom: 10px;
+    }
+}
+
+/* Beginningwithredesign */
+.beginningwithredesign-main {
+    padding: 60px 0px;
+}
+
+.beginningwithredesign h5 {
+    color: #035397;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.beginningwithredesign p {
+    color: #000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.beginningwithredesign img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: right-to-left 12s infinite linear alternate;
+}
+
+@keyframes right-to-left {
+    0% {
+        transform: translateX(0px);
+    }
+
+    25% {
+        transform: translateX(40px);
+    }
+
+    50% {
+        transform: translateX(0px);
+    }
+
+    75% {
+        transform: translateX(-40px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .beginningwithredesign p {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .beginningwithredesign-main {
+        padding: 30px 0px;
+    }
+
+    .beginningwithredesign h5 {
+        font-size: 25px;
+    }
+}
+
+/* Contentoptimization */
+.contentoptimization-main {
+    background: rgb(1, 32, 96);
+    padding: 60px 0px;
+}
+
+.contentoptimization img {
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: mover 1s infinite alternate;
+}
+
+.contentoptimization h6 {
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contentoptimization p {
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 426px) {
+    .contentoptimization p {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contentoptimization-main {
+        background: rgb(1, 32, 96);
+        padding: 30px 0px;
+    }
+
+    .contentoptimization h6 {
+        font-size: 25px;
+    }
+}
+
+/* Makeplansproceed */
+
+.makeplansproceed-main {
+    padding: 60px 0px;
+    background: rgb(245, 245, 245);
+}
+
+.makeplansproceed h3 {
+    color: #035397;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.makeplansproceed p {
+    font-family: 'Roboto', Sans-serif;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+
+.makeplansproceed img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: right-to-left 12s infinite linear alternate;
+}
+
+@media screen and (max-width: 769px) {
+    .makeplansproceed-main {
+        padding: 30px 0px;
+        background: rgb(245, 245, 245);
+    }
+
+    .makeplansproceed h3 {
+        font-size: 25px;
+    }
+}
+
+/* FQwebsiteredesign */
+.Fqwebsiteredesign-main {
+    padding: 60px 0px;
+}
+
+.Fqwebsiteredesign h1 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.Fqwebsiteredesign p {
+    color: #000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Fqwebsiteredesign button {
+    color: #fff;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #871752 0%, #262250 50%);
+    border-radius: 5px;
+    padding: 13px 40px;
+}
+
+.Fqwebsiteredesign button:hover {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #262250 0%, #871752 100%);
+}
+
+.Fqwebsiteredesign-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+.Fqwebsiteredesign-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Fqwebsiteredesign-Accordion .accordion-body {
+    color: #7a7a7a;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Fqwebsiteredesign-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.Fqwebsiteredesign-Accordion .accordion-button::after {
+    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203a !important;
+}
+
+.Fqwebsiteredesign-Accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203a !important;
+}
+
+.Fqwebsiteredesign-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+.fqdomainregistration-Accordion .accordion-body {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+    margin-bottom: 15px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .Fqwebsiteredesign-header h1 {
+        font-size: 24px;
+    }
+
+    .Fqwebsiteredesign h1 {
+        font-size: 25px;
+    }
+}
+
+/* Determinemotive */
+
+.determinemotive-main {
+    margin: 60px 0px;
+    background: rgb(3, 84, 150);
+    padding: 20px 0px;
+}
+
+.determinemotive h4 {
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.determinemotive p {
+    text-align: justify;
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.determinemotive .element-post-550 {
+    background: #002060;
+    height: 395.388px;
+    width: 380px;
+    margin: -50px 0 -50px 0;
+    padding: 20px;
+    min-height: auto;
+}
+
+@media screen and (max-width: 769px) {
+    .determinemotive .element-post-550 {
+        margin: 30px 0;
+        height: auto !important;
+        width: auto !important;
+    }
+    .websiteredesign button {
+        width: 150px;
+        font-size: 16px;
+    }
+}

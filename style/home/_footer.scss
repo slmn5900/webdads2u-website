@@ -1,0 +1,284 @@
+// .footer-parent {
+//     background: linear-gradient(90deg, #871752 1%, #262250 44%);
+//     background-color: transparent;
+// }
+// .footer-parent::before {
+//     --background-overlay: '';
+//     background-color: #000;
+//     background-image: url('https://webdads2u.com/wp-content/uploads/2023/09/contact-background.png');
+//     background-position: center center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }/
+// .footer-top {
+//     background: linear-gradient(90deg, #871752 1%, #262250 44%);
+//     background-color: transparent;
+//     padding: 80px 10px;
+//     background-size: cover, cover;
+//     background-position: center, center;
+//     background-repeat: no-repeat, no-repeat;
+//     &::before {
+//         --background-overlay: '';
+//         background-color: #000;
+//         background-image: url('https://webdads2u.com/wp-content/uploads/2023/09/contact-background.png');
+//         background-position: center center;
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//     }
+
+//     .footer-top-content {
+//         h3 {
+//             color: #fff;
+//             font-family: 'Poppins', Sans-serif;
+//             font-size: 31px;
+//             font-weight: 600;
+//             line-height: 40px;
+//             border-left: 5px solid #fff;
+//             padding-left: 15px;
+//         }
+//         p {
+//             font-size: 14px;
+//             color: #fff;
+//             padding-top: 10px;
+//         }
+//     }
+//     .footer-top-phone-sec {
+//         text-align: center;
+//         svg {
+//             font-size: 40px;
+//             color: #fff;
+//             margin: auto;
+//             rotate: 85deg;
+//         }
+//         p {
+//             font-size: 15px;
+//             color: #fff;
+//             padding-top: 10px;
+//             padding-bottom: 10px;
+//         }
+//         button {
+//             color: #262250;
+//             background-color: #fff;
+//             border-radius: 30px 30px 30px 30px;
+//             padding: 15px 40px 15px 40px;
+//             border: none;
+//             font-size: 18px;
+//             font-weight: 600;
+//         }
+//     }
+// }
+// .quicklinks {
+//     li {
+//         list-style: none;
+//     }
+//     ul {
+//         padding-left: 0px;
+//     }
+// }
+// // Footer Center
+
+// .footer-top-center {
+//     background: #0e1839;
+//     padding: 50px 10px;
+//     .footer-top-center-icon {
+//         svg {
+//             color: #b1b1b1;
+//             font-size: 20px;
+//         }
+//         li {
+//             padding: 10px 5px;
+//         }
+//     }
+//     .quicklinks {
+//         a {
+//             font-family: 'Poppins', Sans-serif;
+//             font-size: 14px;
+//             font-weight: 600;
+//             color: #fff;
+//             text-decoration: none;
+//         }
+//     }
+//     p {
+//         font-family: 'Poppins', Sans-serif;
+//         font-size: 14px;
+//         font-weight: 600;
+//         color: #fff;
+//     }
+//     h3 {
+//         color: #fff;
+//         font-family: 'Poppins', Sans-serif;
+//         font-size: 26px;
+//         font-weight: 700;
+//     }
+//     h6 {
+//         color: #aaaaaa;
+//         font-family: 'Poppins', Sans-serif;
+//         font-size: 26px;
+//         font-weight: 700;
+//         padding-top: 30px;
+//     }
+//     h5 {
+//         color: #aaaaaa;
+//         font-family: 'Poppins', Sans-serif;
+//         font-size: 26px;
+//         font-weight: 700;
+//         padding-top: 30px;
+//         text-align: center;
+//     }
+// }
+// ============================================================================================================
+// ============================================================================================================
+// ============================================================================================================
+// ============================================================================================================
+// ============================================================================================================
+.footer-top {
+    background: linear-gradient(90deg, #871752 1%, #262250 44%);
+    background-color: transparent;
+    padding: 80px 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url('https://webdads2u.com/wp-content/uploads/2023/09/contact-background.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 0;
+    }
+
+    > * {
+        position: relative;
+        z-index: 1;
+    }
+
+    .footer-top-content {
+        h3 {
+            color: #fff;
+            font-family: 'Poppins', Sans-serif;
+            font-size: 31px;
+            font-weight: 600;
+            line-height: 40px;
+            border-left: 5px solid #fff;
+            padding-left: 15px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #fff;
+            padding-top: 10px;
+        }
+    }
+
+    .footer-top-phone-sec {
+        text-align: center;
+
+        svg {
+            font-size: 40px;
+            color: #fff;
+            margin: auto;
+            transform: rotate(85deg);
+        }
+
+        p {
+            font-size: 15px;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        button {
+            color: #262250;
+            background-color: #fff;
+            border-radius: 30px;
+            padding: 15px 40px;
+            border: none;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+}
+
+.quicklinks {
+    ul {
+        padding-left: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+}
+
+// Footer Center Section
+.footer-top-center {
+    background: #0e1839;
+    padding: 50px 10px;
+
+    .footer-top-center-icon {
+        svg {
+            color: #b1b1b1;
+            font-size: 20px;
+        }
+
+        li {
+            padding: 10px 5px;
+        }
+    }
+
+    .quicklinks {
+        a {
+            font-family: 'Poppins', Sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #fff;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    p {
+        font-family: 'Poppins', Sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    h3 {
+        color: #fff;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    h5,
+    h6 {
+        // color: #aaaaaa;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        // padding-top: 30px;
+    }
+
+    h5 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .footer-top-center-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
