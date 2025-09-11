@@ -1,13 +1,11 @@
 {
   "header_section": {
-    "title": "React js Development",
-    "description": "Building unique, industry-specific, custom-made web portals for outstanding customer experience",
+    "title": "Custom Web Development",
+    "description": "Your digital potential with our custom web development solutions. Tailored to your unique needs, our expert team will craft a stunning website that drives results and exceeds expectations!",
     "button": "Contact us",
-    "img": "/webdads/images/react-js-development/React-js-js.png",
-    "img1": "/webdads/images/react-js-development/React-js-js.png",
-    "img2": "/webdads/images/react-js-development/React-js-js.png",
-    "bg_img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757393352/webdads2u/react-js-development/banner-background.webp",
-    "img_alt":"brochure design company"
+    "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757401736/webdads2u/custom-web-development/web-portal-development.png",
+    "bg_img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757401741/webdads2u/custom-web-development/background-banner.jpg",
+    "img_alt":"web-portal-development"
   },
   "slider_section": {
     "title": "Trusted by over 150+ businesses worldwide!",
@@ -268,31 +266,27 @@
   },
   "qna_section": {
     "title": "Frequently Asked Questions",
-    "description": "We meticulously ensure that every aspect of your brochure design resonates with your brand identity and objectives.",
+    "description": "Explore our FAQ section for quick answers to common inquiries about our Custom Website Development services, web hosting, design, development, and digital marketing solutions. Get insights into our process, timelines, security measures, and more to make informed decisions for your online presence.",
     "queries": [
       {
-        "ques": "What services does your brochure design company offer?",
-        "ans": "At Webdads2u Private Limited, we offer a comprehensive range of brochure design services tailored to meet your specific needs. Our services include conceptualization, design, layout, copywriting, and printing management, ensuring a seamless and hassle-free experience for our clients."
+        "ques": "What is Custom Website Development?",
+        "ans": "Custom Website Development involves creating websites or web applications tailored to specific business needs and requirements. Unlike off-the-shelf solutions, custom development offers unique features and functionalities designed to meet your exact specifications."
       },
       {
-        "ques": "How do you ensure that the brochure design aligns with our brand identity?",
-        "ans": "We take great care to understand your brand identity, values, and objectives before embarking on any design project. Our team conducts thorough research and collaborates closely with you to ensure that every aspect of the brochure design reflects and enhances your brand identity."
+        "ques": "How long does it take to develop a custom website?",
+        "ans": "The time frame for Custom Website Development varies depending on the complexity of the project, including design requirements, features, and functionality. Generally, simpler websites can be completed in a few weeks, while more complex projects may take several months."
       },
       {
-        "ques": "What is the typical turnaround time for a brochure design project?",
-        "ans": "The turnaround time for a brochure design project depends on various factors such as the complexity of the design, the number of revisions required, and the printing process. However, we strive to deliver high-quality designs within agreed-upon timelines to meet your marketing objectives effectively."
+        "ques": "Do I need technical expertise to participate in the development process?",
+        "ans": "No, you don’t need technical expertise to participate in Custom Website Development. Our team will guide you through the process, providing support and expertise every step of the way. Your input and feedback are essential for ensuring the final product meets your expectations."
       },
       {
-        "ques": "Can you accommodate rush orders for urgent projects?",
-        "ans": "Yes, we understand that sometimes you may have urgent deadlines or last-minute requirements. Our team is equipped to handle rush orders and can prioritize your project to ensure timely delivery without compromising on quality. Simply reach out to us, and we’ll do our best to accommodate your needs."
+        "ques": "What is included in web hosting services?",
+        "ans": "Web hosting services typically include server space, bandwidth, and other resources needed to store and serve your website files to visitors. Additionally, hosting providers may offer features such as email accounts, domain registration, security measures, and technical support."
       },
       {
-        "ques": "What sets your brochure design company apart from others in the industry?",
-        "ans": "At Webdads2u Private Limited, we pride ourselves on our creativity, attention to detail, and commitment to customer satisfaction. Our experienced designers combine artistic flair with strategic thinking to deliver standout brochure designs that leave a lasting impression. Additionally, we offer personalized service, transparent communication, and competitive pricing, making us the preferred choice for businesses seeking exceptional brochure design solutions."
-      },
-      {
-        "ques": "What is domain expiration?",
-        "ans": "Domain expiration is when your domain registration period ends, and you must renew it to maintain ownership."
+        "ques": "Can I update my website content myself?",
+        "ans": "Design studio founded in London and expanded our services, and become a multinational firm, offering services and solutions."
       }
     ]
   }

@@ -131,7 +131,7 @@ export default function PortfolioTabs() {
         <Box
             sx={{
                 width: '100%',
-                pt: { xs: 5, sm: 6, md: 6, lg: 0 },
+                pt: { xs: 5, sm: 6, md: 6, lg: 4 },
                 mt: { xs: 0, sm: 6, md: 0 }
             }}
         >

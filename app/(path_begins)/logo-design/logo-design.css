@@ -1,6 +1,6 @@
 /* Logodesignbanner */
 .logodesignbanner-main {
-    background-image: url(../../../public/webdads/images/logo-design/new-Banner-Background.jpg);
+    /* background-image: url(../../../public/webdads/images/logo-design/new-Banner-Background.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +8,7 @@
 }
 
 .logodesignbanner .banner-logo-design {
-    background-image: url(../../../public/webdads/images/logo-design/Colours.png);
+    /* background-image: url(../../../public/webdads/images/logo-design/Colours.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -510,13 +510,13 @@
 }
 
 .fqlogodesign-Accordion .accordion-button::after {
-    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/plus-small.png); */
     transition: all 0.5s;
     color: #08203A !important;
 }
 
 .fqlogodesign-Accordion .accordion-button:not(.collapsed)::after {
-    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/munus-small.png); */
     color: #08203A !important;
 }
 

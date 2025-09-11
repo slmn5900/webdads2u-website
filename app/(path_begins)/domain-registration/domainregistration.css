@@ -1,5 +1,5 @@
 .domainregistrationbanner-main {
-    background-image: url(../../../public/webdads/images/domain-registration/Banner-background-4.jpg);
+    /* background-image: url(../../../public/webdads/images/domain-registration/Banner-background-4.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -274,7 +274,7 @@
 /* lookingdomain */
 .lookingdomain-main {
     background-color: #8e0bac;
-    background-image: url(../../../public/webdads/images/domain-registration/Banner-background-4.jpg);
+    /* background-image: url(../../../public/webdads/images/domain-registration/Banner-background-4.jpg); */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -377,13 +377,13 @@
 }
 
 .fqdomainregistration-Accordion .accordion-button::after {
-    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/plus-small.png); */
     transition: all 0.5s;
     color: #08203a !important;
 }
 
 .fqdomainregistration-Accordion .accordion-button:not(.collapsed)::after {
-    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/munus-small.png); */
     color: #08203a !important;
 }
 

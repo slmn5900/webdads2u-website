@@ -8,7 +8,7 @@
 } */
 
 .websiteredesign-main {
-    background-image: url(../../../public/webdads/images/website-redesign/1-Wave.png), url(../../../public/webdads/images/website-redesign/Banner-background.jpg);
+    /* background-image: url(../../../public/webdads/images/website-redesign/1-Wave.png), url(../../../public/webdads/images/website-redesign/Banner-background.jpg); */
     background-position: right bottom, left top;
     background-repeat: 155px 0, 2px 0;
     background-size: cover;
@@ -426,13 +426,13 @@
 }
 
 .Fqwebsiteredesign-Accordion .accordion-button::after {
-    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/plus-small.png); */
     transition: all 0.5s;
     color: #08203a !important;
 }
 
 .Fqwebsiteredesign-Accordion .accordion-button:not(.collapsed)::after {
-    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/munus-small.png); */
     color: #08203a !important;
 }
 

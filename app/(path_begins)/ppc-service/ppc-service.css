@@ -9,7 +9,7 @@
 }
 /* ppc-service-banner */
 .ppcservicebanner-main {
-    background-image: url(../../../public/webdads/images/ppc-service/convertio.in_Banner-background-8.png);
+    /* background-image: url(../../../public/webdads/images/ppc-service/convertio.in_Banner-background-8.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -393,13 +393,13 @@
 }
 
 .fqppcservice-Accordion .accordion-button::after {
-    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/plus-small.png); */
     transition: all 0.5s;
     color: #08203a !important;
 }
 
 .fqppcservice-Accordion .accordion-button:not(.collapsed)::after {
-    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/munus-small.png); */
     color: #08203a !important;
 }
 

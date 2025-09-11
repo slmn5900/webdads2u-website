@@ -1,6 +1,6 @@
 /* localseoservicebanner-main */
 .localseoservicebanner-main {
-    background-image: url(../../../public/webdads/images/local-seo-service/1-local-seo.jpg);
+    /* background-image: url(../../../public/webdads/images/local-seo-service/1-local-seo.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -403,7 +403,7 @@ padding: 0px;
 /* Looking-E-commerce-SEO */
 .lookingEcommerceseo-main {
     padding: 60px 0px;
-    background-image: url(../../../public/webdads/images/local-seo-service/1-local-seo.jpg);
+    /* background-image: url(../../../public/webdads/images/local-seo-service/1-local-seo.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -512,13 +512,13 @@ padding: 0px;
 }
 
 .fqlocalseoservice-Accordion .accordion-button::after {
-    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/plus-small.png); */
     transition: all 0.5s;
     color: #08203a !important;
 }
 
 .fqlocalseoservice-Accordion .accordion-button:not(.collapsed)::after {
-    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/munus-small.png); */
     color: #08203a !important;
 }
 

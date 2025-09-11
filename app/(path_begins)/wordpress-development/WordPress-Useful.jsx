@@ -1,74 +1,90 @@
-import React from 'react'
 
-function WordPressUseful() {
-  return (
-    <section className='wordPressuseful-main'>
-        <div className="container">
-            <div className="row text-canter justify-content-center wordPressuseful">
-                <div className="col-sm-12 col-lg-10">
-                    <h1>What Makes WordPress so Useful for Website Development?</h1>
-                    <p>A WordPress development company leverages the platform’s user-friendly interface, extensive plugin ecosystem, and customizable themes for website development. It facilitates easy content management, SEO optimization, and scalability. With a large community and frequent updates, WordPress remains a top choice for building dynamic and responsive websites.</p>
-                </div>
-            </div>
-        </div>
-        <div className="container">
-            <div className="row text-center wordPressuseful-card">
-                <div className="col-sm-12 col-md-4 col-lg-4 mb-4">
-                    <div className="card">
-                        <div>
-                            <img src="webdads/images/wordpress-development/Theme-Development.png" alt="Theme-Development" className='ing-fluid' loading='lazy' />
-                        </div>
-                        <h1>Theme Development</h1>
-                    </div>
-                </div>
-                <div className="col-sm-12 col-md-4 col-lg-4 mb-4">
-                    <div className="card">
-                        <div>
-                            <img src="webdads/images/wordpress-development/Plugin-Development.png" alt="Plugin-Development" className='ing-fluid' loading='lazy' />
-                        </div>
-                        <h1>Plugin Development</h1>
-                    </div>
-                </div>
-                <div className="col-sm-12 col-md-4 col-lg-4 mb-4">
-                    <div className="card">
-                        <div>
-                            <img src="webdads/images/wordpress-development/eCommerce-Solutions.png" alt="eCommerce-Solutions" className='ing-fluid' loading='lazy' />
-                        </div>
-                        <h1>eCommerce Solutions</h1>
-                    </div>
-                </div>
-            </div>
-            <div className="row text-center wordPressuseful-card">
-                <div className="col-sm-12 col-md-4 col-lg-4 mb-4">
-                    <div className="card">
-                        <div>
-                            <img src="webdads/images/wordpress-development/Updates-and-Migration.png" alt="Updates-and-Migration" className='ing-fluid' loading='lazy' />
-                        </div>
-                        <h1>Updates and Migration</h1>
-                    </div>
-                </div>
-                <div className="col-sm-12 col-md-4 col-lg-4 mb-4">
-                    <div className="card">
-                        <div>
-                            <img src="webdads/images/wordpress-development/PSD-to-Wordpress.png" alt="PSD-to-Wordpress" className='ing-fluid' loading='lazy' />
-                        </div>
-                        <h1>PSD to
-                        WordPress</h1>
-                    </div>
-                </div>
-                <div className="col-sm-12 col-md-4 col-lg-4 mb-4">
-                    <div className="card">
-                        <div>
-                            <img src="webdads/images/wordpress-development/Custom-Development.png" alt="Custom-Development" className='ing-fluid' loading='lazy' />
-                        </div>
-                        <h1>Custom
-                        Development</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-  )
+
+'use client';
+
+import React from 'react';
+import { Container, Grid2, Card, Typography, Box } from '@mui/material';
+import { motion } from 'framer-motion';
+
+const features = [
+    {
+        title: 'Theme Development',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757333829/webdads2u/wordpress-development/icons/wordpress-theme-development.png'
+    },
+    {
+        title: 'Plugin Development',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757333818/webdads2u/wordpress-development/icons/wordpress-plugin-development.png'
+    },
+    {
+        title: 'eCommerce Solutions',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757333814/webdads2u/wordpress-development/icons/wordpress-ecommerce-solutions.png'
+    },
+    {
+        title: 'Updates and Migration',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757333765/webdads2u/wordpress-development/icons/updates-and-migration.png'
+    },
+    {
+        title: 'PSD to WordPress',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757333756/webdads2u/wordpress-development/icons/psd-to-wordpress.png'
+    },
+    {
+        title: 'Custom Development',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757333745/webdads2u/wordpress-development/icons/custom-development.png'
+    }
+];
+
+const cardVariants = {
+    hidden: { opacity: 0, y: 40 },
+    visible: (i) => ({
+        opacity: 1,
+        y: 0,
+        transition: { delay: i * 0.15, duration: 0.5, ease: 'easeOut' }
+    })
+};
+
+export default function WordPressUseful() {
+    return (
+        <Box sx={{ py: 0 }}>
+            <Container maxWidth="lg">
+                {/* Heading */}
+                <Box textAlign="center" mb={6}>
+                    <Typography variant="h4" fontWeight="bold" gutterBottom fontSize={{ xs: '1.125rem', md: '2.125rem' }}>
+                        What Makes WordPress so Useful for Website Development?
+                    </Typography>
+                    <Typography variant="body1" color="text.secondary" maxWidth="md" mx="auto">
+                        A WordPress development company leverages the platform’s user-friendly interface, extensive plugin ecosystem, and customizable themes for website development. It facilitates easy content management, SEO optimization, and
+                        scalability. With a large community and frequent updates, WordPress remains a top choice for building dynamic and responsive websites.
+                    </Typography>
+                </Box>
+
+                {/* Features Grid2 */}
+                <Grid2 container spacing={4}>
+                    {features.map((feature, i) => (
+                        <Grid2 size={{ xs: 12, sm: 6, md: 4 }} key={i}>
+                            <motion.div custom={i} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} variants={cardVariants}>
+                                <Card
+                                    sx={{
+                                        p: 3,
+                                        textAlign: 'center',
+                                        borderRadius: 3,
+                                        boxShadow: 3,
+                                        height: '100%',
+                                        transition: 'all 0.3s ease',
+                                        '&:hover': { transform: 'translateY(-6px)', boxShadow: 6 }
+                                    }}
+                                >
+                                    <Box mb={2}>
+                                        <img src={feature.img} alt={feature.title} loading="lazy" style={{ maxWidth: 80, margin: 'auto' }} />
+                                    </Box>
+                                    <Typography variant="h6" fontWeight="bold">
+                                        {feature.title}
+                                    </Typography>
+                                </Card>
+                            </motion.div>
+                        </Grid2>
+                    ))}
+                </Grid2>
+            </Container>
+        </Box>
+    );
 }
-
-export default WordPressUseful

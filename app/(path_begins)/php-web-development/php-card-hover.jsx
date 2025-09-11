@@ -10,7 +10,7 @@ function Phpcardhover() {
                 <div className="card-boxbf">
                 <div className="card">
                         <div className="card-img">
-                            <img src="webdads/images/php-web-development/bulp.png" alt="bulp" loading='lazy' className='img-fluid'/>
+                            <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757400052/webdads2u/php-web-development/php-process.png" alt="php-process" loading='lazy' className='img-fluid'/>
                         </div>
                         <h1>Easy to Understand</h1>
                         <p>Our PHP web development ensures intuitive user interfaces and straightforward navigation, making your website easy for visitors to comprehend and interact with effortlessly.</p>

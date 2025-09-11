@@ -61,7 +61,7 @@
 
 /* linkbuildingservicebanner */
 .linkbuildingservicebanner-main {
-    background-image: url(../../../public/webdads/images/link-building-service/link-building.png);
+    /* background-image: url(../../../public/webdads/images/link-building-service/link-building.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -491,13 +491,13 @@
 }
 
 .fqlinkbuildingservice-Accordion .accordion-button::after {
-    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/plus-small.png); */
     transition: all 0.5s;
     color: #08203a !important;
 }
 
 .fqlinkbuildingservice-Accordion .accordion-button:not(.collapsed)::after {
-    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/munus-small.png); */
     color: #08203a !important;
 }
 

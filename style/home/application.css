@@ -1,4 +1,4 @@
-@keyframes newsletterAnimated2 {
+/* @keyframes newsletterAnimated2 {
     0% {
         transform: translateX(0px);
     }
@@ -22,4 +22,4 @@
 
 .ct-effect2 {
     animation: newsletterAnimated2 12s infinite linear alternate;
-}
+} */

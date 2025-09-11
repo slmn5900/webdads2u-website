@@ -33,16 +33,19 @@
 // export default Customwebdevelopmentbanner;
 'use client';
 
-import React from 'react';
+import React, { useContext } from 'react';
 import { Grid2, Typography, Button, Box } from '@mui/material';
 import { motion } from 'framer-motion';
+import { MenuContext } from '../../../layout/context/menucontext';
 
 function Customwebdevelopmentbanner() {
+    const { header_section } = useContext(MenuContext);
     return (
         <Box
             className="customwebdevelopmentbanner-main "
             component="section"
             sx={{
+                background: `url(${header_section?.bg_img})`,
                 py: { xs: 6, md: 10 },
                 px: { xs: 2, md: 6 },
                 backgroundColor: '#f9f9f9'
@@ -53,10 +56,10 @@ function Customwebdevelopmentbanner() {
                 <Grid2 size={{ xs: 12, md: 6 }}>
                     <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
                         <Typography variant="h3" component="h1" fontWeight={700} gutterBottom color="white" sx={{ fontSize: { xs: 20, md: 30 } }}>
-                            Custom Web Development
+                            {header_section?.title}
                         </Typography>
-                        <Typography variant="body1" color="white" paragraph >
-                            Your digital potential with our custom web development solutions. Tailored to your unique needs, our expert team will craft a stunning website that drives results and exceeds expectations!
+                        <Typography variant="body1" color="white" paragraph>
+                            {header_section?.description}{' '}
                         </Typography>
                         <Button variant="outlined" color="primary" size="large" component="a" href="/contact-us" sx={{ borderRadius: 2, mt: 2, color: 'white' }}>
                             Contact Us
@@ -65,10 +68,10 @@ function Customwebdevelopmentbanner() {
                 </Grid2>
 
                 {/* Right Side Image */}
-                <Grid2 size={{ xs: 12, md: 6 }} sx={{ textAlign: 'center' }}>
+                <Grid2 size={{ xs: 12, md: 6 }} sx={{ textAlign: 'center', mt: -15, display: { xs: 'none', md: 'block' } }}>
                     <motion.img
-                        src="/webdads/images/custom-web-development/Web-Portal-Development.png"
-                        alt="Custom Website Development Company In Chennai"
+                        src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757401736/webdads2u/custom-web-development/web-portal-development.png"
+                        alt="web-portal-development"
                         loading="lazy"
                         style={{ maxWidth: '100%', height: 'auto' }}
                         initial={{ opacity: 0, scale: 0.9 }}

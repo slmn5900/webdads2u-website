@@ -3,9 +3,9 @@
     "title": "WordPress Development",
     "description": "Building unique, industry-specific, custom-made web portals for outstanding customer experience",
     "button": "Contact us",
-    "img": "/webdads/images/wordpress-development/Wordpress-logo.png",
-    "bg_img": "/webdads/images/wordpress-development/wordpress-banner.png",
-    "img_alt":"brochure design company"
+    "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757332635/webdads2u/wordpress-development/wordpress.png",
+    "bg_img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757331991/webdads2u/wordpress-development/wordpress-banner.webp",
+    "img_alt":"wordpress"
   },
   "slider_section": {
     "title": "Trusted by over 150+ businesses worldwide!",

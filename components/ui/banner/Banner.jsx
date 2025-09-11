@@ -22,7 +22,7 @@ const BrochureSection = styled(Box)(({ theme, image }) => ({
         minHeight: 'calc(100vh - 20px)'
     },
     [theme.breakpoints.up('md')]: {
-        minHeight: 'calc(100vh - 60px)'
+        minHeight: 'calc(100vh - 10px)'
     },
     [theme.breakpoints.down('md')]: {
         padding: theme.spacing(5, 0, 7.5) // Adjust for smaller screens

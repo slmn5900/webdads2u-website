@@ -13,7 +13,7 @@ function Createinteractive() {
                 </div>
                 <div className="row createinteractive-para">
                     <div className="col-sm-12 col-md-6 col-lg-6">
-                        <img src="webdads/images/custom-web-development/CRM-banner.png" alt="CRM-banner" loading="lazy" className="img-fluid" />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757401734/webdads2u/custom-web-development/crm-banner.avif" alt="crm-banner" loading="lazy" className="img-fluid" />
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6 p-3">
                         <p>

@@ -1,6 +1,6 @@
 /* responsive-website/ */
 .responsivewebsitebanner-main {
-    background-image: url(../../../public/webdads/images/responsive-website/Banner-Background.jpg);
+    /* background-image: url(../../../public/webdads/images/responsive-website/Banner-Background.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -273,13 +273,13 @@
 }
 
 .fqresponsivewebsite-Accordion .accordion-button::after {
-    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/plus-small.png); */
     transition: all 0.5s;
     color: #08203a !important;
 }
 
 .fqresponsivewebsite-Accordion .accordion-button:not(.collapsed)::after {
-    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/munus-small.png); */
     color: #08203a !important;
 }
 

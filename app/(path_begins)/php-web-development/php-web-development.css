@@ -1,7 +1,7 @@
 /* php-web-development */
 .php-web-development-banner {
     padding: 50px 0px;
-    background-image: url(../../../public/webdads/images/php-web-development/php-banner.png);
+    /* background-image: url(../../../public/webdads/images/php-web-development/php-banner.png); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -483,13 +483,13 @@ font-size: 11px !important;}
 }
 
 .frequentlyphp-Accordion .accordion-button::after {
-    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/plus-small.png); */
     transition: all 0.5s;
     color: #08203A !important;
 }
 
 .frequentlyphp-Accordion .accordion-button:not(.collapsed)::after {
-    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/munus-small.png); */
     color: #08203A !important;
 }
 

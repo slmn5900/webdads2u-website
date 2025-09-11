@@ -12,6 +12,8 @@ import SocialMedia from '../components/common/SocialMedia.jsx';
 import './home.scss';
 import ScrollToTop from '../components/common/ScrollToTop.jsx';
 import StickyContactIcons from '../components/common/StickyContactIcons.jsx';
+import { ThemeProvider } from '@mui/material';
+import theme from '../Theme/theme.jsx';
 
 export default function RootLayout({ children }) {
     const pathname = usePathname();
@@ -49,16 +51,18 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" suppressHydrationWarning>
             <body>
-                <MenuProvider>
-                    <LayoutProvider>
-                        {!omitHeaderFooter && <Header />}
-                        <main>{children}</main>
-                        {!omitHeaderFooter && <SocialMedia />}
-                        {!omitHeaderFooter && <Footer />}
-                        <ScrollToTop />
-                        <StickyContactIcons />
-                    </LayoutProvider>
-                </MenuProvider>
+                <ThemeProvider theme={theme}>
+                    <MenuProvider>
+                        <LayoutProvider>
+                            {!omitHeaderFooter && <Header />}
+                            <main>{children}</main>
+                            {!omitHeaderFooter && <SocialMedia />}
+                            {!omitHeaderFooter && <Footer />}
+                            <ScrollToTop />
+                            <StickyContactIcons />
+                        </LayoutProvider>
+                    </MenuProvider>
+                </ThemeProvider>
             </body>
         </html>
     );

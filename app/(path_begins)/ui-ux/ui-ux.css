@@ -397,7 +397,7 @@
 }
 
 .uxdesign .ux-banner-img {
-    background-image: url(../../../public/webdads/images/ui-ux/2mobiles.png);
+    /* background-image: url(../../../public/webdads/images/ui-ux/2mobiles.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 440px;
@@ -599,13 +599,13 @@
 }
 
 .fquiux-Accordion .accordion-button::after {
-    background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/plus-small.png); */
     transition: all 0.5s;
     color: #08203a !important;
 }
 
 .fquiux-Accordion .accordion-button:not(.collapsed)::after {
-    background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    /* background-image: url(../../../public/webdads/images/android-app-development/munus-small.png); */
     color: #08203a !important;
 }
 

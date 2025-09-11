@@ -1,83 +1,4 @@
-// import React from 'react'
 
-// function AngularJS() {
-//   return (
-//     <section className='angularjs-main'>
-//         <div className="container">
-//             <div className="row text-center angularjs">
-//                 <div className="col-sm-12 col-md-12 col-lg-12">
-//                     <h1>Angular JS react JS development</h1>
-//                     <p>Delivering end-to-end services in an affluent way</p>
-//                 </div>
-//             </div>
-//             <div className="row angularjs-card">
-//                 <div className="col-sm-12 col-md-6 col-lg-4 angularjs-card-card">
-//                     <div className="card">
-//                         <div className="img-body">
-//                             <img src="webdads/images/react-js-development/react-ui.png" alt="react web development" loading='lazy' className='img-fluid' />
-//                         </div>
-//                         <h1>Reactjs Portal Development</h1>
-//                         <p>Delivering top-tier React js development in Chennai, India. Specializing in efficient React.js Portal Development for dynamic and efficient web portals to meet your business needs.</p>
-//                     </div>
-//                 </div>
-
-//                 <div className="col-sm-12 col-md-6 col-lg-4 angularjs-card-card angularjs-card-card-card">
-//                     <div className="card">
-//                         <div className="img-body">
-//                             <img src="webdads/images/react-js-development/react-ui.png" alt="react-ui" loading='lazy' className='img-fluid' />
-//                         </div>
-//                         <h1>Reactjs UI Development</h1>
-//                         <p>Webdads2u Technologies excels in React js development, focusing on UI enhancement. Elevate your app&apos;s interactivity and attract more clients with our React.js UI Development expertise.</p>
-//                     </div>
-//                 </div>
-
-//                 <div className="col-sm-12 col-md-6 col-lg-4 angularjs-card-card angularjs-card-card">
-//                     <div className="card">
-//                         <div className="img-body">
-//                             <img src="webdads/images/react-js-development/reactjs.png" alt="reactjs" loading='lazy' className='img-fluid' />
-//                         </div>
-//                         <h1>Reactjs Portal Development</h1>
-//                         <p>Delivering top-tier React js development in Chennai, India. Specializing in efficient React.js Portal Development for dynamic and efficient web portals to meet your business needs.</p>
-//                     </div>
-//                 </div>
-
-//                 <div className="col-sm-12 col-md-6 col-lg-4 angularjs-card-card angularjs-card-card-card">
-//                     <div className="card">
-//                         <div className="img-body">
-//                             <img src="webdads/images/react-js-development/react-js-portable-development-co.png" alt="react-js-portable-development-co" loading='lazy' className='img-fluid' />
-//                         </div>
-//                         <h1>Reactjs Portal Development</h1>
-//                         <p>Delivering top-tier React js development in Chennai, India. Specializing in efficient React.js Portal Development for dynamic and efficient web portals to meet your business needs.</p>
-//                     </div>
-//                 </div>
-
-//                 <div className="col-sm-12 col-md-6 col-lg-4 angularjs-card-card">
-//                     <div className="card">
-//                         <div className="img-body">
-//                             <img src="webdads/images/react-js-development/front-end.png" alt="front-end" loading='lazy' className='img-fluid' />
-//                         </div>
-//                         <h1>Reactjs Portal Development</h1>
-//                         <p>Delivering top-tier React js development in Chennai, India. Specializing in efficient React.js Portal Development for dynamic and efficient web portals to meet your business needs.</p>
-//                     </div>
-//                 </div>
-
-//                 <div className="col-sm-12 col-md-6 col-lg-4 angularjs-card-card angularjs-card-card-card">
-//                     <div className="card">
-//                         <div className="img-body">
-//                             <img src="webdads/images/react-js-development/custome-reactjs.png" alt="custome-reactjs" loading='lazy' className='img-fluid' />
-//                         </div>
-//                         <h1>Reactjs Portal Development</h1>
-//                         <p>Delivering top-tier React js development in Chennai, India. Specializing in efficient React.js Portal Development for dynamic and efficient web portals to meet your business needs.</p>
-//                     </div>
-//                 </div>
-
-//             </div>
-//         </div>
-//     </section>
-//   )
-// }
-
-// export default AngularJS
 
 'use client';
 import React from 'react';
@@ -99,26 +20,26 @@ const cardData = [
     },
     {
         img: 'webdads/images/react-js-development/reactjs.png',
-        title: 'Reactjs Portal Development',
-        desc: 'Delivering top-tier React js development in Chennai, India. Specializing in efficient React.js Portal Development for dynamic and efficient web portals to meet your business needs.',
+        title: 'Reactjs Migration Services',
+        desc: 'As the premier React js development service provider, precision and security define our approach to application migration. Trust us for the best React.js Migration Services.',
         alt: 'reactjs'
     },
     {
         img: 'webdads/images/react-js-development/react-js-portable-development-co.png',
-        title: 'Reactjs Portal Development',
-        desc: 'Delivering top-tier React js development in Chennai, India. Specializing in efficient React.js Portal Development for dynamic and efficient web portals to meet your business needs.',
+        title: 'Enterprise Reactjs Development',
+        desc: 'Empower your Enterprise with cutting-edge React js development in Chennai. Elevate performance and scalability seamlessly. Unleash the potential of your business.',
         alt: 'react-js-portable-development-co'
     },
     {
         img: 'webdads/images/react-js-development/front-end.png',
-        title: 'Reactjs Portal Development',
-        desc: 'Delivering top-tier React js development in Chennai, India. Specializing in efficient React.js Portal Development for dynamic and efficient web portals to meet your business needs.',
+        title: 'Reactjs Front-end Development',
+        desc: 'Leading the way in React js front-end development in Chennai. Transform your web interfaces with our expertise. Delivering responsiveness, innovation, and seamless user experiences.',
         alt: 'front-end'
     },
     {
         img: 'webdads/images/react-js-development/custome-reactjs.png',
-        title: 'Reactjs Portal Development',
-        desc: 'Delivering top-tier React js development in Chennai, India. Specializing in efficient React.js Portal Development for dynamic and efficient web portals to meet your business needs.',
+        title: 'Custom Reactjs Development',
+        desc: 'Tailored solutions with Custom React js Development in Chennai, India. Enhance your digital presence with responsive and innovative web applications. Your vision, our expertise.',
         alt: 'custome-reactjs'
     }
 ];
@@ -159,8 +80,9 @@ function AngularJS() {
                             >
                                 <Card
                                     sx={{
-                                        height: '100%',
+                                        height: 300,
                                         borderRadius: 3,
+
                                         boxShadow: '0 8px 24px rgba(0,0,0,0.1)',
                                         transition: 'transform 0.3s ease',
                                         '&:hover': {
@@ -168,7 +90,7 @@ function AngularJS() {
                                         }
                                     }}
                                 >
-                                    <CardMedia component="img" image={card.img} alt={card.alt} loading="lazy" sx={{ height: 220, objectFit: 'contain', p: 2 }} />
+                                    <CardMedia component="img" image={card.img} alt={card.alt} loading="lazy" sx={{ height: 90, objectFit: 'contain', p: 2 }} />
                                     <CardContent>
                                         <Typography variant="h6" fontWeight="bold" gutterBottom sx={{ color: '#0d47a1' }}>
                                             {card.title}
