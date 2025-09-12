@@ -15,7 +15,7 @@ const rightColumn = [
     { src: '/webdads/images/website-development/webdevelopment-banner-service3.png', align: 'center' }
 ];
 const HeroSection = styled('section')({
-    backgroundImage: "url('/webdads/images/website-development/website-development.png')",
+    backgroundImage: "url('https://res.cloudinary.com/dbpv95wd8/image/upload/v1757590611/webdads2u/website-development/website-development.png')",
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     padding: '75px 0'

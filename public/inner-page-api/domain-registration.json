@@ -3,9 +3,9 @@
     "title": "Domain Registration",
     "description": "Own your unique space on the internet with our extensive selection of domain names. Our team of experts is at your disposal to assist in selecting a domain name that is catchy, memorable, and perfect for your business",
     "button": "Contact us",
-    "img": "/webdads/images/domain-registration/Banner-img.png",
-    "bg_img": "  /webdads/images/domain-registration/Banner-background-4.jpg",
-    "img_alt":"brochure design company"
+    "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757417364/webdads2u/domain-registration/best-domain-registration-company.png",
+    "bg_img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757417384/webdads2u/domain-registration/banner-background.png",
+    "img_alt":"best domain registration company"
   },
   "slider_section": {
     "title": "Trusted by over 150+ businesses worldwide!",
@@ -266,27 +266,27 @@
   },
   "qna_section": {
     "title": "Frequently Asked Questions",
-    "description": "We meticulously ensure that every aspect of your brochure design resonates with your brand identity and objectives.",
+    "description": "Hundreds of reviews from our customers say so. Our in-house support team is friendly & professional and usually way to help you. .!",
     "queries": [
       {
-        "ques": "What services does your brochure design company offer?",
-        "ans": "At Webdads2u Private Limited, we offer a comprehensive range of brochure design services tailored to meet your specific needs. Our services include conceptualization, design, layout, copywriting, and printing management, ensuring a seamless and hassle-free experience for our clients."
+        "ques": "What is a domain name?",
+        "ans": "A domain name is your website’s address on the internet, like www.example.com."
       },
       {
-        "ques": "How do you ensure that the brochure design aligns with our brand identity?",
-        "ans": "We take great care to understand your brand identity, values, and objectives before embarking on any design project. Our team conducts thorough research and collaborates closely with you to ensure that every aspect of the brochure design reflects and enhances your brand identity."
+        "ques": "How long does domain registration take?",
+        "ans": "Registration typically takes minutes to complete, but DNS propagation can take up to 48 hours."
       },
       {
-        "ques": "What is the typical turnaround time for a brochure design project?",
-        "ans": "The turnaround time for a brochure design project depends on various factors such as the complexity of the design, the number of revisions required, and the printing process. However, we strive to deliver high-quality designs within agreed-upon timelines to meet your marketing objectives effectively."
+        "ques": "Can I transfer my domain to another registrar?",
+        "ans": "Yes, you can transfer your domain between registrars. Each registrar has its own process."
       },
       {
-        "ques": "Can you accommodate rush orders for urgent projects?",
-        "ans": "Yes, we understand that sometimes you may have urgent deadlines or last-minute requirements. Our team is equipped to handle rush orders and can prioritize your project to ensure timely delivery without compromising on quality. Simply reach out to us, and we’ll do our best to accommodate your needs."
+        "ques": "What is WHOIS privacy protection?",
+        "ans": "WHOIS privacy protects your personal information associated with your domain from being publicly accessible."
       },
       {
-        "ques": "What sets your brochure design company apart from others in the industry?",
-        "ans": "At Webdads2u Private Limited, we pride ourselves on our creativity, attention to detail, and commitment to customer satisfaction. Our experienced designers combine artistic flair with strategic thinking to deliver standout brochure designs that leave a lasting impression. Additionally, we offer personalized service, transparent communication, and competitive pricing, making us the preferred choice for businesses seeking exceptional brochure design solutions."
+        "ques": "Can I register a domain for free?",
+        "ans": "While some services offer free domain registration initially, they often come with limitations or require additional purchases."
       },
       {
         "ques": "What is domain expiration?",

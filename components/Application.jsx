@@ -113,7 +113,7 @@ export default function Application() {
                         >
                             <Image
                                 src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757412592/webdads2u/mainpage/application-development-service.png"
-                                alt="application-development-service"
+                                alt="application development service"
                                 width={575}
                                 height={513}
                                 style={{ width: { sm: '50%', md: '100%' }, maxWidth: '100%', height: 'auto' }}

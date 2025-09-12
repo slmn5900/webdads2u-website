@@ -13,7 +13,7 @@ function Webhostingplatform() {
             <div className="row text-center webhostingplatform">
                 <div className="col-sm-12 col-md-4 col-lg-4 p-2">
                     <div className="webhostingplatform-img">
-                        <img src="webdads/images/web-hosting-service/999-Uptime-Guarantee.png" alt="999-Uptime-Guarantee" loading='lazy' className='img-fluid' />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757418390/webdads2u/web-hosting-service/icons/web-hosting-platform-uptime-guarantee.png" alt="999-Uptime-Guarantee" loading='lazy' className='img-fluid' />
                     </div>
                     <div className="text-area">
                         <h4>99.9% Uptime Guarantee</h4>
@@ -22,7 +22,7 @@ function Webhostingplatform() {
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-4 p-2">
                     <div className="webhostingplatform-img">
-                        <img src="webdads/images/web-hosting-service/Safe-and-Secured.png" alt="Safe-and-Secured" loading='lazy' className='img-fluid' />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757418383/webdads2u/web-hosting-service/icons/web-hosting-platform-safe-and-secured.png" alt="Safe-and-Secured" loading='lazy' className='img-fluid' />
                     </div>
                     <div className="text-area">
                         <h4>Safe and Secured</h4>
@@ -31,7 +31,7 @@ function Webhostingplatform() {
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-4 p-2">
                     <div className="webhostingplatform-img">
-                        <img src="webdads/images/web-hosting-service/Our-Dedicated-Support.png" alt="Our-Dedicated-Support" loading='lazy' className='img-fluid' />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757418375/webdads2u/web-hosting-service/icons/web-hosting-platform-our-dedicated-support.png" alt="Our-Dedicated-Support" loading='lazy' className='img-fluid' />
                     </div>
                     <div className="text-area">
                         <h4>Our Dedicated Support</h4>

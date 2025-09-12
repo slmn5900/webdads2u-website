@@ -12,7 +12,7 @@ function Customwebdesignservices() {
             <div className="row text-center customwebdesignservices-card">
                 <div className="col-sm-12 col-md-6 col-lg-4 mb-5">
                     <div className='image-border-line'>
-                        <img src="webdads/images/custom-web-design/WordPress-Experts.png" alt="WordPress-Experts" loading='lazy' className='img-fluid' />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757420476/webdads2u/custom-web-design/icons/wordpress-experts.png" alt="WordPress-Experts" loading='lazy' className='img-fluid' />
                     </div>
                     <div className='text-area'>
                         <h4>WordPress Experts</h4>
@@ -21,7 +21,7 @@ function Customwebdesignservices() {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4 mb-5">
                     <div className='image-border-line'>
-                        <img src="webdads/images/custom-web-design/logo-design.png" alt="logo-design" loading='lazy' className='img-fluid' />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757420466/webdads2u/custom-web-design/icons/logo-design.png" alt="logo-design" loading='lazy' className='img-fluid' />
                     </div>
                     <div className='text-area'>
                         <h4>Logo Design</h4>
@@ -30,7 +30,7 @@ function Customwebdesignservices() {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4 mb-5">
                     <div className='image-border-line'>
-                        <img src="webdads/images/custom-web-design/eCommerce-Web-Design.png" alt="eCommerce-Web-Design" loading='lazy' className='img-fluid' />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757420457/webdads2u/custom-web-design/icons/e-commerce-web-design.png" alt="eCommerce-Web-Design" loading='lazy' className='img-fluid' />
                     </div>
                     <div className='text-area'>
                         <h4>eCommerce Web Design</h4>
@@ -39,7 +39,7 @@ function Customwebdesignservices() {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4 mb-5">
                     <div className='image-border-line'>
-                        <img src="webdads/images/custom-web-design/Responsive-Web-Design_13122c9c8e.png" alt="Responsive-Web-Design_13122c9c8e" loading='lazy' className='img-fluid' />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757420449/webdads2u/custom-web-design/icons/responsive-web-design.png" alt="Responsive-Web-Design_13122c9c8e" loading='lazy' className='img-fluid' />
                     </div>
                     <div className='text-area'>
                         <h4>Responsive Web Design</h4>
@@ -48,7 +48,7 @@ function Customwebdesignservices() {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4 mb-5">
                     <div className='image-border-line'>
-                        <img src="webdads/images/custom-web-design/Website-Maintenances.png" alt="Website-Maintenances" loading='lazy' className='img-fluid' />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757420441/webdads2u/custom-web-design/icons/website-maintenance.png" alt="Website-Maintenances" loading='lazy' className='img-fluid' />
                     </div>
                     <div className='text-area'>
                         <h4>Website Maintenance</h4>
@@ -57,7 +57,7 @@ function Customwebdesignservices() {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4 mb-5">
                     <div className='image-border-line'>
-                        <img src="webdads/images/custom-web-design/Website-Analysis.png" alt="Website-Analysis" loading='lazy' className='img-fluid' />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757420432/webdads2u/custom-web-design/icons/website-analysis.png" alt="Website-Analysis" loading='lazy' className='img-fluid' />
                     </div>
                     <div className='text-area'>
                         <h4>Website Analysis</h4>

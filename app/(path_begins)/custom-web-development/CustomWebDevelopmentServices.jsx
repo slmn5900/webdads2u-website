@@ -13,7 +13,7 @@ function Customwebdevelopmentservices() {
                 <div className="row Customwebdevelopmentservices-card">
                     <div className="col-sm-12 col-md-6 col-lg-4 text-center">
                         <div className="image-area">
-                            <img src="webdads/images/custom-web-development/Custome-web-design.png" alt="Custome-web-design" loading="lazy" className="img-fluid" />
+                            <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757401772/webdads2u/custom-web-development/icons/custome-web-design.png" alt="Custome-web-design" loading="lazy" className="img-fluid" />
                         </div>
                         <div className="text-area">
                             <h3>Custom Web Designing</h3>
@@ -39,7 +39,7 @@ function Customwebdevelopmentservices() {
 
                     <div className="col-sm-12 col-md-6 col-lg-4 text-center">
                         <div className="image-area">
-                            <img src="webdads/images/custom-web-development/UI-UX.png" alt="UI-UX" loading="lazy" className="img-fluid" />
+                            <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757401786/webdads2u/custom-web-development/icons/ui-ux-designing.png" alt="UI-UX" loading="lazy" className="img-fluid" />
                         </div>
                         <div className="text-area">
                             <h3>UI/UX Designing</h3>
@@ -52,7 +52,7 @@ function Customwebdevelopmentservices() {
 
                     <div className="col-sm-12 col-md-6 col-lg-4 text-center">
                         <div className="image-area">
-                            <img src="webdads/images/custom-web-development/CMS.png" alt="CMS" loading="lazy" className="img-fluid" />
+                            <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757401784/webdads2u/custom-web-development/icons/cms-development.png" alt="CMS" loading="lazy" className="img-fluid" />
                         </div>
                         <div className="text-area">
                             <h3>CMS Development</h3>
@@ -65,7 +65,7 @@ function Customwebdevelopmentservices() {
 
                     <div className="col-sm-12 col-md-6 col-lg-4 text-center">
                         <div className="image-area">
-                            <img src="webdads/images/custom-web-development/Open-Source.png" alt="Open-Source" loading="lazy" className="img-fluid" />
+                            <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757401782/webdads2u/custom-web-development/icons/open-source-development.png" alt="Open-Source" loading="lazy" className="img-fluid" />
                         </div>
                         <div className="text-area">
                             <h3>Open Source Development</h3>

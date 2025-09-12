@@ -14,6 +14,7 @@ import CreatingProcess from './newdesign/CreatingProcess';
 import Counter from '../../../components/Counter';
 import { MenuContext } from '../../../layout/context/menucontext';
 import Banner from './newdesign/Banner';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 
 const WebDesign = () => {
     const {
@@ -61,7 +62,8 @@ const WebDesign = () => {
             {/* <WebDesignHero /> */}
             <Banner />
             {/* <Banner /> */}
-            <TrustedBusinesses />
+            <ClientLogoSlider />
+            {/* <TrustedBusinesses /> */}
             <WhyChooseUs />
             <Counter />
             <Streams />

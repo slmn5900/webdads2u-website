@@ -3,9 +3,9 @@
     "title": "Web Hosting Development",
     "description": "At Webdads2u, we are offering open-source CRM as well as cloud-based CRM and CRM apps for every business.",
     "button": "Contact us",
-    "img": "/webdads/images/web-hosting-service/Img.png",
-    "bg_img": "/webdads/images/web-hosting-service/hosting.png",
-    "img_alt":"brochure design company"
+    "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757418347/webdads2u/web-hosting-service/web-hosting-services.png",
+    "bg_img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757418354/webdads2u/web-hosting-service/hosting-banner.png",
+    "img_alt":"web hosting services"
   },
   "slider_section": {
     "title": "Trusted by over 150+ businesses worldwide!",
@@ -266,31 +266,31 @@
   },
   "qna_section": {
     "title": "Frequently Asked Questions",
-    "description": "We meticulously ensure that every aspect of your brochure design resonates with your brand identity and objectives.",
+    "description": "Hundreds of reviews from our customers say so. Our in-house support team is friendly & professional and usually way to help you. .!",
     "queries": [
       {
-        "ques": "What services does your brochure design company offer?",
-        "ans": "At Webdads2u Private Limited, we offer a comprehensive range of brochure design services tailored to meet your specific needs. Our services include conceptualization, design, layout, copywriting, and printing management, ensuring a seamless and hassle-free experience for our clients."
+        "ques": "What is web hosting?",
+        "ans": "Web hosting is a service that allows individuals and organizations to publish a website or web page on the internet. It provides the necessary infrastructure and technologies to store and deliver website content to users who access it through the internet."
       },
       {
-        "ques": "How do you ensure that the brochure design aligns with our brand identity?",
-        "ans": "We take great care to understand your brand identity, values, and objectives before embarking on any design project. Our team conducts thorough research and collaborates closely with you to ensure that every aspect of the brochure design reflects and enhances your brand identity."
+        "ques": "What types of web hosting do you offer?",
+        "ans": "We offer various types of web hosting, including shared hosting, virtual private server (VPS) hosting, dedicated server hosting, and cloud hosting. Each type has its own benefits and is suitable for different website needs."
       },
       {
-        "ques": "What is the typical turnaround time for a brochure design project?",
-        "ans": "The turnaround time for a brochure design project depends on various factors such as the complexity of the design, the number of revisions required, and the printing process. However, we strive to deliver high-quality designs within agreed-upon timelines to meet your marketing objectives effectively."
+        "ques": "How do I choose the right web hosting plan for my website?",
+        "ans": "Choosing the right web hosting plan depends on factors such as your website’s size, traffic volume, technical requirements, and budget. Our team can assist you in selecting the most suitable plan based on your specific needs."
       },
       {
-        "ques": "Can you accommodate rush orders for urgent projects?",
-        "ans": "Yes, we understand that sometimes you may have urgent deadlines or last-minute requirements. Our team is equipped to handle rush orders and can prioritize your project to ensure timely delivery without compromising on quality. Simply reach out to us, and we’ll do our best to accommodate your needs."
+        "ques": "Is web hosting secure?",
+        "ans": "Yes, we prioritize the security of our web hosting services. We implement robust security measures, such as firewalls, encryption, and regular security updates, to protect your website and data from unauthorized access and cyber threats."
       },
       {
-        "ques": "What sets your brochure design company apart from others in the industry?",
-        "ans": "At Webdads2u Private Limited, we pride ourselves on our creativity, attention to detail, and commitment to customer satisfaction. Our experienced designers combine artistic flair with strategic thinking to deliver standout brochure designs that leave a lasting impression. Additionally, we offer personalized service, transparent communication, and competitive pricing, making us the preferred choice for businesses seeking exceptional brochure design solutions."
+        "ques": "Can I upgrade my web hosting plan as my website grows?",
+        "ans": "Absolutely. We understand that your website’s needs may change over time, which is why we offer flexible hosting plans that allow you to upgrade or scale your resources as needed to accommodate growth and increased traffic."
       },
       {
-        "ques": "What is domain expiration?",
-        "ans": "Domain expiration is when your domain registration period ends, and you must renew it to maintain ownership."
+        "ques": "Do you offer website migration services?",
+        "ans": "Yes, we provide website migration assistance to help you seamlessly transfer your existing website to our hosting platform. Our team ensures a smooth transition with minimal downtime, so you can start enjoying the benefits of our hosting services quickly."
       }
     ]
   }

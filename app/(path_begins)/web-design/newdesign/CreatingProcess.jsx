@@ -4,38 +4,38 @@ import { Container, Grid2, Typography, Box, Tooltip } from '@mui/material';
 
 const CreatingProcess = () => {
     const processSteps = [
-        { number: '01', img: '/webdads/images/webdesign/Requirement.png', title: 'Requirement Gathering' },
-        { number: '02', img: '/webdads/images/webdesign/planning.png', title: 'planning' },
-        { number: '03', img: '/webdads/images/webdesign/UX-Strategy.png', title: 'ux strategy' },
-        { number: '04', img: '/webdads/images/webdesign/wireframe.png', title: 'wireframe creation' },
-        { number: '05', img: '/webdads/images/webdesign/Building-Prototype.png', title: 'building prototype' },
-        { number: '06', img: '/webdads/images/webdesign/pen-icon.png', title: 'creating visual design' },
-        { number: '07', img: '/webdads/images/webdesign/Final-Branding.png', title: 'final branding' }
+        { number: '01', img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410076/webdads2u/web-design/icons/requirement-gathering.png', title: 'Requirement Gathering' },
+        { number: '02', img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410073/webdads2u/web-design/icons/planning.png', title: 'planning' },
+        { number: '03', img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410069/webdads2u/web-design/icons/ux-strategy.png', title: 'ux strategy' },
+        { number: '04', img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410066/webdads2u/web-design/icons/wireframe.png', title: 'wireframe creation' },
+        { number: '05', img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410063/webdads2u/web-design/icons/building-prototype.png', title: 'building prototype' },
+        { number: '06', img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410060/webdads2u/web-design/icons/pen-icon.png', title: 'creating visual design' },
+        { number: '07', img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410190/webdads2u/web-design/icons/final-branding.png', title: 'final branding' }
     ];
 
     const expectations = [
         {
-            img: '/webdads/images/webdesign/standard.png',
+            img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410187/webdads2u/web-design/icons/design-standards.png',
             title: 'Design Standards',
             text: 'Embrace our Design Standards for exceptional web designing services. We uphold meticulous design principles, ensuring visually stunning and functional websites that elevate your online presence. With a focus on user experience, we set the standard for impactful and engaging digital solutions.'
         },
         {
-            img: '/webdads/images/webdesign/security.png',
+            img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410183/webdads2u/web-design/icons/security.png',
             title: 'Security',
             text: 'Security is at the core of everything we do at webdads2u Technologies. We implement robust security measures to protect your enterprise data and user information. From encryption to regular audits and best practices, we prioritize ensuring airtight security across all our solutions, giving you peace of mind in an increasingly digital world.'
         },
         {
-            img: '/webdads/images/webdesign/unique.png',
+            img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410179/webdads2u/web-design/icons/unique-creation-security.png',
             title: 'Unique Creation',
             text: 'Our commitment to unique creations sets us apart. We specialize in crafting bespoke solutions tailored to your enterprise’s specific needs and preferences. Our team ensures that your digital footprint stands out in the crowd. Our focus on uniqueness extends to our web designing services, providing tailor-made solutions that align perfectly with your brand’s identity and objectives.'
         },
         {
-            img: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_70,h_70,dpr_1.5/f_auto,q_auto/v1704460504/industrial-standard/industrial-standard.png?_i=AA',
+            img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410176/webdads2u/web-design/icons/industrial-standard.png',
             title: 'Industrial Standards',
             text: 'Adhering to industry standards is a cornerstone of our approach. At webdads2u Technologies, we ensure that every project meets and often surpasses the established industrial norms. Our solutions are designed and developed with a focus on compliance, reliability, and scalability, aligning seamlessly with industry best practices.'
         },
         {
-            img: 'https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_63,h_53,dpr_1.5/f_auto,q_auto/v1704460637/colour-capability/colour-capability.png?_i=AA',
+            img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410172/webdads2u/web-design/icons/colour-capability.png',
             title: 'Colour Compatibility',
             text: 'Understanding the importance of branding consistency, we prioritize color compatibility in our designs. We maintain color harmony, reinforcing your enterprise’s brand recognition and credibility across all platforms. This attention to detail is reflected in our web designing services, ensuring cohesive and visually appealing digital experiences for your audience.'
         }
@@ -69,7 +69,7 @@ const CreatingProcess = () => {
 
                 {/* Expectations Section */}
                 <Grid2 container spacing={4} sx={{ pt: 8 }}>
-                    <Grid2 size={{ xs: 12 }} item>
+                    <Grid2 size={{ xs: 12 }} >
                         <Typography variant="h2" component="h2" gutterBottom>
                             What Enterprises can expect from webdads2u Technologies?
                         </Typography>

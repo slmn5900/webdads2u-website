@@ -11,6 +11,7 @@ import Frequentlyaskedquestionscustomwebsite from './FrequentlyAskedQuestionsCus
 import SocialMedia from '../../../components/common/SocialMedia';
 import { MenuContext } from '../../../layout/context/menucontext';
 import Banner from '../../../components/ui/banner/Banner';
+import BrochureFaq from '../../../components/ui/BrochureFaq';
 export default function CustomeWebDevelopermenets() {
     const {
         header_section,
@@ -65,7 +66,9 @@ export default function CustomeWebDevelopermenets() {
                 <Scalableweb />
                 <Customwebdevelopmentservices />
                 <Lookingforcustomwebsite />
-                <Frequentlyaskedquestionscustomwebsite />
+
+                <BrochureFaq />
+                {/* <Frequentlyaskedquestionscustomwebsite /> */}
                 {/* <SocialMedia /> */}
             </>
         </div>

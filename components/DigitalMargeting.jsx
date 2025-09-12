@@ -123,7 +123,7 @@ export default function DigitalMarketing() {
                                 <div>
                                     <Image
                                         src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757412005/webdads2u/mainpage/digital-marketing-image.png"
-                                        alt="digital-marketing-image"
+                                        alt="digital marketing image"
                                         width={648}
                                         height={579}
                                         className="img-fluid"

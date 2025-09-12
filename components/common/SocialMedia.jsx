@@ -17,7 +17,7 @@ const SocialMedia = () => {
         <Box
             sx={{
                 py: { xs: 8, md: 12 },
-                backgroundImage: 'linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/webdads/images/common/responsive-img.png)',
+                backgroundImage: 'linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(https://res.cloudinary.com/dbpv95wd8/image/upload/v1757587680/webdads2u/mainpage/connect-on-social-media.png)',
                 backgroundAttachment: 'fixed',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',

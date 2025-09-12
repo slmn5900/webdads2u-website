@@ -7,37 +7,37 @@ import { motion } from 'framer-motion';
 
 const cardData = [
     {
-        img: 'webdads/images/react-js-development/react-ui.png',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757393328/webdads2u/react-js-development/icons/react-ui.png',
         title: 'Reactjs Portal Development',
         desc: 'Delivering top-tier React js development in Chennai, India. Specializing in efficient React.js Portal Development for dynamic and efficient web portals to meet your business needs.',
         alt: 'react web development'
     },
     {
-        img: 'webdads/images/react-js-development/react-ui.png',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757393328/webdads2u/react-js-development/icons/react-ui.png',
         title: 'Reactjs UI Development',
         desc: "Webdads2u Technologies excels in React js development, focusing on UI enhancement. Elevate your app's interactivity and attract more clients with our React.js UI Development expertise.",
         alt: 'react-ui'
     },
     {
-        img: 'webdads/images/react-js-development/reactjs.png',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757393328/webdads2u/react-js-development/icons/reactjs.png',
         title: 'Reactjs Migration Services',
         desc: 'As the premier React js development service provider, precision and security define our approach to application migration. Trust us for the best React.js Migration Services.',
         alt: 'reactjs'
     },
     {
-        img: 'webdads/images/react-js-development/react-js-portable-development-co.png',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757393329/webdads2u/react-js-development/icons/front-end.png',
         title: 'Enterprise Reactjs Development',
         desc: 'Empower your Enterprise with cutting-edge React js development in Chennai. Elevate performance and scalability seamlessly. Unleash the potential of your business.',
         alt: 'react-js-portable-development-co'
     },
     {
-        img: 'webdads/images/react-js-development/front-end.png',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757393330/webdads2u/react-js-development/icons/react-js-portable-development.png',
         title: 'Reactjs Front-end Development',
         desc: 'Leading the way in React js front-end development in Chennai. Transform your web interfaces with our expertise. Delivering responsiveness, innovation, and seamless user experiences.',
         alt: 'front-end'
     },
     {
-        img: 'webdads/images/react-js-development/custome-reactjs.png',
+        img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757393328/webdads2u/react-js-development/icons/custom-reactjs.png',
         title: 'Custom Reactjs Development',
         desc: 'Tailored solutions with Custom React js Development in Chennai, India. Enhance your digital presence with responsive and innovative web applications. Your vision, our expertise.',
         alt: 'custome-reactjs'

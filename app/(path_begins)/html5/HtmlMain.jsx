@@ -28,15 +28,16 @@
 import React, { useContext, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import './HTML5.css';
-import Banner from '../../../components/ui/banner/Banner';
+
 import { MenuContext } from '../../../layout/context/menucontext';
+import Banner from '../web-design/newdesign/Banner';
 
 // Dynamically import each component with SSR set to false
-const Htmlbanner = dynamic(() => import('./Html-banner'), { ssr: false });
+// const Htmlbanner = dynamic(() => import('./Html-banner'), { ssr: false });
 const AdvantagesofHTML = dynamic(() => import('./Advantages-of-HTML'), { ssr: false });
 const BenefitsofUsingHTML5 = dynamic(() => import('./Benefits-of-Using-HTML5'), { ssr: false });
 const Technicalstack = dynamic(() => import('./Technical-Stack'), { ssr: false });
-const SocialMedia = dynamic(() => import('./../../../components/common/SocialMedia'), { ssr: false });
+// const SocialMedia = dynamic(() => import('./../../../components/common/SocialMedia'), { ssr: false });
 const Html5webdevelopment = dynamic(() => import('./html5-web-development'), { ssr: false });
 const Webmobile = dynamic(() => import('./Web-&-Mobile'), { ssr: false });
 

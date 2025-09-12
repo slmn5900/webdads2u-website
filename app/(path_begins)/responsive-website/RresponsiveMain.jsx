@@ -37,8 +37,8 @@ const Responsivewebsitebanner = dynamic(() => import('./responsive-website-banne
 const Reponsivewebdesigningservices = dynamic(() => import('./Reponsive-Web-Designing-Services'), { ssr: false });
 const ResponsiveWebdesigncompanychennai = dynamic(() => import('./Responsive-Web-Design-Company-Chennai'), { ssr: false });
 const Advantagesusingresponsiveweb = dynamic(() => import('./Advantages-Using-Responsive-Web'), { ssr: false });
-const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });
-const Fqresponsivewebsite = dynamic(() => import('./FQ-responsive-website'), { ssr: false });
+// const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });
+// const Fqresponsivewebsite = dynamic(() => import('./FQ-responsive-website'), { ssr: false });
 
 const RresponsiveMain = () => {
     const {

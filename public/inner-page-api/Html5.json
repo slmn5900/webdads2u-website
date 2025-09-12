@@ -5,7 +5,12 @@
     "button": "Contact us",
     "img": "/webdads/images/HTML5/html-banner-avatar.png",
     "bg_img": "linear-gradient(90deg, #f04fc0, #f6e347)",
-    "img_alt":"brochure design company"
+    "img_alt":"brochure design company",
+    "img1":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415405/webdads2u/html5/icons/html5-logo.png",
+    "img2":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415435/webdads2u/html5/icons/bootstrap.png",
+    "img3":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415434/webdads2u/html5/icons/javascript.png",
+    "img4":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415430/webdads2u/html5/icons/php.png",
+    "img5":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415399/webdads2u/html5/icons/css3.png"
   },
   "slider_section": {
     "title": "Trusted by over 150+ businesses worldwide!",

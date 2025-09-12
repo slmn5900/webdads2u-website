@@ -3,9 +3,9 @@
     "title": "Leading Responsive Website Designing Company",
     "description": "As a leading responsive website designing company, we specialize in creating visually stunning and user-friendly websites that adapt seamlessly across all devices. Our team combines expertise in responsive web design with innovative techniques to ensure your website delivers an exceptional user experience on desktops, tablets, and smart phones.",
     "button": "Contact us",
-    "img": "/webdads/images/responsive-website/Lap.png",
-    "bg_img": "/webdads/images/responsive-website/Banner-Background.jpg",
-    "img_alt":"brochure design company"
+    "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757478581/webdads2u/responsive-website/responsive-web-design.png",
+    "bg_img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757478585/webdads2u/responsive-website/banner-background.jpg",
+    "img_alt":"responsive web design"
   },
   "slider_section": {
     "title": "Trusted by over 150+ businesses worldwide!",

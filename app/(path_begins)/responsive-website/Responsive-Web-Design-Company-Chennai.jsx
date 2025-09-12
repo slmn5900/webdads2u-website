@@ -9,12 +9,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 const sliderImages = [
-    { src: 'webdads/images/responsive-website/RMP.png', alt: 'RMP' },
-    { src: 'webdads/images/responsive-website/Racepro.png', alt: 'Racepro' },
-    { src: 'webdads/images/responsive-website/arcmen.png', alt: 'arcmen' },
-    { src: 'webdads/images/responsive-website/Adsfit.png', alt: 'Adsfit' },
-    { src: 'webdads/images/responsive-website/RMP-528.png', alt: 'RMP-528' },
-    { src: 'webdads/images/responsive-website/arcmen.png', alt: 'arcmen' }
+    { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757478580/webdads2u/responsive-website/rmp-website.png', alt: 'rmp website' },
+    { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757478580/webdads2u/responsive-website/racepro-website.png', alt: 'racepro website' },
+    { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757478580/webdads2u/responsive-website/adsfit-website.png', alt: 'adsfit website' },
+    { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757478580/webdads2u/responsive-website/arcmen-website.png', alt: 'arcmen website' },
+    // { src: 'webdads/images/responsive-website/RMP-528.png', alt: 'RMP-528' },
+    // { src: 'webdads/images/responsive-website/arcmen.png', alt: 'arcmen' }
 ];
 
 export default function ResponsiveWebdesigncompanychennai() {

@@ -33,13 +33,15 @@ import React, { useContext, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import './custom-web-design.css';
 import { MenuContext } from '../../../layout/context/menucontext';
-import Banner from '../../../components/ui/banner/Banner';
+import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import BrochureFaq from '../../../components/ui/BrochureFaq';
+// import Banner from '../../../components/ui/banner/Banner';
 
 // Dynamically import each component with SSR set to false
 const Customwebdesignbanner = dynamic(() => import('./custom-web-design-banner'), { ssr: false });
 const Whywebdads2u = dynamic(() => import('./Why-Webdads2u'), { ssr: false });
 const Customwebdesignservices = dynamic(() => import('./Custom-Web-Design-Services'), { ssr: false });
-const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });
+// const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });
 const Whychoosewedads2u = dynamic(() => import('./Why-Choose-Wedads2u'), { ssr: false });
 const Lookingforcustomwebdesign = dynamic(() => import('./Looking-for-Custom-Web-Design'), { ssr: false });
 const FQcustomwebdesign = dynamic(() => import('./FQcustom-web-design'), { ssr: false });
@@ -87,15 +89,17 @@ const CustomeWebdesign = () => {
     }, []);
     return (
         <>
-            <Banner />
-            {/* <Customwebdesignbanner /> */}
+            {/* <Banner /> */}
+            <Customwebdesignbanner />
+            <ClientLogoSlider />
             <Whywebdads2u />
             <Customwebdesignservices />
             <Whychoosewedads2u />
             <Lookingforcustomwebdesign />
             {/* <Loader /> */}
             <CustomTabPanel />
-            <FQcustomwebdesign />
+            {/* <FQcustomwebdesign /> */}
+            <BrochureFaq />
             {/* <SocialMedia /> */}
         </>
     );

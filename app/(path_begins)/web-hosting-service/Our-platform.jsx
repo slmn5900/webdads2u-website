@@ -6,7 +6,7 @@ function Ourplatform() {
         <div className="container">
             <div className="row Ourplatform">
                 <div className="col-sm-12 col-md-6 col-lg-6">
-                    <img src="webdads/images/web-hosting-service/web-hosting.png" alt="web-hosting" loading='lazy' className='img-fluid' />
+                    <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757418333/webdads2u/web-hosting-service/web-hosting.png" alt="web hosting" loading='lazy' className='img-fluid' />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                     <h5>

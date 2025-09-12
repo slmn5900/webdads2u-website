@@ -8,21 +8,21 @@ const TechnologyStackSection = () => {
 
     // Technology stack data
     const leftColumn = [
-        { src: '/webdads/images/webdesign/stream-icon-php.webp', align: 'end' },
-        { src: '/webdads/images/webdesign/stream-icon-.net.webp', align: 'center' },
-        { src: '/webdads/images/webdesign/stream-icon-mysql.webp', align: 'end' }
+        { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410102/webdads2u/web-design/icons/php.png', align: 'end' },
+        { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410099/webdads2u/web-design/icons/dot-net.png', align: 'center' },
+        { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410095/webdads2u/web-design/icons/mysql.png', align: 'end' }
     ];
 
     const centerColumn = [
         { src: '/webdads/images/webdesign/stream-2-typo-3.png', align: 'center' },
-        { src: '/webdads/images/webdesign/webdesign-robot.webp', align: 'center', isMain: true },
-        { src: '/webdads/images/webdesign/stream-2-joomla.webp', align: 'center' }
+        { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410106/webdads2u/web-design/icons/technology-stack.png', align: 'center', isMain: true },
+        { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410089/webdads2u/web-design/icons/joomla.png', align: 'center' }
     ];
 
     const rightColumn = [
-        { src: '/webdads/images/webdesign/stream-2-mango-dp.webp', align: 'start' },
-        { src: '/webdads/images/webdesign/stream-icon-angular.webp', align: 'center' },
-        { src: '/webdads/images/webdesign/stream-icon-wordpress.webp', align: 'start' }
+        { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410079/webdads2u/web-design/icons/mango-db.png', align: 'start' },
+        { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410082/webdads2u/web-design/icons/stream-icon-angular.png', align: 'center' },
+        { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410086/webdads2u/web-design/icons/stream-icon-wordpress.png', align: 'start' }
     ];
 
     return (

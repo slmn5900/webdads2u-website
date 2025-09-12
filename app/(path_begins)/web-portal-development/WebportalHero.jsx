@@ -40,46 +40,46 @@ function WebportalHero() {
 
     const features = [
         {
-            img: '/webdads/images/webportal/web-portal-designing.png',
+            img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329972/webdads2u/web-portal-development/icons/web-portal-designing.png',
             title: 'Web Portal Designing',
             desc: 'Each portal is crafted after brainstorming. Our UX/UI designers provide modern and responsive web portal designs that are compatible with all browsers and devices.'
         },
         {
-            img: '/webdads/images/webportal/web-portal-migration.png',
+            img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329967/webdads2u/web-portal-development/icons/web-portal-migration.png',
             title: 'Web Portal Migration',
             desc: 'Do you have plans to move your web portal from an old technology to a new one? Get top-quality web portal migration services when you hire web portal developers from Fexle.'
         },
         {
-            img: '/webdads/images/webportal/portal-maintenance.png',
+            img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329963/webdads2u/web-portal-development/icons/portal-maintenance.png',
             title: 'Portal Maintenance',
             desc: 'Our team of dedicated support and maintenance professionals are always prepared to deploy their expertise. Calling, emailing, or pinging us on Skype is all it takes to connect with us instantly.'
         },
         {
-            img: '/webdads/images/webportal/payment-gateway.png',
+            img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329959/webdads2u/web-portal-development/icons/payment-gateway.png',
             title: 'Payment Gateway',
             desc: 'Our highly secure payment technologies can be easily integrated into your web portal by our talented and skilled developers, resulting in a more seamless payment process.'
         },
         {
-            img: '/webdads/images/webportal/seo-friendly.png',
+            img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329954/webdads2u/web-portal-development/icons/seo-friendly.png',
             title: 'SEO Friendly',
             desc: 'Our solutions are designed to enhance web portals by digitizing content, encrypting metadata, improving search capabilities, indexing quickly, and more.'
         },
         {
-            img: '/webdads/images/webportal/easy-collaboration.png',
+            img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329950/webdads2u/web-portal-development/icons/easy-collaboration.png',
             title: 'Easy Collaboration',
             desc: 'Integrating forums, blogs, and messaging platforms into your web portal is a way to make your web portal more interactive and interesting for your customers.'
         }
     ];
 
     const portalDevelopments = [
-        { img: '/webdads/images/webportal/portal-development-expertise.png', title: 'Portal Development' },
-        { img: '/webdads/images/webportal/wide-range-of-services.webp', title: 'Wide-Range of Services' },
-        { img: '/webdads/images/webportal/technology-expertise.png', title: 'Technology Expertise' },
-        { img: '/webdads/images/webportal/affordable-packages.png', title: 'Affordable Packages' },
-        { img: '/webdads/images/webportal/customer-satisfaction.png', title: 'Customer Satisfaction' },
-        { img: '/webdads/images/webportal/web-portal-round-the-clock-support.png', title: 'Round The Clock Support' },
-        { img: '/webdads/images/webportal/reliable-solutions.png', title: 'Reliable Solutions' },
-        { img: '/webdads/images/webportal/tailor-made-solutions.png', title: 'Tailor-Made Solutions' }
+        { img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329945/webdads2u/web-portal-development/icons/portal-development-expertise.png', title: 'Portal Development' },
+        { img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329941/webdads2u/web-portal-development/icons/wide-range-of-services.png', title: 'Wide-Range of Services' },
+        { img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329937/webdads2u/web-portal-development/icons/technology-expertise.png', title: 'Technology Expertise' },
+        { img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329932/webdads2u/web-portal-development/icons/affordable-packages.png', title: 'Affordable Packages' },
+        { img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329928/webdads2u/web-portal-development/icons/customer-satisfaction.png', title: 'Customer Satisfaction' },
+        { img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329924/webdads2u/web-portal-development/icons/web-portal-round-the-clock.png', title: 'Round The Clock Support' },
+        { img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329921/webdads2u/web-portal-development/icons/tailor-made-solutions.png', title: 'Reliable Solutions' },
+        { img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757329921/webdads2u/web-portal-development/icons/reliable-solutions.png', title: 'Tailor-Made Solutions' }
     ];
 
     // Motion Variants
@@ -97,7 +97,6 @@ function WebportalHero() {
         <>
             <Banner />
             <ClientLogoSlider />
-
             {/* Hero Section */}
             <Box sx={{ py: { xs: 0, md: 5 }, px: { xs: 2, md: 0 } }}>
                 <Container maxWidth="lg">

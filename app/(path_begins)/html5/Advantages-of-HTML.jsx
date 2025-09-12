@@ -25,7 +25,7 @@ function AdvantagesofHTML() {
                         </ul>
                     </div>
                     <div className="col-sm-12 col-md-4 col-lg-4">
-                        <img src="webdads/images/HTML5/Mob.png" alt="img" loading='lazy' className='img-fluid' />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415318/webdads2u/html5/advantages-html5-web-design.png" alt="advantages html5 web design" loading='lazy' className='img-fluid' />
                     </div>
                     <div className="col-sm-12 col-md-4 col-lg-4 align-self-center">
                         <ul>

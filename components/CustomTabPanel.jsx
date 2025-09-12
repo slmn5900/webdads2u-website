@@ -1,8 +1,7 @@
-
-
 'use client';
 import React, { useState } from 'react';
 import { Tabs, Tab, Box, Button, useTheme, useMediaQuery, Grid2, styled } from '@mui/material';
+import Buttons from './common/Button';
 
 // Styled components with fixed image dimensions
 const ImageContainer = styled(Box)(({ theme }) => ({
@@ -176,7 +175,7 @@ export default function PortfolioTabs() {
 
                     {visibleImages < tab.images.length && (
                         <Box sx={{ display: 'flex', justifyContent: 'center', mt: 3 }}>
-                            <Button
+                            {/* <Button
                                 variant="contained"
                                 onClick={loadMore}
                                 sx={{
@@ -188,7 +187,9 @@ export default function PortfolioTabs() {
                                 }}
                             >
                                 Load More
-                            </Button>
+                            </Button> */}
+
+                            <Buttons title={'Load more'} onClick={loadMore} />
                         </Box>
                     )}
                 </TabPanel>

@@ -6,7 +6,7 @@ function BenefitsofUsingHTML5() {
             <div className="container">
             <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center BenefitsofUsingHTML5">
-                    <img src="webdads/images/HTML5/Laptop.png" alt="Laptop" loading='lazy' className='img-fluid' />
+                    <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415317/webdads2u/html5/html5-web-development-services.png" alt="html5 web development services" loading='lazy' className='img-fluid' />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 text-center BenefitsofUsingHTML5">
                     <h3>Benefits of Using HTML5</h3>
@@ -15,7 +15,7 @@ function BenefitsofUsingHTML5() {
                         <div className="col-sm-12 col-md-6 col-lg-6">
                             <div className="card">
                                 <div className="img-card">
-                                    <img src="webdads/images/HTML5/min-html.png" alt="min-html" loading='lazy'  className='img-fluid' />
+                                    <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415405/webdads2u/html5/icons/html5-logo.png" alt="min-html" loading='lazy'  className='img-fluid' />
                                 </div>
                                 <div className="card-text">
                                 Webpages developed with HTML5 are usually well layered and modelled.
@@ -23,7 +23,7 @@ function BenefitsofUsingHTML5() {
                             </div>
                             <div className="card">
                                 <div className="img-card">
-                                    <img src="webdads/images/HTML5/download.png" alt="download" loading='lazy'  className='img-fluid' />
+                                    <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415361/webdads2u/html5/icons/html5-develope-api.png" alt="download" loading='lazy'  className='img-fluid' />
                                 </div>
                                 <div className="card-text">
                                 HTML5 supports all the necessary tags and styling elements to create a responsive design.
@@ -33,7 +33,7 @@ function BenefitsofUsingHTML5() {
                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                         <div className="card">
                                 <div className="img-card">
-                                    <img src="webdads/images/HTML5/download-page.png" alt="download-page" loading='lazy'  className='img-fluid' />
+                                    <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415356/webdads2u/html5/icons/html5-supports.png" alt="download-page" loading='lazy'  className='img-fluid' />
                                 </div>
                                 <div className="card-text">
                                 HTML5-developed webpages have the option to use geolocation APIs
@@ -41,7 +41,7 @@ function BenefitsofUsingHTML5() {
                             </div>
                             <div className="card">
                                 <div className="img-card">
-                                    <img src="webdads/images/HTML5/download-box.png" alt="download-box" loading='lazy'  className='img-fluid' />
+                                    <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415438/webdads2u/html5/icons/html-layout.png" alt="download-box" loading='lazy'  className='img-fluid' />
                                 </div>
                                 <div className="card-text">
                                 Friendly And Easy Layout Is Maintained For Scalability

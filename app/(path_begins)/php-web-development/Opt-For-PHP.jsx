@@ -27,6 +27,7 @@
 import React from 'react';
 import { Grid2, Typography, Button, Box } from '@mui/material';
 import { motion } from 'framer-motion';
+import Buttons from '../../../components/common/Button';
 
 export default function Optforphp() {
     return (
@@ -49,9 +50,10 @@ export default function Optforphp() {
                             uncomplicated nature, highly dynamic nature, and ability to provide effective web solutions.
                         </Typography>
 
-                        <Button variant="contained" color="primary" href="/contact-us" sx={{ mt: 2, borderRadius: 3, px: 4, py: 1.2 }}>
+                        {/* <Button variant="contained" color="primary" href="/contact-us" sx={{ mt: 2, borderRadius: 3, px: 4, py: 1.2 }}>
                             Contact Us
-                        </Button>
+                        </Button> */}
+                        <Buttons title={'Contact Us'} />
                     </motion.div>
                 </Grid2>
 
@@ -60,8 +62,8 @@ export default function Optforphp() {
                     <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
                         <Box
                             component="img"
-                            src="webdads/images/php-web-development/php-process.png"
-                            alt="php-process"
+                            src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757400052/webdads2u/php-web-development/php-process.png"
+                            alt="php process"
                             loading="lazy"
                             sx={{
                                 maxWidth: '100%',

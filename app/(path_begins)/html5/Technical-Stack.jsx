@@ -1,77 +1,3 @@
-// 'use client';
-// import React from 'react';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Autoplay, Navigation } from 'swiper/modules';
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-
-// function Technicalstack() {
-//   return (
-//     <section className="technicalstack-main">
-//       <div className="container">
-//         <div className="row justify-content-center text-center technicalstack">
-//           <div className="col-sm-12 col-md-12 col-lg-10">
-//             <h4>Technical Stack</h4>
-//             <p>
-//               We can use different technologies to develop a single application
-//               or only one technology can be used, depending on the situation.
-//               Our technical proficiency is listed below, and we are the most
-//               seasoned web design firm in Chennai.
-//             </p>
-//           </div>
-//         </div>
-
-//         <div className="row justify-content-center technicalstack-slider">
-//           <div className="col-sm-12 col-md-12 col-lg-10 justify-content-center">
-//             <div className="overlay"></div>
-
-//             {/* Swiper Slider */}
-//             <Swiper
-//               modules={[Autoplay, Navigation]}
-//               spaceBetween={20}
-//               slidesPerView={5}
-//               navigation
-//               autoplay={{ delay: 1000, disableOnInteraction: false }}
-//               loop={true}
-//               breakpoints={{
-//                 1024: { slidesPerView: 3, slidesPerGroup: 3 },
-//                 600: { slidesPerView: 3, slidesPerGroup: 2 },
-//                 480: { slidesPerView: 1, slidesPerGroup: 1 },
-//               }}
-//               className="responsive-technicalstack-slider"
-//             >
-//               {/* Slides */}
-//               {[
-//                 'big-html.png',
-//                 'css.png',
-//                 'js.png',
-//                 'bootstrap.png',
-//                 'php.png',
-//                 'big-html.png',
-//                 'css.png',
-//                 'js.png',
-//                 'bootstrap.png',
-//                 'php.png',
-//               ].map((img, idx) => (
-//                 <SwiperSlide key={idx}>
-//                   <img
-//                     src={`/webdads/images/HTML5/${img}`}
-//                     alt={img.replace('.png', '')}
-//                     loading="lazy"
-//                     className="img-fluid"
-//                   />
-//                 </SwiperSlide>
-//               ))}
-//             </Swiper>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default Technicalstack;
-
 'use client';
 import React from 'react';
 import { Container, Grid2, Typography, Box } from '@mui/material';
@@ -80,7 +6,18 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
 function Technicalstack() {
-    const logos = ['big-html.png', 'css.png', 'js.png', 'bootstrap.png', 'php.png', 'big-html.png', 'css.png', 'js.png', 'bootstrap.png', 'php.png'];
+    const logos = [
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415412/webdads2u/html5/icons/html5.png',
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415399/webdads2u/html5/icons/css3.png',
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415434/webdads2u/html5/icons/javascript.png',
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415435/webdads2u/html5/icons/bootstrap.png',
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415430/webdads2u/html5/icons/php.png',
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415367/webdads2u/html5/icons/html-icons.png',
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415398/webdads2u/html5/icons/css.png',
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415380/webdads2u/html5/icons/javascript-logo.png',
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415387/webdads2u/html5/icons/bootstrap-logo.png',
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415374/webdads2u/html5/icons/php-icon.png'
+    ];
 
     return (
         <Box component="section" className="technicalstack-main" py={8}>
@@ -113,14 +50,14 @@ function Technicalstack() {
                                     1024: { slidesPerView: 3 },
                                     600: { slidesPerView: 3 },
                                     480: { slidesPerView: 1 },
-                                    320: { slidesPerView: 3 },
+                                    320: { slidesPerView: 3 }
                                 }}
                             >
                                 {logos.map((img, idx) => (
                                     <SwiperSlide key={idx}>
                                         <Box
                                             component="img"
-                                            src={`/webdads/images/HTML5/${img}`}
+                                            src={img}
                                             alt={img.replace('.png', '')}
                                             loading="lazy"
                                             sx={{

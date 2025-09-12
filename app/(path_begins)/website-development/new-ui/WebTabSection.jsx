@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { Container, Box, Typography, Tabs, Tab, useTheme, useMediaQuery, styled } from '@mui/material';
 import { FaAngular, FaLaravel, FaReact, FaBootstrap, FaJsSquare, FaJenkins } from 'react-icons/fa';
 import { SiEmberdotjs, SiJquery, SiFastapi, SiFlask, SiRubyonrails, SiLumen, SiSpringboot } from 'react-icons/si';
-import { RiNodejsLine } from 'react-icons/ri';
+
 
 const WebsiteTabSection = styled('section')(({ theme }) => ({
-    backgroundImage: "url('/webdads/images/website-development/website-tab-banner.png')",
+    backgroundImage: "url('https://res.cloudinary.com/dbpv95wd8/image/upload/v1757590618/webdads2u/website-development/front-banner.png')",
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     // width: '95%',

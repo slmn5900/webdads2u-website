@@ -8,7 +8,7 @@ function Whychoosewedads2u() {
             <div className="container">
                 <div className="row whychoosewedads2u">
                     <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
-                        <img src="webdads/images/custom-web-design/Why-Choose-Wedads2u-for-Custom-Web-Design-Services.png" alt="Why-Choose-Wedads2u-for-Custom-Web-Design-Services" loading="lazy" className="img-fluid" />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757420360/webdads2u/custom-web-design/why-choose-wedads2u-for-custom.png" alt="why choose wedads2u for custom" loading="lazy" className="img-fluid" />
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6 align-self-lg-center">
                         <h4 className="mb-2">Why Choose Wedads2u for Custom Web Design Services?</h4>

@@ -5,6 +5,7 @@ import './wordpress-development.css';
 import { MenuContext } from '../../../layout/context/menucontext';
 import Banner from '../../../components/ui/banner/Banner';
 import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import BrochureFaq from '../../../components/ui/BrochureFaq';
 
 // Dynamically import components with SSR set to false
 
@@ -16,8 +17,7 @@ const Themes = dynamic(() => import('./Themes'), { ssr: false });
 const WordpressCard = dynamic(() => import('./Wordpress-Card'), { ssr: false });
 const WordPressWebsiteworks = dynamic(() => import('./WordPress-Website-works'), { ssr: false });
 const WordPressDevelopmentService = dynamic(() => import('./WordPress-Development-Service'), { ssr: false });
-const FrequentlyAskedQuestions = dynamic(() => import('./Frequently-Asked-Questions'), { ssr: false });
-
+// const FrequentlyAskedQuestions = dynamic(() => import('./Frequently-Asked-Questions'), { ssr: false });
 
 const WordpressMain = () => {
     const { setPagedata, setHeader_section, setSlider_section, setCompany_section, setDesign_section, setList_section, setAmazing_section, setAmazingcard_section, setWork_section, setChoose_section, setConsultation_section, setQna_section } =
@@ -60,7 +60,9 @@ const WordpressMain = () => {
             <WordpressCard />
             <WordPressWebsiteworks />
             <WordPressDevelopmentService />
-            <FrequentlyAskedQuestions />
+            {/* <FrequentlyAskedQuestions /> */}
+
+            <BrochureFaq />
             {/* <SocialMedia /> */}
         </section>
     );

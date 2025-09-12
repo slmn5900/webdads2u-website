@@ -27,42 +27,42 @@ const services = [
         title: 'Website Development',
         imgSrc: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322162/webdads2u/mainpage/icons/web-development.png',
         link: '/website-development/',
-        alt: 'web-development'
+        alt: 'web development'
     },
     {
         id: 'service-box-2',
         title: 'SEO Services',
         imgSrc: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322205/webdads2u/mainpage/icons/seo-services.png',
         link: '/seo-company-in-chennai/',
-        alt: 'seo-services'
+        alt: 'seo services'
     },
     {
         id: 'service-box-3',
         title: 'Branding Design',
         imgSrc: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322254/webdads2u/mainpage/icons/branding-design.png',
         link: '/branding-design/',
-        alt: 'branding-design'
+        alt: 'branding design'
     },
     {
         id: 'service-box-4',
         title: 'E-Commerce Development',
         imgSrc: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322262/webdads2u/mainpage/icons/e-commerce-development.png',
         link: '/ecommerce-website-development/',
-        alt: 'e-commerce-development'
+        alt: 'e-commerce development'
     },
     {
         id: 'service-box-5',
         title: 'Mobile App Development',
         imgSrc: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322269/webdads2u/mainpage/icons/mobiile-app-development.png',
         link: '/mobile-app-development/',
-        alt: 'mobile-app-development'
+        alt: 'mobile app development'
     },
     {
         id: 'service-box-6',
         title: 'CRM & ERP Development',
         imgSrc: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322355/webdads2u/mainpage/icons/crm-erp-development.png',
         link: '/crm-erp-development/',
-        alt: 'crm-erp-development'
+        alt: 'crm erp development'
     }
 ];
 

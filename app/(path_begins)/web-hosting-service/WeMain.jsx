@@ -5,12 +5,13 @@ import dynamic from 'next/dynamic';
 import { MenuContext } from '../../../layout/context/menucontext';
 import Banner from '../../../components/ui/banner/Banner';
 import './web-hosting-service.css';
+import BrochureFaq from '../../../components/ui/BrochureFaq';
 
 // Dynamically import components with SSR set to false
-const Webhostingservice = dynamic(() => import('./web-hosting-service'), { ssr: false });
+// const Webhostingservice = dynamic(() => import('./web-hosting-service'), { ssr: false });
 const Webhosting = dynamic(() => import('./Web-Hosting'), { ssr: false });
 const Webhostingplatform = dynamic(() => import('./Web-Hosting-Platform'), { ssr: false });
-const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });
+// const SocialMedia = dynamic(() => import('../../../components/common/SocialMedia'), { ssr: false });
 const Ourplatform = dynamic(() => import('./Our-platform'), { ssr: false });
 const Lookingforwebhostingservices = dynamic(() => import('./Looking-for-Web-Hosting-Services'), { ssr: false });
 const FQhosting = dynamic(() => import('./FQ-hosting'), { ssr: false });
@@ -63,7 +64,8 @@ const WebMain = () => {
             <Webhostingplatform />
             <Ourplatform />
             <Lookingforwebhostingservices />
-            <FQhosting />
+            {/* <FQhosting /> */}
+            <BrochureFaq />
             {/* <SocialMedia /> */}
         </div>
     );

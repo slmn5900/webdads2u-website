@@ -3,9 +3,10 @@
     "title": "Custom web designing services in Chennai",
     "description": "Our custom web design services at Webdads2u offer tailored solutions to elevate your online presence. With a keen focus on client needs, we craft bespoke websites that reflect your brand identity and meet your unique requirements.",
     "button": "Contact us",
-    "img": "https://res.cloudinary.com/dbpv95wd8/images/v1708347699/Img-2/Img-2.png?_i=AA",
-    "bg_img": "/webdads/images/custom-web-design/Banner-background.png",
-    "img_alt":"brochure design company"
+    "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757420386/webdads2u/custom-web-design/image-background.png",
+    "img1": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757420377/webdads2u/custom-web-design/web-design-company.png",
+    "bg_img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757420394/webdads2u/custom-web-design/banner-background.png",
+    "img_alt":"image background"
   },
   "slider_section": {
     "title": "Trusted by over 150+ businesses worldwide!",
@@ -266,27 +267,27 @@
   },
   "qna_section": {
     "title": "Frequently Asked Questions",
-    "description": "Explore common inquiries with our FAQs. Get quick answers to popular questions about our services, processes, and more.",
+    "description": "Welcome to our FAQ section, where we address common queries about our services. If you have any further questions, feel free to reach out to us directly for assistance.",
     "queries": [
       {
-        "ques": "What is responsive website design?",
-        "ans": "Responsive web pagedesign ensures your website adapts to different screen sizes and devices, providing an optimal viewing experience for users."
+        "ques": "What is custom web design?",
+        "ans": "Custom web design involves creating a website tailored specifically to your business needs and branding requirements. Unlike template-based designs, custom web design offers unique layouts, features, and functionalities that set your website apart."
       },
       {
-        "ques": "Why is responsive website design important?",
-        "ans": "Responsive web design enhances user experience, boosts SEO rankings, increases mobile traffic, and ensures your website remains competitive in today’s digital landscape"
+        "ques": "How long does the custom web design process take?",
+        "ans": "Yes, with our custom web design services, we provide user-friendly content management systems (CMS) that allow you to easily update and manage content on your website without needing technical expertise. We’ll also provide training and ongoing support as needed."
       },
       {
-        "ques": "How does responsive website design work?",
-        "ans": "Responsive web design utilizes flexible grids, layouts, and CSS media queries to automatically adjust the size and layout of your website based on the device being used."
+        "ques": "Can I update content on my custom-designed website myself?",
+        "ans": "We offer a wide range of services including theme customization, plugin development, website design and development, WooCommerce integration, website maintenance, and more."
       },
       {
-        "ques": "What are the benefits of responsive website design?",
-        "ans": "Benefits include improved user experience, increased mobile usability, higher conversion rates, easier maintenance, and better SEO performance."
+        "ques": "Will my custom-designed website be mobile-responsive?",
+        "ans": "Absolutely. Mobile responsiveness is a crucial aspect of modern web design. We ensure that your custom-designed website is optimized for various devices and screen sizes, providing an optimal viewing experience for all visitors, whether they’re using desktops, laptops, tablets, or smartphones."
       },
       {
-        "ques": "Is responsive website design costly?",
-        "ans": "While initial development costs may be slightly higher, the long-term benefits and return on investment make responsive web design a cost-effective solution for reaching and engaging with your target audience across multiple devices."
+        "ques": "Do you offer maintenance and support after the website is launched?",
+        "ans": "Yes, we provide ongoing maintenance and support services to ensure your website remains secure, up-to-date, and performing optimally. From software updates to troubleshooting technical issues, our team is here to assist you every step of the way, even after your website goes live."
       }
     ]
   }

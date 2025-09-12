@@ -3,7 +3,9 @@
       "title": "Design,Develop,Deploy Anything With Full-Stack Development",
       "description":"Revolutionize your online presence with our top-tier web development services Crafted for innovation,functionality,and user-centric experiences, our solutions redefine digital success",
       "button": "Contact us",
-      "img": "img.png"
+      "img": "img.png",
+       "bg_img": "linear-gradient(to right, #0247a0, #47c1c5)"
+
     },
      "section_2": {
       "title": "Trusted by over 150+ businesses worldwide!",

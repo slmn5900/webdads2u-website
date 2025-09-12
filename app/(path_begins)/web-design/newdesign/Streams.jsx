@@ -6,14 +6,14 @@ const Streams = () => {
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
     const services = [
-        { title: 'Domain Registration', icon: '/webdads/images/webdesign/domain-registretion.png' },
-        { title: 'Custom web design', icon: '/InnerPageImages/WebDesign/Streams/customize-web-design.png' },
-        { title: 'HTML website design', icon: '/InnerPageImages/WebDesign/Streams/html-5.png' },
-        { title: 'Website Redesign', icon: '/InnerPageImages/WebDesign/Streams/website-redesign_660593518.png' },
-        { title: 'Hosting', icon: '/InnerPageImages/WebDesign/Streams/hosting.png' },
-        { title: 'Responsive website', icon: '/InnerPageImages/WebDesign/Streams/responsive-web-design_661192b87.png' },
-        { title: 'UI&UX Design', icon: '/InnerPageImages/WebDesign/Streams/responsive-web-design_661192b87.png' },
-        { title: 'Website Maintenance', icon: '/InnerPageImages/WebDesign/Streams/website-miantanence.png' }
+        { title: 'Domain Registration', icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410151/webdads2u/web-design/icons/domain-registretion.png' },
+        { title: 'Custom web design', icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410143/webdads2u/web-design/icons/customize-web-design.png' },
+        { title: 'HTML website design', icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410136/webdads2u/web-design/icons/html-5.png' },
+        { title: 'Website Redesign', icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410130/webdads2u/web-design/icons/website-redesign.png' },
+        { title: 'Hosting', icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410147/webdads2u/web-design/icons/hosting.png' },
+        { title: 'Responsive website', icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410140/webdads2u/web-design/icons/responsive-web-design.png' },
+        { title: 'UI&UX Design', icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410133/webdads2u/web-design/icons/ui-ux-design.png' },
+        { title: 'Website Maintenance', icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410126/webdads2u/web-design/icons/website-miantanence.png' }
     ];
 
     return (

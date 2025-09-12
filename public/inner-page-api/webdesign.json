@@ -3,9 +3,15 @@
     "title": "Elevating your Business with our speculative web designing services",
     "description": "Enhancing customer engagement with perfect web design Are you looking for a new website for your startup company / Business? Do you want to revamp your existing website?",
     "button": "Talk To Us",
-    "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756468110/webdads2u/brochure-design/brochure-design-company.png",
-    "bg_img": "linear-gradient(to right, #0247a0, #47c1c5)",
-    "img_alt":"brochure design company"
+    "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410004/webdads2u/web-design/hero-slider.png",
+    "bg_img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757409988/webdads2u/web-design/background-banner.png",
+    "img_alt":"hero slider",
+    "img1":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410158/webdads2u/web-design/icons/html.png",
+    "img2":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410154/webdads2u/web-design/icons/responsivess.png",
+    "img3":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410165/webdads2u/web-design/icons/banner-icons-setting.png",
+    "img4":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410147/webdads2u/web-design/icons/hosting.png",
+    "img5":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410162/webdads2u/web-design/icons/banner-icons-hosting.png"
+
   },
   "slider_section": {
     "title": "Trusted by over 150+ businesses worldwide!",

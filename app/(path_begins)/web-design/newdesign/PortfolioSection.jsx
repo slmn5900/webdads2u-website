@@ -29,11 +29,11 @@ const PortfolioSection = () => {
     const buttons = ['Domain Registration', 'Hosting', 'Custom web design', 'Responsive website', 'UI & UX design', 'HTML website design', 'Website Redesign', 'Website Maintanence'];
 
     return (
-        <Box component="section" sx={{ py: isMobile ? 4 : 8, background: 'url(https://webdads2u.com/wp-content/uploads/2024/01/webdesign-banner.png)' }}>
+        <Box component="section" sx={{ py: isMobile ? 4 : 8, background: 'url(https://res.cloudinary.com/dbpv95wd8/image/upload/v1757409988/webdads2u/web-design/background-banner.png)' }}>
             <Container maxWidth="lg">
                 {/* Header */}
                 <Grid2 container justifyContent="center" sx={{ mb: isMobile ? 2 : 4 }}>
-                    <Grid2 item xs={12} sx={{ textAlign: 'center' }}>
+                    <Grid2 size={{ xs: 12 }} sx={{ textAlign: 'center' }}>
                         <Typography
                             variant="h2"
                             sx={{
@@ -65,13 +65,13 @@ const PortfolioSection = () => {
                 {/* Portfolio Images */}
                 <Grid2 container spacing={isMobile ? 2 : 4} sx={{ mt: isMobile ? -2 : -5, mb: isMobile ? 3 : 6, justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
                     {/* Left Column Images */}
-                    <Grid2 item xs={12} md={4}>
+                    <Grid2 size={{ xs: 12, md: 4 }}>
                         {/* First Image - Full Width */}
                         <Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
                             <Box
                                 component="img"
-                                src="/webdads/images/webdesign/Atgomat.webp"
-                                alt="Portfolio item 1"
+                                src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757409985/webdads2u/web-design/atgomat-banner.png"
+                                alt="atgomat banner"
                                 sx={{
                                     width: '100%',
                                     height: 'auto',
@@ -96,8 +96,8 @@ const PortfolioSection = () => {
                         <Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: isMobile ? -3 : -5 }}>
                             <Box
                                 component="img"
-                                src="/webdads/images/webdesign/arc-man.webp"
-                                alt="Portfolio item 2"
+                                src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757409982/webdads2u/web-design/arc-man.png"
+                                alt="arc man"
                                 sx={{
                                     width: '90%',
                                     height: 'auto',
@@ -119,7 +119,7 @@ const PortfolioSection = () => {
                     </Grid2>
 
                     {/* Center Column Image */}
-                    <Grid2 item xs={12} md={4}>
+                    <Grid2 size={{ xs: 12, md: 4 }}>
                         <Box
                             sx={{
                                 display: 'flex',
@@ -130,8 +130,8 @@ const PortfolioSection = () => {
                         >
                             <Box
                                 component="img"
-                                src="/webdads/images/webdesign/raj-vision.webp"
-                                alt="Center portfolio item"
+                                src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757409979/webdads2u/web-design/raj-vision.png"
+                                alt="raj vision"
                                 sx={{
                                     width: isMobile ? '80%' : '100%',
                                     height: 'auto',
@@ -154,13 +154,13 @@ const PortfolioSection = () => {
                     </Grid2>
 
                     {/* Right Column Images */}
-                    <Grid2 item xs={12} md={4}>
+                    <Grid2 size={{ xs: 12, md: 4 }}>
                         {/* First Image - Right Aligned */}
                         <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                             <Box
                                 component="img"
-                                src="/webdads/images/webdesign/adsfit-design.webp"
-                                alt="Portfolio item 3"
+                                src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757409991/webdads2u/web-design/adsfit-design.png"
+                                alt="adsfit design"
                                 sx={{
                                     width: '100%',
                                     height: 'auto',
@@ -185,8 +185,8 @@ const PortfolioSection = () => {
                         <Box sx={{ display: 'flex', justifyContent: 'flex-start', mt: 2 }}>
                             <Box
                                 component="img"
-                                src="/webdads/images/webdesign/what-do.webp"
-                                alt="Portfolio item 4"
+                                src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757409978/webdads2u/web-design/what-do.png"
+                                alt="what do"
                                 sx={{
                                     width: '40%',
                                     height: 'auto',
@@ -210,8 +210,8 @@ const PortfolioSection = () => {
                         <Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: isMobile ? -4 : -10 }}>
                             <Box
                                 component="img"
-                                src="/webdads/images/webdesign/knowkart.webp"
-                                alt="Portfolio item 5"
+                                src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757409994/webdads2u/web-design/knowkart.png"
+                                alt="knowkart"
                                 sx={{
                                     width: '80%',
                                     height: 'auto',
