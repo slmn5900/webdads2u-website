@@ -40,6 +40,7 @@ import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLo
 import AmazingWebDesign from '../../../components/ui/AmazingWebDesign';
 import ConnectWith from '../../../components/ui/ConnectWith';
 import { MenuContext } from '../../../layout/context/menucontext';
+import TheTimeFrame from './TheTimeFrame';
 
 // Dynamically import each component with SSR set to false
 const OurStreams = dynamic(() => import('./Our-Streams'), { ssr: false });
@@ -106,11 +107,12 @@ const MoblleMain = () => {
     return (
         <div>
             {/* <Banner /> */}
-            <Mobileappdevelopmentbanner/>
+            <Mobileappdevelopmentbanner />
             <ClientLogoSlider />
             <OurStreams />
             <OurStreamscard />
             <SearchingBestobile />
+            
 
             <OffshoreMobileApp />
 

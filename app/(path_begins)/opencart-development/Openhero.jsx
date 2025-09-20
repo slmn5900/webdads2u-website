@@ -113,25 +113,25 @@ function Openhero() {
                                     third-party API integration for added functionality, and ongoing support to ensure your OpenCart platform remains optimized and competitive in the digital marketplace.
                                 </p>
                             </div>
-                            <Row>
+                            <Row style={{ alignItems: 'center' }}>
                                 <Col lg={3} md={3} xs={6}>
                                     <div>
-                                        <img alt="" src="/webdads/images/opencart/PHP.png" className="w-100"></img>
+                                        <img alt="PHP" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1758360088/webdads2u/opencart-development/icons/php-logo.png" className="w-100"></img>
                                     </div>
                                 </Col>
                                 <Col lg={3} md={3} xs={6}>
                                     <div>
-                                        <img alt="" src="/webdads/images/opencart/react-logo.png" className="w-100"></img>
+                                        <img alt="react" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1758360157/webdads2u/opencart-development/icons/react-logo.png" className="w-100"></img>
                                     </div>
                                 </Col>
                                 <Col lg={3} md={3} xs={6}>
                                     <div>
-                                        <img alt="" src="/webdads/images/opencart/node-js-logo.png" className="w-100"></img>
+                                        <img alt="node" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1758360165/webdads2u/opencart-development/icons/node-js.png" className="w-100"></img>
                                     </div>
                                 </Col>
                                 <Col lg={3} md={3} xs={6}>
                                     <div>
-                                        <img alt="" src="/webdads/images/opencart/angular-js-logo.webp" className="w-100"></img>
+                                        <img alt="angular" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1758360177/webdads2u/opencart-development/icons/angular-js.avif" className="w-100"></img>
                                     </div>
                                 </Col>
                             </Row>

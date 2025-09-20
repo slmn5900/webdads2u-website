@@ -10,7 +10,7 @@ import GoogleReviews from '../web-development-company/landingpage/ReusabelCompon
 import HeroSection from '../web-development-company/landingpage/ReusabelComponents/Herosections'
 import GradientSwiper from '../web-development-company/landingpage/ReusabelComponents/GradientSwiper'
 import { Box } from '@mui/material'
-// import NeedERP from '../web-development-company/landingpage/ReusabelComponents/NeedERP'
+import NeedERP from '../web-development-company/landingpage/ReusabelComponents/NeedERP'
 
 export default function Page() {
     const [data, setData] = useState([])

@@ -40,7 +40,7 @@ const Brochure = () => {
         { alt: 'pride-rmx', name: 'Pride RMX', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757915656/webdads2u/brochure/pride-rmx.jpg' },
         { alt: 'nutural-oil', name: 'Nutural Oil', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757915648/webdads2u/brochure/nutural-oil.jpg' },
         { alt: 'd-princes', name: 'D Princes', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757915654/webdads2u/brochure/d-princes.jpg' },
-        { alt: 'oilsep', name: 'Oilsep', url: '/webdads/images/brochure/oilsep.png' }, // ⚠️ Cloudinary link not found in your list
+        // { alt: 'oilsep', name: 'Oilsep', url: '/webdads/images/brochure/oilsep.png' }, // ⚠️ Cloudinary link not found in your list
         { alt: 'world-landing', name: 'World Landing', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757915640/webdads2u/brochure/world-landing.jpg' }
     ];
 

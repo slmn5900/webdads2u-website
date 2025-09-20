@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Box, Grid2, Typography, Button, keyframes, Container } from '@mui/material';
 import { MenuContext } from '../../../layout/context/menucontext';
+import TheTimeFrame from './TheTimeFrame';
 
 // Animation keyframes
 const mover = keyframes`
@@ -105,6 +106,8 @@ export default function SearchingBestobile() {
                     </Grid2>
                 </Grid2>
             </Container>
+
+            <TheTimeFrame />
         </Box>
     );
 }

@@ -32,8 +32,8 @@ function Mobileappdevelopmentbanner() {
                               <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1756805414/webdads2u/mobile-app-development/icons/mobile-app-development-icons3.png" alt="1" loading="lazy" className="img-fluid image-1" /> 
                                 <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1756805587/webdads2u/mobile-app-development/icons/mobile-app-development-icons1.png" alt="2" loading="lazy" className="img-fluid image-2" />
                                 <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1756805412/webdads2u/mobile-app-development/icons/mobile-app-development-icons4.png" alt="3" loading="lazy" className="img-fluid image-3" />
-                                <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1756805414/webdads2u/mobile-app-development/mobile-app-development-icons3.png" alt="4" loading="lazy" className="img-fluid image-4" />
-                                <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1756805412/webdads2u/mobile-app-development/mobile-app-development-icons4.png" alt="5" loading="lazy" className="img-fluid image-5" />
+                                {/* <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1756805414/webdads2u/mobile-app-development/mobile-app-development-icons3.png" alt="4" loading="lazy" className="img-fluid image-4" /> */}
+                                {/* <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1756805412/webdads2u/mobile-app-development/mobile-app-development-icons4.png" alt="5" loading="lazy" className="img-fluid image-5" /> */}
                             </div>
                         </div>
                     </div>

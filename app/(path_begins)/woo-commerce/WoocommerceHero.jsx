@@ -53,11 +53,11 @@ function WoocommerceHero() {
                                 <img
                                     src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757581318/webdads2u/woo-commerce/icons/woo-commerce-website-development.png"
                                     alt="woo-commerce-website-development"
-                                    width={150}
+                                    width={50}
                                     style={{ margin: 'auto' }}
                                 ></img>
 
-                                <div className="card-content p-2 text-start">
+                                <div className="card-content p-2 text-start" style={{ textAlign: 'center' }}>
                                     <h4>WooCommerce Website Development</h4>
                                     <p>Take advantage of our best-in-class WooCommerce development services by working with us to design, customize, and deploy your website.</p>
                                 </div>
@@ -65,9 +65,9 @@ function WoocommerceHero() {
                         </Col>
                         <Col md={6} lg={4} xs={12}>
                             <div className="woocom-box text-center wocom-rgt card " style={{ height: '350px' }}>
-                                <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757581307/webdads2u/woo-commerce/icons/ux-ui-development.png" alt="ux-ui" width={150} style={{ margin: 'auto' }}></img>
+                                <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757581307/webdads2u/woo-commerce/icons/ux-ui-development.png" alt="ux-ui" width={50} style={{ margin: 'auto' }}></img>
 
-                                <div className="card-content p-2 text-start">
+                                <div className="card-content p-2 text-start" style={{ textAlign: 'center' }}>
                                     <h4>UI/UX Development</h4>
                                     <p>We build amazing and customer-centric UI/UX designs. The fulfillment and experience of customers when they explore the WooCommerce app are enhanced by a well-designed UI/UX design.</p>
                                 </div>
@@ -75,9 +75,9 @@ function WoocommerceHero() {
                         </Col>
                         <Col md={6} lg={4} xs={12}>
                             <div className="woocom-box text-center card " style={{ height: '350px' }}>
-                                <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757581312/webdads2u/woo-commerce/icons/support.png" alt="support" width={150} style={{ margin: 'auto' }}></img>
+                                <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757581312/webdads2u/woo-commerce/icons/support.png" alt="support" width={50} style={{ margin: 'auto' }}></img>
 
-                                <div className="card-content p-2 text-start">
+                                <div className="card-content p-2 text-start" style={{ textAlign: 'center' }}>
                                     <h4>Support & Maintenance Of WooCommerce</h4>
                                     <p>We provide all of the WooCommerce support services you require. We can offer you the best services available in India under the guidance of our skilled team of developers.</p>
                                 </div>
@@ -95,22 +95,23 @@ function WoocommerceHero() {
                         <Col md={12} lg={6}>
                             <div>
                                 <p>In today’s eCommerce landscape, WooCommerce development stands out as the preferred choice. Its myriad benefits continue to impress businesses and users alike, making it a favored option in the digital market.</p>
-                                <ul>
+                                <ul style={{ listStyle: 'none' }}>
                                     <li>
-                                        <IoMdCheckboxOutline /> Once the website is made, most of the time it gets difficult to make changes to it. The ability to make changes is extremely easy with WooCommerce development and its themes.
+                                        <IoMdCheckboxOutline style={{ color: '#E3243B' }} /> Once the website is made, most of the time it gets difficult to make changes to it. The ability to make changes is extremely easy with WooCommerce
+                                        development and its themes.
                                     </li>
                                     <li>
-                                        <IoMdCheckboxOutline /> WooCommerce has a wide range of advanced features that every modern online shop requires. This means you can keep your website future-proof.
+                                        <IoMdCheckboxOutline style={{ color: '#E3243B' }} /> WooCommerce has a wide range of advanced features that every modern online shop requires. This means you can keep your website future-proof.
                                     </li>
                                     <li>
-                                        <IoMdCheckboxOutline /> WooCommerce has many official extensions to choose from, including analytics, payments, shipping, marketing, and accounting.{' '}
+                                        <IoMdCheckboxOutline style={{ color: '#E3243B' }} /> WooCommerce has many official extensions to choose from, including analytics, payments, shipping, marketing, and accounting.{' '}
                                     </li>
                                 </ul>
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
                             <div>
-                                <img src="/webdads/images/opencart/open-cart.webp" alt="opencart-development" className="w-100 rounded" />
+                                <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757581263/webdads2u/woo-commerce/racepro.png" alt="racepro" className="w-100 rounded" />
                             </div>
                         </Col>
                     </Row>
