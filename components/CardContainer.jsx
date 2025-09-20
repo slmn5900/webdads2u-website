@@ -1,0 +1,143 @@
+'use client';
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Container, Grid2, Typography, Card, CardMedia, CardContent, Button, Box, Avatar } from '@mui/material';
+import { CiClock1 } from 'react-icons/ci';
+import { motion } from 'framer-motion';
+
+const initialPosts = [
+    {
+        id: 1,
+        title: 'SEO Algorithm Updates for the Year 2023',
+        date: 'November 17, 2023',
+        excerpt: 'Home Blog SEO SEO Algorithm Updates for the Year 2023...',
+        link: '/seo-algorithm-updates-for-the-year-2023/',
+        imgSrc: '/webdads/images/home/card-container-images/seo-algorithm-updates-for-the-year-2023_20240d03e2.avif',
+        alt: 'SEO Algorithm Updates'
+    },
+    {
+        id: 2,
+        title: 'Introduction to Python – A developer perspective',
+        date: 'December 2, 2023',
+        excerpt: 'We choose to develop our code base in Python. Most...',
+        link: '/introduction-to-python-a-developer-perspective/',
+        imgSrc: '/webdads/images/home/card-container-images/introduction_to_python_A_developer_perspective.avif',
+        alt: 'Introduction to Python'
+    },
+    {
+        id: 3,
+        title: 'What is CRM Software Development',
+        date: 'March 19, 2024',
+        excerpt: 'Home Blog CRM and ERP What is CRM software development...',
+        link: '/what-is-crm-software-development/',
+        imgSrc: '/webdads/images/home/card-container-images/crm-webdads.avif',
+        alt: 'CRM Software Development'
+    }
+];
+
+const CardContainer = () => {
+    return (
+        <>
+            <Box sx={{ py: { xs: 0, md: 1 }, px: { xs: 0, md: 7 }, mb: { xs: 0, sm: 2 } }}>
+                {/* Header Section */}
+                <Box sx={{ textAlign: 'center', py: { xs: 3, md: 4 } }}>
+                    <div style={{ textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
+                        <p className="landing-page-card-blog-para-p" style={{ fontFamily: 'Poppins' }}>
+                            Our Latest Blog
+                        </p>
+                        <h3 className="landing-page-card-blog-para-h3">
+                            Connect with us for experiencing the best <span>IT Solutions</span>
+                        </h3>
+                    </div>
+                </Box>
+
+                {/* Card Section */}
+                <Container>
+                    <Grid2 container spacing={4}>
+                        {initialPosts.map((post, index) => (
+                            <Grid2 size={{ xs: 12, sm: 6, md: 4 }} key={post.id}>
+                                <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }}>
+                                    <Card
+                                        sx={{
+                                            height: '100%',
+                                            display: 'flex',
+                                            flexDirection: 'column',
+                                            height: '480px',
+                                            boxShadow: 'none',
+                                            background: 'white',
+                                            ':hover': {
+                                                boxShadow: 3
+                                            }
+                                        }}
+                                    >
+                                        <Link href={post.link} passHref>
+                                            <CardMedia component="div" sx={{ position: 'relative', height: 200 }}>
+                                                <Image src={post.imgSrc} alt={post.alt} fill style={{ objectFit: 'cover', borderRadius: '4px 4px 0 0' }} />
+                                            </CardMedia>
+                                        </Link>
+                                        <CardContent sx={{ flexGrow: 1 }}>
+                                            <Typography
+                                                component={Link}
+                                                href={post.link}
+                                                sx={{
+                                                    textDecoration: 'none',
+                                                    color: '#08203A',
+                                                    fontFamily: 'Poppins, sans-serif',
+                                                    fontSize: '20px',
+                                                    fontWeight: 600
+                                                }}
+                                            >
+                                                {post.title}
+                                            </Typography>
+
+                                            <Typography sx={{ display: 'flex', alignItems: 'center', color: '#929292', mt: 1, fontSize: '14px', gap: 1 }}>
+                                                <Avatar alt="Remy Sharp" src="/webdads/images/home/testimonial/client-review-4.avif" sx={{ width: 30, height: 30 }} />{' '}
+                                                <Link href="/" style={{ textDecoration: 'none', fontSize: '15px' }}>
+                                                    Webdads2u
+                                                </Link>
+                                                <CiClock1 style={{ fontSize: '18px', marginRight: '5px' }} /> {post.date}
+                                            </Typography>
+
+                                            <Typography
+                                                sx={{
+                                                    fontFamily: 'Poppins, sans-serif',
+                                                    fontSize: '16px',
+                                                    fontWeight: 400,
+                                                    color: '#666',
+                                                    my: 2
+                                                }}
+                                            >
+                                                {post.excerpt}
+                                            </Typography>
+
+                                            <Link href={post.link} passHref>
+                                                <Button
+                                                    variant="contained"
+                                                    sx={{
+                                                        backgroundColor: '#08203A',
+                                                        color: '#fff',
+                                                        px: 3,
+                                                        py: 1,
+                                                        borderRadius: '5px',
+                                                        fontSize: '16px',
+                                                        fontWeight: 600,
+                                                        textTransform: 'none'
+                                                    }}
+                                                >
+                                                    Read More
+                                                </Button>
+                                            </Link>
+                                        </CardContent>
+                                    </Card>
+                                </motion.div>
+                            </Grid2>
+                        ))}
+                    </Grid2>
+                </Container>
+            </Box>
+        </>
+    );
+};
+
+export default CardContainer;

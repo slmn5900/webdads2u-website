@@ -1,0 +1,392 @@
+.crm-hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgb(77, 52, 247);
+    background: linear-gradient(90deg, rgba(77, 52, 247, 1) 0%, rgba(26, 193, 252, 1) 100%);
+
+    img {
+        width: 100%;
+    }
+}
+.crm-hero {
+    h1 {
+        font-size: 35px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    button {
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+}
+.cust-crm {
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px 0 rgba(216, 214, 214, 0.7);
+    padding: 17px;
+    margin-right: 50px;
+
+    h3 {
+        margin-bottom: 0;
+        color: #233961;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        padding-left: 20px;
+        text-decoration: none;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+.streams {
+    h2 {
+        color: #000;
+    }
+}
+.cust-crm:hover {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #4d32f7 0%, #17c9fc 100%);
+    h3 {
+        color: #fff;
+    }
+    img {
+        filter: brightness(0) invert(1) !important;
+    }
+}
+.streams {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.all-around {
+    padding-bottom: 60px;
+    h2 {
+        color: #000;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    p {
+        color: #000;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    img:hover {
+        animation-name: elementor-animation-wobble-hprizontal;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+}
+@keyframes elementor-animation-wobble-hprizontal {
+    16.65% {
+        transform: translateX(8px);
+    }
+    33.3% {
+        transform: translateX(-6px);
+    }
+    49.95% {
+        transform: translateX(4px);
+    }
+    66.6% {
+        transform: translateX(-2px);
+    }
+    83.25% {
+        transform: translateX(1px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.custm-sys {
+    background: #f5f5f5;
+}
+
+.wave-box {
+    background: #2167fb;
+    // background-image: url('/webdads/images/crm/pattern-8.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+    h2 {
+        margin-bottom: 0;
+        color: #0e1011;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 10px;
+    }
+    P {
+        font-size: 18px;
+        color: #7a7a7a;
+        padding-top: 10px;
+    }
+}
+.crm-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+}
+.crm-box1 {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 45px !important;
+    height: 300px;
+}
+
+@keyframes move-forever {
+    0% {
+        -webkit-transform: translate3d(-90px, 0, 0);
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(85px, 0, 0);
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+.parallax > use {
+    -webkit-animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.waves {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -8px;
+    min-height: 100px;
+    max-height: 150px;
+}
+.empt-wave {
+    position: relative;
+}
+.crm-develoment {
+    background: #ecfcf9e6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h2 {
+        color: #262250;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        font-size: 18px;
+        width: 80%;
+        margin: auto;
+        color: #7a7a7a;
+        padding-bottom: 20px;
+    }
+}
+.strategic {
+    background: #fff;
+    padding: 10px;
+    p {
+        text-align: center;
+        font-size: 17px;
+        width: 100%;
+        margin: 0 !important;
+        color: #000;
+        padding-bottom: 20px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
+.strategic:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.strt {
+    margin-top: 40px;
+}
+.erp-dev {
+    h2 {
+        color: #000;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+    p {
+        font-size: 18px;
+        color: #7a7a7a;
+    }
+}
+.process-auto {
+    padding-left: 5px;
+    padding-top: 10px;
+    h2 {
+        margin-bottom: 0;
+        color: #000;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    p {
+        color: #000;
+        font-family: 'Poppins', Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+.our-fully {
+    background: #2167fb;
+    // background-image: url('/webdads/images/crm/pattern-8.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    p {
+        font-family: 'Poppins', Sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+    }
+}
+.cust-web {
+    justify-content: space-around;
+}
+h2 {
+    color: #fff;
+    padding-bottom: 20px;
+}
+// Accordian
+
+.FrequentlyAskedQuestions-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-body {
+    color: var(--e-global-color-text);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.frequentlyaskedquestions-main h1 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+    transition: all 0.5s;
+    color: #08203a !important;
+}
+.FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
+    // background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+    color: #08203a !important;
+}
+.FrequentlyAskedQuestions-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+.frequentlyaskedquestions-main h2 {
+    padding-bottom: 0px;
+}
+.our-fully {
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .crm-hero h1 {
+        font-size: 18px;
+    }
+    .cust-crm {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .all-around {
+        img {
+            width: 100%;
+        }
+        p {
+            line-height: 30px;
+        }
+    }
+    .crm-box,
+    .crm-box1 {
+        margin-bottom: 20px;
+    }
+}
+.strategic {
+    h2 {
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .crm-hero h1 {
+        font-size: 25px;
+    }
+    .cust-crm {
+        margin-right: 0px;
+        h3 {
+            font-size: 18px;
+        }
+    }
+    .all-around {
+        h2 {
+            padding: 5px;
+            font-size: 25px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 28px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .custm-sys {
+        padding-top: 50px;
+    }
+    .crm-box {
+        img {
+            width: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .crm-develoment-section-image {
+        width: 100%;
+        height: auto;
+    }
+}

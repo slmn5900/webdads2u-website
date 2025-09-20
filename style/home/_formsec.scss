@@ -1,0 +1,104 @@
+// // Form section
+
+// .quick-form {
+//     background-color: transparent;
+//     background-image: linear-gradient(90deg, #871752 1%, #262250 44%);
+//     padding: 10px 10px 0px 10px;
+//     border-radius: 10px 10px 0px 0px;
+
+//     form {
+//         // display: flex;
+//         // column-gap: 5px;
+//     }
+//     h2 {
+//         color: #fff;
+//         font-family: 'Poppins', Sans-serif;
+//         font-size: 22px;
+//         font-weight: 600;
+//         padding-bottom: 10px;
+//     }
+//     select {
+//         height: 45px;
+//         padding-left: 5px;
+//         width: 100%;
+//     }
+//     .infld {
+//         input {
+//             width: 105px;
+//             height: 45px;
+//             // padding-left: 5px;
+//         }
+//     }
+//     .check-in {
+//         background: #fff;
+//         padding-top: 10px;
+//         padding-left: 5px;
+//         padding-right: 6px;
+//         label {
+//             font-size: 10px;
+//         }
+//     }
+//     button {
+//         background: linear-gradient(to left, #ff0f47 1%, #8a1652);
+//         border-radius: 2px;
+//         padding: 8px 30px !important;
+//         color: #fff !important;
+//         font-weight: 400 !important;
+//         margin-left: 5px !important;
+//         height: 43px !important;
+//     }
+//     input:focus-visible {
+//         outline: none !important;
+//     }
+// }
+
+// .homepage-quick-service-form-recaptcha-parent {
+//     display: flex;
+//     .homepage-quick-service-form-recaptcha-child1 {
+//         width: 100%;
+//         margin-right: 10px;
+//         height: 45px;
+//     }
+//     .homepage-quick-service-form-recaptcha-child2 {
+//         // transform: scaleX(1) scaleY(0.6);
+//         height: 45px;
+//         width: 100%;
+//         min-width: 100px;
+//     }
+// }
+// // .homepage-quick-service-form-recaptcha-parent:nth-child(1) {
+// // height: 45px;
+// //     width: 100%;
+// //     margin-right: 10px;
+// // }
+
+// .homepage-quick-service-form-section {
+//     display: flex;
+//     margin-bottom: 10px;
+//     flex-direction: row;
+//     .infld {
+//         width: 100%;
+//         margin-right: 10px;
+//         input {
+//             width: inherit;
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 783px) {
+//     .homepage-quick-service-form-section {
+//         display: flex;
+//         flex-direction: column;
+//         margin: 0px;
+//     }
+// }
+// @media screen and (max-width: 425px) {
+//     .homepage-quick-service-form-recaptcha-parent {
+//         display: flex;
+//         flex-direction: column;
+
+//         .homepage-quick-service-form-recaptcha-child1 {
+//             margin-bottom: 10px;
+//         }
+//     }
+// }

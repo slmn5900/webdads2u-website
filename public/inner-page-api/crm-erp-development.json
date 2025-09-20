@@ -1,0 +1,298 @@
+{
+ 
+    "header_section": {
+      "title": "CRM is your GPS to a better route on your Business Development jouney.",
+      "button": "Contact us",
+      "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756533854/webdads2u/crm-erp-development/crm-for-small-businesses.png",
+      "bg_img": "linear-gradient(90deg, rgba(77,50,247,1) 0%, rgba(23,201,252,1) 100%)",
+      "img_alt":"crm for small businesses"
+    },
+    "slider_section": {
+      "title": "Trusted by over 150+ businesses worldwide!",
+         "logos": [
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465213/logo/ti-diamond.jpg",
+      "alt": "ti diamond"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465174/logo/relife.jpg",
+      "alt": "relife"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465147/logo/oilsep.jpg",
+      "alt": "oilsep"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465175/logo/sash.jpg",
+      "alt": "sash"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530044/logo/iritube-logo",
+      "alt": "iritube logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530177/logo/golden-logo",
+      "alt": "golden logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465184/logo/best.jpg",
+      "alt": "best"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530250/logo/prudent-stores-logo.png",
+      "alt": "prudent stores logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530345/logo/arcmen-logo.jpg",
+      "alt": "arcmen logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465174/logo/pvpharma.jpg",
+      "alt": "pvpharma"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530428/logo/intergra-logo.jpg",
+      "alt": "intergra logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465175/logo/rpsgroup.jpg",
+      "alt": "rpsgroup"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465176/logo/skilltech.jpg",
+      "alt": "skilltech"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465179/logo/smart.jpg",
+      "alt": "smart"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465179/logo/ssracademy.jpg",
+      "alt": "ssracademy"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465213/logo/coreeng.jpg",
+      "alt": "coreeng"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530758/logo/imci-life-sciences.jpg",
+      "alt": "imci life sciences"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530642/logo/pride-rmx.jpg",
+      "alt": "pride rmx"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465147/logo/matchboxmansion.jpg",
+      "alt": "matchboxmansion"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756531130/logo/lalit-logo.jpg",
+      "alt": "lalit logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465184/logo/chennai-interior-design.jpg",
+      "alt": "chennai interior design"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756531255/logo/smart-ducklings.jpg",
+      "alt": "smart ducklings"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465180/logo/teamwater.jpg",
+      "alt": "teamwater"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756531361/logo/the-saj-hotel-logo.jpg",
+      "alt": "the saj hotel logo"
+    }
+  ]
+    },
+    "ourstream_section": {
+      "title": "Our Streams",
+      "card":[{
+      "img": "/webdads/images/crm/data-structure.png",
+      "text": "Customized CRM"},
+      {
+      "img": "/webdads/images/crm/setting.png",
+      "text": "Customized ERP"}]
+    },
+    "amazing_section": {
+      "title": "All-around Tool For Your Business",
+      "description": "Best CRM for small businesses. Boost your business with our intuitive CRM tool. Streamline interactions, manage leads, and optimize sales effortlessly. Centralize communication, automate tasks, and gain valuable insights with robust reporting. Our customizable dashboards provide a 360-degree view, and seamless integration with popular apps ensures a connected ecosystem. Elevate customer satisfaction, drive loyalty, and stay ahead of the competition with our all-in-one CRM solution.",
+      "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756534143/webdads2u/crm-erp-development/crm-software.avif",
+      "alt":"crmcsoftware"
+    },
+    "list_section": {
+      "img": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756534373/webdads2u/crm-erp-development/custom-crm-systems.avif",
+      "title": "Custom CRM Systems",
+      "alt":"custom crm systems",
+      "description": "Elevate your business with our Custom CRM Systems, a powerful tool for Customer Relationship Management. Our tailored solutions optimize processes, encourage collaboration, and deliver valuable insights. Experience enhanced customer engagement and fuel growth with a personalized CRM system crafted specifically for your unique needs.",
+      "lists": [
+        "Bespoke CRM Consultation",
+        "Personalized CRM Application",
+        "Training and Support"
+      ]
+    },
+    "why_section": {
+      "cards": [
+        {
+          "icon": "/webdads/images/crm/CRM-Software-Solutions.png",
+          "title": "CRM Software Solutions",
+          "description": "Unlock business potential with our advanced CRM software. Tailored features enhance customer interactions, streamline workflows, and boost overall efficiency."
+        },
+        {
+          "icon": "/webdads/images/crm/CRM-Maintenance.png",
+          "title": "CRM Maintenance and Upgrades",
+          "description": "Ensure optimal performance with our CRM maintenance and upgrade services. Stay ahead with the latest features, security patches, and seamless system enhancements."
+        },
+        {
+          "icon": "/webdads/images/crm/integration.png",
+          "title": "CRM Integration Services",
+          "description": "Seamlessly connect your systems with our CRM integration services. Enhance data flow, improve communication, and achieve a unified view for better decision-making."
+        },
+        {
+          "icon": "/webdads/images/crm/Layer-146.png",
+          "title": "CRM Process Automation Solutions",
+          "description": "Boost productivity with our CRM process automation solutions. Effortlessly streamline repetitive tasks, reduce manual errors, and enhance overall operational efficiency."
+        },
+        {
+          "icon": "/webdads/images/crm/CRM-Mobile-Application.png",
+          "title": "CRM Mobile Application",
+          "description": "Stay connected on the go with our CRM mobile application. Access real-time data, manage leads, and nurture customer relationships anytime, anywhere for increased agility."
+        },
+        {
+          "icon": "i/webdads/images/crm/CRM-Migration-Solutions.png",
+          "title": "CRM Migration Solutions",
+          "description": "Upgrade effortlessly with our CRM migration solutions. Seamlessly transition data, maintain system integrity, and ensure a smooth migration process for uninterrupted business operations."
+        }
+      ]
+    },
+    "design_section":{
+        "title":"CRM DEVELOPMENT SOLUTION",
+        "description":"Boost efficiency, streamline processes, and enhance customer relationships seamlessly. Empower your business with our tailored CRM development solutions – Best CRM for small businesses.",
+        "img":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1756534382/webdads2u/crm-erp-development/webdads2u-crm-solution.avif",
+        "alt":"webdads2u crm solution"
+    },
+    "crmcard_section": {
+      "cards": [
+        {
+          "icon": "/webdads/images/crm/strategy-crm.png",
+          "title": "Strategic CRM",
+          "description": "Strategic CRM focuses on long-term planning and customer relationship development. It integrates technology to align business goals with customer needs, enhancing overall efficiency."
+        },
+        {
+          "icon": "/webdads/images/crm/analytical-crm.png",
+          "title": "Analytical CRM",
+          "description": "Analytical CRM leverages data analysis to gain insights into customer behavior, preferences, and trends. It empowers small businesses to make informed decisions and deliver personalized experiences."
+        },
+        {
+          "icon": "/webdads/images/crm/operational-crm.png",
+          "title": "Operational CRM",
+          "description": "Operational CRM streamlines day-to-day customer-facing processes, such as sales, marketing, and service automation. The best CRM for small businesses optimizes operational efficiency."
+        },
+        {
+          "icon": "/webdads/images/crm/collabrative-crm.png",
+          "title": "Collaborative CRM",
+          "description": "Collaborative CRM emphasizes cross-departmental communication and teamwork to enhance customer relationships. It ensures a unified approach, where teams share customer information seamlessly."
+        }]
+  },
+  "slider2_section":{
+    "title":"Our Industry-Leading CRM Platform Tools And Integrations",
+    "img":[
+        "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_200,h_200,dpr_1.5/f_auto,q_auto/v1701074987/Zoho-crm_253703856/Zoho-crm_253703856.png?_i=AA",
+        "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_200,h_200,dpr_1.5/f_auto,q_auto/v1701074983/joforcecrm_2538d1685/joforcecrm_2538d1685.png?_i=AA",
+        "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_200,h_200,dpr_1.5/f_auto,q_auto/v1701074991/sugarcrm_2536c5622/sugarcrm_2536c5622.png?_i=AA",
+      "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_200,h_200,dpr_1.5/f_auto,q_auto/v1701074995/Suitecrm_2535f903b/Suitecrm_2535f903b.png?_i=AA",
+        "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_200,h_200,dpr_1.5/f_auto,q_auto/v1701074999/Vtiger-crm_2534828f8/Vtiger-crm_2534828f8.png?_i=AA",
+        "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_200,h_200,dpr_1.5/f_auto,q_auto/v1701075002/sales-force-crm_2533e26d4/sales-force-crm_2533e26d4.png?_i=AA",
+        "https://res.cloudinary.com/dbpv95wd8/images/c_scale,w_200,h_200,dpr_1.5/f_auto,q_auto/v1701074980/orangecrm_25409ea08/orangecrm_25409ea08.png?_i=AA"
+    
+    ]
+  },
+  "development_section":{
+    "title":"ERP Development",
+    "description":"Streamline operations with custom ERP development for seamless integration and efficient business processes.",
+    "img":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1756534904/webdads2u/crm-erp-development/erp-development-company.avif",
+    "alt":"erp development company",
+    "lists":[{
+          "icon": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1758012518/webdads2u/crm-erp-development/icons/process-automation.png",
+          "title": "Process Automation",
+          "description": "Business process automation across departments with loads of features and no process modifications."
+        },
+    {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1758012517/webdads2u/crm-erp-development/icons/enhanced-security.png",
+          "title": "Enhanced Security",
+          "description": "Protects sensitive data and financial records from illegal access and reputation-damaging actions."
+        },
+    {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1758012516/webdads2u/crm-erp-development/icons/customer-services.png",
+          "title": "Customer Service",
+          "description": "Deliver goods faster with increased productivity and effective inventory control to provide good customer service."
+        },
+    {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1758012515/webdads2u/crm-erp-development/icons/comprehensive-reporting.png",
+          "title": "Comprehensive Reporting",
+          "description": "Providing full reporting on business cash flow statements, income statements, and balance sheets."
+        },
+    {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1758012515/webdads2u/crm-erp-development/icons/keeping-all-data-in-one-location.png",
+          "title": "Keeping All Data in One Location",
+          "description": "Saves data in a single centralized location helping to simplify your business operations."
+        },
+    {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1758012515/webdads2u/crm-erp-development/icons/regulatory-compliance.png",
+          "title": "Regulatory Compliance",
+          "description": "Saves data in a single centralized location helping to simplify your business operations."
+        }]
+
+  },
+  "list2_section":{
+       "title":"Our Fully Integrated and Customizable Modules for ERP Systems",
+       "lists":[
+         "Customer Web Portal",
+          "Finance",
+          "Procurement",
+          "Manufacturing",
+          "Inventory Management",
+          "Workforce Management",
+          "Ecommerce"
+       ],
+       "lists1":[
+          "Order Management",
+          "Warehouse Management",
+          "Supply Chain Management",
+          "CRM & Sales",
+          "Marketing Automation",
+          "Distribution"
+       ]
+  },
+  "image":{
+    "img":"/webdads/images/crm/erp-process.png"
+  },
+  "qna_section":{
+    "title":"Frequently Asked Questions",
+    "description":"Hundreds of reviews from our customers say so.Our in-house support team is friendly & professionaland usually way to help you. .!",
+    "button":"Contact us",
+    "queries":[{
+       "ques":"What is CRM",
+       "ans":"CRM stands for Customer Relationship Management. It’s a system that helps businesses manage interactions and relationships with customers."
+    },
+    {
+       "ques":"Why is CRM important?",
+       "ans":"We encourage every team member to be a whole person. We have a flexible, high trust environment that is focused on doing great work.."
+    },{
+       "ques":"How can CRM benefit small businesses?",
+       "ans":"CRM aids small businesses by centralizing customer information, automating tasks, and facilitating targeted marketing, leading to increased customer satisfaction and growth."
+    },{
+       "ques":"Is CRM suitable for my industry?",
+       "ans":"Yes, CRM is adaptable and beneficial across various industries, fostering better customer relationships, whether in retail, healthcare, finance, or other sectors."
+    },{
+       "ques":"What features should I look for in a CRM system?",
+       "ans":"Consider features like contact management, lead tracking, automation, analytics, and scalability when choosing a CRM system for your specific business needs."
+    },{
+       "ques":"How can CRM enhance customer communication?",
+       "ans":"CRM enables personalized communication, timely follow-ups, and targeted messaging, fostering stronger relationships and customer loyalty."
+    }
+]
+}}

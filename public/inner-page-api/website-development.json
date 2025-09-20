@@ -1,0 +1,243 @@
+{
+    "section-1": {
+      "title": "Design,Develop,Deploy Anything With Full-Stack Development",
+      "description":"Revolutionize your online presence with our top-tier web development services Crafted for innovation,functionality,and user-centric experiences, our solutions redefine digital success",
+      "button": "Contact us",
+      "img": "img.png",
+       "bg_img": "linear-gradient(to right, #0247a0, #47c1c5)"
+
+    },
+     "section_2": {
+      "title": "Trusted by over 150+ businesses worldwide!",
+       "logos": [
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465213/logo/ti-diamond.jpg",
+      "alt": "ti diamond"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465174/logo/relife.jpg",
+      "alt": "relife"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465147/logo/oilsep.jpg",
+      "alt": "oilsep"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465175/logo/sash.jpg",
+      "alt": "sash"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530044/logo/iritube-logo",
+      "alt": "iritube logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530177/logo/golden-logo",
+      "alt": "golden logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465184/logo/best.jpg",
+      "alt": "best"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530250/logo/prudent-stores-logo.png",
+      "alt": "prudent stores logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530345/logo/arcmen-logo.jpg",
+      "alt": "arcmen logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465174/logo/pvpharma.jpg",
+      "alt": "pvpharma"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530428/logo/intergra-logo.jpg",
+      "alt": "intergra logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465175/logo/rpsgroup.jpg",
+      "alt": "rpsgroup"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465176/logo/skilltech.jpg",
+      "alt": "skilltech"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465179/logo/smart.jpg",
+      "alt": "smart"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465179/logo/ssracademy.jpg",
+      "alt": "ssracademy"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465213/logo/coreeng.jpg",
+      "alt": "coreeng"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530758/logo/imci-life-sciences.jpg",
+      "alt": "imci life sciences"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756530642/logo/pride-rmx.jpg",
+      "alt": "pride rmx"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465147/logo/matchboxmansion.jpg",
+      "alt": "matchboxmansion"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756531130/logo/lalit-logo.jpg",
+      "alt": "lalit logo"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465184/logo/chennai-interior-design.jpg",
+      "alt": "chennai interior design"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756531255/logo/smart-ducklings.jpg",
+      "alt": "smart ducklings"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465180/logo/teamwater.jpg",
+      "alt": "teamwater"
+    },
+    {
+      "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756531361/logo/the-saj-hotel-logo.jpg",
+      "alt": "the saj hotel logo"
+    }
+  ]
+    },
+    "design_section": {
+      "title": "Our Web Development Streams",
+      "description": "Welcome to our web development stream! Join us as we explore the dynamic realm of web development services, covering everything from front-end design to back-end functionality. Whether you’re a beginner or a seasoned pro, we’ll share insights, tips, and the latest industry trends to help you craft engaging, high-quality websites. Expect deep dives into frameworks, programming languages, responsive design, SEO strategies, and real-world projects that highlight the importance of top-notch web development services. Tune in regularly to stay updated and elevate your web development skills with us!",
+      "img":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1756883553/webdads2u/website-development/web-development-company.png",
+      "alt":"web development company"
+    },
+    "section-4":{
+        "title":"Looking for Immersive Frontends?",
+        "button":"Talk to Our UI/UX Consultants"
+    },
+    "amazingcard_section": {
+      "title":"What Web Development Services we can do!",
+      "description":" All you need to keep your website 100% Secure and updated chnologies like JavaScript, PHP, and frameworks like React.js and WordPress drive creativity,crafting captivating digital realms.",
+      "cards": [
+        {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756887702/webdads2u/website-development/icons/react-js.png",
+          "title": "React.js",
+          "description": "Stay ahead of the curve with our expertise in React.js. We engineer lightning-fast and interactive web applications, leveraging the potential of React.js to enhance your online presence."
+        },
+    {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756887688/webdads2u/website-development/icons/wordpress.png",
+          "title": "WordPress",
+          "description": "Experience the power of WordPress with our specialized development services. Whether it's a blog, e-commerce platform, or corporate website, our team crafts responsive ."
+        },
+    {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756887628/webdads2u/website-development/icons/php.png",
+          "title": "PHP",
+          "description": "Rely on our PHP development proficiency to build robust and dynamic websites tailored to your specific needs. Our solutions ensure scalability and seamless functionality."
+        },
+    {
+          "icon": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756887703/webdads2u/website-development/icons/web-portal.png",
+          "title": "Web Portal",
+          "description": "At Webdads2u, we specialize in creating captivating web portals that serve as the gateway to your digital universe. Our meticulously crafted portals seamlessly."
+        }
+        ]},
+    "section_6": {
+      "title": "Our Full-Stack Web Development Services",
+      "description": "We specialize in end-to-end web development services, crafting dynamic, user-centric sites across platforms. Our expertise spans front-end and back-end technologies, delivering responsive designs that enhance user experiences.",
+        "innersection":[{
+        "icon":"icon.png",
+        "title":"ANGULAR JS",
+        "description":"AngularJS fuels our website’s dynamic functionality, simplifying development through its robust features like two-way data binding and modular design. Its versatility enables scalable, user-centric experiences while streamlining maintenance. Our site benefits from AngularJS’s power, ensuring an interactive and efficient interface for our users."
+      },
+      {
+        "icon":"icon.png",
+        "title":"LARAVEL",
+        "description":"Our website development relies on Laravel’s robust framework. Laravel empowers us with efficient tools for crafting feature-rich, scalable websites. Leveraging its clean syntax and modular structure, we ensure a streamlined development process. With Laravel, we create websites that boast reliability, and a seamless user experience."
+      },
+      {
+        "icon":"icon.png",
+        "title":"REACT",
+        "description":"Our website’s development hinges on React’s versatile framework. React empowers us to create interactive, responsive web experiences efficiently. Leveraging its component-based architecture, we ensure modular, scalable development. With React, our websites boast speed, flexibility, and a modern user interface."
+      },
+      {
+        "icon":"icon.png",
+        "title":"BOOTSTRAP",
+        "description":"Our website development relies on Bootstrap’s powerful toolkit. Bootstrap enables us to create responsive, visually appealing websites with ease. Leveraging its grid system and pre-built components, we ensure a streamlined and efficient design process. With Bootstrap, our websites exhibit consistency, adaptability, and a polished user interface."
+      },
+      {
+        "icon":"icon.png",
+        "title":"EMBER JS",
+        "description":"Our web development services thrive on Ember.js, a potent framework for crafting dynamic websites. Ember.js empowers our team to deliver high-quality thanks to its robust architecture. With Ember.js driving our development, we ensure exceptional user experiences and  enhancing the value of our web development services."
+      },
+      {
+        "icon":"icon.png",
+        "title":"JQUERY",
+        "description":"In our suite of web development services, jQuery remains a fundamental tool for creating dynamic and responsive websites. Leveraging jQuery’s versatile library. With jQuery driving our development, we ensure efficient DOM manipulation, and enhanced user experiences, enriching the scope of our web development services."
+      }
+      ]},
+    "section_7": {
+      "title": "API Development",
+      "img":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1756883551/webdads2u/website-development/web-development-companies.png",
+      "alt":"web development companies",
+      "description": "full-fledged Web API development services, featuring seamless integration—whether owned or 3rd party—to swiftly launch your web application portal. It’s all about accelerating your online presence through our comprehensive web development services.",
+        "icons":[{
+         "icon":"icon.png",
+        "title":"Node.js"
+      },
+      {
+        "icon":"icon.png",
+        "title":"FastAPI"
+      },
+      {
+        "icon":"icon.png",
+        "title":"Flask"
+        },
+      {
+        "icon":"icon.png",
+        "title":"Ruby on Rails"
+      },
+      {
+        "icon":"icon.png",
+        "title":"Spring Boot"
+      },
+      {
+        "icon":"icon.png",
+        "title":"Lumen"
+      }]
+      
+    },
+    "section_8":{
+        "title":"Looking for Immersive Frontends?",
+        "button":"Talk to Our UI/UX Consultants"
+    }, 
+    "section_9": {
+      "title": "Connect with Us on Social Media",
+      "description": "Stay in the loop with the latest trends and updates from WebDads2U. Follow our social media channels for insightful content, tips, and exciting announcements",
+      "img1":"img.png",
+        "icons":[{
+        "icon1":"icon.png",
+        "icon2":"icon.png",
+        "icon3":"icon.png",
+        "icon4":"icon.png"
+      }],
+       "img2":"img.png"
+    },
+     "section_10": {
+      "title": "Connect with Us on Social Media",
+      "description": "Stay in the loop with the latest trends and updates from WebDads2U. Follow our social media channels for insightful content, tips, and exciting announcements",
+      "img1":"img.png",
+        "icons":[{
+        "icon1":"icon.png",
+        "icon2":"icon.png",
+        "icon3":"icon.png",
+        "icon4":"icon.png"
+      }],
+       "img2":"img.png"
+    },
+    "section-11":{
+        "description":"Come check us our web development services and discover how we can elevate your online presence! Follow us for exciting content and stay connected with our team of experts.",
+        "button":"Subscribe"
+    }
+}

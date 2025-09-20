@@ -1,0 +1,364 @@
+// p {
+//     color: #7a7a7a;
+//     font-family: 'Poppins', Sans-serif;
+//     font-size: 16px;
+//     font-weight: 400;
+//     line-height: 30px;
+// }
+// h2 {
+//     color: #0b1225;
+//     font-family: 'Poppins', Sans-serif;
+//     font-size: 35px;
+//     font-weight: 600 !important;
+// }
+// .brochure-design {
+//     background: url('/webdads/images/brochuredesign/looking-contact.webp');
+//     background-size: cover;
+//     padding-bottom: 80px;
+//     padding-top: 60px;
+//     h2 {
+//         font-size: 45px;
+//         color: #fff;
+//         font-weight: 700;
+//     }
+//     p {
+//         font-size: 18px;
+//         color: #fff;
+//         font-weight: 500;
+//     }
+//     // button {
+//     //     background: #fff;
+//     //     border-radius: 50px;
+//     //     color: #29aeaa;
+//     //     font-size: 18px;
+//     //     font-weight: 500;
+//     //     padding: 10px 30px;
+//     //     border: 2px solid #fff;
+//     // }
+//     // button:hover {
+//     //     background: #0000;
+//     //     border: 2px solid #fff;
+//     //     color: #fff;
+//     // }
+// }
+// .android-app-development-slider {
+//     margin-top: -50px;
+//     background: #fff;
+// }
+// .socialbanner {
+//     // width: 125%;
+//     width: 100%;
+// }
+// .brochure-com {
+//     padding-top: 60px;
+//     padding-bottom: 60px;
+// }
+// .corflyer {
+//     display: flex;
+//     p {
+//         margin-bottom: 5px;
+//         font-weight: 600;
+//     }
+
+//     svg {
+//         color: #003073;
+//         font-size: 25px;
+//         font-weight: 600;
+//     }
+// }
+// .flyerdsn {
+//     h3 {
+//         color: #0b1225;
+//         font-family: 'Poppins', Sans-serif;
+//         font-size: 25px;
+//         font-weight: 700;
+//         margin-bottom: 30px;
+//     }
+// }
+// .in-addition {
+//     background: url('/webdads/images/brochuredesign/in-addition-to-brochure-design.jpg');
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
+// .amazing-web h3 {
+//     color: #262250;
+//     font-family: 'Poppins', Sans-serif;
+//     font-size: 25px;
+//     font-weight: 600;
+//     max-width: 80%;
+//     margin: auto;
+//     margin-bottom: 30px;
+// }
+// .amazing-web .shopify-weoffer {
+//     padding: 20px 20px 20px 20px;
+//     background-color: #ffffff;
+//     border-radius: 10px 10px 10px 10px;
+//     box-shadow: 0px 0px 10px 0px rgba(216, 214, 214, 0.7);
+//     text-align: center;
+//     height: 280px;
+//     margin-top: 20px;
+//     -webkit-transition: 0.4s;
+//     transition: 0.4s;
+//     background-image: url('/webdads/images/brochuredesign/service-bg.png');
+//     h3 {
+//         color: #4d4d4d;
+//         font-family: 'Poppins', Sans-serif;
+//         font-size: 16px;
+//         font-weight: bold;
+//         margin-bottom: 5px;
+//         padding-top: 10px;
+//     }
+//     p {
+//         font-size: 14px;
+//         color: #7a7a7a;
+//     }
+//     a {
+//         text-decoration: none;
+//     }
+//     img {
+//         width: 40%;
+//     }
+// }
+// .amazing-web .shopify-weoffer:hover {
+//     transform: translate3d(0, -15px, 10px) !important;
+//     -webkit-transition: 0.4s;
+//     transition: 0.4s;
+//     background-color: #e4155b;
+//     h3 {
+//         color: #fff;
+//     }
+//     p {
+//         color: #fff;
+//     }
+//     img {
+//         filter: brightness(0) invert(1) !important;
+//     }
+// }
+
+// .ourwork {
+//     h3 {
+//         background-image: linear-gradient(90deg, #65258a 0%, #e80566 100%);
+//         background-size: cover;
+//         -webkit-background-clip: text;
+//         background-clip: text;
+//         -webkit-text-fill-color: transparent;
+//         text-fill-color: transparent;
+//         display: inline-block;
+//         font-size: 45px;
+//         font-weight: 700;
+//         padding-bottom: 30px;
+//     }
+// }
+// .bsihv {
+//     position: relative;
+//     overflow: hidden;
+// }
+
+// .overlay {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+//     opacity: 0;
+//     transition: opacity 0.3s ease; /* Smooth transition */
+//     border-radius: 5px;
+// }
+
+// .bsihv:hover .overlay {
+//     opacity: 1; /* Show overlay on hover */
+// }
+
+// .modal-footer {
+//     display: none;
+// }
+// .modal-content {
+//     background: transparent;
+//     border: 0px;
+// }
+// .modal-body {
+//     button {
+//         font-size: 39px;
+//         background: transparent;
+//         border: 0px;
+//         color: #fff;
+//     }
+// }
+// .bsihv {
+//     margin-bottom: 20px;
+// }
+// .ourwork {
+//     button {
+//         font-family: 'Poppins', Sans-serif;
+//         font-size: 18px;
+//         font-weight: 600;
+//         background-color: transparent;
+//         background-image: linear-gradient(90deg, #65258a 0%, #e80566 50%);
+//         border-radius: 5px 5px 5px 5px;
+//         padding: 15px 40px 15px 40px;
+//         border: none;
+//     }
+// }
+// .why-choose-br {
+//     padding: 20px 20px 20px 20px;
+//     background-color: #fff;
+//     border-radius: 10px 10px 10px 10px;
+//     box-shadow: 0 0 10px 0 rgba(216, 214, 214, 0.7);
+//     text-align: center;
+//     img {
+//         width: 70%;
+//     }
+//     h3 {
+//         color: #4d4d4d;
+//         font-family: 'Poppins', Sans-serif;
+//         font-size: 16px;
+//         font-weight: 700;
+//         text-align: center;
+//     }
+// }
+// .whychbr p {
+//     font-size: 14px;
+// }
+// .looking-brochure {
+//     background-image: url(/webdads/images/brochuredesign/looking-contact.webp);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     padding: 100px;
+//     border-radius: 10px;
+//     box-shadow: 23px 23px 87px 0 rgba(254, 76.0000000000001, 28);
+//     P {
+//         font-size: 18px;
+//         color: #fff;
+//     }
+//     button {
+//         background: #fff;
+//         font-size: #000;
+//         font-size: 18px;
+//         color: #000;
+//         font-weight: 500;
+//         padding: 10px 30px;
+//         border: 2px solid #fff;
+//     }
+//     button:hover {
+//         border: 2px solid #fff;
+//         background: transparent;
+//         color: #fff;
+//     }
+//     h2 {
+//         color: #fff;
+//         font-family: 'Poppins', Sans-serif;
+//         font-size: 45px;
+//         font-weight: 600;
+//     }
+// }
+
+// // Accordian
+
+// .FrequentlyAskedQuestions-Accordion .accordion-item {
+//     margin-bottom: 10px;
+// }
+
+// .FrequentlyAskedQuestions-Accordion .accordion-button {
+//     color: rgb(0, 32, 96);
+//     font-family: Poppins, sans-serif;
+//     font-size: 18px;
+//     font-weight: 600;
+// }
+
+// .FrequentlyAskedQuestions-Accordion .accordion-body {
+//     color: var(--e-global-color-text);
+//     font-family: Poppins, sans-serif;
+//     font-size: 16px;
+//     font-weight: 400;
+// }
+// .frequentlyaskedquestions-main h1 {
+//     color: #0a1f5f;
+//     font-family: 'Poppins', Sans-serif;
+//     font-size: 36px;
+//     font-weight: 700;
+//     text-transform: capitalize;
+//     line-height: 45px;
+// }
+
+// .FrequentlyAskedQuestions-Accordion .accordion-button {
+//     background: #fff;
+//     box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+// }
+
+// .FrequentlyAskedQuestions-Accordion .accordion-button::after {
+//     // background-image: url(../../../public/webdads/images/android-app-development/plus-small.png);
+//     transition: all 0.5s;
+//     color: #08203a !important;
+// }
+// .FrequentlyAskedQuestions-Accordion .accordion-button:not(.collapsed)::after {
+//     // background-image: url(../../../public/webdads/images/android-app-development/munus-small.png);
+//     color: #08203a !important;
+// }
+// .FrequentlyAskedQuestions-Accordion .accordion-button::after {
+//     transition: all 0.5s;
+// }
+
+// @media screen and (max-width: 768px) {
+//     .brochure-design {
+//         p {
+//             font-size: 10px;
+//             line-height: 18px;
+//         }
+//         h2 {
+//             font-size: 20px;
+//         }
+//         button {
+//             // display: none;
+//             font-size: 12px;
+//             padding: 5px 15px;
+//         }
+//     }
+//     .corflyer p {
+//         font-size: 13px;
+//         color: #5a5a5a;
+//     }
+//     .socialbanner {
+//         width: 100%;
+//     }
+//     .all-youimg {
+//         img {
+//             width: 100%;
+//         }
+//     }
+//     h2 {
+//         font-size: 25px;
+//     }
+//     .why-choose-br h3 {
+//         font-size: 13px;
+//     }
+//     .looking-brochure {
+//         padding: 40px 10px;
+
+//         h2 {
+//             font-size: 25px;
+//         }
+//     }
+// }
+
+// @media screen and (min-width: 768px) and (max-width: 1024px) {
+//     .brochure-design {
+//         h2 {
+//             font-size: 40px;
+//         }
+//     }
+//     .android-app-development-slider h1 {
+//         font-size: 15px;
+//         font-weight: 600;
+//         padding: 15px;
+//         margin-right: 0px;
+//     }
+//     .looking-brochure {
+//         padding: 40px;
+//     }
+// }
+
+// .corflyer p {
+//     font-size: 13px;
+//     color: #5a5a5a;
+// }

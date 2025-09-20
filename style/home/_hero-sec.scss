@@ -1,0 +1,457 @@
+// .Hero-content {
+//     h1 {
+//         // font-size: 30px !important;
+//         background: linear-gradient(to left, #262250 30%, #E40724);
+//         -webkit-background-clip: text;
+//         -webkit-text-fill-color: transparent;
+//         font-weight: 700 !important;
+//         // line-height: 55px !important;
+//         font-family: "Poppins", Sans-serif;
+
+//         padding-bottom: 5px;
+//     }
+
+//     p {
+//         // font-size: 15px !important;
+//         background: linear-gradient(to left, #262250 30%, #E40724);
+//         -webkit-background-clip: text;
+//         -webkit-text-fill-color: transparent;
+//         font-weight: 500 !important;
+//         font-family: "Poppins", Sans-serif;
+
+//     }
+
+//     // margin-top: 12px;
+
+
+// }
+
+// .service-icon {
+//     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+//     padding: 10px 10px;
+//     display: flex;
+//     border-radius: 10px;
+//     align-items: center;
+//     column-gap: 10px;
+//     // margin-top: 20px;
+
+//     svg {
+//         font-size: 40px;
+//         fill: #0E1839;
+//     }
+
+//     h4 {
+//         font-size: 14px;
+//         color: #0E1839 !important;
+//         text-transform: uppercase;
+//         font-weight: 400;
+//     }
+// }
+
+// // .crm-icn{
+// //     padding-bottom: 20px !important;
+// //     svg{
+// //         font-size: 50px!important;
+// //     }
+// // }
+// .service-icon:hover {
+//     background: #0E1839;
+
+//     svg {
+//         fill: #fff;
+//         color: #fff;
+//     }
+//     img{
+//          fill: #fff;
+//         color: #fff;
+//     }
+
+//     h4 {
+//         color: #fff !important;
+//     }
+// }
+
+// // .quick-contactsec {
+// //     margin-top: -125px;
+// // }
+
+// // image moving
+
+// /* Container for the image */
+// .robort {
+//     position: relative;
+//     overflow: hidden;
+
+// }
+
+// /* Style for the image */
+// .robort img {
+//     transition: transform 0.3s ease;
+//     /* Smooth transition */
+//     height: "auto";
+//     width: 1440px;
+//     max-height: calc(100vh - 70px);
+//     margin-right: auto;
+//     /* Adjust as needed */
+//     // height: auto;
+//     /* Maintain aspect ratio */
+// }
+
+// /* Hover effect */
+// .robort:hover img {
+//     transform: translate(10px, -10px);
+//     /* Adjust the values as needed */
+// }
+
+// .button-wrapper-s {
+//     display: flex;
+//     flex-direction: row;
+// }
+
+// // .mb-rsbtn {
+
+// //     // width: 167px;
+
+// // }
+
+// @media screen and (max-width:768px) {
+
+//     .home-header-social-icons,
+//     .mb-rsbtn {
+//         display: none !important;
+//     }
+
+//     .home-header .home-header-phone-ic {
+//         display: none !important;
+//     }
+
+//     .quick-contactsec {
+//         margin-top: 0px;
+//     }
+
+//     .quick-form form {
+//         display: block !important;
+//     }
+
+//     .quick-form .infld input,
+//     .quick-form select {
+//         width: 100% !important;
+//         margin-bottom: 10px;
+//     }
+
+//     .quick-form button {
+//         width: 100%;
+//         margin-top: 10px;
+//         margin-bottom: 30px;
+//     }
+
+//     .industrial-iconbox {
+//         display: block !important;
+//     }
+
+//     .industrial-service {
+//         width: 100% !important;
+//     }
+// }
+
+// // Industries Serves
+
+// .Industries-serv {
+//     // padding-top: 60px;
+//     // padding-bottom: 60px;
+
+//     h2 {
+//         color: #000;
+//         font-family: "Poppins", Sans-serif;
+//         font-size: 30px;
+//         font-weight: 500;
+//     }
+
+//     p {
+//         // font-size: 16px;
+//         color: #7a7a7a;
+//         font-family: "Poppins", Sans-serif;
+//         padding-top: 20px;
+//     }
+// }
+
+// .industrial-iconbox {
+//     display: flex;
+//     column-gap: 10px;
+// }
+
+// .Industries-serv {
+//     .col-md-3 {
+//         padding: 3px;
+//         ;
+//     }
+// }
+
+// .industrial-service {
+//     box-shadow: 5px 5px 10px -6px rgba(0, 0, 0, 0.5);
+//     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+//     border-radius: 10px;
+
+//     text-align: center;
+//     padding: 10px;
+//     margin-top: 20px;
+
+//     img {
+//         margin: auto;
+//     }
+
+//     p {
+//         color: #000;
+//         font-family: "Poppins", Sans-serif;
+//         font-size: 12px;
+//         font-weight: 500;
+//     }
+// }
+
+
+// @media screen and (max-width:768px) {
+//     .service-icon h4 {
+//         display: none;
+//     }
+
+//     .service-icon {
+//         justify-content: center;
+//     }
+
+//     .robort {
+//         padding-top: 40px;
+//     }
+
+//     // .Hero-content h1 {
+//     //     font-size: 20px !important;
+//     //     line-height: 30px !important;
+//     // }
+// }
+// // @media  (max-width:1020px) {
+    
+
+// //     .Hero-content h1 {
+// //         font-size: 20px !important;
+// //         line-height: 30px !important;
+// //     }
+// // }
+// // @media (max-width:1920px ) {
+    
+
+// //     .Hero-content h1 {
+// //         font-size: 45px !important;
+// //         line-height: 68px !important;
+// //     }
+// // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // ===================================================================
+// // ===================================================================
+// // ===================================================================
+// // ===================================================================
+// // ===================================================================
+// // ===================================================================
+// // ===================================================================
+// // ===================================================================
+// // ===================================================================
+// // .Hero-content {
+// //     h1 {
+// //         font-size: 42px !important;
+// //         background: linear-gradient(to left, #262250 30%, #e40724);
+// //         -webkit-background-clip: text;
+// //         -webkit-text-fill-color: transparent;
+// //         font-weight: 700 !important;
+// //         line-height: 55px !important;
+// //         font-family: 'Poppins', Sans-serif;
+
+// //         padding-bottom: 5px;
+// //     }
+// //     p {
+// //         font-size: 20px !important;
+// //         background: linear-gradient(to left, #262250 30%, #e40724);
+// //         -webkit-background-clip: text;
+// //         -webkit-text-fill-color: transparent;
+// //         font-weight: 500 !important;
+// //         font-family: 'Poppins', Sans-serif;
+// //     }
+// // }
+// // .service-icon {
+// //     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+// //     padding: 15px 20px;
+// //     display: flex;
+// //     border-radius: 10px;
+// //     align-items: center;
+// //     column-gap: 10px;
+// //     margin-top: 20px;
+
+// //     svg {
+// //         font-size: 40px;
+// //         fill: #0e1839;
+// //     }
+// //     h4 {
+// //         font-size: 14px;
+// //         color: #0e1839 !important;
+// //         text-transform: uppercase;
+// //         font-weight: 400;
+// //     }
+// // }
+// // // .crm-icn{
+// // //     padding-bottom: 20px !important;
+// // //     svg{
+// // //         font-size: 50px!important;
+// // //     }
+// // // }
+// // .service-icon:hover {
+// //     background: #0e1839;
+
+// //     svg {
+// //         fill: #fff;
+// //         color: #fff;
+// //     }
+// //     h4 {
+// //         color: #fff !important;
+// //     }
+// // }
+// // .quick-contactsec {
+// //     margin-top: 60px;
+// // }
+
+// // // image moving
+
+// // /* Container for the image */
+// // .robort {
+// //     position: relative;
+// //     overflow: hidden;
+// // }
+
+// // /* Style for the image */
+// // .robort img {
+// //     transition: transform 0.3s ease; /* Smooth transition */
+// //     width: 100%; /* Adjust as needed */
+// //     min-width: 250px; /* Adjust as needed */
+// //     height: calc(100vh - 80px); /* Maintain aspect ratio */
+// //     min-height: 300px;
+// //     max-height: fit-content;
+// // }
+
+// // /* Hover effect */
+// // .robort:hover img {
+// //     transform: translate(10px, -10px); /* Adjust the values as needed */
+// // }
+
+// // @media screen and (max-width: 768px) {
+// //     .home-header-social-icons,
+// //     .mb-rsbtn {
+// //         display: none !important;
+// //     }
+// //     .home-header .home-header-phone-ic {
+// //         display: none !important;
+// //     }
+// //     .quick-contactsec {
+// //         margin-top: 0px;
+// //     }
+// //     .quick-form form {
+// //         display: block !important;
+// //     }
+// //     .quick-form .infld input,
+// //     .quick-form select {
+// //         width: 100% !important;
+// //         margin-bottom: 10px;
+// //     }
+// //     .quick-form button {
+// //         width: 100%;
+// //         margin-top: 10px;
+// //         margin-bottom: 30px;
+// //     }
+// //     .industrial-iconbox {
+// //         display: block !important;
+// //     }
+// //     .industrial-service {
+// //         width: 100% !important;
+// //     }
+// // }
+
+// // // Industries Serves
+
+// // .Industries-serv {
+// //     // padding-top: 60px;
+// //     // padding-bottom: 60px;
+
+// //     h2 {
+// //         color: #000;
+// //         font-family: 'Poppins', Sans-serif;
+// //         font-size: 30px;
+// //         font-weight: 500;
+// //     }
+// //     p {
+// //         font-size: 16px;
+// //         color: #7a7a7a;
+// //         font-family: 'Poppins', Sans-serif;
+// //         padding-top: 20px;
+// //     }
+// // }
+// // .industrial-iconbox {
+// //     display: flex;
+// //     column-gap: 10px;
+// // }
+// // .Industries-serv {
+// //     .col-md-3 {
+// //         padding: 3px;
+// //     }
+// // }
+// // .industrial-service {
+// //     box-shadow: 5px 5px 10px -6px rgba(0, 0, 0, 0.5);
+// //     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+// //     border-radius: 10px;
+
+// //     text-align: center;
+// //     padding: 10px;
+// //     margin-top: 20px;
+// //     img {
+// //         margin: auto;
+// //     }
+// //     p {
+// //         color: #000;
+// //         font-family: 'Poppins', Sans-serif;
+// //         font-size: 12px;
+// //         font-weight: 500;
+// //     }
+// // }
+
+// // @media screen and (max-width: 768px) {
+// //     .service-icon h4 {
+// //         display: none;
+// //     }
+// //     .service-icon {
+// //         justify-content: center;
+// //     }
+// //     .robort {
+// //         padding-top: 40px;
+// //     }
+// //     .Hero-content h1 {
+// //         font-size: 25px !important;
+// //         line-height: 35px !important;
+// //     }
+// // }
+
+// // @media screen and (max-width: 1200px) {
+// //     .robort img {
+// //         height: calc(100vh - 80px);
+// //     }
+// // }

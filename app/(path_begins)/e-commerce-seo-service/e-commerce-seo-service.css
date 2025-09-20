@@ -1,0 +1,378 @@
+/* Ecommerceseoservicebanner */
+.ecommerceseoservicebanner-main {
+    background: linear-gradient(0deg, rgba(0, 36, 130, 1) 0%, rgba(43, 47, 181, 1) 100%);
+    padding: 80px 0px;
+}
+
+.ecommerceseoservicebanner h1 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.ecommerceseoservicebanner p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ecommerceseoservicebanner button {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    background: #e409cc;
+    border: 2px solid #e409cc;
+    border-radius: 50px;
+    padding: 8px 25px;
+}
+
+.ecommerceseoservicebanner button:hover {
+    color: #e409cc;
+    background: transparent;
+}
+
+@media screen and (max-width: 769px) {
+    .ecommerceseoservicebanner h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .ecommerceseoservicebanner h1 {
+        font-size: 19px;
+    }
+    .ecommerceseoservicebanner p {
+        font-size: 13px;
+    }
+    .ecommerceseoservicebanner button {
+        font-size: 13px;
+        padding: 6px 20px;
+    }
+}
+
+/* provenecommerce */
+.provenecommerce-main {
+    padding: 60px 0px;
+}
+
+.provenecommerce h3 {
+    color: #262250;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.provenecommerce p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .provenecommerce-main {
+        padding: 30px 0px;
+    }
+    .provenecommerce h3 {
+        font-size: 25px;
+    }
+}
+
+/* Ecommerceseoadvantage */
+.ecommerceseoadvantage-main {
+    padding: 60px 0px;
+    background: rgb(245, 245, 245);
+}
+
+.ecommerceseoadvantage h2 {
+    color: #262250;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+
+.ecommerceseoadvantage p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ecommerceseoadvantage img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.ecommerceseoadvantage .icon-color {
+    color: #262250;
+    transition: color 0.3s;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .ecommerceseoadvantage-main {
+        padding: 30px 0px;
+    }
+
+    .ecommerceseoadvantage h2 {
+        font-size: 25px;
+    }
+}
+
+/* Whywebdads2uecommerceseoservices */
+.whywebdads2uecommerceseoservices-main {
+    padding: 60px 0px;
+}
+
+.whywebdads2uecommerceseoservices h2 {
+    color: #262250;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.whywebdads2uecommerceseoservices p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.whywebdads2uecommerceseoservices .icon-color {
+    color: #262250;
+    transition: color 0.3s;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .whywebdads2uecommerceseoservices-main {
+        padding: 30px 0px;
+    }
+
+    .whywebdads2uecommerceseoservices h2 {
+        font-size: 25px;
+    }
+}
+
+/* ecommercecard */
+.ecommercecard-main {
+    padding: 60px 0px;
+    background: rgb(245, 245, 245);
+}
+
+.ecommercecard-hader h4 {
+    color: #262250;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ecommercecard .card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(216, 214, 214, 0.7);
+    /* margin: 20px 0px; */
+    height: 100%;
+    min-height: 350px;
+    max-height: 450px;
+}
+
+.ecommercecard .card:hover {
+    transform: translate3d(0, -30px, 10px);
+    transition: 0.4s;
+    border-radius: 0px;
+}
+
+.ecommercecard img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95px;
+}
+
+.ecommercecard h3 {
+    color: #4d4d4d;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ecommercecard p {
+    color: #5a5a5a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .ecommercecard-main {
+        padding: 30px 0px;
+        background: rgb(245, 245, 245);
+    }
+
+    .ecommercecard-hader h4 {
+        font-size: 25px;
+    }
+}
+
+/* LookingEcommerceSEO */
+.lookingEcommerceseo-main {
+    padding: 60px 0px;
+    background-color: transparent;
+    background-image: linear-gradient(35deg, #0090e4 0%, #1b18a1 100%);
+}
+
+.lookingEcommerceseo h5 {
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.lookingEcommerceseo p {
+    color: #fff;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.lookingEcommerceseo button {
+    color: #000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 18px 40px;
+}
+
+.lookingEcommerceseo button:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+    .lookingEcommerceseo-main {
+        padding: 30px 0px;
+    }
+
+    .lookingEcommerceseo h5 {
+        font-size: 25px;
+    }
+}
+
+/* cmswebsite */
+.cmswebsite-main {
+    padding: 60px 0px;
+}
+
+.cmswebsite-header h6 {
+    color: #262250;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cmswebsite-header p {
+    color: #5a5a5a;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.responsive-cmswebsite-slider img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50vh; */
+}
+
+@media screen and (max-width: 767px) {
+    .cmswebsite-main {
+        padding: 30px 0px;
+    }
+
+    .cmswebsite-header h6 {
+        font-size: 25px;
+    }
+}
+
+/* fqecommerceseoservice-main */
+.fqecommerceseoservice-main {
+    padding: 60px 0px;
+    background: rgb(245, 245, 245);
+}
+
+.fqecommerceseoservice h1 {
+    color: #0a1f5f;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.fqecommerceseoservice p {
+    color: #000;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fqecommerceseoservice-Accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+.fqecommerceseoservice-Accordion .accordion-button {
+    color: rgb(0, 32, 96);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fqecommerceseoservice-Accordion .accordion-body {
+    color: #7a7a7a;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fqecommerceseoservice-Accordion .accordion-button {
+    background: #fff;
+    box-shadow: 4.045px 2.939px 4.5px rgba(51, 171, 191, 0.11);
+}
+
+.fqecommerceseoservice-Accordion .accordion-button::after {
+    /* background-image: url(../../../public/webdads/images/android-app-development/plus-small.png); */
+    transition: all 0.5s;
+    color: #08203a !important;
+}
+
+.fqecommerceseoservice-Accordion .accordion-button:not(.collapsed)::after {
+    /* background-image: url(../../../public/webdads/images/android-app-development/munus-small.png); */
+    color: #08203a !important;
+}
+
+.fqecommerceseoservice-Accordion .accordion-button::after {
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .fqecommerceseoservice-header h1 {
+        font-size: 24px;
+    }
+
+    .fqecommerceseoservice h1 {
+        font-size: 25px;
+    }
+}

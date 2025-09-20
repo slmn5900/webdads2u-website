@@ -1,0 +1,434 @@
+{
+    "header": {
+        "subheader": {
+            "logo": "webdads2u-logo.png",
+            "cta": {
+                "label": "Get Started",
+                "link": "#",
+                "style": "outlined",
+                "color": "error"
+            }
+        },
+        "page": "Broucher",
+        "title": "Empowering Businesses through Web Solutions",
+        "subtitle": "Masters of Cutting-Edge Technology in Web Solutions",
+        "badge": {
+            "text": "Flyer",
+            "style": "rounded",
+            "color": "primary"
+        },
+        "form": {
+            "fields": [
+                {
+                    "label": "Name",
+                    "name": "name",
+                    "type": "text",
+                    "placeholder": "Enter your name",
+                    "icon": "lucide:user"
+                },
+                {
+                    "label": "Phone Number",
+                    "name": "phone",
+                    "type": "tel",
+                    "placeholder": "Enter your phone number",
+                    "icon": "lucide:phone"
+                }
+            ],
+            "actions": [
+                {
+                    "label": "Contact Us",
+                    "type": "submit",
+                    "style": "contained",
+                    "color": "error",
+                    "icon": "lucide:mail"
+                },
+                {
+                    "label": "Whatsapp",
+                    "type": "link",
+                    "href": "https://wa.me/9188256 07550",
+                    "style": "contained",
+                    "color": "success",
+                    "icon": "lucide:message-circle"
+                }
+            ]
+        },
+        "contact_info": {
+            "email": "info@webdads2u.com",
+            "phone": "88256 07550"
+        },
+        "gallery": {
+            "title": "Our Work",
+           "images": [
+  {
+    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756900610/landing-page/flyer-design-company/tidc-flyerdesign.jpg",
+    "title": "tidc flyerdesign"
+  },
+  {
+    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756900770/landing-page/flyer-design-company/juniya-flyerdesign.jpg",
+    "title": "juniya flyerdesign"
+  },
+  {
+    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756900774/landing-page/flyer-design-company/aynhayat-flyerdesign.jpg",
+    "title": "aynhayat flyerdesign"
+  },
+  {
+    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756900787/landing-page/flyer-design-company/globalenterprises-flyerdesign.jpg",
+    "title": "globalenterprises flyerdesign"
+  },
+  {
+    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756900795/landing-page/flyer-design-company/magmee-flyerdesign.jpg",
+    "title": "magmee flyerdesign"
+  },
+  {
+    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756900801/landing-page/flyer-design-company/skp-flyerdesign.jpg",
+    "title": "skp flyerdesign"
+  },
+  {
+    "url": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756900805/landing-page/flyer-design-company/tasty2eat-flyerdesign.jpg",
+    "title": "tasty2eat flyerdesign"
+  }
+]
+
+        }
+    },
+    "clients": {
+        "title": "Showcasing Our Trusted Clients: Partners in Success",
+        "logos": [
+            {
+                "name": "TEAM",
+                "logo": "webdadsnewImages/webdevelopment/clientslogo/teamlogo.png"
+            },
+            {
+                "name": "BEST",
+                "logo": "webdadsnewImages/webdevelopment/clientslogo/bestlogo.png"
+            },
+            {
+                "name": "DIAMOND",
+                "logo": "webdadsnewImages/webdevelopment/clientslogo/diamond.png"
+            },
+            {
+                "name": "Pediatric-Association",
+                "logo": "webdadsnewImages/webdevelopment/clientslogo/pediatric-association.png"
+            },
+            {
+                "name": "Lead-G",
+                "logo": "webdadsnewImages/webdevelopment/clientslogo/leadlogo.png"
+            },
+            {
+                "name": "Skill-Tech",
+                "logo": "webdadsnewImages/webdevelopment/clientslogo/skill-logo.png"
+            },
+            {
+                "name": "B-Square",
+                "logo": "webdadsnewImages/webdevelopment/clientslogo/b-square.png"
+            },
+            {
+                "name": "ZEN",
+                "logo": "webdadsnewImages/webdevelopment/clientslogo/zenlogo.png"
+            }
+        ]
+    },
+    "why_choose_us": {
+        "heading": "Why Choose WEBDADS2U?",
+        "subheading": "Discover Our Expertise as a Wordpress Web Design and Development Company",
+        "description": "Webdads2u Private Limited was founded in 2013 to help companies to achieve their business goals on the Web in the best way.",
+        "services": [
+            {
+                "title": "Custom WordPress Development",
+                "description": "Our web developers excel in creating commercially successful and popular websites.",
+                "icon": "/webdadsNewImages/common-icon/why-choose/Group.svg"
+            },
+            {
+                "title": "WordPress Theme Customization",
+                "description": "Great design drives results — we go beyond creativity to connect your brand with your audience.",
+                "icon": "/webdadsNewImages/common-icon/why-choose/painting-brush_9175169 1.svg"
+            },
+            {
+                "title": "WordPress Theme integration",
+                "description": "Enhance your site's appeal and user interaction with our seamless custom theme integration services.",
+                "icon": "/webdadsNewImages/common-icon/why-choose/Vector.svg"
+            }
+        ],
+        "stats": [
+            {
+                "label": "Years of Experience",
+                "value": "10+",
+                "icon": "/webdadsNewImages/common-icon/why-choose/Group.png"
+            },
+            {
+                "label": "Sales Closed",
+                "value": "300+",
+                "icon": "/webdadsNewImages/common-icon/why-choose/Frame 1984078326 (1).svg"
+            },
+            {
+                "label": "Successful Projects",
+                "value": "250+",
+                "icon": "/webdadsNewImages/common-icon/why-choose/file_13194621 1.png"
+            },
+            {
+                "label": "Satisfied Clients",
+                "value": "150+",
+                "icon": "/webdadsNewImages/common-icon/why-choose/Group 1000001788.png"
+            }
+        ]
+    },
+    "voiceoftrust": {
+        "title": "Voices of Trust That Shaped Our Reliable Reputation",
+        "subtitle": "Real Stories. Real Impact.",
+        "carousel": {
+            "activeIndex": 0,
+            "cards": [
+                {
+                    "name": "Client A",
+                    "designation": "CEO, Company A",
+                    "feedback": "Webdads2u helped transform our online business with React. The performance boost was noticeable immediately.",
+                    "icon": "lucide:quote"
+                },
+                {
+                    "name": "Client B",
+                    "designation": "CTO, Startup B",
+                    "feedback": "Their migration to React improved our scalability and speed dramatically. Highly recommended!",
+                    "icon": "lucide:quote"
+                },
+                {
+                    "name": "Client C",
+                    "designation": "Founder, Agency C",
+                    "feedback": "Reliable, skilled, and professional — Webdads2u has been a trusted partner throughout our growth.",
+                    "icon": "lucide:quote"
+                }
+            ],
+            "indicators": {
+                "total": 3,
+                "activeColor": "#ff1e3e",
+                "inactiveColor": "#7c7c7c"
+            }
+        }
+    },
+    "google_reviews": {
+        "title": "Discover how strong partnerships fuel great outcomes.",
+        "subtitle": "Google reviews",
+        "reviews": [
+            {
+                "name": "Krishna Moorthy",
+                "initial": "K",
+                "avatarStyle": "circle",
+                "ratingPlatform": "Google",
+                "review": "Lorem ipsum dolor sit amet consectetur. Malesuada mauris erat amet semper in ut aliquam sagittis. Ipsum quis neque amet parturient lacus penatibus.",
+                "icon": "/webdadsNewImages/flyer/devicon_google.png"
+            },
+            {
+                "name": "Krishna Moorthy",
+                "initial": "K",
+                "avatarStyle": "circle",
+                "ratingPlatform": "Google",
+                "review": "Lorem ipsum dolor sit amet consectetur. Malesuada mauris erat amet semper in ut aliquam sagittis. Ipsum quis neque amet parturient lacus penatibus.",
+                "highlighted": true,
+                "icon": "/webdadsNewImages/flyer/devicon_google.png"
+            },
+            {
+                "name": "Krishna Moorthy",
+                "initial": "K",
+                "avatarStyle": "circle",
+                "ratingPlatform": "Google",
+                "review": "Lorem ipsum dolor sit amet consectetur. Malesuada mauris erat amet semper in ut aliquam sagittis. Ipsum quis neque amet parturient lacus penatibus.",
+                "icon": "/webdadsNewImages/flyer/devicon_google.png"
+            },
+            {
+                "name": "Krishna Moorthy",
+                "initial": "K",
+                "avatarStyle": "circle",
+                "ratingPlatform": "Google",
+                "review": "Lorem ipsum dolor sit amet consectetur. Malesuada mauris erat amet semper in ut aliquam sagittis. Ipsum quis neque amet parturient lacus penatibus.",
+                "icon": "/webdadsNewImages/flyer/devicon_google.png"
+            }
+        ]
+    },
+    "project_portfolio": {
+        "title": "Highlights from Our Project Portfolio",
+        "cta": {
+            "label": "Contact",
+            "link": "#contact",
+            "style": "contained",
+            "color": "error",
+            "icon": "lucide:send"
+        },
+        "description": "Choosing the best WordPress development company in Chennai means working with experienced developers who specialize in creating websites that are both user-friendly and high-performing. We deliver customized solutions tailored to your business needs.",
+        "projects": [
+            {
+                "name": "",
+                "image": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756900610/landing-page/flyer-design-company/tidc-flyerdesign.jpg",
+                "url": "",
+                "icon": "lucide:layout-template"
+            },
+            {
+                "name": "",
+                "image": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756900770/landing-page/flyer-design-company/juniya-flyerdesign.jpg",
+                "url": "",
+                "icon": "lucide:briefcase"
+            },
+            {
+                "name": " ",
+                "image":"https://res.cloudinary.com/dbpv95wd8/image/upload/v1756900774/landing-page/flyer-design-company/aynhayat-flyerdesign.jpg",
+                "url": "",
+                "icon": "lucide:home"
+            }
+        ],
+        "carousel": {
+            "indicators": true,
+            "activeIndex": 0,
+            "totalSlides": 3,
+            "activeColor": "#ff1e3e",
+            "inactiveColor": "#ccc"
+        }
+    },
+        "logo_design": [
+        {
+            "title": "Logo Design",
+            "description": "Lorem ipsum dolor sit amet consectetur.",
+            "features": [
+                "Lorem ipsum dolor sit amet consectetur.",
+                "Malesuada mauris erat amet semper in ut aliquam sagittis.",
+                "Ipsum quis neque amet parturient lacus penatibus.",
+                "Ipsum quis neque amet parturient lacus penatibus."
+            ],
+            "icons": {
+                "logo": "pen-square",
+                "design": "palette",
+                "feature": "check-circle"
+            },
+            "image": {
+                "file_name": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756899312/webdads2u/scroll/arcmen.svg",
+                "alt_text": "arcmen"
+            }
+        },
+        {
+            "title": "Logo Design",
+            "description": "Lorem ipsum dolor sit amet consectetur.",
+            "features": [
+                "Lorem ipsum dolor sit amet consectetur.",
+                "Malesuada mauris erat amet semper in ut aliquam sagittis.",
+                "Ipsum quis neque amet parturient lacus penatibus.",
+                "Ipsum quis neque amet parturient lacus penatibus."
+            ],
+            "icons": {
+                "logo": "pen-square",
+                "design": "palette",
+                "feature": "check-circle"
+            },
+            "image": {
+                "file_name": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756899317/webdads2u/scroll/broucher-design.jpg",
+                "alt_text": "broucher design"
+            }
+        },
+        {
+            "title": "Logo Design",
+            "description": "Lorem ipsum dolor sit amet consectetur.",
+            "features": [
+                "Lorem ipsum dolor sit amet consectetur.",
+                "Malesuada mauris erat amet semper in ut aliquam sagittis.",
+                "Ipsum quis neque amet parturient lacus penatibus.",
+                "Ipsum quis neque amet parturient lacus penatibus."
+            ],
+            "icons": {
+                "logo": "pen-square",
+                "design": "palette",
+                "feature": "check-circle"
+            },
+            "image": {
+                "file_name": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756899314/webdads2u/scroll/socialmedia-design.jpg",
+                "alt_text": "socialmedia design"
+            }
+        },
+        {
+            "title": "Logo Design",
+            "description": "Lorem ipsum dolor sit amet consectetur.",
+            "features": [
+                "Lorem ipsum dolor sit amet consectetur.",
+                "Malesuada mauris erat amet semper in ut aliquam sagittis.",
+                "Ipsum quis neque amet parturient lacus penatibus.",
+                "Ipsum quis neque amet parturient lacus penatibus."
+            ],
+            "icons": {
+                "logo": "pen-square",
+                "design": "palette",
+                "feature": "check-circle"
+            },
+            "image": {
+                "file_name": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756899322/webdads2u/scroll/businesscard-design.jpg",
+                "alt_text": "businesscard design"
+            }
+        },
+        {
+            "title": "Logo Design",
+            "description": "Lorem ipsum dolor sit amet consectetur.",
+            "features": [
+                "Lorem ipsum dolor sit amet consectetur.",
+                "Malesuada mauris erat amet semper in ut aliquam sagittis.",
+                "Ipsum quis neque amet parturient lacus penatibus.",
+                "Ipsum quis neque amet parturient lacus penatibus."
+            ],
+            "icons": {
+                "logo": "pen-square",
+                "design": "palette",
+                "feature": "check-circle"
+            },
+            "image": {
+                "file_name": "https://res.cloudinary.com/dbpv95wd8/image/upload/v1756899313/webdads2u/scroll/letterhead-design.jpg",
+                "alt_text": "letterhead design"
+            }
+        }
+    ],
+    "contact_section": {
+        "title": "Ready to Become a World-Class Brand?",
+        "description": "Let's discuss how we can help you achieve your goals. Fill out the form below and we'll get back to you within 24 hours.",
+        "form": {
+            "fields": [
+                {
+                    "label": "First Name",
+                    "name": "firstName",
+                    "type": "text",
+                    "placeholder": "Enter your first name",
+                    "icon": "lucide:user"
+                },
+                {
+                    "label": "Last Name",
+                    "name": "lastName",
+                    "type": "text",
+                    "placeholder": "Enter your last name",
+                    "icon": "lucide:user"
+                },
+                {
+                    "label": "Email",
+                    "name": "email",
+                    "type": "email",
+                    "placeholder": "Enter your email",
+                    "icon": "lucide:mail"
+                },
+                {
+                    "label": "Phone Number",
+                    "name": "phone",
+                    "type": "tel",
+                    "placeholder": "Enter your phone number",
+                    "icon": "lucide:phone"
+                },
+                {
+                    "label": "Message",
+                    "name": "message",
+                    "type": "textarea",
+                    "placeholder": "Write your message..",
+                    "icon": "lucide:message-square"
+                }
+            ],
+            "submit_button": {
+                "label": "Send a Message",
+                "style": "contained",
+                "color": "error",
+                "icon": "lucide:send"
+            }
+        },
+        "contact_info": {
+            "email": "info@webdads2u.com",
+            "phone": "8825 6075 50"
+        }
+    }
+}
