@@ -1,5 +1,6 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
+import Blogmain from './Blogmain';
 const UnderConstruction = dynamic(() => import('./UnderConstructions'), { ssr: false });
 
 export const metadata = {
@@ -13,7 +14,7 @@ const Page = () => {
         //         <Lottie animationData={UnderConstruction} loop autoplay />
         //     </div>
         <div>
-            <UnderConstruction />
+            <Blogmain />
         </div>
     );
 };
