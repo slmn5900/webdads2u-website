@@ -147,6 +147,9 @@ function Webhero() {
                             <div className="text-center stream-websec">
                                 <img alt="" src="/webdads/images/webdesign/stream-2-joomla.webp"></img>
                             </div>
+                            <div className="text-center stream-websec">
+                                <img alt="" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410092/webdads2u/web-design/icons/sql-server.png"></img>
+                            </div>
                         </Col>
                         <Col md={4}>
                             <div className="pt-4 mt-4 stream-websec">

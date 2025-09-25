@@ -37,7 +37,7 @@ function UXdesign() {
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757482532/webdads2u/ui-ux/ui-ux-design.png" alt="ipad" width={'400px'} style={{ marginRight: 'auto' }} loading="lazy" className="img-fluid" />
-                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757482531/webdads2u/ui-ux/ui-ux-design-company.png" alt="about_s4_bubble" width={'300px'} loading="lazy" className="img-fluid img-2" />
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757482531/webdads2u/ui-ux/ui-ux-design-company.png" alt="about_s4_bubble" width={'250px'} loading="lazy" className="img-fluid img-2" />
                     </div>
                 </div>
             </div>

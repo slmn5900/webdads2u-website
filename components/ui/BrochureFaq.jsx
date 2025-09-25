@@ -43,7 +43,10 @@ function BrochureFaq() {
                             >
                                 {descriptions}
                             </Typography>
+
+
                         </Box>
+                      
                     </Grid2>
 
                     {/* Right Column - Accordion */}

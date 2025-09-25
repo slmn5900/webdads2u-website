@@ -129,14 +129,14 @@ export default function Customwebdesignbanner() {
                                         fontSize: {
                                             xs: '1.5rem', // ~h5
                                             sm: '2rem', // ~h4
-                                            md: '2.5rem' // ~h2
+                                            md: '2rem' // ~h2
                                         },
-                                        textAlign: 'center'
+                                        textAlign: 'start'
                                     }}
                                 >
                                     Custom web designing services in Chennai
                                 </Typography>
-                                <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
+                                <Typography variant="body1" color="text.secondary" sx={{ mb: 3,color:"white" }}>
                                     Our custom web design services at Webdads2u offer tailored solutions to elevate your online presence. With a keen focus on client needs, we craft bespoke websites that reflect your brand identity and meet your
                                     unique requirements.
                                 </Typography>

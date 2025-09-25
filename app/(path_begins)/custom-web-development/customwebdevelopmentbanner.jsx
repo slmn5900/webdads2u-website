@@ -14,7 +14,9 @@ function Customwebdevelopmentbanner() {
                 background: `url(${header_section?.bg_img})`,
                 py: { xs: 6, md: 10 },
                 px: { xs: 2, md: 6 },
-                backgroundColor: '#f9f9f9'
+                backgroundColor: '#f9f9f9',
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover'
             }}
         >
             <Grid2 container spacing={4} alignItems="start" justifyContent="space-between">

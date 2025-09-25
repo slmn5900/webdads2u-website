@@ -178,7 +178,7 @@ export default function Domainname() {
                 </Grid2>
 
                 {/* Domain Cards */}
-                <Grid2 container spacing={4} justifyContent="start">
+                <Grid2 container spacing={4} justifyContent="center">
                     {domains.map((domain, index) => (
                         <Grid2 size={{ xs: 12, sm: 6, md: 4, lg: 3 }} key={domain.title}>
                             <motion.div custom={index} initial="hidden" whileInView="visible" variants={cardVariants} viewport={{ once: true }} whileHover={{ scale: 1.05 }}>

@@ -99,7 +99,7 @@ export default function WordpressCard() {
                                         textAlign: 'center',
                                         borderRadius: 3,
                                         boxShadow: card.noShadow ? 'none' : 3,
-                                        background: !card.noShadow ? '#F1FBFF' : 3,
+                                        background: '#F1FBFF',
                                         height: '100%',
                                         transition: 'all 0.3s ease',
                                         '&:hover': card.noShadow ? {} : { transform: 'translateY(-6px)', boxShadow: 6 }

@@ -23,7 +23,7 @@ export default function Themes() {
                                     width: '100%',
                                     maxWidth: 500,
                                     borderRadius: 2,
-                                    boxShadow: 3
+                                    // boxShadow: 3
                                 }}
                             />
                         </motion.div>
@@ -31,7 +31,7 @@ export default function Themes() {
 
                     {/* Right Content */}
                     <Grid2 size={{ xs: 12, md: 6 }}>
-                        <motion.div initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }} viewport={{ once: true, amount: 0.3 }}>
+                        <motion.div   transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }} viewport={{ once: true, amount: 0.3 }}>
                             <Typography variant="h4" fontWeight="bold" gutterBottom sx={{ lineHeight: 1.3 }}>
                                 What are Themes?
                             </Typography>

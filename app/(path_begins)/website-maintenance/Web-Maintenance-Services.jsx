@@ -10,7 +10,7 @@ function Webmaintenanceservices() {
                     <p>All you need to keep your website 100% Secure and updated</p>
                 </div>
             </div>
-            <div className="row webmaintenanceservices-card">
+            <div className="row webmaintenanceservices-card pt-4">
                 <div className="col-sm-12 col-md-6 col-lg-4 mb-5">
                     <div className="card text-center">
                         <div className="img-box">

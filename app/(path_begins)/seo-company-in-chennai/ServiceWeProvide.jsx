@@ -67,7 +67,7 @@ const serviceData = [
             'Experience the magic of storytelling with our Content Writing Service. We don’t just craft words; we weave narratives that resonate deeply. From compelling copy to engaging articles, we breathe life into your brand’s voice. Let your story ignite emotions, captivate audiences, and forge lasting connections in the hearts of your readers.',
         links: [],
         navigateTo: '/content-writing-service',
-        imgUrl: 'https://res.cloudinary.com/dbpv95wd8/images/v1704887249/link-bulding/link-bulding.png?_i=AA'
+        imgUrl: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758106939/webdads2u/seo-company-in-chennai/content-writing.png'
     }
 ];
 

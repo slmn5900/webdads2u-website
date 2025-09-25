@@ -56,7 +56,8 @@ export default function ResponsiveWebdesigncompanychennai() {
                                 }}
                                 slidesPerView={1}
                                 style={{
-                                    borderRadius: '20px'
+                                    borderRadius: '20px',
+                                    paddingBottom:"20px"
                                     // boxShadow: '0 6px 20px rgba(0,0,0,0.1)'
                                 }}
                             >

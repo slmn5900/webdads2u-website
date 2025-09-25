@@ -118,7 +118,7 @@ const WordpressDevelopmentBanner = () => {
                     <Grid2 size={{ xs: 12, md: 5 }} sx={{ position: 'relative', display: { xs: 'none', md: 'block' } }}>
                         {/* Background Image */}
                         <motion.img
-                            src="/webdads/images/wordpress-development/W-Background.png"
+                            src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1758520973/webdads2u/wordpress-development/banner-background.png"
                             alt="WordPress Background"
                             loading="lazy"
                             initial={{ opacity: 0, scale: 0.9 }}

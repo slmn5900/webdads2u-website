@@ -166,7 +166,7 @@ function Footer() {
             >
                 <Box
                     component="img"
-                    src="https://webdads2u.com/wp-content/uploads/2023/09/contact-background.png"
+                    src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1758522985/webdads2u/mainpage/contact-background.png"
                     alt="background"
                     sx={{
                         position: 'absolute',

@@ -161,7 +161,7 @@ font-size: 12px;
     animation: mover 1s infinite alternate;
 }
 
-.Ourplatform h5{
+.Ourplatform h5,h4{
     color: #16186D;
     font-family: "Poppins", Sans-serif;
     font-size: 25px;

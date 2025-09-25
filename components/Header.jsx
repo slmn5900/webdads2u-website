@@ -329,9 +329,11 @@ export default function Header(props) {
                             <AccordionDetails sx={{ maxHeight: '60vh', overflowY: 'auto' }}>
                                 {servicesDropdownDatas.map((group) => (
                                     <Box key={group.label} sx={{ mb: 0 }}>
-                                        <Typography variant="subtitle2" fontWeight={600} sx={{ color: '#871752', mb: 1 }}>
-                                            {group.label}
-                                        </Typography>
+                                        <Box component={Link} href={group.link} sx={{ textDecoration: 'none', color: 'black' }}>
+                                            <Typography variant="subtitle2" fontWeight={600} sx={{ color: '#871752', mb: 1 }}>
+                                                {group.label}
+                                            </Typography>
+                                        </Box>
                                         <Stack spacing={0.5}>
                                             {group.items.map((item) => (
                                                 <Box key={item.label} component={Link} href={item.link} sx={{ textDecoration: 'none', color: 'black' }}>

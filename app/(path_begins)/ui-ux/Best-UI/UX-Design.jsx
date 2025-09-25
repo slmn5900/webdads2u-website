@@ -93,7 +93,7 @@ export default function Uxdesign() {
                                     top: '0',
                                     right: '50px',
                                     transform: 'translateX(-50%)',
-                                    width: 250
+                                    width: 200
                                 }}
                             />
                         </motion.div>

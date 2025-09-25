@@ -217,7 +217,7 @@ export default function Customwebdevelopmentservices() {
                                 </Box>
 
                                 {/* Text */}
-                                <CardContent sx={{ mt: -3 }}>
+                                <CardContent sx={{ mt: 3 }}>
                                     <Typography
                                         variant="h6"
                                         fontWeight={600}

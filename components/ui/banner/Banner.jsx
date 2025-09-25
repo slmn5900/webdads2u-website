@@ -57,7 +57,8 @@ export default function Banner() {
                             size={{ xs: 12, md: 6, lg: 5 }}
                             sx={{
                                 order: { xs: 2, md: 2 },
-                                display: { xs: 'none', sm: 'none', md: 'block', lg: 'block' }
+                                display: { xs: 'none', sm: 'none', md: 'block', lg: 'block' },
+                                margin: 'auto'
                             }}
                         >
                             <BannerRight />

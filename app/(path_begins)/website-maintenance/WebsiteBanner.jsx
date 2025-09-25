@@ -87,7 +87,7 @@ export default function WebsiteMaintenanceHero() {
                     bottom: 0,
                     left: 0,
                     width: '100%',
-                    maxHeight: { xs: '140px', md: '400px' },
+                    maxHeight: { xs: '140px', md: '300px' },
                     objectFit: 'contain'
                 }}
             />

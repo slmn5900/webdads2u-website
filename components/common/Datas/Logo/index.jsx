@@ -1,5 +1,5 @@
 export const Logos = [
-    { name: 'teamwater', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465180/logo/teamwater.jpg' },
+    { name: 'teamwater', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758348751/webdads2u/mainpage/icons/team-water-logo.jpg' },
     { name: 'pediatrics', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465148/logo/pediatrics.jpg' },
     { name: 'high lock fitting', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465214/logo/highlock-fitting.jpg' },
     { name: 'general healthcare', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465214/logo/generalhealthcare.jpg' },

@@ -149,7 +149,7 @@ export default function DigitalMarketing() {
                                     size={{
                                         xs: 6,
                                         sm: 6,
-                                        md: 6
+                                        md: 12
                                     }}
                                     key={i}
                                     sx={{ cursor: 'pointer' }}
@@ -166,7 +166,7 @@ export default function DigitalMarketing() {
                             ))}
                         </Grid2>
                     </Grid2>
-                    <Grid2 size={{ xs: 12, sm: 6 }}>
+                    <Grid2 size={{ xs: 12, sm: 12 }}>
                         {/* Search Engine Marketing */}
                         <Typography variant={isSmDown ? 'h6' : 'h5'} mt={4} gutterBottom fontWeight={600} sx={{ fontFamily: 'Poppins' }}>
                             Search Engine Marketing

@@ -331,7 +331,7 @@
     color: #262250;
     font-family: 'Poppins', Sans-serif;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 2rem;
 }
 
@@ -354,7 +354,7 @@
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: start;
 }
 
 .ux-card-over p {
@@ -466,6 +466,7 @@
     position: relative;
     z-index: 1;
     width: 100px;
+   
 }
 
 .websiteUXUIdesigningservices .card {
@@ -478,6 +479,7 @@
     border-radius: 10px;
     margin-bottom: 20px;
      height: 300px;
+    
 }
 
 .websiteUXUIdesigningservices .card:hover {
@@ -492,6 +494,7 @@
     font-size: 20px;
     font-weight: 600;
     margin: 10px 0px;
+      padding-top: 20px;
 }
 
 .websiteUXUIdesigningservices p {

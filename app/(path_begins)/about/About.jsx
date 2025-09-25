@@ -394,7 +394,7 @@ const AboutPage = () => {
                             <Typography variant="h4" sx={{ color: '#262250', fontWeight: 700, mb: 2, fontSize: { xs: '1.235rem', sm: '1.235rem', md: '2.125rem' } }}>
                                 About us
                             </Typography>
-                            <Typography variant="h4" sx={{ color: '#000001', fontWeight: 700, mb: 2, fontSize: { xs: '1.235rem', sm: '1.235rem', md: '2.125rem' } }}>
+                            <Typography variant="h4" sx={{ color: '#000001', fontWeight: 700, mb: 2, fontSize: { xs: '1.rem', sm: '1.235rem', md: '2.125rem' } }}>
                                 Choose The Best IT Service Company
                             </Typography>
                             <Typography variant="body1" sx={{ color: '#474646', lineHeight: 1.8, mb: 2 }}>
@@ -405,7 +405,7 @@ const AboutPage = () => {
                                 considered the best in Chennai’s IT service landscape. Passionate and dedicated, we excel in website and app development, SEO strategies, and crafting impactful digital marketing campaigns. As the best IT service
                                 company in Chennai, our commitment to excellence drives us to deliver cutting-edge solutions that surpass client expectations, propelling businesses toward online success.
                             </Typography>
-                            <Typography variant="body1" sx={{ color: '#474646', lineHeight: 1.8, mb: 2 }}>
+                            <Typography variant="body1" sx={{ color: '#474646', lineHeight: 1.8, mb: 2,fontSize: { xs: 12, md: 19 } }}>
                                 At Webdads2u Pvt Ltd, our ethos revolves around client-centricity and innovation. We pride ourselves on not just offering services but fostering enduring partnerships. With a focus on trust, transparency, and achieving
                                 business objectives, we aim to empower businesses in navigating and thriving within the digital realm.
                             </Typography>
@@ -470,7 +470,7 @@ const AboutPage = () => {
                                 </Card>
                             </motion.div>
                         </Box>
-                        <Typography variant="body1" sx={{ color: '#474646', lineHeight: 1.8, mt: 2 }}>
+                        <Typography variant="body1" sx={{ color: '#474646', lineHeight: 1.8, mt: 2 ,fontSize: { xs: 12, md: 19 }}}>
                             As the best IT service company in Chennai, Webdads2u Pvt Ltd is committed to being a catalyst for businesses seeking digital growth. Our expertise extends beyond conventional service provision; we serve as strategic
                             partners, guiding clients through the intricacies of the digital landscape.
                         </Typography>
@@ -537,7 +537,7 @@ const AboutPage = () => {
                                             <Typography variant="h6" sx={{ textAlign: 'center', mb: 2 }}>
                                                 {value.title}
                                             </Typography>
-                                            <Typography variant="body2" sx={{ textAlign: 'center', lineHeight: 1.6 }}>
+                                            <Typography variant="body2" sx={{ textAlign: 'center', lineHeight: 1.6, fontSize: { xs: 12, md: 19 } }}>
                                                 {value.description}
                                             </Typography>
                                         </CardContent>
@@ -550,7 +550,7 @@ const AboutPage = () => {
             </Box>
 
             {/* Testimonials with Swiper */}
-            <Box sx={{ backgroundImage: `url(https://res.cloudinary.com/dbpv95wd8/image/upload/v1746193416/bg-testimonial1_edba8a.jpg)`, backgroundSize: 'cover', py: 6, backgroundRepeat: 'no-repeat' }}>
+            {/* <Box sx={{ backgroundImage: `url(https://res.cloudinary.com/dbpv95wd8/image/upload/v1746193416/bg-testimonial1_edba8a.jpg)`, backgroundSize: 'cover', py: 6, backgroundRepeat: 'no-repeat' }}>
                 <Container>
                     <Grid2 container>
                         <Grid2 size={{ xs: 12, md: 6 }}>
@@ -572,6 +572,113 @@ const AboutPage = () => {
                                                 {testimonial.name}
                                             </Typography>
                                             <Typography variant="subtitle1" sx={{ textAlign: 'center', color: '#262250', fontWeight: 'bold' }}>
+                                                {testimonial.role}
+                                            </Typography>
+                                        </Box>
+                                    </SwiperSlide>
+                                ))}
+                            </Swiper>
+                        </Grid2>
+                    </Grid2>
+                </Container>
+            </Box> */}
+
+            <Box
+                sx={{
+                    backgroundImage: `url(https://res.cloudinary.com/dbpv95wd8/image/upload/v1746193416/bg-testimonial1_edba8a.jpg)`,
+                    backgroundSize: 'cover',
+                    py: 6,
+                    backgroundRepeat: 'no-repeat'
+                }}
+            >
+                <Container>
+                    <Grid2 container>
+                        <Grid2 size={{ xs: 12, md: 6 }}>
+                            <Typography variant="h6" sx={{ color: '#262250', fontWeight: 700, mb: 1 }}>
+                                Testimonial
+                            </Typography>
+                            <Typography variant="h5" sx={{ fontWeight: 700, mb: 4 }}>
+                                Few of Our Client’s feedback of users!
+                            </Typography>
+
+                            <Swiper
+                                modules={[Autoplay, Pagination]}
+                                spaceBetween={30}
+                                slidesPerView={1}
+                                autoplay={{ delay: 3000, disableOnInteraction: false }}
+                                loop={true}
+                                pagination={{ clickable: true }}
+                                style={{ paddingBottom: '40px' }} // extra space for dots
+                            >
+                                {testimonials.map((testimonial, index) => (
+                                    <SwiperSlide key={index}>
+                                        <Box
+                                            sx={{
+                                                display: 'flex',
+                                                justifyContent: 'center',
+                                                flexDirection: 'column',
+                                                alignItems: 'center',
+                                                '& .swiper-pagination-bullet': {
+                                                    background: '#800080', // purple dots
+                                                    opacity: 0.4,
+                                                    width: 12,
+                                                    height: 12
+                                                },
+                                                '& .swiper-pagination-bullet-active': {
+                                                    background: '#800080', // active purple dot
+                                                    opacity: 1,
+                                                    width: 14,
+                                                    height: 14
+                                                },
+                                                '& .swiper-pagination': {
+                                                    bottom: '0px !important', // push to bottom
+                                                    textAlign: 'center'
+                                                }
+                                            }}
+                                        >
+                                            <motion.img
+                                                src={testimonial.imgSrc}
+                                                alt={testimonial.name}
+                                                style={{
+                                                    width: 100,
+                                                    height: 100,
+                                                    borderRadius: '50%',
+                                                    marginBottom: 16
+                                                }}
+                                                whileHover={{ scale: 1.05 }}
+                                            />
+                                            <Typography
+                                                variant="body1"
+                                                sx={{
+                                                    textAlign: 'center',
+                                                    color: '#162541',
+                                                    fontStyle: 'italic',
+                                                    lineHeight: 1.6,
+                                                    mb: 2,
+                                                    maxWidth: '80%',
+                                                    mx: 'auto'
+                                                }}
+                                            >
+                                                {testimonial.content}
+                                            </Typography>
+                                            <Typography
+                                                variant="h6"
+                                                sx={{
+                                                    textAlign: 'center',
+                                                    color: '#0c0022',
+                                                    fontWeight: 'bold'
+                                                }}
+                                            >
+                                                {testimonial.name}
+                                            </Typography>
+                                            <Typography
+                                                variant="subtitle1"
+                                                sx={{
+                                                    textAlign: 'center',
+                                                    color: '#262250',
+                                                    fontWeight: 'bold'
+                                                }}
+                                            >
                                                 {testimonial.role}
                                             </Typography>
                                         </Box>

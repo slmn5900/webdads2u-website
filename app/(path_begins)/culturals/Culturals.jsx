@@ -142,7 +142,7 @@ export default function Culturals() {
 
             {/* Celebration Images */}
             <Container maxWidth="lg" sx={{ pb: 5 }}>
-                <Grid2 container spacing={2} justifyContent="center">
+                <Grid2 container spacing={4} justifyContent="center">
                     {celebrationImages.map((src, index) => (
                         <Grid2 key={index} size={{ xs: 12, sm: 6, md: 4 }} sx={{ display: 'flex', justifyContent: 'center' }}>
                             <Box

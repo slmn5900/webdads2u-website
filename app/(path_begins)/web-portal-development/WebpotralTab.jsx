@@ -189,7 +189,7 @@ const tabData = [
         contentTitle: 'Travel Portal Development',
         contentDesc:
             'Embark on a journey with our Travel Web Portal Development services! Our team specializes in Web Portal Development tailored for the travel industry. We create intuitive portals that provide seamless booking experiences for travelers. From flight and hotel reservations to tour packages, our travel portals are designed to enhance efficiency and customer satisfaction. Contact us today to get started!',
-        contentImg: '/webdads/images/webportal/travelportal-development.png'
+        contentImg: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758520721/webdads2u/web-portal-development/travelportal-development.png'
     }
 ];
 

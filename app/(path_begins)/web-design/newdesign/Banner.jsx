@@ -129,21 +129,23 @@ export default function Banner() {
                                         animation: 'float 5s ease-in-out infinite 1s'
                                     }}
                                 />
-                                <Box
-                                    component="img"
-                                    alt="Php icon"
-                                    src={image7}
-                                    sx={{
-                                        position: 'absolute',
-                                        bottom: { xs: '2%', md: '50%' },
-                                        left: { xs: '2%', md: '2%' },
-                                        width: { xs: 60, md: 80 },
-                                        height: { xs: 60, md: 80 },
-                                        objectFit: 'contain',
-                                        zIndex: 3,
-                                        animation: 'float 5s ease-in-out infinite 1s'
-                                    }}
-                                />
+                                {image7 && (
+                                    <Box
+                                        component="img"
+                                        alt="Php icon"
+                                        src={image7}
+                                        sx={{
+                                            position: 'absolute',
+                                            bottom: { xs: '2%', md: '50%' },
+                                            left: { xs: '2%', md: '2%' },
+                                            width: { xs: 60, md: 80 },
+                                            height: { xs: 60, md: 80 },
+                                            objectFit: 'contain',
+                                            zIndex: 3,
+                                            animation: 'float 5s ease-in-out infinite 1s'
+                                        }}
+                                    />
+                                )}
 
                                 <Box
                                     component="img"

@@ -292,7 +292,7 @@
     margin-top: 0px !important;
     padding-top: 50px !important;
     border-radius: 10px;
-
+    height: 390px;
     /* height: 100%; */
 }
 
@@ -624,6 +624,5 @@ bottom:10px !important;
     padding: 60px 0px;
     background: rgb(245, 245, 245);
 }
-
 
 /* no needed remove this css */

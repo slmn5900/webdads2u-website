@@ -291,7 +291,7 @@ const ReactTabsWithIcons = () => {
 
     return (
         <Container>
-            <Box component="section" py={5} sx={{ bgcolor: '#f8f9fa' }}>
+            <Box component="section" py={5} >
                 <Box textAlign="center" mb={4}>
                     <Typography
                         variant={isSmall ? 'h5' : 'h4'}

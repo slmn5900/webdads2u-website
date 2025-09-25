@@ -153,7 +153,7 @@ export default function TopQualityWordPress() {
                             <motion.div custom={i} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} variants={cardVariants}>
                                 <Card
                                     sx={{
-                                        height: '350px',
+                                        height: '320px',
                                         textAlign: 'center',
                                         p: 3,
                                         bgcolor: service.dark ? '#0A1F5F' : '#F1FBFF',
