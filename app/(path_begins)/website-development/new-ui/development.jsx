@@ -3,6 +3,8 @@ import React from 'react';
 import APIDev from './APIDev';
 import ImageBox from '../../../../components/ui/ImageBox';
 import LookButton from './LookButton';
+import Title from '../../../../components/Title';
+import Description from '../../../../components/Description';
 
 export default function Development({ data }) {
     return (
@@ -11,17 +13,19 @@ export default function Development({ data }) {
                 <Grid2 container>
                     <Grid2 size={{ xs: 12, md: 8 }}>
                         <Box>
-                            <Typography
+                            {/* <Typography
                                 variant="h2"
                                 sx={{
                                     fontWeight: 'bold',
                                     mb: 3,
-                                    fontSize: { xs: '1.2rem', md: '1.8rem' } // Responsive font size
+                                    fontSize: { xs: '1.4rem', md: '1.8rem' } // Responsive font size
                                 }}
                             >
                                 {data?.title}
-                            </Typography>
-                            <Typography
+                            </Typography> */}
+
+                            <Title title={data?.title} />
+                            {/* <Typography
                                 variant="body1"
                                 sx={{
                                     lineHeight: 1.6,
@@ -29,7 +33,8 @@ export default function Development({ data }) {
                                 }}
                             >
                                 {data?.description}
-                            </Typography>
+                            </Typography> */}
+                            <Description Des={data?.description} />
                         </Box>
                         <APIDev />
                     </Grid2>{' '}

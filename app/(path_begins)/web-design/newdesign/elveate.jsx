@@ -17,7 +17,7 @@ const ElevateSection = () => {
                 }}
             >
                 <Container>
-                    <Grid2 container alignItems="center" spacing={4} className="elevate">
+                    <Grid2 container alignItems="center" spacing={5} className="elevate">
                         {/* Left Content */}
                         <Grid2 size={{ xs: 12, md: 5 }}>
                             <motion.div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, ease: 'easeOut' }} viewport={{ once: true }}>
@@ -58,7 +58,7 @@ const ElevateSection = () => {
                         </Grid2>
 
                         {/* Right Image */}
-                        <Grid2 size={{ xs: 12, md: 7 }}>
+                        <Grid2 size={{ xs: 12, md: 7 }} sx={{ display: { xs: "none", md: "block" } }}>
                             <motion.img
                                 src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410010/webdads2u/web-design/eve-group.png"
                                 alt="Elevate Website"

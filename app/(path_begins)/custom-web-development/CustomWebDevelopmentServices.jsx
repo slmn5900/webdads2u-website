@@ -181,8 +181,9 @@ export default function Customwebdevelopmentservices() {
                                     p: 2,
                                     boxShadow: '0px 4px 12px rgba(0,0,0,0.1)',
                                     background: '#fff',
-                                    height: '370px',
-                                    marginBottom: 4
+                                    height: { xs: '400px', sm: '400px', md: '370px' },
+                                    marginBottom: 4,
+                                    
                                 }}
                             >
                                 {/* Circle Image */}
@@ -225,7 +226,7 @@ export default function Customwebdevelopmentservices() {
                                         sx={{
                                             fontFamily: 'Poppins, sans-serif',
                                             color: '#0b1225',
-                                            fontSize: '20px'
+                                            fontSize: { xs: 16, md: 20 },
                                         }}
                                     >
                                         {service.title}
@@ -233,7 +234,7 @@ export default function Customwebdevelopmentservices() {
                                     <Typography
                                         sx={{
                                             fontFamily: 'Poppins, sans-serif',
-                                            fontSize: '16px',
+                                          fontSize: { xs: 12, md: 14 },
                                             color: '#5a5a5a'
                                         }}
                                     >

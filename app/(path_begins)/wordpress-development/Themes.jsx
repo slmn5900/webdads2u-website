@@ -1,5 +1,3 @@
-
-
 'use client';
 
 import React from 'react';
@@ -8,7 +6,7 @@ import { motion } from 'framer-motion';
 
 export default function Themes() {
     return (
-        <Box sx={{ py: 8}}>
+        <Box sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 } }}>
             <Container maxWidth="lg">
                 <Grid2 container spacing={4} alignItems="center">
                     {/* Left Image */}
@@ -22,7 +20,7 @@ export default function Themes() {
                                 sx={{
                                     width: '100%',
                                     maxWidth: 500,
-                                    borderRadius: 2,
+                                    borderRadius: 2
                                     // boxShadow: 3
                                 }}
                             />
@@ -31,7 +29,7 @@ export default function Themes() {
 
                     {/* Right Content */}
                     <Grid2 size={{ xs: 12, md: 6 }}>
-                        <motion.div   transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }} viewport={{ once: true, amount: 0.3 }}>
+                        <motion.div transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }} viewport={{ once: true, amount: 0.3 }}>
                             <Typography variant="h4" fontWeight="bold" gutterBottom sx={{ lineHeight: 1.3 }}>
                                 What are Themes?
                             </Typography>

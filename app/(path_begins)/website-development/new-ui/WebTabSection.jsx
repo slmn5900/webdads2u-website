@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, Box, Typography, Tabs, Tab, useTheme, useMediaQuery, styled } from '@mui/material';
 import { FaAngular, FaLaravel, FaReact, FaBootstrap, FaJsSquare, FaJenkins } from 'react-icons/fa';
 import { SiEmberdotjs, SiJquery, SiFastapi, SiFlask, SiRubyonrails, SiLumen, SiSpringboot } from 'react-icons/si';
-
+import Description from '../../../../components/Description';
 
 const WebsiteTabSection = styled('section')(({ theme }) => ({
     backgroundImage: "url('https://res.cloudinary.com/dbpv95wd8/image/upload/v1757590618/webdads2u/website-development/front-banner.png')",
@@ -142,7 +142,7 @@ const WebTabSection = () => {
                             Our Full-Stack Web
                             <br /> Development Services
                         </Typography>
-                        <Typography
+                        {/* <Typography
                             variant="body1"
                             sx={{
                                 color: '#fff',
@@ -157,7 +157,14 @@ const WebTabSection = () => {
                         >
                             We specialize in end-to-end web development services, crafting dynamic, user-centric sites across platforms. Our expertise spans front-end and back-end technologies, delivering responsive designs that enhance user
                             experiences.
-                        </Typography>
+                        </Typography> */}
+
+                        <Description
+                            color={'white'}
+                            Des={
+                                'We specialize in end-to-end web development services, crafting dynamic, user-centric sites across platforms. Our expertise spans front-end and back-end technologies, delivering responsive designs that enhance user experiences.'
+                            }
+                        />
                     </Box>
 
                     <StyledTabs value={activeKey} onChange={(e, newValue) => setActiveKey(newValue)} variant="scrollable" scrollButtons="auto">

@@ -2,6 +2,8 @@ import { Container, Grid2, Typography, Accordion, AccordionSummary, AccordionDet
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useContext } from 'react';
 import { MenuContext } from '../../layout/context/menucontext';
+import Title from '../Title';
+import Description from '../Description';
 
 function BrochureFaq() {
     const theme = useTheme();
@@ -14,13 +16,13 @@ function BrochureFaq() {
     const queriess = qna_section?.queries || [];
 
     return (
-        <Box sx={{ backgroundColor: theme.palette.background.paper, py: { xs: 2, md: 5 } }}>
+        <Box sx={{ backgroundColor: theme.palette.background.paper, pt: { xs: 3, md: 4 } }}>
             <Container>
                 <Grid2 container spacing={4} alignItems="flex-start">
                     {/* Left Column - FAQ Header */}
                     <Grid2 size={{ xs: 12, md: 5 }}>
                         <Box sx={{ py: 2, px: { xs: 0, md: 5 }, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 3 }}>
-                            <Typography
+                            {/* <Typography
                                 variant={isMobile ? 'h3' : 'h2'}
                                 gutterBottom
                                 sx={{
@@ -31,8 +33,10 @@ function BrochureFaq() {
                             >
                                 {' '}
                                 {free}
-                            </Typography>
-                            <Typography
+                            </Typography> */}
+                            <Title title={free} color={'#0A1F5F'} />
+
+                            {/* <Typography
                                 variant="body1"
                                 sx={{
                                     fontSize: '1.1rem',
@@ -42,11 +46,9 @@ function BrochureFaq() {
                                 }}
                             >
                                 {descriptions}
-                            </Typography>
-
-
+                            </Typography> */}
+                            <Description Des={descriptions} />
                         </Box>
-                      
                     </Grid2>
 
                     {/* Right Column - Accordion */}

@@ -228,6 +228,8 @@
 import React from 'react';
 import { Container, Grid2, Box, Typography, Card } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const cardData = [
     {
@@ -274,13 +276,13 @@ export default function AngularJS() {
             component="section"
             sx={{
                 background: '#f5f5f5',
-                py: { xs: 6, md: 8 }
+                py: { xs: 3, md: 6 }
             }}
         >
             <Container>
                 {/* Section Title */}
                 <Box textAlign="center" mb={6}>
-                    <Typography
+                    {/* <Typography
                         variant="h3"
                         sx={{
                             color: '#0A1F5F',
@@ -290,8 +292,9 @@ export default function AngularJS() {
                         }}
                     >
                         Angular JS React JS Development
-                    </Typography>
-                    <Typography
+                    </Typography> */}
+                    <Title color="#0A1F5F" title="Angular JS React JS Development" />
+                    {/* <Typography
                         sx={{
                             color: '#000',
                             fontFamily: 'Poppins, sans-serif',
@@ -300,7 +303,8 @@ export default function AngularJS() {
                         }}
                     >
                         Delivering end-to-end services in an affluent way
-                    </Typography>
+                    </Typography> */}
+                    <Description Des={'Delivering end-to-end services in an affluent way'} />
                 </Box>
 
                 {/* Cards */}

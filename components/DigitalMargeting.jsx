@@ -149,7 +149,7 @@ export default function DigitalMarketing() {
                                     size={{
                                         xs: 6,
                                         sm: 6,
-                                        md: 12
+                                        md: 6
                                     }}
                                     key={i}
                                     sx={{ cursor: 'pointer' }}

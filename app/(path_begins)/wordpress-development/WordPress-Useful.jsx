@@ -1,10 +1,10 @@
-
-
 'use client';
 
 import React from 'react';
 import { Container, Grid2, Card, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const features = [
     {
@@ -44,17 +44,23 @@ const cardVariants = {
 
 export default function WordPressUseful() {
     return (
-        <Box sx={{ py: 0 }}>
+        <Box sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 } }}>
             <Container maxWidth="lg">
                 {/* Heading */}
-                <Box textAlign="center" mb={6}>
-                    <Typography variant="h4" fontWeight="bold" gutterBottom fontSize={{ xs: '1.125rem', md: '2.125rem' }}>
+                <Box textAlign={{ xs: 'start', md: 'center' }} mb={6}>
+                    <Title title={' What Makes WordPress so Useful for Website Development?'} />
+                    {/* <Typography variant="h4" fontWeight="bold" gutterBottom fontSize={{ xs: '1.125rem', md: '2.125rem' }}>
                         What Makes WordPress so Useful for Website Development?
-                    </Typography>
-                    <Typography variant="body1" color="text.secondary" maxWidth="md" mx="auto">
+                    </Typography> */}
+                    <Description
+                        Des={
+                            ' A WordPress development company leverages the platform’s user-friendly interface, extensive plugin ecosystem, and customizable themes for website development. It facilitates easy content management, SEO optimization, and scalability. With a large community and frequent updates, WordPress remains a top choice for building dynamic and responsive websites.'
+                        }
+                    />
+                    {/* <Typography variant="body1" color="text.secondary" maxWidth="md" mx="auto">
                         A WordPress development company leverages the platform’s user-friendly interface, extensive plugin ecosystem, and customizable themes for website development. It facilitates easy content management, SEO optimization, and
                         scalability. With a large community and frequent updates, WordPress remains a top choice for building dynamic and responsive websites.
-                    </Typography>
+                    </Typography> */}
                 </Box>
 
                 {/* Features Grid2 */}

@@ -263,12 +263,12 @@
 }
 
 /* benefitsofReactjs */
-.benefitsofReactjs-main {
+/* .benefitsofReactjs-main {
     padding: 60px 0px;
-}
+} */
 
 .benefitsofReactjs {
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
 }
 
 .benefitsofReactjs h1 {
@@ -327,12 +327,12 @@
 
 @media screen and (max-width: 767px) {
     .benefitsofReactjs-card .card {
-        margin-bottom: 61px !important;
+        margin-bottom: 32px !important;
     }
 
-    .benefitsofReactjs-main {
+    /* .benefitsofReactjs-main {
         padding: 30px 0px;
-    }
+    } */
 }
 
 /* ResponsiveTabs */

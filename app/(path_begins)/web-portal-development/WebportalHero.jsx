@@ -11,6 +11,8 @@ import BrochureFaq from '../../../components/ui/BrochureFaq';
 import WebportalTab from './WebpotralTab';
 import Lookingwebsitemaintenance from '../website-maintenance/Looking-Website-Maintenance';
 import NeedProposal from './NeedProposal';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 function WebportalHero() {
     const { setPagedata, setHeader_section, setSlider_section, setCompany_section, setDesign_section, setList_section, setAmazing_section, setAmazingcard_section, setWork_section, setChoose_section, setConsultation_section, setQna_section } =
@@ -100,25 +102,30 @@ function WebportalHero() {
             <Banner />
             <ClientLogoSlider />
             {/* Hero Section */}
-            <Box sx={{ py: { xs: 0, md: 5 }, px: { xs: 2, md: 0 } }}>
+            <Box sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 } }}>
                 <Container maxWidth="lg">
                     <motion.div initial="hidden" animate="visible" variants={container}>
                         <motion.div variants={item}>
                             <Box textAlign="center" mb={5}>
-                                <Typography variant="h2" sx={{ fontWeight: 600, color: '#0A1F5F', fontSize: { xs: 20, md: 25 } }}>
+                                {/* <Typography variant="h2" sx={{ fontWeight: 600, color: '#0A1F5F', fontSize: { xs: 20, md: 25 } }}>
                                     Web Portal Development Solutions Company in Chennai
-                                </Typography>
-                                <Typography sx={{ mt: 2, fontSize: 16, color: '#5A5A5A', lineHeight: '28px' }}>
+                                </Typography> */}
+
+                                <Title fontxs={'16px'} color={'#0A1F5F'} title={'Web Portal Development Solutions Company in Chennai'} />
+
+                                <Description Color={'#5A5A5A'} Des={'Looking for a premier Web Portal Development solutions company in Chennai? Look no further! We specialize in crafting tailored web portals to elevate your online presence...'} />
+                                {/* <Typography sx={{ mt: 2, fontSize: 16, color: '#5A5A5A', lineHeight: '28px' }}>
                                     Looking for a premier Web Portal Development solutions company in Chennai? Look no further! We specialize in crafting tailored web portals to elevate your online presence...
-                                </Typography>
+                                </Typography> */}
                             </Box>
                         </motion.div>
 
                         <motion.div variants={item}>
                             <Box textAlign="center" mb={5}>
-                                <Typography variant="h2" sx={{ fontSize: { xs: 20, md: 25 } }}>
+                                <Title fontxs={'16px'} title={'Online Portal Development Solutions'} />
+                                {/* <Typography variant="h2" sx={{ fontSize: { xs: 20, md: 25 } }}>
                                     Online Portal Development Solutions
-                                </Typography>
+                                </Typography> */}
                             </Box>
                         </motion.div>
 
@@ -135,15 +142,18 @@ function WebportalHero() {
                             </Grid2>
                             <Grid2 size={{ xs: 12, sm: 6 }}>
                                 <motion.div variants={item}>
-                                    <Typography sx={{ mb: 2 }}>Welcome to our Web Portal Development Solutions page! At Webdads2u, we specialize in crafting custom web portals...</Typography>
-                                    <Typography sx={{ mb: 3 }}>Our comprehensive approach to Web Portal Development ensures that your portal is not only aesthetically pleasing...</Typography>
+                                    <Description Des={'Welcome to our Web Portal Development Solutions page! At Webdads2u, we specialize in crafting custom web portals...'} />
+                                    <br />
+                                    <Description Des={'Our comprehensive approach to Web Portal Development ensures that your portal is not only aesthetically pleasing...'} /> <br />
+                                    {/* <Typography sx={{ mb: 2 }}>Welcome to our Web Portal Development Solutions page! At Webdads2u, we specialize in crafting custom web portals...</Typography> */}
+                                    {/* <Typography sx={{ mb: 3 }}>Our comprehensive approach to Web Portal Development ensures that your portal is not only aesthetically pleasing...</Typography> */}
                                     <Button
                                         variant="contained"
                                         sx={{
                                             backgroundColor: '#6243A4',
                                             color: '#fff',
-                                            px: 4,
-                                            py: 1.5,
+                                            px: { xs: 2, md: 4 },
+                                            py: { xs: 1, md: 1.5 },
                                             fontWeight: 600,
                                             '&:hover': {
                                                 background: 'linear-gradient(90deg, #262250 0%, #871752 100%)'
@@ -224,7 +234,7 @@ function WebportalHero() {
             </Box> */}
 
             {/* Portal Development Boxes */}
-            <Box sx={{ py: 4 }}>
+            <Box sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 } }}>
                 <Container maxWidth="lg">
                     <Box textAlign="center" mb={5}>
                         <Typography variant="h2" sx={{ fontSize: { xs: 20, md: 25 } }}>

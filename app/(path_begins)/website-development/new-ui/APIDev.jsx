@@ -51,7 +51,7 @@ const APIDev = () => {
 
     return (
         <Container>
-            <Grid2 container spacing={3}>
+            <Grid2 container spacing={3} sx={{ mt: { xs: 4, md: 2 } }}>
                 {technologies.map((tech, index) => (
                     <Grid2
                         size={{ xs: 4, sm: 6, md: 2 }}

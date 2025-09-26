@@ -2,6 +2,7 @@
 import React from 'react';
 import { Grid2, Card, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
 
 const benefits = [
     {
@@ -48,14 +49,16 @@ const benefits = [
 
 export default function BenefitsofPHP() {
     return (
-        <Box component="section" sx={{ py: 6, px: { xs: 2, md: 8 }, backgroundColor: '#f9f9f9' }}>
+        <Box component="section" sx={{  p: { xs: 3.8, md: 6 }, pt: { xs: 4, md: 6 }, backgroundColor: '#f9f9f9' }}>
             <Box textAlign="center" mb={5}>
-                <Typography variant="h4" fontWeight="bold" sx={{ fontSize: { xs: '1rem', md: '2.3rem' } }}>
+                {/* <Typography variant="h4" fontWeight="bold" sx={{ fontSize: { xs: '1rem', md: '2.3rem' } }}>
                     Benefits of PHP for
-                </Typography>
-                <Typography variant="h4" fontWeight="bold" color="primary" sx={{ fontSize: { xs: '1rem', md: '2.3rem' } }}>
+                </Typography> */}
+                <Title title="Benefits of PHP for" />
+                <Title title="Web Development and Design" color={'#0A1F5F'} />
+                {/* <Typography variant="h4" fontWeight="bold" color="primary" sx={{ fontSize: { xs: '1rem', md: '2.3rem' } }}>
                     Web Development and Design
-                </Typography>
+                </Typography> */}
             </Box>
 
             <Grid2 container spacing={4} justifyContent="center">

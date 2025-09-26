@@ -51,13 +51,13 @@ font-size: 11px !important;}
 
 /* Developmentcompanyinchennai */
 .developmentcompanyinchennai-main {
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
 }
 
 .developmentcompanyinchennai h1 {
     color: #0A1F5F;
     font-family: "Roboto", Sans-serif;
-    font-size: 30px;
+    /* font-size: 30px; */
     font-weight: 600;
 }
 
@@ -71,11 +71,11 @@ font-size: 11px !important;}
 
 @media screen and (max-width:767px) {
     .developmentcompanyinchennai-main {
-        padding: 30px 0px;
+        /* padding: 30px 0px; */
     }
 
     .developmentcompanyinchennai h1 {
-        font-size: 25px;
+        /* font-size: 25px; */
     }
 }
 

@@ -57,7 +57,7 @@ const Html5webdevelopment = () => {
                                 sx={{
                                     color: '#000',
                                     fontFamily: 'Poppins, sans-serif',
-                                    fontSize: { xs: '10px', md: '15px' },
+                                    fontSize: { xs: '13px', md: '15px' },
                                     fontWeight: 400,
                                     textAlign: { xs: 'justify', md: 'justify' },
                                     px: { xs: 2, md: 0 }

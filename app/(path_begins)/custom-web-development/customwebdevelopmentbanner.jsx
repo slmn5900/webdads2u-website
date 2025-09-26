@@ -26,10 +26,10 @@ function Customwebdevelopmentbanner() {
                         <Typography variant="h3" component="h1" fontWeight={700} gutterBottom color="white" sx={{ fontSize: { xs: 20, md: 30 } }}>
                             {header_section?.title}
                         </Typography>
-                        <Typography variant="body1" color="white" paragraph>
+                        <Typography variant="body1" color="white" paragraph sx={{ fontSize: { xs: '12px',md:18 } }}>
                             {header_section?.description}{' '}
                         </Typography>
-                        <Button variant="outlined" color="primary" size="large" component="a" href="/contact-us" sx={{ borderRadius: 2, mt: 2, color: 'white' }}>
+                        <Button variant="outlined" color="primary" size="large" component="a" href="/contact-us" sx={{ borderRadius: 2, mt: 2, color: { xs: 'black', md: 'white' } }}>
                             Contact Us
                         </Button>
                     </motion.div>

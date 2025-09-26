@@ -1,8 +1,8 @@
 'use client';
 import React from 'react';
-import { Container, Grid2, Typography, Box } from '@mui/material';
+import { Grid2, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
-import Image from 'next/image'; // If you're using Next.js. Otherwise, fallback to <img>
+// If you're using Next.js. Otherwise, fallback to <img>
 
 // Framer Motion Variants
 const cardVariants = {
@@ -79,7 +79,7 @@ const ServicesSection = () => {
             <Grid2 container spacing={3} justifyContent="center">
                 {services.map((service, index) => (
                     <Grid2
-                        size={{ xs: 12, sm: 4, md: 2 }}
+                        size={{ xs: 6, sm: 4, md: 2 }}
                         key={service.id}
                         sx={{
                             borderRight: {

@@ -134,7 +134,7 @@ const cardVariants = {
 
 export default function TopQualityWordPress() {
     return (
-        <Box sx={{ padding: '0' }}>
+        <Box sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 } }}>
             <Container maxWidth="lg">
                 {/* Heading */}
                 <Box textAlign="center" mb={6}>
@@ -153,7 +153,7 @@ export default function TopQualityWordPress() {
                             <motion.div custom={i} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} variants={cardVariants}>
                                 <Card
                                     sx={{
-                                        height: '320px',
+                                        height: { xs: '370px', md: '320px' },
                                         textAlign: 'center',
                                         p: 3,
                                         bgcolor: service.dark ? '#0A1F5F' : '#F1FBFF',

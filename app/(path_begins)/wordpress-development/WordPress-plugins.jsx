@@ -32,7 +32,8 @@ const WordPressplugins = () => {
         <Box
             component="section"
             sx={{
-                py: { xs: 4, md: 8 }, // padding: 30px for mobile, 60px for desktop
+                p: { xs: 3.8, md: 6 },
+                pt: { xs: 0, md: 0 }, // padding: 30px for mobile, 60px for desktop
                 '& .MuiTypography-h1': {
                     color: '#0a1f5f',
                     fontFamily: 'Poppins, sans-serif',

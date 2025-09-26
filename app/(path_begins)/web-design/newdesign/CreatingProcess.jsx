@@ -45,7 +45,7 @@ const CreatingProcess = () => {
         <Box component="section" sx={{ py: 5 }} className="creating-process">
             <Container>
                 {/* Process Section */}
-                <Grid2 container spacing={2} sx={{ alignItems: 'center', justifyContent: 'center' }} textAlign={'center'}>
+                <Grid2 container spacing={4} sx={{ alignItems: 'center', justifyContent: 'center' }} textAlign={'center'}>
                     <Grid2 size={{ xs: 12 }} item>
                         <Typography variant="h2" component="h2" gutterBottom>
                             Our Website Creating Process
@@ -68,7 +68,7 @@ const CreatingProcess = () => {
                 </Grid2>
 
                 {/* Expectations Section */}
-                <Grid2 container spacing={4} sx={{ pt: 8 }}>
+                <Grid2 container spacing={5} sx={{ pt: 8 }}>
                     <Grid2 size={{ xs: 12 }}>
                         <Typography variant="h2" component="h2" gutterBottom>
                             What Enterprises can expect from webdads2u Technologies?
@@ -103,7 +103,10 @@ const CreatingProcess = () => {
                                         p: 2,
                                         height: '100%', // Ensures even height for all cards
                                         display: 'flex',
-                                        flexDirection: 'column'
+                                        flexDirection: 'column',
+                                        minHeight: { xs: '370px', md: '' },
+                                        background:"transparent"
+                                        
                                     }}
                                 >
                                     <Box sx={{ textAlign: 'center' }}>

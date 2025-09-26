@@ -194,14 +194,16 @@
 // export default TechnologyStackSection;
 'use client';
 import React from 'react';
-import { Box, Typography, Grid2 } from '@mui/material';
+import { Box, Typography, Grid2, Container } from '@mui/material';
+import Title from '../../../../components/Title';
+import Description from '../../../../components/Description';
 
 const TechnologyStackSection = () => {
     // Technology stack data
     const leftColumn = [
         { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410102/webdads2u/web-design/icons/php.png', align: 'end' },
         { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410099/webdads2u/web-design/icons/dot-net.png', align: 'center' },
-        { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410095/webdads2u/web-design/icons/mysql.png', align: 'end' },
+        { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410095/webdads2u/web-design/icons/mysql.png', align: 'end' }
         // { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410092/webdads2u/web-design/icons/sql-server.png', align: 'center' }
     ];
 
@@ -222,7 +224,7 @@ const TechnologyStackSection = () => {
             {/* Header Section */}
             <Grid2 container justifyContent="center">
                 <Grid2 size={{ xs: 12 }} sx={{ textAlign: 'center' }}>
-                    <Typography
+                    {/* <Typography
                         variant="h3"
                         sx={{
                             fontFamily: '"Poppins", Sans-serif',
@@ -236,8 +238,10 @@ const TechnologyStackSection = () => {
                         }}
                     >
                         Technology Stack
-                    </Typography>
-                    <Typography
+                    </Typography> */}
+                    <Container>
+                        <Title color="#34a7be" title="Technology Stack" />
+                        {/* <Typography
                         sx={{
                             color: '#5A5A5A',
                             maxWidth: { xs: '95%', sm: '80%', md: '70%' },
@@ -247,7 +251,10 @@ const TechnologyStackSection = () => {
                         }}
                     >
                         From comprehensive brand strategy solutions, to smaller, one-off boutique logo identities, webdads2u delivers unique and memorable brands, designed to differentiate your business and propel you into the future.
-                    </Typography>
+                    </Typography> */}
+
+                        <Description Des="From comprehensive brand strategy solutions, to smaller, one-off boutique logo identities, webdads2u delivers unique and memorable brands, designed to differentiate your business and propel you into the future." />
+                    </Container>
                 </Grid2>
             </Grid2>
 
@@ -260,7 +267,7 @@ const TechnologyStackSection = () => {
                             key={index}
                             sx={{
                                 display: 'flex',
-                                justifyContent: tech.align === 'center' ? 'center' : tech.align === 'end' ? 'flex-end' : 'flex-start',
+                                justifyContent: { xs: 'center', md: tech.align === 'center' ? 'center' : tech.align === 'end' ? 'flex-end' : 'flex-start' },
                                 py: { xs: 2, md: 4 },
                                 mt: index > 0 ? { xs: 0, md: 4 } : 0
                             }}
@@ -322,7 +329,7 @@ const TechnologyStackSection = () => {
                             key={index}
                             sx={{
                                 display: 'flex',
-                                justifyContent: tech.align === 'center' ? 'center' : 'flex-start',
+                                justifyContent: { xs: 'center', md: tech.align === 'center' ? 'center' : 'flex-start' },
                                 py: { xs: 2, md: 4 },
                                 mt: index > 0 ? { xs: 0, md: 4 } : 0
                             }}

@@ -27,12 +27,12 @@ const MissionVisionGoals = () => {
     ];
 
     return (
-        <Container sx={{ my: 6 }}>
+        <Container sx={{ pt: { xs: 2, md: 0 } }}>
             <Grid2 container spacing={4}>
                 {items.map((item, index) => (
                     <Grid2 size={{ xs: 12, md: 4 }} key={index}>
                         <motion.div whileHover={{ scale: 1.03 }} transition={{ duration: 0.3 }}>
-                            <Card sx={{ height: '100%', boxShadow: 4, borderRadius: 3, overflow: 'hidden', position: 'relative', maxHeight: '400px' }}>
+                            <Card sx={{ height: '100%', boxShadow: 4, borderRadius: 3, overflow: 'hidden', position: 'relative', maxHeight: { xs: '460px', md: '400px' } }}>
                                 {/* Background Image */}
                                 <CardMedia component="img" height="220" image={item.url} alt={`${item.title} Image`} sx={{ objectFit: 'cover' }} />
 

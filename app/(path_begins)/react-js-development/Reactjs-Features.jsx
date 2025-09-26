@@ -225,17 +225,8 @@
 // export default ReactTabsWithIcons;
 'use client';
 import React, { useState } from 'react';
-import {
-    Box,
-    Tabs,
-    Tab,
-    Typography,
-    Button,
-    useTheme,
-    useMediaQuery,
-    Container,Grid2
-} from '@mui/material';
- // ✅ Import Grid2 correctly
+import { Box, Tabs, Tab, Typography, Button, useTheme, useMediaQuery, Container, Grid2 } from '@mui/material';
+// ✅ Import Grid2 correctly
 import { FaReact } from 'react-icons/fa';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
@@ -291,16 +282,10 @@ const ReactTabsWithIcons = () => {
 
     return (
         <Container>
-            <Box component="section" py={5} >
+            <Box component="section">
                 <Box textAlign="center" mb={4}>
-                    <Typography
-                        variant={isSmall ? 'h5' : 'h4'}
-                        fontWeight={700}
-                        color="#0a1f5f"
-                        gutterBottom
-                        sx={{ fontFamily: 'Poppins, sans-serif' }}
-                    >
-                      Reactjs Features
+                    <Typography variant={isSmall ? 'h5' : 'h4'} fontWeight={700} color="#0a1f5f" gutterBottom sx={{ fontFamily: 'Poppins, sans-serif' }}>
+                        Reactjs Features
                     </Typography>
                     <Typography variant="subtitle1" color="text.secondary">
                         Avail the sheer benefits for your application
@@ -311,7 +296,9 @@ const ReactTabsWithIcons = () => {
                 <Tabs
                     value={activeTab}
                     onChange={(e, val) => setActiveTab(val)}
-                  centered variant={'scrollable'} scrollButtons="auto"
+                    centered
+                    variant={'scrollable'}
+                    scrollButtons="auto"
                     sx={{
                         mb: 3,
                         '& .MuiTabs-flexContainer': {
@@ -335,53 +322,32 @@ const ReactTabsWithIcons = () => {
                             }
                         },
                         '& .Mui-selected': {
-                            backgroundImage:
-                                'linear-gradient(126deg, #CD3F4A 51%, #F8BA6A 100%)',
+                            backgroundImage: 'linear-gradient(126deg, #CD3F4A 51%, #F8BA6A 100%)',
                             color: '#fff !important',
                             boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
                         }
                     }}
                 >
                     {tabsData.map((tab) => (
-                        <Tab
-                            key={tab.eventKey}
-                            value={tab.eventKey}
-                            icon={<FaReact size={20} />}
-                            iconPosition="start"
-                            label={tab.title}
-                        />
+                        <Tab key={tab.eventKey} value={tab.eventKey} icon={<FaReact size={20} />} iconPosition="start" label={tab.title} />
                     ))}
                 </Tabs>
 
                 {/* Tab content */}
                 {currentTab && (
                     <Grid2 container spacing={4} mt={3} alignItems="center">
-                        <Grid2 size={{xs:12,md:6}} >
-                            <Typography
-                                variant="h5"
-                                fontWeight={600}
-                                gutterBottom
-                                sx={{ fontFamily: 'Poppins, sans-serif' }}
-                            >
+                        <Grid2 size={{ xs: 12, md: 6 }}>
+                            <Typography variant="h5" fontWeight={600} gutterBottom sx={{ fontFamily: 'Poppins, sans-serif' }}>
                                 {currentTab.title}
                             </Typography>
-                            <Typography
-                                variant="body1"
-                                color="text.secondary"
-                                paragraph
-                                sx={{ fontFamily: 'Poppins, sans-serif' }}
-                            >
+                            <Typography variant="body1" color="text.secondary" paragraph sx={{ fontFamily: 'Poppins, sans-serif' }}>
                                 {currentTab.content}
                             </Typography>
-                            <Button
-                                variant="text"
-                                endIcon={<MdOutlineKeyboardArrowRight />}
-                                sx={{ fontWeight: 500 }}
-                            >
+                            <Button variant="text" href='/contact-us' endIcon={<MdOutlineKeyboardArrowRight />} sx={{ fontWeight: 500 }}>
                                 Read More
                             </Button>
                         </Grid2>
-                        <Grid2 size={{xs:12,md:6}} >
+                        <Grid2 size={{ xs: 12, md: 6 }}>
                             <Box
                                 component="img"
                                 src={currentTab.imageSrc}
@@ -389,7 +355,7 @@ const ReactTabsWithIcons = () => {
                                 sx={{
                                     width: '100%',
                                     height: 'auto',
-                                    borderRadius: 2,
+                                    borderRadius: 2
                                     // boxShadow: 3/
                                 }}
                             />

@@ -104,8 +104,8 @@ export default function Culturals() {
     const image = bgImage?.startsWith('linear-gradient') ? bgImage : `url(${bgImage})`;
 
     const celebrationImages = [
-        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758372551/webdads2u/culturals/pongal-celebration.png',
         'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758372551/webdads2u/culturals/pongal-celebration-2.png',
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758372551/webdads2u/culturals/pongal-celebration.png',
         'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758372550/webdads2u/culturals/pongal-celebrations-3.png'
     ];
 
@@ -126,7 +126,7 @@ export default function Culturals() {
 
             {/* Title */}
             <Box component={'h3'} sx={{ textAlign: 'center', py: 3 }}>
-                Pongal celebrate!
+                 Pongal Celebration!
             </Box>
 
             {/* Description */}

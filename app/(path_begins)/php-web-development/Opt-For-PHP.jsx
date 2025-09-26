@@ -56,6 +56,8 @@ import React from 'react';
 import { Grid2, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
 import Buttons from '../../../components/common/Button';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const MotionBox = motion(Box);
 
@@ -71,19 +73,28 @@ export default function Optforphp() {
                         transition={{ duration: 0.6, ease: 'easeOut' }}
                         viewport={{ once: true, amount: 0.2 }} // ✅ triggers only once on scroll
                     >
-                        <Typography variant="h4" fontWeight="bold" gutterBottom sx={{ color: 'text.primary' }}>
+                        {/* <Typography variant="h4" fontWeight="bold" gutterBottom sx={{ color: 'text.primary' }}>
                             Why Opt For PHP Web Development Services?
-                        </Typography>
+                        </Typography> */}
+                        <Title title={'Why Opt For PHP Web Development Services?'} />
 
-                        <Typography variant="body1" paragraph>
+                        {/* <Typography variant="body1" paragraph>
                             Webdads2u Technologies is best PHP development company in Chennai, India. PHP is a widely used general purpose open-source scripting language that can be embedded into HTML and is especially well-suited for web
                             development.
-                        </Typography>
-
-                        <Typography variant="body1" paragraph>
+                        </Typography> */}
+                        <Description
+                            Des="Webdads2u Technologies is best PHP development company in Chennai, India. PHP is a widely used general purpose open-source scripting language that can be embedded into HTML and is especially well-suited for web
+                            development."
+                        />
+                        <br />
+                        <Description
+                            Des="                            Recently, it has been gaining momentum and is now recognized as one of the most preferred languages used in development PHP development company in Chennai. The simple and most effective explanation for this is its
+                            uncomplicated nature, highly dynamic nature, and ability to provide effective web solutions."
+                        />
+                        {/* <Typography variant="body1" paragraph>
                             Recently, it has been gaining momentum and is now recognized as one of the most preferred languages used in development PHP development company in Chennai. The simple and most effective explanation for this is its
                             uncomplicated nature, highly dynamic nature, and ability to provide effective web solutions.
-                        </Typography>
+                        </Typography> */}
 
                         <Buttons title={'Contact Us'} />
                     </motion.div>
@@ -92,10 +103,10 @@ export default function Optforphp() {
                 {/* Right Image */}
                 <Grid2 size={{ xs: 12, md: 6 }} textAlign="center">
                     <motion.div
-                        // initial={{ opacity: 0, x: 50 }}
-                        // whileInView={{ opacity: 1, x: 0 }}
-                        // transition={{ duration: 0.6, ease: 'easeOut' }}
-                        // viewport={{ once: true, amount: 0.2 }} // ✅ no hover, scroll only
+                    // initial={{ opacity: 0, x: 50 }}
+                    // whileInView={{ opacity: 1, x: 0 }}
+                    // transition={{ duration: 0.6, ease: 'easeOut' }}
+                    // viewport={{ once: true, amount: 0.2 }} // ✅ no hover, scroll only
                     >
                         <MotionBox
                             component="img"
@@ -103,7 +114,8 @@ export default function Optforphp() {
                             alt="php process"
                             loading="lazy"
                             sx={{
-                                maxWidth: '100%',
+                                width: '100%',
+                                maxWidth: { md: '350px' },
                                 height: 'auto'
                             }}
                         />

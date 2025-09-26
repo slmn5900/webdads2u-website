@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import Buttons from '../../../components/common/Button';
+import Title from '../../../components/Title';
 
 export default function WordPressWebsiteworks() {
     const images = [
@@ -32,12 +33,15 @@ export default function WordPressWebsiteworks() {
     ];
 
     return (
-        <Box sx={{ py: 8 }}>
+        <Box sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 } }}>
             <Container maxWidth="lg">
                 {/* Header */}
-                <Typography variant="h4" fontWeight="bold" align="center" gutterBottom sx={{ mb: 4 }}>
+                {/* <Typography variant="h4" fontWeight="bold" align="center" gutterBottom sx={{ mb: 4 }}>
                     Our WordPress Website Works
-                </Typography>
+                </Typography> */}
+                <Box sx={{ textAlign: 'center' }}>
+                    <Title title={' Our WordPress Website Works'} />
+                </Box>
 
                 {/* Swiper Slider */}
                 <Swiper

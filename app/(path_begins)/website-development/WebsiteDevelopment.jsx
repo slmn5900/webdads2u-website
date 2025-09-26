@@ -131,7 +131,8 @@ export default function WebsiteDevelopment() {
             <OurStreams />
             <WebdevService />
             {/* <BrochureDescription /> */}
-            <AmazingWebDesign />
+        
+            {/* <AmazingWebDesign /> */}
             <WebTabSection />
             <Development data={data?.section_7} />
             <Subscribe />

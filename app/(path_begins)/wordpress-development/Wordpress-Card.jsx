@@ -87,7 +87,7 @@ const cardVariants = {
 
 export default function WordpressCard() {
     return (
-        <section>
+        <Box sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 } }}>
             <Container maxWidth="lg">
                 <Grid2 container spacing={4} justifyContent="center">
                     {cards.map((card, i) => (
@@ -120,6 +120,6 @@ export default function WordpressCard() {
                     ))}
                 </Grid2>
             </Container>
-        </section>
+        </Box>
     );
 }

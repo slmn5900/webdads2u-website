@@ -10,9 +10,9 @@ export default function ImageBox({ image, alt, mds }) {
                     src={image}
                     alt={alt}
                     sx={{
-                        width: { xs: '300px', sm: '300px', md: '100%' },
+                        width: { xs: '300px', sm: '300px', md: '400px' },
 
-                        height: { xs: '350px', sm: '290px', md: '100%' },
+                        height: { xs: '350px', sm: '290px', md: '400px' },
                         display: 'block',
                         borderRadius: 1, // Optional: adds slight rounded corners
                         objectFit: { xs: 'contain', md: 'cotain' },

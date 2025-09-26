@@ -144,6 +144,8 @@
 import React, { useState } from 'react';
 import { Box, Grid2, Typography, Tabs, Tab, Container } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const tabData = [
     {
@@ -203,9 +205,9 @@ export default function WebportalTab() {
     const activeTabContent = tabData.find((tab) => tab.key === activeTab);
 
     return (
-        <Box sx={{ py: { xs: 4, md: 8 }, px: { xs: 2, md: 4 } }}>
+        <Box sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 6 } }}>
             <Container maxWidth="lg">
-                <Typography
+                {/* <Typography
                     variant="h4"
                     sx={{
                         fontFamily: 'Poppins, sans-serif',
@@ -216,7 +218,10 @@ export default function WebportalTab() {
                     }}
                 >
                     Powerful Web Portal Services For Your Business
-                </Typography>
+                </Typography> */}
+                <Box textAlign={'center'}>
+                    <Title fontxs={'16px'} color={'#0a1f5f'} title={' Powerful Web Portal Services For Your Business'} />
+                </Box>
 
                 {/* Tabs */}
                 <Tabs value={activeTab} onChange={handleChange} variant="scrollable" scrollButtons="auto" sx={{ mb: 6, justifyContent: 'center', display: 'flex' }}>
@@ -279,10 +284,10 @@ export default function WebportalTab() {
                 {/* Content */}
                 {activeTabContent && (
                     <motion.div key={activeTabContent.key} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-                        <Grid2 container spacing={4} alignItems="center">
+                        <Grid2 container spacing={4} alignItems={{ xs: 'justifiy', md: 'center' }}>
                             <Grid2 size={{ xs: 12, md: 6 }}>
-                                <Box sx={{ textAlign: { xs: 'center', md: 'left' } }}>
-                                    <Typography
+                                <Box sx={{ textAlign: { xs: 'left', md: 'left' } }}>
+                                    {/* <Typography
                                         variant="h5"
                                         sx={{
                                             fontFamily: 'Poppins, sans-serif',
@@ -292,8 +297,10 @@ export default function WebportalTab() {
                                         }}
                                     >
                                         {activeTabContent.contentTitle}
-                                    </Typography>
-                                    <Typography
+                                    </Typography> */}
+
+                                    <Title color="#0a1f5f" title={activeTabContent.contentTitle} />
+                                    {/* <Typography
                                         sx={{
                                             fontFamily: 'Poppins, sans-serif',
                                             fontWeight: 400,
@@ -303,7 +310,8 @@ export default function WebportalTab() {
                                         }}
                                     >
                                         {activeTabContent.contentDesc}
-                                    </Typography>
+                                    </Typography> */}
+                                    <Description Des={activeTabContent.contentDesc} />
                                 </Box>
                             </Grid2>
                             <Grid2 size={{ xs: 12, md: 6 }}>

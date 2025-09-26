@@ -22,6 +22,8 @@ import React from 'react';
 import { Container, Grid2, Typography, Button, Box } from '@mui/material';
 import { motion } from 'framer-motion';
 import Buttons from '../../../components/common/Button';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 function WordPressDevelopmentService() {
     return (
@@ -39,16 +41,21 @@ function WordPressDevelopmentService() {
                     <Grid2 size={{ xs: 12 }}>
                         {/* Heading */}
                         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-                            <Typography variant="h3" component="h1" fontWeight="bold" gutterBottom fontSize={{ xs: 26, md: 34 }}>
+                            {/* <Typography variant="h3" component="h1" fontWeight="bold" gutterBottom fontSize={{ xs: 26, md: 34 }}>
                                 Looking for WordPress Development Service?
-                            </Typography>
+                            </Typography> */}
+                            <Title color={'white'} title={'Looking for WordPress Development Service?'} />
                         </motion.div>
 
                         {/* Paragraph */}
                         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.3 }}>
-                            <Typography variant="body1" sx={{ mb: 4, fontSize: '1.1rem' }}>
+                            {/* <Typography variant="body1" sx={{ mb: 4, fontSize: '1.1rem' }}>
                                 Looking for the best deal on your requirements? Look no further! Simply share your requirements with us and we’ll provide you with a free quote that meets your needs. Don’t wait any longer – contact us now!
-                            </Typography>
+                            </Typography> */}
+                            <Description
+                                color={'white'}
+                                Des="Looking for the best deal on your requirements? Look no further! Simply share your requirements with us and we’ll provide you with a free quote that meets your needs. Don’t wait any longer – contact us now!"
+                            />
                         </motion.div>
 
                         {/* Button */}

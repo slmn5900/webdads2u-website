@@ -44,7 +44,7 @@ export default function ResponsiveWebdesigncompanychennai() {
 
                     {/* RIGHT SLIDER */}
                     <Grid2 size={{ xs: 12, sm: 6 }}>
-                        <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
+                        <motion.div whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
                             <Swiper
                                 modules={[Autoplay, Pagination]}
                                 autoplay={{ delay: 2000, disableOnInteraction: false }}
@@ -57,7 +57,7 @@ export default function ResponsiveWebdesigncompanychennai() {
                                 slidesPerView={1}
                                 style={{
                                     borderRadius: '20px',
-                                    paddingBottom:"20px"
+                                    paddingBottom: '20px'
                                     // boxShadow: '0 6px 20px rgba(0,0,0,0.1)'
                                 }}
                             >

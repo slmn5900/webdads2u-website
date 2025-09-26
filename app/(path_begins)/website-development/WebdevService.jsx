@@ -64,6 +64,8 @@ import React from 'react';
 import { Container, Grid2, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 // import Reactimg from '../../../public/webdads/images/website-development/React-js.png';
 
 const WebdevService = () => {
@@ -99,12 +101,11 @@ const WebdevService = () => {
     ];
 
     return (
-        <Box component="section" sx={{ py: { xs: 6, md: 10 } }}>
-            <Container maxWidth="lg">
-                {/* Section Heading */}
-                <motion.div initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: 'easeOut' }} viewport={{ once: true, amount: 0.3 }}>
-                    <Box textAlign="center" maxWidth="800px" mx="auto" mb={6}>
-                        <Typography
+        <Box component="section" sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 } }}>
+            {/* Section Heading */}
+            <motion.div initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: 'easeOut' }} viewport={{ once: true, amount: 0.3 }}>
+                <Box textAlign="center" maxWidth="800px" mx="auto" mb={6}>
+                    {/* <Typography
                             variant="h3"
                             sx={{
                                 fontWeight: 'bold',
@@ -113,70 +114,72 @@ const WebdevService = () => {
                             }}
                         >
                             What Web Development Services we can do!
-                        </Typography>
-                        <Typography variant="body1" sx={{ fontSize: { xs: '0.95rem', md: '1.1rem' }, color: 'text.secondary' }}>
-                            All you need to keep your website 100% secure and updated. Technologies like JavaScript, PHP, and frameworks like React.js and WordPress drive creativity, crafting captivating digital realms.
-                        </Typography>
-                    </Box>
-                </motion.div>
+                        </Typography> */}
 
-                {/* Services Grid2 */}
-                <Grid2 container spacing={4}>
-                    {services.map((service, index) => (
-                        <Grid2 size={{ xs: 12, sm: 6, md: 3 }} key={index}>
-                            <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: 'easeOut', delay: index * 0.2 }} viewport={{ once: true, amount: 0.3 }}>
-                                <Box
+                    <Title title={'What Web Development Services we can do!'} />
+                    {/* <Typography variant="body1" sx={{ fontSize: { xs: '0.95rem', md: '1.1rem' }, color: 'text.secondary' }}>
+                            All you need to keep your website 100% secure and updated. Technologies like JavaScript, PHP, and frameworks like React.js and WordPress drive creativity, crafting captivating digital realms.
+                        </Typography> */}
+                    <Description Des={'All you need to keep your website 100% secure and updated. Technologies like JavaScript, PHP, and frameworks like React.js and WordPress drive creativity, crafting captivating digital realms.'} />
+                </Box>
+            </motion.div>
+
+            {/* Services Grid2 */}
+            <Grid2 container spacing={4}>
+                {services.map((service, index) => (
+                    <Grid2 size={{ xs: 12, sm: 6, md: 3 }} key={index}>
+                        <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: 'easeOut', delay: index * 0.2 }} viewport={{ once: true, amount: 0.3 }}>
+                            <Box
+                                sx={{
+                                    p: 3,
+                                    borderRadius: 3,
+                                    boxShadow: 3,
+                                    textAlign: 'center',
+                                    height: '100%',
+                                    minHeight: '320px',
+                                    backgroundColor: 'background.paper',
+                                    '&:hover': {
+                                        boxShadow: 6,
+                                        transform: 'translateY(-6px)',
+                                        transition: '0.3s ease'
+                                    }
+                                }}
+                            >
+                                {/* Image */}
+                                <Box mb={2} display="flex" justifyContent="center">
+                                    {typeof service.img === 'string' ? (
+                                        <Box component="img" src={service.img} alt={service.alt} sx={{ maxWidth: '80px', height: 'auto' }} />
+                                    ) : (
+                                        <Image src={service.img} alt={service.alt} style={{ maxWidth: '80px', height: 'auto' }} />
+                                    )}
+                                </Box>
+
+                                {/* Title */}
+                                <Typography
+                                    component="a"
+                                    href={service.link}
+                                    variant="h6"
                                     sx={{
-                                        p: 3,
-                                        borderRadius: 3,
-                                        boxShadow: 3,
-                                        textAlign: 'center',
-                                        height: '100%',
-                                        minHeight: '320px',
-                                        backgroundColor: 'background.paper',
-                                        '&:hover': {
-                                            boxShadow: 6,
-                                            transform: 'translateY(-6px)',
-                                            transition: '0.3s ease'
-                                        }
+                                        fontWeight: 'bold',
+                                        display: 'block',
+                                        mb: 1,
+                                        color: 'black',
+                                        textDecoration: 'none',
+                                        '&:hover': { textDecoration: 'underline' }
                                     }}
                                 >
-                                    {/* Image */}
-                                    <Box mb={2} display="flex" justifyContent="center">
-                                        {typeof service.img === 'string' ? (
-                                            <Box component="img" src={service.img} alt={service.alt} sx={{ maxWidth: '80px', height: 'auto' }} />
-                                        ) : (
-                                            <Image src={service.img} alt={service.alt} style={{ maxWidth: '80px', height: 'auto' }} />
-                                        )}
-                                    </Box>
+                                    {service.title}
+                                </Typography>
 
-                                    {/* Title */}
-                                    <Typography
-                                        component="a"
-                                        href={service.link}
-                                        variant="h6"
-                                        sx={{
-                                            fontWeight: 'bold',
-                                            display: 'block',
-                                            mb: 1,
-                                            color: 'primary.main',
-                                            textDecoration: 'none',
-                                            '&:hover': { textDecoration: 'underline' }
-                                        }}
-                                    >
-                                        {service.title}
-                                    </Typography>
-
-                                    {/* Description */}
-                                    <Typography variant="body2" color="text.secondary">
-                                        {service.desc}
-                                    </Typography>
-                                </Box>
-                            </motion.div>
-                        </Grid2>
-                    ))}
-                </Grid2>
-            </Container>
+                                {/* Description */}
+                                <Typography variant="body2" color="text.secondary">
+                                    {service.desc}
+                                </Typography>
+                            </Box>
+                        </motion.div>
+                    </Grid2>
+                ))}
+            </Grid2>
         </Box>
     );
 };

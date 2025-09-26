@@ -1,5 +1,7 @@
 import { Box, Button, Grid2, Typography } from '@mui/material';
 import React from 'react';
+import Description from '../Description';
+import Title from '../Title';
 
 export default function ContentBox({ content, btn }) {
     if (!content) return null; // prevents error
@@ -10,7 +12,7 @@ export default function ContentBox({ content, btn }) {
         <>
             <Grid2 size={{ xs: 12, md: contentSize || 6 }} item>
                 <Box>
-                    <Typography
+                    {/* <Typography
                         variant="h2"
                         sx={{
                             fontWeight: 'bold',
@@ -20,8 +22,9 @@ export default function ContentBox({ content, btn }) {
                         }}
                     >
                         {title}
-                    </Typography>
-                    <Typography
+                    </Typography> */}
+                    <Title title={title} />
+                    {/* <Typography
                         variant="body1"
                         sx={{
                             lineHeight: 1.6,
@@ -30,7 +33,8 @@ export default function ContentBox({ content, btn }) {
                         }}
                     >
                         {description}
-                    </Typography>
+                    </Typography> */}
+                    <Description Des={description} />
                 </Box>
                 {btn && (
                     <Button variant="outline" href="/contact-us" sx={{ border: '1px solid black', mt: 4 }}>
