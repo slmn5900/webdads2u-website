@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaCircleCheck } from "react-icons/fa6";
+import Title from '../../../components/Title';
 
 function Advantagesusingresponsiveweb() {
   return (
@@ -7,8 +8,10 @@ function Advantagesusingresponsiveweb() {
         <div className="container">
             <div className="row text-center advantagesusingresponsiveweb-hearder">
                 <div className="col-sm-12 col-md-12 col-lg-12">
-                    <h4 className='mt-sm-1 mt-md-2 mt-lg-3'>Advantages of Using Responsive Web</h4>
-                    <h4 className='mb-sm-1 mb-mb-2 mb-lg-3'>Designing Service</h4>
+                    <Title title={"Advantages of Using Responsive Web"}/>
+                    <Title title={"Designing Service"}/>
+                    {/* <h4 className='mt-sm-1 mt-md-2 mt-lg-3'>Advantages of Using Responsive Web</h4> */}
+                    {/* <h4 className='mb-sm-1 mb-mb-2 mb-lg-3'>Designing Service</h4> */}
                 </div>
             </div>
             <div className="row advantagesusingresponsiveweb">

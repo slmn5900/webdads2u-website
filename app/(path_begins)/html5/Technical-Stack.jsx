@@ -4,6 +4,8 @@ import { Container, Grid2, Typography, Box } from '@mui/material';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 function Technicalstack() {
     const logos = [
@@ -11,7 +13,7 @@ function Technicalstack() {
         'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415399/webdads2u/html5/icons/css3.png',
         'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415434/webdads2u/html5/icons/javascript.png',
         'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415435/webdads2u/html5/icons/bootstrap.png',
-        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415430/webdads2u/html5/icons/php.png',
+        'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415430/webdads2u/html5/icons/php.png'
         // 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415367/webdads2u/html5/icons/html-icons.png',
         // 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415398/webdads2u/html5/icons/css.png',
         // 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757415380/webdads2u/html5/icons/javascript-logo.png',
@@ -25,13 +27,18 @@ function Technicalstack() {
                 {/* Heading */}
                 <Grid2 container justifyContent="center" textAlign="center" mb={4}>
                     <Grid2 size={{ xs: 12, md: 10 }}>
-                        <Typography variant="h4" gutterBottom>
+                        <Title title={' Technical Stack'} />
+                        {/* <Typography variant="h4" gutterBottom>
                             Technical Stack
-                        </Typography>
-                        <Typography variant="body1" color="text.secondary">
+                        </Typography> */}
+                        <Description
+                            Des="  We can use different technologies to develop a single application or only one technology can be used, depending on the situation. Our technical proficiency is listed below, and we are the most seasoned web design firm in
+                            Chennai."
+                        />
+                        {/* <Typography variant="body1" color="text.secondary">
                             We can use different technologies to develop a single application or only one technology can be used, depending on the situation. Our technical proficiency is listed below, and we are the most seasoned web design firm in
                             Chennai.
-                        </Typography>
+                        </Typography> */}
                     </Grid2>
                 </Grid2>
 

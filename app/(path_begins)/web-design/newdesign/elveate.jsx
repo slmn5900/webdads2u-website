@@ -13,11 +13,12 @@ const ElevateSection = () => {
                     backgroundImage: 'url(https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410014/webdads2u/web-design/evalute-banner.png)',
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
-                    backgroundPosition: 'center'
+                    backgroundPosition: 'center',
+                    padding: { xs: '2rem', md: 0 }
                 }}
             >
                 <Container>
-                    <Grid2 container alignItems="center" spacing={5} className="elevate">
+                    <Grid2 container alignItems="center" spacing={5}>
                         {/* Left Content */}
                         <Grid2 size={{ xs: 12, md: 5 }}>
                             <motion.div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, ease: 'easeOut' }} viewport={{ once: true }}>
@@ -26,7 +27,7 @@ const ElevateSection = () => {
                                     sx={{
                                         color: '#fff',
                                         fontFamily: 'Poppins, sans-serif',
-                                        fontSize: { xs: '28px', md: '35px' },
+                                        fontSize: { xs: '16px', md: '35px' },
                                         fontWeight: 600,
                                         mb: 3
                                     }}
@@ -41,9 +42,9 @@ const ElevateSection = () => {
                                             sx={{
                                                 backgroundColor: '#2bc0f8',
                                                 borderRadius: '30px',
-                                                px: 5,
-                                                py: 1.5,
-                                                fontSize: '18px',
+                                                px: { xs: 2, md: 5 },
+                                                py: { xs: 1, md: 1.5 },
+                                                fontSize: { xs: 12, md: '18px' },
                                                 fontWeight: 600,
                                                 color: '#fff',
                                                 textTransform: 'none',
@@ -58,7 +59,7 @@ const ElevateSection = () => {
                         </Grid2>
 
                         {/* Right Image */}
-                        <Grid2 size={{ xs: 12, md: 7 }} sx={{ display: { xs: "none", md: "block" } }}>
+                        <Grid2 size={{ xs: 12, md: 7 }} sx={{ display: { xs: 'none', md: 'block' } }}>
                             <motion.img
                                 src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757410010/webdads2u/web-design/eve-group.png"
                                 alt="Elevate Website"

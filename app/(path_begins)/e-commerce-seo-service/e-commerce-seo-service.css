@@ -55,7 +55,7 @@
 
 /* provenecommerce */
 .provenecommerce-main {
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
 }
 
 .provenecommerce h3 {
@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 768px) {
     .provenecommerce-main {
-        padding: 30px 0px;
+        /* padding: 30px 0px; */
     }
     .provenecommerce h3 {
         font-size: 25px;

@@ -9,6 +9,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Buttons from '../../../components/common/Button';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const sliderImages = [
     { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757478580/webdads2u/responsive-website/rmp-website.png', alt: 'rmp website' },
@@ -27,13 +29,18 @@ export default function ResponsiveWebdesigncompanychennai() {
                     {/* LEFT CONTENT */}
                     <Grid2 size={{ xs: 12, sm: 6 }}>
                         <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
-                            <Typography variant="h3" component="h2" gutterBottom sx={{ fontWeight: 'bold' }} fontSize={{ xs: '1.8rem', sm: '2.2rem', md: '2.8rem' }}>
+                            {/* <Typography variant="h3" component="h2" gutterBottom sx={{ fontWeight: 'bold' }} fontSize={{ xs: '1.8rem', sm: '2.2rem', md: '2.8rem' }}>
                                 Responsive Web Design Company in Chennai
-                            </Typography>
-                            <Typography variant="body1" paragraph>
+                            </Typography> */}
+                            <Title title={'Responsive Web Design Company in Chennai'} />
+                            <Description
+                                Des="As a premier responsive web designing company in Chennai, we specialize in creating dynamic and adaptable websites that provide an optimal viewing experience across all devices. Our expert team leverages the latest
+                                technologies and best practices in responsive web design to ensure your website is visually stunning and fully functional on desktops, tablets, and smartphones."
+                            />
+                            {/* <Typography variant="body1" paragraph>
                                 As a premier responsive web designing company in Chennai, we specialize in creating dynamic and adaptable websites that provide an optimal viewing experience across all devices. Our expert team leverages the latest
                                 technologies and best practices in responsive web design to ensure your website is visually stunning and fully functional on desktops, tablets, and smartphones.
-                            </Typography>
+                            </Typography> */}
                             {/* <Button variant="contained" color="primary" size="large" href="/contact-us" sx={{ borderRadius: '30px', mt: 2 }}>
                                 Contact Us
                             </Button> */}

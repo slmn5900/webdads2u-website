@@ -1,8 +1,7 @@
-
-
 'use client';
 import React from 'react';
 import { Box, Container, Grid2, Card, CardContent, Typography, CardMedia } from '@mui/material';
+import Title from '../../../components/Title';
 
 const services = [
     {
@@ -48,9 +47,12 @@ function Ppcgoogle() {
         <Box component="section" sx={{ py: 6, backgroundColor: '#f9f9f9' }}>
             <Container>
                 {/* Header */}
-                <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ fontWeight: 'bold', mb: 5 }}>
+                {/* <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ fontWeight: 'bold', mb: 5 }}>
                     Our PPC Google Ads Services in India
-                </Typography>
+                </Typography> */}
+                <Box sx={{ textAlign: 'center' }}>
+                    <Title title={'  Our PPC Google Ads Services in India'} />
+                </Box>
 
                 {/* Services Grid2 */}
                 <Grid2 container spacing={4}>

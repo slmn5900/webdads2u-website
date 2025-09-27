@@ -100,6 +100,7 @@
 import React from 'react';
 import { Box, Container, Grid2, Typography, Card, CardContent, useTheme } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
 
 const services = [
     {
@@ -148,7 +149,7 @@ export default function Customwebdevelopmentservices() {
         >
             <Container>
                 {/* Title */}
-                <Typography
+                {/* <Typography
                     variant="h4"
                     align="center"
                     fontWeight={600}
@@ -161,7 +162,10 @@ export default function Customwebdevelopmentservices() {
                     }}
                 >
                     Custom Web Development Services
-                </Typography>
+                </Typography> */}
+                <Box textAlign={'center'} sx={{ pb: 6 }}>
+                    <Title title={'Custom Web Development Services'} />
+                </Box>
 
                 {/* Cards */}
                 <Grid2 container spacing={4}>
@@ -182,8 +186,7 @@ export default function Customwebdevelopmentservices() {
                                     boxShadow: '0px 4px 12px rgba(0,0,0,0.1)',
                                     background: '#fff',
                                     height: { xs: '400px', sm: '400px', md: '370px' },
-                                    marginBottom: 4,
-                                    
+                                    marginBottom: 4
                                 }}
                             >
                                 {/* Circle Image */}
@@ -226,7 +229,7 @@ export default function Customwebdevelopmentservices() {
                                         sx={{
                                             fontFamily: 'Poppins, sans-serif',
                                             color: '#0b1225',
-                                            fontSize: { xs: 16, md: 20 },
+                                            fontSize: { xs: 16, md: 20 }
                                         }}
                                     >
                                         {service.title}
@@ -234,7 +237,7 @@ export default function Customwebdevelopmentservices() {
                                     <Typography
                                         sx={{
                                             fontFamily: 'Poppins, sans-serif',
-                                          fontSize: { xs: 12, md: 14 },
+                                            fontSize: { xs: 14, md: 14 },
                                             color: '#5a5a5a'
                                         }}
                                     >

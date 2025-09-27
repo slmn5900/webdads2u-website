@@ -1,6 +1,7 @@
 'use client';
 
 import { Container, Grid2, Typography, Box, Tooltip } from '@mui/material';
+import Title from '../../../../components/Title';
 
 const CreatingProcess = () => {
     const processSteps = [
@@ -42,14 +43,13 @@ const CreatingProcess = () => {
     ];
 
     return (
-        <Box component="section" sx={{ py: 5 }} className="creating-process">
+        <Box component="section" className="creating-process">
             <Container>
                 {/* Process Section */}
-                <Grid2 container spacing={4} sx={{ alignItems: 'center', justifyContent: 'center' }} textAlign={'center'}>
+                <Grid2 container spacing={4} sx={{ alignItems: 'center', justifyContent: 'center', p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 } }} textAlign={'center'}>
                     <Grid2 size={{ xs: 12 }} item>
-                        <Typography variant="h2" component="h2" gutterBottom>
-                            Our Website Creating Process
-                        </Typography>
+                        {/* <Typography variant="h2" component="h2" gutterBottom></Typography> */}
+                        <Title color={'#34a7be'} title={'Our Website Creating Process'} />
                     </Grid2>
 
                     {processSteps.map((step, index) => (
@@ -68,11 +68,14 @@ const CreatingProcess = () => {
                 </Grid2>
 
                 {/* Expectations Section */}
-                <Grid2 container spacing={5} sx={{ pt: 8 }}>
+                <Grid2 container spacing={2} sx={{ pt: 2 }}>
                     <Grid2 size={{ xs: 12 }}>
-                        <Typography variant="h2" component="h2" gutterBottom>
+                        {/* <Typography variant="h2" component="h2" gutterBottom>
                             What Enterprises can expect from webdads2u Technologies?
-                        </Typography>
+                        </Typography> */}
+                        <Box sx={{ textAlign: 'center' }}>
+                            <Title color={'#34a7be'} title={' What Enterprises can expect from webdads2u Technologies?'} />
+                        </Box>
                     </Grid2>
 
                     {/* {expectations.map((item, index) => (
@@ -96,7 +99,7 @@ const CreatingProcess = () => {
                         const showTooltip = words.length > 30;
 
                         return (
-                            <Grid2 size={{ xs: 12, sm: 6, md: 4 }} key={index}>
+                            <Grid2 size={{ xs: 12, sm: 6, md: 4 }} key={index} sx={{ boxShadow: 3, background: 'white' }}>
                                 <Box
                                     className="webdesign-standards-technologies-section"
                                     sx={{
@@ -105,8 +108,7 @@ const CreatingProcess = () => {
                                         display: 'flex',
                                         flexDirection: 'column',
                                         minHeight: { xs: '370px', md: '' },
-                                        background:"transparent"
-                                        
+                                        background: 'transparent'
                                     }}
                                 >
                                     <Box sx={{ textAlign: 'center' }}>

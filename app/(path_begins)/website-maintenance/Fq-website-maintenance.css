@@ -50,7 +50,7 @@
 
 /*Websitemaintenancecompany*/
 .websitemaintenancecompany-main {
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
 }
 
 .websitemaintenancecompany h2 {
@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 767px) {
     .websitemaintenancecompany-main {
-        padding: 30px 0px;
+        /* padding: 30px 0px; */
     }
 
     .websitemaintenancecompany h2 {
@@ -153,7 +153,7 @@
 
 /* Benefitsselecting */
 .benefitsselecting-main {
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 .benefitsselecting h3 {
     color: #0b1225;
@@ -171,7 +171,7 @@
 
 @media screen and (max-width: 767px) {
     .benefitsselecting-main {
-        padding-top: 30px;
+        /* padding-top: 30px; */
     }
     .benefitsselecting h3 {
         font-size: 25px;

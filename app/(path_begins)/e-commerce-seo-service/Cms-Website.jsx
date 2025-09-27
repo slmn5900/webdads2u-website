@@ -41,7 +41,7 @@ function Cmswebsite() {
     ];
 
     return (
-        <Box component="section" sx={{ py: 8, backgroundColor: 'background.default' }}>
+        <Box component="section" sx={{ pt: 8, backgroundColor: 'background.default' }}>
             <Container>
                 {/* Header */}
                 <Grid2 container justifyContent="center" textAlign="center" spacing={3}>

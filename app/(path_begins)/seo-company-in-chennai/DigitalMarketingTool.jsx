@@ -63,7 +63,7 @@ export default function DigitalMarketingTool() {
                                     src={tool.img}
                                     alt={tool.title}
                                     sx={{
-                                        maxWidth: '100%',
+                                        maxWidth:{ xs:"50px",md:'100%'},
                                         height: 'auto',
                                         mr: 'auto',
                                         alignItems: 'center'

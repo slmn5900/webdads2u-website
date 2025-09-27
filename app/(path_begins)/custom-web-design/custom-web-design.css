@@ -87,7 +87,7 @@
 /* Whywebdads2u */
 
 .whywebdads2u-main {
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
 }
 
 .whywebdads2u h2 {
@@ -124,7 +124,7 @@
 
 @media screen and (max-width: 767px) {
     .whywebdads2u-main {
-        padding: 30px 0px;
+        /* padding: 30px 0px; */
     }
 
     .whywebdads2u h2 {
@@ -174,7 +174,7 @@
     margin-top: -65px;
     padding-top: 60px;
     border-radius: 10px;
-    height: 100%;
+    height: 350px;
 }
 
 .customwebdesignservices-card .text-area:hover {

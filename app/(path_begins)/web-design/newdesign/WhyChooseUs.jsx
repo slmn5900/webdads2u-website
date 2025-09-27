@@ -12,9 +12,11 @@ const WhyChooseUs = () => {
             component="section"
             sx={{
                 [theme.breakpoints.down('sm')]: {
-                    py: 3
+                    py: 3,
+                    pt: 0
                 },
-                py: 4
+                py: 4,
+                pt: 0
             }}
         >
             <Container maxWidth="md">
@@ -42,20 +44,6 @@ const WhyChooseUs = () => {
                         WHY TO CHOOSE
                     </Typography>
 
-                    {/* <Typography
-                        variant="h4"
-                        component="h2"
-                        sx={{
-                            fontWeight: 700,
-                            mb: 3,
-                            fontSize: isMobile ? '1.75rem' : '2rem',
-                            color: '#002060',
-                            lineHeight: 1.2
-                        }}
-                    >
-                        Top reasons to choose the webdads2u IT Solution-web designing services
-                    </Typography> */}
-
                     <Title color={'#002060'} title={'Top reasons to choose the webdads2u IT Solution-web designing services'} />
 
                     {/* <Typography
@@ -70,11 +58,13 @@ const WhyChooseUs = () => {
                         crafting precise strategies for diverse business goals. Reliability defines us, offering seamless operations and dependable support. Our commitment to affordability guarantees top-tier web designing services without straining
                         budgets. Choose Webdads2u for unmatched excellence in website design, ensuring a tailored approach for your success.
                     </Typography> */}
-                    <Description
-                        Des="At Webdads2u, our edge lies in delivering exemplary website designing services. Our seasoned experts tailor innovative approaches to match your unique needs, ensuring future-proof solutions. Customization is our forte,
+                    <Box sx={{ textAlign: { xs: 'start', md: 'center' } }}>
+                        <Description
+                            Des="At Webdads2u, our edge lies in delivering exemplary website designing services. Our seasoned experts tailor innovative approaches to match your unique needs, ensuring future-proof solutions. Customization is our forte,
                         crafting precise strategies for diverse business goals. Reliability defines us, offering seamless operations and dependable support. Our commitment to affordability guarantees top-tier web designing services without straining
                         budgets. Choose Webdads2u for unmatched excellence in website design, ensuring a tailored approach for your success."
-                    />
+                        />
+                    </Box>
                 </Box>
             </Container>
         </Box>

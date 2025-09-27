@@ -61,7 +61,7 @@
 
 /* Amplifyingyouronline */
 .amplifyingyouronline-main {
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
 }
 
 .amplifyingyouronline h2 {
@@ -80,7 +80,7 @@
 
 @media screen and (max-width: 767px) {
     .amplifyingyouronline-main {
-        padding: 30px 0px;
+        /* padding: 30px 0px; */
     }
 
     .amplifyingyouronline h2 {

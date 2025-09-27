@@ -1,21 +1,32 @@
-import React from 'react'
+import React from 'react';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 function Digitalmarketingstrategy() {
-  return (
-    <section className='digitalmarketingstrategy-main'>
-        <div className="container">
-            <div className="row digitalmarketingstrategy">
-                <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
-                <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757488360/webdads2u/digital-marketing-agency/digital-marketing-strategy.png" alt="digital marketing strategy" loading='lazy' className='img-fluid' />
-                </div>
-                <div className="col-sm-12 col-md-6 col-lg-6">
-                    <h5>Digital Marketing Strategy</h5>
-                    <p>Crafting a successful Digital Marketing Strategy requires a deep understanding of your target audience, leveraging various online channels like social media, SEO, email, and content marketing to achieve your business goals. It involves continuous analysis, adaptation, and optimization to maximize reach, engagement, and conversions in the digital landscape.</p>
+    return (
+        <section className="digitalmarketingstrategy-main">
+            <div className="container">
+                <div className="row digitalmarketingstrategy">
+                    <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
+                        <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757488360/webdads2u/digital-marketing-agency/digital-marketing-strategy.png" alt="digital marketing strategy" loading="lazy" className="img-fluid" />
+                    </div>
+                    <div className="col-sm-12 col-md-6 col-lg-6">
+                        <Title title={'Digital Marketing Strategy'} />
+                        {/* <h5>Digital Marketing Strategy</h5> */}
+                        <Description
+                            Des="Crafting a successful Digital Marketing Strategy requires a deep understanding of your target audience, leveraging various online channels like social media, SEO, email, and content marketing to achieve your business
+                            goals. It involves continuous analysis, adaptation, and optimization to maximize reach, engagement, and conversions in the digital landscape.
+                        "
+                        />
+                        {/* <p>
+                            Crafting a successful Digital Marketing Strategy requires a deep understanding of your target audience, leveraging various online channels like social media, SEO, email, and content marketing to achieve your business
+                            goals. It involves continuous analysis, adaptation, and optimization to maximize reach, engagement, and conversions in the digital landscape.
+                        </p> */}
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-  )
+        </section>
+    );
 }
 
 export default Digitalmarketingstrategy;

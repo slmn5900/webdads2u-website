@@ -241,7 +241,7 @@ padding: 0px;
 
 /* SEOservicesindia */
 .seoservicesindia-main {
-    padding: 60px 0px;
+    /* padding: 60p/x 0px; */
 }
 
 .seoservicesindia h2 {
@@ -278,7 +278,7 @@ padding: 0px;
 
 @media screen and (max-width: 767px) {
     .seoservicesindia-main {
-        padding: 30px 0px;
+        /* padding: 30px 0px; */
     }
 
     .seoservicesindia h2 {

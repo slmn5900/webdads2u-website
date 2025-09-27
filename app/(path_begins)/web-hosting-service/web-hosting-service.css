@@ -60,7 +60,7 @@ font-size: 12px;
 
 /* webhosting */
 .webhosting-main{
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
 }
 
 .webhosting h2{
@@ -85,7 +85,7 @@ font-size: 12px;
 
 @media screen and (max-width:769px){
     .webhosting-main{
-        padding: 30px 0px;
+        /* padding: 30px 0px; */
     }
     
     .webhosting h2{

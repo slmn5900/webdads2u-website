@@ -290,7 +290,7 @@
 
 /* advantagesofHTML */
 .advantagesofHTML-main {
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
 }
 
 .advantagesofHTML-header h2 {
@@ -341,7 +341,7 @@
 
 @media screen and (max-width:769px) {
     .advantagesofHTML-main {
-        padding: 30px 0px;
+        /* padding: 30px 0px; */
     }
 
     .advantagesofHTML-header h1 {

@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 function Rightdomain() {
     return (
@@ -16,9 +18,11 @@ function Rightdomain() {
                         />
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
-                        <h5>How To Choose The Right Domain</h5>
-                        <p>Our experts put together these helpful tips for picking the perfect domain.</p>
-                        <ul className="p-0">
+                        <Title title={'How To Choose The Right Domain'} />
+                        {/* <h5>How To Choose The Right Domain</h5> */}
+                        <Description Des="Our experts put together these helpful tips for picking the perfect domain." />
+                        {/* <p>Our experts put together these helpful tips for picking the perfect domain.</p> */}
+                        <ul className="p-0" style={{ display: 'grid', gap: 10 ,fontFamily:"Poppins"}}>
                             <li>
                                 {' '}
                                 <FaCheckCircle className="item-icon" /> Keep your name easy to remember

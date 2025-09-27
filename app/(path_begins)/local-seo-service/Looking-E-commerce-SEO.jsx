@@ -80,10 +80,10 @@ function LookingEcommerceSEO() {
                                     color: '#2679AB',
                                     // color: '#fff',
                                     fontWeight: 600,
-                                    px: 4,
+                                    px: { xs: 2, md: 4 },
                                     py: 1.5,
                                     borderRadius: '30px',
-                                    fontSize: '1rem',
+                                    fontSize: { xs: '12px', md: '1rem' },
                                     boxShadow: '0 4px 12px rgba(38,121,171,0.4)',
                                     '&:hover': {
                                         backgroundColor: '#1f6995',

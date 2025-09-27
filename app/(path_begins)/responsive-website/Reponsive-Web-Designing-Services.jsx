@@ -2,6 +2,8 @@
 import React from 'react';
 import { Grid2, Card, CardContent, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const services = [
     {
@@ -23,30 +25,36 @@ const services = [
 
 function Reponsivewebdesigningservices() {
     return (
-        <Box component="section" sx={{ py: { xs: 6, md: 3 }, px: 2 }}>
+        <Box component="section" sx={{ py: { xs: 0, md: 0 }, px: 2 }}>
             <Grid2 container justifyContent="center" textAlign="center" spacing={3}>
                 <Grid2 size={{ xs: 12, md: 10 }}>
                     <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-                        <Typography variant="h2" fontSize={{ xs: '1.8rem', sm: '2.2rem', md: '2.8rem' }} fontWeight={700} gutterBottom>
+                        <Title title="Responsive Web Designing Services" />
+                        {/* <Typography variant="h2" fontSize={{ xs: '1.8rem', sm: '2.2rem', md: '2.8rem' }} fontWeight={700} gutterBottom>
                             Responsive Web Designing Services
-                        </Typography>
-                        <Typography variant="body1" fontSize={{ xs: '0.95rem', sm: '1rem', md: '1.1rem' }} color="text.secondary">
+                        </Typography> */}
+                        <Description
+                            Des="Our responsive web designing services prioritize user experience across all devices, ensuring seamless functionality and optimal viewing on desktops, tablets, and smartphones. With our expertise in responsive web page
+                            design, we craft visually appealing websites that adapt fluidly to different screen sizes and resolutions. From concept to implementation, we tailor our approach to meet your unique needs, delivering engaging and
+                            accessible digital experiences that drive results. Trust us for cutting-edge responsive web design solutions."
+                        />
+                        {/* <Typography variant="body1" fontSize={{ xs: '0.95rem', sm: '1rem', md: '1.1rem' }} color="text.secondary">
                             Our responsive web designing services prioritize user experience across all devices, ensuring seamless functionality and optimal viewing on desktops, tablets, and smartphones. With our expertise in responsive web page
                             design, we craft visually appealing websites that adapt fluidly to different screen sizes and resolutions. From concept to implementation, we tailor our approach to meet your unique needs, delivering engaging and
                             accessible digital experiences that drive results. Trust us for cutting-edge responsive web design solutions.
-                        </Typography>
+                        </Typography> */}
                     </motion.div>
                 </Grid2>
             </Grid2>
 
-            <Grid2 container spacing={4} justifyContent="center" sx={{ mt: 4 }}>
+            <Grid2 container spacing={4} justifyContent="center" sx={{ py: 4 }}>
                 {services.map((service, index) => (
                     <Grid2 size={{ xs: 12, sm: 6, md: 4 }} key={index}>
                         <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: index * 0.2 }}>
                             <Card
                                 sx={{
                                     textAlign: 'center',
-                                    height: '300px  ',
+                                    height: '300px',
                                     borderRadius: 3,
                                     p: 2,
                                     boxShadow: 3,

@@ -220,7 +220,7 @@ const TechnologyStackSection = () => {
     ];
 
     return (
-        <Box component="section" sx={{ backgroundColor: 'background.paper', py: { xs: 5, md: 8 } }}>
+        <Box component="section" sx={{ backgroundColor: 'background.paper', py: { xs: 5, md: 3 } }}>
             {/* Header Section */}
             <Grid2 container justifyContent="center">
                 <Grid2 size={{ xs: 12 }} sx={{ textAlign: 'center' }}>

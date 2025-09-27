@@ -88,7 +88,8 @@ export default function WebsiteMaintenanceHero() {
                     left: 0,
                     width: '100%',
                     maxHeight: { xs: '140px', md: '300px' },
-                    objectFit: 'contain'
+                    objectFit: 'contain',
+                    display: { xs: 'none', md: 'block' }
                 }}
             />
         </Box>

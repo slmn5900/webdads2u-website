@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Title from '../../../components/Title';
 
 function Createinteractive() {
     return (
@@ -7,8 +8,10 @@ function Createinteractive() {
             <div className="container">
                 <div className="row createinteractive">
                     <div className="col-sm-12 col-md-12 col-lg-12 text-center ">
-                        <h1>Create interactive, innovative and eye-catching website</h1>
-                        <h2>with custom web development to grow your business.</h2>
+                        <Title color={'red'} title={'Create interactive, innovative and eye-catching website'} />
+                        {/* <h1>Create interactive, innovative and eye-catching website</h1> */}
+                        <Title color={'black'} title={'with custom web development to grow your business.'} />
+                        {/* <h2>with custom web development to grow your business.</h2> */}
                     </div>
                 </div>
                 <div className="row createinteractive-para">

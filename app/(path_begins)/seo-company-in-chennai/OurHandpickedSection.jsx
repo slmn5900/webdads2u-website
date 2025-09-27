@@ -199,7 +199,7 @@ export default function OurHandpickedSection() {
                                         alt={alt}
                                         sx={{
                                             width: '100%',
-                                            height: '400px',
+                                            height: { xs: 'auto', md: '400px' },
                                             objectFit: 'contain',
                                             borderRadius: '10px'
                                         }}

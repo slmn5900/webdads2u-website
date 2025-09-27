@@ -79,7 +79,7 @@
 
 /* benefitswebsite */
 .benefitswebsite-main {
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 
 .benefitswebsite h2,
@@ -99,7 +99,7 @@
 
 @media screen and (max-width: 767px) {
     .benefitswebsite-main {
-        padding-top: 30px;
+        /* padding-top: 30px; */
     }
 
     .benefitswebsite h2,

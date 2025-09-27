@@ -201,7 +201,7 @@ import { MenuContext } from '../../../layout/context/menucontext';
 
 // ==== Styled Components ====
 const SectionWrapper = styled(Box)(({ theme }) => ({
-    paddingTop: theme.spacing(7.5),
+    // paddingTop: theme.spacing(7.5),
     paddingBottom: theme.spacing(7.5),
     '& h5': {
         color: '#e30e26',

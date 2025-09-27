@@ -6,6 +6,8 @@ import OffpageFaq from './OffpageFaq';
 import Banner from '../../../components/ui/banner/Banner';
 import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 import BrochureFaq from '../../../components/ui/BrochureFaq';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 const OffpageseoHero = () => {
     return (
         <>
@@ -37,17 +39,25 @@ const OffpageseoHero = () => {
             <Banner />
             <ClientLogoSlider />
 
-            <section className="pt-5 ptb-5 ">
+            <section className="  ">
                 <Container>
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
                             <div>
-                                <h2>Off Page Seo Service Chennai</h2>
-                                <p>
+                                <Title title={'Off Page Seo Service Chennai'} />
+                                {/* <h2>Off Page Seo Service Chennai</h2> */}
+
+                                <Description
+                                    Des="Quality off page seo is a challenge. It takes to do the right things to bring a website up in the Google SERP ranking. And, Google doesn’t make that easy. Be it any business, ranking in the top in SERP means that
+                                    Google thinks you’re worth it. And, convincing Google is no easy task at all. Just Quality content is not enough to rank high. Now, don’t get us wrong. Quality is a prerequisite. You have to build quality content.
+                                    But doing just that will not help in ranking the newly formed pages in Google top 10.
+                                "
+                                />
+                                {/* <p>
                                     Quality off page seo is a challenge. It takes to do the right things to bring a website up in the Google SERP ranking. And, Google doesn’t make that easy. Be it any business, ranking in the top in SERP means that
                                     Google thinks you’re worth it. And, convincing Google is no easy task at all. Just Quality content is not enough to rank high. Now, don’t get us wrong. Quality is a prerequisite. You have to build quality content.
                                     But doing just that will not help in ranking the newly formed pages in Google top 10.
-                                </p>
+                                </p> */}
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
@@ -64,27 +74,41 @@ const OffpageseoHero = () => {
                         </Col>
                         <Col md={12} lg={6}>
                             <div>
-                                <h2>What Is Off page seo Optimization?</h2>
-                                <p>
+                                <Title title={'What Is Off page seo Optimization?'} />
+                                {/* <h2>What Is Off page seo Optimization?</h2> */}
+
+                                <Description
+                                    Des="Best off page SEO company in Chennai will do it for our clients which increase traffics to website visibility in search engine. Off-Page Optimization is not just about links. After effectively completing on-page
+                                    optimization, it’s time for you to focus on off-page optimization. So, what it is all about? Off-page optimization refers optimizing such parts search engines consider while providing the ranking preference. Main
+                                    sources of external links consist of Web logs comments, links from related forums and sites,
+                                "
+                                />
+                                {/* <p>
                                     Best off page SEO company in Chennai will do it for our clients which increase traffics to website visibility in search engine. Off-Page Optimization is not just about links. After effectively completing on-page
                                     optimization, it’s time for you to focus on off-page optimization. So, what it is all about? Off-page optimization refers optimizing such parts search engines consider while providing the ranking preference. Main
                                     sources of external links consist of Web logs comments, links from related forums and sites,
-                                </p>
+                                </p> */}
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </section>
 
-            <section className=" pt-5 pb-5">
+            <section className=" ">
                 <Container>
                     <Row className="align-items-center">
                         <div className="text-center">
-                            <h2>Off page seo Optimization Includes</h2>
-                            <p>
+                            <Title title={'Off page seo Optimization Includes'} />
+                            {/* <h2>Off page seo Optimization Includes</h2> */}
+
+                            <Description
+                                Des=" Being one of the best SEO Company in Chennai, We have created an effective list of Off Page SEO activity. Few of the Off-Page activities are listed below but it’s not limited to these activities only, check here for
+                                more."
+                            />
+                            {/* <p>
                                 Being one of the best SEO Company in Chennai, We have created an effective list of Off Page SEO activity. Few of the Off-Page activities are listed below but it’s not limited to these activities only, check here for
                                 more.
-                            </p>
+                            </p> */}
                         </div>
                         <Col md={6} lg={4}>
                             <div className="offpage-devbx">

@@ -21,6 +21,8 @@
 import React from 'react';
 import { Box, Container, Grid2, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const Html5webdevelopment = () => {
     return (
@@ -36,7 +38,7 @@ const Html5webdevelopment = () => {
                     <Grid2 size={{ xs: 12, md: 10 }}>
                         {/* Title */}
                         <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }} viewport={{ once: true }}>
-                            <Typography
+                            {/* <Typography
                                 variant="h5"
                                 sx={{
                                     color: '#262250',
@@ -47,12 +49,13 @@ const Html5webdevelopment = () => {
                                 }}
                             >
                                 Why choose HTML5 web development services?
-                            </Typography>
+                            </Typography> */}
+                            <Title color={'#262250'} title={'Why choose HTML5 web development services?'} />
                         </motion.div>
 
                         {/* Paragraph */}
                         <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.9 }} viewport={{ once: true }}>
-                            <Typography
+                            {/* <Typography
                                 variant="body1"
                                 sx={{
                                     color: '#000',
@@ -67,7 +70,15 @@ const Html5webdevelopment = () => {
                                 seamless integration of audio, video, and animations, enhancing user engagement. Furthermore, HTML5’s responsive design capabilities ensure compatibility across devices, optimizing user experience. Additionally, its
                                 advanced forms and input controls facilitate interactive user interactions, enhancing functionality. Overall, opting for HTML5 web development services guarantees a modern, feature-rich website that meets contemporary
                                 standards and user expectations.
-                            </Typography>
+                            </Typography> */}
+                            <Box sx={{ textAlign: { xs: 'start', md: 'center' } }}>
+                                <Description
+                                    Des="Choosing HTML5 web development services offers numerous advantages. Firstly, HTML5 provides enhanced semantic elements, improving website structure and accessibility. Secondly, its robust multimedia support enables
+                                seamless integration of audio, video, and animations, enhancing user engagement. Furthermore, HTML5’s responsive design capabilities ensure compatibility across devices, optimizing user experience. Additionally, its
+                                advanced forms and input controls facilitate interactive user interactions, enhancing functionality. Overall, opting for HTML5 web development services guarantees a modern, feature-rich website that meets contemporary
+                                standards and user expectations."
+                                />
+                            </Box>
                         </motion.div>
                     </Grid2>
                 </Grid2>

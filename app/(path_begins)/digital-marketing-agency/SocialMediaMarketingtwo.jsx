@@ -1,4 +1,7 @@
 import React from 'react';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
+import { Box } from '@mui/material';
 
 function Socialmediamarketingtwo() {
     return (
@@ -6,13 +9,23 @@ function Socialmediamarketingtwo() {
             <div className="container">
                 <div className="row text-center socialmediamarketingtwo">
                     <div className="col-sm-12 col-md-12 col-lg-12">
-                        <h3>Social Media Marketing</h3>
-                        <p>
+                        <Title title={'Social Media Marketing'} />
+                        {/* <h3>Social Media Marketing</h3> */}
+                        <Box sx={{ textAlign: { xs: 'start', md: 'center' } }}>
+                            <Description
+                                Des="Social Media Marketing (SMM) is a key component of Digital Marketing that involves leveraging social media platforms to connect with your audience, build brand awareness, drive website traffic, and increase sales. By
+                            creating and sharing engaging content, businesses can interact with their target demographic on platforms like Facebook, Instagram, Twitter, LinkedIn, and TikTok. SMM encompasses various strategies such as organic posting,
+                            paid advertising, influencer partnerships, and community engagement to achieve marketing objectives. One of the biggest advantages of Social Media Marketing is its ability to facilitate direct communication with customers,
+                            allowing brands to address inquiries, provide support, and gather feedback in real-time.
+                        "
+                            />
+                        </Box>
+                        {/* <p>
                             Social Media Marketing (SMM) is a key component of Digital Marketing that involves leveraging social media platforms to connect with your audience, build brand awareness, drive website traffic, and increase sales. By
                             creating and sharing engaging content, businesses can interact with their target demographic on platforms like Facebook, Instagram, Twitter, LinkedIn, and TikTok. SMM encompasses various strategies such as organic posting,
                             paid advertising, influencer partnerships, and community engagement to achieve marketing objectives. One of the biggest advantages of Social Media Marketing is its ability to facilitate direct communication with customers,
                             allowing brands to address inquiries, provide support, and gather feedback in real-time.
-                        </p>
+                        </p> */}
                     </div>
                 </div>
                 <div className="row socialmediamarketingcard pt-3">
