@@ -173,6 +173,8 @@ import React, { useContext } from 'react';
 import { MenuContext } from '../../../layout/context/menucontext';
 import { Box, Typography, useMediaQuery, useTheme } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const MotionCard = ({ children, shift }) => {
     return (
@@ -219,7 +221,7 @@ const OffshoreMobileApp = () => {
             >
                 {/* Left Column */}
                 <Box sx={{ flex: 1 }}>
-                    <Typography
+                    {/* <Typography
                         variant="h3"
                         sx={{
                             color: '#262250',
@@ -231,9 +233,11 @@ const OffshoreMobileApp = () => {
                         }}
                     >
                         {title}
-                    </Typography>
+                    </Typography> */}
+                    <Title color={'#262250'} title={title} />
 
-                    <Typography
+                    <Description Des={description} />
+                    {/* <Typography
                         sx={{
                             textAlign: 'justify',
                             color: '#000',
@@ -244,7 +248,7 @@ const OffshoreMobileApp = () => {
                         }}
                     >
                         {description}
-                    </Typography>
+                    </Typography> */}
 
                     <Box
                         component="img"

@@ -5,28 +5,44 @@ import Woocommerceslider from './Woocommerceslider';
 import SocialMedia from '../../../components/common/SocialMedia';
 import Slider from '../../../components/common/Slider-image';
 import WoocomFaq from './WoocomFaq';
-import { Box, Grid2 } from '@mui/material';
+import { Box, Grid2, useMediaQuery, useTheme } from '@mui/material';
 import Banner from '../../../components/ui/banner/Banner';
 import BrochureFaq from '../../../components/ui/BrochureFaq';
 import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 function WoocommerceHero() {
+    const theme = useTheme();
+    const ismobile = useMediaQuery(theme.breakpoints.down('sm'));
     return (
         <>
             <Banner />
 
             <ClientLogoSlider />
-            <section className="shopify-why pt-5 pb-5">
+            <section className="shopify-why pb-5">
                 <Container>
                     <Row>
                         <Col md={12} lg={6}>
                             <div>
-                                <h2>Custom WooCommerce Development Company</h2>
-                                <p>Deploy a dedicated team of WooCommerce developers and design experts in ingenious WooCommerce theme development, plug-in development and WooCommerce app development perfectly suited to your enterprise needs.</p>
-                                <p>
+                                <Title title={'Custom WooCommerce Development Company'} />
+                                {/* <h2>Custom WooCommerce Development Company</h2> */}
+                                <Description
+                                    // mdalign={'center'}
+                                    Des="Deploy a dedicated team of WooCommerce developers and design experts in ingenious WooCommerce theme development, plug-in development and WooCommerce app development perfectly suited to your enterprise needs."
+                                />
+                                {/* <p>Deploy a dedicated team of WooCommerce developers and design experts in ingenious WooCommerce theme development, plug-in development and WooCommerce app development perfectly suited to your enterprise needs.</p> */}
+
+                                <Description
+                                    // mdalign={'center'}
+                                    Des="Access 24×7 support focused on resolving bugs and problems pertaining to operations and even migration. Evoke world-class infrastructure and resources skilled in creating superlative WooCommerce web development
+                                    applications, stores, and websites with high security standards coupled with crucial features like budgeting and accounting tools that ensure a quality product developed bespoke to your enterprise’s requirements.
+                             "
+                                />
+                                {/* <p>
                                     Access 24×7 support focused on resolving bugs and problems pertaining to operations and even migration. Evoke world-class infrastructure and resources skilled in creating superlative WooCommerce web development
                                     applications, stores, and websites with high security standards coupled with crucial features like budgeting and accounting tools that ensure a quality product developed bespoke to your enterprise’s requirements.
-                                </p>
+                                </p> */}
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
@@ -40,13 +56,19 @@ function WoocommerceHero() {
             <Woocommerceslider />
             <section className="our-wocom pt-5 pb-5" style={{ background: '#f5f5f5' }}>
                 <Container>
-                    <Row>
+                    <Row style={{ gap: ismobile ? '20px' : '0px' }}>
                         <div className="text-center pb-3">
-                            <h2>Our Woocommerce Development Services </h2>
-                            <p>
+                            <Title title={'Our Woocommerce Development Services '} />
+                            {/* <h2>Our Woocommerce Development Services </h2> */}
+                            <Description
+                                mdalign={'center'}
+                                Des="Explore our comprehensive WooCommerce Development Services tailored to elevate your online store. From custom theme design to seamless integration of advanced functionalities, we specialize in crafting solutions that
+                                align with your unique business needs. Our experienced team ensures meticulous attention to detail at every stage of development, delivering high-quality, bug-free solutions."
+                            />
+                            {/* <p>
                                 Explore our comprehensive WooCommerce Development Services tailored to elevate your online store. From custom theme design to seamless integration of advanced functionalities, we specialize in crafting solutions that
                                 align with your unique business needs. Our experienced team ensures meticulous attention to detail at every stage of development, delivering high-quality, bug-free solutions.{' '}
-                            </p>
+                            </p> */}
                         </div>
                         <Col md={6} lg={4} xs={12}>
                             <div className="woocom-box text-center  card" style={{ height: '350px' }}>
@@ -121,8 +143,10 @@ function WoocommerceHero() {
                 <Container>
                     <Row>
                         <div className="text-center">
-                            <h2>Looking for Woo commerce Development? </h2>
-                            <p>You are at the right place… Contact us today!</p>
+                            <Title color="white" title={'Looking for Woo commerce Development? '} />
+                            {/* <h2>Looking for Woo commerce Development? </h2> */}
+                            <Description mdalign={'center'} color={'white'} Des={'You are at the right place… Contact us today!'} />
+                            {/* <p>You are at the right place… Contact us today!</p> */}
                             <a href="/contact-us/">
                                 <Button variant="contained">Connect For Free Consultation</Button>
                             </a>

@@ -3,6 +3,7 @@
 import React from 'react';
 import { Container, Grid2, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../../components/Title';
 
 const cardVariants = {
     hidden: { opacity: 0, y: 40 },
@@ -50,9 +51,12 @@ export default function ContentMarketingServices() {
             }}
         >
             <Container>
-                <Typography variant="h4" align="center" gutterBottom component={motion.h2} initial={{ opacity: 0, y: -30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }}>
+                <Box sx={{ textAlign: 'center' }}>
+                    <Title title="Our Content Marketing Services in Chennai - Scripting Success, Building Brands" />
+                </Box>
+                {/* <Typography variant="h4" align="center" gutterBottom component={motion.h2} initial={{ opacity: 0, y: -30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }}>
                     Our Content Marketing Services in Chennai - Scripting Success, Building Brands
-                </Typography>
+                </Typography> */}
 
                 <Grid2 container spacing={3} sx={{ mt: 2 }}>
                     {services.map((service, index) => (

@@ -5,6 +5,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Autoplay, Navigation } from 'swiper/modules';
 import { MenuContext } from '../../../layout/context/menucontext';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 export default function RecentCreations() {
     const creations = [
@@ -23,19 +25,22 @@ export default function RecentCreations() {
     return (
         <Box sx={{ py: 0, px: { xs: 2, md: 6 } }}>
             <Container>
-                <Grid2 container spacing={3} alignItems="center">
+                <Grid2 container spacing={2} alignItems="center">
                     {/* Left Title */}
                     <Grid2 size={{ xs: 12, md: 3 }}>
-                        <Typography variant="h4" fontWeight={700} sx={{ color: '#0d0d0d', mb: { xs: 2, md: 0 } }}>
+                        {/* <Typography variant="h4" fontWeight={700} sx={{ color: '#0d0d0d', mb: { xs: 2, md: 0 } }}>
                             {title}
-                        </Typography>
+                        </Typography> */}
+                        <Title title={title}/>
                     </Grid2>
 
                     {/* Right Description */}
+
                     <Grid2 size={{ xs: 12, md: 9 }}>
-                        <Typography variant="body1" sx={{ color: '#555', mb: 3 }}>
+                        <Description Des={description}/>
+                        {/* <Typography variant="body1" sx={{ color: '#555', mb: 3 }}>
                             {description}
-                        </Typography>
+                        </Typography> */}
                     </Grid2>
                 </Grid2>
 
@@ -58,7 +63,7 @@ export default function RecentCreations() {
                     >
                         {images?.map((item, index) => (
                             <SwiperSlide key={index}>
-                                <Card sx={{ boxShadow: 3, borderRadius: 2 }}>
+                                <Card sx={{  borderRadius: 2,mb:2 }}>
                                     {console.log(item, 'item')}
                                     <CardMedia component="img" height="250" image={item?.img || item?.url} alt={item.alt} sx={{ objectFit: 'cover' }} />
                                 </Card>

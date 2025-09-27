@@ -2,6 +2,7 @@
 
 import { Box, Container, Grid2, Typography, Link } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../../components/Title';
 
 const streams = [
     {
@@ -23,15 +24,16 @@ const streams = [
 
 export default function EcommerceStreams() {
     return (
-        <Box component="section" sx={{ py: { xs: 2, md: 3 }, backgroundColor: '#f9f9f9' }}>
+        <Box component="section" sx={{ py: { xs: 0, md: 3 }, backgroundColor: '#f9f9f9' }}>
             <Container maxWidth="lg">
                 <Grid2 container spacing={4} alignItems="center" justifyContent="center">
                     {/* Title */}
                     <Grid2 size={{ xs: 12, md: 3 }}>
                         <Box textAlign="center">
-                            <Typography component={motion.h3} variant="h4" fontWeight={700} initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
+                            <Title title={' E-commerce Streams'} />
+                            {/* <Typography component={motion.h3} variant="h4" fontWeight={700} initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
                                 E-commerce Streams
-                            </Typography>
+                            </Typography> */}
                         </Box>
                     </Grid2>
 

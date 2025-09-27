@@ -102,6 +102,7 @@
 import React from 'react';
 import { Box, Container, Grid2, Card, CardContent, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
 
 const services = [
     {
@@ -149,9 +150,12 @@ function AppDevelopmentServices() {
     return (
         <Box component="section" sx={{ py: { xs: 6, md: 10 }, backgroundColor: '#fafafa' }}>
             <Container>
-                <Typography variant="h4" component="h1" align="center" fontWeight={700} mb={6}>
+                <Box sx={{ textAlign: 'center' }}>
+                    <Title title={'Benefits of Using Mobile App Development Services'} />
+                </Box>
+                {/* <Typography variant="h4" component="h1" align="center" fontWeight={700} mb={6}>
                     Benefits of Using Mobile App Development Services
-                </Typography>
+                </Typography> */}
 
                 <Grid2 container spacing={4}>
                     {services.map((item, i) => (
@@ -166,7 +170,7 @@ function AppDevelopmentServices() {
                                         boxShadow: '0 4px 15px rgba(0,0,0,0.08)',
                                         display: 'flex',
                                         flexDirection: 'column',
-                                        height:"330px"
+                                        height: '330px'
                                     }}
                                 >
                                     <Box

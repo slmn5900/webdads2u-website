@@ -2,6 +2,8 @@
 
 import { Box, Button, Container, Grid2, Typography, Link } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../../components/Title';
+import Description from '../../../../components/Description';
 
 const portfolioItems = [
     {
@@ -32,12 +34,14 @@ export default function EcommercePortfolio() {
             <Container maxWidth="lg">
                 {/* Section Titles */}
                 <Box textAlign="center" mb={6}>
-                    <Typography component={motion.h2} variant="h3" fontWeight={700} gutterBottom initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
+                    <Title color="#262250" title={'Our Portfolio'} />
+                    {/* <Typography component={motion.h2} variant="h3" fontWeight={700} gutterBottom initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
                         Our Portfolio
-                    </Typography>
-                    <Typography component={motion.h3} variant="h5" color="text.secondary" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
+                    </Typography> */}
+                    <Description mdalign={'center'} Des={'Innovative Ecommerce Web Design'} />
+                    {/* <Typography component={motion.h3} variant="h5" color="text.secondary" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
                         Innovative Ecommerce Web Design
-                    </Typography>
+                    </Typography> */}
                 </Box>
 
                 {/* Portfolio Grid2 */}

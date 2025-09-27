@@ -5,6 +5,8 @@ import Slider from '../../../components/common/Slider-image';
 import MobileUiUxHero from './Component/MobileUiUxHero';
 import { Box } from '@mui/material';
 import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 function ReactnativeHero() {
     return (
         <>
@@ -37,25 +39,36 @@ function ReactnativeHero() {
             {/* Slider */}
             <ClientLogoSlider />
             {/*  */}
-            <section className="react-nativeimhr pt-5 pb-5">
+            <section className="react-nativeimhr pb-5">
                 <Container>
                     <Row className="align-items-center">
                         <div className="text-center">
-                            <h2>Our React Native Development Capabilities</h2>
-                            <p>
+                            <Title title={'Our React Native Development Capabilities'} />
+                            {/* <h2>Our React Native Development Capabilities</h2> */}
+                            <Description
+                                Des="Our React Native development capabilities include expertise in building cross-platform mobile applications with native performance and UI flexibility. We leverage React Native’s powerful framework to create efficient,
+                                scalable, and visually appealing mobile solutions for our clients.
+                            "
+                            />
+                            {/* <p>
                                 Our React Native development capabilities include expertise in building cross-platform mobile applications with native performance and UI flexibility. We leverage React Native’s powerful framework to create efficient,
                                 scalable, and visually appealing mobile solutions for our clients.
-                            </p>
+                            </p> */}
                         </div>
 
                         <Col md={12} lg={6}>
                             <div>
-                                <h2>What Is React Native Development?</h2>
-                                <p>
+                                <Title title={'What Is React Native Development?'} />
+                                {/* <h2>What Is React Native Development?</h2> */}
+                                <Description
+                                    Des="                                    React Native App development is the process of creating mobile applications using the React Native framework, which allows developers to build cross-platform apps using JavaScript and React. It offers native-like
+                                    performance and enables code reuse across different platforms."
+                                />
+                                {/* <p>
                                     {' '}
                                     React Native App development is the process of creating mobile applications using the React Native framework, which allows developers to build cross-platform apps using JavaScript and React. It offers native-like
                                     performance and enables code reuse across different platforms.{' '}
-                                </p>
+                                </p> */}
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
@@ -71,11 +84,17 @@ function ReactnativeHero() {
                         </Col>
                         <Col md={12} lg={6}>
                             <div className="mt-5">
-                                <h2>Why React Native App Development?</h2>
-                                <p>
+                                <Title title={'Why React Native App Development?'} />
+                                {/* <h2>Why React Native App Development?</h2> */}
+                                <Description
+                                    Des="React Native app development offers numerous benefits, including cross-platform compatibility, faster development cycles, code reusability, native performance, and a large community of developers. It enables
+                                    efficient creation of mobile apps with a single codebase for multiple platforms.
+                                "
+                                />
+                                {/* <p>
                                     React Native app development offers numerous benefits, including cross-platform compatibility, faster development cycles, code reusability, native performance, and a large community of developers. It enables
                                     efficient creation of mobile apps with a single codebase for multiple platforms.
-                                </p>
+                                </p> */}
                             </div>
                         </Col>
                     </Row>
@@ -85,7 +104,8 @@ function ReactnativeHero() {
                 <Container>
                     <Row>
                         <div className="text-center">
-                            <h2>Advantages Of Using React Native</h2>
+                            <Title title={'Advantages Of Using React Native'} />
+                            {/* <h2>Advantages Of Using React Native</h2> */}
                         </div>
                         <Col md={6} lg={4}>
                             <div className="shopify-weoffer">
@@ -136,7 +156,8 @@ function ReactnativeHero() {
                 <Container>
                     <Row>
                         <div className="text-center pb-3">
-                            <h2>React Native App Development Services </h2>
+                            <Title title="React Native App Development Services "/>
+                            {/* <h2>React Native App Development Services </h2> */}
                         </div>
                         <Col md={6} lg={4} xs={12}>
                             <div className="woocom-box text-center ">

@@ -27,7 +27,7 @@ export default function ArrowList({ content }) {
             </Box>
             <Grid2 container spacing={2}>
                 {list?.map((service, index) => (
-                    <Grid2 size={{ xs: 6 }} key={index}>
+                    <Grid2 size={{ xs: 12,md:6 }} key={index}>
                         <Typography sx={{ display: 'flex', alignItems: 'center', color: '#8b8a8b', fontWeight: '600' }}>
                             <DoubleArrowIcon sx={{ color: 'red', mr: 1 }} /> {service}
                         </Typography>

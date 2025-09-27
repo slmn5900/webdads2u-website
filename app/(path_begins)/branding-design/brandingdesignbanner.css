@@ -171,7 +171,7 @@
 
 @media screen and (max-width: 768px) {
     .brandidentity-banner {
-        padding: 30px 0px;
+        /* padding: 30px 0px; */
     }
 
     .brandidentity h1 {
@@ -320,7 +320,7 @@
 
 /* ThinkingProcess */
 .ThinkingProcess-main {
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
 }
 
 .ThinkingProcess h1 {
@@ -357,7 +357,7 @@
 
 @media screen and (max-width: 768px) {
     .ThinkingProcess-main {
-        padding: 30px 0px;
+        /* padding: 30px 0px; */
     }
 
     .ThinkingProcess h1 {

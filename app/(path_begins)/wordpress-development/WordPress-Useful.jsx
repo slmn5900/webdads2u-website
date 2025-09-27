@@ -44,7 +44,7 @@ const cardVariants = {
 
 export default function WordPressUseful() {
     return (
-        <Box sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 } }}>
+        <Box sx={{ p: { xs: 0, md: 6 }, py: { xs: 3, md: 0 } }}>
             <Container maxWidth="lg">
                 {/* Heading */}
                 <Box textAlign={{ xs: 'start', md: 'center' }} mb={6}>

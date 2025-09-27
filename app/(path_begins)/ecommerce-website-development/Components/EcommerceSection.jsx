@@ -1,6 +1,8 @@
 'use client';
 import { Container, Grid2, Box, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../../components/Title';
+import Description from '../../../../components/Description';
 
 const services = [
     {
@@ -25,12 +27,18 @@ export default function EcommerceSection() {
         <Box component="section" sx={{ py: { xs: 6, md: 2 }, bgcolor: 'background.paper' }}>
             <Container maxWidth="lg">
                 <Box textAlign="center" mb={6}>
-                    <Typography variant="h2" fontWeight={700} gutterBottom sx={{ fontSize: { xs: '2rem', md: '2.5rem' } }}>
+                    <Title title={' ECommerce Website Development'} color="#262250" />
+                    {/* <Typography variant="h2" fontWeight={700} gutterBottom sx={{ fontSize: { xs: '2rem', md: '2.5rem' } }}>
                         ECommerce Website Development
-                    </Typography>
-                    <Typography variant="body1" color="text.secondary" sx={{ maxWidth: '800px', mx: 'auto' }}>
+                    </Typography> */}
+                    <Description
+                        smalign={'center'}
+                        mdalign={'center'}
+                        Des="Explore top-notch ecommerce website service tailored for your business needs. Our user-friendly solutions ensure a seamless online shopping experience. Elevate your brand with our e-commerce services today!"
+                    />
+                    {/* <Typography variant="body1" color="text.secondary" sx={{ maxWidth: '800px', mx: 'auto' }}>
                         Explore top-notch ecommerce website service tailored for your business needs. Our user-friendly solutions ensure a seamless online shopping experience. Elevate your brand with our e-commerce services today!
-                    </Typography>
+                    </Typography> */}
                 </Box>
 
                 <Grid2 container spacing={4}>

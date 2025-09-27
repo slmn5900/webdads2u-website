@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
 import { Container, Typography, Box, Card, CardContent, Tooltip, Grid2 } from '@mui/material';
 import { MenuContext } from '../../layout/context/menucontext';
+import Title from '../Title';
+import Description from '../Description';
 
 const AmazingWebDesign = () => {
     const { amazingcard_section } = useContext(MenuContext);
@@ -20,7 +22,7 @@ const AmazingWebDesign = () => {
         <Box sx={{ py: { xs: 3, md: 0 } }}>
             <Container>
                 <Box sx={{ textAlign: 'center', mb: 4 }}>
-                    <Typography
+                    {/* <Typography
                         variant="h3"
                         component="h3"
                         sx={{
@@ -29,11 +31,13 @@ const AmazingWebDesign = () => {
                         }}
                     >
                         {title}
-                    </Typography>
+                    </Typography> */}
+
+                    <Title title={title} />
                     {description && (
-                        <Box component="p" sx={{ fontFamily: 'Poppins', fontSize: '12px', mt: 2 }}>
-                            {description}
-                        </Box>
+                        // <Box textAlign={{ xs: 'left', md: 'center' }}>
+                            <Description mdalign="center" Des={description} />
+                        // </Box>
                     )}
                 </Box>
 

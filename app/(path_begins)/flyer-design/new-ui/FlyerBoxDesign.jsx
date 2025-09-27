@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Grid2, Typography, Box, useTheme, useMediaQuery } from '@mui/material';
 import { styled } from '@mui/system';
+import Title from '../../../../components/Title';
+import Description from '../../../../components/Description';
 
 const FlyerBox = styled(Box)(({ theme }) => ({
     boxShadow: '10px 10px 40px 0 rgb(206 207 211)',
@@ -56,10 +58,10 @@ const FlyerBoxDesign = () => {
     ];
 
     return (
-        <Box component="section" >
+        <Box component="section">
             <Container>
                 <Box textAlign="center" mb={4}>
-                    <Typography
+                    {/* <Typography
                         variant="h2"
                         sx={{
                             fontSize: isMobile ? '1.5rem' : '2rem',
@@ -68,8 +70,11 @@ const FlyerBoxDesign = () => {
                         }}
                     >
                         Flyers Designing, Printing in Chennai
-                    </Typography>
-                    <Typography
+                    </Typography> */}
+                    <Title title={'Flyers Designing, Printing in Chennai'} />
+
+                    <Description Des="Our flyer designs are created from scratch and adapted to fit your business needs. Our designers create flyers for any event, promotion, or marketing materials." />
+                    {/* <Typography
                         variant="body1"
                         sx={{
                             fontSize: isMobile ? '0.875rem' : '1rem',
@@ -78,7 +83,7 @@ const FlyerBoxDesign = () => {
                         }}
                     >
                         Our flyer designs are created from scratch and adapted to fit your business needs. Our designers create flyers for any event, promotion, or marketing materials.
-                    </Typography>
+                    </Typography> */}
                 </Box>
 
                 <Grid2 container spacing={3}>

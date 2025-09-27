@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Box, Container, Grid2, Typography, Tabs, Tab } from '@mui/material';
-import Description from '../../../components/ui/banner/Description';
 import { useContext } from 'react';
 import { MenuContext } from '../../../layout/context/menucontext';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const ResponsiveTabs = () => {
     const { pagedata } = useContext(MenuContext);
@@ -26,7 +27,8 @@ const ResponsiveTabs = () => {
             <Container>
                 {/* Heading */}
                 <Box textAlign="center" mb={4}>
-                    <Typography
+                    <Title title={title} />
+                    {/* <Typography
                         variant="h4"
                         sx={{
                             color: '#262250',
@@ -37,8 +39,9 @@ const ResponsiveTabs = () => {
                         }}
                     >
                         {title}
-                    </Typography>
-                    <Typography
+                    </Typography> */}
+                    <Description Des={description} />
+                    {/* <Typography
                         sx={{
                             textAlign: 'center',
                             color: '#000',
@@ -50,7 +53,7 @@ const ResponsiveTabs = () => {
                         }}
                     >
                         {description}
-                    </Typography>
+                    </Typography> */}
                 </Box>
 
                 {/* Tabs */}
@@ -85,7 +88,7 @@ const ResponsiveTabs = () => {
                             color: '#fff !important'
                         },
                         '& .MuiTabs-flexContainer': {
-                            gap: 2// 🔹 equal spacing between tabs
+                            gap: 2 // 🔹 equal spacing between tabs
                         },
                         '& .MuiTabs-indicator': {
                             display: 'none' // 🔹 hide underline since you're using gradient bg

@@ -1,17 +1,20 @@
 import React from 'react';
+import Description from '../../../components/Description';
 
 function Brandidentity() {
     return (
-        <section className='brandidentity-banner'>
+        <section className="brandidentity-banner">
             <div className="container">
                 <div className="row brandidentity">
                     <div className="col-sm-12 text-center">
                         <h1>
-                            Leading <span className='SliderimagebrandingdesignStreaming-span'>brand identity</span> company in Chennai
+                            Leading <span className="SliderimagebrandingdesignStreaming-span">brand identity</span> company in Chennai
                         </h1>
-                        <p >
-                            Webdads2u is one of the top Branding Company in Chennai, India. Branding and design are crucial factors that distinguish your company. It represents your values and influences how your company is perceived. We are experts in creating unique designs that make you stand out from your competitors. We create brands that exemplify trust and reliability. Therefore, you can count on us for the best graphic design services that grab your audience’s attention and stay in their memory.
-                        </p>
+
+                        <Description Des="Webdads2u is one of the top Branding Company in Chennai, India. Branding and design are crucial factors that distinguish your company. It represents your values and influences how your company is perceived. We are experts in creating unique designs that make you stand out from your competitors. We create brands that exemplify trust and reliability. Therefore, you can count on us for the best graphic design services that grab your audience’s attention and stay in their memory." />
+                        {/* <p >
+                            
+                        </p> */}
                     </div>
                 </div>
             </div>

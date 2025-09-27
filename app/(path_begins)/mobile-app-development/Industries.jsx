@@ -1,8 +1,9 @@
-
 import React from 'react';
 import { Box, Container, Grid2, Typography, Button } from '@mui/material';
 import { useContext } from 'react';
 import { MenuContext } from '../../../layout/context/menucontext';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 // const industries = [
 //     { img: 'webdads/images/mobile-app-development/Fashion.png', title: 'Fashion' },
@@ -18,12 +19,11 @@ import { MenuContext } from '../../../layout/context/menucontext';
 // ];
 
 function Industries() {
-
     const { pagedata } = useContext(MenuContext);
-    const title = pagedata?.cater_card_section?.title
-    const description = pagedata?.cater_card_section?.description
-    const button = pagedata?.cater_card_section?.button
-    const cards = pagedata?.cater_card_section?.cards
+    const title = pagedata?.cater_card_section?.title;
+    const description = pagedata?.cater_card_section?.description;
+    const button = pagedata?.cater_card_section?.button;
+    const cards = pagedata?.cater_card_section?.cards;
     return (
         <Box
             sx={{
@@ -34,7 +34,7 @@ function Industries() {
                 <Grid2 container spacing={4} alignItems="center">
                     {/* Left Side */}
                     <Grid2 size={{ xs: 12, md: 5 }}>
-                        <Typography
+                        {/* <Typography
                             variant="h4"
                             sx={{
                                 color: '#262250',
@@ -45,8 +45,11 @@ function Industries() {
                             }}
                         >
                             {title}
-                        </Typography>
-                        <Typography
+                        </Typography> */}
+
+                        <Title title={title} />
+                        <Description Des={description} />
+                        {/* <Typography
                             sx={{
                                 textAlign: 'justify',
                                 color: '#000',
@@ -57,7 +60,7 @@ function Industries() {
                             }}
                         >
                             {description}
-                        </Typography>
+                        </Typography> */}
 
                         <Button
                             href="/contact-us"
@@ -81,7 +84,7 @@ function Industries() {
 
                     {/* Right Side (Industries Grid2) */}
                     <Grid2 size={{ xs: 12, md: 7 }}>
-                        <Grid2 container spacing={2} justifyContent='space-between'>
+                        <Grid2 container spacing={2} justifyContent="space-between">
                             {cards.map((item, index) => (
                                 <Grid2
                                     size={{ xs: 6, sm: 4, md: 2.2 }}
@@ -90,7 +93,7 @@ function Industries() {
                                         boxShadow: '5px 5px 10px -6px rgba(0,0,0,0.5)',
                                         transition: 'all 0.3s',
                                         borderRadius: '10px',
-                                        textAlign: 'center',
+                                        textAlign: 'center'
                                     }}
                                 >
                                     <Box

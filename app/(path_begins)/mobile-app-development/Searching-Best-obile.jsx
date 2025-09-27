@@ -2,6 +2,8 @@ import React, { useContext } from 'react';
 import { Box, Grid2, Typography, Button, keyframes, Container } from '@mui/material';
 import { MenuContext } from '../../../layout/context/menucontext';
 import TheTimeFrame from './TheTimeFrame';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 // Animation keyframes
 const mover = keyframes`
@@ -52,7 +54,7 @@ export default function SearchingBestobile() {
 
                     {/* Right Side - Text */}
                     <Grid2 size={{ xs: 12, md: 6 }}>
-                        <Typography
+                        {/* <Typography
                             variant="h5"
                             sx={{
                                 color: '#262250',
@@ -62,8 +64,10 @@ export default function SearchingBestobile() {
                             }}
                         >
                             {title}
-                        </Typography>
-                        <Typography
+                        </Typography> */}
+
+                        <Title color={'#262250'} title={title} />
+                        {/* <Typography
                             sx={{
                                 textAlign: 'justify',
                                 color: '#000',
@@ -74,7 +78,8 @@ export default function SearchingBestobile() {
                             }}
                         >
                             {description}
-                        </Typography>
+                        </Typography> */}
+                        <Description Des={description} />
                         <Typography
                             sx={{
                                 textAlign: 'justify',

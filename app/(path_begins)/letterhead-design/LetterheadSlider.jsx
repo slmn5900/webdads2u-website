@@ -154,7 +154,7 @@ const letterheadImages = [
 
 function LetterheadSlider() {
     return (
-        <Box component="section" sx={{ py: 6, backgroundColor: '#fafafa' }}>
+        <Box component="section" sx={{ py: { xs: 2, md: 6 }, backgroundColor: '#fafafa' }}>
             <Container>
                 <Typography variant="h4" align="center" sx={{ mb: 4, fontWeight: 'bold' }}>
                     Our Letterhead Designs

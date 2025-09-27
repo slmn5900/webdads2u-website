@@ -7,25 +7,32 @@ import SocialMedia from '../../../components/common/SocialMedia';
 import Banner from '../../../components/ui/banner/Banner';
 import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 import { Box } from '@mui/material';
+import Description from '../../../components/Description';
 function BusinesscardHero() {
     return (
         <>
             <Banner />
             <ClientLogoSlider />
             {/*  */}
-            <section className="justcard pt-5 pb-5 mt-3">
+            <section className="justcard ">
                 <Container>
                     <Row className="align-items-center">
                         <div className="text-center profess">
                             <h5>BUSEINESS CARD DESIGN</h5>
                             <h2>It’s not just a Card, It’s an effective marketing tool!</h2>
-                            <p>
+                            {/* <p>
                                 It’s impossible to categorize a business as professional unless they have a Business card . Starting conversations with prospective clients and business associates can be achieved through the use of business cards as a
                                 marketing tool. Wouldn’t it make a significant impression at the very first meeting if you wore it?
-                            </p>
+                            </p> */}
+
+                            <Description
+                                Des=" It’s impossible to categorize a business as professional unless they have a Business card . Starting conversations with prospective clients and business associates can be achieved through the use of business cards as a
+                                marketing tool. Wouldn’t it make a significant impression at the very first meeting if you wore it?
+                            "
+                            />
                         </div>
                         <Col md={6} className="mt-2">
-                            <Box className="busbox" >
+                            <Box className="busbox">
                                 <div className="busnimg">
                                     <img
                                         alt="Business Card Designing Company In Chennai | Visiting Cards

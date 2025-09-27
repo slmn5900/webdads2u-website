@@ -31,7 +31,7 @@ export default function OurStreams() {
         <Box
             component="section"
             sx={{
-                py: { xs: '40px', md: '60px' },
+                py: { xs: '0px', md: '60px' },
                 pb: { xs: '10px', md: '10px' } // matching bottom padding
             }}
         >

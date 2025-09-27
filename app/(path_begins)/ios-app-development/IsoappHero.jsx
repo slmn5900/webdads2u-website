@@ -13,7 +13,7 @@ function IsoappHero() {
             {/* Slider */}
             <ClientLogoSlider />
             {/*  */}
-            <section className="isoempower pt-5 pb-5">
+            <section className="isoempower  pb-5">
                 <Container>
                     <Row className="align-items-center">
                         <div className="text-center">
@@ -70,7 +70,7 @@ function IsoappHero() {
                                 <div className="isoimgbx">
                                     <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757569312/webdads2u/ios-app-development/icons/custom.png" alt="mobileuiux-hero" />
                                 </div>
-                                <div className="isoconbx" style={{ textAlign: 'justify' }}>
+                                <div className="isoconbx" style={{ textAlign: 'start' }}>
                                     <h3 style={{textAlign:"center"}}>Custom iOS App Development</h3>
                                     <p>Empower your cutting-edge custom iOS app development with expert-level multi-threading and advanced algorithm design.</p>
                                 </div>
@@ -81,7 +81,7 @@ function IsoappHero() {
                                 <div className="isoimgbx">
                                     <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757569311/webdads2u/ios-app-development/icons/appple-watch.png" alt="mobileuiux-hero" />
                                 </div>
-                                <div className="isoconbx" style={{ textAlign: 'justify' }}>
+                                <div className="isoconbx" style={{ textAlign: 'start' }}>
                                     <h3 style={{textAlign:"center"}}>iWatch App Development </h3>
                                     <p>
                                         Unlock the full potential of your iOS app development with next-level WatchOS experiences. Deliver in-app purchases and cater to specific user needs, maximizing the power and usability of your iWatch companion
@@ -95,7 +95,7 @@ function IsoappHero() {
                                 <div className="isoimgbx">
                                     <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757569310/webdads2u/ios-app-development/icons/apple-tv-app-dev.png" alt="mobileuiux-hero" />
                                 </div>
-                                <div className="isoconbx" style={{ textAlign: 'justify' }}>
+                                <div className="isoconbx" style={{ textAlign: 'start' }}>
                                     <h3 style={{textAlign:"center"}}>Apple TV App Development  </h3>
                                     <p>Our iOS app development team of experts can develop the perfect TVOS app that meets your requirements, allowing you to take advantage of features that are not accessible on standard mobile apps.</p>
                                 </div>
@@ -106,7 +106,7 @@ function IsoappHero() {
                                 <div className="isoimgbx">
                                     <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757569310/webdads2u/ios-app-development/icons/tap.png" alt="mobileuiux-hero" />
                                 </div>
-                                <div className="isoconbx" style={{ textAlign: 'justify' }}>
+                                <div className="isoconbx" style={{ textAlign: 'start' }}>
                                     <h3 style={{textAlign:"center"}}>iPad App Development</h3>
                                     <p>Elevate your iOS app development with exceptional iPad experiences. Our expertise blends powerful analysis with intuitive UI/UX, enabling seamless on-demand movie streaming and captivating games.</p>
                                 </div>
@@ -117,7 +117,7 @@ function IsoappHero() {
                                 <div className="isoimgbx">
                                     <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757569309/webdads2u/ios-app-development/icons/migration.png" alt="mobileuiux-hero" />
                                 </div>
-                                <div className="isoconbx" style={{ textAlign: 'justify' }}>
+                                <div className="isoconbx" style={{ textAlign: 'start' }}>
                                     <h3 style={{textAlign:"center"}}> Integration and Migration</h3>
                                     <p>To stay competitive in the digital world, Webdads2u offers decades of industry expertise in providing integration and application migration services for iOS app Development.</p>
                                 </div>
@@ -128,7 +128,7 @@ function IsoappHero() {
                                 <div className="isoimgbx">
                                     <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757569318/webdads2u/ios-app-development/icons/enterprises.png" alt="mobileuiux-hero" />
                                 </div>
-                                <div className="isoconbx" style={{ textAlign: 'justify' }}>
+                                <div className="isoconbx" style={{ textAlign: 'start' }}>
                                     <h3  style={{textAlign:"center"}}>Enterprise iOS Apps</h3>
                                     <p>iOS app Development for internal use and sale to end users requires the expertise of highly skilled developers who possess on-the-ground experience in creating iOS apps.</p>
                                 </div>

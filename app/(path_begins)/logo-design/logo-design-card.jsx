@@ -44,6 +44,7 @@
 'use client';
 import React from 'react';
 import { Box, Typography, Container, Grid2, Card, useTheme, useMediaQuery } from '@mui/material';
+import Description from '../../../components/Description';
 
 const LogoDesignCard = () => {
     const theme = useTheme();
@@ -56,7 +57,7 @@ const LogoDesignCard = () => {
                 <Grid2 container spacing={4} alignItems="center">
                     {/* Text Content Column */}
                     <Grid2 size={{ xs: 12, md: 6 }}>
-                        <Typography
+                        {/* <Typography
                             variant="body1"
                             paragraph
                             sx={{
@@ -67,8 +68,18 @@ const LogoDesignCard = () => {
                         >
                             Our highly experienced, talented and professional graphic designers & logo designers in India assist in illuminating your brand and enhancing your company recognition. Our logo & graphic designers put a lot of effort into
                             converting visual language into functional language and are constantly looking for new ways to define brand experiences through various forms of engagement.
-                        </Typography>
-                        <Typography
+                        </Typography> */}
+
+                        <Description
+                            Des=" Our highly experienced, talented and professional graphic designers & logo designers in India assist in illuminating your brand and enhancing your company recognition. Our logo & graphic designers put a lot of effort into
+                            converting visual language into functional language and are constantly looking for new ways to define brand experiences through various forms of engagement.
+                    "
+                        />
+                        <Description
+                            Des="At Webdads2u, we want to help you create a beautiful and memorable logo design for your brand. Our logo design creator can generate thousands of professional logo design options, and we can also develop a matching website
+                            to fully establish your online brand."
+                        />
+                        {/* <Typography
                             variant="body1"
                             paragraph
                             sx={{
@@ -79,7 +90,7 @@ const LogoDesignCard = () => {
                         >
                             At Webdads2u, we want to help you create a beautiful and memorable logo design for your brand. Our logo design creator can generate thousands of professional logo design options, and we can also develop a matching website
                             to fully establish your online brand.
-                        </Typography>
+                        </Typography> */}
                     </Grid2>
 
                     {/* Cards Column */}

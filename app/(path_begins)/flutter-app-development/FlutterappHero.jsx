@@ -6,6 +6,8 @@ import SocialMedia from '../../../components/common/SocialMedia';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Banner from '../../../components/ui/banner/Banner';
 import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 function FlutterappHero() {
     return (
@@ -15,12 +17,14 @@ function FlutterappHero() {
             {/* Slider */}
             <ClientLogoSlider />
             {/*  */}
-            <section className="react-nativeimhr pt-5 pb-5">
+            <section className="react-nativeimhr  pb-5">
                 <Container>
                     <Row className="align-items-center">
                         <div className="text-center">
-                            <h2>Flutter App Development Services to Craft Apps for Any Screens</h2>
-                            <p>Flutter app development services permit you to create incredibly functional and innovative native applications for Android, iOS, and Web on a budget and timeline that are of the highest quality.</p>
+                            <Title title={'Flutter App Development Services to Craft Apps for Any Screens'} />
+                            {/* <h2>Flutter App Development Services to Craft Apps for Any Screens</h2> */}
+                            <Description Des={'Flutter app development services permit you to create incredibly functional and innovative native applications for Android, iOS, and Web on a budget and timeline that are of the highest quality.'} />
+                            {/* <p>Flutter app development services permit you to create incredibly functional and innovative native applications for Android, iOS, and Web on a budget and timeline that are of the highest quality.</p> */}
                         </div>
 
                         <Col md={12} lg={6}>

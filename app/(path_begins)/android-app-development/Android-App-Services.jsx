@@ -1,4 +1,6 @@
 import React from 'react'
+import Title from '../../../components/Title'
+import Description from '../../../components/Description'
 
 function AndroidAppServices() {
     return (
@@ -6,8 +8,10 @@ function AndroidAppServices() {
             <div className="container">
                 <div className="row justify-content-center AndroidAppServices-content">
                     <div className="col-xs-12 col-lg-8 text-center">
-                        <h2>Android App Services we deliver</h2>
-                        <p>Explore our comprehensive Android app development services designed to meet your unique needs. From initial concept to final deployment, we deliver customized solutions that ensure your app stands out in the competitive market.</p>
+                        <Title title={"Android App Services we deliver"}/>
+                        {/* <h2>Android App Services we deliver</h2> */}
+                        <Description Des="Explore our comprehensive Android app development services designed to meet your unique needs. From initial concept to final deployment, we deliver customized solutions that ensure your app stands out in the competitive market."/>
+                        {/* <p>Explore our comprehensive Android app development services designed to meet your unique needs. From initial concept to final deployment, we deliver customized solutions that ensure your app stands out in the competitive market.</p> */}
                     </div>
                 </div>
                 <div className="row AndroidAppServices mt-3">

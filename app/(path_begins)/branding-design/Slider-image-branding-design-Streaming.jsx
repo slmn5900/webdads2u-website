@@ -27,9 +27,9 @@ const SliderimagebrandingdesignStreaming = () => {
                                 disableOnInteraction: false
                             }}
                             breakpoints={{
-                                1024: { slidesPerView: 3 },
+                                1024: { slidesPerView: 4 },
                                 600: { slidesPerView: 2 },
-                                0: { slidesPerView: 1 }
+                                0: { slidesPerView: 2 }
                             }}
                         >
                             {[

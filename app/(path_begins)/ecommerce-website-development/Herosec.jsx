@@ -14,6 +14,9 @@ import MCommerceSection from './Components/MCommerceSection';
 import FeaturesSection from './Components/FeaturesSection';
 import SocialEcommerce from './Components/SocialEcommerce';
 import BrochureFaq from '../../../components/ui/BrochureFaq';
+import Title from '../../../components/Title';
+import { Box } from '@mui/material';
+import Description from '../../../components/Description';
 
 function Herosec() {
     const {
@@ -60,80 +63,32 @@ function Herosec() {
     }, []);
     return (
         <>
-            {/* <section className="ecommerce-baner">
-                <Container>
-                    <Row>
-                        <div className="text-center">
-                            <h2>Start Building Your Professional Website in Minutes</h2>
-                            <a href="/contact-us">
-                                <Button variant="outlined" style={{ color: '#fff' }}>
-                                    Contact Us
-                                </Button>
-                            </a>
-                            <img
-                                alt="Ecommerce Website Development Company In Chennai
-"
-                                src="/webdads/images/ecommerce/eccommerce-hero.webp"
-                            ></img>
-                        </div>
-                    </Row>
-                </Container>
-            </section> */}
             <EcommerceBanner />
             <ClientLogoSlider />
-            {/* <section className="emc-strm">
-                <Container>
-                    <Row className="strm-bg">
-                        <Col md={3}>
-                            <div className="text-center ">
-                                <h3>E-commerce Streams</h3>
-                            </div>
-                        </Col>
-                        <Col md={3} xs={6}>
-                            <div className="text-center strm-box">
-                                <a href="/woo-commerce/">
-                                    <img alt="" src="/webdads/images/ecommerce/woocommerce-ecommerce.png"></img>
-                                </a>
-                                <p>
-                                    <a href="/woo-commerce/">WooCommerce</a>
-                                </p>
-                            </div>
-                        </Col>
-                        <Col md={3} xs={6}>
-                            <div className="text-center strm-box">
-                                <a href="/opencart-development/">
-                                    <img alt="" src="/webdads/images/ecommerce/opencart-ecommerce.png"></img>
-                                </a>
-                                <p>
-                                    <a href="/opencart-development/">Opencart</a>
-                                </p>
-                            </div>
-                        </Col>
-                        <Col md={3}>
-                            <div className="text-center strm-box">
-                                <a href="/shopify-development/">
-                                    <img alt="" src="/webdads/images/ecommerce/shopify-ecommerce.png"></img>
-                                </a>
-                                <p>
-                                    <a href="/shopify-development/">Shopify</a>
-                                </p>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section> */}
+
             <EcommerceStreams />
 
             <section className="all-you">
                 <Container>
                     <Row>
                         <div>
-                            <h2>All You Imagine For Your Ecommerce</h2>
-                            <h3>Our Years of industry experience makes us strong enough to handle all your online business needs</h3>
-                            <p>
+                            <Box textAlign={'center'}>
+                                <Title color={"#262250"} title={'All You Imagine For Your Ecommerce'} />
+                                <Title title={'Our Years of industry experience makes us strong enough to handle all your online business needs'} />
+                            </Box>
+                            {/* <h2>All You Imagine For Your Ecommerce</h2> */}
+                            {/* <h3>Our Years of industry experience makes us strong enough to handle all your online business needs</h3> */}
+
+                            <Description
+                              mdalign={'center'}
+                                Des="Ecommerce website development has become a necessity and is not just used to drive greater traffic. Over the years, Webdads2u Technologies have gathered the experience to work on all online business requirements. We
+                                are among the first companies to provide efficient and effective e-commerce solutions.
+                            "
+                            />
+                            {/* <p>
                                 Ecommerce website development has become a necessity and is not just used to drive greater traffic. Over the years, Webdads2u Technologies have gathered the experience to work on all online business requirements. We
                                 are among the first companies to provide efficient and effective e-commerce solutions.
-                            </p>
+                            </p> */}
                         </div>
                     </Row>
                 </Container>

@@ -8,6 +8,9 @@ import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLo
 import IStudioTechSection from './Components/IStudioTechSection';
 import ContentMarketingServices from './Components/ContentMarketingServices';
 import BrochureFaq from '../../../components/ui/BrochureFaq';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
+import { Box } from '@mui/material';
 const ContentwritingHero = () => {
     return (
         <>
@@ -18,15 +21,21 @@ const ContentwritingHero = () => {
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
                             <div>
-                                <h3>Content Marketing Company in Chennai</h3>
+                                <Title title={'Content Marketing Company in Chennai'} />
+                                {/* <h3>Content Marketing Company in Chennai</h3> */}
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
                             <div>
-                                <p>
+                                <Description
+                                    Des=" To enhance your website’s visibility, it’s crucial that your content is optimized for search engine indexing. As the premier provider of Content Writing Services in Chennai, India, we specialize in crafting
+                                    SEO-friendly content that aligns with user search queries, ensuring maximum visibility and engagement.
+                                "
+                                />
+                                {/* <p>
                                     To enhance your website’s visibility, it’s crucial that your content is optimized for search engine indexing. As the premier provider of Content Writing Services in Chennai, India, we specialize in crafting
                                     SEO-friendly content that aligns with user search queries, ensuring maximum visibility and engagement.
-                                </p>
+                                </p> */}
                             </div>
                         </Col>
                     </Row>
@@ -37,13 +46,21 @@ const ContentwritingHero = () => {
                     <Row>
                         <Col md={12} lg={6}>
                             <div>
-                                <h2>The Sharpest Marketing Tool You Will Ever Own- Content!</h2>
-                                <p>
+                                <Title title="The Sharpest Marketing Tool You Will Ever Own- Content!" />
+                                {/* <h2>The Sharpest Marketing Tool You Will Ever Own- Content!</h2> */}
+                                {/* <p>
                                     Digital SEO, the leading provider of digital marketing services in Chennai, wields the power of top-quality, SEO-friendly content crafted by seasoned professional content writers. Our commitment to your brand
                                     transcends mere campaigns; it’s a dedication to content marketing excellence. With over 8 years of expertise, we strategically navigate the realm of content marketing across Chennai, Coimbatore, and Tirunelveli in
                                     Tamil Nadu. From these strategic hubs, we employ our content marketing prowess to outmaneuver competitors globally. Specializing in Internet Marketing, our dominance lies in delivering unparalleled Content Writing
                                     Services tailored to your brand’s success.
-                                </p>
+                                </p> */}
+
+                                <Description
+                                    Des="Digital SEO, the leading provider of digital marketing services in Chennai, wields the power of top-quality, SEO-friendly content crafted by seasoned professional content writers. Our commitment to your brand
+                                    transcends mere campaigns; it’s a dedication to content marketing excellence. With over 8 years of expertise, we strategically navigate the realm of content marketing across Chennai, Coimbatore, and Tirunelveli in
+                                    Tamil Nadu. From these strategic hubs, we employ our content marketing prowess to outmaneuver competitors globally. Specializing in Internet Marketing, our dominance lies in delivering unparalleled Content Writing
+                                    Services tailored to your brand’s success."
+                                />
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
@@ -56,46 +73,68 @@ const ContentwritingHero = () => {
             </section>
             <section className="the-benifit mt-5">
                 <Container>
-                    <Row>
+                    <Row style={{ alignItems: 'center' }}>
                         <div className="text-center">
                             <h2 style={{ color: '#fff' }}>The Benefits Of Content Marketing</h2>
                         </div>
-                        <Col md={6} lg={4} xs={6}>
+
+                        {[
+                            { img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500172/webdads2u/content-writing-service/icons/website-traffic.png', alt: 'website traffic' },
+                            {
+                                img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500167/webdads2u/content-writing-service/icons/client-engagement.png',
+                                alt: 'client engagement'
+                            },
+                            { img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500163/webdads2u/content-writing-service/icons/leads-conversions.png', alt: 'leads conversions' },
+                            { img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500159/webdads2u/content-writing-service/icons/media-visibilty.png', alt: 'media visibilty' },
+                            {
+                                img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500156/webdads2u/content-writing-service/icons/competitive-advantage.png',
+                                alt: 'Competitive Advantage'
+                            },
+                            {
+                                img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500152/webdads2u/content-writing-service/icons/brand-awareness.png',
+                                alt: 'Brand Awareness'
+                            }
+                        ].map((item, i) => (
+                            <Col key={i} md={6} lg={4} xs={12}>
+                                <Box className="benifitbox" sx={{ height: { xs: 130, md: '210px' } }}>
+                                    <Box component={'img'} sx={{ width: { xs: 80, md: 80 } }} alt={item.alt || 'website traffic'} src={item.img} />
+                                    <Box component={'h3'} sx={{ fontSize: { xs: 12, md: 14, lg: 14 } }}>
+                                        {item.alt || 'Website Traffic'}
+                                    </Box>
+                                </Box>
+                            </Col>
+                        ))}
+
+                        {/* <Col md={6} lg={4} xs={6}>
                             <div className="benifitbox">
-                                <img alt="website traffic" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500172/webdads2u/content-writing-service/icons/website-traffic.png"></img>
-                                <h3>Website Traffic</h3>
-                            </div>
-                        </Col>
-                        <Col md={6} lg={4} xs={6}>
-                            <div className="benifitbox">
-                                <img alt="client engagement" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500167/webdads2u/content-writing-service/icons/client-engagement.png"></img>
+                                <img alt="client engagement" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500167/webdads2u/content-writing-service/icons/client-engagement.png" />
                                 <h3>Client Engagement</h3>
                             </div>
                         </Col>
                         <Col md={6} lg={4} xs={6}>
                             <div className="benifitbox">
-                                <img alt="leads conversions" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500163/webdads2u/content-writing-service/icons/leads-conversions.png"></img>
+                                <img alt="leads conversions" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500163/webdads2u/content-writing-service/icons/leads-conversions.png" />
                                 <h3>Leads & Conversions</h3>
                             </div>
                         </Col>
                         <Col md={6} lg={4} xs={6}>
                             <div className="benifitbox">
-                                <img alt="media visibilty" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500159/webdads2u/content-writing-service/icons/media-visibilty.png"></img>
+                                <img alt="media visibilty" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500159/webdads2u/content-writing-service/icons/media-visibilty.png" />
                                 <h3>Media Visibilty</h3>
                             </div>
                         </Col>
                         <Col md={6} lg={4} xs={6}>
                             <div className="benifitbox">
-                                <img alt="competitive advantage" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500156/webdads2u/content-writing-service/icons/competitive-advantage.png"></img>
+                                <img alt="competitive advantage" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500156/webdads2u/content-writing-service/icons/competitive-advantage.png" />
                                 <h3>Competitive Advantage</h3>
                             </div>
                         </Col>
                         <Col md={6} lg={4} xs={6}>
                             <div className="benifitbox">
-                                <img alt="brand awareness" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500152/webdads2u/content-writing-service/icons/brand-awareness.png"></img>
+                                <img alt="brand awareness" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500152/webdads2u/content-writing-service/icons/brand-awareness.png" />
                                 <h3>Brand Awareness</h3>
                             </div>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </section>
@@ -253,7 +292,12 @@ const ContentwritingHero = () => {
                         </Col>
                         <Col md={6}>
                             <div>
-                                <img alt="content marketing company in chennai" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500093/webdads2u/content-writing-service/content-marketing-company-in-chennai.png" className="w-100" loading="lazy" />
+                                <img
+                                    alt="content marketing company in chennai"
+                                    src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757500093/webdads2u/content-writing-service/content-marketing-company-in-chennai.png"
+                                    className="w-100"
+                                    loading="lazy"
+                                />
                             </div>
                         </Col>
                     </Row>

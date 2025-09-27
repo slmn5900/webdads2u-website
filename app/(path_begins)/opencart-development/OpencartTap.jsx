@@ -232,6 +232,8 @@
 import React, { useState } from 'react';
 import { Container, Tabs, Tab, Box, Typography, Grid2 } from '@mui/material';
 import { motion, AnimatePresence } from 'framer-motion';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const tabData = [
     {
@@ -334,12 +336,14 @@ const OpencartTap = () => {
                     <motion.div key={activeKey} initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -40 }} transition={{ duration: 0.5, ease: 'easeOut' }}>
                         <Grid2 container spacing={4} alignItems="center">
                             <Grid2 size={{ xs: 12, md: 6 }}>
-                                <Typography variant="h4" gutterBottom color="#0A1F5F">
+                                <Title color="#0A1F5F" title= {activeTab?.heading}/>
+                                {/* <Typography variant="h4" gutterBottom color="#0A1F5F">
                                     {activeTab?.heading}
-                                </Typography>
-                                <Typography variant="body1" sx={{ color: 'text.secondary' }}>
+                                </Typography> */}
+                                <Description  Des={activeTab?.content}/>
+                                {/* <Typography variant="body1" sx={{ color: 'text.secondary' }}>
                                     {activeTab?.content}
-                                </Typography>
+                                </Typography> */}
                             </Grid2>
                             <Grid2 size={{ xs: 12, md: 6 }} textAlign="center">
                                 <motion.img

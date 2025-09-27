@@ -41,11 +41,12 @@ export default function BrochureDescription() {
                     // mb: 2,
                     // opacity: 0,
                     transform: 'scale(0.8)',
-                    animation: `${popIn} 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards`
+                    animation: `${popIn} 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards`,
                     // fontSize: { xs: '1.50rem', md: '2rem' }
+                    textAlign:{xs:"center"}
                 }}
             >
-                <Title color={'#0A1F5F'} title={title} />
+                <Title  color={'#0A1F5F'} title={title} />
                 {/* {title} */}
             </Box>
 

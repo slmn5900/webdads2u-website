@@ -16,7 +16,7 @@ export default function Streams() {
     ];
 
     return (
-        <Box sx={{ py: 6, px: { xs: 2, md: 6 } }}>
+        <Box sx={{ py: { xs: 2, md: 6 }, px: { xs: 2, md: 6 } }}>
             <Container>
                 <Grid2 container spacing={3} alignItems="center">
                     {/* Title */}
@@ -35,13 +35,13 @@ export default function Streams() {
 
                     {/* Items */}
                     {items.map((item, index) => (
-                        <Grid2 size={{ xs: 12, md: 4 }} key={index}  >
+                        <Grid2 size={{ xs: 12, md: 4 }} key={index}>
                             <Link href={item.href} underline="none" sx={{ textDecoration: 'none' }}>
                                 <Box
                                     sx={{
                                         display: 'flex',
                                         alignItems: 'center',
-                                        justifyContent: "center",
+                                        justifyContent: 'center',
                                         borderRadius: '10px',
                                         boxShadow: '0 0 10px 0 rgba(216, 214, 214, 0.7)',
                                         p: '17px',

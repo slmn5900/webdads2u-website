@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
 import { Box, Container, Grid2, Typography } from '@mui/material';
 import { MenuContext } from '../../../layout/context/menucontext';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const Development = ({ data }) => {
     console.log(data, 'data????');
@@ -44,8 +46,10 @@ const Development = ({ data }) => {
         <Box component="section" sx={{ pt: 5 }}>
             <Container>
                 {/* Title & Description */}
+
                 <Box textAlign="center" mb={4}>
-                    <Typography
+                    <Title title={development_section.title} />
+                    {/* <Typography
                         variant="h2"
                         sx={{
                             color: '#000',
@@ -55,8 +59,10 @@ const Development = ({ data }) => {
                         }}
                     >
                         {development_section?.title}
-                    </Typography>
-                    <Typography
+                    </Typography> */}
+
+                    <Description Des={development_section?.description} />
+                    {/* <Typography
                         sx={{
                             fontSize: { xs: '16px', md: '18px' },
                             color: '#7a7a7a',
@@ -65,7 +71,7 @@ const Development = ({ data }) => {
                         }}
                     >
                         {development_section?.description}
-                    </Typography>
+                    </Typography> */}
                 </Box>
 
                 {/* Content */}
@@ -77,7 +83,7 @@ const Development = ({ data }) => {
                                 <Box flexShrink={0}>
                                     <Box
                                         component="img"
-                                        src={item.icon }
+                                        src={item.icon}
                                         alt={item.title}
                                         sx={{
                                             width: { xs: '50px', md: '60px' },

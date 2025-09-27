@@ -1,6 +1,8 @@
 'use client';
 import { Container, Grid2, Box, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../../components/Title';
+import Description from '../../../../components/Description';
 
 const MotionBox = motion(Box);
 
@@ -44,13 +46,20 @@ export default function ShopifyServices() {
             <Container>
                 {/* Header */}
                 <Box textAlign="center" mb={6}>
-                    <Typography variant="h4" component="h2" gutterBottom>
+                    <Title title="Shopify Development Services We Offer" />
+                    {/* <Typography variant="h4" component="h2" gutterBottom>
                         Shopify Development Services We Offer
-                    </Typography>
-                    <Typography variant="body1" color="text.secondary">
+                    </Typography> */}
+                    <Description
+                        mdalign={'center'}
+                        Des=" Our Shopify experts are dedicated to providing you with all the support you need, whether you’re looking to establish an online presence for your business or migrate to the Shopify platform. Shopify development services
+                        offered by Concept Infoway encompass a diverse range of offerings, such as:
+                    "
+                    />
+                    {/* <Typography variant="body1" color="text.secondary">
                         Our Shopify experts are dedicated to providing you with all the support you need, whether you’re looking to establish an online presence for your business or migrate to the Shopify platform. Shopify development services
                         offered by Concept Infoway encompass a diverse range of offerings, such as:
-                    </Typography>
+                    </Typography> */}
                 </Box>
 
                 {/* Services Grid2 */}

@@ -108,6 +108,8 @@
 import React from 'react';
 import { Container, Typography, Box, Grid2 } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const cardVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -159,13 +161,19 @@ export default function Webdads2uTechnologies() {
             <Container>
                 {/* Heading */}
                 <Box textAlign="center" mb={5}>
-                    <Typography variant="h4" gutterBottom component={motion.h1} initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }}>
+                    <Title title={'Why choose Webdads2u Technologies for Android App Development?'} />
+                    {/* <Typography variant="h4" gutterBottom component={motion.h1} initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }}>
                         Why choose Webdads2u Technologies for Android App Development?
-                    </Typography>
-                    <Typography variant="body1" color="text.secondary" component={motion.p} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8, delay: 0.2 }} viewport={{ once: true }} sx={{ maxWidth: 800, mx: 'auto' }}>
+                    </Typography> */}
+
+                    <Description
+                        Des="Choose Webdads2u Technologies for Android app development for our expertise, innovative solutions, timely delivery, and commitment to client satisfaction. Experience excellence with our comprehensive development services
+                        tailored to your needs."
+                    />
+                    {/* <Typography variant="body1" color="text.secondary" component={motion.p} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8, delay: 0.2 }} viewport={{ once: true }} sx={{ maxWidth: 800, mx: 'auto' }}>
                         Choose Webdads2u Technologies for Android app development for our expertise, innovative solutions, timely delivery, and commitment to client satisfaction. Experience excellence with our comprehensive development services
                         tailored to your needs.
-                    </Typography>
+                    </Typography> */}
                 </Box>
 
                 {/* Cards */}

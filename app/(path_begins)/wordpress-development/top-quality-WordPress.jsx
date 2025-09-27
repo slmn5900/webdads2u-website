@@ -87,6 +87,8 @@
 import React from 'react';
 import { Container, Grid2, Card, CardContent, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const services = [
     {
@@ -138,12 +140,15 @@ export default function TopQualityWordPress() {
             <Container maxWidth="lg">
                 {/* Heading */}
                 <Box textAlign="center" mb={6}>
-                    <Typography variant="h4" fontWeight="bold" gutterBottom fontSize={{ xs: '1.125rem', md: '2.125rem' }}>
+                    <Title fontxs={'16px'} title={'  We deliver top-quality WordPress web development solutions'} />
+                    {/* <Typography variant="h4" fontWeight="bold" gutterBottom fontSize={{ xs: '1.125rem', md: '2.125rem' }}>
                         We deliver top-quality WordPress web development solutions
-                    </Typography>
-                    <Typography variant="body1" color="text.secondary" maxWidth="md" mx="auto">
+                    </Typography> */}
+
+                    <Description Des="We provide eCommerce solutions that are perfect for your business by developing feature-rich and high-performing WordPress eCommerce websites." />
+                    {/* <Typography variant="body1" color="text.secondary" maxWidth="md" mx="auto">
                         We provide eCommerce solutions that are perfect for your business by developing feature-rich and high-performing WordPress eCommerce websites.
-                    </Typography>
+                    </Typography> */}
                 </Box>
 
                 {/* Cards */}

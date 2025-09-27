@@ -4,6 +4,8 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Slider from '../../../components/common/Slider-image';
 import Banner from '../../../components/ui/banner/Banner';
 import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 function MobileuiuxHero() {
     return (
         <>
@@ -38,13 +40,21 @@ function MobileuiuxHero() {
                     <Row className="align-items-center">
                         <Col md={12} lg={6}>
                             <div>
-                                <h2>Mobile UI Designing-Endless Possibilities to Enhance your Online Business!</h2>
-                                <p>
+                                <Title title="Mobile UI Designing-Endless Possibilities to Enhance your Online Business!" />
+                                {/* <h2>Mobile UI Designing-Endless Possibilities to Enhance your Online Business!</h2> */}
+
+                                <Description
+                                    Des=" Unlock the full potential of your online business with our cutting-edge Mobile UI/UX Design solutions! Mobile devices have evolved beyond mere communication tools, and we’re here to help you harness their
+                                    transformative capabilities. Our innovative designs create seamless user experiences that resonate deeply with your audience, setting your brand apart in the competitive mobile landscape. From sleek navigation to
+                                    visually stunning interfaces, we breathe life into your digital presence. Let our expertly crafted Mobile UI/UX designs captivate users and drive conversions, propelling your online business to unprecedented
+                                    success."
+                                />
+                                {/* <p>
                                     Unlock the full potential of your online business with our cutting-edge Mobile UI/UX Design solutions! Mobile devices have evolved beyond mere communication tools, and we’re here to help you harness their
                                     transformative capabilities. Our innovative designs create seamless user experiences that resonate deeply with your audience, setting your brand apart in the competitive mobile landscape. From sleek navigation to
                                     visually stunning interfaces, we breathe life into your digital presence. Let our expertly crafted Mobile UI/UX designs captivate users and drive conversions, propelling your online business to unprecedented
                                     success.{' '}
-                                </p>
+                                </p> */}
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
@@ -153,12 +163,19 @@ function MobileuiuxHero() {
                     <Container>
                         <Row>
                             <div className="text-center">
-                                <h2>How We Do it?</h2>
-                                <p>
+                                <Title title={'How We Do it?'} />
+                                {/* <h2>How We Do it?</h2> */}
+                                <Description
+                                    Des="  Our process starts with thorough research, understanding both your business goals and user needs. Through collaborative ideation, we conceptualize designs that seamlessly blend aesthetics and usability. Iterative
+                                    prototyping ensures refinement for optimal engagement. With meticulous attention to detail, we create Mobile UI/UX design that elevate your brand and drive results. Trust us to transform your digital presence into
+                                    a captivating and intuitive experience with our expert Mobile UI/UX design approach.
+                               "
+                                />
+                                {/* <p>
                                     Our process starts with thorough research, understanding both your business goals and user needs. Through collaborative ideation, we conceptualize designs that seamlessly blend aesthetics and usability. Iterative
                                     prototyping ensures refinement for optimal engagement. With meticulous attention to detail, we create Mobile UI/UX design that elevate your brand and drive results. Trust us to transform your digital presence into
                                     a captivating and intuitive experience with our expert Mobile UI/UX design approach.
-                                </p>
+                                </p> */}
                             </div>
                             <Col md={6} lg={4}>
                                 <div className="shopify-weoffer">

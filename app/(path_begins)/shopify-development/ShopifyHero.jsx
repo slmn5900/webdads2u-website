@@ -8,6 +8,8 @@ import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLo
 import { Box } from '@mui/material';
 import ShopifyServices from './Components/ShopifyServices';
 import WhyShopify from './Components/WhyShopify';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 function ShopifyHero() {
     return (
         <>
@@ -38,15 +40,21 @@ function ShopifyHero() {
             <Box sx={{ pt: 4 }}>
                 <ClientLogoSlider />
             </Box>
-            <section className="leading-shopify pt-5 pb-5">
+            <section className="leading-shopify pb-5">
                 <Container>
                     <Row>
                         <div className="text-center">
-                            <h2>Leading Shopify Development Company in Chennai </h2>
-                            <p>
+
+                            <Title title={"Leading Shopify Development Company in Chennai "}/>
+                            {/* <h2>Leading Shopify Development Company in Chennai </h2> */}
+
+                            <Description Des="  Chennai has witnessed a significant transformation in the e-commerce industry over the past few years. Shopify is well-known for its substantial market share in the e-commerce platform space. We are a leading Shopify
+                                development company based in Chennai, India and we specialize in providing the best Shopify development solutions that enhance your online presence and drive unparalleled growth for your e-commerce venture.
+                        "/>
+                            {/* <p>
                                 Chennai has witnessed a significant transformation in the e-commerce industry over the past few years. Shopify is well-known for its substantial market share in the e-commerce platform space. We are a leading Shopify
                                 development company based in Chennai, India and we specialize in providing the best Shopify development solutions that enhance your online presence and drive unparalleled growth for your e-commerce venture.
-                            </p>
+                            </p> */}
                         </div>
                     </Row>
                 </Container>

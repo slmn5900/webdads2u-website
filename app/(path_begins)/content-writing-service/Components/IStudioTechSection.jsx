@@ -3,6 +3,7 @@
 import React from 'react';
 import { Container, Grid2, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../../components/Title';
 
 const cardVariants = {
     hidden: { opacity: 0, y: 40 },
@@ -42,10 +43,12 @@ export default function IStudioTechSection() {
             }}
         >
             <Container>
-                <Typography variant="h4" align="center" gutterBottom component={motion.h2} initial={{ opacity: 0, y: -30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }}>
+                {/* <Typography variant="h4" align="center" gutterBottom component={motion.h2} initial={{ opacity: 0, y: -30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }}>
                     Content Marketing With IStudio Technologies Chennai
-                </Typography>
-
+                </Typography> */}
+                <Box sx={{ textAlign: 'center' }}>
+                    <Title title="Content Marketing With IStudio Technologies Chennai" />
+                </Box>
                 <Grid2 container spacing={3} sx={{ mt: 2 }}>
                     {data.map((item, index) => (
                         <Grid2 item xs={12} sm={6} md={3} key={index}>

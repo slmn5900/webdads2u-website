@@ -3,10 +3,12 @@
 import React from 'react';
 import { Container, Grid2, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 export default function Themes() {
     return (
-        <Box sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 } }}>
+        <Box sx={{ p: { xs: 0, md: 6 }, py: { xs: 3, md: 0 } }}>
             <Container maxWidth="lg">
                 <Grid2 container spacing={4} alignItems="center">
                     {/* Left Image */}
@@ -30,19 +32,29 @@ export default function Themes() {
                     {/* Right Content */}
                     <Grid2 size={{ xs: 12, md: 6 }}>
                         <motion.div transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }} viewport={{ once: true, amount: 0.3 }}>
-                            <Typography variant="h4" fontWeight="bold" gutterBottom sx={{ lineHeight: 1.3 }}>
+                            <Title title={' What are Themes?'} />
+                            {/* <Typography variant="h4" fontWeight="bold" gutterBottom sx={{ lineHeight: 1.3 }}>
                                 What are Themes?
-                            </Typography>
-
-                            <Typography variant="body1" color="text.secondary" paragraph>
+                            </Typography> */}
+                            <Description
+                                Des=" WordPress themes can be customized in various ways, including the widgets, color combinations, functionalities, layout and so on. However, it requires skill to match your brand and some WordPress CMS development
+                                services you encounter in the market may not meet your expectations.
+                          "
+                            />{' '}
+                            <br />
+                            {/* <Typography variant="body1" color="text.secondary" paragraph>
                                 WordPress themes can be customized in various ways, including the widgets, color combinations, functionalities, layout and so on. However, it requires skill to match your brand and some WordPress CMS development
                                 services you encounter in the market may not meet your expectations.
-                            </Typography>
-
-                            <Typography variant="body1" color="text.secondary">
+                            </Typography> */}
+                            <Description
+                                Des="Since its release in 2003, WordPress has emerged as the premier development platform. As one of the top WordPress development companies, KP Webtech excels in all aspects of WordPress theme customization, delivering
+                                enduring value. We also provide comprehensive WordPress CMS development services, ensuring your website meets your exact needs and specifications.
+                          "
+                            />
+                            {/* <Typography variant="body1" color="text.secondary">
                                 Since its release in 2003, WordPress has emerged as the premier development platform. As one of the top WordPress development companies, KP Webtech excels in all aspects of WordPress theme customization, delivering
                                 enduring value. We also provide comprehensive WordPress CMS development services, ensuring your website meets your exact needs and specifications.
-                            </Typography>
+                            </Typography> */}
                         </motion.div>
                     </Grid2>
                 </Grid2>

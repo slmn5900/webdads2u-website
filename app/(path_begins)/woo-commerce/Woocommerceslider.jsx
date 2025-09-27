@@ -106,6 +106,8 @@ import { motion } from 'framer-motion';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 const slides = [
     {
@@ -143,11 +145,14 @@ export default function WoocommerceSlider() {
     return (
         <Box sx={{ py: 8, background: '#f5f5f5' }}>
             <Container>
-                <Typography variant="h4" align="center" gutterBottom>
+                <Box textAlign={'center'}>
+                    <Title title="Leading WooCommerce Web Development Company" />
+                </Box>
+                {/* <Typography variant="h4" align="center" gutterBottom>
                     Leading WooCommerce Web Development Company
-                </Typography>
+                </Typography> */}
 
-                <Swiper modules={[Autoplay]} autoplay={{ delay: 4000, disableOnInteraction: false }}  loop spaceBetween={40}>
+                <Swiper modules={[Autoplay]} autoplay={{ delay: 4000, disableOnInteraction: false }} loop spaceBetween={40}>
                     {slides.map((slide, i) => (
                         <SwiperSlide key={i}>
                             <motion.div variants={fadeIn} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.4 }}>
@@ -156,12 +161,14 @@ export default function WoocommerceSlider() {
                                         <Box component="img" src={slide.img} alt={slide.alt} sx={{ width: '100%', borderRadius: 2 }} />
                                     </Grid2>
                                     <Grid2 size={{ xs: 12, md: 7 }}>
-                                        <Typography variant="h5" gutterBottom>
+                                        <Title title={slide.title} />
+                                        {/* <Typography variant="h5" gutterBottom>
                                             {slide.title}
-                                        </Typography>
-                                        <Typography variant="body1" color="text.secondary">
+                                        </Typography> */}
+                                        <Description Des={slide.desc} />
+                                        {/* <Typography variant="body1" color="text.secondary">
                                             {slide.desc}
-                                        </Typography>
+                                        </Typography> */}
                                     </Grid2>
                                 </Grid2>
                             </motion.div>

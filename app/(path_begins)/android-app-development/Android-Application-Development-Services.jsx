@@ -80,6 +80,7 @@ import React from 'react';
 import { Grid2, Box, Typography, Link } from '@mui/material';
 import { FaCheckCircle } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import Title from '../../../components/Title';
 
 const industries = ['HRM', 'Real Estate', 'Healthcare', 'Manufacturing', 'Fintech', 'Travel and Hospitality', 'Printing', 'Education'];
 
@@ -90,9 +91,10 @@ const AndroidApplicationDevelopmentServices = () => {
                 {/* Left Content */}
                 <Grid2 size={{ xs: 12, md: 8 }}>
                     <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-                        <Typography variant="h4" component="h1" gutterBottom fontWeight={700}>
+                        <Title title={'Industry-specific Android Application Development Services'} />
+                        {/* <Typography variant="h4" component="h1" gutterBottom fontWeight={700}>
                             Industry-specific Android Application Development Services
-                        </Typography>
+                        </Typography> */}
                         <Typography variant="body1" color="text.secondary" paragraph>
                             Unlock industry-specific solutions with our tailored Android app development services. From healthcare to finance, we deliver custom applications designed to meet the unique needs and challenges of your sector. Our
                             experienced team combines expertise with cutting-edge technology to create innovative solutions that drive efficiency, productivity, and growth within your industry. Trust us to elevate your business with our

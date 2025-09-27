@@ -69,6 +69,7 @@
 import React from 'react';
 import { Container, Grid2, Box, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../../components/Title';
 
 const items = [
     {
@@ -116,9 +117,10 @@ export default function WhyDoYou() {
         <Box component="section" className="our-cuscrm" py={6}>
             <Container>
                 <Box textAlign="center" mb={5}>
-                    <Typography variant="h4" fontWeight={600} gutterBottom>
+                    <Title title={'Why Do You Need a Custom CRM Software Development for Your Business?'} />
+                    {/* <Typography variant="h4" fontWeight={600} gutterBottom>
                         Why Do You Need a Custom CRM Software Development for Your Business?
-                    </Typography>
+                    </Typography> */}
                 </Box>
                 <Grid2 container spacing={4}>
                     {items.map((item, index) => (

@@ -74,6 +74,8 @@
 'use client';
 import { Container, Grid2, Box, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
+import Title from '../../../../components/Title';
+import Description from '../../../../components/Description';
 
 const features = [
     { title: 'Vendor Management', img: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757575752/webdads2u/ecommerce-website-development/icons/vendor-management.png', type: 'left' },
@@ -92,13 +94,19 @@ export default function MultiVendorFeatures() {
             <Container maxWidth="lg">
                 {/* Heading */}
                 <Box textAlign="center" mb={6}>
-                    <Typography variant="h2" fontWeight={700} gutterBottom sx={{ fontSize: { xs: '2rem', md: '2.5rem' }, color: '#000' }}>
+                    <Title title={'    Features of Multi-Vendor'} />
+                    {/* <Typography variant="h2" fontWeight={700} gutterBottom sx={{ fontSize: { xs: '2rem', md: '2.5rem' }, color: '#000' }}>
                         Features of Multi-Vendor
-                    </Typography>
-                    <Typography variant="body1" sx={{ maxWidth: '850px', mx: 'auto', color: 'text.secondary' }}>
+                    </Typography> */}
+                    <Description
+                        mdalign={'center'}
+                        Des="  Explore the dynamic world of multi-vendor ecommerce website. Empower your platform with features like vendor management, secure transactions, and customizable storefronts. Boost your business and create a thriving online
+                        marketplace with our comprehensive e-commerce services."
+                    />
+                    {/* <Typography variant="body1" sx={{ maxWidth: '850px', mx: 'auto', color: 'text.secondary' }}>
                         Explore the dynamic world of multi-vendor ecommerce website. Empower your platform with features like vendor management, secure transactions, and customizable storefronts. Boost your business and create a thriving online
                         marketplace with our comprehensive e-commerce services.
-                    </Typography>
+                    </Typography> */}
                 </Box>
 
                 {/* Features Grid2 */}

@@ -9,6 +9,8 @@ import { MenuContext } from '../../../layout/context/menucontext';
 import Banner from '../../../components/ui/banner/Banner';
 import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 import BrochureFaq from '../../../components/ui/BrochureFaq';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 function Openhero() {
     const {
@@ -83,15 +85,20 @@ function Openhero() {
             </section> */}
             <Banner />
             <ClientLogoSlider />
-            <section className="leading-shopify pt-5">
+            <section className="leading-shopify">
                 <Container>
                     <Row>
                         <div className="text-center">
-                            <h2>We Provide Innovative OpenCart Development Services</h2>
-                            <p>
+                            <Title title={'We Provide Innovative OpenCart Development Services'} />
+                            {/* <h2>We Provide Innovative OpenCart Development Services</h2> */}
+                            <Description
+                                Des=" Webdads2u collaborates with proficient Opencart developers boasting extensive experience. We meticulously assess your needs, propose optimal solutions, and craft innovative, feature-rich applications tailored to
+                                elevate your business."
+                            />
+                            {/* <p>
                                 Webdads2u collaborates with proficient Opencart developers boasting extensive experience. We meticulously assess your needs, propose optimal solutions, and craft innovative, feature-rich applications tailored to
                                 elevate your business.{' '}
-                            </p>
+                            </p> */}
                         </div>
                     </Row>
                 </Container>
@@ -107,11 +114,17 @@ function Openhero() {
                         </Col>
                         <Col md={12} lg={6}>
                             <div>
-                                <h2>Technologies We Use for OpenCart Development</h2>
-                                <p>
+                                <Title title={'Technologies We Use for OpenCart Development'} />
+                                {/* <h2>Technologies We Use for OpenCart Development</h2> */}
+                                <Description
+                                    Des=" In opencart development, we utilize PHP, MySQL, HTML5, CSS3, and JavaScript frameworks such as jQuery for dynamic user experiences. Our approach includes responsive design for cross-device compatibility,
+                                    third-party API integration for added functionality, and ongoing support to ensure your OpenCart platform remains optimized and competitive in the digital marketplace.
+                             "
+                                />
+                                {/* <p>
                                     In opencart development, we utilize PHP, MySQL, HTML5, CSS3, and JavaScript frameworks such as jQuery for dynamic user experiences. Our approach includes responsive design for cross-device compatibility,
                                     third-party API integration for added functionality, and ongoing support to ensure your OpenCart platform remains optimized and competitive in the digital marketplace.
-                                </p>
+                                </p> */}
                             </div>
                             <Row style={{ alignItems: 'center' }}>
                                 <Col lg={3} md={3} xs={6}>
@@ -144,8 +157,10 @@ function Openhero() {
                     <Row>
                         <Col md={12} lg={6}>
                             <div>
-                                <h2>Benefits of OpenCart Development </h2>
-                                <p>Businesses have found OpenCart to be a brilliant solution. Not only does it have power, but it also provides its users with numerous benefits. Let’s see them one by one.</p>
+                                <Title title={'Benefits of OpenCart Development '} />
+                                {/* <h2>Benefits of OpenCart Development </h2> */}
+                                <Description Des="Businesses have found OpenCart to be a brilliant solution. Not only does it have power, but it also provides its users with numerous benefits. Let’s see them one by one." />
+                                {/* <p>Businesses have found OpenCart to be a brilliant solution. Not only does it have power, but it also provides its users with numerous benefits. Let’s see them one by one.</p> */}
                                 <ul>
                                     <li>
                                         <IoIosCheckbox /> The ease of setting up OpenCart development is one of the most common reasons to choose it. It has options such as the catalog, system, sales, extension, etc. that are extremely user-friendly.

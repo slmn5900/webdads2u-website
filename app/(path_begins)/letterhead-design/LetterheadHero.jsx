@@ -8,6 +8,8 @@ import LetterheadSlider from './LetterheadSlider';
 import Banner from '../../../components/ui/banner/Banner';
 import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 import LookingWebsiteMaintenance from '../website-maintenance/Looking-Website-Maintenance';
+import Title from '../../../components/Title';
+import Description from '../../../components/Description';
 
 function LetterheadHero() {
     return (
@@ -17,15 +19,21 @@ function LetterheadHero() {
             <ClientLogoSlider />
 
             {/*  */}
-            <section className="lhdpro pt-5 pb-5">
+            <section className="lhdpro ">
                 <Container>
                     <Row className="align-items-center">
                         <div className="text-center profess">
-                            <h2>Letterhead Design</h2>
-                            <p>
+                            <Title title={'Letterhead Design'} />
+                            {/* <h2>Letterhead Design</h2> */}
+                            <Description
+                                Des=" Professional letterhead design is an added advantage for displaying reliability and authenticity, regardless of whether you welcome your employee with a joining letter, give a purchase order, or submit a quotation. Our
+                                letterhead design is completely distinctive and eye-catching, which enhances your brand’s professionalism.
+                          "
+                            />
+                            {/* <p>
                                 Professional letterhead design is an added advantage for displaying reliability and authenticity, regardless of whether you welcome your employee with a joining letter, give a purchase order, or submit a quotation. Our
                                 letterhead design is completely distinctive and eye-catching, which enhances your brand’s professionalism.
-                            </p>
+                            </p> */}
                         </div>
 
                         <Col md={12} lg={6}>
@@ -39,12 +47,16 @@ function LetterheadHero() {
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
-                            <div>
+                            <div className="pt-4">
                                 <h2>Why does any business need professional letterhead design services?</h2>
-                                <p>
-                                    It is important that the letterhead design you use for your business is distinctive, professional, and leaves a lasting impression on your employees, buyers, and sellers. It’s important to have a letterhead Design
+                                <Description
+                                    Des="   It is important that the letterhead design you use for your business is distinctive, professional, and leaves a lasting impression on your employees, buyers, and sellers. It’s important to have a letterhead Design
                                     that complements your other branding elements and inspires readers to read the content written on it.
-                                </p>
+                              "
+                                />
+
+                                {/* <p>
+                                   </p> */}
                                 {/* <p><LuCheckCircle /> A letterhead design that is engaging </p>
                             <p><LuCheckCircle /> Letterhead Design concepts that are uniquely designed </p>
                             <p><LuCheckCircle /> Customer support that receives awards.</p> */}
@@ -62,7 +74,7 @@ function LetterheadHero() {
                     </Row>
                 </Container>
             </section>
-            <section className="pb-5 letterrecent">
+            <section className="pb-5 pt-4 letterrecent">
                 <Container>
                     <Row>
                         <Col md={12} lg={4}>
@@ -70,10 +82,15 @@ function LetterheadHero() {
                         </Col>
                         <Col md={12} lg={8}>
                             <div>
-                                <p>
+                                <Description
+                                    Des=" You cannot have a random letterhead design for your company; it should be simple yet eye-catching. Your brand’s appearance should ensure the reader recalls it when they see it, and more importantly, it should set
+                                    the stage for the content that will be written on it. These are some of the innovative letterhead designs we created.
+                              "
+                                />
+                                {/* <p>
                                     You cannot have a random letterhead design for your company; it should be simple yet eye-catching. Your brand’s appearance should ensure the reader recalls it when they see it, and more importantly, it should set
                                     the stage for the content that will be written on it. These are some of the innovative letterhead designs we created.
-                                </p>
+                                </p> */}
                             </div>
                         </Col>
                     </Row>
@@ -87,12 +104,18 @@ function LetterheadHero() {
                     <Row>
                         <Col md={12} lg={6}>
                             <div>
-                                <h2>Professional Designs</h2>
-                                <p>Letterhead design is a method of expression. Webdads2U offers the services of the finest graphic designers in Chennai, who have helped us become the leading letterhead designing service in Chennai.</p>
-                                <p>
+                                <Title title={'Professional Designs'} />
+                                {/* <h2>Professional Designs</h2> */}
+                                <Description Des="Letterhead design is a method of expression. Webdads2U offers the services of the finest graphic designers in Chennai, who have helped us become the leading letterhead designing service in Chennai." />
+                                {/* <p>Letterhead design is a method of expression. Webdads2U offers the services of the finest graphic designers in Chennai, who have helped us become the leading letterhead designing service in Chennai.</p> */}
+                                <Description
+                                    Des="Your skills can be enhanced with professional designs. Even though we are progressing towards a paperless society, letterheads are still essential documents. The company letterhead is essential in reflecting your
+                                    brand value for offer letters and letters of intent."
+                                />
+                                {/* <p>
                                     Your skills can be enhanced with professional designs. Even though we are progressing towards a paperless society, letterheads are still essential documents. The company letterhead is essential in reflecting your
                                     brand value for offer letters and letters of intent.
-                                </p>
+                                </p> */}
                             </div>
                         </Col>
                         <Col md={12} lg={6}>
