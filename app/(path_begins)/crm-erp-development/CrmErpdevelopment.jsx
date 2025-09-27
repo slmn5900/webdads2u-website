@@ -1,5 +1,5 @@
 'use client';
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import Banner from '../../../components/ui/banner/Banner';
 import ClientLogoSlider from '../../../components/ui/client-logo-slider/ClientLogoSlider';
 import Streams from './Streams';
@@ -16,7 +16,7 @@ import BrochureFaq from '../../../components/ui/BrochureFaq';
 import { useEffect } from 'react';
 import { MenuContext } from '../../../layout/context/menucontext';
 
-export default function CrmErpdevelopment() {
+const CrmErpdevelopment = () => {
     const {
         header_section,
         setSlider_section2,
@@ -33,10 +33,11 @@ export default function CrmErpdevelopment() {
         setQna_section,
         setPagedata
     } = useContext(MenuContext);
-
+    const [loading, setLoding] = useState(false);
     useEffect(() => {
         const getdata = async () => {
             try {
+                setLoding(true);
                 const response = await fetch('/inner-page-api/crm-erp-development.json');
                 const data = await response.json();
                 setHeader_section(data.header_section);
@@ -54,13 +55,19 @@ export default function CrmErpdevelopment() {
                 setPagedata(data);
             } catch (error) {
                 console.log(error, 'error');
+            } finally {
+                setLoding(false);
             }
         };
         getdata();
     }, []);
 
+    if (loading) {
+        return <div>Loading....</div>;
+    }
+
     return (
-        <div>
+        <>
             <Banner />
             <ClientLogoSlider />
             <Streams />
@@ -75,6 +82,8 @@ export default function CrmErpdevelopment() {
             <EmptyWave />
             <ErpProcessSection />
             <BrochureFaq />
-        </div>
+        </>
     );
-}
+};
+
+export default CrmErpdevelopment;

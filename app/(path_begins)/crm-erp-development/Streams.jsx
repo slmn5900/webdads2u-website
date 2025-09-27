@@ -58,8 +58,8 @@ export default function Streams() {
                                 >
                                     <Box
                                         component="img"
-                                        src={item.img}
-                                        alt={item.title}
+                                        src={item?.img}
+                                        alt={item?.title}
                                         sx={{
                                             width: 50,
                                             height: 50,
@@ -80,7 +80,7 @@ export default function Streams() {
                                             transition: 'color 0.3s ease'
                                         }}
                                     >
-                                        {item.title}
+                                        {item?.title}
                                     </Typography>
                                 </Box>
                             </Link>

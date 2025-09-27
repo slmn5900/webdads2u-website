@@ -83,7 +83,7 @@ export default function WaveBox() {
                                             pl: '10px'
                                         }}
                                     >
-                                        {item.title}
+                                        {item?.title}
                                     </Typography>
                                 </Box>
                                 <Typography
@@ -94,7 +94,7 @@ export default function WaveBox() {
                                         pt: '10px'
                                     }}
                                 >
-                                    {item.desc}
+                                    {item?.desc}
                                 </Typography>
                             </Box>
                         </Grid2>

@@ -110,7 +110,7 @@ export default function CrmDevelopment() {
                                         mt: 1
                                     }}
                                 >
-                                    {item.title}
+                                    {item?.title}
                                 </Typography>
                                 <Typography
                                     variant="body2"
@@ -121,7 +121,7 @@ export default function CrmDevelopment() {
                                         textAlign: 'center'
                                     }}
                                 >
-                                    {item.desc}
+                                    {item?.desc}
                                 </Typography>
                             </Box>
                         </Grid2>

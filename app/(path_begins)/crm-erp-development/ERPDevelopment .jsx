@@ -48,7 +48,7 @@ const Development = ({ data }) => {
                 {/* Title & Description */}
 
                 <Box textAlign="center" mb={4}>
-                    <Title title={development_section.title} />
+                    <Title title={development_section?.title} />
                     {/* <Typography
                         variant="h2"
                         sx={{
@@ -101,7 +101,7 @@ const Development = ({ data }) => {
                                             fontWeight: 600
                                         }}
                                     >
-                                        {item.title}
+                                        {item?.title}
                                     </Typography>
                                     <Typography
                                         sx={{
@@ -111,7 +111,7 @@ const Development = ({ data }) => {
                                             fontWeight: 400
                                         }}
                                     >
-                                        {item.description}
+                                        {item?.description}
                                     </Typography>
                                 </Box>
                             </Box>

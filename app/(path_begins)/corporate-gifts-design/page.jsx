@@ -1,4 +1,5 @@
-import CorporateGiftDesign from './CorporateGiftDesign';
+import CorporateGiftDesign from "./CorporateGiftDesign";
+
 export const metadata = {
     title: 'Brochure Design Company In Chennai',
     description: 'Webdads is a top brochure design company in chennai. Our excitement is to assist you in making a memorable first impression with your brochures!',

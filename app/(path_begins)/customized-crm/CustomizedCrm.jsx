@@ -31,10 +31,11 @@ export default function CustomizedCrm() {
         setQna_section
     } = useContext(MenuContext);
     const [data, setData] = useState(null);
-
+    const [loading, setLoding] = useState(false);
     useEffect(() => {
         const getdata = async () => {
             try {
+                setLoding(true);
                 const response = await fetch('/inner-page-api/customized-crm.json');
                 const data = await response.json();
                 console.log(data, 'data');
@@ -54,11 +55,15 @@ export default function CustomizedCrm() {
                 setPagedata(data);
             } catch (error) {
                 console.log(error, 'error');
+            } finally {
+                setLoding(false);
             }
         };
         getdata();
     }, []);
-
+    if (loading) {
+        return <div>Loading....</div>;
+    }
     return (
         <div>
             <CustomizeErpHero />
