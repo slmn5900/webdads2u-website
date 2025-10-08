@@ -65,7 +65,6 @@ const LogoMain = () => {
       <Logotimeline />
       <TypesLogo />
       <Fqlogodesign />
-      <SocialMedia />
     </div>
   );
 };

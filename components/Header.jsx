@@ -38,6 +38,10 @@ export default function Header(props) {
     const [workAnchorEl, setWorkAnchorEl] = React.useState(null);
     const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
+    const aboutTimeoutRef = React.useRef(null);
+    const servicesTimeoutRef = React.useRef(null);
+    const workTimeoutRef = React.useRef(null);
+
     React.useEffect(() => {
         setIsClient(true);
     }, []);

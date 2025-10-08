@@ -8,7 +8,7 @@ const CaseStudy = () => {
             <Row>
                 <section className="col-md-6">
                     <div className="landing-page-casestudy-span-div">
-                        <span style={{ fontWeight: 600 }}>Case Steady</span>
+                        <span style={{ fontFamily: "Poppins" }}>Case Steady</span>
                         <h3 style={{ marginBottom: '0px' }}>Some of Our Successful Projects</h3>
                         <h3 style={{ color: '#871752' }}>Delight Customers Across the Globe </h3>
                     </div>
