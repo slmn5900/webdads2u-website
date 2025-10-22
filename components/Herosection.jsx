@@ -190,7 +190,7 @@ function Herosection() {
                                 sx={{
                                     position: 'relative',
                                     overflow: 'hidden',
-                                
+
                                     pt: { xs: '40px', md: '60px' },
                                     '& img': {
                                         transition: 'transform 0.3s ease',
@@ -203,10 +203,12 @@ function Herosection() {
                                     '&:hover img': {
                                         transform: 'translate(10px, -10px)'
                                     },
-                                   
+
                                 }}
                             >
-                                <Box component="img" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757316815/webdads2u/mainpage/webdesign-service.webp" alt="webdesign service" />
+                                <Box
+                                    display={{ xs: 'none', lg: 'block' }}
+                                    component="img" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757316815/webdads2u/mainpage/webdesign-service.webp" alt="webdesign service" />
                             </Box>
                         </Grid2>
                     </Grid2>

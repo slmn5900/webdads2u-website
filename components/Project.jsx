@@ -57,8 +57,7 @@ export default function Project() {
                 maxHeight: {
                     xs: '100%',
                     sm: '100%',
-                    md: 'calc(80vh - -400px)', // or adjust as needed
-                    lg: 'calc(51vh - -550px)',
+                    md: 'calc(80vh - -680px)', // or adjust as needed
                     xl: 'calc(51vh - -450px)'
                 }
             }}
@@ -101,7 +100,6 @@ export default function Project() {
                         ))}
                     </Grid2>
                 </Box>
-
                 <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} custom={4}>
                     <Box
                         mt={{ xs: 6, md: 0 }}
@@ -111,47 +109,43 @@ export default function Project() {
                             display: { xs: 'none', md: 'block' },
                             '@media (min-width: 1245px)': {
                                 position: 'relative',
-                                top: 60
                             }
                         }}
                     >
                         <Box component={'img'} src={'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757412011/webdads2u/mainpage/mockup-banner.png'} alt="mockup" sx={{ width: 848, height: 414, objectFit: 'cover', borderRadius: 8 }} priority={true} />
                     </Box>
                 </motion.div>
+                <Box textAlign="center" mt={{ xs: 4, md: 1 }}>
+                    <Link href="/website-development" passHref legacyBehavior>
+                        <Button
+                            variant="contained"
+                            sx={{
+                                borderRadius: 15,
+                                px: { xs: 4, sm: 5 },
+                                fontWeight: '500',
+                                background: 'linear-gradient(90deg, #871752 0%, #262250 50%)',
+                                fontSize: { xs: '0.9rem', sm: '1rem' },
+                                textTransform: 'none',
+
+                                '&:hover': {
+                                    background: 'linear-gradient(90deg, #871752 10%, #262250 90%)'
+                                },
+                                fontFamily: 'Poppins',
+                                '@media (min-width: 1245px)': {
+                                    position: 'relative',
+                                },
+                                '@media (max-width: 425px)': {
+                                    backgroundColor: 'white',
+                                    color: 'white',
+                                    border: '2px solid white'
+                                }
+                            }}
+                        >
+                            Read More
+                        </Button>
+                    </Link>
+                </Box>
             </Container>
-
-            <Box textAlign="center" mt={{ xs: 4, md: 1 }}>
-                <Link href="/website-development" passHref legacyBehavior>
-                    <Button
-                        variant="contained"
-                        sx={{
-                            borderRadius: 15,
-                            px: { xs: 4, sm: 5 },
-                            py: 1.8,
-                            fontWeight: '500',
-                            background: 'linear-gradient(90deg, #871752 0%, #262250 50%)',
-                            fontSize: { xs: '0.9rem', sm: '1rem' },
-                            textTransform: 'none',
-
-                            '&:hover': {
-                                background: 'linear-gradient(90deg, #871752 10%, #262250 90%)'
-                            },
-                            fontFamily: 'Poppins',
-                            '@media (min-width: 1245px)': {
-                                position: 'relative',
-                                top: 40
-                            },
-                            '@media (max-width: 425px)': {
-                                backgroundColor: 'white',
-                                color: 'white',
-                                border: '2px solid white'
-                            }
-                        }}
-                    >
-                        Read More
-                    </Button>
-                </Link>
-            </Box>
         </Box>
     );
 }

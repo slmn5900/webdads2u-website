@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Box, Grid2, TextField, Button, Typography, MenuItem, FormHelperText, FormControl, InputLabel, Select } from '@mui/material';
 import ReCAPTCHA from 'react-google-recaptcha';
@@ -18,10 +18,10 @@ function Formsection() {
     const [recaptchaValue, setRecaptchaValue] = useState(false);
 
     const onSubmit = async (data) => {
-        if (!recaptchaValue) {
-            alert('Please complete the reCAPTCHA.');
-            return;
-        }
+        // if (!recaptchaValue) {
+        //     alert('Please complete the reCAPTCHA.');
+        //     return;
+        // }
 
         setLoading(true);
         const formData = {
@@ -53,8 +53,8 @@ function Formsection() {
             component="section"
             sx={{
                 position: 'relative',
+                textAlign: "center",
                 m: 'auto',
-                px: { xs: 2, md: 0 },
                 mt: { xs: 0, md: -18 }
             }}
         >
@@ -68,7 +68,7 @@ function Formsection() {
                     mx: 'auto'
                 }}
             >
-                <Grid2 size={{ xs: 12, sm: 7 }} sx={{ ml: { xs: 0, md: '80px' } }}>
+                <Grid2 size={{ xs: 12, lg: 8 }} sx={{ ml: { xs: 0, md: '80px' } }}>
                     <Box
                         sx={{
                             p: 3,
@@ -91,10 +91,8 @@ function Formsection() {
                         >
                             Quick contact us!
                         </Typography>
-
                         <form onSubmit={handleSubmit(onSubmit)} noValidate>
                             <Grid2 container spacing={2} alignItems="center" justifyContent="start">
-                                {/* Name */}
                                 <Grid2 size={{ xs: 12, sm: 6, md: 2 }}>
                                     <TextField
                                         fullWidth
@@ -113,8 +111,6 @@ function Formsection() {
                                         }}
                                     />
                                 </Grid2>
-
-                                {/* Phone */}
                                 <Grid2 size={{ xs: 12, sm: 6, md: 2 }}>
                                     <TextField
                                         fullWidth
@@ -142,19 +138,50 @@ function Formsection() {
                                         }}
                                     />
                                 </Grid2>
+                                <Grid2 size={{ xs: 12, sm: 6, md: 2.4 }}  >
+                                    <TextField
+                                        fullWidth
+                                        placeholder="Email"
+                                        size="small"
+                                        type="email"
+                                        variant="outlined"
+                                        {...register('email', {
+                                            required: 'Email is required',
+                                            pattern: {
+                                                value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                                                message: 'Enter a valid email address',
+                                            },
+                                        })}
+                                        error={!!errors.email}
+                                        helperText={errors.email?.message}
+                                        sx={{
+                                            backgroundColor: "white",
+                                            borderRadius: "6px",
+                                            "& .MuiOutlinedInput-notchedOutline": { border: "none" },
 
-                                {/* Service Dropdown */}
-                                <Grid2 size={{ xs: 12, sm: 6, md: 3.2 }}>
-                                    <FormControl fullWidth size="small" error={!!errors.services} sx={{ backgroundColor: 'white', borderRadius: '6px' }}>
+                                        }}
+                                    />
+                                </Grid2>
+                                <Grid2 size={{ xs: 12, sm: 6, md: 2.4 }}>
+                                    <FormControl
+                                        fullWidth
+                                        size="small"
+                                        error={!!errors.services}
+                                        sx={{
+                                            backgroundColor: "white",
+                                            borderRadius: "6px",
+                                            "& .MuiOutlinedInput-notchedOutline": { border: "none" },
+                                        }}
+                                    >
                                         <Select
+                                            displayEmpty
                                             defaultValue=""
-                                            {...register('services', {
-                                                required: 'Please select a service'
+                                            {...register("services", {
+                                                required: "Please select a service",
                                             })}
-                                            // sx={{
-                                            //     color: 'black',
-                                            //     '& .MuiSelect-icon': { color: 'black' }
-                                            // }}
+                                            sx={{
+                                                color: "gray", // placeholder color
+                                            }}
                                         >
                                             <MenuItem value="" disabled>
                                                 Select a service
@@ -165,12 +192,13 @@ function Formsection() {
                                             <MenuItem value="Brochure Design">Brochure Design</MenuItem>
                                             <MenuItem value="Logo Design">Logo Design</MenuItem>
                                         </Select>
-                                        {errors.services && <FormHelperText>{errors.services.message}</FormHelperText>}
+
+                                        {errors.services && (
+                                            <FormHelperText>{errors.services.message}</FormHelperText>
+                                        )}
                                     </FormControl>
                                 </Grid2>
-
-                                {/* reCAPTCHA */}
-                                <Grid2 size={{ xs: 12, sm: 6, md: 2 }}>
+                                <Grid2 size={{ xs: 12, sm: 6, md: 3.2 }}>
                                     <Box
                                         sx={{
                                             transform: 'scale(0.59)',
@@ -178,7 +206,6 @@ function Formsection() {
                                             WebkitTransform: 'scale(0.50)',
                                             WebkitTransformOrigin: '0 0',
                                             height: '40px',
-                                            // width:"50px",``
                                             display: 'flex',
                                             position: 'relative'
                                         }}
@@ -186,9 +213,7 @@ function Formsection() {
                                         <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={(value) => setRecaptchaValue(value)} />
                                     </Box>
                                 </Grid2>
-
-                                {/* Submit Button */}
-                                <Grid2 size={{ xs: 12, md: 2 }} textAlign="end" ml="auto">
+                                <Grid2 size={{ xs: 12, md: 2 }} textAlign="center" m="auto">
                                     <Button
                                         variant="contained"
                                         color="primary"

@@ -312,8 +312,8 @@ export default function Header(props) {
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
-                                {About.map((item) => (
-                                    <Box key={item.label} component={Link} href={item.link} sx={{ textDecoration: 'none', color: 'black' }}>
+                                {About?.map((item, index) => (
+                                    <Box key={index} component={Link} href={item.link} sx={{ textDecoration: 'none', color: 'black' }}>
                                         <MenuItem onClick={() => setMobileMenuOpen(false)} sx={{ pl: 2 }}>
                                             <KeyboardDoubleArrowRightRoundedIcon fontSize="small" sx={{ mr: 1, color: '#871752' }} />
                                             {item.name}
@@ -370,8 +370,8 @@ export default function Header(props) {
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
-                                {Work.map((item) => (
-                                    <Box key={item.label} component={Link} href={item.link} sx={{ textDecoration: 'none', color: 'black' }}>
+                                {Work.map((item, index) => (
+                                    <Box key={index} component={Link} href={item.link} sx={{ textDecoration: 'none', color: 'black' }}>
                                         <MenuItem onClick={() => setMobileMenuOpen(false)} sx={{ pl: 2 }}>
                                             <KeyboardDoubleArrowRightRoundedIcon fontSize="small" sx={{ mr: 1, color: '#871752' }} />
                                             {item.name}

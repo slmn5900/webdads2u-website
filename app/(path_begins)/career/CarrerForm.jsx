@@ -1,11 +1,12 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import { useRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { careerForm } from '../../../api/UserAuthentication';
 import { AllCountriess } from './country.jsx';
 const allCountries = AllCountriess;
 const CarrerForm = () => {
+    const resumeInputRef = useRef(null);
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -32,44 +33,14 @@ const CarrerForm = () => {
             [name]: type === 'file' ? files[0] : value
         }));
     };
-
-    // const handleSubmit = async(e) => {
-    //     e.preventDefault();
-    //     if (!captchaValue && isCheckboxChecked === false) {
-    //         alert('Please complete the reCAPTCHA.');
-    //         return;
-    //     }
-
-    //     const formDataValues=new FormData()
-
-    //     try {
-    //         const response = await careerForm(formDataValues)
-    //         if (response.sucess) {
-    //             alert("thanks for the form submission.")
-    //         } else {
-
-    //         }
-    //     } catch (error) {
-    //         console.log(error);
-    //         alert('something wents to wrong');
-    //     }
-
-    //     // Handle form submission logic here
-    //     console.log('Form submitted:', formData);
-    // };
-
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        if (!captchaValue || !isCheckboxChecked) {
-            alert('Please complete the reCAPTCHA.');
-            return;
-        }
-
-        // const formDataValues = new FormData();
+        // if (!captchaValue || !isCheckboxChecked) {
+        //     alert('Please complete the reCAPTCHA.');
+        //     return;
+        // }
         const formDataValues = new FormData();
-
-        // Append each field to the FormData object
         formDataValues.append('name', formData.name);
         formDataValues.append('email', formData.email);
         formDataValues.append('phone', formData.phone);
@@ -82,8 +53,6 @@ const CarrerForm = () => {
         formDataValues.append('state', formData.state);
         formDataValues.append('zipCode', formData.zip);
         formDataValues.append('country', formData.country);
-
-        // Append the resume file
         if (formData.resume) {
             formDataValues.append('resume', formData.resume);
         }
@@ -108,6 +77,9 @@ const CarrerForm = () => {
                     country: '',
                     resume: null
                 });
+                if (resumeInputRef.current) {
+                    resumeInputRef.current.value = '';
+                }
                 setIsCheckboxChecked(false);
                 setCaptchaValue(null);
             } else {
@@ -134,7 +106,7 @@ const CarrerForm = () => {
                     <Col md={6}>
                         <div>
                             <label>
-                                Name <span>(Required)</span>
+                                Name <span>*</span>
                             </label>
                             <input type="text" name="name" value={formData.name} onChange={handleChange} required />
                         </div>
@@ -142,7 +114,7 @@ const CarrerForm = () => {
                     <Col md={6}>
                         <div>
                             <label>
-                                Email<span>(Required)</span>
+                                Email<span>*</span>
                             </label>
                             <input type="email" name="email" value={formData.email} onChange={handleChange} required />
                         </div>
@@ -152,7 +124,7 @@ const CarrerForm = () => {
                     <Col lg={6}>
                         <div>
                             <label>
-                                Phone<span>(Required)</span>
+                                Phone<span>*</span>
                             </label>
                             <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required />
                         </div>
@@ -160,7 +132,7 @@ const CarrerForm = () => {
                     <Col lg={6}>
                         <div>
                             <label>
-                                Job Title <span>(Required)</span>
+                                Job Title <span>*</span>
                             </label>
                             <select name="jobTitle" value={formData.jobTitle} onChange={handleChange} required>
                                 <option value="">Select a job title</option>
@@ -177,18 +149,18 @@ const CarrerForm = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={4}>
+                    <Col lg={6}>
                         <div>
                             <label>
-                                Date of Birth <span>(Required)</span>
+                                Date of Birth <span>*</span>
                             </label>
                             <input type="date" name="dob" value={formData.dob} onChange={handleChange} required />
                         </div>
                     </Col>
-                    <Col lg={4}>
+                    <Col lg={6}>
                         <div className="genderrd">
                             <label>
-                                Gender <span>(Required)</span>{' '}
+                                Gender <span>*</span>{' '}
                             </label>
                             <label>
                                 <input type="radio" name="gender" value="male" checked={formData.gender === 'male'} onChange={handleChange} required />
@@ -200,10 +172,13 @@ const CarrerForm = () => {
                             </label>
                         </div>
                     </Col>
-                    <Col lg={4}>
+
+                </Row>
+                <Row>
+                    <Col lg={6}>
                         <div className="genderrd">
                             <label>
-                                Marital Status <span>(Required)</span>{' '}
+                                Marital Status <span>*</span>{' '}
                             </label>
                             <label>
                                 <input type="radio" name="maritalStatus" value="single" checked={formData.maritalStatus === 'single'} onChange={handleChange} required />
@@ -215,14 +190,7 @@ const CarrerForm = () => {
                             </label>
                         </div>
                     </Col>
-                </Row>
-                <Row>
-                    <Col lg={12}>
-                        <div>
-                            <h2>
-                                Address <span>(Required)</span>
-                            </h2>
-                        </div>
+                    <Col lg={6}>
                         <div>
                             <label>Street Address </label>
                             <input type="text" name="streetAddress" value={formData.streetAddress} onChange={handleChange} />
@@ -255,7 +223,7 @@ const CarrerForm = () => {
                             <label>Country </label>
                             <select name="country" value={formData.country} onChange={handleChange}>
                                 <option value="">Select a country</option>
-                                {allCountries.map((country) => (
+                                {allCountries?.map((country) => (
                                     <option key={country} value={country}>
                                         {country}
                                     </option>
@@ -268,9 +236,9 @@ const CarrerForm = () => {
                     <Col lg={12}>
                         <div className="resume-fl">
                             <label>
-                                Resume <span>(Required)</span>
+                                Resume <span>*</span>
                             </label>
-                            <input type="file" name="resume" onChange={handleChange} required />
+                            <input ref={resumeInputRef} type="file" name="resume" onChange={handleChange} required />
                         </div>
                         <div className="mt-2 mb-2">
                             {/* <ReCAPTCHA
@@ -279,7 +247,7 @@ const CarrerForm = () => {
                             /> */}
                             <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={handleCaptchaChange} />
                         </div>
-                        <button type="submit" disabled={loading}>
+                        <button className='border-0' type="submit" disabled={loading}>
                             {loading ? 'Sending...' : 'Submit'}
                         </button>
                     </Col>

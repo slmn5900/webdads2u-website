@@ -83,8 +83,7 @@ export default function BrandingServices() {
                                 encompass the strategic initiatives a company implements to forge, sustain, and amplify its brand identity. The primary goal is to cultivate a robust, distinct, and cohesive image within the intended audience.
                             </Typography>
                             <Typography variant="body1" color="text.secondary" paragraph sx={{ fontFamily: 'Poppins', textAlign: { xs: 'left', sm: 'left', md: 'justify' } }}>
-                                As a distinguished web designing and web development company in Chennai, Webdads2u Pvt. Ltd. recognizes the pivotal role of branding services in fortifying a company’s online presence and fostering positive
-                                relationships with its audience.
+                               
                             </Typography>
                         </motion.div>
 
