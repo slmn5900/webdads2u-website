@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { Box, Grid2, TextField, Button, Typography, MenuItem, FormHelperText, FormControl, InputLabel, Select } from '@mui/material';
+import { Box, Grid2, TextField, Button, Typography, MenuItem, FormHelperText, FormControl, InputLabel, Select, CircularProgress } from '@mui/material';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { quirckServiceForm } from '../api/UserAuthentication';
-
+import SendIcon from '@mui/icons-material/Send';
 function Formsection() {
     const {
         register,
@@ -18,11 +18,10 @@ function Formsection() {
     const [recaptchaValue, setRecaptchaValue] = useState(false);
 
     const onSubmit = async (data) => {
-        // if (!recaptchaValue) {
-        //     alert('Please complete the reCAPTCHA.');
-        //     return;
-        // }
-
+        if (!recaptchaValue) {
+            alert('Please complete the reCAPTCHA.');
+            return;
+        }
         setLoading(true);
         const formData = {
             name: data.name,
@@ -60,7 +59,7 @@ function Formsection() {
         >
             <Grid2
                 container
-                spacing={2}
+                spacing={1}
                 sx={{
                     position: { xs: 'relative', md: 'relative' },
                     bottom: 0,
@@ -117,6 +116,11 @@ function Formsection() {
                                         placeholder="Mobile"
                                         size="small"
                                         type="tel"
+                                        inputProps={{
+                                            maxLength: 10, // ✅ restricts typing to 10 digits
+                                            inputMode: 'numeric', // ✅ brings up numeric keypad on mobile
+                                            pattern: '[0-9]*', // ✅ allows only digits
+                                        }}
                                         {...register('phone', {
                                             required: 'Phone number is required'
                                         })}
@@ -138,7 +142,7 @@ function Formsection() {
                                         }}
                                     />
                                 </Grid2>
-                                <Grid2 size={{ xs: 12, sm: 6, md: 2.4 }}  >
+                                <Grid2 size={{ xs: 12, sm: 6, md: 2 }}  >
                                     <TextField
                                         fullWidth
                                         placeholder="Email"
@@ -162,7 +166,7 @@ function Formsection() {
                                         }}
                                     />
                                 </Grid2>
-                                <Grid2 size={{ xs: 12, sm: 6, md: 2.4 }}>
+                                <Grid2 size={{ xs: 12, sm: 6, md: 2 }}>
                                     <FormControl
                                         fullWidth
                                         size="small"
@@ -180,7 +184,7 @@ function Formsection() {
                                                 required: "Please select a service",
                                             })}
                                             sx={{
-                                                color: "gray", // placeholder color
+                                                color: "gray", // placeholder color 
                                             }}
                                         >
                                             <MenuItem value="" disabled>
@@ -198,7 +202,7 @@ function Formsection() {
                                         )}
                                     </FormControl>
                                 </Grid2>
-                                <Grid2 size={{ xs: 12, sm: 6, md: 3.2 }}>
+                                <Grid2 size={{ xs: 12, sm: 6, md: 2 }}>
                                     <Box
                                         sx={{
                                             transform: 'scale(0.59)',
@@ -207,30 +211,37 @@ function Formsection() {
                                             WebkitTransformOrigin: '0 0',
                                             height: '40px',
                                             display: 'flex',
+                                            borderRadius: 6,
                                             position: 'relative'
                                         }}
                                     >
                                         <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={(value) => setRecaptchaValue(value)} />
                                     </Box>
                                 </Grid2>
-                                <Grid2 size={{ xs: 12, md: 2 }} textAlign="center" m="auto">
+                                <Grid2 xs={12} sm={6} md={2} sx={{ display: 'flex', justifyContent: 'center' }}>
                                     <Button
                                         variant="contained"
-                                        color="primary"
                                         type="submit"
                                         disabled={loading}
-                                        size="small"
                                         sx={{
-                                            position: 'relative',
-                                            px: 3,
-                                            py: 1,
-                                            borderRadius: '8px',
-                                            fontWeight: 600,
-                                            width: { xs: '100%', sm: { md: 'auto', lg: '0px' } },
+                                            minWidth: 0,
+                                            width: 'auto',
+                                            height: 40,
+                                            marginLeft: 4,
+                                            borderRadius: 2,
+                                            display: 'flex',
+                                            justifyContent: 'center',
+                                            alignItems: 'center',
                                             background: 'linear-gradient(to left, #ff0f47 1%, #8a1652)'
                                         }}
                                     >
-                                        {loading ? 'Loading...' : 'Submit'}
+                                        {loading ? (
+                                            <CircularProgress size={20} color="inherit" />
+                                        ) : (
+                                            <>
+                                                <SendIcon fontSize="small" sx={{ transform: 'rotate(-40deg)' }} />
+                                            </>
+                                        )}
                                     </Button>
                                 </Grid2>
                             </Grid2>

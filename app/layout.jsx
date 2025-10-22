@@ -14,7 +14,7 @@ import ScrollToTop from '../components/common/ScrollToTop.jsx';
 import StickyContactIcons from '../components/common/StickyContactIcons.jsx';
 import { ThemeProvider } from '@mui/material';
 import theme from '../Theme/theme.jsx';
-
+import Script from 'next/script';
 export default function RootLayout({ children }) {
     const pathname = usePathname();
 
@@ -69,6 +69,31 @@ export default function RootLayout({ children }) {
             <meta name="msapplication-TileImage" content="/logo/ms-icon-144x144.png" />
             <meta name="theme-color" content="#ffffff"></meta>
             <body>
+                {pathname === '/' && (
+                    <>
+                        <Script id="gtm-script" strategy="afterInteractive">
+                            {`
+                                (function(w,d,s,l,i){
+                                    w[l]=w[l]||[];
+                                    w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+                                    var f=d.getElementsByTagName(s)[0],
+                                        j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+                                    j.async=true;
+                                    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+                                    f.parentNode.insertBefore(j,f);
+                                })(window,document,'script','dataLayer','GTM-WZXCJ8W3');
+                            `}
+                        </Script>
+                        <noscript>
+                            <iframe
+                                src="https://www.googletagmanager.com/ns.html?id=GTM-WZXCJ8W3"
+                                height="0"
+                                width="0"
+                                style={{ display: 'none', visibility: 'hidden' }}
+                            ></iframe>
+                        </noscript>
+                    </>
+                )}
                 <ThemeProvider theme={theme}>
                     <MenuProvider>
                         <LayoutProvider>

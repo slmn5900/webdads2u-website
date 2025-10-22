@@ -201,14 +201,14 @@ function Herosection() {
                                         mr: 'auto',
                                     },
                                     '&:hover img': {
-                                        transform: 'translate(10px, -10px)'
+                                        transform: 'translate(10px, -5px)'
                                     },
 
                                 }}
                             >
                                 <Box
                                     display={{ xs: 'none', lg: 'block' }}
-                                    component="img" src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757316815/webdads2u/mainpage/webdesign-service.webp" alt="webdesign service" />
+                                    component="img" className='ms-3' src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757316815/webdads2u/mainpage/webdesign-service.webp" alt="webdesign service" />
                             </Box>
                         </Grid2>
                     </Grid2>

@@ -52,9 +52,7 @@ const ContactHero = () => {
                                 <p>
                                     <a href="tel:+91-88256 07550">+91-88256 07550</a>
                                 </p>
-                                <p>
-                                    <a href="tel:+91-6382253490">+91-6382253490</a>
-                                </p>
+                              
                             </div>
                             <div className="contactboxel">
                                 <img alt="" src="/webdads/images/contact/email.webp"></img>

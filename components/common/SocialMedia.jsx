@@ -1,15 +1,19 @@
 'use client';
 import React from 'react';
 import { Box, Container, Typography, Grid2, IconButton } from '@mui/material';
-import { FaFacebookF, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { IoLogoInstagram } from 'react-icons/io5';
 import { motion } from 'framer-motion';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const socialIcons = [
     { icon: <FaFacebookF />, link: 'https://www.facebook.com/Webdads2u' },
-    { icon: <FaTwitter />, link: 'https://x.com/webdads2u' },
+    { icon: <FaXTwitter />, link: 'https://x.com/webdads2u' },
     { icon: <FaYoutube />, link: 'https://www.youtube.com/webdads2u' },
-    { icon: <IoLogoInstagram />, link: 'https://www.instagram.com/webdads2u/' }
+    { icon: <IoLogoInstagram />, link: 'https://www.instagram.com/webdads2u/' },
+    { icon: <FaLinkedinIn />, link: 'https://www.linkedin.com/company/webdads2u-private-limited/' },
+
+
 ];
 
 const SocialMedia = () => {
