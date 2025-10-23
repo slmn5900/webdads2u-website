@@ -53,13 +53,8 @@ export default function Project() {
                 pt: { xs: 6, sm: 4, md: 8 },
                 pb: { xs: 6, sm: 4, md: 1 },
                 color: 'white',
-                height: 'auto',
-                maxHeight: {
-                    xs: '100%',
-                    sm: '100%',
-                    md: 'calc(80vh - -680px)', // or adjust as needed
-                    xl: 'calc(51vh - -450px)'
-                }
+                minHeight: '100vh',
+
             }}
         >
             <Container maxWidth="lg" sx={{ px: { xs: 2, sm: 3, md: 6 } }}>
@@ -75,14 +70,13 @@ export default function Project() {
                         </Typography>
                     </Box>
                 </motion.div>
-
                 <Box mt={{ xs: 5, md: 8 }}>
                     <Grid2 container spacing={{ xs: 3, md: 4 }}>
-                        {projects.map((item, index) => (
+                        {projects?.map((item, index) => (
                             <Grid2
                                 size={{
                                     xs: 12,
-                                    sm: 4
+                                    md: 4
                                 }}
                                 key={index}
                             >
