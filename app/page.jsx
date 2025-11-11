@@ -99,6 +99,13 @@ const CaseStudy = React.lazy(() => import('../components/CaseStudy'));
 const FAQ = React.lazy(() => import('../components/FAQ'));
 const CardCantainer = React.lazy(() => import('../components/CardContainer'));
 const CustomTabPanel = React.lazy(() => import('../components/CustomTabPanel'));
+const WebDesigningSection = React.lazy(() => import('../components/WebDesigningSection'));
+const LogoSlider = React.lazy(() => import('../components/LogoSlider'))
+// import WebDesigningSection from '../components/ui/WebDesigningSection';
+const IndustriesServe = React.lazy(() => import('../components/IndustriesServe'));
+const TabSection = React.lazy(() => import('../components/TabSection'));
+const LatestBlog = React.lazy(() => import('../components/LatestBlog'));
+const WebsitePerformance = React.lazy(() => import('../components/WebsitePerformance'));
 
 const LandingPage = () => {
     return (
@@ -135,19 +142,38 @@ const LandingPage = () => {
             </noscript>
 
             <Herosection />
-            <Formsection />
-            <ServicesSection />
+            <CaseStudy /> 
+            <TabSection/> 
+            <WebsitePerformance/>
+            <WebDesigningSection/> 
+            <IndustriesServe/>
+            
+           
+            <LatestBlog />
+           {/*   
+           <LogoSlider/>
+             <Counter />  
+            <CardCantainer /> 
+            <CustomTabPanel />
+            <LatestBlog />
+            */}
+
+            {/* <Formsection /> */}
+            {/* <ServicesSection />
             <LoadMoreImage />
             <Project />
             <DigitalMargeting />
             <Application />
             <BrandingServices />
-            <Counter />
-            <Industries />
-            <CaseStudy />
-            <CustomTabPanel />
-            <FAQ />
-            <CardCantainer />
+            
+            <Industries /> */}
+            
+            {/* <CustomTabPanel /> */}
+            {/* <WebDesigningSection/> */}
+            
+            
+            {/* <FAQ /> */}
+            
         </div>
     );
 };

@@ -1,221 +1,207 @@
 'use client';
-import React from 'react';
-import { Container } from 'react-bootstrap';
-import { IoSettingsOutline, IoShieldCheckmarkOutline } from 'react-icons/io5';
-import { Box, Grid2 } from '@mui/material';
+import React, { useEffect, useState } from 'react';
+import { useTypewriter } from 'react-simple-typewriter';
+import ReCAPTCHA from 'react-google-recaptcha';
+import '../style/Herosection.css';
+import { FaStar } from "react-icons/fa";
+import { quirckServiceForm } from '../api/UserAuthentication'; // ✅ import your API
 
-function Herosection() {
-    return (
-        <>
-            <Box sx={{ height: '100%', }}>
-                <Container>
-                    <Grid2 container spacing={{ xs: 0, sm: 3 }}>
-                        {/* Left Side */}
-                        <Grid2 size={{ xs: 12, md: 8 }} position="relative">
-                            <Box
-                                position={{ sm: 'relative', md: 'absolute' }}
-                                sx={{
-                                    top: { md: '35%' },
-                                    transform: { md: 'translateY(-50%)' },
-                                    left: 0,
-                                    right: 0,
-                                    mx: 'auto',
-                                    mt: { xs: '20px', sm: '50px', md: '40px' }
-                                }}
-                            >
-                                {/* Heading + Text */}
-                                <Box className="Hero-content">
-                                    <Box
-                                        component="h1"
-                                        sx={{
-                                            fontSize: { xs: 20, sm: 25, md: 25, lg: 40 },
-                                            lineHeight: { xs: 1.5, sm: 1.2, md: 1.2, lg: 1.2 },
-                                            fontWeight: 700,
-                                            fontFamily: 'Poppins, Sans-serif',
-                                            background: 'linear-gradient(to left, #262250 30%, #E40724)',
-                                            WebkitBackgroundClip: 'text',
-                                            WebkitTextFillColor: 'transparent',
-                                            pb: '5px'
-                                        }}
-                                    >
-                                        Better Digitalization Solution to <br /> Transform your Business
-                                    </Box>
-                                    <Box
-                                        component="p"
-                                        sx={{
-                                            fontWeight: 500,
-                                            fontFamily: 'Poppins, Sans-serif',
-                                            background: 'linear-gradient(to left, #262250 30%, #E40724)',
-                                            WebkitBackgroundClip: 'text',
-                                            WebkitTextFillColor: 'transparent'
-                                        }}
-                                    >
-                                        Our expertise in bringing ideas to reality help your market place
-                                    </Box>
-                                </Box>
+const Herosection = () => {
+  const [text] = useTypewriter({
+    words: ['Digitalization', 'Automation', 'Innovation'],
+    loop: true,
+    delaySpeed: 1500,
+  });
 
-                                {/* Services */}
-                                <Grid2 container spacing={2} className="mt-2">
-                                    {/* Web Dev */}
-                                    <Grid2 size={{ xs: 4, md: 4 }}>
-                                        <a href="/website-development/" target="_self" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
-                                            <Box
-                                                sx={{
-                                                    boxShadow: 'rgba(0, 0, 0, 0.25) 0px 25px 50px -12px',
-                                                    p: '10px',
-                                                    display: 'flex',
-                                                    borderRadius: '10px',
-                                                    alignItems: 'center',
-                                                    columnGap: '10px',
-                                                    textAlign: 'center',
-                                                    transition: 'all 0.3s ease',
-                                                    justifyContent: { xs: 'center', md: 'flex-start' },
-                                                    '&:hover': {
-                                                        background: '#0E1839',
-                                                        '& img': { filter: 'invert(100%)' },
-                                                        '& h4': { color: '#fff !important' }
-                                                    }
-                                                }}
-                                            >
-                                                <Box
-                                                    component="img"
-                                                    src="/webdads icon.svg"
-                                                    alt="webdevelopment"
-                                                    sx={{
-                                                        filter: 'invert(0%)',
-                                                        transition: 'filter 0.3s ease'
-                                                    }}
-                                                />
-                                                <Box
-                                                    component="h4"
-                                                    sx={{
-                                                        fontSize: '14px',
-                                                        fontFamily: 'Poppins',
-                                                        textTransform: 'uppercase',
-                                                        fontWeight: 400,
-                                                        color: '#0E1839',
-                                                        textAlign: 'start',
-                                                        display: { xs: 'none', sm: 'block' }
-                                                    }}
-                                                >
-                                                    Web Development
-                                                </Box>
-                                            </Box>
-                                        </a>
-                                    </Grid2>
+  const [showPopup, setShowPopup] = useState(false);
+  const [recaptchaValue, setRecaptchaValue] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [formData, setFormData] = useState({ name: '', mobile: '', email: '', service: '' });
 
-                                    {/* Digital Marketing */}
-                                    <Grid2 size={{ xs: 4, md: 4 }}>
-                                        <a href="/digital-marketing-agency/" target="_self" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
-                                            <Box
-                                                sx={{
-                                                    boxShadow: 'rgba(0, 0, 0, 0.25) 0px 25px 50px -12px',
-                                                    p: '10px',
-                                                    display: 'flex',
-                                                    borderRadius: '10px',
-                                                    alignItems: 'center',
-                                                    columnGap: '10px',
-                                                    transition: 'all 0.3s ease',
-                                                    justifyContent: { xs: 'center', md: 'flex-start' },
-                                                    '&:hover': {
-                                                        background: '#0E1839',
-                                                        '& svg': { fill: '#fff', color: '#fff' },
-                                                        '& h4': { color: '#fff !important' }
-                                                    }
-                                                }}
-                                            >
-                                                <IoSettingsOutline size={40} />
-                                                <Box
-                                                    component="h4"
-                                                    sx={{
-                                                        fontSize: '14px',
-                                                        fontFamily: 'Poppins',
-                                                        textTransform: 'uppercase',
-                                                        fontWeight: 400,
-                                                        color: '#0E1839',
-                                                        display: { xs: 'none', sm: 'block' }
-                                                    }}
-                                                >
-                                                    Digital Marketing
-                                                </Box>
-                                            </Box>
-                                        </a>
-                                    </Grid2>
+  // Auto popup after 3 seconds (once per session)
+  useEffect(() => {
+    const alreadyShown = sessionStorage.getItem('popupshown');
+    if (!alreadyShown) {
+      const timer = setTimeout(() => {
+        setShowPopup(true);
+        sessionStorage.setItem('popupshown', 'true');
+      }, 3000);
+      return () => clearTimeout(timer);
+    }
+  }, []);
 
-                                    {/* CRM ERP */}
-                                    <Grid2 size={{ xs: 4, md: 4 }}>
-                                        <a href="/crm-erp-development/" target="_self" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
-                                            <Box
-                                                sx={{
-                                                    boxShadow: 'rgba(0, 0, 0, 0.25) 0px 25px 50px -12px',
-                                                    p: '10px',
-                                                    display: 'flex',
-                                                    borderRadius: '10px',
-                                                    alignItems: 'center',
-                                                    columnGap: '10px',
-                                                    transition: 'all 0.3s ease',
-                                                    justifyContent: { xs: 'center', md: 'flex-start' },
-                                                    '&:hover': {
-                                                        background: '#0E1839',
-                                                        '& svg': { fill: '#fff', color: '#fff' },
-                                                        '& h4': { color: '#fff !important' }
-                                                    }
-                                                }}
-                                            >
-                                                <IoShieldCheckmarkOutline size={40} />
-                                                <Box
-                                                    component="h4"
-                                                    sx={{
-                                                        fontSize: '14px',
-                                                        fontFamily: 'Poppins',
-                                                        textTransform: 'uppercase',
-                                                        fontWeight: 400,
-                                                        color: '#0E1839',
-                                                        display: { xs: 'none', sm: 'block' }
-                                                    }}
-                                                >
-                                                    CRM & ERP Development
-                                                </Box>
-                                            </Box>
-                                        </a>
-                                    </Grid2>
-                                </Grid2>
-                            </Box>
-                        </Grid2>
+  // Counter setup
+  const datas = [
+    { label: 'Successful Projects', end: 200 },
+    { label: 'Sales Closed', end: 300 },
+    { label: 'Years Experience', end: 10 },
+  ];
 
-                        {/* Right Side Image */}
-                        <Grid2 size={{ md: 4 }}>
-                            <Box
-                                className="robort"
-                                sx={{
-                                    position: 'relative',
-                                    overflow: 'hidden',
+  const [counter, setCounter] = useState(datas.map(() => 0));
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCounter(prev => prev.map((val, i) => (val < datas[i].end ? val + 1 : val)));
+    }, 20);
+    return () => clearInterval(timer);
+  }, []);
 
-                                    pt: { xs: '40px', md: '60px' },
-                                    '& img': {
-                                        transition: 'transform 0.3s ease',
-                                        width: '100%',
-                                        marginBottom: 'auto',
-                                        // minHeight: 'calc(100vh - 60px)',
-                                        // objectFit: { xs: 'scale-down', md: 'contain' },
-                                        mr: 'auto',
-                                    },
-                                    '&:hover img': {
-                                        transform: 'translate(10px, -5px)'
-                                    },
+  // Handle input change
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
-                                }}
-                            >
-                                <Box
-                                    display={{ xs: 'none', lg: 'block' }}
-                                    component="img" className='ms-3' src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757316815/webdads2u/mainpage/webdesign-service.webp" alt="webdesign service" />
-                            </Box>
-                        </Grid2>
-                    </Grid2>
-                </Container>
-            </Box>
-        </>
-    );
-}
+  // ✅ Submit handler with API call integration
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!recaptchaValue) {
+      // alert('Please complete the reCAPTCHA.');
+      return;
+    }
+
+    setLoading(true);
+    const dataToSend = {
+      name: formData.name,
+      phoneNumber: formData.mobile,
+      email: formData.email,
+      services: formData.service,
+      captcha: recaptchaValue,
+    };
+
+    try {
+      const response = await quirckServiceForm(dataToSend);
+      if (response.success) {
+        alert('Form submitted successfully!');
+        setShowPopup(false);
+        setFormData({ name: '', mobile: '', email: '', service: '' });
+        setRecaptchaValue(null);
+      } else {
+        alert('Failed to submit form. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('An error occurred while submitting the form.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <>
+      {/* Hero Section */}
+      <section className="hero">
+        <div className="dots">
+          {[...Array(5)].map((_, i) => <div key={i} className="dot"></div>)}
+        </div>
+
+        {/* Desktop Hero */}
+        <div className="Herosection-body glass text-center">
+          <h1>
+            Better <span style={{ fontWeight: '500', color: '#d7142a' }}>{text}</span> Solution
+            <br /> to Transform your Business
+          </h1>
+          <h6>Our expertise in bringing ideas to reality help your market place</h6>
+          <button onClick={() => setShowPopup(true)}>Get Quotes</button>
+
+          {/* Counters */}
+          <div className="counter-main-home d-flex" style={{ justifyContent: 'flex-start', gap: '60px', padding: '40px', marginTop: '50px' }}>
+            {datas.map((item, i) => (
+              <div key={i} style={{ textAlign: 'center' }} className='d-flex header-counter-sec align-items-baseline'>
+                <h2 style={{ margin: 0, width: '30px' }}>{counter[i]}+</h2>
+                <h6 className='ps-3'>{item.label}</h6>
+              </div>
+            ))}
+            <div className='d-flex align-items-baseline'>
+              <FaStar className='star-icon' />
+              <FaStar className='star-icon' />
+              <FaStar className='star-icon' />
+              <FaStar className='star-icon' />
+              <FaStar className='star-icon' />
+              <h6 className='header-counter-sec ps-3'>Google Rating</h6>
+            </div>
+          </div>
+        </div>
+
+        {/* Mobile Hero */}
+        <div className="mobileHerosection-body glass text-center">
+          <h1>
+            Better <br />
+            <span style={{ fontWeight: 'bold', color: '#d7142a' }}>{text}</span> <br />
+            Solution to<br />Transform <br />your Business
+          </h1>
+          <h6>Our expertise in bringing ideas to reality help your market place</h6>
+          <button onClick={() => setShowPopup(true)}>Get quotes</button>
+        </div>
+      </section>
+
+      {/* Popup Overlay */}
+      {showPopup && (
+        <div
+          className="popup-overlay"
+          onClick={(e) => e.target.classList.contains('popup-overlay') && setShowPopup(false)}
+        >
+          <div className="popup-box glass-popup">
+            <span className="close-btn" onClick={() => setShowPopup(false)}>&times;</span>
+            <h2>Quick contact us!</h2>
+
+            <form onSubmit={handleSubmit}>
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+              <input
+                type="tel"
+                name="mobile"
+                placeholder="Mobile"
+                value={formData.mobile}
+                onChange={handleChange}
+                required
+                maxLength="10"
+                pattern='[0-9]{10}'
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+              <select
+                name="service"
+                value={formData.service}
+                onChange={handleChange}
+                className="select-option"
+                required
+              >
+                <option value="">Select ...</option>
+                <option>Website Development</option>
+                <option>SEO</option>
+                <option>App Development</option>
+                <option>Brochure Design</option>
+                <option>Logo Design</option>
+              </select>
+
+              <div className="recaptcha-box">
+                <ReCAPTCHA
+                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                  onChange={(value) => setRecaptchaValue(value)}
+                />
+              </div>
+
+              <button type="submit" className="submit-btn" disabled={loading}>
+                {loading ? 'Submitting...' : 'Submit ➤'}
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
+    </>
+  );
+};
 
 export default Herosection;

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+:root{
+    --poppins-family: poppins;
+    --weight500: 500;
+    --color000000: #000000;
+    --color262250: #262250;
+    --color353434: #353434;
+    --colorBEBEBE: #BEBEBE;
+    --colorD9D9D9: #D9D9D9;
+    --weight600 :600;
+    --weight400: 400;
+    --inter-family: 'Inter', sans-serif;
+}
+
+.second-section span{
+    color: var(--color000000);
+    font-family: var(--poppins-family);
+    font-weight: var(--weight500);
+    font-size:14px;
+}
+
+.second-section h3{
+    font-family: var(--poppins-family);
+    font-weight: var(--weight600);
+    font-size: 28px;
+}
+
+.case-study-right h5{
+    font-family: var(--inter-family);
+    font-weight: var(--weight400);
+    color: var(--color353434);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* marquee */
+.case-study-slider {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  cursor: grab;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE */
+  position: relative;
+}
+
+.case-study-slider::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.case-study-slider:active {
+  cursor: grabbing;
+   
+}
+
+.slider-track {
+  display: inline-flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.slide-item {
+  flex: 0 0 auto;
+  font-size: 18px;
+  color: #BEBEBE;
+  font-weight: var(--weight400);
+  padding: 10px 20px;
+  user-select: none;
+}
+
+.slide-item a{
+  color: #BEBEBE;
+}
+
+.slide-item span{
+    padding-right: 8px;
+    color: var(--colorD9D9D9);
+}
+
+.case-study-slider,
+.case-study-slider * {
+  background: transparent !important;
+}
+
+.mobileCase-study{
+  display: none;
+}
+
+.mobile-h3{
+  display: none;
+}
+
+
+@media screen and (max-width:768px) {
+  .case-study{
+    display: none;
+  }
+
+  .desktop-h3{
+    display: none;
+  }
+
+  .mobile-h3{
+  display: none;
+}
+  /* .desktop-h3-case{
+    display: none;
+}
+
+  .mobile-h3-case{
+  display: block;
+} */
+
+  .mobileCase-study{
+    display: block;
+    padding: 16px;
+  }
+  .second-section h3{
+    font-family: var(--poppins-family);
+    font-weight: var(--weight600);
+    font-size: 20px;
+}
+
+  .mobileCase-study section{
+    padding: 0;
+  }
+
+}

@@ -1,14 +1,17 @@
-
-
 'use client';
 import React, { useEffect, useState } from 'react';
 import { Grid2, Card, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import '../style/WebDesigningSection.css'
 
 const CounterItem = ({ title, endValue }) => {
     const [count, setCount] = useState(0);
     const { ref, inView } = useInView({ triggerOnce: true });
+
+    const data = [
+        {label: 'Successful Projects'}
+    ]
 
     useEffect(() => {
         if (inView) {
@@ -27,24 +30,32 @@ const CounterItem = ({ title, endValue }) => {
     }, [inView, endValue]);
 
     return (
-        <Grid2 size={{ xs: 6, sm: 6, md: 3 }} ref={ref}>
+
+        <Grid2 size={{ xs: 6, sm: 6, md: 3 }} ref={ref} >
             <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={inView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ duration: 0.6 }}
             >
-                <Card sx={{ textAlign: 'center', p: 5, boxShadow: "none", background: "transparent" }}>
-                    <Box display="flex" justifyContent="center" alignItems="baseline">
-                        <Typography variant="h4" sx={{ fontWeight: 700, color: '#08203A', fontFamily: 'Poppins, sans-serif',fontSize:"40px" }}>
-                            {count}
+                <Card sx={{ textAlign: 'center', p: 5, background: "transparent" }} className='card-section-border'>
+                    <div>
+                          <Typography className='counter-title'>
                         </Typography>
-                        <Typography variant="h4" sx={{ fontWeight: 800, color: '#08203A', fontFamily: 'Poppins, sans-serif' }}>
-                            +
+                        <Typography variant="body1" sx={{ mt: 1, fontWeight: 500, fontFamily: 'Poppins, sans-serif' }} >
+                            {title}
                         </Typography>
-                    </Box>
-                    <Typography variant="body1" sx={{ mt: 1, fontWeight: 500, fontFamily: 'Poppins, sans-serif', fontSize:{xs:12,sm:"12px",md:"15px"} }}>
-                        {title}
-                    </Typography>
+                      
+                        <Box display="flex" justifyContent="center" alignItems="baseline">
+                            <Typography variant="h4" sx={{ fontWeight: 700, color: '#08203A', fontFamily: 'Poppins, sans-serif' }} className='counter-value'>
+                                {count}
+                            </Typography>
+                            <Typography variant="h4" sx={{ fontWeight: 800, color: '#08203A', fontFamily: 'Poppins, sans-serif' }} className='counter-sign'>
+                                +
+                            </Typography>
+                        </Box>
+                    </div>
+
+
                 </Card>
             </motion.div>
         </Grid2>
@@ -59,12 +70,33 @@ const Counter = () => {
         { title: 'Years of Experience', endValue: 10 }
     ];
 
+    //  const counterDetailsMobile = [
+    //     { title: <>Satisfied <br /> Clients</>, endValue: 150 },
+    //     { title: <>Successful <br/> Projects</>, endValue: 250 },
+    //     { title: <>Sales <br/> Closed</>, endValue: 300 },
+    //     { title: <>Years of Experience</>, endValue: 10 }
+    // ];
+    const counterDetailsMobile = [
+        { title: 'Satisfied Clients', endValue: 150 },
+        { title: 'Successful Projects', endValue: 250 },
+        { title: 'Sales Closed', endValue: 300 },
+        { title: 'Years of Experience', endValue: 10 }
+    ];
+
     return (
-        <Grid2 container spacing={0} justifyContent="center" sx={{  px: 2, backgroundColor: '#F0F0F0' }}>
-            {counterDetails.map((detail, index) => (
-                <CounterItem key={index} title={detail.title} endValue={detail.endValue} />
-            ))}
-        </Grid2>
+        <div>
+            <Grid2 container spacing={0} justifyContent="center" sx={{ px: 2, backgroundColor: '#FCF9EA' }} className="Counter-section">
+                {counterDetails.map((detail, index) => (
+                    <CounterItem key={index} endValue={detail.endValue} title={detail.title} />
+                ))}
+            </Grid2>
+
+            {/* // mobile */}
+
+
+
+        </div>
+
     );
 };
 

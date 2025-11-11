@@ -1,0 +1,23 @@
+:root{
+    --color000000: #000000;
+    --color262250: #262250;
+    --weight500: 500;
+    --weight600: 600;
+}
+.landing-page-p{
+    color: var(--color000000);
+    font-weight: var(--weight500);
+    font-size: 16px;
+}
+
+.landing-page-h3{
+    color: var(--color262250);
+    font-weight: var(--weight600);
+}
+
+
+@media screen and (max-width:767px){
+    .landing-page-h3{
+        font-size: 20px;
+    }
+}

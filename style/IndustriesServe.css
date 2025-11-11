@@ -1,0 +1,317 @@
+:root{
+    --color262250 : #262250;
+    --weight600 : 600;
+    --weight400 : 400;
+    --weight500 : 500;
+    --color999999 : #999999;
+    --color000000 : #000000;
+    --color353434 : #353434;
+    --colorF9F9F9:#F9F9F9;
+}
+
+.industries-serve-main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.industries-container{
+    text-align: center;
+}
+
+.industries-container.container {
+    margin-top: 80px;
+}
+
+.industries-container.container h3{
+    color: var(--color000000);
+    font-weight: var(--weight600);
+    font-size: 28px;
+}
+
+.industries-p1{
+    color: var(--color999999);
+    font-weight: var(--weight400);
+    margin-bottom: 50px;
+}
+
+.industries-p2{
+    font-weight: var(--weight400);
+    color: var(--color000000);
+}
+
+.industries-serve-main div{
+    margin-bottom: 20px;
+}
+
+.video-sec-h6{
+    font-weight: var(--weight500);
+    color: var(--color000000);
+    font-size: 16px;
+}
+
+.videosection-industriesSeies{
+    margin-top: 80px;
+    background-color: var(--colorF9F9F9);
+    width: 100%;
+}
+
+.video-sec-h6{
+    color: var(--color000000);
+    font-weight: var(--weight500);
+    font-size: 16px;
+}
+
+.slider-video{
+    padding-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.custom-tab-button button{
+    border:0;
+    outline: 0;
+    background-color: transparent;
+    /* margin-left: 10px; */
+    
+}
+
+.custom-tab-button{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: var(--color000000);
+    font-weight: var(--weight500);
+}
+
+.load-more-btn{
+    width: 60%;
+    margin-top: 60px;
+    color: var(--color000000);
+    font-weight: var(--weight400);
+    font-size: 16px;
+    background-color: transparent;
+    border:1px solid #8B8B8B;
+    padding: 8px;
+}
+
+.mobile-industries-slider{
+    display: none;
+}
+
+.mobile-carousel{
+    display: none;
+}
+
+.d-flex.justify-content-center.desktop-grid {
+    margin-bottom: 100px;
+}
+
+
+.row img{
+  transition: all ease 0.3s;
+}
+
+.row img:hover{
+  transform: scale(1.03);
+}
+
+@media screen and (max-width:768px){
+    .row div{
+        padding: 0;
+    }
+
+    .custom-tab-button{
+        margin-bottom: 0;
+    }
+
+    .css-8aijj-MuiTypography-root{
+            height: 75px;
+    }
+
+    .Counter-section{
+        padding-bottom:40px;
+    }
+
+    .css-1t6wq4q-MuiPaper-root-MuiCard-root {
+    border: 1px solid #D9D9D9; 
+    margin: 4px;
+}
+
+    .d-flex.justify-content-center.desktop-grid{
+        margin-bottom: 48px;
+    }
+
+    .mobile-carousel{
+    display: block;
+    }
+
+    .load-more-btn{
+        display: none;
+        margin: 0;
+    }
+
+    p.industries-p1 {
+    padding: 16px;
+    color: var(--color353434);
+    }
+    
+    .industries-serve-main{
+        display: none;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 767px) {
+  .mobile-industries-slider {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 80px; /* space for arrows */
+  }
+
+  .mobile-slider-wrapper {
+    position: relative;
+  }
+
+  .industries-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .industry-item {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 15px 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 150px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .industry-item img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 8px;
+    object-fit: contain;
+  }
+
+  .industry-item p {
+    font-size: 13px;
+    color: #000;
+    margin: 0;
+  }
+
+  /* ✅ Centered arrows below grid */
+  .slick-arrow {
+    position: absolute !important;
+    bottom: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    z-index: 10;
+    font-size: 22px;
+    cursor: pointer;
+    transform: translateY(50%);
+  }
+
+  /* .custom-prev {
+    left: 35%;
+  }
+
+  .custom-next {
+    right: 35%;
+    background: #e5e5e5;
+  } */
+
+  .slick-disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+}
+
+
+/* Make tabs horizontally scrollable on mobile */
+/* Mobile Responsive Tabs */
+@media (max-width: 768px) {
+  .custom-tab-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .tab-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .slick-next {
+    right: 96px;
+}
+
+    .slick-prev {
+        left: 110px;
+    }
+
+    /* .slick-prev, .slick-next {
+    top: 100%;
+    } */
+}
+
+/* Mobile layout (3 top, 2 bottom) */
+@media (max-width: 768px) {
+  .custom-tab-button {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 12px;
+  }
+
+  .tab-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop-grid{
+    display: none;
+  }
+
+  .custom-tab-button button {
+    font-size: 13px;
+    padding: 3px 7px !important;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  .slick-prev, .slick-next {
+    color: #000 !important;
+    top: 97%;
+    border: 1px solid #C8C8C8;
+    }
+
+
+    /* for video section */
+    .videosection-industriesSeies{
+    margin-top: 38px;
+    }
+
+
+}

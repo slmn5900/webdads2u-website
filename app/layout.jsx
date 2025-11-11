@@ -74,7 +74,7 @@ export default function RootLayout({ children }) {
                             {!omitHeaderFooter && <SocialMedia />}
                             {!omitHeaderFooter && <Footer />}
                             <ScrollToTop />
-                            <StickyContactIcons />
+                            {/* <StickyContactIcons />/ */}
                         </LayoutProvider>
                     </MenuProvider>
                 </ThemeProvider>

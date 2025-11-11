@@ -39,7 +39,7 @@
 //                                 lineHeight: 1.6
 //                             }}
 //                         >
-//                             Stay in the loop with the latest trends and updates from WebDads2U. Follow our social media channels for insightful content, tips, and exciting announcements.
+//                             
 //                         </Typography>
 
 //                         <Box
