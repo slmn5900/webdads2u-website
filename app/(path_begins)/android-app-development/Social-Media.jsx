@@ -1,5 +1,5 @@
 
-import { Container, Row } from "react-bootstrap";
+import { Container, Row ,Col} from "react-bootstrap";
 import '../../../style/'
 function SocialMedia() {
     return (

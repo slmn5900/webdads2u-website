@@ -160,9 +160,7 @@
 
 /* AndroidAppDevelopmentServices */
 
-.AndroidAppDevelopmentServices {
-    /* margin: 60px 0px; */
-}
+
 
 .AndroidAppDevelopmentServices h1 {
     color: #262250;
@@ -181,10 +179,6 @@
 }
 
 @media screen and (max-width: 750px) {
-    .AndroidAppDevelopmentServices {
-        /* margin: 30px 0px; */
-    }
-
     .AndroidAppDevelopmentServices h1 {
         font-size: 25px;
     }

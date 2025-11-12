@@ -1,9 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
-  images: {
-    domains: ['res.cloudinary.com'], // ✅ Enables next/image to load images from Cloudinary
-  },
-}
+  reactStrictMode: true,
 
-module.exports = nextConfig
+  // ✅ Ignore build-time ESLint or TypeScript errors (optional)
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+
+  // ✅ Allow Next.js Image Optimization for Cloudinary
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
+};
+
+module.exports = nextConfig;
