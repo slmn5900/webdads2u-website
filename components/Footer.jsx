@@ -1,7 +1,5 @@
 'use client';
-
 import React from 'react';
-import Image from 'next/image';
 import {
   Box,
   Container,
@@ -100,23 +98,7 @@ const Footer = () => {
       }}
     >
       <Container maxWidth="xl">
-        {/* Logo */}
-        {/* <Box
-          sx={{
-            mb: 6,
-            display: 'flex',
-            justifyContent: { xs: 'center', md: 'flex-start' },
-          }}
-        >
-          <Image
-            src="/logo.png"
-            alt="Company Logo"
-            width={160}
-            height={50}
-            style={{ objectFit: 'contain' }}
-            priority
-          />
-        </Box> */}
+        
 
         {/* Footer Content */}
         <Grid container spacing={4}>
