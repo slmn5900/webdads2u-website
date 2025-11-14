@@ -15,9 +15,29 @@
     font-weight: var(--weight600);
 }
 
+.learn-more-link{
+    transition: all 0.5s ease;
+}
+
+.learn-more-link:hover{
+    transform: scale(1.03);
+}
+
 
 @media screen and (max-width:767px){
     .landing-page-h3{
         font-size: 20px;
     }
+
+}
+
+@media screen and (max-width:576px){
+    .css-cnry15-MuiContainer-root{
+        padding: 0;
+    }
+
+    .css-1lt5qva-MuiCardContent-root:last-child{
+        padding: 0;
+    }
+    
 }

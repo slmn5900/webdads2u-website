@@ -146,10 +146,9 @@ const LandingPage = () => {
             <TabSection/> 
             <WebsitePerformance/>
             <WebDesigningSection/> 
-            <IndustriesServe/>
-            
-           
-            <LatestBlog />
+                <IndustriesServe/>
+                <LatestBlog />
+
            {/*   
            <LogoSlider/>
              <Counter />  

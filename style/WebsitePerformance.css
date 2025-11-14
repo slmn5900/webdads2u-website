@@ -25,10 +25,10 @@
 /* Floating Cubes */
 .floating-cube {
   position: absolute;
-  width: 140px;
+  width: auto;
   animation: float 5s ease-in-out infinite;
   z-index: 1;
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 
 
@@ -36,14 +36,17 @@
   top: 20px;
   left: 40px;
   animation-delay: 0s;
-   position: absolute;
-  width: 140px;
+  position: absolute;
+  width: 163px;
+  height: 160px;
 }
 
 .right-cube {
   top: 100px;
   right: 40px;
   animation-delay: 2.5s;
+  width: 163px;
+  height: 160px;
 }
 
 .websection-button {
@@ -132,6 +135,10 @@
   font-size: 30p;
 }
 
+.mobile-free-audit{
+  display: none;
+}
+
 /* .social-media{
     background: linear-gradient(90deg, #f8f5ff 0%, #f2f0ff 100%);
   padding: 50px 0;
@@ -159,11 +166,14 @@
 }
 
 .performance-box img {
-  width: 40px;
+  width: 20px;
+  height: 20px;
   margin-bottom: 15px;
 }
 
-
+.MuiBox-root.css-1d1hwqd{
+  padding: 0;
+}
 
 .performance-box h6{
     font-weight: 400;
@@ -175,8 +185,8 @@
 /* Responsive adjustments */
 @media (max-width: 992px) {
   .floating-cube {
-    width: 120px;
-    opacity: 0.4;
+    width: auto;
+    /* opacity: 0.4; */
   }
   .left-cube {
     left: 10px;
@@ -195,6 +205,7 @@
   }
   .web-performance {
     font-size: 1.6rem;
+    text-align: left !important;
   }
   .freesection{
     padding: 16px;
@@ -203,8 +214,79 @@
     margin-bottom: 29px;
   }
 
-  .website-performance-section{
+  .left-cube, .left-cube{
     display: none;
   }
+  .performance-box {
+    border:0;
+  }
+
+  .website-performance-section{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+  }
+
+  .css-130vwmq {
+        padding-top: 30px;
+    }
+
+  .Web-Row.row{
+    padding-top: 0  !important;
+  }
+
+  .performance-box img {
+    width: 20px;
+  }
+
+  .performance-box h6 {
+    padding-top: 6px;
+  }
+
+  .performance-box
+{
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .desktop-free-audit{
+    display: none;
+  }
+
+  .mobile-free-audit{
+  display: block;
+  
+}
+
+  .mobile-websection-button{ 
+    margin: 0 auto;
+    display: block;
+  }
+
+  .social-media h6 {
+    text-align: center;
+    
+  }
+.social-media h3 {
+    color: var(--color262250);
+    font-weight: var(--weight600);
+    font-size: 30p;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 25px;
+}
+
+.social-media button {
+    padding: 8px 50px;
+        font-size: 16px;
+}
+
+.social-media-section{
+  border-radius: 0;
+  padding: 60px 0;
+  background: linear-gradient(to bottom, #e8d8f9, #ffffff);
+}
 
 }

@@ -286,7 +286,7 @@
     }
 
     .mobilephp-web-dev {
-        background-color: #4E61D3;
+        background-color: #fff8ef;
 
     }
 
@@ -295,16 +295,17 @@
     }
 
     .WebDesigning-Images-section1 h3 {
-        color: var(--colorFFFFFF);
+        color: #253B7A;
     }
 
     .WebDesigning-Images-section1 h6 {
-        color: var(--colorFFFFFF);
+        color: #333333;
     }
 
     .WebDesigning-Images-section1 a {
-        color: var(--colorFFFFFF);
+        color: #333333;
         font-size: 16px;
+        text-decoration: none
 
     }
 

@@ -23,14 +23,50 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import MenuIcon from '@mui/icons-material/Menu';
 import KeyboardDoubleArrowRightRoundedIcon from '@mui/icons-material/KeyboardDoubleArrowRightRounded';
 import { About, servicesDropdownDatas, Work } from './Headers/headerData';
+import '../style/Herosection.css';
+import { usePathname } from "next/navigation";
 
+
+/* --------------------------------------------------
+   UPDATE: HOME page = gradient + dots
+           OTHER PAGES = solid white header
+-------------------------------------------------- */
 function ElevationScroll(props) {
-  const { children, window } = props;
+  const { children } = props;
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+
   const trigger = useScrollTrigger({
     disableHysteresis: true,
     threshold: 50,
   });
-  return React.cloneElement(children, { elevation: trigger ? 4 : 0 });
+
+  return React.cloneElement(children, {
+    className:
+      isHome
+        ? (!trigger ? "appbar-dots" : "no-dots")   // Home logic
+        : "white-header",                          // Other pages
+
+    elevation: trigger || !isHome ? 4 : 0,
+
+    sx: {
+      background: isHome
+        ? (trigger ? "#ffffff" : "linear-gradient(to right, #fcf2ff, #ffffff)")
+        : "#ffffff",
+
+      color: "#000",
+      transition:
+        "background 0.6s ease, box-shadow 0.4s ease, backdrop-filter 0.6s ease",
+
+      backdropFilter: isHome && !trigger ? "blur(6px)" : "none",
+
+      boxShadow:
+        trigger || !isHome ? "0 3px 10px rgba(0,0,0,0.08)" : "none",
+
+      px: { xs: 0, sm: 0, md: 6, lg: 7 },
+      py: 0.5,
+    },
+  });
 }
 
 ElevationScroll.propTypes = {
@@ -38,9 +74,15 @@ ElevationScroll.propTypes = {
   window: PropTypes.func,
 };
 
+
+
+/* --------------------------------------------------
+   HEADER COMPONENT
+-------------------------------------------------- */
 export default function Header(props) {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+
   const [isClient, setIsClient] = React.useState(false);
   const [aboutAnchorEl, setAboutAnchorEl] = React.useState(null);
   const [servicesAnchorEl, setServicesAnchorEl] = React.useState(null);
@@ -49,25 +91,36 @@ export default function Header(props) {
 
   React.useEffect(() => setIsClient(true), []);
 
-  const trigger = useScrollTrigger({
-    disableHysteresis: true,
-    threshold: 50,
-  });
-
   const handleMenuOpen = (setter) => (event) => setter(event.currentTarget);
   const handleMenuClose = (setter) => () => setter(null);
 
+  /* CLOSE DROPDOWNS WHEN CLICK OUTSIDE */
   React.useEffect(() => {
     const handleClickOutside = (event) => {
-      if (aboutAnchorEl && !aboutAnchorEl.contains(event.target) && !event.target.closest('#about-button'))
+      if (
+        aboutAnchorEl &&
+        !aboutAnchorEl.contains(event.target) &&
+        !event.target.closest("#about-button")
+      )
         setAboutAnchorEl(null);
-      if (servicesAnchorEl && !servicesAnchorEl.contains(event.target) && !event.target.closest('#services-button'))
+
+      if (
+        servicesAnchorEl &&
+        !servicesAnchorEl.contains(event.target) &&
+        !event.target.closest("#services-button")
+      )
         setServicesAnchorEl(null);
-      if (workAnchorEl && !workAnchorEl.contains(event.target) && !event.target.closest('#work-button'))
+
+      if (
+        workAnchorEl &&
+        !workAnchorEl.contains(event.target) &&
+        !event.target.closest("#work-button")
+      )
         setWorkAnchorEl(null);
     };
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [aboutAnchorEl, servicesAnchorEl, workAnchorEl]);
 
   if (!isClient) {
@@ -81,23 +134,15 @@ export default function Header(props) {
   return (
     <>
       <CssBaseline />
+
       <ElevationScroll {...props}>
-        <AppBar
-          color="default"
-          sx={{
-            background: trigger
-              ? '#ffffff'
-              : 'radial-gradient(circle at 50% 30%, #fdfbff 0%, #f8faff 30%, #ffffff 80%)',
-            color: '#000',
-            transition: 'background 0.6s ease, box-shadow 0.4s ease',
-            boxShadow: trigger ? '0 2px 6px rgba(0,0,0,0.08)' : 'none',
-            px: { xs: 0, sm: 0, md: 6, lg: 7 },
-          }}
-        >
-          <Toolbar sx={{ justifyContent: 'space-between' }}>
+        <AppBar position="fixed" color="default">
+          <Toolbar sx={{ justifyContent: "space-between" }}>
+
+            {/* MOBILE MENU ICON */}
             {isMobile && (
               <IconButton
-                sx={{ position: 'relative', left: -10 }}
+                sx={{ position: "relative", left: -10 }}
                 onClick={() => setMobileMenuOpen(true)}
                 color="inherit"
               >
@@ -105,7 +150,12 @@ export default function Header(props) {
               </IconButton>
             )}
 
-            <Box sx={{ m: { xs: 'auto', sm: '20px', md: '0px' } }} component={Link} href="/">
+            {/* LOGO */}
+            <Box
+              sx={{ m: { xs: "auto", sm: "20px", md: "0px" } }}
+              component={Link}
+              href="/"
+            >
               <img
                 src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406731/webdads2u/logo.svg"
                 alt="Logo"
@@ -113,36 +163,47 @@ export default function Header(props) {
               />
             </Box>
 
+            {/* DESKTOP MENU */}
             {!isMobile && (
               <Stack direction="row" alignItems="center" spacing={2}>
+
                 {/* ABOUT */}
                 <Button
                   id="about-button"
                   onMouseEnter={handleMenuOpen(setAboutAnchorEl)}
                   endIcon={<ArrowDropDownIcon />}
                   sx={{
-                    color: 'black',
-                    textTransform: 'capitalize',
-                    fontFamily: 'Poppins',
+                    color: "black",
+                    textTransform: "capitalize",
+                    fontFamily: "Poppins",
                     fontSize: { xs: 12, md: 10, lg: 15 },
                   }}
                 >
                   About
                 </Button>
+
                 <Menu
                   anchorEl={aboutAnchorEl}
                   open={Boolean(aboutAnchorEl)}
                   onClose={handleMenuClose(setAboutAnchorEl)}
                   onMouseLeave={handleMenuClose(setAboutAnchorEl)}
-                  PaperProps={{ sx: { width: 'min-content', px: 2 } }}
+                  PaperProps={{ sx: { width: "min-content", px: 2 } }}
                 >
-                  {About.map((item, index) => (
-                    <Box key={index} component={Link} href={item.link} sx={{ textDecoration: 'none', color: 'black' }}>
+                  {About.map((item, i) => (
+                    <Box
+                      key={i}
+                      component={Link}
+                      href={item.link}
+                      sx={{ textDecoration: "none", color: "black" }}
+                    >
                       <MenuItem
                         onClick={handleMenuClose(setAboutAnchorEl)}
-                        sx={{ fontSize: '13px', fontFamily: 'Poppins' }}
+                        sx={{ fontSize: "13px", fontFamily: "Poppins" }}
                       >
-                        <KeyboardDoubleArrowRightRoundedIcon sx={{ mr: 1 }} fontSize="small" />
+                        <KeyboardDoubleArrowRightRoundedIcon
+                          sx={{ mr: 1 }}
+                          fontSize="small"
+                        />
                         {item.name}
                       </MenuItem>
                     </Box>
@@ -155,14 +216,15 @@ export default function Header(props) {
                   onMouseEnter={handleMenuOpen(setServicesAnchorEl)}
                   endIcon={<ArrowDropDownIcon />}
                   sx={{
-                    color: 'black',
-                    textTransform: 'capitalize',
-                    fontFamily: 'Poppins',
+                    color: "black",
+                    textTransform: "capitalize",
+                    fontFamily: "Poppins",
                     fontSize: { xs: 12, md: 10, lg: 15 },
                   }}
                 >
                   Services
                 </Button>
+
                 <Menu
                   anchorEl={servicesAnchorEl}
                   open={Boolean(servicesAnchorEl)}
@@ -170,14 +232,14 @@ export default function Header(props) {
                   onMouseLeave={handleMenuClose(setServicesAnchorEl)}
                   PaperProps={{
                     sx: {
-                      width: '100vw',
-                      maxWidth: 'none',
-                      left: '0 !important',
-                      right: '0 !important',
+                      width: "100vw",
+                      maxWidth: "none",
+                      left: "0 !important",
+                      right: "0 !important",
                       padding: 4,
-                      marginTop: '15px',
-                      maxHeight: 'calc(100% - 59px)',
-                      height: 'auto',
+                      marginTop: "15px",
+                      maxHeight: "calc(100% - 59px)",
+                      height: "auto",
                     },
                   }}
                 >
@@ -185,10 +247,14 @@ export default function Header(props) {
                     {servicesDropdownDatas.map((group) => (
                       <Box key={group.label}>
                         <Box display="flex" gap={2}>
-                          <Box sx={{ textAlign: 'center' }}>
+                          <Box sx={{ textAlign: "center" }}>
                             <img src={group.icon} alt="Logo" width="30" />
                           </Box>
-                          <Box component={Link} href={group.link} sx={{ textDecoration: 'none', color: 'black' }}>
+                          <Box
+                            component={Link}
+                            href={group.link}
+                            sx={{ textDecoration: "none", color: "black" }}
+                          >
                             <Typography
                               variant="subtitle1"
                               fontWeight={600}
@@ -200,13 +266,22 @@ export default function Header(props) {
                             </Typography>
                           </Box>
                         </Box>
+
                         {group.items.map((item) => (
-                          <Box key={item.label} component={Link} href={item.link} sx={{ textDecoration: 'none', color: 'black' }}>
+                          <Box
+                            key={item.label}
+                            component={Link}
+                            href={item.link}
+                            sx={{ textDecoration: "none", color: "black" }}
+                          >
                             <MenuItem
                               onClick={handleMenuClose(setServicesAnchorEl)}
-                              sx={{ fontSize: '13px', fontFamily: 'Poppins' }}
+                              sx={{ fontSize: "13px", fontFamily: "Poppins" }}
                             >
-                              <KeyboardDoubleArrowRightRoundedIcon sx={{ mr: 1 }} fontSize="small" />
+                              <KeyboardDoubleArrowRightRoundedIcon
+                                sx={{ mr: 1 }}
+                                fontSize="small"
+                              />
                               {item.label}
                             </MenuItem>
                           </Box>
@@ -222,68 +297,81 @@ export default function Header(props) {
                   onMouseEnter={handleMenuOpen(setWorkAnchorEl)}
                   endIcon={<ArrowDropDownIcon />}
                   sx={{
-                    color: 'black',
-                    textTransform: 'capitalize',
-                    fontFamily: 'Poppins',
+                    color: "black",
+                    textTransform: "capitalize",
+                    fontFamily: "Poppins",
                     fontSize: { xs: 12, md: 10, lg: 15 },
                   }}
                 >
                   Work
                 </Button>
+
                 <Menu
                   anchorEl={workAnchorEl}
                   open={Boolean(workAnchorEl)}
                   onClose={handleMenuClose(setWorkAnchorEl)}
                   onMouseLeave={handleMenuClose(setWorkAnchorEl)}
-                  PaperProps={{ sx: { width: 'min-content', px: 2 } }}
+                  PaperProps={{ sx: { width: "min-content", px: 2 } }}
                 >
                   {Work.map((item) => (
-                    <Box key={item.label} component={Link} href={item.link} sx={{ textDecoration: 'none', color: 'black' }}>
+                    <Box
+                      key={item.label}
+                      component={Link}
+                      href={item.link}
+                      sx={{ textDecoration: "none", color: "black" }}
+                    >
                       <MenuItem
                         onClick={handleMenuClose(setWorkAnchorEl)}
-                        sx={{ fontSize: '13px', fontFamily: 'Poppins' }}
+                        sx={{ fontSize: "13px", fontFamily: "Poppins" }}
                       >
-                        <KeyboardDoubleArrowRightRoundedIcon sx={{ mr: 1 }} fontSize="small" />
+                        <KeyboardDoubleArrowRightRoundedIcon
+                          sx={{ mr: 1 }}
+                          fontSize="small"
+                        />
                         {item.name}
                       </MenuItem>
                     </Box>
                   ))}
                 </Menu>
 
+                {/* REACH US */}
                 <Box component={Link} href="/contact-us">
                   <Button
                     sx={{
-                      color: 'black',
-                      textTransform: 'capitalize',
-                      fontFamily: 'Poppins',
-                      fontSize: '15px',
+                      color: "black",
+                      textTransform: "capitalize",
+                      fontFamily: "Poppins",
+                      fontSize: "15px",
                     }}
                   >
                     Reach Us
                   </Button>
                 </Box>
 
-                <Stack direction="row" spacing={1} alignItems="center">
-                  <Box component={Link} href="/contact-us" sx={{ textDecoration: 'none', color: 'black' }}>
-                    <Button
-                      variant="contained"
-                      sx={{
-                        background: 'transparent',
-                        textTransform: 'capitalize',
-                        fontFamily: 'Poppins',
-                        color: '#000000',
-                        padding: '5px 32px',
-                        border: '1px solid #000000',
-                        boxShadow: 'none',
-                        '&:hover': {
-                          boxShadow: 'none',
-                        },
-                      }}
-                    >
-                      Get Quotes
-                    </Button>
-                  </Box>
-                </Stack>
+                {/* GET QUOTES */}
+                <Box
+                  component={Link}
+                  href="/contact-us"
+                  sx={{ textDecoration: "none", color: "black" }}
+                >
+                  <Button
+                    variant="contained"
+                    sx={{
+                      background: "transparent",
+                      color: "#000",
+                      fontFamily: "Poppins",
+                      padding: "5px 32px",
+                      border: "1px solid #000",
+                      boxShadow: "none",
+                      "&:hover": {
+                        background: "#00000010",
+                        boxShadow: "none",
+                      },
+                    }}
+                  >
+                    Get Quotes
+                  </Button>
+                </Box>
               </Stack>
             )}
           </Toolbar>
@@ -292,8 +380,13 @@ export default function Header(props) {
 
       <Toolbar />
 
-      <Drawer anchor="left" open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)}>
-        {/* Drawer content */}
+      {/* MOBILE DRAWER */}
+      <Drawer
+        anchor="left"
+        open={mobileMenuOpen}
+        onClose={() => setMobileMenuOpen(false)}
+      >
+        {/* mobile menu content */}
       </Drawer>
     </>
   );

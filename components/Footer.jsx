@@ -6,84 +6,90 @@ import {
   Grid,
   Typography,
   Link as MuiLink,
-  IconButton,
 } from '@mui/material';
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedinIn,
-} from 'react-icons/fa';
 
-// Footer data
+// Footer data with links
 const leftLinks = [
-  'Work',
-  'Contact Us',
-  'Career',
-  'Blog',
-  'Privacy Policy',
-  'Terms & Conditions',
-  'Refund Policy',
+  { name: 'Work', link: '/work' },
+  { name: 'Contact Us', link: '/contact' },
+  { name: 'Career', link: '/career' },
+  { name: 'Blog', link: '/blog' },
+  { name: 'Privacy Policy', link: '/privacy-policy' },
+  { name: 'Terms & Conditions', link: '/terms-conditions' },
+  { name: 'Refund Policy', link: '/refund-policy' },
 ];
 
 const rightLinks = [
   {
     title: 'Website Development',
     items: [
-      'Web Portal Development',
-      'WordPress Web Development',
-      'ReactJs Web Development',
-      'PHP Web Development',
-      'Custom Web Development',
+      { name: 'Web Portal Development', link: '/services/web-portal' },
+      { name: 'WordPress Web Development', link: '/services/wordpress' },
+      { name: 'ReactJs Web Development', link: '/services/reactjs' },
+      { name: 'PHP Web Development', link: '/services/php' },
+      { name: 'Custom Web Development', link: '/services/custom-web' },
     ],
     subTitle: 'Web Design',
     subItems: [
-      'HTML5 Website Design',
-      'Domain Registration',
-      'Hosting',
-      'Custom Web Design',
-      'Responsive Website',
-      'UI/UX Design',
-      'Website Redesign',
-      'Website Maintenance',
+      { name: 'HTML5 Website Design', link: '/services/html5-design' },
+      { name: 'Domain Registration', link: '/services/domain-registration' },
+      { name: 'Hosting', link: '/services/hosting' },
+      { name: 'Custom Web Design', link: '/services/custom-design' },
+      { name: 'Responsive Website', link: '/services/responsive-website' },
+      { name: 'UI/UX Design', link: '/services/ui-ux' },
+      { name: 'Website Redesign', link: '/services/website-redesign' },
+      { name: 'Website Maintenance', link: '/services/website-maintenance' },
     ],
   },
   {
     title: 'SEO Services',
     items: [
-      'Digital Marketing',
-      'PPC Service',
-      'E-Commerce SEO Service',
-      'Local SEO Service',
-      'Off Page SEO',
-      'Link Building Service',
-      'Content Writing Service',
+      { name: 'Digital Marketing', link: '/services/digital-marketing' },
+      { name: 'PPC Service', link: '/services/ppc' },
+      { name: 'E-Commerce SEO Service', link: '/services/ecommerce-seo' },
+      { name: 'Local SEO Service', link: '/services/local-seo' },
+      { name: 'Off Page SEO', link: '/services/off-page-seo' },
+      { name: 'Link Building Service', link: '/services/link-building' },
+      { name: 'Content Writing Service', link: '/services/content-writing' },
     ],
     subTitle: 'Branding Design',
     subItems: [
-     
-      'Brochure Design',
-      'Social Media Design',
-      'Corporate Gifts Design',
-      'Business Card Design',
-      'Letterhead Design',
+      { name: 'Brochure Design', link: '/services/brochure' },
+      { name: 'Social Media Design', link: '/services/social-media-design' },
+      { name: 'Corporate Gifts Design', link: '/services/corporate-gifts' },
+      { name: 'Business Card Design', link: '/services/business-card' },
+      { name: 'Letterhead Design', link: '/services/letterhead' },
     ],
   },
   {
     title: 'Mobile App Development',
     items: [
-      'iOS App Development',
-      'Android App Development',
-      'Flutter App Development',
-      'React Native App Development',
-      'Mobile App UI/UX Design',
+      { name: 'iOS App Development', link: '/services/ios-app' },
+      { name: 'Android App Development', link: '/services/android-app' },
+      { name: 'Flutter App Development', link: '/services/flutter-app' },
+      { name: 'React Native App Development', link: '/services/react-native-app' },
+      { name: 'Mobile App UI/UX Design', link: '/services/mobile-ui-ux' },
     ],
     subTitle: 'CRM & ERP Development',
-    subItems: ['Customized CRM', 'Customized ERP'],
+    subItems: [
+      { name: 'Customized CRM', link: '/services/crm' },
+      { name: 'Customized ERP', link: '/services/erp' },
+    ],
     subTitle2: 'E-Commerce Development',
-    subItems2: ['WooCommerce', 'Opencart', 'Shopify'],
+    subItems2: [
+      { name: 'WooCommerce', link: '#' },
+      { name: 'Opencart', link: '#' },
+      { name: 'Shopify', link: '#' },
+    ],
   },
+];
+
+const socialIcons = [
+  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105556/webdads2u/mainpage/icons/ri-facebook-fill.png', link: 'https://www.facebook.com/Webdads2u' },
+  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105553/webdads2u/mainpage/icons/ri-instagram-fill.png', link: 'https://www.instagram.com/webdads2u/' },
+  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105550/webdads2u/mainpage/icons/mdi-youtube.png', link: 'https://www.youtube.com/webdads2u' },
+  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105546/webdads2u/mainpage/icons/prime-twitter.png', link: 'https://www.facebook.com/Webdads2u' },
+  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105542/webdads2u/mainpage/icons/tabler-world.png', link: 'https://www.webdads2u.com/' },
 ];
 
 const Footer = () => {
@@ -98,17 +104,14 @@ const Footer = () => {
       }}
     >
       <Container maxWidth="xl">
-        
-
-        {/* Footer Content */}
         <Grid container spacing={4}>
-          {/* Left Column (col-4) */}
+          {/* Left Column */}
           <Grid item xs={12} md={4}>
             <Box>
               {leftLinks.map((item, index) => (
                 <MuiLink
                   key={index}
-                  href="#"
+                  href={item.link}
                   underline="none"
                   sx={{
                     display: 'block',
@@ -118,18 +121,17 @@ const Footer = () => {
                     '&:hover': { color: '#fff' },
                   }}
                 >
-                  {item}
+                  {item.name}
                 </MuiLink>
               ))}
             </Box>
           </Grid>
 
-          {/* Right Column (col-8) */}
+          {/* Right Column */}
           <Grid item xs={12} md={8}>
             <Grid container spacing={4}>
               {rightLinks.map((section, index) => (
                 <Grid item xs={12} sm={6} md={4} key={index}>
-                  {/* Main Title */}
                   <Typography
                     variant="subtitle1"
                     sx={{ fontWeight: 600, mb: 1.5, color: '#fff' }}
@@ -137,11 +139,10 @@ const Footer = () => {
                     {section.title}
                   </Typography>
 
-                  {/* Items */}
                   {section.items.map((item, i) => (
                     <MuiLink
-                      href="#"
                       key={i}
+                      href={item.link}
                       underline="none"
                       sx={{
                         display: 'block',
@@ -151,28 +152,22 @@ const Footer = () => {
                         '&:hover': { color: '#fff' },
                       }}
                     >
-                      {item}
+                      {item.name}
                     </MuiLink>
                   ))}
 
-                  {/* Subsection 1 */}
                   {section.subTitle && (
                     <>
                       <Typography
                         variant="subtitle1"
-                        sx={{
-                          fontWeight: 600,
-                          mt: 3,
-                          mb: 1.5,
-                          color: '#fff',
-                        }}
+                        sx={{ fontWeight: 600, mt: 3, mb: 1.5, color: '#fff' }}
                       >
                         {section.subTitle}
                       </Typography>
                       {section.subItems.map((subItem, j) => (
                         <MuiLink
-                          href="#"
                           key={j}
+                          href={subItem.link}
                           underline="none"
                           sx={{
                             display: 'block',
@@ -182,30 +177,24 @@ const Footer = () => {
                             '&:hover': { color: '#fff' },
                           }}
                         >
-                          {subItem}
+                          {subItem.name}
                         </MuiLink>
                       ))}
                     </>
                   )}
 
-                  {/* Subsection 2 (E-Commerce below CRM & ERP) */}
                   {section.subTitle2 && (
                     <>
                       <Typography
                         variant="subtitle1"
-                        sx={{
-                          fontWeight: 600,
-                          mt: 3,
-                          mb: 1.5,
-                          color: '#fff',
-                        }}
+                        sx={{ fontWeight: 600, mt: 3, mb: 1.5, color: '#fff' }}
                       >
                         {section.subTitle2}
                       </Typography>
                       {section.subItems2.map((subItem2, k) => (
                         <MuiLink
-                          href="#"
                           key={k}
+                          href={subItem2.link}
                           underline="none"
                           sx={{
                             display: 'block',
@@ -215,7 +204,7 @@ const Footer = () => {
                             '&:hover': { color: '#fff' },
                           }}
                         >
-                          {subItem2}
+                          {subItem2.name}
                         </MuiLink>
                       ))}
                     </>
@@ -243,12 +232,18 @@ const Footer = () => {
           </Typography>
 
           <Box sx={{ display: 'flex', gap: 1.5, mt: { xs: 2, sm: 0 } }}>
-            {['ri_facebook-fill.png', 'ri_instagram-fill.png', 'mdi_youtube.png', 'prime_twitter.png', 'tabler_world-www.png'].map((icon, index) => (
-                <img
+            {socialIcons.map((item, index) => (
+              <a
                 key={index}
-                src={`images/${icon}`}
-                alt={icon}
-                style={{
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: 'none' }}
+              >
+                <img
+                  src={item.icon}
+                  alt={`icon-${index}`}
+                  style={{
                     background: '#000000',
                     padding: '10px',
                     borderRadius: '20px',
@@ -256,11 +251,11 @@ const Footer = () => {
                     height: '40px',
                     objectFit: 'contain',
                     cursor: 'pointer',
-                }}
+                  }}
                 />
+              </a>
             ))}
-         </Box>
-
+          </Box>
         </Box>
       </Container>
     </Box>

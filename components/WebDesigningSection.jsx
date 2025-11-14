@@ -1,14 +1,19 @@
 'use client';
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import '../style/WebDesigningSection.css'
+import '../style/WebDesigningSection.css';
+import { MdNavigateNext } from "react-icons/md";
 // import PhpWebsite from '../public/images/php-website.png'
+
+
+
+
 const WebDesigningSection = () => {
 
     const sections = [
-  { title: <><h3>WordPress Website</h3><br/><p className='slide-para'>Webdads2u Pvt. Ltd., a top web design and <br/> development company in Chennai,<br/> specializes in custom PHP websites, delivering<br/> high-performance, reliable, and client-<br/>focused solutions.</p></>, image: "/images/Mock-design.png" },
-  { title: <><h3>PHP Website Development</h3><br/><p className='slide-para'>Webdads2u Pvt. Ltd., a top web design and <br/> development company in Chennai,<br/> specializes in custom PHP websites, delivering<br/> high-performance, reliable, and client-<br/>focused solutions.</p></>, image: "/images/ecr-holidays.png" },
-  { title: <><h3>React js Website Development</h3><br/><p className='slide-para'>Webdads2u Pvt. Ltd., a top web design and <br/> development company in Chennai,<br/> specializes in custom PHP websites, delivering<br/> high-performance, reliable, and client-<br/>focused solutions.</p></>, image: "/images/Best-India-Kart.png" },
+  { title: <><h3>WordPress Website</h3><br/><p className='slide-para'>Webdads2u Pvt. Ltd. is a leading web design and development company in Chennai, India, specializing in custom, secure, and high-performance WordPress websites. Our expert team excels in theme customization, plugin development, and tailored WordPress solutions to meet each client’s unique needs.</p></>, image: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105948/webdads2u/mainpage/mock-design.png" },
+  { title: <><h3>PHP Website Development</h3><br/><p className='slide-para'>Webdads2u Pvt. Ltd., a top web design and <br/> development company in Chennai,<br/> specializes in custom PHP websites, delivering<br/> high-performance, reliable, and client-<br/>focused solutions.</p></>, image: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105944/webdads2u/mainpage/ecr-holidays.png" },
+  { title: <><h3>React js Website Development</h3><br/><p className='slide-para'>Webdads2u Pvt. Ltd. is a leading web design and development company in Chennai, India, specializing in high-quality, cost-effective React JS web solutions. Our expert team crafts cutting-edge, user-focused websites tailored to your needs, ensuring a smooth and efficient development experience.</p></>, image: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105946/webdads2u/mainpage/best-india-kart.png" },
   
 //   { title: "UI/UX Design", image: "/images/php-website.png" },
 //   { title: "Mobile App Integration", image: "/images/php-website.png" },
@@ -103,18 +108,46 @@ const WebDesigningSection = () => {
             <Row className='mobileWebImages  mobileSpace'>
 
                 <Col sm={12}>
-                    <img src="/images/php-website.png" alt="PHP Website" className='pb-4'/>
+                    <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105948/webdads2u/mainpage/mock-design.png" alt="PHP Website" className='pb-4'/>
                 </Col>
                 <Col sm={12} className='d-flex align-items-center'>
                     <section className='WebDesigning-Images-section1'>
-                        <h3>PHP Website<br></br> Development</h3>
-                        <h6>Webdads2u Pvt. Ltd., a top web <br/>design and development<br/> company in Chennai, specializes <br/>in custom PHP websites,<br/> delivering high-performance,<br/> reliable, and client-focused<br/> solutions.</h6>
-                        <a href='#'>Explore more</a>
+                        <h3>WordPress Website</h3>
+                        <h6>Webdads2u Pvt. Ltd. is a leading web design and development company in Chennai, India, specializing in custom, secure, and high-performance WordPress websites. Our expert team excels in theme customization, plugin development, and tailored WordPress solutions to meet each client’s unique needs.</h6>
+                        <a href='#'>Explore more <MdNavigateNext /></a>
                     </section>
                 </Col>
                 
             </Row>
              <Row className='php-mobile-web-dev mobileSpace'>
+
+                <Col sm={12}>
+                    <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105944/webdads2u/mainpage/ecr-holidays.png" alt="PHP Website" className='pb-4'/>
+                </Col>
+                <Col sm={12} className='d-flex align-items-center'>
+                    <section className='WebDesigning-Images-section1'>
+                        <h3>PHP Website<br></br> Development</h3>
+                        <h6>Webdads2u Pvt. Ltd., a top web <br/>design and development<br/> company in Chennai, specializes <br/>in custom PHP websites,<br/> delivering high-performance,<br/> reliable, and client-focused<br/> solutions.</h6>
+                        <a href='#'>Explore more <MdNavigateNext /></a>
+                    </section>
+                </Col>
+                
+            </Row>
+             <Row className='php-mobile-web-dev mobileSpace'>
+
+                <Col sm={12}>
+                    <img src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105946/webdads2u/mainpage/best-india-kart.png" alt="PHP Website" className='pb-4'/>
+                </Col>
+                <Col sm={12} className='d-flex align-items-center'>
+                    <section className='WebDesigning-Images-section1'>
+                        <h3>React js Website Development</h3>
+                        <h6>Webdads2u Pvt. Ltd. is a leading web design and development company in Chennai, India, specializing in high-quality, cost-effective React JS web solutions. Our expert team crafts cutting-edge, user-focused websites tailored to your needs, ensuring a smooth and efficient development experience.</h6>
+                        <a href='#'>Explore more <MdNavigateNext /></a>
+                    </section>
+                </Col>
+                
+            </Row>
+             {/* <Row className='php-mobile-web-dev mobileSpace'>
 
                 <Col sm={12}>
                     <img src="/images/php-website.png" alt="PHP Website" className='pb-4'/>
@@ -127,8 +160,8 @@ const WebDesigningSection = () => {
                     </section>
                 </Col>
                 
-            </Row>
-             <Row className='php-mobile-web-dev mobileSpace'>
+            </Row> */}
+             {/* <Row className='php-mobile-web-dev mobileSpace'>
 
                 <Col sm={12}>
                     <img src="/images/php-website.png" alt="PHP Website" className='pb-4'/>
@@ -141,8 +174,8 @@ const WebDesigningSection = () => {
                     </section>
                 </Col>
                 
-            </Row>
-             <Row className='php-mobile-web-dev mobileSpace'>
+            </Row> */}
+             {/* <Row className='php-mobile-web-dev mobileSpace'>
 
                 <Col sm={12}>
                     <img src="/images/php-website.png" alt="PHP Website" className='pb-4'/>
@@ -155,35 +188,7 @@ const WebDesigningSection = () => {
                     </section>
                 </Col>
                 
-            </Row>
-             <Row className='php-mobile-web-dev mobileSpace'>
-
-                <Col sm={12}>
-                    <img src="/images/php-website.png" alt="PHP Website" className='pb-4'/>
-                </Col>
-                <Col sm={12} className='d-flex align-items-center'>
-                    <section className='WebDesigning-Images-section1'>
-                        <h3>PHP Website<br></br> Development</h3>
-                        <h6>Webdads2u Pvt. Ltd., a top web <br/>design and development<br/> company in Chennai, specializes <br/>in custom PHP websites,<br/> delivering high-performance,<br/> reliable, and client-focused<br/> solutions.</h6>
-                        <a href='#'>Explore more</a>
-                    </section>
-                </Col>
-                
-            </Row>
-             <Row className='php-mobile-web-dev mobileSpace'>
-
-                <Col sm={12}>
-                    <img src="/images/php-website.png" alt="PHP Website" className='pb-4'/>
-                </Col>
-                <Col sm={12} className='d-flex align-items-center'>
-                    <section className='WebDesigning-Images-section1'>
-                        <h3>PHP Website<br></br> Development</h3>
-                        <h6>Webdads2u Pvt. Ltd., a top web <br/>design and development<br/> company in Chennai, specializes <br/>in custom PHP websites,<br/> delivering high-performance,<br/> reliable, and client-focused<br/> solutions.</h6>
-                        <a href='#'>Explore more</a>
-                    </section>
-                </Col>
-                
-            </Row>
+            </Row> */}
 
             {/* <div className='solution-section'>
             <h5>10+ years and 150+ clients</h5>
