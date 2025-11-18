@@ -1,7 +1,7 @@
 export const servicesDropdownDatas = [
     {
         label: 'Website Development',
-        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758172728/webdads2u/mainpage/icons/web-development-icon.png',
+        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322162/webdads2u/mainpage/icons/web-development.png',
         link: '/website-development',
         items: [
             { label: 'Web Portal Development', link: "/web-portal-development/" },
@@ -13,7 +13,7 @@ export const servicesDropdownDatas = [
     },
     {
         label: 'Web Design',
-        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758172026/webdads2u/mainpage/icons/custom-web-design.png',
+        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763370409/webdads2u/mainpage/icons/web-design.png',
         link: '/web-design/',
         items: [
             { label: 'HTML5 Website design', link: "/html5/" },
@@ -28,7 +28,7 @@ export const servicesDropdownDatas = [
     },
     {
         label: 'SEO Services',
-        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758172721/webdads2u/mainpage/icons/seo-services-icon.png',
+        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322205/webdads2u/mainpage/icons/seo-services.png',
         link: '/seo-company-in-chennai/',
         items: [
             { label: 'Digital Marketing', link: "/digital-marketing-agency/" },
@@ -42,7 +42,7 @@ export const servicesDropdownDatas = [
     },
     {
         label: 'Branding Design',
-        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758172728/webdads2u/mainpage/icons/branding-design-icon.png',
+        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322254/webdads2u/mainpage/icons/branding-design.png',
         link: '/branding-design/',
         items: [
             { label: 'Logo Design', link: "/logo-design/" },
@@ -56,7 +56,7 @@ export const servicesDropdownDatas = [
     },
     {
         label: 'Mobile App Development',
-        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758172721/webdads2u/mainpage/icons/mobile-app-development-icon.png',
+        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322269/webdads2u/mainpage/icons/mobiile-app-development.png',
         link: '/mobile-app-development/',
         items: [
             { label: 'IOS App Development', link: "/ios-app-development/" },
@@ -68,7 +68,7 @@ export const servicesDropdownDatas = [
     },
     {
         label: 'CRM & ERP Development',
-        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758172663/webdads2u/mainpage/icons/crm-erp-development-icon.png',
+        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322355/webdads2u/mainpage/icons/crm-erp-development.png',
         link: '/crm-erp-development/',
         items: [
             { label: 'Customized CRM', link: "/customized-crm/" },
@@ -77,7 +77,8 @@ export const servicesDropdownDatas = [
     },
     {
         label: 'E-commerce Development',
-        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758172721/webdads2u/mainpage/icons/ecommerce-development-icon.png',
+        icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757322262/webdads2u/mainpage/icons/e-commerce-development.png',
+        link: '/ecommerce-website-development/',
         link: '/ecommerce-website-development/',
         items: [
             { label: 'Woocommerce', link: "/woo-commerce/" },
@@ -127,12 +128,19 @@ export const Work = [
 ]
 export const About = [
     {
-        name: "About",
-        link: "/about/"
+        name: "HOME",
+        link: "/"
     },
     {
-        name: "Cultural",
-        link: "/culturals/"
+        name: "ABOUT",
+        link: "/about/"
     },
-
+     {
+         name: "SERVICES",
+         link: "/"
+     },
+     {
+         name: "REACH US",
+         link: "/contact-us"
+     },
 ]

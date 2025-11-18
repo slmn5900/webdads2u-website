@@ -16,7 +16,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../style/LatestBlog.css';
-import { PiGreaterThanBold } from 'react-icons/pi';
+import { MdNavigateNext } from "react-icons/md";
 import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 
 const initialPosts = [
@@ -61,9 +61,9 @@ const LatestBlog = () => {
   const desktopSettings = {
     dots: false,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
     pauseOnHover: true,
@@ -80,6 +80,7 @@ const LatestBlog = () => {
   };
 
   return (
+  <div className="latest-blog-wrapper">
     <Box sx={{ py: { xs: 2, md: 4 }, px: { xs: 0, md: 7 } }}>
       {/* Header Section */}
       <Box sx={{ textAlign: 'center', py: { xs: 0, md: 4 } }}>
@@ -87,12 +88,12 @@ const LatestBlog = () => {
           Our Latest Blog
         </p>
         <h3 className="landing-page-h3">
-          Connect with us for experiencing <br />the best <span>IT Solutions</span>
+          Connect with us for experiencing the best <span>IT Solutions</span>
         </h3>
       </Box>
 
       {/* Desktop Carousel */}
-      <Container sx={{ display: { xs: 'none', md: 'block' } }}>
+      <Container sx={{ width: '100%',display: { xs: 'none', md: 'block' } }} className='desktop-carousel-slider'>
         <Slider {...desktopSettings}>
           {initialPosts.map((post, index) => (
             <motion.div
@@ -107,14 +108,15 @@ const LatestBlog = () => {
                   mx: 2,
                   display: 'flex',
                   flexDirection: 'column',
-                  height: '480px',
+                  minHeight: '480px',
                   boxShadow: 'none',
                   background: 'white',
                 }}
               >
                 <Link href={post.link} passHref>
-                  <CardMedia component="div" sx={{ position: 'relative', height: 250,  '& img': {
+                  <CardMedia component="div" sx={{ position: 'relative', height: 250,  borderRadius:0, '& img': {
         transition: 'transform 0.5s ease',
+        borderRadius: '0 !important',
       },
       '&:hover img': {
         transform: 'scale(1.02)',
@@ -123,7 +125,7 @@ const LatestBlog = () => {
                       src={post.imgSrc}
                       alt={post.alt}
                       fill
-                      style={{ objectFit: 'cover', borderRadius: '4px 4px 0 0' }}
+                      style={{ objectFit: 'contain', borderRadius: '0px' }}
                     />
                   </CardMedia>
                 </Link>
@@ -135,14 +137,19 @@ const LatestBlog = () => {
                       alignItems: 'center',
                       color: '#929292',
                       mt: 1,
+                      mb: 3,
                       fontSize: '14px',
                       gap: 1,
                     }}
                   >
-                    <Typography sx={{ color: '#262250', fontWeight: '500' }}>
+                    <Typography sx={{ color: '#262250', fontWeight: '500' }} className='post-type'>
                       {post.type}
                     </Typography>
-                    {post.date}
+                    <Typography className='post-date'>
+                      {post.date}
+                    </Typography>
+                    
+                    
                   </Typography>
 
                   <Typography
@@ -154,7 +161,9 @@ const LatestBlog = () => {
                       fontFamily: 'Poppins, sans-serif',
                       fontSize: '20px',
                       fontWeight: 600,
-                    }}
+                      marginTop:'20px'
+                    }} 
+                    className='post-title'
                   >
                     {post.title}
                   </Typography>
@@ -167,12 +176,14 @@ const LatestBlog = () => {
                       color: '#666',
                       my: 2,
                     }}
+                    className='post-excerpt'
                   >
                     {post.excerpt}
                   </Typography>
 
                   <Link href={post.link} passHref style={{ textDecoration: 'none', color: '#253B7A' }} className='learn-more-link'>
-                    Learn More <PiGreaterThanBold />
+                    Learn More <MdNavigateNext />
+
                   </Link>
                 </CardContent>
               </Card>
@@ -182,8 +193,8 @@ const LatestBlog = () => {
       </Container>
 
       {/* Mobile Carousel */}
-      <Container sx={{ display: { xs: 'block', md: 'none', p:0 } }}>
-        <Slider ref={sliderRef} {...mobileSettings}>
+      <Container sx={{ display: { xs: 'block', md: 'none', p:0 } }} className="mobile-carousel-blog">
+        <Slider ref={sliderRef} {...mobileSettings} className="mobile-carousel-blog">
           {initialPosts.map((post, index) => (
             <motion.div
               key={post.id}
@@ -207,7 +218,7 @@ const LatestBlog = () => {
                       src={post.imgSrc}
                       alt={post.alt}
                       fill
-                      style={{ objectFit: 'contain', borderRadius: '4px 4px 0 0' }}
+                      style={{ objectFit: 'contain' }}
                     />
                   </CardMedia>
                 </Link>
@@ -221,13 +232,13 @@ const LatestBlog = () => {
                       // mt: 1,
                       fontSize: '14px',
                       gap: 2,
-                      p:0,
+                      pb:3,
                     }}
                   >
-                    <Typography sx={{ color: '#262250', fontWeight: '500' }}>
+                    <Typography sx={{ color: '#262250', fontWeight: '500', }} className='mobile-post-type'>
                       {post.type}
                     </Typography>
-                    <Typography sx={{ fontSize: '12px' }}>
+                    <Typography sx={{ fontSize: '12px' }} className='mobile-post-date'>
                       {post.date}
                     </Typography>
                   </Typography>
@@ -242,6 +253,7 @@ const LatestBlog = () => {
                       fontSize: '18px',
                       fontWeight: 600,
                     }}
+                    className='mobile-post-title'
                   >
                     {post.title}
                   </Typography>
@@ -254,12 +266,14 @@ const LatestBlog = () => {
                       color: '#666',
                       my: 2,
                     }}
+                    className='mobile-post-excerpt'
                   >
                     {post.excerpt}
                   </Typography>
 
-                  <Link href={post.link} passHref style={{ textDecoration: 'none', color: '#253B7A' }}>
-                    Learn More <PiGreaterThanBold />
+                  <Link href={post.link} passHref style={{ textDecoration: 'none', color: '#253B7A' }} className='mobile-learn-more'>
+                    Learn More <MdNavigateNext />
+
                   </Link>
                 </CardContent>
               </Card>
@@ -306,6 +320,7 @@ const LatestBlog = () => {
         </Box>
       </Container>
     </Box>
+  </div>
   );
 };
 

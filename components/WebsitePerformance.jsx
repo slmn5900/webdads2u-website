@@ -3,10 +3,10 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../style/WebsitePerformance.css';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 const webAnimationLeft =
-  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105564/webdads2u/mainpage/icons/web-animation-left.png";
+  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202911/webdads2u/mainpage/icons/square.png";
 
 const webAnimationRight =
   "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105566/webdads2u/mainpage/icons/web-animation-right.png";
@@ -34,10 +34,10 @@ const WebsitePerformance = () => {
           <Container>
             <Row className="pt-5 Web-Row">
               {[
-                "Not getting enough leads or traffic from your current site?",
-                "Is your website limiting your growth because it can't scale or adapt to your needs?",
-                "Your website doesn’t reflect your brand or clearly communicate what you do?",
-                "Struggling with a slow, outdated website that doesn’t work on mobile?"
+                "Frustated that your website is not bringing real business or good quality leads?",
+                "Struggling because your site feels outdated and difficult to maintain ?",
+                "worried that your website's look and feel doesn't match your brand quality?",
+                "Tired of losing potential clients due to slow speed and poor mobile experience ? "
               ].map((text, i) => (
                 <Col sm={6} md={4} lg={3} key={i} className="performance-box">
                   <img src={webIcon} alt="icon" />

@@ -84,6 +84,32 @@
   box-shadow: none;
 }
 
+.logo-scroll {
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: auto;
+  scrollbar-width: none;
+}
+
+.logo-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.logo-track {
+  display: flex;
+  gap: 40px;
+  padding: 10px 0;
+}
+
+.logo-item img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+
 
 /* Responsive for mobile */
 @media (max-width: 768px) {
@@ -100,6 +126,6 @@
   }
 
   .logo-slider{
-    background-color: #FCF9EA;
+    background-color: #f9f9f9;
   }
 }

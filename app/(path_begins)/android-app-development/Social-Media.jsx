@@ -1,6 +1,6 @@
 
 import { Container, Row ,Col} from "react-bootstrap";
-import '../../../style/'
+import ".../style/LatestBlog.css"
 function SocialMedia() {
     return (
         <>

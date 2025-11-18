@@ -1,107 +1,50 @@
 'use client';
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/autoplay";
-import { Autoplay } from "swiper/modules";
+import React, { useEffect, useRef } from "react";
 import '../style/LogoSlider.css';
+import { Logos } from "./common/Datas/Logo";
 
 const LogoSlider = () => {
-  const logosTop = [
-    "/logo/logo1.png",
-    "/logo/logo2.png",
-    "/logo/logo3.png",
-    "/logo/logo4.png",
-    "/logo/logo5.png",
-    "/logo/logo6.png",
-  ];
+  const sliderRef = useRef(null);
 
-  const logosBottom = [
-    "/logo/logo6.png",
-    "/logo/logo5.png",
-    "/logo/logo4.png",
-    "/logo/logo3.png",
-    "/logo/logo2.png",
-    "/logo/logo1.png",
-  ];
+  useEffect(() => {
+    const slider = sliderRef.current;
+    let scrollSpeed = 0.8;   // Adjust speed
+    let animationFrame;
 
-  // Combine both for mobile view
-  const mergedLogos = [...logosTop, ...logosBottom];
+    const scroll = () => {
+      if (slider) {
+        slider.scrollLeft += scrollSpeed;
+        if (slider.scrollLeft >= slider.scrollWidth / 2) {
+          slider.scrollLeft = 0;
+        }
+      }
+      animationFrame = requestAnimationFrame(scroll);
+    };
+
+    animationFrame = requestAnimationFrame(scroll);
+
+    slider.addEventListener('mouseenter', () => cancelAnimationFrame(animationFrame));
+    slider.addEventListener('mouseleave', () => (animationFrame = requestAnimationFrame(scroll)));
+
+    return () => cancelAnimationFrame(animationFrame);
+  }, []);
+
+  const mergedLogos = [...Logos, ...Logos]; // duplicate for seamless loop
 
   return (
     <div className="logo-slider">
-      {/* Desktop view: two opposite sliders */}
-      <div className="desktop-slider">
-        {/* Top Row */}
-        <Swiper
-          modules={[Autoplay]}
-          slidesPerView={5}
-          spaceBetween={30}
-          loop={true}
-          speed={3000}
-          autoplay={{
-            delay: 0,
-            disableOnInteraction: false,
-          }}
-          allowTouchMove={false}
-          className="top-row"
-        >
-          {logosTop.map((logo, i) => (
-            <SwiperSlide key={i}>
-              <img src={logo} alt={`logo-${i}`} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
 
-        {/* Bottom Row */}
-        {/* <Swiper
-          modules={[Autoplay]}
-          slidesPerView={5}
-          spaceBetween={30}
-          loop={true}
-          speed={3000}
-          autoplay={{
-            delay: 0,
-            disableOnInteraction: false,
-            reverseDirection: true, // opposite direction
-          }}
-          allowTouchMove={false}
-          className="bottom-row"
-        >
-          {logosBottom.map((logo, i) => (
-            <SwiperSlide key={i}>
-              <img src={logo} alt={`logo-${i}`} />
-            </SwiperSlide>
+      {/* Continuous Scroll Container */}
+      <div className="logo-scroll" ref={sliderRef}>
+        <div className="logo-track">
+          {mergedLogos.map((logo, index) => (
+            <div className="logo-item" key={index}>
+              <img src={logo.url} alt={`logo-${index}`} />
+            </div>
           ))}
-        </Swiper> */}
-
-        {/* <div className="button-about-sec">
-          <button className="about-more-button">About more</button>
-        </div> */}
+        </div>
       </div>
 
-      {/* Mobile view: merged single slider */}
-      <div className="mobile-slider">
-        <Swiper
-          modules={[Autoplay]}
-          slidesPerView={3}
-          spaceBetween={20}
-          loop={true}
-          speed={3000}
-          autoplay={{
-            delay: 0,
-            disableOnInteraction: false,
-          }}
-          allowTouchMove={false}
-          className="merged-row"
-        >
-          {mergedLogos.map((logo, i) => (
-            <SwiperSlide key={i}>
-              <img src={logo} alt={`logo-${i}`} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
     </div>
   );
 };

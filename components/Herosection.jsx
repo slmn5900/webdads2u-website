@@ -4,13 +4,15 @@ import { useTypewriter } from 'react-simple-typewriter';
 import ReCAPTCHA from 'react-google-recaptcha';
 import '../style/Herosection.css';
 import { FaStar } from "react-icons/fa";
-import { quirckServiceForm } from '../api/UserAuthentication'; // ✅ import your API
+import { quirckServiceForm } from '../api/UserAuthentication'; 
 
 const Herosection = () => {
   const [text] = useTypewriter({
     words: ['Digitalization', 'Automation', 'Innovation'],
     loop: true,
-    delaySpeed: 1500,
+    typeSpeed:20,
+    deleteSpeed:20,
+    delaySpeed: 20,
   });
 
   const [showPopup, setShowPopup] = useState(false);
@@ -29,6 +31,15 @@ const Herosection = () => {
       return () => clearTimeout(timer);
     }
   }, []);
+
+  // Listen for global popup trigger
+useEffect(() => {
+  const openPopup = () => setShowPopup(true);
+  window.addEventListener("openGlobalPopup", openPopup);
+
+  return () => window.removeEventListener("openGlobalPopup", openPopup);
+}, []);
+
 
   // Counter setup
   const datas = [
@@ -50,7 +61,7 @@ const Herosection = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // ✅ Submit handler with API call integration
+  // Submit handler with API call integration
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -101,14 +112,21 @@ const Herosection = () => {
             <br /> to Transform your Business
           </h1>
           <h6>Our expertise in bringing ideas to reality help your market place</h6>
-          <button onClick={() => setShowPopup(true)}>Get Quotes</button>
+          {/* <button onClick={() => setShowPopup(true)}>Get a Quote</button> */}
+          <button
+  className="social-btn"
+  onClick={() => window.dispatchEvent(new Event("openGlobalPopup"))}
+>
+  Get a Quotes
+</button>
+
 
           {/* Counters */}
           <div className="counter-main-home d-flex" style={{ justifyContent: 'flex-start', gap: '60px', padding: '40px', marginTop: '50px' }}>
             {datas.map((item, i) => (
               <div key={i} style={{ textAlign: 'center' }} className='d-flex header-counter-sec align-items-baseline'>
-                <h2 style={{ margin: 0, width: '30px' }}>{counter[i]}+</h2>
-                <h6 className='ps-3'>{item.label}</h6>
+                <h2 style={{ margin: 0 }}>{counter[i]}+</h2>
+                <h6 className='ps-2 header-h6'>{item.label}</h6>
               </div>
             ))}
             <div className='d-flex align-items-baseline'>
@@ -117,7 +135,7 @@ const Herosection = () => {
               <FaStar className='star-icon' />
               <FaStar className='star-icon' />
               <FaStar className='star-icon' />
-              <h6 className='header-counter-sec ps-3'>Google Rating</h6>
+              <h6 className='header-counter-sec google-rating ps-3'>Google Rating</h6>
             </div>
           </div>
         </div>
@@ -126,11 +144,18 @@ const Herosection = () => {
         <div className="mobileHerosection-body glass text-center">
           <h1>
             Better <br />
-            <span style={{ fontWeight: 'bold', color: '#d7142a' }}>{text}</span> <br />
+            <span style={{ fontWeight: 600, color: '#d7142a' }}>{text}</span> <br />
             Solution to<br />Transform <br />your Business
           </h1>
           <h6>Our expertise in bringing ideas to reality help your market place</h6>
-          <button onClick={() => setShowPopup(true)}>Get quotes</button>
+          {/* <button onClick={() => setShowPopup(true)}>Get quotes</button> */}
+          <button
+            className="social-btn"
+            onClick={() => window.dispatchEvent(new Event("openGlobalPopup"))}
+          >
+            Get a Quotes
+          </button>
+
         </div>
       </section>
 

@@ -5,36 +5,46 @@ import {
   Box,
   Toolbar,
   Typography,
-  Menu,
-  MenuItem,
   IconButton,
-  Button,
-  Stack,
   CssBaseline,
-  Drawer,
   useMediaQuery,
   useTheme,
   Link,
   CircularProgress,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
 } from '@mui/material';
+
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import PropTypes from 'prop-types';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import KeyboardDoubleArrowRightRoundedIcon from '@mui/icons-material/KeyboardDoubleArrowRightRounded';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { About, servicesDropdownDatas, Work } from './Headers/headerData';
+import { usePathname } from 'next/navigation';
+import { AnimatePresence, motion } from 'framer-motion';
 import '../style/Herosection.css';
-import { usePathname } from "next/navigation";
 
 
-/* --------------------------------------------------
-   UPDATE: HOME page = gradient + dots
-           OTHER PAGES = solid white header
--------------------------------------------------- */
+const socialIcons = [
+  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105556/webdads2u/mainpage/icons/ri-facebook-fill.png', link: 'https://www.facebook.com/Webdads2u' },
+  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105553/webdads2u/mainpage/icons/ri-instagram-fill.png', link: 'https://www.instagram.com/webdads2u/' },
+  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105550/webdads2u/mainpage/icons/mdi-youtube.png', link: 'https://www.youtube.com/webdads2u' },
+  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105546/webdads2u/mainpage/icons/prime-twitter.png', link: 'https://www.facebook.com/Webdads2u' },
+  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105542/webdads2u/mainpage/icons/tabler-world.png', link: 'https://www.webdads2u.com/' },
+];
+
+/* -------------------- SCROLL BEHAVIOR -------------------- */
+
 function ElevationScroll(props) {
   const { children } = props;
   const pathname = usePathname();
-  const isHome = pathname === "/";
+  const isHome = pathname === '/';
+
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
 
   const trigger = useScrollTrigger({
     disableHysteresis: true,
@@ -42,27 +52,21 @@ function ElevationScroll(props) {
   });
 
   return React.cloneElement(children, {
-    className:
-      isHome
-        ? (!trigger ? "appbar-dots" : "no-dots")   // Home logic
-        : "white-header",                          // Other pages
-
+    className: isHome ? (!trigger ? 'appbar-dots' : 'no-dots') : 'white-header',
     elevation: trigger || !isHome ? 4 : 0,
 
     sx: {
-      background: isHome
-        ? (trigger ? "#ffffff" : "linear-gradient(to right, #fcf2ff, #ffffff)")
-        : "#ffffff",
-
-      color: "#000",
-      transition:
-        "background 0.6s ease, box-shadow 0.4s ease, backdrop-filter 0.6s ease",
-
-      backdropFilter: isHome && !trigger ? "blur(6px)" : "none",
-
-      boxShadow:
-        trigger || !isHome ? "0 3px 10px rgba(0,0,0,0.08)" : "none",
-
+      background: isMobile
+        ? '#ffffff'
+        : isHome
+        ? trigger
+          ? '#ffffff'
+          : 'linear-gradient(to right, #fcf2ff, #ffffff)'
+        : '#ffffff',
+      color: '#000',
+      transition: 'background 0.6s ease, box-shadow 0.4s ease, backdrop-filter 0.6s ease',
+      backdropFilter: isHome && !trigger ? 'blur(6px)' : 'none',
+      boxShadow: trigger || !isHome ? '0 3px 10px rgba(0,0,0,0.08)' : 'none',
       px: { xs: 0, sm: 0, md: 6, lg: 7 },
       py: 0.5,
     },
@@ -71,57 +75,19 @@ function ElevationScroll(props) {
 
 ElevationScroll.propTypes = {
   children: PropTypes.element.isRequired,
-  window: PropTypes.func,
 };
 
 
+/* ------------------------ HEADER ------------------------- */
 
-/* --------------------------------------------------
-   HEADER COMPONENT
--------------------------------------------------- */
 export default function Header(props) {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
   const [isClient, setIsClient] = React.useState(false);
-  const [aboutAnchorEl, setAboutAnchorEl] = React.useState(null);
-  const [servicesAnchorEl, setServicesAnchorEl] = React.useState(null);
-  const [workAnchorEl, setWorkAnchorEl] = React.useState(null);
-  const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
+  const [menuOverlayOpen, setMenuOverlayOpen] = React.useState(false);
 
   React.useEffect(() => setIsClient(true), []);
-
-  const handleMenuOpen = (setter) => (event) => setter(event.currentTarget);
-  const handleMenuClose = (setter) => () => setter(null);
-
-  /* CLOSE DROPDOWNS WHEN CLICK OUTSIDE */
-  React.useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (
-        aboutAnchorEl &&
-        !aboutAnchorEl.contains(event.target) &&
-        !event.target.closest("#about-button")
-      )
-        setAboutAnchorEl(null);
-
-      if (
-        servicesAnchorEl &&
-        !servicesAnchorEl.contains(event.target) &&
-        !event.target.closest("#services-button")
-      )
-        setServicesAnchorEl(null);
-
-      if (
-        workAnchorEl &&
-        !workAnchorEl.contains(event.target) &&
-        !event.target.closest("#work-button")
-      )
-        setWorkAnchorEl(null);
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [aboutAnchorEl, servicesAnchorEl, workAnchorEl]);
 
   if (!isClient) {
     return (
@@ -131,31 +97,18 @@ export default function Header(props) {
     );
   }
 
+  const closeOverlay = () => setMenuOverlayOpen(false);
+
   return (
     <>
       <CssBaseline />
 
       <ElevationScroll {...props}>
-        <AppBar position="fixed" color="default">
-          <Toolbar sx={{ justifyContent: "space-between" }}>
-
-            {/* MOBILE MENU ICON */}
-            {isMobile && (
-              <IconButton
-                sx={{ position: "relative", left: -10 }}
-                onClick={() => setMobileMenuOpen(true)}
-                color="inherit"
-              >
-                <MenuIcon />
-              </IconButton>
-            )}
+        <AppBar position="fixed">
+          <Toolbar sx={{ justifyContent: 'space-between' }}>
 
             {/* LOGO */}
-            <Box
-              sx={{ m: { xs: "auto", sm: "20px", md: "0px" } }}
-              component={Link}
-              href="/"
-            >
+            <Box component={Link} href="/" sx={{ display: 'flex', alignItems: 'center' }}>
               <img
                 src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406731/webdads2u/logo.svg"
                 alt="Logo"
@@ -163,231 +116,402 @@ export default function Header(props) {
               />
             </Box>
 
-            {/* DESKTOP MENU */}
+            {/* DESKTOP NAVIGATION */}
             {!isMobile && (
-              <Stack direction="row" alignItems="center" spacing={2}>
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 4 }}>
 
-                {/* ABOUT */}
-                <Button
-                  id="about-button"
-                  onMouseEnter={handleMenuOpen(setAboutAnchorEl)}
-                  endIcon={<ArrowDropDownIcon />}
-                  sx={{
-                    color: "black",
-                    textTransform: "capitalize",
-                    fontFamily: "Poppins",
-                    fontSize: { xs: 12, md: 10, lg: 15 },
-                  }}
+                <Link
+                  href="#"
+                  onClick={(e) => {e.preventDefault(); setMenuOverlayOpen(true);setTimeout(() => {router.push("/about");}, 300);}}
+                  style={{ textDecoration: 'none', color: '#000' }}
                 >
-                  About
-                </Button>
+                  <Typography sx={{ fontSize: 16, fontWeight: 500 }}>About</Typography>
+                </Link>
 
-                <Menu
-                  anchorEl={aboutAnchorEl}
-                  open={Boolean(aboutAnchorEl)}
-                  onClose={handleMenuClose(setAboutAnchorEl)}
-                  onMouseLeave={handleMenuClose(setAboutAnchorEl)}
-                  PaperProps={{ sx: { width: "min-content", px: 2 } }}
+                <Link
+                  href="#"
+                  onClick={(e) => {e.preventDefault(); setMenuOverlayOpen(true);setTimeout(() => {router.push("/about");}, 300);}}
+                  style={{ textDecoration: 'none', color: '#000' }}
                 >
-                  {About.map((item, i) => (
-                    <Box
-                      key={i}
-                      component={Link}
-                      href={item.link}
-                      sx={{ textDecoration: "none", color: "black" }}
-                    >
-                      <MenuItem
-                        onClick={handleMenuClose(setAboutAnchorEl)}
-                        sx={{ fontSize: "13px", fontFamily: "Poppins" }}
-                      >
-                        <KeyboardDoubleArrowRightRoundedIcon
-                          sx={{ mr: 1 }}
-                          fontSize="small"
-                        />
-                        {item.name}
-                      </MenuItem>
-                    </Box>
-                  ))}
-                </Menu>
+                  <Typography sx={{ fontSize: 16, fontWeight: 500 }}>Services</Typography>
+                </Link>
 
-                {/* SERVICES */}
-                <Button
-                  id="services-button"
-                  onMouseEnter={handleMenuOpen(setServicesAnchorEl)}
-                  endIcon={<ArrowDropDownIcon />}
-                  sx={{
-                    color: "black",
-                    textTransform: "capitalize",
-                    fontFamily: "Poppins",
-                    fontSize: { xs: 12, md: 10, lg: 15 },
-                  }}
+                <Link
+                  href="#"
+                  onClick={(e) => {e.preventDefault(); setMenuOverlayOpen(true);setTimeout(() => {router.push("/about");}, 300);}}
+                  style={{ textDecoration: 'none', color: '#000' }}
                 >
-                  Services
-                </Button>
+                  <Typography sx={{ fontSize: 16, fontWeight: 500 }}>Works</Typography>
+                </Link>
 
-                <Menu
-                  anchorEl={servicesAnchorEl}
-                  open={Boolean(servicesAnchorEl)}
-                  onClose={handleMenuClose(setServicesAnchorEl)}
-                  onMouseLeave={handleMenuClose(setServicesAnchorEl)}
-                  PaperProps={{
-                    sx: {
-                      width: "100vw",
-                      maxWidth: "none",
-                      left: "0 !important",
-                      right: "0 !important",
-                      padding: 4,
-                      marginTop: "15px",
-                      maxHeight: "calc(100% - 59px)",
-                      height: "auto",
-                    },
-                  }}
-                >
-                  <Box display="flex" flexWrap="wrap" gap={5}>
-                    {servicesDropdownDatas.map((group) => (
-                      <Box key={group.label}>
-                        <Box display="flex" gap={2}>
-                          <Box sx={{ textAlign: "center" }}>
-                            <img src={group.icon} alt="Logo" width="30" />
-                          </Box>
-                          <Box
-                            component={Link}
-                            href={group.link}
-                            sx={{ textDecoration: "none", color: "black" }}
-                          >
-                            <Typography
-                              variant="subtitle1"
-                              fontWeight={600}
-                              fontSize="14px"
-                              my="auto"
-                              fontFamily="Poppins"
-                            >
-                              {group.label}
-                            </Typography>
-                          </Box>
-                        </Box>
+                <Link href="/contact-us" style={{ textDecoration: 'none', color: '#000' }}>
+                  <Typography sx={{ fontSize: 16, fontWeight: 500 }}>Reach us</Typography>
+                </Link>
 
-                        {group.items.map((item) => (
-                          <Box
-                            key={item.label}
-                            component={Link}
-                            href={item.link}
-                            sx={{ textDecoration: "none", color: "black" }}
-                          >
-                            <MenuItem
-                              onClick={handleMenuClose(setServicesAnchorEl)}
-                              sx={{ fontSize: "13px", fontFamily: "Poppins" }}
-                            >
-                              <KeyboardDoubleArrowRightRoundedIcon
-                                sx={{ mr: 1 }}
-                                fontSize="small"
-                              />
-                              {item.label}
-                            </MenuItem>
-                          </Box>
-                        ))}
-                      </Box>
-                    ))}
+                {/* GET QUOTES BUTTON */}
+                <Link href="/contact-us" style={{ textDecoration: 'none' }}>
+                  <Box
+                    sx={{
+                      border: '1px solid #000',
+                      px: 2.5,
+                      py: 0.8,
+                      borderRadius: '6px',
+                      fontSize: 15,
+                      fontWeight: 500,
+                      color: '#000',
+                      cursor: 'pointer',
+                    }}
+                  >
+                    Get quotes
                   </Box>
-                </Menu>
+                </Link>
 
-                {/* WORK */}
-                <Button
-                  id="work-button"
-                  onMouseEnter={handleMenuOpen(setWorkAnchorEl)}
-                  endIcon={<ArrowDropDownIcon />}
-                  sx={{
-                    color: "black",
-                    textTransform: "capitalize",
-                    fontFamily: "Poppins",
-                    fontSize: { xs: 12, md: 10, lg: 15 },
-                  }}
+                {/* HAMBURGER NEXT TO BUTTON */}
+                <IconButton
+                  color="inherit"
+                  onClick={() => setMenuOverlayOpen(true)}
+                  sx={{ ml: 1 }}
                 >
-                  Work
-                </Button>
+                  <MenuIcon />
+                </IconButton>
 
-                <Menu
-                  anchorEl={workAnchorEl}
-                  open={Boolean(workAnchorEl)}
-                  onClose={handleMenuClose(setWorkAnchorEl)}
-                  onMouseLeave={handleMenuClose(setWorkAnchorEl)}
-                  PaperProps={{ sx: { width: "min-content", px: 2 } }}
-                >
-                  {Work.map((item) => (
-                    <Box
-                      key={item.label}
-                      component={Link}
-                      href={item.link}
-                      sx={{ textDecoration: "none", color: "black" }}
-                    >
-                      <MenuItem
-                        onClick={handleMenuClose(setWorkAnchorEl)}
-                        sx={{ fontSize: "13px", fontFamily: "Poppins" }}
-                      >
-                        <KeyboardDoubleArrowRightRoundedIcon
-                          sx={{ mr: 1 }}
-                          fontSize="small"
-                        />
-                        {item.name}
-                      </MenuItem>
-                    </Box>
-                  ))}
-                </Menu>
-
-                {/* REACH US */}
-                <Box component={Link} href="/contact-us">
-                  <Button
-                    sx={{
-                      color: "black",
-                      textTransform: "capitalize",
-                      fontFamily: "Poppins",
-                      fontSize: "15px",
-                    }}
-                  >
-                    Reach Us
-                  </Button>
-                </Box>
-
-                {/* GET QUOTES */}
-                <Box
-                  component={Link}
-                  href="/contact-us"
-                  sx={{ textDecoration: "none", color: "black" }}
-                >
-                  <Button
-                    variant="contained"
-                    sx={{
-                      background: "transparent",
-                      color: "#000",
-                      fontFamily: "Poppins",
-                      padding: "5px 32px",
-                      border: "1px solid #000",
-                      boxShadow: "none",
-                      "&:hover": {
-                        background: "#00000010",
-                        boxShadow: "none",
-                      },
-                    }}
-                  >
-                    Get Quotes
-                  </Button>
-                </Box>
-              </Stack>
+              </Box>
             )}
+
+            {/* MOBILE HAMBURGER */}
+            {isMobile && (
+              <IconButton color="inherit" onClick={() => setMenuOverlayOpen(true)}>
+                <MenuIcon />
+              </IconButton>
+            )}
+
           </Toolbar>
         </AppBar>
       </ElevationScroll>
 
       <Toolbar />
 
-      {/* MOBILE DRAWER */}
-      <Drawer
-        anchor="left"
-        open={mobileMenuOpen}
-        onClose={() => setMobileMenuOpen(false)}
+{/* ------------------- FULL SCREEN MENU ------------------- */}
+<AnimatePresence>
+  {menuOverlayOpen && (
+    <motion.div
+      initial={{ y: "100%" }}
+      animate={{ y: 0 }}
+      exit={{ y: "100%" }}
+      transition={{ duration: 0.6, ease: "easeInOut" }}
+      style={{ position: "fixed", inset: 0, zIndex: 2000 }}
+    >
+      <Box
+        sx={{
+          position: "absolute",
+          inset: 0,
+          bgcolor: "#ffffff",
+          color: "#000",
+          overflowY: "auto",
+          scrollbarWidth: "none",
+        }}
       >
-        {/* mobile menu content */}
-      </Drawer>
+
+        {/* ================= TOP BLACK HEADER ================= */}
+        <Box
+          sx={{
+            width: "100%",
+            backgroundColor: "#1e1e1e",
+            py: 2.5,
+            px: { xs: 3, md: 8 },
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          {/* LEFT LOGO */}
+          <Box component={Link} href="/" onClick={closeOverlay}>
+            <img
+              src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406867/webdads2u/footer-logo.avif"
+              alt="Logo"
+              height="50"
+              style={{ objectFit: "contain" }}
+            />
+          </Box>
+
+          {/* CLOSE ICON */}
+          <IconButton onClick={closeOverlay} sx={{ color: "#fff" }}>
+            <CloseIcon sx={{ fontSize: 32 }} />
+          </IconButton>
+        </Box>
+
+        {/* ================= MAIN CONTENT ================= */}
+        <Box sx={{ px: { xs: 3, md: 10 }, pt: 6, pb: 6 }}>
+
+          <Box
+            sx={{
+              display: "grid",
+              gridTemplateColumns: { xs: "1fr", md: "1fr 3fr 1fr" },
+              gap: 8,
+            }}
+          >
+            {/* ---------- LEFT NAV (HOME, ABOUT…) ---------- */}
+            <Box>
+              {About.map((item, i) => (
+                <Link
+                  key={i}
+                  href={item.link}
+                  onClick={closeOverlay}
+                  style={{ textDecoration: "none" }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: 20,
+                      fontWeight: 700,
+                      mb: 2,
+                      color: "#000",
+                    }}
+                  >
+                    {item.name}
+                  </Typography>
+                </Link>
+              ))}
+            </Box>
+
+            {/* ---------- CENTER SERVICE COLUMNS ---------- */}
+            <Box>
+              <Box
+                sx={{
+                  display: "grid",
+                  gridTemplateColumns: { xs: "1fr", md: "repeat(3, 1fr)" },
+                  gap: 6,
+                }}
+              >
+
+                {/* ===== COLUMN 1 ===== */}
+                <Box>
+                  {/* WEBSITE DEVELOPMENT */}
+                  <Typography sx={{ fontWeight: 700, mb: 1, fontSize:18, fontColor:'#000000' }}>
+                    WEBSITE DEVELOPMENT
+                  </Typography>
+                  {servicesDropdownDatas[0].items.map((item, idx) => (
+                    <Link
+                      key={idx}
+                      href={item.link}
+                      onClick={closeOverlay}
+                      style={{ textDecoration: "none" }}
+                    >
+                      <Typography sx={{ fontSize: 14, mb: 0.7, color: "#444444", fontWeight:500 }}>
+                        {item.label}
+                      </Typography>
+                    </Link>
+                  ))}
+
+                  {/* WEB DESIGN */}
+                  <Box mt={3}>
+                    <Typography sx={{ fontWeight: 700, mb: 1, fontSize:18, fontColor:'#000000' }}>
+                      WEB DESIGN
+                    </Typography>
+                    {servicesDropdownDatas[1].items.map((item, idx) => (
+                      <Link
+                        key={idx}
+                        href={item.link}
+                        onClick={closeOverlay}
+                        style={{ textDecoration: "none" }}
+                      >
+                        <Typography sx={{ fontSize: 14, mb: 0.7, color: "#444444", fontWeight:500  }}>
+                          {item.label}
+                        </Typography>
+                      </Link>
+                    ))}
+                  </Box>
+                </Box>
+
+                {/* ===== COLUMN 2 ===== */}
+                <Box>
+                  {/* SEO SERVICES */}
+                  <Typography sx={{ fontWeight: 700, mb: 1, fontSize:18, fontColor:'#000000' }}>
+                    SEO SERVICES
+                  </Typography>
+                  {servicesDropdownDatas[2].items.map((item, idx) => (
+                    <Link
+                      key={idx}
+                      href={item.link}
+                      onClick={closeOverlay}
+                      style={{ textDecoration: "none" }}
+                    >
+                      <Typography sx={{ fontSize: 14, mb: 0.7,  color: "#444444", fontWeight:500  }}>
+                        {item.label}
+                      </Typography>
+                    </Link>
+                  ))}
+
+                  {/* BRANDING DESIGN */}
+                  <Box mt={3}>
+                    <Typography sx={{ fontWeight: 700, mb: 1,fontSize:18, fontColor:'#000000' }}>
+                      BRANDING DESIGN
+                    </Typography>
+                    {servicesDropdownDatas[3].items.map((item, idx) => (
+                      <Link
+                        key={idx}
+                        href={item.link}
+                        onClick={closeOverlay}
+                        style={{ textDecoration: "none" }}
+                      >
+                        <Typography sx={{ fontSize: 14, mb: 0.7,  color: "#444444", fontWeight:500  }}>
+                          {item.label}
+                        </Typography>
+                      </Link>
+                    ))}
+                  </Box>
+                </Box>
+
+                {/* ===== COLUMN 3 ===== */}
+                <Box>
+                  {/* MOBILE APP DEVELOPMENT */}
+                  <Typography sx={{ fontWeight: 700, mb: 1,fontSize:18, fontColor:'#000000' }}>
+                    MOBILE APP DEVELOPMENT
+                  </Typography>
+                  {servicesDropdownDatas[4].items.map((item, idx) => (
+                    <Link
+                      key={idx}
+                      href={item.link}
+                      onClick={closeOverlay}
+                      style={{ textDecoration: "none" }}
+                    >
+                      <Typography sx={{ fontSize: 14, mb: 0.7,  color: "#444444", fontWeight:500  }}>
+                        {item.label}
+                      </Typography>
+                    </Link>
+                  ))}
+
+                  {/* CRM & ERP */}
+                  <Box mt={3}>
+                    <Typography sx={{ fontWeight: 700, mb: 1, fontSize:18, fontColor:'#000000' }}>
+                      CRM & ERP DEVELOPMENT
+                    </Typography>
+                    {servicesDropdownDatas[5].items.map((item, idx) => (
+                      <Link
+                        key={idx}
+                        href={item.link}
+                        onClick={closeOverlay}
+                        style={{ textDecoration: "none" }}
+                      >
+                        <Typography sx={{ fontSize: 14, mb: 0.7,  color: "#444444", fontWeight:500  }}>
+                          {item.label}
+                        </Typography>
+                      </Link>
+                    ))}
+                  </Box>
+
+                  {/* E-COMMERCE */}
+                  <Box mt={3}>
+                    <Typography sx={{ fontWeight: 700, mb: 1, fontSize:18, fontColor:'#000000' }}>
+                      E-COMMERCE DEVELOPMENT
+                    </Typography>
+                    {servicesDropdownDatas[6].items.map((item, idx) => (
+                      <Link
+                        key={idx}
+                        href={item.link}
+                        onClick={closeOverlay}
+                        style={{ textDecoration: "none" }}
+                      >
+                        <Typography sx={{ fontSize: 14, mb: 0.7,  color: "#444444", fontWeight:500  }}>
+                          {item.label}
+                        </Typography>
+                      </Link>
+                    ))}
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+
+            {/* ---------- WORKS COLUMN ---------- */}
+            <Box>
+              <Typography sx={{ fontSize: 16, fontWeight: 700, mb: 2,fontSize:18, fontColor:'#000000' }}>
+                WORKS
+              </Typography>
+              {Work.map((item, i) => (
+                <Link
+                  key={i}
+                  href={item.link}
+                  onClick={closeOverlay}
+                  style={{ textDecoration: "none" }}
+                >
+                  <Typography sx={{ fontSize: 14, mb: 0.7,  color: "#444444", fontWeight:500  }}>
+                    {item.name}
+                  </Typography>
+                </Link>
+              ))}
+            </Box>
+          </Box>
+
+          {/* ================= FOOTER ================= */}
+          <Box
+            sx={{
+              borderTop: "1px solid #ddd",
+              mt: 6,
+              pt: 4,
+              display: "grid",
+              gridTemplateColumns: { xs: "1fr", md: "1fr 2fr 1fr" },
+              alignItems: "flex-start",
+              gap: 6,
+            }}
+          >
+            {/* LEFT LOGO */}
+            <Box>
+              <img
+                src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406731/webdads2u/logo.svg"
+                height="55"
+              />
+              <Typography sx={{ fontSize: 12, color: "#666", mt: 1 }}>
+                © 2025 WEBdADS2U PVT LTD.
+              </Typography>
+            </Box>
+
+            {/* ADDRESS */}
+            <Box sx={{ width: '70%' }}>
+              <Typography sx={{ fontWeight: 700, mb: 1, fontSize: 18 }}>INDIA</Typography>
+              <Typography sx={{ fontSize: 14, color: "#000000", fontWeight:400 }}>
+                FIRST FLOOR, 2ND PORTION, 36, Saraswathi Nagar  
+                Main Rd, Saraswathi Nagar, Thirumalaiyoyal,  
+                Chennai, Tamil Nadu 600062
+              </Typography>
+            </Box>
+
+            {/* SOCIAL ICONS */}
+            <Box>
+              <Typography sx={{ fontWeight: 700, mb: 1 }}>FOLLOW US</Typography>
+              <Box sx={{ display: 'flex', gap: 1.5, mt: { xs: 2, sm: 0 } }}>
+            {socialIcons.map((item, index) => (
+              <a
+                key={index}
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: 'none' }}
+              >
+                <img
+                  src={item.icon}
+                  alt={`icon-${index}`}
+                  style={{
+                    background: '#000000',
+                    padding: '10px',
+                    borderRadius: '20px',
+                    width: '40px',
+                    height: '40px',
+                    objectFit: 'contain',
+                    cursor: 'pointer',
+                  }}
+                />
+              </a>
+            ))}
+          </Box>
+            </Box>
+          </Box>
+
+        </Box>
+      </Box>
+    </motion.div>
+  )}
+</AnimatePresence>
+
+
     </>
   );
 }

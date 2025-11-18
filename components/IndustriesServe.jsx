@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import '../style/IndustriesServe.css';
 import Slider from "react-slick";
 import { FaPlay, FaPause, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 import Image from 'next/image';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -15,70 +16,108 @@ import "slick-carousel/slick/slick-theme.css";
 
 const IndustriesServe = () => {
   const Industries = [
-    { name: "IT / Software", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324785/webdads2u/mainpage/icons/it-software-industries.png" },
-    { name: "E-commerce", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324782/webdads2u/mainpage/icons/ecommerce-industries.png" },
-    { name: "Telecom", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324780/webdads2u/mainpage/icons/telecom-industries.png" },
-    { name: "Real Estate", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324777/webdads2u/mainpage/icons/real-estate-industries.png" },
-    { name: "Engineering", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324774/webdads2u/mainpage/icons/engineering-industries.png" },
-    { name: "Travels", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324771/webdads2u/mainpage/icons/travel-industries.png" },
-    { name: "Healthcare", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324768/webdads2u/mainpage/icons/healthcare-industries.png" },
-    { name: "Food & Restaurant", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324766/webdads2u/mainpage/icons/food-industries.png" },
-    { name: "Architech & Interior", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324763/webdads2u/mainpage/icons/architech-interior-industries.png" },
-    { name: "Logistics", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324760/webdads2u/mainpage/icons/logistic-industries.png" },
-    { name: "Finance", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324758/webdads2u/mainpage/icons/finance-industries.png" },
-    { name: "Auto Mobile", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324749/webdads2u/mainpage/icons/auto-mobile-industries.png" },
-    { name: "Media / Cinema", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324755/webdads2u/mainpage/icons/media-cinema-industries.png" },
-    { name: "Ad Agency", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324752/webdads2u/mainpage/icons/ad-agency-industries.png" },
-    { name: "Hospitality", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757324747/webdads2u/mainpage/icons/hospitallity-industries.png" },
-    { name: "Sports", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1757413791/webdads2u/mainpage/icons/wearable-app-development.png" },
+    { name: "IT / Software", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202976/webdads2u/mainpage/icons/mouseicons.png" },
+    { name: "E-commerce", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202975/webdads2u/mainpage/icons/bagicons.png" },
+    { name: "Telecom", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202951/webdads2u/mainpage/icons/mobileicons.png" },
+    { name: "Real Estate", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202935/webdads2u/mainpage/icons/homeicons.png" },
+    { name: "Engineering", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202935/webdads2u/mainpage/icons/icons5.png" },
+    { name: "Travels", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202935/webdads2u/mainpage/icons/travelicons.png" },
+    { name: "Healthcare", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202934/webdads2u/mainpage/icons/loveicons.png" },
+    { name: "Food & Restaurant", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202916/webdads2u/mainpage/icons/cookicons.png" },
+    { name: "Logistics", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202915/webdads2u/mainpage/icons/icons4.png" },
+    { name: "Finance", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202915/webdads2u/mainpage/icons/money-icons.png" },
+    { name: "Auto Mobile", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202910/webdads2u/mainpage/icons/icons2.png" },
+    { name: "Media / Cinema", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202910/webdads2u/mainpage/icons/icon1.png" },
+    { name: "Ad Agency", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202910/webdads2u/mainpage/icons/medicalicons.png" },
+    { name: "Hospitality", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202911/webdads2u/mainpage/icons/icons3.png" },
+    { name: "Architech & Interior", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202909/webdads2u/mainpage/icons/medical-icons.png" },
+
   ];
 
   const IndustriesVideo = [
     {
       video: "https://res.cloudinary.com/dbpv95wd8/video/upload/v1763103907/webdads2u/chakaravarthy-catering-client-testimonial.mp4", // ✅ use embed link
-      logo: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105173/logo/chakaravarthy-catering-logo.png",
+      // logo: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105173/logo/chakaravarthy-catering-logo.png",
       name: "Chakaravarthy Catering",
     },
     {
       video: "https://res.cloudinary.com/dbpv95wd8/video/upload/v1763103916/webdads2u/yegovah-catering-client-testimonial.mp4", 
-      logo: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105172/logo/yegovah-logo.png",
+      // logo: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105172/logo/yegovah-logo.png",
       name: "Yegovah Telecommunications",
     },
     {
       video: "https://res.cloudinary.com/dbpv95wd8/video/upload/v1763104747/webdads2u/espresso-coffee-shop-catering-client-testimonial.mp4", 
-      logo: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105175/logo/espresso-logo.png",
+      // logo: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105175/logo/espresso-logo.png",
       name: "Espresso Bar",
     
     },
   ];
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3500,
-    arrows: true,
-    responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 3 } },
-      { breakpoint: 768, settings: { slidesToShow: 2 } },
-      { breakpoint: 480, settings: { slidesToShow: 1, arrows: false } },
-    ],
-  };
 
   const PrevArrow = ({ onClick }) => (
     <div className="custom-prev" onClick={onClick}>
-      <FaChevronLeft />
+      <FiArrowLeft/>
     </div>
   );
 
   const NextArrow = ({ onClick }) => (
     <div className="custom-next" onClick={onClick}>
-      <FaChevronRight />
+      <FiArrowRight/>
     </div>
   );
+
+  // const settings = {
+  //   dots: false,
+  //   infinite: true,
+  //   speed: 600,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   autoplay: false,
+  //   autoplaySpeed: 3500,
+  //   arrows: true,
+  //   prevArrow: <PrevArrow />,
+  //   nextArrow: <NextArrow />,
+  //   responsive: [
+  //     { breakpoint: 1024, settings: 'unslick' },
+  //     { breakpoint: 1024, settings: { slidesToShow: 3, prevArrow: <PrevArrow />, nextArrow: <NextArrow /> } },
+  //     { breakpoint: 768, settings: { slidesToShow: 2, prevArrow: <PrevArrow />, nextArrow: <NextArrow /> } },
+  //     { breakpoint: 480, settings: { slidesToShow: 1, arrows: false } },
+  //   ],
+  // };
+
+  const settings = {
+  dots: false,
+  infinite: true,
+  speed: 600,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: false, // desktop should NOT autoplay
+  autoplaySpeed: 3500,
+  arrows: true,
+  prevArrow: <PrevArrow />,
+  nextArrow: <NextArrow />,
+
+  responsive: [
+    // Desktop unchanged
+    { breakpoint: 1024, settings: { slidesToShow: 3, prevArrow: <PrevArrow />, nextArrow: <NextArrow /> } },
+
+    // Tablet: no autoplay
+    { breakpoint: 768, settings: { slidesToShow: 2, arrows: true } },
+
+    // MOBILE: autoplay enabled
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        arrows: false,
+        autoplay: true,          // ✅ Auto-scroll on mobile
+        autoplaySpeed: 3000,     // speed
+      },
+    },
+  ],
+};
+
+  
 
   const VideoCard = ({ item }) => {
     const videoRef = useRef(null);
@@ -116,7 +155,6 @@ const IndustriesServe = () => {
                 <video
                   ref={videoRef}
                   loop
-                  muted
                   playsInline
                   className="video-element"
                   onEnded={() => setIsPlaying(false)}
@@ -131,7 +169,7 @@ const IndustriesServe = () => {
             )}
           </div>
 
-          <div className="flex flex-col items-center">
+          {/* <div className="flex flex-col items-center industries-serve-img">
             <Image
               src={item.logo}
               alt={item.name}
@@ -139,8 +177,8 @@ const IndustriesServe = () => {
               height={100}
               className="object-contain mb-2 h-30 w-30"
             />
-            <h5 className="font-semibold mb-0">{item.name}</h5>
-          </div>
+            
+          </div> */}
         </div>
       </div>
     );
@@ -148,7 +186,7 @@ const IndustriesServe = () => {
 
   return (
     <div>
-      <Container className="industries-container">
+      <Container className="industries-container" >
         <h3>Industries We Serve</h3>
         <p className="industries-p1">
           Here, we make almost every genre of applications. You name it and we build it.
@@ -157,7 +195,7 @@ const IndustriesServe = () => {
         <Row className="industries-serve-main desktop-view">
           {Industries.map((industry, index) => (
             <div key={index}>
-              <img src={industry.img} alt={industry.name} />
+              <img src={industry.img} alt={industry.name} style={{ height: "60px", width: "50px" }}/>
               <p className="industries-p2">{industry.name}</p>
             </div>
           ))}
@@ -192,8 +230,8 @@ const IndustriesServe = () => {
       </Container>
 
       {/* ✅ Video Section */}
-      <div style={{ background: "#F9F9F9", width: "100%", padding: "60px 0" }}>
-        <Container>
+      <div style={{ background: "#F9F9F9", width: "100%" }} className='video-section-cont'>
+        <Container fluid>
           <Row className="videosection-industriesSeries text-center">
             <h6 className="video-sec-h6 mb-2">Customer Voices</h6>
             <h3 className="mb-4">Hear What They Say!</h3>

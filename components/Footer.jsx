@@ -7,7 +7,8 @@ import {
   Typography,
   Link as MuiLink,
 } from '@mui/material';
-
+import { Inter } from "next/font/google";
+import '../style/LatestBlog.css';
 // Footer data with links
 const leftLinks = [
   { name: 'Work', link: '/work' },
@@ -18,6 +19,11 @@ const leftLinks = [
   { name: 'Terms & Conditions', link: '/terms-conditions' },
   { name: 'Refund Policy', link: '/refund-policy' },
 ];
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
 
 const rightLinks = [
   {
@@ -77,9 +83,9 @@ const rightLinks = [
     ],
     subTitle2: 'E-Commerce Development',
     subItems2: [
-      { name: 'WooCommerce', link: '#' },
-      { name: 'Opencart', link: '#' },
-      { name: 'Shopify', link: '#' },
+      { name: 'WooCommerce', link: '/woo-commerce' },
+      { name: 'Opencart', link: '/opencart-development' },
+      { name: 'Shopify', link: '/shopify-development' },
     ],
   },
 ];
@@ -94,19 +100,19 @@ const socialIcons = [
 
 const Footer = () => {
   return (
+    <div className='Footer-main'>
     <Box
       sx={{
         backgroundColor: '#222222',
         color: '#fff',
         pt: 8,
         pb: 4,
-        fontFamily: 'Poppins, sans-serif',
       }}
     >
       <Container maxWidth="xl">
         <Grid container spacing={4}>
           {/* Left Column */}
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} className='left-footer-desktop'>
             <Box>
               {leftLinks.map((item, index) => (
                 <MuiLink
@@ -115,7 +121,7 @@ const Footer = () => {
                   underline="none"
                   sx={{
                     display: 'block',
-                    color: '#bfbfbf',
+                    color: '#999999',
                     fontSize: '14px',
                     mb: 1,
                     '&:hover': { color: '#fff' },
@@ -128,7 +134,7 @@ const Footer = () => {
           </Grid>
 
           {/* Right Column */}
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} md={8} className='footer-a-link'>
             <Grid container spacing={4}>
               {rightLinks.map((section, index) => (
                 <Grid item xs={12} sm={6} md={4} key={index}>
@@ -146,7 +152,7 @@ const Footer = () => {
                       underline="none"
                       sx={{
                         display: 'block',
-                        color: '#bfbfbf',
+                        color: '#999999',
                         fontSize: '14px',
                         mb: 0.8,
                         '&:hover': { color: '#fff' },
@@ -171,7 +177,7 @@ const Footer = () => {
                           underline="none"
                           sx={{
                             display: 'block',
-                            color: '#bfbfbf',
+                            color: '#999999',
                             fontSize: '14px',
                             mb: 0.8,
                             '&:hover': { color: '#fff' },
@@ -198,7 +204,7 @@ const Footer = () => {
                           underline="none"
                           sx={{
                             display: 'block',
-                            color: '#bfbfbf',
+                            color: '#999999',
                             fontSize: '14px',
                             mb: 0.8,
                             '&:hover': { color: '#fff' },
@@ -212,6 +218,29 @@ const Footer = () => {
                 </Grid>
               ))}
             </Grid>
+          </Grid>
+
+
+            {/* mobile */}
+           <Grid item xs={12} md={4} className='left-footer-mobile'>
+            <Box>
+              {leftLinks.map((item, index) => (
+                <MuiLink
+                  key={index}
+                  href={item.link}
+                  underline="none"
+                  sx={{
+                    display: 'block',
+                    color: '#999999',
+                    fontSize: '14px',
+                    mb: 1,
+                    '&:hover': { color: '#fff' },
+                  }}
+                >
+                  {item.name}
+                </MuiLink>
+              ))}
+            </Box>
           </Grid>
         </Grid>
 
@@ -227,7 +256,7 @@ const Footer = () => {
             alignItems: 'center',
           }}
         >
-          <Typography sx={{ fontSize: '14px', color: '#bfbfbf' }}>
+          <Typography sx={{ fontSize: '14px', color: '#999999' }} className='desktop-copyrights'>
             © 2025 by WEBDADS2U PVT LTD.
           </Typography>
 
@@ -256,9 +285,14 @@ const Footer = () => {
               </a>
             ))}
           </Box>
+
+          <Typography sx={{ fontSize: '14px', color: '#999999' }} className='mobile-copyrights'>
+            © 2025 by WEBDADS2U PVT LTD.
+          </Typography>
         </Box>
       </Container>
     </Box>
+    </div>
   );
 };
 

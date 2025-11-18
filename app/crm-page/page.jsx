@@ -16,9 +16,6 @@ export default function Page() {
   const fetchData = async () => {
     try {
       const response = await fetch("/api/crm.json");
-      // if (!response.ok) {
-      //   throw new Error("Failed to fetch data");
-      // }
       const data = await response.json();
       setData(data)
       console.log(data, "parsed JSON data");

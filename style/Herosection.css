@@ -20,10 +20,20 @@
   color:'#555555'
 }
 
-
-.header-counter-sec h2, .header-counter-sec h6{
-  font-size: 16px;
+.header-counter-sec h2{
+  font-size: 18px;
+  width: 51px;
 }
+
+.google-rating{
+  font-size: 14px !important;
+}
+
+.header-h6{
+  font-size: 14px !important;
+}
+
+
 
 .dots {
   position: absolute;
@@ -66,35 +76,35 @@
 }
 
 /* Only 5 dots, with vibrant soft glow */
-.dot:nth-child(1) {
+.dots .dot:nth-child(1) {
   background: rgba(255, 130, 130, 0.228);
   top: 10%;
   left: 10%;
   animation-duration: 22s;
 }
 
-.dot:nth-child(2) {
+.dots .dot:nth-child(2) {
   background: rgba(250, 150, 255, 0.614);
   top: 50%;
   left: 20%;
   animation-duration: 25s;
 }
 
-.dot:nth-child(3) {
+.dots .dot:nth-child(3) {
   background: rgba(250, 150, 255, 0.637);
   top: 35%;
   left: 70%;
   animation-duration: 28s;
 }
 
-.dot:nth-child(4) {
+.dots .dot:nth-child(4) {
   background: rgba(250, 150, 255, 0.623);
   top: 70%;
   left: 50%;
   animation-duration: 30s;
 }
 
-.dot:nth-child(5) {
+.dots .dot:nth-child(5) {
   background: rgba(180, 140, 255, 0.596);
   top: 20%;
   left: 80%;
@@ -157,81 +167,6 @@
   animation-delay: 0s;
 } */
 
-/* .dot:nth-child(2) {
-  background: #f4c2ff;
-  top: 58%;
-  left: 18%;
-  --tx: -60px;
-  --ty: -40px;
-  --s: 1.1;
-  animation-name: float-small;
-  animation-duration: 26s;
-  animation-delay: 3s;
-} */
-
-/* .dot:nth-child(3) {
-  background: #ffc7a7;
-  top: 38%;
-  left: 70%;
-  --tx: -80px;
-  --ty: 50px;
-  --s: 1.15;
-  animation-name: float-small;
-  animation-duration: 20s;
-  animation-delay: 6s;
-} */
-
-/* .dot:nth-child(4) {
-  background: #c8a8ff;
-  top: 76%;
-  left: 50%;
-  --tx: 60px;
-  --ty: 40px;
-  --s: 1.08;
-  animation-name: float-small;
-  animation-duration: 28s;
-  animation-delay: 9s;
-} */
-
-/* .dot:nth-child(5) {
-  background: #ffe6a7;
-  top: 22%;
-  left: 80%;
-  --tx: -50px;
-  --ty: -60px;
-  --s: 1.09;
-  animation-name: float-small;
-  animation-duration: 24s;
-  animation-delay: 12s;
-} */
-
-
-/* .dot {
-  position: absolute;
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  opacity: 0.45;
-  filter: blur(58px);
-  will-change: transform, opacity;
-  animation:
-    float-small 12s ease-in-out infinite alternate,
-    move-around 40s linear infinite;
-} */
-
-/* @keyframes move-around {
-  0% {
-    transform: translate(0, 0) rotate(0deg) scale(1);
-  }
-  50% {
-    transform: translate(50px, -50px) rotate(180deg) scale(1.1);
-  }
-  100% {
-    transform: translate(0, 0) rotate(360deg) scale(1);
-  }
-} */
-
-
 /* ---------- Foreground Content ---------- */
 .Herosection-body {
   position: relative;
@@ -241,19 +176,22 @@
 }
 
 .Herosection-body h1 {
-  /* font-size: clamp(1.8rem, 4vw, 3rem);
-  font-weight: 700; */
+  color: #262250;
   font-size: 64px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
 .Herosection-body h6 {
-  color: rgba(0, 0, 0, 0.65);
-  font-weight: 400;
+
+  color: #555555;
+  font-weight: 500;
   margin-bottom: 2rem;
+  font-size: 21px;
 }
+
+
 
 /* ---------- Button ---------- */
 .Herosection-body button {
@@ -261,9 +199,9 @@
   background: linear-gradient(to right, #e40d25, #262250);
   color: #fff;
   border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -284,7 +222,7 @@
 
 
 /* header */
-.hero-section {
+/* .hero-section {
   position: relative;
   overflow: hidden;
   padding: 100px 0;
@@ -348,7 +286,7 @@
   50% {
     transform: translateY(-30px);
   }
-}
+} */
 
 /* Hide dots when header is scrolled */
 .no-dots ~ .hero-section .dot {
@@ -368,24 +306,37 @@
     display: block;
   }
 
-  .mobileHerosection-body {
+  /* .mobileHerosection-body {
   position: relative;
   z-index: 2;
   color: #1b1636;
   text-align: center;  
+} */
+
+
+.mobileHerosection-body {
+  position: relative;
+  z-index: 2;
+  color: #1b1636;
+  text-align: center;
+  margin-top: 3.5rem;     /* top spacing */
+  padding-bottom: 4rem;    /* bottom spacing */
 }
 
+
 .mobileHerosection-body h1 {
-  font-size: clamp(1.8rem, 4vw, 3rem);
-  font-weight: 700;
+  font-size: 42px;
+  font-weight: 600;
   line-height: 1.2;
   margin-bottom: 1rem;
   line-height: 1.33;
+  color: #262250;
+  /* margin-top: 4rem; */
 }
 
 .mobileHerosection-body h6 {
-  color: rgba(0, 0, 0, 0.65);
-  font-weight: 400;
+  color: #262250;
+  font-weight: 500;
   margin-bottom: 2rem;
   padding-left:10px; 
   padding-right:10px;
@@ -396,13 +347,13 @@
   background: linear-gradient(to right, #e40d25, #262250);
   color: #fff;
   border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-top: 38px; 
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   transition: all 0.5s ease;
 }
 

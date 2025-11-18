@@ -37,7 +37,7 @@ const CaseStudy = () => {
     <>
         <div>
               {/*  CONTINUOUS SCROLL SLIDER */}
-          <div className="case-study-slider mt-2 pb-5" ref={sliderRef}>
+          <div className="case-study-slider mt-4 pb-5" ref={sliderRef}>
           <div className="slider-track">
             <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>Digital Marketing</a></div>
             <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>CRM & ERP Development</a></div>
@@ -54,17 +54,15 @@ const CaseStudy = () => {
           </div>
           </div>
         </div>
-            <Container >
-          
-
+            <Container className='Case-study-sec'>
       <Row className='case-study'>
         {/* LEFT SECTION */}
-        <section className="col-md-6">
+        <section className="col-md-6 case-f-sec">
           <div className="second-section">
             <span>Case Study</span>
             <h3 className='desktop-h3'>
-              Some of Our Successful<br />
-              Projects Delight Customers<br />
+              Some of Our Successful
+              Projects Delight Customers
               Across the Globe
             </h3>
             <h3 className='mobile-h3'>

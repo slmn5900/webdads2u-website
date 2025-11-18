@@ -79,35 +79,42 @@
 
 
 "use client";
-import React, { Suspense } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import Script from 'next/script';
 import './home.scss';
 import '../style/home/landing_page.scss';
 import LoadingComponent from '../components/LoadingComponent';
+import dynamic from "next/dynamic";
 
-const Herosection = React.lazy(() => import('../components/Herosection'));
-const Formsection = React.lazy(() => import('../components/Formsection'));
-const ServicesSection = React.lazy(() => import('../components/ServicesSection'));
-const LoadMoreImage = React.lazy(() => import('../components/LoadMoreImage'));
-const Project = React.lazy(() => import('../components/Project'));
-const DigitalMargeting = React.lazy(() => import('../components/DigitalMargeting'));
-const Application = React.lazy(() => import('../components/Application'));
-const BrandingServices = React.lazy(() => import('../components/BrandingServices'));
-const Counter = React.lazy(() => import('../components/Counter'));
-const Industries = React.lazy(() => import('../components/Industries'));
-const CaseStudy = React.lazy(() => import('../components/CaseStudy'));
-const FAQ = React.lazy(() => import('../components/FAQ'));
-const CardCantainer = React.lazy(() => import('../components/CardContainer'));
-const CustomTabPanel = React.lazy(() => import('../components/CustomTabPanel'));
-const WebDesigningSection = React.lazy(() => import('../components/WebDesigningSection'));
-const LogoSlider = React.lazy(() => import('../components/LogoSlider'))
+
+
+const Herosection = dynamic(() => import('../components/Herosection'));
+const Formsection = dynamic(() => import('../components/Formsection'));
+const ServicesSection = dynamic(() => import('../components/ServicesSection'));
+const LoadMoreImage = dynamic(() => import('../components/LoadMoreImage'));
+const Project = dynamic(() => import('../components/Project'));
+const DigitalMargeting = dynamic(() => import('../components/DigitalMargeting'));
+const Application = dynamic(() => import('../components/Application'));
+const BrandingServices = dynamic(() => import('../components/BrandingServices'));
+const Counter = dynamic(() => import('../components/Counter'));
+const Industries = dynamic(() => import('../components/Industries'));
+const CaseStudy = dynamic(() => import('../components/CaseStudy'));
+const FAQ = dynamic(() => import('../components/FAQ'));
+const CardCantainer = dynamic(() => import('../components/CardContainer'));
+const CustomTabPanel = dynamic(() => import('../components/CustomTabPanel'));
+const WebDesigningSection = dynamic(() => import('../components/WebDesigningSection'));
+const LogoSlider = dynamic(() => import('../components/LogoSlider'))
 // import WebDesigningSection from '../components/ui/WebDesigningSection';
-const IndustriesServe = React.lazy(() => import('../components/IndustriesServe'));
-const TabSection = React.lazy(() => import('../components/TabSection'));
-const LatestBlog = React.lazy(() => import('../components/LatestBlog'));
-const WebsitePerformance = React.lazy(() => import('../components/WebsitePerformance'));
+const IndustriesServe = dynamic(() => import('../components/IndustriesServe'));
+const TabSection = dynamic(() => import('../components/TabSection'));
+const LatestBlog = dynamic(() => import('../components/LatestBlog'));
+const WebsitePerformance = dynamic(() => import('../components/WebsitePerformance'));
 
 const LandingPage = () => {
+     useEffect(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }, []);
+
     return (
         <div>
             <Script
@@ -146,11 +153,12 @@ const LandingPage = () => {
             <TabSection/> 
             <WebsitePerformance/>
             <WebDesigningSection/> 
-                <IndustriesServe/>
-                <LatestBlog />
+            <IndustriesServe/>
+            <LogoSlider/>
+            <LatestBlog />
 
            {/*   
-           <LogoSlider/>
+           
              <Counter />  
             <CardCantainer /> 
             <CustomTabPanel />
