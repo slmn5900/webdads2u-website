@@ -9,16 +9,67 @@
   overflow: hidden; /* keeps bubbles inside */
   background: radial-gradient(
   circle at 20% 20%,
-  rgba(255, 220, 227, 0.4) 0%,   /* very soft pink */
-  rgba(247, 233, 255, 0.35) 50%, /* soft lavender */
-  rgba(242, 240, 255, 0.3) 100%  /* light bluish white */
+  rgba(255, 220, 227, 0.4) 0%,   
+  rgba(247, 233, 255, 0.35) 50%, 
+  rgba(242, 240, 255, 0.3) 100%  
 );
-  background-color: #FFFFFF;
+  /* background-color: #ffffff; */
 }
 
 .star-icon{
   color:'#555555'
 }
+
+.yellow-star{
+  color: #555555;
+}
+
+
+.twinkle-star1,
+.twinkle-star2,
+.twinkle-star3,
+.twinkle-star4,
+.twinkle-star5 {
+  opacity: 0;
+  transform: scale(0.3);
+  animation: starPop 0.5s ease forwards;
+}
+
+/* Delay each star so they appear one by one */
+.twinkle-star1 { animation-delay: 0.2s; }
+.twinkle-star2 { animation-delay: 0.4s; }
+.twinkle-star3 { animation-delay: 0.6s; }
+.twinkle-star4 { animation-delay: 0.8s; }
+.twinkle-star5 { animation-delay: 1s; }
+
+/* Pop-in animation */
+@keyframes starPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.3) rotate(0deg);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.3) rotate(15deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+
+/* .twinkle-star {
+  animation: twinkle 1.8s infinite ease-in-out;
+}
+
+@keyframes twinkle {
+  0% { opacity: 1; transform: scale(1); }
+  25% { opacity: 0.5; transform: scale(1.2); }
+  50% { opacity: 1; transform: scale(1); }
+  75% { opacity: 0.7; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+} */
 
 .header-counter-sec h2{
   font-size: 18px;
@@ -111,8 +162,31 @@
   animation-duration: 26s;
 }
 
+/* Gift Box Styles */
+.gift-box {
+  position: absolute;
+  width: 110px;
+  z-index: 5;
+  animation: floatGift 4s ease-in-out infinite;
+  pointer-events: none; /* Do not block clicks */
+}
 
+.gift-left {
+  top: 10px;
+  left: 4px;
+}
 
+.gift-right {
+  top: 20px;
+  right: 30px;
+  transform: scaleX(-1); /* Mirror image for symmetry */
+}
+
+@keyframes floatGift {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0); }
+}
 
 /* ---------- Animated Soft Bubbles ---------- */
 /* .dots {
@@ -177,6 +251,7 @@
 
 .Herosection-body h1 {
   color: #262250;
+  /* color: #ffffff; */
   font-size: 64px;
   font-weight: 600;
   line-height: 1.2;
@@ -185,12 +260,15 @@
 
 .Herosection-body h6 {
 
-  color: #555555;
+  color: #262250;
   font-weight: 500;
   margin-bottom: 2rem;
   font-size: 21px;
 }
 
+/* .counter-section{
+  color: #ffffff;
+} */
 
 
 /* ---------- Button ---------- */
@@ -294,6 +372,45 @@
 }
 
 
+.santa-walk-video {
+  position: fixed;
+  top: 20px;       
+  left: -200px;
+  width: 100px;
+  z-index: 9999;
+  pointer-events: none;
+  animation: santaJump 12s linear infinite;
+}
+
+/* 🎅 LOW-JUMP ANIMATION */
+@keyframes santaJump {
+  0% { transform: translateX(-200px) translateY(0); }
+
+  /* ABOUT */
+  10% { transform: translateX(110px) translateY(0); }
+  15% { transform: translateX(110px) translateY(-15px); }   /* low jump */
+  20% { transform: translateX(110px) translateY(0); }
+
+  /* SERVICES */
+  30% { transform: translateX(270px) translateY(0); }
+  35% { transform: translateX(270px) translateY(-18px); }
+  40% { transform: translateX(270px) translateY(0); }
+
+  /* WORKS */
+  50% { transform: translateX(425px) translateY(0); }
+  55% { transform: translateX(425px) translateY(-20px); }
+  60% { transform: translateX(425px) translateY(0); }
+
+  /* REACH US */
+  70% { transform: translateX(580px) translateY(0); }
+  75% { transform: translateX(580px) translateY(-22px); }
+  80% { transform: translateX(580px) translateY(0); }
+
+  /* GET QUOTES */
+  90% { transform: translateX(760px) translateY(0); }
+  95% { transform: translateX(760px) translateY(-25px); }
+  100% { transform: translateX(760px) translateY(0); }
+}
 
 
 
@@ -305,6 +422,12 @@
   .mobileHerosection-body {
     display: block;
   }
+
+  .gift-box {
+    display: none;
+  }
+
+  
 
   /* .mobileHerosection-body {
   position: relative;

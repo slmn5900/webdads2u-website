@@ -18,6 +18,9 @@ import {
 
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import PropTypes from 'prop-types';
+// import WebdadsLogo from '../app/assets/webdads2u-new-logo.jpg'
+
+import WebdadsLogo from '../public/images/webdads2u-new-logo.jpg'
 
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -27,6 +30,8 @@ import { About, servicesDropdownDatas, Work } from './Headers/headerData';
 import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
 import '../style/Herosection.css';
+
+import Snowfall from 'react-snowfall';
 
 
 const socialIcons = [
@@ -63,6 +68,13 @@ function ElevationScroll(props) {
           ? '#ffffff'
           : 'linear-gradient(to right, #fcf2ff, #ffffff)'
         : '#ffffff',
+      // background: isMobile
+      //   ? '#ffffff'
+      //   : isHome
+      //   ? trigger
+      //     ? '#ffffff'
+      //     : '#000000'
+      //   : '#ffffff',
       color: '#000',
       transition: 'background 0.6s ease, box-shadow 0.4s ease, backdrop-filter 0.6s ease',
       backdropFilter: isHome && !trigger ? 'blur(6px)' : 'none',
@@ -103,17 +115,33 @@ export default function Header(props) {
     <>
       <CssBaseline />
 
+    {/* <video
+      className="santa-walk-video"
+      src="/images/santa-animation.mp4"
+      autoPlay
+      loop
+      muted
+      playsInline
+    /> */}
+
       <ElevationScroll {...props}>
         <AppBar position="fixed">
           <Toolbar sx={{ justifyContent: 'space-between' }}>
 
             {/* LOGO */}
             <Box component={Link} href="/" sx={{ display: 'flex', alignItems: 'center' }}>
-              <img
+              {/* <img
+                src={WebdadsLogo}
                 src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406731/webdads2u/logo.svg"
                 alt="Logo"
                 height="40"
+              /> */}
+              <img
+                src="/images/webdads-new-logo.png"
+                alt="Logo"
+                height="40"
               />
+
             </Box>
 
             {/* DESKTOP NAVIGATION */}
@@ -211,6 +239,12 @@ export default function Header(props) {
           scrollbarWidth: "none",
         }}
       >
+
+          <Snowfall
+        count={200}         
+        speed={[0.5, 2]}    
+        radius={[1, 5]}     
+      />
 
         {/* ================= TOP BLACK HEADER ================= */}
         <Box
@@ -510,8 +544,6 @@ export default function Header(props) {
     </motion.div>
   )}
 </AnimatePresence>
-
-
     </>
   );
 }

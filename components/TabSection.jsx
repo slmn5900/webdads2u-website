@@ -85,7 +85,7 @@ const TabSection = () => {
   return (
     <div>
       {/*  Tabs */}
-      <div className='d-flex custom-tab-button justify-content-center flex-wrap' >
+      <div className='d-flex custom-tab-button mb-20 justify-content-center flex-wrap' >
         {tabs.map((tab, index) => (
           <div key={index} className='tab-item'>
             <button

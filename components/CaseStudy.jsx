@@ -61,12 +61,17 @@ const CaseStudy = () => {
           <div className="second-section">
             <span>Case Study</span>
             <h3 className='desktop-h3'>
-              Some of Our Successful
+              {/* Some of Our Successful
               Projects Delight Customers
-              Across the Globe
+              Across the Globe */}
+
+              Some of Our Successful
+               Projects That Delivered 
+               Strong Business Results 
+              Globally 
             </h3>
             <h3 className='mobile-h3'>
-              Some of Our Successful Projects Delight Customers Across the Globe
+              Some of Our Successful Projects That Delivered Strong Business Results Globally 
             </h3>
           </div>
         </section>
@@ -75,11 +80,15 @@ const CaseStudy = () => {
         <section className="col-md-6">
           <div className="landing-page-casestudy-content case-study-right">
             <h5>
-              We craft exceptional websites and portfolios<br />
+              {/* We craft exceptional websites and portfolios<br />
               with passion, simplicity, and creativity,<br />
               offering innovative, client-focused solutions<br />
               as a leading web design and development<br />
-              company in Chennai.
+              company in Chennai. */}
+              We build high-performing digital solutions that turn ideas into revenue-driven 
+              outcomes. With a focus on innovation, simplicity, and client success, We've 
+              helped brands across industries scale faster as a leading web design and 
+              development company in chennai. 
             </h5>
           </div>
         </section>
@@ -105,11 +114,15 @@ const CaseStudy = () => {
         <section className="col-md-6">
           <div className="landing-page-casestudy-content case-study-right">
             <h5>
-              We craft exceptional websites and<br/> portfolios
+              {/* We craft exceptional websites and<br/> portfolios
               with passion, simplicity,<br/> and creativity,
               offering innovative,<br/> client-focused solutions
               as a <br/> leading web design and<br/> development
-              company in Chennai.
+              company in Chennai. */}
+              We build high-performing digital solutions that turn ideas into revenue-driven 
+              outcomes. With a focus on innovation, simplicity, and client success, We've 
+              helped brands across industries scale faster as a leading web design and 
+              development company in chennai. 
             </h5>
           </div>
         </section>
