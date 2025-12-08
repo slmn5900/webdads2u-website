@@ -107,13 +107,13 @@ const Herosection = () => {
 
 
         <img 
-    src="/images/gift-box.png" 
+    src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197538/webdads2u/gifts.png" 
     alt="gift-left" 
     className="gift-box gift-left"
   />
 
   <img 
-    src="/images/gift-box.png" 
+    src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197538/webdads2u/gifts.png" 
     alt="gift-right" 
     className="gift-box gift-right"
   />

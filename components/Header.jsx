@@ -20,7 +20,7 @@ import useScrollTrigger from '@mui/material/useScrollTrigger';
 import PropTypes from 'prop-types';
 // import WebdadsLogo from '../app/assets/webdads2u-new-logo.jpg'
 
-import WebdadsLogo from '../public/images/webdads2u-new-logo.jpg'
+// import WebdadsLogo from '../public/images/webdads2u-new-logo.jpg'
 
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -32,7 +32,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 import '../style/Herosection.css';
 
 import Snowfall from 'react-snowfall';
-
 
 const socialIcons = [
   { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105556/webdads2u/mainpage/icons/ri-facebook-fill.png', link: 'https://www.facebook.com/Webdads2u' },
@@ -123,7 +122,6 @@ export default function Header(props) {
       muted
       playsInline
     /> */}
-
       <ElevationScroll {...props}>
         <AppBar position="fixed">
           <Toolbar sx={{ justifyContent: 'space-between' }}>
@@ -137,7 +135,8 @@ export default function Header(props) {
                 height="40"
               /> */}
               <img
-                src="/images/webdads-new-logo.png"
+                // src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197314/webdads2u/webdads2u-christmas-logo.png"
+                src='https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197314/webdads2u/webdads2u-christmas-logo.png'
                 alt="Logo"
                 height="40"
               />
@@ -261,7 +260,8 @@ export default function Header(props) {
           {/* LEFT LOGO */}
           <Box component={Link} href="/" onClick={closeOverlay}>
             <img
-              src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406867/webdads2u/footer-logo.avif"
+              // src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406867/webdads2u/footer-logo.avif"
+              src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197314/webdads2u/webdads2u-christmas-logo.png"
               alt="Logo"
               height="50"
               style={{ objectFit: "contain" }}
@@ -490,7 +490,8 @@ export default function Header(props) {
             {/* LEFT LOGO */}
             <Box>
               <img
-                src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406731/webdads2u/logo.svg"
+                // src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406731/webdads2u/logo.svg"
+                src='https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197314/webdads2u/webdads2u-christmas-logo.png'
                 height="55"
               />
               <Typography sx={{ fontSize: 12, color: "#666", mt: 1 }}>

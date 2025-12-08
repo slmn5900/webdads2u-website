@@ -172,12 +172,12 @@
 }
 
 .gift-left {
-  top: 10px;
+  top: 80px;
   left: 4px;
 }
 
 .gift-right {
-  top: 20px;
+  top: 80px;
   right: 30px;
   transform: scaleX(-1); /* Mirror image for symmetry */
 }

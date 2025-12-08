@@ -87,7 +87,7 @@ export default function RootLayout({ children }) {
                 {/* GTM Noscript */}
    
             <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMJN6N87"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
 
 
 
