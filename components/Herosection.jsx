@@ -22,7 +22,6 @@ const Herosection = () => {
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({ name: '', mobile: '', email: '', service: '' });
 
-  // Auto popup after 3 seconds
   useEffect(() => {
     const alreadyShown = sessionStorage.getItem('popupshown');
     if (!alreadyShown) {
@@ -34,14 +33,12 @@ const Herosection = () => {
     }
   }, []);
 
-  // Listen to global popup event
   useEffect(() => {
     const openPopup = () => setShowPopup(true);
     window.addEventListener("openGlobalPopup", openPopup);
     return () => window.removeEventListener("openGlobalPopup", openPopup);
   }, []);
 
-  // Counter setup
   const datas = [
     { label: 'Successful Projects', end: 200 },
     { label: 'Sales Closed', end: 300 },

@@ -15,6 +15,7 @@ const LatestBlog = dynamic(() => import("../components/LatestBlog"), {
 import WebsitePerformance from "../components/WebsitePerformance";
 import dynamic from 'next/dynamic';
 
+
 const LandingPage = () => {
     return (
         <div>
