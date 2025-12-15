@@ -11,13 +11,13 @@ import { Inter } from "next/font/google";
 import '../style/LatestBlog.css';
 // Footer data with links
 const leftLinks = [
-  { name: 'Work', link: '/work' },
-  { name: 'Contact Us', link: '/contact' },
-  { name: 'Career', link: '/career' },
-  { name: 'Blog', link: '/blog' },
-  { name: 'Privacy Policy', link: '/privacy-policy' },
-  { name: 'Terms & Conditions', link: '/terms-conditions' },
-  { name: 'Refund Policy', link: '/refund-policy' },
+  { name: 'Work', link: '/work/' },
+  { name: 'Contact Us', link: '/contact-us/' },
+  { name: 'Career', link: '/career/' },
+  { name: 'Blog', link: '/blog/' },
+  { name: 'Privacy Policy', link: '/privacy-policy/' },
+  { name: 'Terms & Conditions', link: '/terms-and-conditions/' },
+  { name: 'Refund Policy', link: '/refund-policy/' },
 ];
 
 const inter = Inter({

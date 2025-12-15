@@ -4,7 +4,7 @@ import { useTypewriter } from 'react-simple-typewriter';
 import ReCAPTCHA from 'react-google-recaptcha';
 import '../style/Herosection.css';
 import { FaStar } from "react-icons/fa";
-import { quirckServiceForm } from '../api/UserAuthentication'; 
+import { quirckServiceForm } from '../api/UserAuthentication';
 
 import Snowfall from 'react-snowfall';
 
@@ -12,8 +12,8 @@ const Herosection = () => {
   const [text] = useTypewriter({
     words: ['Digital Marketing ', 'Web Development ', 'Branding ', 'Automation', 'App Development'],
     loop: true,
-    typeSpeed:20,
-    deleteSpeed:20,
+    typeSpeed: 20,
+    deleteSpeed: 20,
     delaySpeed: 30,
   });
 
@@ -101,47 +101,21 @@ const Herosection = () => {
 
   return (
     <>
-      {/* HERO SECTION */}
       <section className="hero">
+        <img
+          src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197538/webdads2u/gifts.png"
+          alt="gift-left"
+          className="gift-box gift-left"
+        />
 
+        <img
+          src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197538/webdads2u/gifts.png"
+          alt="gift-right"
+          className="gift-box gift-right"
+        />
 
-
-        <img 
-    src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197538/webdads2u/gifts.png" 
-    alt="gift-left" 
-    className="gift-box gift-left"
-  />
-
-  <img 
-    src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197538/webdads2u/gifts.png" 
-    alt="gift-right" 
-    className="gift-box gift-right"
-  />
-
-
-  {/* Custom Snowflakes */}
-{/* <div className="snowflake-container">
-  {Array.from({ length: 25 }).map((_, i) => (
-    <img
-      key={i}
-      src="/images/snow-flake.png"   
-      className="snowflake"
-      style={{
-        left: `${Math.random() * 100}%`,
-        animationDelay: `${Math.random() * 5}s`,
-        animationDuration: `${6 + Math.random() * 5}s`,
-        width: `${15 + Math.random() * 20}px`,
-      }}
-    />
-  ))}
-</div> */}
-
-
-
-
-        {/* SNOWFALL (your existing effect stays) */}
         <Snowfall
-          count={200}
+          count={500}
           speed={[0.5, 2]}
           radius={[1, 5]}
         />
@@ -150,10 +124,8 @@ const Herosection = () => {
           {[...Array(5)].map((_, i) => <div key={i} className="dot"></div>)}
         </div>
 
-        {/* Desktop Hero */}
         <div className="Herosection-body glass text-center">
           <h1>
-            {/* Better <span style={{ fontWeight: '500', color: '#d7142a' }}>{text}</span> Solution */}
             Better <span style={{ fontWeight: '500', color: '#d7142a' }}>{text}</span> Solution
             <br /> to Transform your Business
           </h1>
@@ -163,10 +135,8 @@ const Herosection = () => {
             className="social-btn"
             onClick={() => window.dispatchEvent(new Event("openGlobalPopup"))}
           >
-            Start Your Project 
+            Start Your Project
           </button>
-
-          {/* Counters */}
           <div className="counter-main-home d-flex" style={{ justifyContent: 'flex-start', gap: '60px', padding: '40px', marginTop: '50px' }}>
             {datas.map((item, i) => (
               <div key={i} style={{ textAlign: 'center' }} className='d-flex header-counter-sec align-items-baseline'>
@@ -175,21 +145,20 @@ const Herosection = () => {
               </div>
             ))}
             <div className='d-flex align-items-baseline gap-1'>
-              <FaStar className='star-icon yellow-star twinkle-star1 twinkle-star' />
-              <FaStar className='star-icon yellow-star twinkle-star2 twinkle-star' />
-              <FaStar className='star-icon yellow-star twinkle-star3 twinkle-star' />
-              <FaStar className='star-icon yellow-star twinkle-star4 twinkle-star' />
-              <FaStar className='star-icon yellow-star twinkle-star5 twinkle-star' />
+              <FaStar className='text-yellow-400 twinkle-star1' />
+              <FaStar className='text-yellow-400 twinkle-star2' />
+              <FaStar className='text-yellow-400 twinkle-star3' />
+              <FaStar className='text-yellow-400 twinkle-star4' />
+              <FaStar className='text-yellow-400 twinkle-star5' />
               <h6 className='header-counter-sec google-rating ps-3'>Google Rating</h6>
             </div>
           </div>
         </div>
 
-        {/* Mobile Hero */}
         <div className="mobileHerosection-body glass text-center">
           <h1>
             Better <br />
-            <span style={{ fontWeight: 600, color: '#d7142a',fontSize:'32px' }}>{text}</span> <br />
+            <span style={{ fontWeight: 600, color: '#d7142a', fontSize: '32px' }}>{text}</span> <br />
             Solution to<br />Transform <br />your Business
           </h1>
           <h6>Our expertise in bringing ideas to reality help your market place</h6>
@@ -203,7 +172,6 @@ const Herosection = () => {
         </div>
       </section>
 
-      {/* POPUP OVERLAY */}
       {showPopup && (
         <div
           className="popup-overlay"

@@ -1,97 +1,19 @@
-/* Styling for parent menu
-/* .navbar-menu {
-    position: relative;
-}
-
-.navbar-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar-menu li {
-    position: relative;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.navbar-menu .submenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #fff;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-menu li:hover .submenu {
-    display: block;
-}
-
-.navbar-menu .submenu li {
-    padding: 10px;
-    white-space: nowrap;
-}
-
-.navbar-menu .submenu li:hover {
-    background-color: #f5f5f5;
-}
-
-
-.submenu {
-    display: none;
-    flex-direction: column;
-    background-color: #fff;
-    padding-left: 20px;
-}
-
-.submenu.active {
-    display: flex;
-}
-
-.hidden {
-    display: none;
-}
-
-
-.nested-submenu {
-    padding-left: 15px;
-    margin-top: 10px;
-}
-
-.menu-item {
-    cursor: pointer;
-    padding: 10px;
-}
-
-.menu-item i {
-    margin-left: auto;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-} */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body {
     overflow-x: hidden !important;
 }
-.digital-partical-div{
+.digital-partical-div {
     background-color: #871752;
-     align-items: baseline !important;
-    }
+    align-items: baseline !important;
+}
 
 .digital-home {
-    li{
+    li {
         padding-top: 5px !important;
     }
-  
 }
-.digital-home-li{
+.digital-home-li {
     padding-top: 10px !important;
 }
 .landing-page-card-btn:hover {
@@ -160,19 +82,12 @@ body{
     color: #871752;
 }
 
-// .landing-page-faq-accordionItem {
-//     margin-bottom: 1rem;
-//     border: none;
-// }
-
 .landing-page-faq-accordionHeader {
     background-color: #f8f9fa;
     border: none;
     cursor: pointer;
     position: relative;
     font-weight: 500 !important;
-
-    // padding: 1rem;
 }
 
 .accordion-button {
@@ -188,9 +103,6 @@ body{
 .accordion-button:focus,
 .accordion-button:active {
     box-shadow: none;
-    // border-color: transparent;
-    // outline: 2px solid #d5d8dc;
-    // border: 2px solid #1b60bb !important;
     border: 2px solid #d5d8dc;
 }
 
@@ -211,14 +123,7 @@ body{
 }
 
 .accordion-button::after {
-    // background-color: #fff;
-    // color: wheat !important;
     color: #d5d8dc;
-    // background-image: url('/webdads/images/landingpage/Hero-content/plus.svg') !important;
-}
-
-.accordion-button:not(.collapsed)::after {
-    // background-image: url('/webdads/images/landingpage/Hero-content/dash.svg') !important;
 }
 
 .accordion-button {
@@ -251,7 +156,7 @@ body{
     left: 60px;
 }
 
-.landing-page-testimonial h3{
+.landing-page-testimonial h3 {
     font-family: 'Poppins', Sans-serif;
     font-size: calc(2rem + 2vw);
     line-height: 60px;
@@ -264,21 +169,20 @@ body{
     font-size: calc(2rem + 2vw); /* Example: Combine rem and vw units */
 }
 
-.android-app-development-slider{
-  margin-top:-50px; 
-  color:#fff;
+.android-app-development-slider {
+    margin-top: -50px;
+    color: #fff;
 }
 
-/* Media query for smaller screens */
-@media  (max-width: 425px) {
+@media (max-width: 425px) {
     .landing-page-testimonial h3 {
-        font-size: calc(1.5rem + 1vw); /* Adjust as needed for smaller screens */
+        font-size: calc(1.5rem + 1vw);
         line-height: 30px;
     }
 }
 
 .landing-page-testimonial-carousel-caption {
-    font-family: 'Poppins', Sans-serif;
+    // font-family: 'Poppins', Sans-serif;
     font-size: 20px;
     font-weight: 500;
     color: #aaa;
@@ -297,17 +201,12 @@ body{
     }
 }
 
-.landing-page-testimonial-carousel-caption-p::after {
-    // background-image: url('/webdads/images/landingpage/testimonial/quotes.png') !important;
-}
-
 .carousel-indicators {
     border-radius: 35px;
     width: 160px;
     margin-left: 35%;
 }
 .carousel-indicators > button[aria-current='false'] {
-    // ackground: #000;
     border: 2px solid;
     border-radius: 50%;
     width: 15px;
@@ -324,16 +223,11 @@ body{
 
 .landing-page-testimonial-carousel-caption-p {
     color: #162541;
-    // font-style: italic;
     line-height: 1.6;
     font-size: 24px !important;
     font-family: 'Poppins';
     font-weight: 400;
 }
-
-
-
-//---caseStudy---
 
 .landing-page-casestudy-span-div {
     color: #871752 !important;
@@ -351,16 +245,13 @@ body{
     position: absolute;
     top: 13%;
     left: 125px;
-    
 }
-.landing-page-casestudy-content{
+.landing-page-casestudy-content {
     color: #666;
-    font-family: "Poppins", Sans-serif;
-    // font-size: 16px;
-    // font-weight: 400;
+    font-family: 'Poppins', Sans-serif;
     line-height: 30px;
     height: 300px;
-    >p{
+    > p {
         border: 0;
         font-size: 100%;
         font-size: 16px !important;
@@ -369,8 +260,7 @@ body{
         padding: 0;
         vertical-align: baseline;
         color: #666;
-        // background-color: #871752;
-        font-family: "Poppins", Sans-serif;
+        font-family: 'Poppins', Sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 30px;
@@ -378,11 +268,8 @@ body{
     }
 }
 
-
-
-
-.landing-page-casestudy-span-div h3{
-    font-family: "Poppins", Sans-serif;
+.landing-page-casestudy-span-div h3 {
+    font-family: 'Poppins', Sans-serif;
     font-size: 30px;
     line-height: 48px;
     color: #000001;
@@ -391,8 +278,7 @@ body{
 }
 
 .Industries-serv {
-    .col-md-3{
+    .col-md-3 {
         padding: 3px !important;
     }
 }
-

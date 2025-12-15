@@ -1,186 +1,31 @@
-// "use client";
-
-// import React, { Suspense } from 'react';
-// import Script from 'next/script';
-// import './home.scss';
-// import '../style/home/landing_page.scss';
-// import LoadingComponent from '../components/LoadingComponent';
-
-// const Herosection = React.lazy(() => import('../components/Herosection'));
-// const Formsection = React.lazy(() => import('../components/Formsection'));
-// const ServicesSection = React.lazy(() => import('../components/ServicesSection'));
-// const LoadMoreImage = React.lazy(() => import('../components/LoadMoreImage'));
-// const Project = React.lazy(() => import('../components/Project'));
-// const DigitalMargeting = React.lazy(() => import('../components/DigitalMargeting'));
-// const Application = React.lazy(() => import('../components/Application'));
-// const BrandingServices = React.lazy(() => import('../components/BrandingServices'));
-// const Counter = React.lazy(() => import('../components/Counter'));
-// const Industries = React.lazy(() => import('../components/Industries'));
-// const CaseStudy = React.lazy(() => import('../components/CaseStudy'));
-// const FAQ = React.lazy(() => import('../components/FAQ'));
-// const CardCantainer = React.lazy(() => import('../components/CardContainer'));
-// const CustomTabPanel = React.lazy(() => import('../components/CustomTabPanel'));
-
-// const LandingPage = () => {
-//     return (
-//         <div>
-//             <Script
-//                 id="google-analytics"
-//                 strategy="afterInteractive"
-//                 src="https://www.googletagmanager.com/gtag/js?id=G-GXW76734KX"
-//             />
-//             <Script id="ga4-config" strategy="afterInteractive">
-//                 {`
-//                     window.dataLayer = window.dataLayer || [];
-//                     function gtag(){dataLayer.push(arguments);}
-//                     gtag('js', new Date());
-//                     gtag('config', 'G-GXW76734KX');
-//                 `}
-//             </Script>
-//             <Script id="gtm-home" strategy="afterInteractive">
-//                 {`
-//                     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-//                     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-//                     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-//                     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-//                     })(window,document,'script','dataLayer','GTM-WZXCJ8W3');
-//                 `}
-//             </Script>
-//             <noscript>
-//                 <iframe
-//                     src="https://www.googletagmanager.com/ns.html?id=GTM-WZXCJ8W3"
-//                     height="0"
-//                     width="0"
-//                     style={{ display: 'none', visibility: 'hidden' }}
-//                 ></iframe>
-//             </noscript>
-
-//             <Suspense fallback={<LoadingComponent />}>
-//                 <Herosection />
-//                 <Formsection />
-//                 <ServicesSection />
-//                 <LoadMoreImage />
-//                 <Project />
-//                 <DigitalMargeting />
-//                 <Application />
-//                 <BrandingServices />
-//                 <Counter />
-//                 <Industries />
-//                 <CaseStudy />
-//                 <CustomTabPanel />
-//                 <FAQ />
-//                 <CardCantainer />
-//             </Suspense>
-//         </div>
-//     );
-// };
-
-// export default LandingPage;
-
-
-"use client";
-import React, { Suspense, useEffect } from 'react';
-import Script from 'next/script';
 import './home.scss';
 import '../style/home/landing_page.scss';
-import LoadingComponent from '../components/LoadingComponent';
-import dynamic from "next/dynamic";
 
-
-
-const Herosection = dynamic(() => import('../components/Herosection'));
-const Formsection = dynamic(() => import('../components/Formsection'));
-const ServicesSection = dynamic(() => import('../components/ServicesSection'));
-const LoadMoreImage = dynamic(() => import('../components/LoadMoreImage'));
-const Project = dynamic(() => import('../components/Project'));
-const DigitalMargeting = dynamic(() => import('../components/DigitalMargeting'));
-const Application = dynamic(() => import('../components/Application'));
-const BrandingServices = dynamic(() => import('../components/BrandingServices'));
-const Counter = dynamic(() => import('../components/Counter'));
-const Industries = dynamic(() => import('../components/Industries'));
-const CaseStudy = dynamic(() => import('../components/CaseStudy'));
-const FAQ = dynamic(() => import('../components/FAQ'));
-const CardCantainer = dynamic(() => import('../components/CardContainer'));
-const CustomTabPanel = dynamic(() => import('../components/CustomTabPanel'));
-const WebDesigningSection = dynamic(() => import('../components/WebDesigningSection'));
-const LogoSlider = dynamic(() => import('../components/LogoSlider'))
-// import WebDesigningSection from '../components/ui/WebDesigningSection';
-const IndustriesServe = dynamic(() => import('../components/IndustriesServe'));
-const TabSection = dynamic(() => import('../components/TabSection'));
-const LatestBlog = dynamic(() => import('../components/LatestBlog'));
-const WebsitePerformance = dynamic(() => import('../components/WebsitePerformance'));
+import Herosection from "../components/Herosection";
+import CaseStudy from "../components/CaseStudy";
+import WebDesigningSection from "../components/WebDesigningSection";
+const LogoSlider = dynamic(() => import("../components/LogoSlider"), {
+    ssr: false,
+});
+import IndustriesServe from "../components/IndustriesServe";
+import TabSection from "../components/TabSection";
+const LatestBlog = dynamic(() => import("../components/LatestBlog"), {
+    ssr: false,
+});
+import WebsitePerformance from "../components/WebsitePerformance";
+import dynamic from 'next/dynamic';
 
 const LandingPage = () => {
-     useEffect(() => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    }, []);
-
     return (
         <div>
-            <Script
-                id="google-analytics"
-                strategy="afterInteractive"
-                src="https://www.googletagmanager.com/gtag/js?id=G-GXW76734KX"
-            />
-            <Script id="ga4-config" strategy="afterInteractive">
-                {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-GXW76734KX');
-                `}
-            </Script>
-            <Script id="gtm-home" strategy="afterInteractive">
-                {`
-                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                    })(window,document,'script','dataLayer','GTM-WZXCJ8W3');
-                `}
-            </Script>
-            <noscript>
-                <iframe
-                    src="https://www.googletagmanager.com/ns.html?id=GTM-WZXCJ8W3"
-                    height="0"
-                    width="0"
-                    style={{ display: 'none', visibility: 'hidden' }}
-                ></iframe>
-            </noscript>
-
             <Herosection />
-            <CaseStudy /> 
-            <TabSection/> 
-            <WebsitePerformance/>
-            <WebDesigningSection/> 
-            <IndustriesServe/>
-            <LogoSlider/>
+            <CaseStudy />
+            <TabSection />
+            <WebsitePerformance />
+            <WebDesigningSection />
+            <IndustriesServe />
+            <LogoSlider />
             <LatestBlog />
-
-           {/*   
-           
-             <Counter />  
-            <CardCantainer /> 
-            <CustomTabPanel />
-            <LatestBlog />
-            */}
-
-            {/* <Formsection /> */}
-            {/* <ServicesSection />
-            <LoadMoreImage />
-            <Project />
-            <DigitalMargeting />
-            <Application />
-            <BrandingServices />
-            
-            <Industries /> */}
-            
-            {/* <CustomTabPanel /> */}
-            {/* <WebDesigningSection/> */}
-            
-            
-            {/* <FAQ /> */}
-            
         </div>
     );
 };

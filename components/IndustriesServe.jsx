@@ -4,15 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import '../style/IndustriesServe.css';
 import Slider from "react-slick";
-import { FaPlay, FaPause, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { FaPlay, FaPause, } from "react-icons/fa";
 import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
-import Image from 'next/image';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// import chakaravarthyLogo from 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105173/logo/chakaravarthy-catering-logo.png';
-// import yegovahLogo from 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105172/logo/yegovah-logo.png';
-// import espressoLogo from 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105175/logo/espresso-logo.png';
 
 const IndustriesServe = () => {
   const Industries = [
@@ -37,87 +33,62 @@ const IndustriesServe = () => {
   const IndustriesVideo = [
     {
       video: "https://res.cloudinary.com/dbpv95wd8/video/upload/v1763103907/webdads2u/chakaravarthy-catering-client-testimonial.mp4", // ✅ use embed link
-      // logo: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105173/logo/chakaravarthy-catering-logo.png",
       name: "Chakaravarthy Catering",
     },
     {
-      video: "https://res.cloudinary.com/dbpv95wd8/video/upload/v1763103916/webdads2u/yegovah-catering-client-testimonial.mp4", 
-      // logo: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105172/logo/yegovah-logo.png",
+      video: "https://res.cloudinary.com/dbpv95wd8/video/upload/v1763103916/webdads2u/yegovah-catering-client-testimonial.mp4",
       name: "Yegovah Telecommunications",
     },
     {
-      video: "https://res.cloudinary.com/dbpv95wd8/video/upload/v1763104747/webdads2u/espresso-coffee-shop-catering-client-testimonial.mp4", 
-      // logo: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105175/logo/espresso-logo.png",
+      video: "https://res.cloudinary.com/dbpv95wd8/video/upload/v1763104747/webdads2u/espresso-coffee-shop-catering-client-testimonial.mp4",
       name: "Espresso Bar",
-    
+
     },
   ];
 
 
   const PrevArrow = ({ onClick }) => (
     <div className="custom-prev" onClick={onClick}>
-      <FiArrowLeft/>
+      <FiArrowLeft />
     </div>
   );
 
   const NextArrow = ({ onClick }) => (
     <div className="custom-next" onClick={onClick}>
-      <FiArrowRight/>
+      <FiArrowRight />
     </div>
   );
 
-  // const settings = {
-  //   dots: false,
-  //   infinite: true,
-  //   speed: 600,
-  //   slidesToShow: 3,
-  //   slidesToScroll: 1,
-  //   autoplay: false,
-  //   autoplaySpeed: 3500,
-  //   arrows: true,
-  //   prevArrow: <PrevArrow />,
-  //   nextArrow: <NextArrow />,
-  //   responsive: [
-  //     { breakpoint: 1024, settings: 'unslick' },
-  //     { breakpoint: 1024, settings: { slidesToShow: 3, prevArrow: <PrevArrow />, nextArrow: <NextArrow /> } },
-  //     { breakpoint: 768, settings: { slidesToShow: 2, prevArrow: <PrevArrow />, nextArrow: <NextArrow /> } },
-  //     { breakpoint: 480, settings: { slidesToShow: 1, arrows: false } },
-  //   ],
-  // };
-
   const settings = {
-  dots: false,
-  infinite: true,
-  speed: 600,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: false, // desktop should NOT autoplay
-  autoplaySpeed: 3500,
-  arrows: true,
-  prevArrow: <PrevArrow />,
-  nextArrow: <NextArrow />,
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 3500,
+    arrows: true,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
 
-  responsive: [
-    // Desktop unchanged
-    { breakpoint: 1024, settings: { slidesToShow: 3, prevArrow: <PrevArrow />, nextArrow: <NextArrow /> } },
+    responsive: [
+      { breakpoint: 1024, settings: { slidesToShow: 3, prevArrow: <PrevArrow />, nextArrow: <NextArrow /> } },
 
-    // Tablet: no autoplay
-    { breakpoint: 768, settings: { slidesToShow: 2, arrows: true } },
+      { breakpoint: 768, settings: { slidesToShow: 2, arrows: true } },
 
-    // MOBILE: autoplay enabled
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        arrows: false,
-        autoplay: true,          // ✅ Auto-scroll on mobile
-        autoplaySpeed: 3000,     // speed
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 3000,
+        },
       },
-    },
-  ],
-};
+    ],
+  };
 
-  
+
 
   const VideoCard = ({ item }) => {
     const videoRef = useRef(null);
@@ -137,13 +108,13 @@ const IndustriesServe = () => {
     const isYouTube = item.video.includes("youtube.com");
 
     return (
-      <div className="video-slide px-3">
-        <div className="rounded-3xl shadow-md p-3 text-center" style={{ overflow: "hidden" }}>
+      <div className="video-slide">
+        <div className="rounded-3xl shadow-md px-2 text-center" style={{ overflow: "hidden" }}>
           <div className="video-wrapper">
             {isYouTube ? (
               <iframe
                 width="100%"
-                height="450"
+                height="600"
                 src={item.video}
                 title={item.name}
                 frameBorder="0"
@@ -168,17 +139,6 @@ const IndustriesServe = () => {
               </div>
             )}
           </div>
-
-          {/* <div className="flex flex-col items-center industries-serve-img">
-            <Image
-              src={item.logo}
-              alt={item.name}
-              width={100}
-              height={100}
-              className="object-contain mb-2 h-30 w-30"
-            />
-            
-          </div> */}
         </div>
       </div>
     );
@@ -193,15 +153,13 @@ const IndustriesServe = () => {
         </p>
 
         <Row className="industries-serve-main desktop-view">
-          {Industries.map((industry, index) => (
+          {Industries?.map((industry, index) => (
             <div key={index}>
-              <img src={industry.img} alt={industry.name} style={{ height: "60px", width: "50px" }}/>
+              <img src={industry.img} alt={industry.name} style={{ height: "60px", width: "50px" }} />
               <p className="industries-p2">{industry.name}</p>
             </div>
           ))}
         </Row>
-
-        {/* ✅ Mobile Carousel */}
         <div className="industries-mobile-slider">
           <Slider
             dots={false}
@@ -228,8 +186,6 @@ const IndustriesServe = () => {
           </Slider>
         </div>
       </Container>
-
-      {/* ✅ Video Section */}
       <div style={{ background: "#F9F9F9", width: "100%" }} className='video-section-cont'>
         <Container fluid>
           <Row className="videosection-industriesSeries text-center">
@@ -237,7 +193,7 @@ const IndustriesServe = () => {
             <h3 className="mb-4">Hear What They Say!</h3>
 
             <Slider {...settings}>
-              {IndustriesVideo.map((item, index) => (
+              {IndustriesVideo?.map((item, index) => (
                 <VideoCard key={index} item={item} />
               ))}
             </Slider>

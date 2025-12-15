@@ -1,40 +1,58 @@
-'use client';
-import React, { useEffect, useRef } from "react";
-import '../style/LogoSlider.css';
+"use client";
+
+import React, { useEffect, useRef, useState } from "react";
+import "../style/LogoSlider.css";
 import { Logos } from "./common/Datas/Logo";
 
 const LogoSlider = () => {
   const sliderRef = useRef(null);
+  const [mounted, setMounted] = useState(false);
 
+  // ✅ Ensure client-only render
   useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // ✅ Start animation ONLY after mount
+  useEffect(() => {
+    if (!mounted) return;
+
     const slider = sliderRef.current;
-    let scrollSpeed = 0.8;   // Adjust speed
+    if (!slider) return;
+
+    let scrollSpeed = 0.8;
     let animationFrame;
 
     const scroll = () => {
-      if (slider) {
-        slider.scrollLeft += scrollSpeed;
-        if (slider.scrollLeft >= slider.scrollWidth / 2) {
-          slider.scrollLeft = 0;
-        }
+      slider.scrollLeft += scrollSpeed;
+      if (slider.scrollLeft >= slider.scrollWidth / 2) {
+        slider.scrollLeft = 0;
       }
       animationFrame = requestAnimationFrame(scroll);
     };
 
     animationFrame = requestAnimationFrame(scroll);
 
-    slider.addEventListener('mouseenter', () => cancelAnimationFrame(animationFrame));
-    slider.addEventListener('mouseleave', () => (animationFrame = requestAnimationFrame(scroll)));
+    const pause = () => cancelAnimationFrame(animationFrame);
+    const resume = () => (animationFrame = requestAnimationFrame(scroll));
 
-    return () => cancelAnimationFrame(animationFrame);
-  }, []);
+    slider.addEventListener("mouseenter", pause);
+    slider.addEventListener("mouseleave", resume);
 
-  const mergedLogos = [...Logos, ...Logos]; // duplicate for seamless loop
+    return () => {
+      cancelAnimationFrame(animationFrame);
+      slider.removeEventListener("mouseenter", pause);
+      slider.removeEventListener("mouseleave", resume);
+    };
+  }, [mounted]);
+
+  // ❗ Prevent SSR hydration mismatch
+  if (!mounted) return null;
+
+  const mergedLogos = [...Logos, ...Logos];
 
   return (
     <div className="logo-slider">
-
-      {/* Continuous Scroll Container */}
       <div className="logo-scroll" ref={sliderRef}>
         <div className="logo-track">
           {mergedLogos.map((logo, index) => (
@@ -44,7 +62,6 @@ const LogoSlider = () => {
           ))}
         </div>
       </div>
-
     </div>
   );
 };

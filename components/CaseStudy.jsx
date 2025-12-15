@@ -39,18 +39,18 @@ const CaseStudy = () => {
               {/*  CONTINUOUS SCROLL SLIDER */}
           <div className="case-study-slider mt-4 pb-5" ref={sliderRef}>
           <div className="slider-track">
-            <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>Digital Marketing</a></div>
-            <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>CRM & ERP Development</a></div>
-            <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>Branding</a></div>
-            <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>E-Commerce Development</a></div>  
-            <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>Mobile App Development</a></div>
+            <div className="slide-item"><a href="/digital-marketing-agency/" className='text-decoration-none'><span>•</span>Digital Marketing</a></div>
+            <div className="slide-item"><a href="/crm-erp-development/" className='text-decoration-none'><span>•</span>CRM & ERP Development</a></div>
+            <div className="slide-item"><a href="/branding-design/" className='text-decoration-none'><span>•</span>Branding</a></div>
+            <div className="slide-item"><a href="/ecommerce-website-development/" className='text-decoration-none'><span>•</span>E-Commerce Development</a></div>  
+            <div className="slide-item"><a href="/mobile-app-development/" className='text-decoration-none'><span>•</span>Mobile App Development</a></div>
 
             {/* Duplicate content for seamless infinite scroll */}
-            <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>Digital Marketing</a></div>
-            <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>CRM & ERP Development</a></div>
-            <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>Branding</a></div>
-            <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>E-Commerce Development</a></div>
-            <div className="slide-item"><a href="#" className='text-decoration-none'><span>•</span>Mobile App Development</a></div>
+            <div className="slide-item"><a href="/digital-marketing-agency/" className='text-decoration-none'><span>•</span>Digital Marketing</a></div>
+            <div className="slide-item"><a href="/crm-erp-development/" className='text-decoration-none'><span>•</span>CRM & ERP Development</a></div>
+            <div className="slide-item"><a href="/branding-design/" className='text-decoration-none'><span>•</span>Branding</a></div>
+            <div className="slide-item"><a href="/ecommerce-website-development/" className='text-decoration-none'><span>•</span>E-Commerce Development</a></div>
+            <div className="slide-item"><a href="/mobile-app-development/" className='text-decoration-none'><span>•</span>Mobile App Development</a></div>
           </div>
           </div>
         </div>
