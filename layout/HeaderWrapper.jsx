@@ -28,7 +28,6 @@ const omitHeaderPaths = [
     '/business-card-page',
     '/corporate-website-development',
     '/crm-erp-development-page',
-    '/web-design'
 ];
 
 export default function HeaderWrapper() {

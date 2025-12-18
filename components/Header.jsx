@@ -111,11 +111,7 @@ export default function Header(props) {
             {!isMobile && (
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 4 }}>
 
-                <Link
-                  href="#"
-                  onClick={(e) => { e.preventDefault(); setMenuOverlayOpen(true); setTimeout(() => { router.push("/about"); }, 300); }}
-                  style={{ textDecoration: 'none', color: '#000' }}
-                >
+          <Link href="/about" style={{ textDecoration: 'none', color: '#000' }}>
                   <Typography sx={{ fontSize: 16, fontWeight: 500 }}>About</Typography>
                 </Link>
 
@@ -267,7 +263,6 @@ export default function Header(props) {
                     >
 
                       <Box>
-
                         <Box>
                           <Typography
                             sx={{ fontWeight: 700, mb: 1, fontSize: 18, color: '#000000', cursor: 'pointer' }}
@@ -465,8 +460,7 @@ export default function Header(props) {
                           router.push('/works');
                           setTimeout(() => closeOverlay(), 50);
                         }}
-                      >
-                        E-COMMERCE DEVELOPMENT
+                      >                                                    Work DEVELOPMENT
                       </Typography>
                     </Box>
                     {Work.map((item, i) => (

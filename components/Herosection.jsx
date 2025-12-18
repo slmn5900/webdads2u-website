@@ -1,11 +1,16 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { useTypewriter } from 'react-simple-typewriter';
 import ReCAPTCHA from 'react-google-recaptcha';
 import '../style/Herosection.css';
 import { FaStar } from "react-icons/fa";
 import { quirckServiceForm } from '../api/UserAuthentication';
 import Snowfall from 'react-snowfall';
+import snow1 from "../app/assets/snow1.png";
+import snow2 from "../app/assets/snow2.png";
+import snow3 from "../app/assets/snow3.png";
+import snow4 from "../app/assets/snow4.png";
+import snow5 from "../app/assets/snow5.png";
 
 const Herosection = () => {
   const [text] = useTypewriter({
@@ -95,18 +100,6 @@ const Herosection = () => {
   return (
     <>
       <section className="hero">
-        <img
-          src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197538/webdads2u/gifts.png"
-          alt="gift-left"
-          className="gift-box gift-left"
-        />
-
-        <img
-          src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197538/webdads2u/gifts.png"
-          alt="gift-right"
-          className="gift-box gift-right"
-        />
-
         <Snowfall
           count={500}
           speed={[0.5, 2]}
@@ -123,7 +116,6 @@ const Herosection = () => {
             <br /> to Transform your Business
           </h1>
           <h6>Where Innovation meets Execution for Business Growth</h6>
-
           <button
             className="social-btn"
             onClick={() => window.dispatchEvent(new Event("openGlobalPopup"))}

@@ -78,15 +78,14 @@ const AboutPage = () => {
 
     return (
         <Box sx={{ mt: 3 }}>
-            {/* About Us Section */}
-            <Container sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 }, overflowX: 'hidden' }}>
+            <Container sx={{ p: { xs: 3.8, md: 6 }, pt: { xs: 0, md: 0 },     mt: { xs: 2, md: 10 },overflowX: 'hidden' }}>
                 <Grid2 container spacing={10} sx={{ mt: 5 }}>
                     <Grid2 size={{ xs: 12, md: 6 }}>
                         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
-                            <Typography variant="h4" sx={{ color: '#262250', fontWeight: 700, mb: 2, fontSize: { xs: '1.235rem', sm: '1.235rem', md: '2.125rem' } }}>
+                            <Typography variant="h4" sx={{ color: '#262250', fontWeight: 700, mb: 2, fontSize: { xs: '1.235rem', sm: '1.235rem', md: '2.300rem' } }}>
                                 About us
                             </Typography>
-                            <Typography variant="h4" sx={{ color: '#000001', fontWeight: 700, mb: 2, fontSize: { xs: '1.rem', sm: '1.235rem', md: '2.125rem' } }}>
+                            <Typography variant="h4" sx={{ color: '#000001', fontWeight: 500, mb: 2, fontSize: { xs: '1.rem', sm: '1.235rem', md: '2.125rem' } }}>
                                 Choose The Best IT Service Company
                             </Typography>
                             <Typography variant="body1" sx={{ color: '#474646', lineHeight: 1.8, mb: 2 }}>

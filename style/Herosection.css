@@ -177,11 +177,6 @@
     left: 30px;
 }
 
-.gift-right {
-    top: 90px;
-    right: 30px;
-    transform: scaleX(-1); /* Mirror image for symmetry */
-}
 
 @keyframes floatGift {
     0% {
