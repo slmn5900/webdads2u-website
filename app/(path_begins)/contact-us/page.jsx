@@ -1,5 +1,4 @@
 
-import React from 'react';
 import ContactHero from './ContactHero';
 export const metadata = {
     title: 'Professional Web Design Company In Chennai',

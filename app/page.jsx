@@ -12,6 +12,7 @@ import { faqSchema, localBusinessSchema, organizationSchema, webPageSchema, webs
 
 const LogoSlider = dynamic(() => import("../components/LogoSlider"));
 const LatestBlog = dynamic(() => import("../components/LatestBlog"));
+
 export const metadata = {
   title: "Web Development & Web Design Company in Chennai | Webdads2u",
   description:
