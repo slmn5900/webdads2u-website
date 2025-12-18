@@ -1,8 +1,4 @@
-import React from 'react';
-// import UnderConstructions from './UnderConstructions';
-// import dynamic from 'next/dynamic';
 import Culturals from './Culturals';
-// const UnderConstructions = dynamic(() => import('./UnderConstructions'), { ssr: false });
 
 export const metadata = {
     title: 'Pongal Celebrate In Webdads2u | Cultural',

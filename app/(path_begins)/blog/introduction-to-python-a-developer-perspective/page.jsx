@@ -1,7 +1,4 @@
-import React from 'react';
-import dynamic from 'next/dynamic';
-const UnderConstructions = dynamic(() => import('./UnderConstructions'), { ssr: false });
-// import UnderConstructions from './UnderConstructions';
+import UnderConstructions from './UnderConstructions';
 
 export const metadata = {
     title: 'Best Corporate Gifts Design Company In Chennai',
@@ -9,9 +6,7 @@ export const metadata = {
 };
 const page = () => {
     return (
-        <div>
-            <UnderConstructions />
-        </div>
+        <UnderConstructions />
     );
 };
 

@@ -1,5 +1,3 @@
-import React from 'react';
-import dynamic from 'next/dynamic';
 import './ecommerce.scss';
 export const metadata = {
     title: 'Ecommerce Website Development Company In Chennai',
@@ -7,14 +5,10 @@ export const metadata = {
     keyword:
         'ecommerce website development company in chennai,ecommerce website development,ecommerce website development company in chennai, ecommerce website development cost in chennai, ecommerce web development service in chennai, ecommerce website development companies in chennai'
 };
-const Herosec = dynamic(() => import('./Herosec'), { ssr: false });
+import Herosec from "./Herosec";
 const page = () => {
     return (
-        <div>
-            <>
-                <Herosec />
-            </>
-        </div>
+        <Herosec />
     );
 };
 

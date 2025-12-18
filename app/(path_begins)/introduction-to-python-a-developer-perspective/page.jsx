@@ -1,6 +1,4 @@
-import React from 'react';
-import dynamic from 'next/dynamic';
-const UnderConstructions = dynamic(() => import('../../../components/common/UnderConstructionsComponent'), { ssr: false });
+import UnderConstructions from "../../../components/common/UnderConstructionsComponent";
 
 export const metadata = {
     title: 'Introduction to Python A developer perspective',
@@ -9,9 +7,7 @@ export const metadata = {
 };
 const page = () => {
     return (
-        <div>
-            <UnderConstructions />
-        </div>
+        <UnderConstructions />
     );
 };
 

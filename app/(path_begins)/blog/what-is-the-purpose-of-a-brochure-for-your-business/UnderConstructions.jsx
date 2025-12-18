@@ -1,8 +1,5 @@
 'use client';
-import React from 'react';
 import Lottie from 'lottie-react';
-// import dynamic from 'next/dynamic';
-// const UnderConstruction = dynamic(() => import('../../../../components/common/UnderDevelopment.json'), { ssr: false });
 import UnderConstruction from '../../../../components/common/UnderDevelopment.json';
 
 const UnderConstructions = () => {

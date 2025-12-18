@@ -1,32 +1,5 @@
-   // import React from 'react';
-// import dynamic from 'next/dynamic';
-// const UnderConstructions = dynamic(() => import('./UnderConstructions'), { ssr: false });
-// export const metadata = {
-//     title: 'Best Web Design Company In Chennai',
-//     description: 'Creating stunning online experiences, our web design company blends creativity with technical expertise to bring your vision to life. Reach us today!'
-// };
-// const page = () => {
-//     return (
-//         <div>
-//             <UnderConstructions />
-//         </div>
-//     );
-// };
-
-// export default page;
-
-// =================================================================================================
-// =================================================================================================
-// =================================================================================================
-// =================================================================================================
-// =================================================================================================
-// =================================================================================================
-// =================================================================================================
-import React from 'react';
-import dynamic from 'next/dynamic';
-import Script from 'next/script'; // <-- Import Script from next/script
-
-const UnderConstructions = dynamic(() => import('./UnderConstructions'), { ssr: false });
+import Script from 'next/script';
+import UnderConstructions from './UnderConstructions';
 
 export const metadata = {
     title: '6 Reasons Why a Logo is Important',
@@ -37,7 +10,6 @@ export const metadata = {
 const Page = () => {
     return (
         <div>
-            {/* Your structured data script */}
             <Script
                 id="structured-data"
                 type="application/ld+json"

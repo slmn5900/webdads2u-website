@@ -1,5 +1,4 @@
 'use client';
-
 import { Avatar, Box, Button, Card, CardContent, CardMedia, Container, Grid2, Typography } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
