@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   AppBar,
   Box,
@@ -7,22 +7,13 @@ import {
   Typography,
   IconButton,
   CssBaseline,
-  useMediaQuery,
-  useTheme,
   Link,
-  CircularProgress,
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
 } from '@mui/material';
 
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import PropTypes from 'prop-types';
-
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import KeyboardDoubleArrowRightRoundedIcon from '@mui/icons-material/KeyboardDoubleArrowRightRounded';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { About, servicesDropdownDatas, Work } from './Headers/headerData';
 import { usePathname, useRouter } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -43,8 +34,11 @@ function ElevationScroll(props) {
   const { children } = props;
   const pathname = usePathname();
   const isHome = pathname === '/';
+  const [isMobile, setIsMobile] = useState(false);
 
-  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 768);
+  }, []);
 
   const trigger = useScrollTrigger({
     disableHysteresis: true,
@@ -80,24 +74,24 @@ ElevationScroll.propTypes = {
 
 
 export default function Header(props) {
-  const theme = useTheme();
   const router = useRouter()
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
-
-  const [isClient, setIsClient] = React.useState(false);
-  const [menuOverlayOpen, setMenuOverlayOpen] = React.useState(false);
-
-  React.useEffect(() => setIsClient(true), []);
-
-  if (!isClient) {
-    return (
-      <Box height="60px" display="flex" alignItems="center" justifyContent="center">
-        <CircularProgress size={24} />
-      </Box>
-    );
-  }
-
+  const [menuOverlayOpen, setMenuOverlayOpen] = useState(false);
   const closeOverlay = () => setMenuOverlayOpen(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 768);
+  }, []);
+
+
+  const [trigger, setTrigger] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setTrigger(window.scrollY > 50);
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <>
@@ -144,8 +138,6 @@ export default function Header(props) {
                 <Link href="/contact-us" style={{ textDecoration: 'none', color: '#000' }}>
                   <Typography sx={{ fontSize: 16, fontWeight: 500 }}>Reach us</Typography>
                 </Link>
-
-                {/* GET QUOTES BUTTON */}
                 <Link href="/contact-us" style={{ textDecoration: 'none' }}>
                   <Box
                     sx={{
@@ -162,8 +154,6 @@ export default function Header(props) {
                     Get quotes
                   </Box>
                 </Link>
-
-                {/* HAMBURGER NEXT TO BUTTON */}
                 <IconButton
                   color="inherit"
                   onClick={() => setMenuOverlayOpen(true)}
@@ -174,8 +164,6 @@ export default function Header(props) {
 
               </Box>
             )}
-
-            {/* MOBILE HAMBURGER */}
             {isMobile && (
               <IconButton color="inherit" onClick={() => setMenuOverlayOpen(true)}>
                 <MenuIcon />
@@ -185,10 +173,8 @@ export default function Header(props) {
           </Toolbar>
         </AppBar>
       </ElevationScroll>
-
       <Toolbar />
 
-      {/* ------------------- FULL SCREEN MENU ------------------- */}
       <AnimatePresence>
         {menuOverlayOpen && (
           <motion.div
@@ -215,7 +201,6 @@ export default function Header(props) {
                 radius={[1, 5]}
               />
 
-              {/* ================= TOP BLACK HEADER ================= */}
               <Box
                 sx={{
                   width: "100%",
@@ -227,10 +212,8 @@ export default function Header(props) {
                   justifyContent: "space-between",
                 }}
               >
-                {/* LEFT LOGO */}
                 <Box component={Link} href="/" onClick={closeOverlay}>
                   <img
-                    // src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406867/webdads2u/footer-logo.avif"
                     src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197314/webdads2u/webdads2u-christmas-logo.png"
                     alt="Logo"
                     height="50"
@@ -238,13 +221,11 @@ export default function Header(props) {
                   />
                 </Box>
 
-                {/* CLOSE ICON */}
                 <IconButton onClick={closeOverlay} sx={{ color: "#fff" }}>
                   <CloseIcon sx={{ fontSize: 32 }} />
                 </IconButton>
               </Box>
 
-              {/* ================= MAIN CONTENT ================= */}
               <Box sx={{ px: { xs: 3, md: 10 }, pt: 6, pb: 6 }}>
 
                 <Box
@@ -254,7 +235,6 @@ export default function Header(props) {
                     gap: 8,
                   }}
                 >
-                  {/* ---------- LEFT NAV (HOME, ABOUT…) ---------- */}
                   <Box>
                     {About.map((item, i) => (
                       <Link
@@ -277,7 +257,6 @@ export default function Header(props) {
                     ))}
                   </Box>
 
-                  {/* ---------- CENTER SERVICE COLUMNS ---------- */}
                   <Box>
                     <Box
                       sx={{
@@ -287,12 +266,19 @@ export default function Header(props) {
                       }}
                     >
 
-                      {/* ===== COLUMN 1 ===== */}
                       <Box>
-                        {/* WEBSITE DEVELOPMENT */}
-                        <Typography sx={{ fontWeight: 700, mb: 1, fontSize: 18, fontColor: '#000000' }}>
-                          WEBSITE DEVELOPMENT
-                        </Typography>
+
+                        <Box>
+                          <Typography
+                            sx={{ fontWeight: 700, mb: 1, fontSize: 18, color: '#000000', cursor: 'pointer' }}
+                            onClick={() => {
+                              router.push('/website-development'); // navigate first
+                              setTimeout(() => closeOverlay(), 50); // close overlay shortly after
+                            }}
+                          >
+                            WEBSITE DEVELOPMENT
+                          </Typography>
+                        </Box>
                         {servicesDropdownDatas[0].items.map((item, idx) => (
                           <Link
                             key={idx}
@@ -306,11 +292,18 @@ export default function Header(props) {
                           </Link>
                         ))}
 
-                        {/* WEB DESIGN */}
                         <Box mt={3}>
-                          <Typography sx={{ fontWeight: 700, mb: 1, fontSize: 18, fontColor: '#000000' }}>
-                            WEB DESIGN
-                          </Typography>
+                          <Box>
+                            <Typography
+                              sx={{ fontWeight: 700, mb: 1, fontSize: 18, color: '#000000', cursor: 'pointer' }}
+                              onClick={() => {
+                                router.push('/web-design'); // navigate first
+                                setTimeout(() => closeOverlay(), 50); // close overlay shortly after
+                              }}
+                            >
+                              WEB DESIGN
+                            </Typography>
+                          </Box>
                           {servicesDropdownDatas[1].items.map((item, idx) => (
                             <Link
                               key={idx}
@@ -326,12 +319,18 @@ export default function Header(props) {
                         </Box>
                       </Box>
 
-                      {/* ===== COLUMN 2 ===== */}
                       <Box>
-                        {/* SEO SERVICES */}
-                        <Typography sx={{ fontWeight: 700, mb: 1, fontSize: 18, fontColor: '#000000' }}>
-                          SEO SERVICES
-                        </Typography>
+                        <Box>
+                          <Typography
+                            sx={{ fontWeight: 700, mb: 1, fontSize: 18, color: '#000000', cursor: 'pointer' }}
+                            onClick={() => {
+                              router.push('/seo-company-in-chennai'); // navigate first
+                              setTimeout(() => closeOverlay(), 50); // close overlay shortly after
+                            }}
+                          >
+                            SEO SERVICES
+                          </Typography>
+                        </Box>
                         {servicesDropdownDatas[2].items.map((item, idx) => (
                           <Link
                             key={idx}
@@ -345,11 +344,18 @@ export default function Header(props) {
                           </Link>
                         ))}
 
-                        {/* BRANDING DESIGN */}
                         <Box mt={3}>
-                          <Typography sx={{ fontWeight: 700, mb: 1, fontSize: 18, fontColor: '#000000' }}>
-                            BRANDING DESIGN
-                          </Typography>
+                          <Box>
+                            <Typography
+                              sx={{ fontWeight: 700, mb: 1, fontSize: 18, color: '#000000', cursor: 'pointer' }}
+                              onClick={() => {
+                                router.push('/branding-design');
+                                setTimeout(() => closeOverlay(), 50);
+                              }}
+                            >
+                              BRANDING DESIGN
+                            </Typography>
+                          </Box>
                           {servicesDropdownDatas[3].items.map((item, idx) => (
                             <Link
                               key={idx}
@@ -365,12 +371,18 @@ export default function Header(props) {
                         </Box>
                       </Box>
 
-                      {/* ===== COLUMN 3 ===== */}
                       <Box>
-                        {/* MOBILE APP DEVELOPMENT */}
-                        <Typography sx={{ fontWeight: 700, mb: 1, fontSize: 18, fontColor: '#000000' }}>
-                          MOBILE APP DEVELOPMENT
-                        </Typography>
+                        <Box>
+                          <Typography
+                            sx={{ fontWeight: 700, mb: 1, fontSize: 18, color: '#000000', cursor: 'pointer' }}
+                            onClick={() => {
+                              router.push('/mobile-app-development');
+                              setTimeout(() => closeOverlay(), 50);
+                            }}
+                          >
+                            MOBILE APP DEVELOPMENT
+                          </Typography>
+                        </Box>
                         {servicesDropdownDatas[4].items.map((item, idx) => (
                           <Link
                             key={idx}
@@ -384,11 +396,21 @@ export default function Header(props) {
                           </Link>
                         ))}
 
-                        {/* CRM & ERP */}
                         <Box mt={3}>
-                          <Typography sx={{ fontWeight: 700, mb: 1, fontSize: 18, fontColor: '#000000' }}>
+                          {/* <Typography sx={{ fontWeight: 700, mb: 1, fontSize: 18, fontColor: '#000000' }}>
                             CRM & ERP DEVELOPMENT
-                          </Typography>
+                          </Typography> */}
+                          <Box>
+                            <Typography
+                              sx={{ fontWeight: 700, mb: 1, fontSize: 18, color: '#000000', cursor: 'pointer' }}
+                              onClick={() => {
+                                router.push('/crm-erp-development');
+                                setTimeout(() => closeOverlay(), 50);
+                              }}
+                            >
+                              CRM & ERP DEVELOPMENT
+                            </Typography>
+                          </Box>
                           {servicesDropdownDatas[5].items.map((item, idx) => (
                             <Link
                               key={idx}
@@ -402,12 +424,21 @@ export default function Header(props) {
                             </Link>
                           ))}
                         </Box>
-
-                        {/* E-COMMERCE */}
                         <Box mt={3}>
-                          <Typography sx={{ fontWeight: 700, mb: 1, fontSize: 18, fontColor: '#000000' }}>
+                          {/* <Typography sx={{ fontWeight: 700, mb: 1, fontSize: 18, fontColor: '#000000' }}>
                             E-COMMERCE DEVELOPMENT
-                          </Typography>
+                          </Typography> */}
+                          <Box>
+                            <Typography
+                              sx={{ fontWeight: 700, mb: 1, fontSize: 18, color: '#000000', cursor: 'pointer' }}
+                              onClick={() => {
+                                router.push('/ecommerce-website-development');
+                                setTimeout(() => closeOverlay(), 50);
+                              }}
+                            >
+                              E-COMMERCE DEVELOPMENT
+                            </Typography>
+                          </Box>
                           {servicesDropdownDatas[6].items.map((item, idx) => (
                             <Link
                               key={idx}
@@ -425,11 +456,19 @@ export default function Header(props) {
                     </Box>
                   </Box>
 
-                  {/* ---------- WORKS COLUMN ---------- */}
                   <Box>
-                    <Typography sx={{ fontSize: 16, fontWeight: 700, mb: 2, fontSize: 18, fontColor: '#000000' }}>
-                      WORKS
-                    </Typography>
+
+                    <Box>
+                      <Typography
+                        sx={{ fontWeight: 700, mb: 1, fontSize: 16, color: '#000000', cursor: 'pointer' }}
+                        onClick={() => {
+                          router.push('/works');
+                          setTimeout(() => closeOverlay(), 50);
+                        }}
+                      >
+                        E-COMMERCE DEVELOPMENT
+                      </Typography>
+                    </Box>
                     {Work.map((item, i) => (
                       <Link
                         key={i}
@@ -445,7 +484,6 @@ export default function Header(props) {
                   </Box>
                 </Box>
 
-                {/* ================= FOOTER ================= */}
                 <Box
                   sx={{
                     borderTop: "1px solid #ddd",
@@ -457,10 +495,8 @@ export default function Header(props) {
                     gap: 6,
                   }}
                 >
-                  {/* LEFT LOGO */}
                   <Box>
                     <img
-                      // src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1757406731/webdads2u/logo.svg"
                       src='https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197314/webdads2u/webdads2u-christmas-logo.png'
                       height="55"
                     />
@@ -479,7 +515,6 @@ export default function Header(props) {
                     </Typography>
                   </Box>
 
-                  {/* SOCIAL ICONS */}
                   <Box>
                     <Typography sx={{ fontWeight: 700, mb: 1 }}>FOLLOW US</Typography>
                     <Box sx={{ display: 'flex', gap: 1.5, mt: { xs: 2, sm: 0 } }}>

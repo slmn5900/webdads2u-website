@@ -5,7 +5,6 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import '../style/Herosection.css';
 import { FaStar } from "react-icons/fa";
 import { quirckServiceForm } from '../api/UserAuthentication';
-
 import Snowfall from 'react-snowfall';
 
 const Herosection = () => {
@@ -42,7 +41,7 @@ const Herosection = () => {
   const datas = [
     { label: 'Successful Projects', end: 200 },
     { label: 'Sales Closed', end: 300 },
-    { label: 'Years Experience', end: 10 },
+    { label: 'Years Experience', end: 12 },
   ];
 
   const [counter, setCounter] = useState(datas.map(() => 0));
@@ -91,10 +90,7 @@ const Herosection = () => {
     }
   };
 
-  // Load particles engine
-  // const particlesInit = async (engine) => {
-  //   await loadFull(engine);
-  // };
+
 
   return (
     <>

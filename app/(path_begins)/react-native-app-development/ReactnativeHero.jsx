@@ -208,7 +208,7 @@ function ReactnativeHero() {
                 <Container>
                     <Row>
                         <div className="text-center">
-                            <Box Component={'h3'} sx={{ fontSize: { xs: 20, md: 28 }, fontFamily: 'Poppins', color: 'white' }}>
+                            <Box component={'h3'} sx={{ fontSize: { xs: 20, md: 28 }, fontFamily: 'Poppins', color: 'white' }}>
                                 Looking for Custom Web Application Development?
                             </Box>
                             <p>Send us your requirements. We will get back to you with a free quote.</p>

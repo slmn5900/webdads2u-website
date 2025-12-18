@@ -15,8 +15,8 @@
     color: '#555555';
 }
 
-.yellow-star {
-    color: #555555;
+.yellow-star{
+  color: #FFA500;
 }
 
 .twinkle-star1,
@@ -211,10 +211,10 @@
 }
 
 .Herosection-body h6 {
-    color: #262250;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    font-size: 21px;
+  color: #262250;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  font-size: 21px;
 }
 
 /* .counter-section{

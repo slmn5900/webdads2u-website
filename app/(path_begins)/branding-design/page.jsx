@@ -1,12 +1,8 @@
-
-
-import React from 'react';
-
 import BrandingMain from './BrandingMain';
 
 export const metadata = {
-    title: 'Branding Design Services In Chennai',
-    description: 'Elevate your brand with our creative design solutions! As the leading branding company in Chennai, we craft unique identities that resonate and captivate.',
+    title: 'Creative Branding & Graphic Design Agency in Chennai | WebDads2u',
+    description: 'WebDads2U, your creative branding agency in Chennai, crafts thoughtful visuals and impactful marketing collaterals such as logo design, Brochure design & more. ',
     keyword: 'branding design services in chennai,branding design services,best logo design company,brand design,professional logo design,company logo design'
 };
 const page = () => {

@@ -12,7 +12,6 @@ const LoadMoreImage = () => {
         <Box sx={{ mt: 3, px: { xs: 0, md: 7 }, pb: 2 }}>
             <Container>
                 <Grid2 container spacing={4} alignItems="center">
-                    {/* Left Side */}
                     <Grid2 size={{ xs: 12, md: 6 }}>
                         <Box sx={{ mt: { xs: 0, sm: 5 } }}>
                             <Typography variant="h6" fontWeight="bold" sx={{ fontFamily: 'Poppins' }}>

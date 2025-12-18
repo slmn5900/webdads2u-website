@@ -1,15 +1,12 @@
-import React from 'react';
 import WebDesign from './WebDesign';
 export const metadata = {
-    title: 'Website Design Company In Chennai ',
-    description: 'Professional website design company in chennai offers custom web development, seo services, and e-commerce solutions to enhance your online presence',
+    title: 'Web Design Company in Chennai | Creative Website Designers',
+    description: 'Build your future-proof, SEO-optimized and mobile friendly website with the best web designers in chennai at Webdads2u. Let’s Design your dream website today !',
     keyword: 'website design company in chennai ,website design company,web design company in chennai,web designing company in chennai,website design company in chennai,website company in chennai,top web design company in chennai'
 };
 const page = () => {
     return (
-        <>
-            <WebDesign />
-        </>
+        <WebDesign />
     );
 };
 

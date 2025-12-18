@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { Grid2, Container, Box, Button } from '@mui/material';
@@ -29,22 +28,9 @@ export default function Loader() {
                                     whileHover={{ scale: 1.05 }}
                                     transition={{ duration: 0.3, delay: index * 0.02 }}
                                     style={{
-                                        // boxShadow: '0 15px 55px rgb(138 138 138 / 30%)',
                                         borderRadius: 8
-                                        // padding: 4,
                                     }}
                                 >
-                                    {/* <Box
-                    component="img"
-                    src={item.url}
-                    alt={item.name}
-
-                    sx={{
-                      width: { xs: "133px", md: 180 }, height: { xs: 100, md: 150 },
-                      borderRadius: '8px',
-                    }}
-
-                  /> */}
                                     <Box
                                         sx={{
                                             boxShadow: '0 15px 55px rgb(138 138 138 / 30%)',

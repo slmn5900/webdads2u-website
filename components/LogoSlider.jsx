@@ -8,12 +8,10 @@ const LogoSlider = () => {
   const sliderRef = useRef(null);
   const [mounted, setMounted] = useState(false);
 
-  // ✅ Ensure client-only render
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  // ✅ Start animation ONLY after mount
   useEffect(() => {
     if (!mounted) return;
 
@@ -46,7 +44,6 @@ const LogoSlider = () => {
     };
   }, [mounted]);
 
-  // ❗ Prevent SSR hydration mismatch
   if (!mounted) return null;
 
   const mergedLogos = [...Logos, ...Logos];

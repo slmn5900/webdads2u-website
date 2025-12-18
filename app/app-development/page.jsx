@@ -2,8 +2,8 @@ import React from 'react';
 import AppDevelopment from './AppDevelopment.jsx';
 
 export const metadata = {
-    title: 'Web Development Company | Webdads2u',
-    description: 'Looking for a professional web development company? We build fast, responsive, SEO-friendly websites tailored to your business needs. Get a free quote today',
+    title: 'Mobile & Web App Development Company in Chennai | WebDads2u',
+    description: 'Get Flutter & React Native apps for Android & iOS with engaging, user-friendly mobile app design from WebDads2U, your custom mobile & web app company in Chennai.',
     keywords: 'app development company,mobile app development company,custom app development,android app development services,ios app development company'
 };
 

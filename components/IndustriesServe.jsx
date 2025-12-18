@@ -186,6 +186,8 @@ const IndustriesServe = () => {
           </Slider>
         </div>
       </Container>
+
+      
       <div style={{ background: "#F9F9F9", width: "100%" }} className='video-section-cont'>
         <Container fluid>
           <Row className="videosection-industriesSeries text-center">

@@ -1,11 +1,12 @@
-import React from 'react';
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
+
 export const metadata = {
-    title: 'Best Ecommerce Website Development Company In Chennai',
-    description: 'Boost your online store performance with our ecommerce website development expertise. Creating customized solutions for seamless shopping experiences.',
+    title: 'E-Commerce website development & design company in chennai',
+    description: 'WebDads2U, an ecommerce web design & development agency in Chennai, crafts custom eCommerce websites that are fast, secure, sales-driven and built to boost your sales',
     keyword:
         'best ecommerce website development company in chennai,best ecommerce website development company,ecommerce website development,ecommerce website development company in chennai, ecommerce website development cost in chennai, ecommerce web development service in chennai, ecommerce website development companies in chennai'
 };
+
 const page = () => {
     const images = [
         { alt: 'sunkissed e commerce', name: 'sunkissed e commerce', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1757591219/webdads2u/e-commerce/sunkissed-e-commerce.png' },

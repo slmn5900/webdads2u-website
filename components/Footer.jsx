@@ -94,7 +94,7 @@ const socialIcons = [
   { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105556/webdads2u/mainpage/icons/ri-facebook-fill.png', link: 'https://www.facebook.com/Webdads2u' },
   { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105553/webdads2u/mainpage/icons/ri-instagram-fill.png', link: 'https://www.instagram.com/webdads2u/' },
   { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105550/webdads2u/mainpage/icons/mdi-youtube.png', link: 'https://www.youtube.com/webdads2u' },
-  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105546/webdads2u/mainpage/icons/prime-twitter.png', link: 'https://www.facebook.com/Webdads2u' },
+  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105546/webdads2u/mainpage/icons/prime-twitter.png', link: 'https://x.com/webdads2u/' },
   { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105542/webdads2u/mainpage/icons/tabler-world.png', link: 'https://www.webdads2u.com/' },
 ];
 
