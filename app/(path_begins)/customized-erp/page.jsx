@@ -1,6 +1,8 @@
-import React from 'react';
 import CustomizedErp from './CustomizedErp';
 export const metadata = {
+    alternates: {
+        canonical: 'https://webdads2u.com/customized-erp'
+    },
     title: 'ERP Software Development Company In Chennai',
     description: 'Do you require erp and custom software solutions from chennai? Our company offers the top erp software development company in chennai .',
     keyword:

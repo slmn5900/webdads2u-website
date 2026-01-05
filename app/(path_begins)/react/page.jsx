@@ -1,8 +1,10 @@
-import React from 'react';
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
 export const metadata = {
-    title: 'React JS Development Company Chennai',
-    description: 'Top-rated react js development company delivering cutting-edge web solutions. From dynamic interfaces to scalable apps.',
+    alternates: {
+        canonical: 'https://webdads2u.com/react'
+    },
+    title: 'React js Development Company in Chennai | React js Consultants',
+    description: 'Boost your digital presence with WebDads2U, leading React JS development services in Chennai for high performing, interactive & dynamic web solutions.',
     keyword: 'react js development company chennai,react js development company,react js development,react js development company in chennai,react js developers in chennai,react js development services in chennai'
 };
 const page = () => {
@@ -18,9 +20,7 @@ const page = () => {
         paragraph2: 'Built a real-time chat application for a startup, enabling seamless communication among users with advanced features.'
     };
     return (
-        <>
             <LoadMoreImageContainer images={images} heading1={datas.heading1} paragraph1={datas.paragraph1} heading2={datas.heading2} paragraph2={datas.paragraph2} />
-        </>
     );
 };
 

@@ -101,7 +101,7 @@ export default function Header(props) {
           <Toolbar sx={{ justifyContent: 'space-between' }}>
             <Box component={Link} href="/" sx={{ display: 'flex', alignItems: 'center' }}>
               <img
-                src='https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197314/webdads2u/webdads2u-christmas-logo.png'
+                src='https://assets.webdads2u.com/images/webdads2ulogo.png'
                 alt="Logo"
                 height="40"
               />

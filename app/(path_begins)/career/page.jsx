@@ -1,7 +1,8 @@
-
-import React from 'react';
 import CareerHero from './CareerHero';
 export const metadata = {
+    alternates: {
+        canonical: 'https://www.webdads2u.com/career'
+    },
     title: 'Best Web Design And Development Company In Chennai',
     description: 'Unlock your dream career - webdads2u provides expert guidance and resources for your professional growth. Start your journey today.',
     keyword:
@@ -9,11 +10,7 @@ export const metadata = {
 };
 
 const page = () => {
-    return (
-        <>
-            <CareerHero />
-        </>
-    );
+    return <CareerHero />;
 };
 
 export default page;

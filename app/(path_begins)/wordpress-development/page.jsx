@@ -2,6 +2,9 @@ import React from 'react';
 import WordpressMain from './WordpressMain';
 
 export const metadata = {
+    alternates: {
+        canonical: 'https://webdads2u.com/wordpress-development'
+    },
     title: 'WordPress Development Company In Chennai',
     description: "Chennai's Webdads is a reputable WordPress development company that provides complete solutions that fit your specific business needs.",
     keyword:

@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import './terms.scss';
 export const metadata = {
+      alternates: {
+        canonical: 'https://webdads2u.com/terms-and-conditions'
+    },
     title: 'Terms And Conditions - WEBDADS2U',
     description: 'Understand our policies with ease - explore our detailed terms and conditions. Stay informed and make the most of your experience with us.',
     keyword: 'terms and conditions - webdads2u'

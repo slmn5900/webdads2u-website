@@ -2,6 +2,9 @@ import React from 'react';
 import Woocommerce from './Woocommerce';
 
 export const metadata = {
+      alternates: {
+        canonical: 'https://webdads2u.com/woo-commerce'
+    },
     title: 'Best WooCommerce Development Company In Chennai',
     description: 'Webdads is a Professional Woocommerce Development Company in Chennai. Our Services are WordPress, Website, and E-Commerce Website Development.',
     keyword:

@@ -1,7 +1,9 @@
-import React from 'react';
 import RresponsiveMain from './RresponsiveMain';
 
 export const metadata = {
+    alternates: {
+        canonical: 'https://webdads2u.com/responsive-website'
+    },
     title: 'Responsive Web Design Company Chennai',
     description: 'Webdads is a highly productive and responsive web design company based in Chennai. Boost your user experience and user interaction with us.',
     keyword:

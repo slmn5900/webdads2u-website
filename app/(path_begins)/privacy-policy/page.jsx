@@ -1,8 +1,9 @@
-
-import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import './privacy.scss';
 export const metadata = {
+    alternates: {
+        canonical: 'https://webdads2u.com/privacy-policy'
+    },
     title: 'Privacy Policy - WEBDADS2U PRIVATE LIMITED',
     description: 'Your privacy is super important to us! Webdads2u is committed to protecting your privacy and providing you with a safe and secure online experience. This',
     keyword: 'privacy policy - webdads2u private limited'
@@ -13,7 +14,7 @@ const page = () => {
             <section className="pt-5 pb-5">
                 <Container>
                     <Row>
-                        <div >
+                        <div>
                             <h1 style={{ textAlign: 'center' }}>Privacy Policy</h1>
                             <p>
                                 Your privacy is super important to us! Webdads2u is committed to protecting your privacy and providing you with a safe and secure online experience. This Privacy Policy applies to Webdads2u.com, as well as any other

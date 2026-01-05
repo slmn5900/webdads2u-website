@@ -1,6 +1,8 @@
-import React from 'react';
 import ContenetWriting from './ContenetWriting';
 export const metadata = {
+    alternates: {
+        canonical: 'https://www.webdads2u.com/content-writing-service'
+    },
     title: 'Best Content Writing Services In Chennai ',
     description: 'Webdads provide best content writing services in chennai. One of the most important ways to attract business clients is through content writing.',
     keyword:

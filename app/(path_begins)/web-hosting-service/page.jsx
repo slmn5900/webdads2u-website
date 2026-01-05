@@ -2,8 +2,11 @@ import React from 'react';
 import WebMain from './WeMain';
 
 export const metadata = {
-    title: 'Best Web Hosting Company In Chennai ',
-    description: 'Discover seamless web hosting solutions with unparalleled performance and reliability, tailored to suit your needs, all at your fingertips.',
+    alternates: {
+        canonical: 'https://webdads2u.com/web-hosting-service'
+    },
+    title: 'web hosting & domain registration services in chennai ',
+    description: 'Webdads2u is the best web hosting and domain registration services in Chennai, delivers Safe, Secure with 99.9 % of upgrade guarantee. Own your dream domain now !',
     keyword: 'best web hosting company in chennai,best web hosting service,web hosting company in chennai, web hosting provider at chennai, web hosting at chennai, website hosting at chennai'
 };
 

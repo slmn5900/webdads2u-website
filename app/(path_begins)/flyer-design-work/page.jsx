@@ -1,6 +1,8 @@
-import React from 'react';
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
 export const metadata = {
+    alternates: {
+        canonical: 'https://webdads2u.com/flyer-design-work'
+    },
     title: 'Flyers Designing Services In Chennai',
     description: 'Webdads2u is one of the few digital media firms offering flyers designing services in chennai. We thus help in all aspects of branding right from online to offline branding.',
     keyword: 'flyers designing services in chennai,flyers designing services,flyer design company, flyers maker, flyer design company in chennai, flyer for business, professional flyer design, business flyer design, flyer design, digital flyer'
@@ -22,10 +24,6 @@ const page = () => {
         paragraph2: 'Fly high with our eye-catching flyer designs. Your message, beautifully delivered.'
     };
 
-    return (
-        <>
-            <LoadMoreImageContainer images={images} heading1={datas.heading1} paragraph1={datas.paragraph1} heading2={datas.heading2} paragraph2={datas.paragraph2} />
-        </>
-    );
+    return <LoadMoreImageContainer images={images} heading1={datas.heading1} paragraph1={datas.paragraph1} heading2={datas.heading2} paragraph2={datas.paragraph2} />;
 };
 export default page;

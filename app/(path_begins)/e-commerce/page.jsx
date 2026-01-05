@@ -1,6 +1,9 @@
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
 
 export const metadata = {
+    alternates: {
+        canonical: 'https://webdads2u.com/e-commerce'
+    },
     title: 'E-Commerce website development & design company in chennai',
     description: 'WebDads2U, an ecommerce web design & development agency in Chennai, crafts custom eCommerce websites that are fast, secure, sales-driven and built to boost your sales',
     keyword:

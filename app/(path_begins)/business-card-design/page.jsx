@@ -1,5 +1,7 @@
-import React from 'react';
 export const metadata = {
+    alternates: {
+        canonical: 'https://www.webdads2u.com/business-card-design'
+    },
     title: 'Business Card Designing Company In Chennai | Visiting Cards',
     description: 'Stand out from the crowd with stunning business card design. Impress clients and leave a lasting impression. Contact us for custom designs today!',
     keyword:
@@ -7,11 +9,7 @@ export const metadata = {
 };
 import BrochureCard from './BrochureCard';
 const page = () => {
-    return (
-        <>
-            <BrochureCard />
-        </>
-    );
+    return <BrochureCard />;
 };
 
 export default page;

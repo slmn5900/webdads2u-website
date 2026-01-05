@@ -1,7 +1,9 @@
-import React from 'react';
 import HtmlMain from './HtmlMain';
 
 export const metadata = {
+    alternates: {
+        canonical: 'https://webdads2u.com/html5'
+    },
     title: 'Html5 Web Development Company In Chennai ',
     description: 'Get top-notch html5 web development services for your project. Our team ensures modern, responsive, and feature-rich websites to boost your online presence.',
     keyword:

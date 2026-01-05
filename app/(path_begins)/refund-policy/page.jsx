@@ -1,9 +1,13 @@
 
-import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import './return.scss';
 
 export const metadata = {
+    alternates: {
+        canonical: 'https://webdads2u.com/refund-policy'
+    },
+    title: 'React js Development Company in Chennai | React js Consultants',
+    description: 'Boost your digital presence with WebDads2U, leading React JS development services in Chennai for high performing, interactive & dynamic web solutions.',
     title: 'REFUND POLICY - WEBDADS2U PRIVATE LIMITED',
     description: 'If you haven’t received a refund yet, first check your bank account again.Then contact your credit card company, it may take some time before your refund is',
     keyword: 'refund policy - webdads2u private limited'
@@ -14,7 +18,7 @@ const page = () => {
             <section className="pt-5 pb-5">
                 <Container>
                     <Row>
-                        <div >
+                        <div>
                             <h2 style={{ textAlign: 'center' }}>REFUND POLICY</h2>
                             <h3>Return</h3>
                             <p>Our policy lasts 6 days. If 6 days have gone from the date of service availed, unfortunately, we can’t offer you a refund or exchange.</p>

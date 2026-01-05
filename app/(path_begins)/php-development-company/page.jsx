@@ -1,6 +1,8 @@
-import React from 'react';
 import LoadMoreImageContainer from '../../../components/common/LoadMoreImageContainer';
 export const metadata = {
+    alternates: {
+        canonical: 'https://webdads2u.com/php-development-company'
+    },
     title: 'PHP Development Company In Chennai',
     description: 'A php development company with a reputation for custom solutions. We offer php development that is reliable and scalable, from web apps to robust websites.',
     keyword:
