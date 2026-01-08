@@ -39,7 +39,7 @@
 }
 
 .logo-slider img {
-  width: 100px;
+  width: 200px;
   height: auto;
   opacity: 0.9;
   transition: transform 0.3s ease, opacity 0.3s ease;

@@ -14,12 +14,12 @@ const TabSection = () => {
   const allImages = {
 
     "Website": [
-    { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763203491/webdads2u/mainpage/selli.png', link: 'https://www.sellibuy.in/' },
-    { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763203489/webdads2u/mainpage/ccc.png', link: 'https://chakaravarthycatering.com/' },
-    { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763203488/webdads2u/mainpage/svm.png', link: 'https://svmschools.com/' },
-    { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763203488/webdads2u/mainpage/arcmen.png', link: 'https://www.arcmeninterior.com/' },
-    { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763203488/webdads2u/mainpage/ambika.png', link: 'https://www.ambikastores.com/' },
-    { src: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763203487/webdads2u/mainpage/mathioli.png', link: 'https://www.mathioligita.com/?srsltid=AfmBOooTVSRQ8r1mCO06lRbDd-Tqlg9FuqnkVfNZrsY8NRPk1HNv3UwT' },
+    { src: 'https://assets.webdads2u.com/images/Selli.png', link: 'https://www.sellibuy.in/' },
+    { src: 'https://assets.webdads2u.com/images/CCC.png', link: 'https://chakaravarthycatering.com/' },
+    { src: 'https://assets.webdads2u.com/images/SVM.png', link: 'https://svmschools.com/' },
+    { src: 'https://assets.webdads2u.com/images/Arcman.png', link: 'https://www.arcmeninterior.com/' },
+    { src: 'https://assets.webdads2u.com/images/Ambika.png', link: 'https://www.ambikastores.com/' },
+    { src: 'https://assets.webdads2u.com/images/Mathiyoli.png', link: 'https://www.mathioligita.com/?srsltid=AfmBOooTVSRQ8r1mCO06lRbDd-Tqlg9FuqnkVfNZrsY8NRPk1HNv3UwT' },
   ],
     "Letter Head": [
     { src: '/webdads/images/home/tabs/nivas-portfolio-letterhead_114718981website01.jpg', link: '/portfolio/selli' },

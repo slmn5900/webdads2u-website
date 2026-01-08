@@ -271,7 +271,7 @@ const Footer = () => {
                             fontFamily: "Roboto",
                         }}
                     >
-                        © 2025 by WEBDADS2U PVT LTD.
+                        © 2026 by WEBDADS2U PVT LTD.
                     </Typography>
                 </Grid2>
 

@@ -93,6 +93,11 @@
   border-radius: 0 !important;
 }
 
+.latest-blog-wrapper .slick-slide {
+  padding: 0 18px; 
+}
+
+
 .learn-more-link{
     transition: all 0.5s ease;
 }
@@ -120,6 +125,10 @@
         font-size: 32px;
         padding: 3px;
        
+    }
+
+    .latest-blog-wrapper .slick-slide {
+        padding: 0; 
     }
 
     .mobile-copyrights{

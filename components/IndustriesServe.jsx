@@ -3,6 +3,8 @@ import React, { useRef, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import '../style/IndustriesServe.css';
+import Image from 'next/image';
+
 import Slider from "react-slick";
 import { FaPlay, FaPause, } from "react-icons/fa";
 import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
@@ -12,35 +14,35 @@ import "slick-carousel/slick/slick-theme.css";
 
 const IndustriesServe = () => {
   const Industries = [
-    { name: "IT / Software", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202976/webdads2u/mainpage/icons/mouseicons.png" },
-    { name: "E-commerce", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202975/webdads2u/mainpage/icons/bagicons.png" },
-    { name: "Telecom", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202951/webdads2u/mainpage/icons/mobileicons.png" },
-    { name: "Real Estate", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202935/webdads2u/mainpage/icons/homeicons.png" },
-    { name: "Engineering", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202935/webdads2u/mainpage/icons/icons5.png" },
-    { name: "Travels", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202935/webdads2u/mainpage/icons/travelicons.png" },
-    { name: "Healthcare", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202934/webdads2u/mainpage/icons/loveicons.png" },
-    { name: "Food & Restaurant", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202916/webdads2u/mainpage/icons/cookicons.png" },
-    { name: "Logistics", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202915/webdads2u/mainpage/icons/icons4.png" },
-    { name: "Finance", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202915/webdads2u/mainpage/icons/money-icons.png" },
-    { name: "Auto Mobile", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202910/webdads2u/mainpage/icons/icons2.png" },
-    { name: "Media / Cinema", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202910/webdads2u/mainpage/icons/icon1.png" },
-    { name: "Ad Agency", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202910/webdads2u/mainpage/icons/medicalicons.png" },
-    { name: "Hospitality", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202911/webdads2u/mainpage/icons/icons3.png" },
-    { name: "Architech & Interior", img: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202909/webdads2u/mainpage/icons/medical-icons.png" },
+    { name: "IT / Software", img: "https://assets.webdads2u.com/images/mouseicons.webp"},
+    { name: "E-commerce", img: "https://assets.webdads2u.com/images/bagicons.webp" },
+    { name: "Telecom", img: "https://assets.webdads2u.com/images/mobileicons.webp" },
+    { name: "Real Estate", img: "https://assets.webdads2u.com/images/homeicons.webp" },
+    { name: "Engineering", img: "https://assets.webdads2u.com/images/icons5.webp" },
+    { name: "Travels", img: "https://assets.webdads2u.com/images/travelicons.webp" },
+    { name: "Healthcare", img: "https://assets.webdads2u.com/images/loveicons.webp" },
+    { name: "Food & Restaurant", img: "https://assets.webdads2u.com/images/cookicons.webp" },
+    { name: "Logistics", img: "https://assets.webdads2u.com/images/logistic.png" },
+    { name: "Finance", img: "https://assets.webdads2u.com/images/money-icons.webp" },
+    { name: "Auto Mobile", img: "https://assets.webdads2u.com/images/automobile.webp" },
+    { name: "Media / Cinema", img: "https://assets.webdads2u.com/images/mediacinema.webp" },
+    { name: "Ad Agency", img: "https://assets.webdads2u.com/images/ads%20agnecy.webp" },
+    { name: "Hospitality", img: "https://assets.webdads2u.com/images/hospital.webp" },
+    { name: "Architech & Interior", img: "https://assets.webdads2u.com/images/interior.webp" },
 
   ];
 
   const IndustriesVideo = [
     {
-      video: "https://res.cloudinary.com/dbpv95wd8/video/upload/v1763103907/webdads2u/chakaravarthy-catering-client-testimonial.mp4", // ✅ use embed link
+      video: "https://assets.webdads2u.com/images/chakaravarthy_catering_client_testimonial.mp4", 
       name: "Chakaravarthy Catering",
     },
     {
-      video: "https://res.cloudinary.com/dbpv95wd8/video/upload/v1763103916/webdads2u/yegovah-catering-client-testimonial.mp4",
+      video: "https://assets.webdads2u.com/images/yegovah_telecommunication_client_testimonial.mp4",
       name: "Yegovah Telecommunications",
     },
     {
-      video: "https://res.cloudinary.com/dbpv95wd8/video/upload/v1763104747/webdads2u/espresso-coffee-shop-catering-client-testimonial.mp4",
+      video: "https://assets.webdads2u.com/images/espresso_client_testimonial.mp4",
       name: "Espresso Bar",
 
     },

@@ -95,11 +95,11 @@ const Herosection = () => {
   return (
     <>
       <section className="hero">
-        <Snowfall
+        {/* <Snowfall
           count={500}
           speed={[0.5, 2]}
           radius={[1, 5]}
-        />
+        /> */}
 
         <div className="dots">
           {[...Array(5)].map((_, i) => <div key={i} className="dot"></div>)}
@@ -125,11 +125,11 @@ const Herosection = () => {
               </div>
             ))}
             <div className='d-flex align-items-baseline gap-1'>
-              <FaStar className='text-yellow-400 twinkle-star1' />
-              <FaStar className='text-yellow-400 twinkle-star2' />
-              <FaStar className='text-yellow-400 twinkle-star3' />
-              <FaStar className='text-yellow-400 twinkle-star4' />
-              <FaStar className='text-yellow-400 twinkle-star5' />
+              <FaStar className='text-yellow-400 twinkle-star1 yellow-star' />
+              <FaStar className='text-yellow-400 twinkle-star2 yellow-star' />
+              <FaStar className='text-yellow-400 twinkle-star3 yellow-star' />
+              <FaStar className='text-yellow-400 twinkle-star4 yellow-star' />
+              <FaStar className='text-yellow-400 twinkle-star5 yellow-star' />
               <h6 className='header-counter-sec google-rating ps-3'>Google Rating</h6>
             </div>
           </div>
@@ -150,6 +150,7 @@ const Herosection = () => {
             Get a Quotes
           </button>
         </div>
+        
       </section>
 
       {showPopup && (

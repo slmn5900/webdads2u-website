@@ -14,7 +14,7 @@ chennai, India, specializing in custom, secure, and high-performance
 WordPress websites. Our expert team excels in theme customization, plugin 
 development, and tailored WordPress solutions that align with each client’s 
 unique goals and industry standards.`,
-            image: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105948/webdads2u/mainpage/mock-design.png"
+            image: "https://assets.webdads2u.com/images/mock-design.webp"
         },
 
         { 
@@ -22,7 +22,7 @@ unique goals and industry standards.`,
             desc: `Webdads2u Pvt. Ltd., a top web design and development company in Chennai, 
             specializes in custom PHP websites, delivering high-performance, reliable, and 
             client-focused solutions.`,
-            image: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105944/webdads2u/mainpage/ecr-holidays.png"
+            image: "https://assets.webdads2u.com/images/ecr-holidays.webp"
         },
 
         { 
@@ -31,7 +31,7 @@ unique goals and industry standards.`,
             fast, scalable, and high-performance web applications. We build SPAs, dashboards, and 
             custom React solutions with reusable components, smooth navigation, and optimized 
             performance.`,
-            image: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105946/webdads2u/mainpage/best-india-kart.png"
+            image: "https://assets.webdads2u.com/images/best-india-kart.webp"
         },
     ];
 

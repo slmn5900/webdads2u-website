@@ -19,14 +19,14 @@ import { usePathname, useRouter } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
 import '../style/Herosection.css';
 
-import Snowfall from 'react-snowfall';
+// import Snowfall from 'react-snowfall';
 
 const socialIcons = [
-  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105556/webdads2u/mainpage/icons/ri-facebook-fill.png', link: 'https://www.facebook.com/Webdads2u' },
-  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105553/webdads2u/mainpage/icons/ri-instagram-fill.png', link: 'https://www.instagram.com/webdads2u/' },
-  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105550/webdads2u/mainpage/icons/mdi-youtube.png', link: 'https://www.youtube.com/webdads2u' },
-  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105546/webdads2u/mainpage/icons/prime-twitter.png', link: 'https://www.facebook.com/Webdads2u' },
-  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105542/webdads2u/mainpage/icons/tabler-world.png', link: 'https://www.webdads2u.com/' },
+  { icon: 'https://assets.webdads2u.com/images/facebookicons.webp', link: 'https://www.facebook.com/Webdads2u' },
+  { icon: 'https://assets.webdads2u.com/images/ri-instagram-fill.webp', link: 'https://www.instagram.com/webdads2u/' },
+  { icon: 'https://assets.webdads2u.com/images/mdi-youtube.webp', link: 'https://www.youtube.com/webdads2u' },
+  { icon: 'https://assets.webdads2u.com/images/prime-twitter.webp', link: 'https://www.facebook.com/Webdads2u' },
+  { icon: 'https://assets.webdads2u.com/images/tabler-world.webp', link: 'https://www.webdads2u.com/' },
 ];
 
 
@@ -191,16 +191,16 @@ export default function Header(props) {
               }}
             >
 
-              <Snowfall
+              {/* <Snowfall
                 count={200}
                 speed={[0.5, 2]}
                 radius={[1, 5]}
-              />
+              /> */}
 
               <Box
                 sx={{
                   width: "100%",
-                  backgroundColor: "#1e1e1e",
+                  backgroundColor: "#ffffff",
                   py: 2.5,
                   px: { xs: 3, md: 8 },
                   display: "flex",
@@ -210,14 +210,14 @@ export default function Header(props) {
               >
                 <Box component={Link} href="/" onClick={closeOverlay}>
                   <img
-                    src="https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197314/webdads2u/webdads2u-christmas-logo.png"
+                    src="https://assets.webdads2u.com/images/webdads2ulogo.png"
                     alt="Logo"
                     height="50"
                     style={{ objectFit: "contain" }}
                   />
                 </Box>
 
-                <IconButton onClick={closeOverlay} sx={{ color: "#fff" }}>
+                <IconButton onClick={closeOverlay} sx={{ color: "#000000" }}>
                   <CloseIcon sx={{ fontSize: 32 }} />
                 </IconButton>
               </Box>
@@ -460,7 +460,7 @@ export default function Header(props) {
                           router.push('/works');
                           setTimeout(() => closeOverlay(), 50);
                         }}
-                      >                                                    Work DEVELOPMENT
+                      >                                                    WORK DEVELOPMENT
                       </Typography>
                     </Box>
                     {Work.map((item, i) => (
@@ -491,11 +491,11 @@ export default function Header(props) {
                 >
                   <Box>
                     <img
-                      src='https://res.cloudinary.com/dbpv95wd8/image/upload/v1765197314/webdads2u/webdads2u-christmas-logo.png'
+                      src='https://assets.webdads2u.com/images/webdads2ulogo.png'
                       height="55"
                     />
                     <Typography sx={{ fontSize: 12, color: "#666", mt: 1 }}>
-                      © 2025 WEBdADS2U PVT LTD.
+                      © 2026 WEBdADS2U PVT LTD.
                     </Typography>
                   </Box>
 

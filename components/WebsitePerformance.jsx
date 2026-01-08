@@ -6,16 +6,16 @@ import '../style/WebsitePerformance.css';
 // import Image from 'next/image';
 
 const webAnimationLeft =
-  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763202911/webdads2u/mainpage/icons/square.png";
+  "https://assets.webdads2u.com/images/square.webp";
 
 const webAnimationRight =
-  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105566/webdads2u/mainpage/icons/web-animation-right.png";
+  "https://assets.webdads2u.com/images/square.webp";
 
 const webIcon =
-  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105562/webdads2u/mainpage/icons/web-vector.png";
+  "https://assets.webdads2u.com/images/web-vector.webp";
 
 const webCheck =
-  "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105559/webdads2u/mainpage/icons/web-check.png";
+  "https://assets.webdads2u.com/images/web-check.webp";
 
 
 

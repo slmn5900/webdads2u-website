@@ -1,4 +1,5 @@
 'use client';
+
 import React from 'react';
 import {
   Box,
@@ -7,8 +8,11 @@ import {
   Typography,
   Link as MuiLink,
 } from '@mui/material';
-import { Inter } from "next/font/google";
+import Link from 'next/link';
+import { Inter } from 'next/font/google';
 import '../style/LatestBlog.css';
+// import { Link as MuiLink } from '@mui/material';
+
 // Footer data with links
 const leftLinks = [
   { name: 'Work', link: '/work/' },
@@ -28,6 +32,7 @@ const inter = Inter({
 const rightLinks = [
   {
     title: 'Website Development',
+    titleLink: '/website-development',
     items: [
       { name: 'Web Portal Development', link: '/web-portal-development/' },
       { name: 'WordPress Web Development', link: '/wordpress-development/' },
@@ -36,6 +41,7 @@ const rightLinks = [
       { name: 'Custom Web Development', link: '/custom-web-development/' },
     ],
     subTitle: 'Web Design',
+    subTitleLink: '/web-design',
     subItems: [
       { name: 'HTML5 Website Design', link: '/html5/' },
       { name: 'Domain Registration', link: '/domain-registration/' },
@@ -49,6 +55,7 @@ const rightLinks = [
   },
   {
     title: 'SEO Services',
+    titleLink: '/seo-company-in-chennai',
     items: [
       { name: 'Digital Marketing', link: '/digital-marketing-agency/' },
       { name: 'PPC Service', link: '/ppc-service/' },
@@ -59,6 +66,7 @@ const rightLinks = [
       { name: 'Content Writing Service', link: '/content-writing-service/' },
     ],
     subTitle: 'Branding Design',
+    subTitleLink: '/branding-design',
     subItems: [
       { name: 'Brochure Design', link: '/brochure-design/' },
       { name: 'Social Media Design', link: '/social-media-design/' },
@@ -69,6 +77,7 @@ const rightLinks = [
   },
   {
     title: 'Mobile App Development',
+    titleLink: '/mobile-app-development',
     items: [
       { name: 'iOS App Development', link: '/ios-app-development/' },
       { name: 'Android App Development', link: '/android-app-development/' },
@@ -77,11 +86,13 @@ const rightLinks = [
       { name: 'Mobile App UI/UX Design', link: '/mobile-app-ui-ux-design/' },
     ],
     subTitle: 'CRM & ERP Development',
+    subTitleLink: '/crm-erp-development',
     subItems: [
       { name: 'Customized CRM', link: '/customized-crm/' },
       { name: 'Customized ERP', link: '/customized-erp/' },
     ],
     subTitle2: 'E-Commerce Development',
+    subTitle2Link: '/ecommerce-website-development',
     subItems2: [
       { name: 'WooCommerce', link: '/woo-commerce' },
       { name: 'Opencart', link: '/opencart-development' },
@@ -91,11 +102,11 @@ const rightLinks = [
 ];
 
 const socialIcons = [
-  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105556/webdads2u/mainpage/icons/ri-facebook-fill.png', link: 'https://www.facebook.com/Webdads2u' },
-  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105553/webdads2u/mainpage/icons/ri-instagram-fill.png', link: 'https://www.instagram.com/webdads2u/' },
-  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105550/webdads2u/mainpage/icons/mdi-youtube.png', link: 'https://www.youtube.com/webdads2u' },
-  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105546/webdads2u/mainpage/icons/prime-twitter.png', link: 'https://x.com/webdads2u/' },
-  { icon: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1763105542/webdads2u/mainpage/icons/tabler-world.png', link: 'https://www.webdads2u.com/' },
+  { icon: 'https://assets.webdads2u.com/images/facebookicons.webp', link: 'https://www.facebook.com/Webdads2u' },
+  { icon: 'https://assets.webdads2u.com/images/ri-instagram-fill.webp', link: 'https://www.instagram.com/webdads2u/' },
+  { icon: 'https://assets.webdads2u.com/images/mdi-youtube.webp', link: 'https://www.youtube.com/webdads2u' },
+  { icon: 'https://assets.webdads2u.com/images/prime-twitter.webp', link: 'https://x.com/webdads2u/' },
+  { icon: 'https://assets.webdads2u.com/images/tabler-world.webp', link: 'https://www.webdads2u.com/' },
 ];
 
 const Footer = () => {
@@ -138,12 +149,16 @@ const Footer = () => {
             <Grid container spacing={4}>
               {rightLinks.map((section, index) => (
                 <Grid item xs={12} sm={6} md={4} key={index}>
-                  <Typography
-                    variant="subtitle1"
-                    sx={{ fontWeight: 600, mb: 1.5, color: '#fff' }}
+                  
+                    <MuiLink
+                    component={Link}
+                    href={section.titleLink}
+                    underline="none"
+                    sx={{ display: 'block', fontWeight: 600, mb: 1.5, color: '#fff' }}
                   >
                     {section.title}
-                  </Typography>
+                  </MuiLink>
+
 
                   {section.items.map((item, i) => (
                     <MuiLink
@@ -257,7 +272,7 @@ const Footer = () => {
           }}
         >
           <Typography sx={{ fontSize: '14px', color: '#999999' }} className='desktop-copyrights'>
-            © 2025 by WEBDADS2U PVT LTD.
+            © 2026 by WEBDADS2U PVT LTD.
           </Typography>
 
           <Box sx={{ display: 'flex', gap: 1.5, mt: { xs: 2, sm: 0 } }}>
@@ -287,7 +302,7 @@ const Footer = () => {
           </Box>
 
           <Typography sx={{ fontSize: '14px', color: '#999999' }} className='mobile-copyrights'>
-            © 2025 by WEBDADS2U PVT LTD.
+            © 2026 by WEBDADS2U PVT LTD.
           </Typography>
         </Box>
       </Container>

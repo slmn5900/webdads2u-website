@@ -1,14 +1,47 @@
 export const Logos = [
-  { url: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763446893/logo/logo1.png" },
-  { url: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763446892/logo/logo2.png" },
-  { url: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763446892/logo/logo3.png" },
-  { url: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763446893/logo/logo4.png" },
-  { url: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763446893/logo/logo5.png" },
-  { url: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763446892/logo/logo6.png" },
-  { url: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763446893/logo/logo7.png" },
-  { url: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763446892/logo/logo8.png" },
-  { url: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763446892/logo/logo9.png" },
-  { url: "https://res.cloudinary.com/dbpv95wd8/image/upload/v1763450001/logo/diamond-logo.png" }
+  { url: "https://assets.webdads2u.com/images/10cooltechservice-logodesign.jpg" },
+  { url: "https://assets.webdads2u.com/images/skillang-logodesign.jpg" },
+  { url: "https://assets.webdads2u.com/images/zenacademy-logodesign.jpg" },
+  { url: "https://assets.webdads2u.com/images/yegovah-logodesign.jpg" },
+  { url: "https://assets.webdads2u.com/images/thedreamkitchen-logodesign.jpg" },
+  { url: "https://assets.webdads2u.com/images/smartducklings-logodesign.jpg" },
+  { url: "https://assets.webdads2u.com/images/skp-logodesign.jpg" },
+  { url: "https://assets.webdads2u.com/images/moneytree-logodesign.jpg" },
+  { url: "https://assets.webdads2u.com/images/merla-logodesign.jpg" },
+  { url: "https://assets.webdads2u.com/images/12matchboxmansion-logodesign.jpg" },
+  { url: "https://assets.webdads2u.com/images/13traveltrend-logodesign.jpg" },
+  { url: "https://assets.webdads2u.com/images/14sranks-logodesign.jpg" },
+    { url: "https://assets.webdads2u.com/images/15rpsgroup-logodesign.jpg" },
+    { url: "https://assets.webdads2u.com/images/1spark-logodesign.jpg" },
+      { url: "https://assets.webdads2u.com/images/2iritube-logodesign.jpg" },
+      { url: "https://assets.webdads2u.com/images/3gkpolymers-logodesign.jpg" },
+      { url: "https://assets.webdads2u.com/images/4highlockfittings-logodesign.jpg" },
+        { url: "https://assets.webdads2u.com/images/5lalit-logodesign.jpg" },
+        { url: "https://assets.webdads2u.com/images/6pharma-logodesign.jpg" },
+            { url: "https://assets.webdads2u.com/images/7oilsep-logodesign.jpg" },
+          { url: "https://assets.webdads2u.com/images/8smart-logodesign.jpg" },
+            { url: "https://assets.webdads2u.com/images/9avatar-logodesign.jpg" },
+            { url: "https://assets.webdads2u.com/images/alphahealthcare-logodesign.jpg" },
+            { url: "https://assets.webdads2u.com/images/best-logodesign.jpg" },
+            { url: "https://assets.webdads2u.com/images/boopathi-logodesign.jpg" },
+            { url: "https://assets.webdads2u.com/images/imcilifesciences-logodesign.jpg" },
+            { url: "https://assets.webdads2u.com/images/arcmen-logodesign.jpg" },
+            { url: "https://assets.webdads2u.com/images/integra-logodesign.jpg" },
+    { url: "https://assets.webdads2u.com/images/imcilifesciences-logodesign.jpg" },
+
+        
+  
+
+
+
+      
+
+
+
+
+
+
+  // { url: "https://assets.webdads2u.com/images/11corengg-logodesign.jpg" }
     // { name: 'teamwater', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1758348751/webdads2u/mainpage/icons/team-water-logo.jpg' },
     // { name: 'pediatrics', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465148/logo/pediatrics.jpg' },
     // { name: 'high lock fitting', url: 'https://res.cloudinary.com/dbpv95wd8/image/upload/v1756465214/logo/highlock-fitting.jpg' },
